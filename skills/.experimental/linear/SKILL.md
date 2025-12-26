@@ -3,6 +3,7 @@ name: linear
 description: Manage issues, projects & team workflows in Linear. Use when the user wants to read, create or updates tickets in Linear.
 metadata:
   short-description: Manage Linear issues in Codex
+  description-zh: 在 Linear 中管理 issues、projects 与团队工作流。适用于用户需要读取、创建或更新 Linear 工单时。
 ---
 
 # Linear

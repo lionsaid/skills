@@ -1,0 +1,27 @@
+# Example config for postgres-connect.
+# Copy to ./env.yaml and adjust values.
+#
+# Never commit real secrets. Use *_env keys to reference environment variables.
+
+postgres-connect:
+  default: dev
+
+  datasources:
+    dev:
+      # For Postgres.app, prefer a Unix socket to avoid restricted TCP (localhost/127.0.0.1):
+      # host: /tmp
+      host: 127.0.0.1
+      port: 5432
+      dbname: app_dev
+      user: app_ro
+      password_env: PG_DEV_PASSWORD
+      # Plaintext password is supported but not recommended:
+      # password: "..."
+      sslmode: prefer
+      connect_timeout: 5
+
+    prod_ro:
+      url_env: DATABASE_URL_PROD_RO
+      # You can still override SSL/connect_timeout at the profile level even with url_env.
+      sslmode: require
+      connect_timeout: 5

@@ -3,6 +3,7 @@ name: notion-knowledge-capture
 description: Capture conversations and decisions into structured Notion pages; use when turning chats/notes into wiki entries, how-tos, decisions, or FAQs with proper linking.
 metadata:
   short-description: Capture conversations into structured Notion pages
+  description-zh: 将对话与决策整理成结构化的 Notion 页面；适用于把聊天/笔记转成可链接的 wiki 条目、how-to、决策记录或 FAQ。
 ---
 
 # Knowledge Capture

@@ -3,6 +3,7 @@ name: create-plan
 description: Create a concise plan. Use when a user explicitly asks for a plan related to a coding task.
 metadata:
   short-description: Create a plan
+  description-zh: 生成简明计划。用于用户明确要求针对编码任务给出计划时。
 ---
 
 # Create Plan

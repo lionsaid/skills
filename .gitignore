@@ -4,3 +4,11 @@
 # Python bytecode files
 __pycache__/
 *.pyc
+
+# postgres-connect local configs (do not commit secrets)
+skills/.curated/postgres-connect/env.yaml
+skills/.curated/postgres-connect/config.yaml
+skills/.curated/postgres-connect/*.local.yaml
+
+# local env config (project root)
+env.yaml

@@ -3,6 +3,7 @@ name: skill-creator
 description: Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Codex's capabilities with specialized knowledge, workflows, or tool integrations.
 metadata:
   short-description: Create or update a skill
+  description-zh: 创建高质量技能的指南。当用户想创建新技能（或更新已有技能）以通过专门知识、工作流或工具集成扩展 Codex 能力时使用。
 ---
 
 # Skill Creator
