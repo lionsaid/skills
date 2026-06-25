@@ -1,0 +1,131 @@
+[
+  {
+    "tag": "documents",
+    "sections": [
+      "official claude skills",
+      "skills by openai",
+      "skills by google workspace cli"
+    ],
+    "publishers": ["anthropics", "google-workspace-cli"],
+    "patterns": [
+      "docx",
+      "pdf",
+      "ppt",
+      "presentation",
+      "spreadsheet",
+      "xlsx",
+      "document"
+    ]
+  },
+  {
+    "tag": "design",
+    "sections": [
+      "official claude skills",
+      "skills by figma",
+      "skills by gsap-greensock"
+    ],
+    "publishers": ["anthropics", "figma", "gsap"],
+    "patterns": ["design", "frontend", "ui", "ux", "typography", "layout", "color"]
+  },
+  {
+    "tag": "testing",
+    "sections": ["skills by testmu-ai", "skills by addy-osmani-web-quality"],
+    "publishers": ["testdino-hq", "testmu-ai", "playwright", "lambdatest"],
+    "patterns": ["test", "testing", "playwright", "quality", "qa", "ci"]
+  },
+  {
+    "tag": "security",
+    "sections": ["security skills by trail-of-bits-team", "community skills"],
+    "publishers": ["trail-of-bits", "prompt-security", "behisec", "mukul975"],
+    "patterns": [
+      "security",
+      "vulnerability",
+      "pentest",
+      "threat",
+      "auth",
+      "dfir",
+      "malware"
+    ]
+  },
+  {
+    "tag": "data",
+    "sections": [
+      "skills by supabase team",
+      "skills by clickhouse",
+      "skills by duckdb",
+      "skills by mongodb"
+    ],
+    "publishers": [
+      "supabase",
+      "clickhouse",
+      "duckdb",
+      "mongodb",
+      "redis",
+      "neondatabase"
+    ],
+    "patterns": ["sql", "postgres", "database", "analytics", "query", "etl", "warehouse"]
+  },
+  {
+    "tag": "infra",
+    "sections": [
+      "skills by cloudflare team",
+      "skills by hashicorp team for terraform",
+      "skills by netlify team",
+      "skills by google cloud"
+    ],
+    "publishers": [
+      "cloudflare",
+      "hashicorp",
+      "netlify",
+      "google-cloud",
+      "vercel-labs",
+      "redhat"
+    ],
+    "patterns": [
+      "terraform",
+      "cloud",
+      "worker",
+      "deploy",
+      "devops",
+      "infrastructure",
+      "kubernetes"
+    ]
+  },
+  {
+    "tag": "ai",
+    "sections": [
+      "official claude skills",
+      "skills by google gemini",
+      "skills by openai",
+      "community skills"
+    ],
+    "publishers": ["anthropics", "google-gemini", "openai", "veniceai", "replicate"],
+    "patterns": ["llm", "agent", "prompt", "model", "rag", "embedding", "openai", "gemini"]
+  },
+  {
+    "tag": "media",
+    "sections": ["skills by remotion", "skills by replicate", "skills by venice.ai"],
+    "publishers": ["remotion-dev", "replicate", "veniceai", "video-db"],
+    "patterns": ["image", "video", "audio", "gif", "canvas", "art", "music"]
+  },
+  {
+    "tag": "mobile",
+    "sections": ["skills by flutter", "community skills"],
+    "publishers": ["flutter", "callstackincubator", "avdlee", "efremidze"],
+    "patterns": ["ios", "android", "react native", "swiftui", "flutter", "mobile"]
+  },
+  {
+    "tag": "productivity",
+    "sections": ["skills by notion", "skills by resend", "skills by typefully"],
+    "publishers": ["notion", "resend", "typefully", "slack", "github", "courier"],
+    "patterns": [
+      "workflow",
+      "automation",
+      "notion",
+      "email",
+      "slack",
+      "github",
+      "productivity"
+    ]
+  }
+]

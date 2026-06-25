@@ -1,0 +1,21 @@
+{
+  "name": "印记",
+  "short_name": "印记",
+  "description": "在线印章设计与生成平台",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f8fc",
+  "theme_color": "#c71f1f",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "design"],
+  "lang": "zh-CN",
+  "dir": "ltr"
+}
