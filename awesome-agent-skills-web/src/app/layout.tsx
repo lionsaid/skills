@@ -4,7 +4,11 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Awesome Agent Skills",
   description:
-    "Apple-inspired discovery experience for a large, curated directory of agent skills.",
+    "Search-first discovery experience for a curated directory of agent skills.",
+  metadataBase: new URL("https://skill.lionsaid.com"),
+  alternates: {
+    canonical: "https://skill.lionsaid.com",
+  },
   icons: {
     icon: "/favicon.png",
   },

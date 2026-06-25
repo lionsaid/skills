@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "generate:data": "node scripts/generate-skills-data.mjs",
+    "generate:repo-stats": "node scripts/generate-repo-stats.mjs",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
