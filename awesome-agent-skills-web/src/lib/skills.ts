@@ -11,6 +11,11 @@ export type Skill = {
   sectionSlug: string;
   kind: "official" | "community";
   tags: string[];
+  sourceId: string;
+  sourceIds: string[];
+  sourceType: "curated-readme" | "github-readme" | "official-site" | "marketplace" | "github-discovery";
+  trustLevel: "official" | "curated" | "untrusted";
+  riskFlags: string[];
 };
 
 export type PublisherSummary = {
@@ -27,6 +32,7 @@ export type RelatedSkill = {
 
 export type SkillSort = "featured" | "name" | "publisher";
 export type SkillFilterKind = Skill["kind"] | "all";
+export type SkillTrustFilter = Skill["trustLevel"] | "all";
 
 type SkillsPayload = {
   generatedAt: string;
@@ -37,6 +43,47 @@ type SkillsPayload = {
 const payload = skillsData as SkillsPayload;
 const allSkills = payload.skills;
 const hiddenRecommendationTags = new Set(["namespaced", "publisher-namespaced"]);
+const preferredPublisherOrder = [
+  "anthropics",
+  "openai",
+  "google-gemini",
+  "google-labs-code",
+  "googleworkspace",
+  "microsoft",
+  "cloudflare",
+  "stripe",
+  "vercel-labs",
+  "supabase",
+  "nvidia",
+  "netlify",
+  "firebase",
+  "hashicorp",
+  "coinbase",
+  "brave",
+  "expo",
+  "flutter",
+];
+const preferredPublisherRank = new Map(
+  preferredPublisherOrder.map((slug, index) => [slug, index]),
+);
+
+function getPublisherPriority(publisher: PublisherSummary) {
+  const preferredRank = preferredPublisherRank.get(publisher.slug);
+
+  if (preferredRank !== undefined) {
+    return 10_000 - preferredRank;
+  }
+
+  if (publisher.kind === "official") {
+    return 5_000;
+  }
+
+  if (publisher.count >= 8) {
+    return 1_000;
+  }
+
+  return 0;
+}
 
 function getRecommendationTags(skill: Skill) {
   return skill.tags.filter(
@@ -67,6 +114,40 @@ function formatRelatedReason(target: Skill, skill: Skill, sharedTags: string[]) 
 
 export function getAllSkills() {
   return allSkills;
+}
+
+export function isPriorityPublisher(slug: string) {
+  return preferredPublisherRank.has(slug);
+}
+
+export function getSourceTypeLabel(sourceType: Skill["sourceType"]) {
+  switch (sourceType) {
+    case "curated-readme":
+      return "Curated README";
+    case "github-readme":
+      return "GitHub README";
+    case "official-site":
+      return "Official site";
+    case "marketplace":
+      return "Marketplace";
+    case "github-discovery":
+      return "GitHub discovery";
+    default:
+      return sourceType;
+  }
+}
+
+export function getTrustLevelLabel(trustLevel: Skill["trustLevel"]) {
+  switch (trustLevel) {
+    case "official":
+      return "Official";
+    case "curated":
+      return "Curated";
+    case "untrusted":
+      return "Untrusted";
+    default:
+      return trustLevel;
+  }
 }
 
 export function getGeneratedAt() {
@@ -147,7 +228,18 @@ export function getPublishers(): PublisherSummary[] {
     });
   }
 
-  return [...map.values()].sort((a, b) => b.count - a.count);
+  return [...map.values()].sort((a, b) => {
+    const priorityDiff = getPublisherPriority(b) - getPublisherPriority(a);
+    if (priorityDiff !== 0) {
+      return priorityDiff;
+    }
+
+    if (b.count !== a.count) {
+      return b.count - a.count;
+    }
+
+    return a.name.localeCompare(b.name);
+  });
 }
 
 export function getPublisherBySlug(slug: string) {

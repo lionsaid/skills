@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { PublisherLogo } from "@/components/publisher-logo";
 import {
   useDeferredValue,
   useEffect,
@@ -14,6 +15,12 @@ import type {
   Skill,
   SkillFilterKind,
   SkillSort,
+  SkillTrustFilter,
+} from "@/lib/skills";
+import {
+  getSourceTypeLabel,
+  getTrustLevelLabel,
+  isPriorityPublisher,
 } from "@/lib/skills";
 
 const PAGE_SIZE = 36;
@@ -23,6 +30,9 @@ type SkillsCatalogProps = {
   initialPublisher: string;
   initialQuery: string;
   initialSort: SkillSort;
+  initialTrustFilter: SkillTrustFilter;
+  initialEnterpriseOnly: boolean;
+  initialExcludeMarketplace: boolean;
   publishers: PublisherSummary[];
   skills: Skill[];
 };
@@ -52,6 +62,34 @@ function sortSkills(skills: Skill[], sort: SkillSort) {
   }
 
   return sorted;
+}
+
+function getTrustTone(trustLevel: Skill["trustLevel"]) {
+  if (trustLevel === "official") {
+    return "border-[#b7ebc6] bg-[#eefcf2] text-[#246a35]";
+  }
+
+  if (trustLevel === "curated") {
+    return "border-[#d9d8ff] bg-[#f4f2ff] text-[#5745c6]";
+  }
+
+  return "border-[#f1d6d6] bg-[#fff3f3] text-[#9a4040]";
+}
+
+function getSourceTone(sourceType: Skill["sourceType"]) {
+  if (sourceType === "official-site") {
+    return "border-[#bfd9ff] bg-[#f2f7ff] text-[#2f63b4]";
+  }
+
+  if (sourceType === "marketplace") {
+    return "border-[#f3ddbb] bg-[#fff7ec] text-[#9b6820]";
+  }
+
+  if (sourceType === "github-discovery") {
+    return "border-[#e2d8f7] bg-[#f8f4ff] text-[#7054ae]";
+  }
+
+  return "border-[#d8e0ea] bg-[#f6f8fb] text-[#556577]";
 }
 
 function FilterIcon() {
@@ -114,64 +152,17 @@ function PublisherBadge({
   slug: string;
   size?: "sm" | "md";
 }) {
-  const initials = label
-    .split(/[\s/-]+/)
-    .filter(Boolean)
-    .slice(0, 2)
-    .map((part) => part[0]?.toUpperCase() ?? "")
-    .join("");
-
-  const isNvidia = slug === "nvidia";
-
-  return (
-    <span
-      aria-hidden="true"
-      className={`inline-flex shrink-0 items-center justify-center rounded-full border border-[var(--border-soft)] bg-white/90 font-semibold tracking-[-0.04em] text-[var(--foreground)] ${
-        size === "sm" ? "h-6 w-6 text-[10px]" : "h-7 w-7 text-[11px]"
-      } ${isNvidia ? "bg-[#76b900]/15 text-[#76b900]" : ""}`}
-    >
-      {isNvidia ? "N" : initials || label.slice(0, 1).toUpperCase()}
-    </span>
-  );
+  return <PublisherLogo name={label} size={size === "sm" ? "sm" : "md"} slug={slug} />;
 }
 
 function PublisherMark({ slug }: { slug: string }) {
-  if (slug === "anthropics") {
-    return (
-      <span className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-black/10 bg-[#111111] text-[12px] font-semibold text-white shadow-sm">
-        A
-      </span>
-    );
-  }
-
-  if (slug === "nvidia") {
-    return (
-      <span className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-[#76b900]/20 bg-[#76b900]/12 text-[12px] font-semibold text-[#76b900] shadow-sm">
-        N
-      </span>
-    );
-  }
-
-  if (slug === "google-gemini" || slug === "google-labs-code" || slug === "googleworkspace") {
-    return (
-      <span className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-black/10 bg-white text-[12px] font-semibold text-[#4285f4] shadow-sm">
-        G
-      </span>
-    );
-  }
-
-  const initials = slug
+  const label = slug
     .split(/[\s/-]+/)
     .filter(Boolean)
-    .slice(0, 2)
-    .map((part) => part[0]?.toUpperCase() ?? "")
-    .join("");
+    .map((part) => part[0]?.toUpperCase() + part.slice(1))
+    .join(" ");
 
-  return (
-    <span className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-[var(--border-soft)] bg-white text-[12px] font-semibold text-[var(--foreground)] shadow-sm">
-      {initials || slug.slice(0, 1).toUpperCase()}
-    </span>
-  );
+  return <PublisherLogo name={label} size="sm" slug={slug} />;
 }
 
 function formatCompactNumber(value: number) {
@@ -196,12 +187,12 @@ function NativeFilterSelect({
 }) {
   return (
     <label className="block">
-      <span className="mb-2 block text-[11px] font-semibold uppercase tracking-[0.16em] text-black/42">
+      <span className="mb-2 block text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--ink-muted)]">
         {label}
       </span>
       <div className="relative">
         <select
-          className="h-12 w-full appearance-none rounded-full border border-[var(--border-soft)] bg-white/90 px-4 pr-10 text-sm outline-none transition focus:border-[var(--accent)]"
+          className="h-12 w-full appearance-none rounded-full border border-[var(--border-soft)] bg-[var(--surface-strong)] px-4 pr-10 text-sm text-[var(--foreground)] outline-none transition focus:border-[var(--accent)]"
           onChange={(event) => onChange(event.target.value)}
           value={value}
         >
@@ -211,7 +202,7 @@ function NativeFilterSelect({
             </option>
           ))}
         </select>
-        <span className="pointer-events-none absolute inset-y-0 right-4 flex items-center text-black/45">
+        <span className="pointer-events-none absolute inset-y-0 right-4 flex items-center text-[var(--ink-muted)]">
           ⌄
         </span>
       </div>
@@ -270,10 +261,10 @@ function DropdownFilter({
       <button
         aria-expanded={open}
         aria-haspopup="listbox"
-        className={`flex h-12 w-full items-center justify-between rounded-full border px-4 text-sm outline-none transition ${
+        className={`catalog-control flex h-12 w-full items-center justify-between rounded-full border px-4 text-sm outline-none transition ${
           open
-            ? "border-[var(--accent)] bg-white shadow-[0_12px_28px_rgba(23,105,255,0.14)] ring-1 ring-[var(--accent-soft)]"
-            : "border-[var(--border-soft)] bg-white/80 hover:bg-white/90 focus:border-[var(--accent)]"
+            ? "catalog-control-active shadow-[0_12px_28px_rgba(23,105,255,0.14)] ring-1 ring-[var(--accent-soft)]"
+            : "hover:bg-[var(--surface)] focus:border-[var(--accent)]"
         }`}
         onClick={() => setOpen((current) => !current)}
         type="button"
@@ -282,13 +273,13 @@ function DropdownFilter({
           {currentLeading ? currentLeading : null}
           <span className="truncate">{currentLabel}</span>
         </span>
-        <span className={`ml-3 text-black/50 transition ${open ? "rotate-180 text-[var(--accent)]" : ""}`}>
+        <span className={`ml-3 text-[var(--ink-muted)] transition ${open ? "rotate-180 text-[var(--accent)]" : ""}`}>
           ⌄
         </span>
       </button>
 
       {open ? (
-        <div className="absolute left-0 top-[calc(100%+0.5rem)] z-50 w-full min-w-0 overflow-hidden rounded-2xl border border-[var(--border-soft)] bg-white shadow-[0_20px_50px_rgba(20,16,10,0.16)] sm:w-[250px]">
+        <div className="catalog-popover absolute left-0 top-[calc(100%+0.5rem)] z-50 w-full min-w-0 overflow-hidden rounded-2xl border shadow-[0_20px_50px_rgba(20,16,10,0.16)] sm:w-[250px]">
           <div className="max-h-[260px] overflow-auto py-1">
             {options.map((item) => (
               <button
@@ -304,7 +295,7 @@ function DropdownFilter({
               >
                 {item.leading ? item.leading : null}
                 <span className="min-w-0 flex-1 truncate">{item.label}</span>
-                {item.trailing ? <span className="text-xs text-black/45">{item.trailing}</span> : null}
+                {item.trailing ? <span className="text-xs text-[var(--ink-muted)]">{item.trailing}</span> : null}
                 {value === item.value ? <span className="text-[var(--accent)]">✓</span> : null}
               </button>
             ))}
@@ -320,6 +311,9 @@ export function SkillsCatalog({
   initialPublisher,
   initialQuery,
   initialSort,
+  initialTrustFilter,
+  initialEnterpriseOnly,
+  initialExcludeMarketplace,
   publishers,
   skills,
 }: SkillsCatalogProps) {
@@ -327,9 +321,15 @@ export function SkillsCatalog({
   const [kind, setKind] = useState<SkillFilterKind>(initialKind);
   const [publisher, setPublisher] = useState(initialPublisher);
   const [sort, setSort] = useState<SkillSort>(initialSort);
+  const [trustFilter, setTrustFilter] = useState<SkillTrustFilter>(initialTrustFilter);
+  const [enterpriseOnly, setEnterpriseOnly] = useState(initialEnterpriseOnly);
+  const [excludeMarketplace, setExcludeMarketplace] = useState(initialExcludeMarketplace);
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
   const [draftKind, setDraftKind] = useState<SkillFilterKind>(initialKind);
   const [draftPublisher, setDraftPublisher] = useState(initialPublisher);
+  const [draftTrustFilter, setDraftTrustFilter] = useState<SkillTrustFilter>(initialTrustFilter);
+  const [draftEnterpriseOnly, setDraftEnterpriseOnly] = useState(initialEnterpriseOnly);
+  const [draftExcludeMarketplace, setDraftExcludeMarketplace] = useState(initialExcludeMarketplace);
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const [repoStatsBySlug, setRepoStatsBySlug] = useState<Record<string, RepoStats>>(
     {},
@@ -346,10 +346,13 @@ export function SkillsCatalog({
     if (kind !== "all") params.set("kind", kind);
     if (publisher !== "all") params.set("publisher", publisher);
     if (sort !== "featured") params.set("sort", sort);
+    if (trustFilter !== "all") params.set("trust", trustFilter);
+    if (enterpriseOnly) params.set("enterprise", "1");
+    if (excludeMarketplace) params.set("excludeMarketplace", "1");
 
     const nextUrl = params.toString() ? `/skills?${params.toString()}` : "/skills";
     window.history.replaceState(null, "", nextUrl);
-  }, [deferredQuery, kind, publisher, sort]);
+  }, [deferredQuery, kind, publisher, sort, trustFilter, enterpriseOnly, excludeMarketplace]);
 
   const filteredSkills = useMemo(() => {
     const normalizedQuery = deferredQuery.trim().toLowerCase();
@@ -366,12 +369,25 @@ export function SkillsCatalog({
         publisher === "all" || skill.publisherSlug === publisher;
 
       const matchesKind = kind === "all" || skill.kind === kind;
+      const matchesTrust =
+        trustFilter === "all" || skill.trustLevel === trustFilter;
+      const matchesEnterprise =
+        !enterpriseOnly || isPriorityPublisher(skill.publisherSlug);
+      const matchesMarketplace =
+        !excludeMarketplace || skill.sourceType !== "marketplace";
 
-      return matchesQuery && matchesPublisher && matchesKind;
+      return (
+        matchesQuery &&
+        matchesPublisher &&
+        matchesKind &&
+        matchesTrust &&
+        matchesEnterprise &&
+        matchesMarketplace
+      );
     });
 
     return sortSkills(subset, sort);
-  }, [deferredQuery, kind, publisher, skills, sort]);
+  }, [deferredQuery, kind, publisher, skills, sort, trustFilter, enterpriseOnly, excludeMarketplace]);
 
   const visibleSkills = useMemo(() => {
     return filteredSkills.slice(0, visibleCount);
@@ -379,7 +395,11 @@ export function SkillsCatalog({
 
   const hasMore = visibleCount < filteredSkills.length;
   const activeFilterCount =
-    Number(kind !== "all") + Number(publisher !== "all");
+    Number(kind !== "all") +
+    Number(publisher !== "all") +
+    Number(trustFilter !== "all") +
+    Number(enterpriseOnly) +
+    Number(excludeMarketplace);
 
   const currentPublisherName =
     publishers.find((item) => item.slug === publisher)?.name ?? publisher;
@@ -397,6 +417,8 @@ export function SkillsCatalog({
       : sort === "name"
         ? "Alphabetical"
         : "By publisher";
+  const currentTrustLabel =
+    trustFilter === "all" ? "All trust levels" : getTrustLevelLabel(trustFilter);
 
   const currentDraftPublisherName =
     publishers.find((item) => item.slug === draftPublisher)?.name ?? draftPublisher;
@@ -406,20 +428,32 @@ export function SkillsCatalog({
     setKind("all");
     setPublisher("all");
     setSort("featured");
+    setTrustFilter("all");
+    setEnterpriseOnly(false);
+    setExcludeMarketplace(false);
     setDraftKind("all");
     setDraftPublisher("all");
+    setDraftTrustFilter("all");
+    setDraftEnterpriseOnly(false);
+    setDraftExcludeMarketplace(false);
     setVisibleCount(PAGE_SIZE);
   }
 
   function openMobileFilters() {
     setDraftKind(kind);
     setDraftPublisher(publisher);
+    setDraftTrustFilter(trustFilter);
+    setDraftEnterpriseOnly(enterpriseOnly);
+    setDraftExcludeMarketplace(excludeMarketplace);
     setMobileFiltersOpen(true);
   }
 
   function closeMobileFilters() {
     setDraftKind(kind);
     setDraftPublisher(publisher);
+    setDraftTrustFilter(trustFilter);
+    setDraftEnterpriseOnly(enterpriseOnly);
+    setDraftExcludeMarketplace(excludeMarketplace);
     setMobileFiltersOpen(false);
   }
 
@@ -427,6 +461,9 @@ export function SkillsCatalog({
     startTransition(() => {
       setKind(draftKind);
       setPublisher(draftPublisher);
+      setTrustFilter(draftTrustFilter);
+      setEnterpriseOnly(draftEnterpriseOnly);
+      setExcludeMarketplace(draftExcludeMarketplace);
       setVisibleCount(PAGE_SIZE);
       setMobileFiltersOpen(false);
     });
@@ -524,19 +561,19 @@ export function SkillsCatalog({
   }, [mobileFiltersOpen]);
 
   return (
-    <div className="page-shell h-full min-h-0 py-4 sm:py-5">
-      <section className="h-full min-h-0 overflow-hidden rounded-[1.75rem] border border-[var(--border-soft)] bg-white/40 shadow-[0_24px_70px_rgba(20,16,10,0.07)] backdrop-blur sm:rounded-[2rem]">
-        <div className="flex h-full min-h-0 flex-col p-3">
-          <div className="relative z-30 rounded-[1.5rem] bg-white/34 px-2 py-2.5 sm:rounded-[1.75rem] sm:px-3 sm:py-3">
+    <div className="page-shell min-w-0 h-full min-h-0 py-4 sm:py-5">
+      <section className="catalog-shell h-full min-h-0 overflow-hidden rounded-[1.75rem] border shadow-[0_24px_70px_rgba(20,16,10,0.07)] backdrop-blur sm:rounded-[2rem]">
+        <div className="flex h-full min-h-0 min-w-0 flex-col p-3">
+          <div className="catalog-chrome relative z-30 rounded-[1.5rem] px-2 py-2.5 sm:rounded-[1.75rem] sm:px-3 sm:py-3">
             <div className="flex flex-col gap-3">
-              <div className="flex flex-col gap-3 xl:flex-row xl:items-center">
+              <div className="flex min-w-0 flex-col gap-3 xl:flex-row xl:items-center">
                 <div
-                  className="flex min-w-0 items-center gap-3 rounded-full border border-[var(--border-soft)] bg-white/80 px-5 sm:px-6 xl:max-w-[36rem] xl:flex-1"
+                  className="catalog-control flex min-w-0 items-center gap-3 rounded-full border px-5 sm:px-6 xl:max-w-[36rem] xl:flex-1"
                   style={{ height: 48 }}
                 >
                   <FilterIcon />
                   <input
-                    className="h-full w-full bg-transparent text-base outline-none placeholder:text-black/35"
+                    className="h-full w-full bg-transparent text-base text-[var(--foreground)] outline-none placeholder:text-[var(--ink-muted)]"
                     onChange={(event) => {
                       const nextValue = event.target.value;
                       startTransition(() => {
@@ -550,13 +587,13 @@ export function SkillsCatalog({
                   />
                 </div>
 
-                <div className="grid grid-cols-[minmax(0,1fr)_minmax(0,1fr)] gap-3 xl:hidden">
+                <div className="grid min-w-0 grid-cols-[minmax(0,1fr)_minmax(0,1fr)] gap-3 xl:hidden">
                   <button
                     aria-expanded={mobileFiltersOpen}
-                    className={`flex h-12 items-center justify-between rounded-full border px-4 text-sm font-medium transition ${
+                    className={`catalog-control flex h-12 items-center justify-between rounded-full border px-4 text-sm font-medium transition ${
                       mobileFiltersOpen || activeFilterCount > 0
-                        ? "border-[var(--accent)] bg-white shadow-[0_12px_28px_rgba(23,105,255,0.14)]"
-                        : "border-[var(--border-soft)] bg-white/80 hover:bg-white/90"
+                        ? "catalog-control-active shadow-[0_12px_28px_rgba(23,105,255,0.14)]"
+                        : "hover:bg-[var(--surface)]"
                     }`}
                     onClick={openMobileFilters}
                     type="button"
@@ -569,7 +606,7 @@ export function SkillsCatalog({
                         </span>
                       ) : null}
                     </span>
-                    <span className="ml-3 text-black/50">⌄</span>
+                    <span className="ml-3 text-[var(--ink-muted)]">⌄</span>
                   </button>
 
                   <DropdownFilter
@@ -590,7 +627,7 @@ export function SkillsCatalog({
                   />
                 </div>
 
-                <div className="hidden xl:flex xl:flex-1 xl:flex-wrap xl:justify-end xl:gap-3">
+                <div className="hidden xl:flex xl:flex-1 xl:flex-wrap xl:justify-end xl:gap-2.5 2xl:gap-3">
                   <DropdownFilter
                     currentLabel={currentKindLabel}
                     onChange={(nextValue) =>
@@ -612,7 +649,7 @@ export function SkillsCatalog({
                     currentLabel={currentPublisherName}
                     currentLeading={
                       publisher === "all" ? (
-                        <span className="inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full border border-dashed border-black/15 bg-black/5 text-[11px] font-semibold text-black/45">
+                        <span className="inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full border border-dashed border-[var(--border-soft)] bg-[var(--surface)] text-[11px] font-semibold text-[var(--ink-muted)]">
                           All
                         </span>
                       ) : (
@@ -630,7 +667,7 @@ export function SkillsCatalog({
                         value: "all",
                         label: "All publishers",
                         leading: (
-                          <span className="inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full border border-dashed border-black/15 bg-black/5 text-[11px] font-semibold text-black/45">
+                          <span className="inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full border border-dashed border-[var(--border-soft)] bg-[var(--surface)] text-[11px] font-semibold text-[var(--ink-muted)]">
                             All
                           </span>
                         ),
@@ -645,6 +682,58 @@ export function SkillsCatalog({
                     value={publisher}
                     widthClass="w-full xl:min-w-[180px] xl:w-auto"
                   />
+
+                  <DropdownFilter
+                    currentLabel={currentTrustLabel}
+                    onChange={(nextValue) =>
+                      startTransition(() => {
+                        setTrustFilter(nextValue as SkillTrustFilter);
+                        setVisibleCount(PAGE_SIZE);
+                      })
+                    }
+                    options={[
+                      { value: "all", label: "All trust levels" },
+                      { value: "official", label: "Official only" },
+                      { value: "curated", label: "Curated only" },
+                      { value: "untrusted", label: "Untrusted only" },
+                    ]}
+                    value={trustFilter}
+                    widthClass="w-full xl:min-w-[170px] xl:w-auto"
+                  />
+
+                  <button
+                    className={`catalog-control h-12 rounded-full border px-4 text-sm font-medium transition xl:w-auto ${
+                      enterpriseOnly
+                        ? "catalog-control-active shadow-[0_12px_28px_rgba(23,105,255,0.14)]"
+                        : "hover:bg-[var(--surface)]"
+                    }`}
+                    onClick={() =>
+                      startTransition(() => {
+                        setEnterpriseOnly((current) => !current);
+                        setVisibleCount(PAGE_SIZE);
+                      })
+                    }
+                    type="button"
+                  >
+                    Enterprise first
+                  </button>
+
+                  <button
+                    className={`catalog-control h-12 rounded-full border px-4 text-sm font-medium transition xl:w-auto ${
+                      excludeMarketplace
+                        ? "catalog-control-active shadow-[0_12px_28px_rgba(23,105,255,0.14)]"
+                        : "hover:bg-[var(--surface)]"
+                    }`}
+                    onClick={() =>
+                      startTransition(() => {
+                        setExcludeMarketplace((current) => !current);
+                        setVisibleCount(PAGE_SIZE);
+                      })
+                    }
+                    type="button"
+                  >
+                    Exclude marketplace
+                  </button>
 
                   <DropdownFilter
                     currentLabel={currentSortLabel}
@@ -664,10 +753,10 @@ export function SkillsCatalog({
                   />
 
                   <button
-                    className={`h-12 rounded-full border px-4 text-sm font-medium transition xl:w-auto ${
+                    className={`catalog-control h-12 rounded-full border px-4 text-sm font-medium transition xl:w-auto ${
                       deferredQuery || kind !== "all" || publisher !== "all" || sort !== "featured"
-                        ? "border-[var(--accent)] bg-white text-[var(--accent)] hover:bg-[var(--accent-soft)]"
-                        : "border-[var(--border-soft)] bg-white/65 text-black/40 hover:bg-white/70"
+                        ? "catalog-control-active hover:bg-[var(--foreground)]"
+                        : "text-[var(--ink-muted)] hover:bg-[var(--surface)]"
                     }`}
                     onClick={() =>
                       startTransition(() => {
@@ -681,11 +770,17 @@ export function SkillsCatalog({
                 </div>
               </div>
 
-              {(deferredQuery || kind !== "all" || publisher !== "all" || sort !== "featured") && (
-              <div className="flex flex-wrap gap-2">
+              {(deferredQuery ||
+                kind !== "all" ||
+                publisher !== "all" ||
+                sort !== "featured" ||
+                trustFilter !== "all" ||
+                enterpriseOnly ||
+                excludeMarketplace) && (
+              <div className="flex min-w-0 flex-wrap gap-2">
                 {deferredQuery ? (
                   <button
-                    className="rounded-full bg-white/65 px-3 py-2 text-xs font-semibold uppercase tracking-[0.18em] transition hover:bg-white"
+                    className="catalog-chip min-w-0 max-w-full rounded-full px-3 py-2 text-xs font-semibold uppercase tracking-[0.18em] transition hover:bg-[var(--surface-strong)]"
                     onClick={() =>
                       startTransition(() => {
                         setQuery("");
@@ -699,7 +794,7 @@ export function SkillsCatalog({
                 ) : null}
                 {kind !== "all" ? (
                   <button
-                    className="rounded-full bg-white/65 px-3 py-2 text-xs font-semibold uppercase tracking-[0.18em] transition hover:bg-white"
+                    className="catalog-chip min-w-0 max-w-full rounded-full px-3 py-2 text-xs font-semibold uppercase tracking-[0.18em] transition hover:bg-[var(--surface-strong)]"
                     onClick={() =>
                       startTransition(() => {
                         setKind("all");
@@ -713,7 +808,7 @@ export function SkillsCatalog({
                 ) : null}
                 {publisher !== "all" ? (
                   <button
-                    className="rounded-full bg-white/65 px-3 py-2 text-xs font-semibold uppercase tracking-[0.18em] transition hover:bg-white"
+                    className="catalog-chip min-w-0 max-w-full rounded-full px-3 py-2 text-xs font-semibold uppercase tracking-[0.18em] transition hover:bg-[var(--surface-strong)]"
                     onClick={() =>
                       startTransition(() => {
                         setPublisher("all");
@@ -725,9 +820,51 @@ export function SkillsCatalog({
                     Publisher: {currentPublisherName} ✕
                   </button>
                 ) : null}
+                {trustFilter !== "all" ? (
+                  <button
+                    className="catalog-chip min-w-0 max-w-full rounded-full px-3 py-2 text-xs font-semibold uppercase tracking-[0.18em] transition hover:bg-[var(--surface-strong)]"
+                    onClick={() =>
+                      startTransition(() => {
+                        setTrustFilter("all");
+                        setVisibleCount(PAGE_SIZE);
+                      })
+                    }
+                    type="button"
+                  >
+                    Trust: {currentTrustLabel} ✕
+                  </button>
+                ) : null}
+                {enterpriseOnly ? (
+                  <button
+                    className="catalog-chip min-w-0 max-w-full rounded-full px-3 py-2 text-xs font-semibold uppercase tracking-[0.18em] transition hover:bg-[var(--surface-strong)]"
+                    onClick={() =>
+                      startTransition(() => {
+                        setEnterpriseOnly(false);
+                        setVisibleCount(PAGE_SIZE);
+                      })
+                    }
+                    type="button"
+                  >
+                    Enterprise first ✕
+                  </button>
+                ) : null}
+                {excludeMarketplace ? (
+                  <button
+                    className="catalog-chip min-w-0 max-w-full rounded-full px-3 py-2 text-xs font-semibold uppercase tracking-[0.18em] transition hover:bg-[var(--surface-strong)]"
+                    onClick={() =>
+                      startTransition(() => {
+                        setExcludeMarketplace(false);
+                        setVisibleCount(PAGE_SIZE);
+                      })
+                    }
+                    type="button"
+                  >
+                    Exclude marketplace ✕
+                  </button>
+                ) : null}
                 {sort !== "featured" ? (
                   <button
-                    className="rounded-full bg-white/65 px-3 py-2 text-xs font-semibold uppercase tracking-[0.18em] transition hover:bg-white"
+                    className="catalog-chip min-w-0 max-w-full rounded-full px-3 py-2 text-xs font-semibold uppercase tracking-[0.18em] transition hover:bg-[var(--surface-strong)]"
                     onClick={() =>
                       startTransition(() => {
                         setSort("featured");
@@ -773,7 +910,7 @@ export function SkillsCatalog({
                       </button>
                       {deferredQuery ? (
                         <button
-                          className="rounded-full border border-[var(--border-soft)] bg-white/75 px-4 py-2 text-sm font-medium"
+                          className="rounded-full border border-[var(--border-soft)] bg-[var(--surface-strong)] px-4 py-2 text-sm font-medium"
                           onClick={() =>
                             startTransition(() => {
                               setQuery("");
@@ -791,10 +928,10 @@ export function SkillsCatalog({
                   visibleSkills.map((skill) => (
                     <Link
                       key={skill.slug}
-                      className="glass skill-card grid gap-4 rounded-[1.5rem] p-4 sm:rounded-[1.75rem] sm:p-5 lg:grid-cols-[220px_minmax(0,1fr)_auto] lg:items-center"
+                      className="glass skill-card grid min-w-0 gap-4 rounded-[1.5rem] p-4 sm:rounded-[1.75rem] sm:p-5 lg:grid-cols-[220px_minmax(0,1fr)_auto] lg:items-center"
                       href={`/skills/${skill.slug}`}
                     >
-                      <div>
+                      <div className="min-w-0">
                         <p className="eyebrow muted">{skill.kind}</p>
                         <div className="mt-2 flex items-center gap-3">
                           <PublisherMark slug={skill.publisherSlug} />
@@ -804,14 +941,38 @@ export function SkillsCatalog({
                           {skill.sectionTitle}
                         </p>
                       </div>
-                      <div>
+                      <div className="min-w-0">
                         <h2 className="text-xl font-semibold">{skill.name}</h2>
                         <p className="muted mt-2 leading-7">{skill.description}</p>
+                        <div className="mt-3 flex flex-wrap gap-2">
+                          <span
+                            className={`inline-flex items-center rounded-full border px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.14em] ${getTrustTone(
+                              skill.trustLevel,
+                            )}`}
+                          >
+                            {getTrustLevelLabel(skill.trustLevel)}
+                          </span>
+                          <span
+                            className={`inline-flex items-center rounded-full border px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.14em] ${getSourceTone(
+                              skill.sourceType,
+                            )}`}
+                          >
+                            {getSourceTypeLabel(skill.sourceType)}
+                          </span>
+                          {skill.riskFlags.slice(0, 2).map((flag) => (
+                            <span
+                              key={flag}
+                              className="inline-flex items-center rounded-full border border-[#edd7d7] bg-[#fff5f5] px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.14em] text-[#9b4b4b]"
+                            >
+                              {flag.replaceAll("-", " ")}
+                            </span>
+                          ))}
+                        </div>
                         <div className="mt-3 flex flex-wrap gap-2">
                           {skill.tags.slice(0, 4).map((tag) => (
                             <span
                               key={tag}
-                              className="rounded-full bg-white/70 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.12em] sm:text-[11px] sm:tracking-[0.16em]"
+                              className="catalog-chip rounded-full px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.12em] sm:text-[11px] sm:tracking-[0.16em]"
                             >
                               {tag}
                             </span>
@@ -839,9 +1000,6 @@ export function SkillsCatalog({
                             </span>
                           </span>
                         </div>
-                        <span className="rounded-full bg-[var(--accent-soft)] px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-[var(--accent)]">
-                          Open
-                        </span>
                       </div>
                     </Link>
                   ))
@@ -866,12 +1024,12 @@ export function SkillsCatalog({
             <div className="flex items-center justify-between border-b border-[var(--border-soft)] px-5 py-4">
               <div>
                 <h2 className="text-lg font-semibold">Filters</h2>
-                <p className="mt-1 text-sm text-black/50">
+                <p className="mt-1 text-sm text-[var(--ink-muted)]">
                   {activeFilterCount > 0 ? `${activeFilterCount} filters applied` : "Refine the catalog"}
                 </p>
               </div>
               <button
-                className="rounded-full border border-[var(--border-soft)] bg-white/80 px-4 py-2 text-sm font-medium"
+                className="rounded-full border border-[var(--border-soft)] bg-[var(--surface-strong)] px-4 py-2 text-sm font-medium"
                 onClick={closeMobileFilters}
                 type="button"
               >
@@ -895,7 +1053,7 @@ export function SkillsCatalog({
                 label="Publisher"
                 leading={
                   draftPublisher === "all" ? null : (
-                    <span className="inline-flex items-center gap-2 rounded-full bg-white/72 px-3 py-2 text-xs font-medium text-black/55">
+                    <span className="inline-flex items-center gap-2 rounded-full bg-[var(--surface-strong)] px-3 py-2 text-xs font-medium text-[var(--ink-muted)]">
                       <PublisherBadge label={currentDraftPublisherName} slug={draftPublisher} size="sm" />
                       {currentDraftPublisherName}
                     </span>
@@ -914,21 +1072,60 @@ export function SkillsCatalog({
                 ]}
                 value={draftPublisher}
               />
+
+              <NativeFilterSelect
+                label="Trust"
+                onChange={(nextValue) => setDraftTrustFilter(nextValue as SkillTrustFilter)}
+                options={[
+                  { value: "all", label: "All trust levels" },
+                  { value: "official", label: "Official only" },
+                  { value: "curated", label: "Curated only" },
+                  { value: "untrusted", label: "Untrusted only" },
+                ]}
+                value={draftTrustFilter}
+              />
+
+              <label className="flex items-center justify-between rounded-[1.2rem] border border-[var(--border-soft)] bg-[var(--surface-strong)] px-4 py-3">
+                <span className="text-sm font-medium text-[var(--foreground)]">
+                  Enterprise first
+                </span>
+                <input
+                  checked={draftEnterpriseOnly}
+                  className="h-4 w-4 accent-[var(--accent)]"
+                  onChange={(event) => setDraftEnterpriseOnly(event.target.checked)}
+                  type="checkbox"
+                />
+              </label>
+
+              <label className="flex items-center justify-between rounded-[1.2rem] border border-[var(--border-soft)] bg-[var(--surface-strong)] px-4 py-3">
+                <span className="text-sm font-medium text-[var(--foreground)]">
+                  Exclude marketplace
+                </span>
+                <input
+                  checked={draftExcludeMarketplace}
+                  className="h-4 w-4 accent-[var(--accent)]"
+                  onChange={(event) => setDraftExcludeMarketplace(event.target.checked)}
+                  type="checkbox"
+                />
+              </label>
             </div>
 
-            <div className="flex items-center gap-3 border-t border-[var(--border-soft)] bg-white/72 px-5 py-4">
+            <div className="flex items-center gap-3 border-t border-[var(--border-soft)] bg-[var(--surface)] px-5 py-4">
               <button
-                className="h-12 flex-1 rounded-full border border-transparent bg-transparent text-sm font-medium text-black/62 transition hover:bg-black/[0.04] hover:text-black"
+                className="h-12 flex-1 rounded-full border border-transparent bg-transparent text-sm font-medium text-[var(--ink-muted)] transition hover:bg-[var(--surface-strong)] hover:text-[var(--foreground)]"
                 onClick={() => {
                   setDraftKind("all");
                   setDraftPublisher("all");
+                  setDraftTrustFilter("all");
+                  setDraftEnterpriseOnly(false);
+                  setDraftExcludeMarketplace(false);
                 }}
                 type="button"
               >
                 Reset
               </button>
               <button
-                className="h-12 flex-1 rounded-full border border-[var(--accent)] bg-[var(--accent-soft)] px-4 text-sm font-semibold text-[var(--accent)] shadow-none transition hover:bg-white"
+                className="h-12 flex-1 rounded-full border border-[var(--accent)] bg-[var(--accent-soft)] px-4 text-sm font-semibold text-[var(--accent)] shadow-none transition hover:bg-[var(--surface-strong)]"
                 onClick={applyMobileFilters}
                 type="button"
               >

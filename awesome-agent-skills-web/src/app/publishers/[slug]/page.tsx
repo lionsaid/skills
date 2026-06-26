@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { PublisherLogo } from "@/components/publisher-logo";
 import { SiteHeader } from "@/components/site-header";
 import { getPublisherBySlug, getSkillsByPublisher } from "@/lib/skills";
 
@@ -23,8 +24,11 @@ export default async function PublisherPage({ params }: PublisherPageProps) {
     <main className="pb-16">
       <SiteHeader currentPath="/skills" />
       <div className="page-shell py-8">
-        <section className="deep-panel rounded-[2rem] p-6 sm:p-8">
-          <p className="eyebrow text-white/65">{publisher.kind}</p>
+        <section className="surface-panel rounded-[2rem] p-6 sm:p-8">
+          <p className="eyebrow surface-muted">{publisher.kind}</p>
+          <div className="mt-5">
+            <PublisherLogo name={publisher.name} size="lg" slug={publisher.slug} />
+          </div>
           <h1 className="display mt-4 text-5xl font-semibold tracking-[-0.04em] sm:text-6xl">
             {publisher.name}
           </h1>
@@ -33,9 +37,9 @@ export default async function PublisherPage({ params }: PublisherPageProps) {
             its job and the user wants tighter browsing.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
-            <p className="text-sm text-white/72">{publisher.count} listed skills</p>
+            <p className="text-sm muted">{publisher.count} listed skills</p>
             <Link
-              className="rounded-full border border-white/12 px-4 py-2 text-sm text-white/88 transition hover:bg-white/8"
+              className="rounded-full border border-[var(--panel-outline)] px-4 py-2 text-sm transition hover:bg-[var(--panel-soft-hover)]"
               href={`/skills?publisher=${publisher.slug}`}
             >
               Open filtered catalog

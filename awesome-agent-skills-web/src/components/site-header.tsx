@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import type { ReactNode } from "react";
+import { ThemeToggle } from "@/components/theme-toggle";
 
 type SiteHeaderProps = {
   currentPath?: "/" | "/skills";
@@ -69,8 +70,8 @@ function NavButton({
     <Link
       className={`inline-flex h-11 items-center justify-center gap-2 whitespace-nowrap rounded-full px-4 text-sm font-medium transition ${
         active
-          ? "bg-white text-[var(--foreground)] shadow-sm ring-1 ring-[var(--border-soft)]"
-          : "text-black/72 hover:bg-white/55 hover:text-black"
+          ? "header-pill-active shadow-sm ring-1 ring-[var(--border-soft)]"
+          : "header-pill hover:bg-[var(--surface-strong)]"
       }`}
       href={href}
     >
@@ -99,7 +100,7 @@ export function SiteHeader({ currentPath = "/" }: SiteHeaderProps) {
 
       <div className="page-shell hidden sm:block">
         <nav
-          className={`glass fixed left-1/2 top-4 z-40 -translate-x-1/2 rounded-full border border-[var(--border-soft)] px-4 text-sm transition-all duration-300 ease-out ${
+          className={`header-shell glass fixed left-1/2 top-4 z-40 -translate-x-1/2 rounded-full border px-4 text-sm transition-all duration-300 ease-out ${
             compact
               ? "w-[min(1020px,calc(100vw-2rem))] py-2.5 shadow-[0_16px_40px_rgba(56,49,36,0.08)]"
               : "w-[min(1160px,calc(100vw-2rem))] py-3.5 shadow-[0_24px_80px_rgba(56,49,36,0.08)]"
@@ -130,13 +131,14 @@ export function SiteHeader({ currentPath = "/" }: SiteHeaderProps) {
             <div className="flex shrink-0 items-center gap-2">
               <a
                 aria-label="Open GitHub repository"
-                className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-black/6 bg-white/88 p-0 transition hover:bg-white"
+                className="header-action inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full border p-0 transition hover:bg-[var(--background)]"
                 href="https://github.com/lionsaid/skills"
                 rel="noreferrer"
                 target="_blank"
               >
                 <GitHubIcon />
               </a>
+              <ThemeToggle />
             </div>
           </div>
         </nav>
@@ -144,7 +146,7 @@ export function SiteHeader({ currentPath = "/" }: SiteHeaderProps) {
 
       <div className="fixed inset-x-0 bottom-4 z-50 sm:hidden">
         <div className="page-shell">
-          <nav className="glass mx-auto grid max-w-[22rem] grid-cols-3 gap-2 rounded-[1.6rem] px-3 py-3 shadow-[0_16px_40px_rgba(56,49,36,0.14)]">
+          <nav className="header-shell glass mx-auto grid max-w-[22rem] grid-cols-3 gap-2 rounded-[1.6rem] px-3 py-3 shadow-[0_16px_40px_rgba(56,49,36,0.14)]">
             <NavButton active={currentPath === "/"} href="/">
               <HomeIcon />
               <span className="text-xs">Home</span>
@@ -153,16 +155,7 @@ export function SiteHeader({ currentPath = "/" }: SiteHeaderProps) {
               <GridIcon />
               <span className="text-xs">Browse</span>
             </NavButton>
-            <a
-              aria-label="Open GitHub repository"
-              className="inline-flex h-11 items-center justify-center gap-2 whitespace-nowrap rounded-full px-4 text-sm font-medium text-black/72 transition hover:bg-white/55 hover:text-black"
-              href="https://github.com/lionsaid/skills"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <GitHubIcon />
-              <span className="text-xs">GitHub</span>
-            </a>
+            <ThemeToggle compact />
           </nav>
         </div>
       </div>

@@ -1,11 +1,14 @@
 import Link from "next/link";
+import { PublisherLogo } from "@/components/publisher-logo";
+import { PublisherLogoMarquee } from "@/components/publisher-logo-marquee";
 import { SiteHeader } from "@/components/site-header";
+import { SiteFooter } from "@/components/site-footer";
 import { getFeaturedSkills, getPublishers, getStats } from "@/lib/skills";
 
 export default function Home() {
   const stats = getStats();
   const featured = getFeaturedSkills();
-  const publishers = getPublishers().slice(0, 8);
+  const publishers = getPublishers();
 
   const quickStarts = [
     { label: "Official skills", href: "/skills?kind=official" },
@@ -100,8 +103,8 @@ export default function Home() {
           </div>
 
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2">
-            <div className="deep-panel rounded-[2rem] p-6 sm:p-7 xl:col-span-2">
-              <p className="eyebrow text-white/65">How it works</p>
+            <div className="surface-panel rounded-[2rem] p-6 sm:p-7 xl:col-span-2">
+              <p className="eyebrow surface-muted">How it works</p>
               <h2 className="mt-4 text-3xl font-semibold leading-tight">
                 Three ways in. One place to decide.
               </h2>
@@ -113,10 +116,10 @@ export default function Home() {
                 ].map((item, index) => (
                   <div
                     key={item}
-                    className="rounded-[1.25rem] border border-white/10 bg-white/6 p-4"
+                    className="surface-panel-soft rounded-[1.25rem] p-4"
                   >
-                    <p className="eyebrow text-white/45">0{index + 1}</p>
-                    <p className="mt-3 text-sm leading-6 text-white/88">{item}</p>
+                    <p className="eyebrow surface-muted">0{index + 1}</p>
+                    <p className="surface-strong mt-3 text-sm leading-6">{item}</p>
                   </div>
                 ))}
               </div>
@@ -171,22 +174,31 @@ export default function Home() {
         </div>
 
         <div className="mt-8 grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
-          <Link className="glass skill-card rounded-[1.75rem] p-6" href="/skills?sort=featured">
+          <Link className="glass skill-card rounded-[1.75rem] p-6" href="/skills?publisher=googleworkspace">
             <p className="eyebrow muted">Featured</p>
-            <p className="mt-4 text-xl font-semibold">Curated starting points</p>
+            <div className="mt-4">
+              <PublisherLogo name="Google Workspace" size="sm" slug="googleworkspace" />
+            </div>
+            <p className="mt-4 text-xl font-semibold">Google Workspace</p>
             <p className="muted mt-3 text-sm leading-6">
-              Jump straight to the skills most people reach for first.
+              Jump into one of the largest enterprise productivity collections.
             </p>
           </Link>
-          <Link className="glass skill-card rounded-[1.75rem] p-6" href="/skills?kind=official">
+          <Link className="glass skill-card rounded-[1.75rem] p-6" href="/skills?publisher=microsoft">
             <p className="eyebrow muted">Official only</p>
-            <p className="mt-4 text-xl font-semibold">Team-authored skills</p>
+            <div className="mt-4">
+              <PublisherLogo name="Microsoft" size="sm" slug="microsoft" />
+            </div>
+            <p className="mt-4 text-xl font-semibold">Microsoft</p>
             <p className="muted mt-3 text-sm leading-6">
-              Filter straight to the releases that come from the source.
+              Open a broad official catalog from one of the biggest platform vendors.
             </p>
           </Link>
           <Link className="glass skill-card rounded-[1.75rem] p-6" href="/skills?publisher=anthropics">
             <p className="eyebrow muted">Publisher</p>
+            <div className="mt-4">
+              <PublisherLogo name="Anthropics" size="sm" slug="anthropics" />
+            </div>
             <p className="mt-4 text-xl font-semibold">Anthropics</p>
             <p className="muted mt-3 text-sm leading-6">
               Go directly to one of the most complete first-party collections.
@@ -194,22 +206,27 @@ export default function Home() {
           </Link>
           <Link className="glass skill-card rounded-[1.75rem] p-6" href="/skills?publisher=openai">
             <p className="eyebrow muted">Publisher</p>
+            <div className="mt-4">
+              <PublisherLogo name="OpenAI" size="sm" slug="openai" />
+            </div>
             <p className="mt-4 text-xl font-semibold">OpenAI</p>
             <p className="muted mt-3 text-sm leading-6">
               See skills from a publisher many users already trust.
             </p>
           </Link>
         </div>
+
+        <PublisherLogoMarquee publishers={publishers} />
       </section>
 
-      <section className="deep-panel py-20 2xl:py-24">
+      <section className="surface-panel py-20 2xl:py-24">
         <div className="page-shell">
           <div className="max-w-4xl">
-            <p className="eyebrow text-white/70">Featured skills</p>
+            <p className="eyebrow surface-muted">Featured skills</p>
             <h2 className="display mt-4 text-5xl leading-tight font-semibold sm:text-6xl 2xl:text-7xl">
               Start with the most useful skills, then move deeper if needed.
             </h2>
-            <p className="mt-5 max-w-2xl text-lg leading-8 text-white/72">
+            <p className="muted mt-5 max-w-2xl text-lg leading-8">
               The homepage should get people to the right skill fast, not ask them to
               read a repo before they can begin.
             </p>
@@ -219,22 +236,22 @@ export default function Home() {
             {featured.map((skill, index) => (
               <Link
                 key={skill.slug}
-                className="group rounded-[2rem] border border-white/10 bg-white/6 p-6 transition hover:bg-white/10"
+                className="group surface-panel-soft rounded-[2rem] p-6 transition hover:bg-[var(--panel-soft-hover)]"
                 href={`/skills/${skill.slug}`}
               >
                 <div className="flex items-start justify-between gap-4">
                   <div>
-                    <p className="eyebrow text-white/55">
+                    <p className="eyebrow surface-muted">
                       {String(index + 1).padStart(2, "0")} · {skill.publisher}
                     </p>
-                    <h3 className="mt-4 text-2xl font-semibold">{skill.name}</h3>
+                    <h3 className="surface-strong mt-4 text-2xl font-semibold">{skill.name}</h3>
                   </div>
-                  <span className="rounded-full border border-white/12 px-3 py-1 text-xs uppercase tracking-[0.24em] text-white/70">
+                  <span className="surface-panel-outline surface-muted rounded-full border px-3 py-1 text-xs uppercase tracking-[0.24em]">
                     {skill.kind}
                   </span>
                 </div>
                 <p className="muted mt-5 max-w-xl leading-7">{skill.description}</p>
-                <div className="mt-6 text-sm font-medium text-white/78 transition group-hover:text-white">
+                <div className="surface-muted mt-6 text-sm font-medium transition group-hover:surface-strong">
                   Open skill →
                 </div>
               </Link>
@@ -259,21 +276,13 @@ export default function Home() {
             See the full catalog
           </Link>
         </div>
-
-        <div className="mt-10 grid gap-4 md:grid-cols-2 xl:grid-cols-4 2xl:gap-6">
-          {publishers.map((publisher) => (
-            <Link
-              key={publisher.slug}
-              className="glass skill-card rounded-[1.75rem] p-5"
-              href={`/publishers/${publisher.slug}`}
-            >
-              <p className="eyebrow muted">{publisher.kind}</p>
-              <h3 className="mt-3 text-2xl font-semibold">{publisher.name}</h3>
-              <p className="muted mt-4 text-sm leading-6">{publisher.count} listed skills</p>
-            </Link>
-          ))}
-        </div>
+        <p className="muted mt-6 max-w-3xl text-base leading-7">
+          Every publisher in the catalog appears in the moving logo rail above. Use it as a fast
+          scan of the ecosystem, then jump into the full directory when you need filtering.
+        </p>
       </section>
+
+      <SiteFooter />
     </main>
   );
 }

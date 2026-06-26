@@ -1,0 +1,77 @@
+[
+  {
+    "id": "awesome-agent-skills-local",
+    "label": "Awesome Agent Skills (local README)",
+    "enabled": true,
+    "transport": "local",
+    "parser": "awesome-markdown",
+    "path": "../README.md",
+    "sourceType": "curated-readme",
+    "trustLevel": "curated",
+    "riskFlags": []
+  },
+  {
+    "id": "awesome-agent-skills-github",
+    "label": "Awesome Agent Skills (GitHub mirror)",
+    "enabled": true,
+    "transport": "remote",
+    "parser": "awesome-markdown",
+    "url": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
+    "sourceType": "github-readme",
+    "trustLevel": "curated",
+    "riskFlags": []
+  },
+  {
+    "id": "officialskills-home",
+    "label": "officialskills.sh (site index)",
+    "enabled": true,
+    "transport": "remote",
+    "parser": "remote-html",
+    "url": "https://officialskills.sh",
+    "linkPattern": "^/([^/]+)/skills/([^/]+)$",
+    "sectionTitle": "Official Site Skills",
+    "kind": "official",
+    "descriptionFallback": "Skill listed on officialskills.sh",
+    "descriptionPattern": "class=\\\"text-\\[12px\\] sm:text-\\[14px\\] truncate flex-1 min-w-0\\\"[^>]*>(.*?)</p>",
+    "sourceType": "official-site",
+    "trustLevel": "official",
+    "riskFlags": []
+  },
+  {
+    "id": "clawhub-home",
+    "label": "ClawHub marketplace (Convex query)",
+    "enabled": true,
+    "transport": "remote",
+    "parser": "marketplace-api",
+    "url": "https://wry-manatee-359.convex.cloud/api/query",
+    "sectionTitle": "ClawHub Marketplace",
+    "kind": "community",
+    "descriptionFallback": "Skill listed on clawhub.ai",
+    "maxPages": 25,
+    "pageSize": 40,
+    "sourceType": "marketplace",
+    "trustLevel": "untrusted",
+    "riskFlags": [
+      "community-marketplace",
+      "requires-security-review"
+    ]
+  },
+  {
+    "id": "github-repo-expansion",
+    "label": "GitHub repo expansion from discovered skill repos",
+    "enabled": false,
+    "transport": "remote",
+    "parser": "github-repo-expansion",
+    "url": "https://github.com",
+    "sectionTitle": "GitHub Skill Discovery",
+    "kind": "community",
+    "descriptionFallback": "Skill discovered from public GitHub repository structure",
+    "maxRepositories": 20,
+    "sourceType": "github-discovery",
+    "trustLevel": "untrusted",
+    "riskFlags": [
+      "github-discovery",
+      "requires-security-review"
+    ]
+  }
+]
