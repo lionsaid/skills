@@ -1,97 +1,10 @@
 {
-  "generatedAt": "2026-06-27T06:13:55.385Z",
+  "generatedAt": "2026-06-27T06:35:18.397Z",
   "roles": [
     {
       "role": "data-analyst",
       "label": "Data Analyst",
       "topSkills": [
-        {
-          "slug": "anthropics-xlsx",
-          "name": "anthropics/xlsx",
-          "publisher": "anthropics",
-          "publisherSlug": "anthropics",
-          "sourceType": "github-readme",
-          "trustLevel": "official",
-          "jobs": [
-            "api-integration",
-            "campaign-planning",
-            "dashboarding",
-            "data-extraction",
-            "deployment-ops",
-            "design-critique",
-            "development-workflows",
-            "presentation-building",
-            "reporting",
-            "spreadsheet-cleaning",
-            "sql-analysis",
-            "testing-debugging",
-            "ui-ux-design",
-            "visual-assets",
-            "workflow-automation"
-          ],
-          "personas": [
-            "consultant",
-            "data-analyst",
-            "designer",
-            "engineer",
-            "researcher"
-          ]
-        },
-        {
-          "slug": "duckdb-query",
-          "name": "duckdb/query",
-          "publisher": "duckdb",
-          "publisherSlug": "duckdb",
-          "sourceType": "github-readme",
-          "trustLevel": "official",
-          "jobs": [
-            "api-integration",
-            "dashboarding",
-            "data-extraction",
-            "deployment-ops",
-            "development-workflows",
-            "reporting",
-            "research-synthesis",
-            "spreadsheet-cleaning",
-            "sql-analysis",
-            "testing-debugging",
-            "workflow-automation"
-          ],
-          "personas": [
-            "consultant",
-            "data-analyst",
-            "engineer",
-            "researcher"
-          ]
-        },
-        {
-          "slug": "duckdb-read-file",
-          "name": "duckdb/read-file",
-          "publisher": "duckdb",
-          "publisherSlug": "duckdb",
-          "sourceType": "github-readme",
-          "trustLevel": "official",
-          "jobs": [
-            "api-integration",
-            "campaign-planning",
-            "dashboarding",
-            "data-extraction",
-            "deployment-ops",
-            "development-workflows",
-            "reporting",
-            "research-synthesis",
-            "spreadsheet-cleaning",
-            "sql-analysis",
-            "testing-debugging",
-            "workflow-automation"
-          ],
-          "personas": [
-            "consultant",
-            "data-analyst",
-            "engineer",
-            "researcher"
-          ]
-        },
         {
           "slug": "supabase-postgres-best-practices",
           "name": "supabase/postgres-best-practices",
@@ -151,34 +64,40 @@
           ]
         },
         {
-          "slug": "anthropics-pdf",
-          "name": "anthropics/pdf",
+          "slug": "anthropics-xlsx",
+          "name": "anthropics/xlsx",
           "publisher": "anthropics",
           "publisherSlug": "anthropics",
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
             "data-extraction",
-            "deployment-ops",
-            "design-critique",
-            "development-workflows",
-            "document-authoring",
-            "presentation-building",
             "reporting",
-            "research-synthesis",
-            "testing-debugging",
-            "ui-ux-design",
-            "visual-assets",
-            "workflow-automation"
+            "spreadsheet-cleaning"
           ],
           "personas": [
             "consultant",
             "data-analyst",
-            "designer",
-            "engineer",
-            "researcher",
-            "support"
+            "researcher"
+          ]
+        },
+        {
+          "slug": "duckdb-query",
+          "name": "duckdb/query",
+          "publisher": "duckdb",
+          "publisherSlug": "duckdb",
+          "sourceType": "github-readme",
+          "trustLevel": "official",
+          "jobs": [
+            "data-extraction",
+            "reporting",
+            "research-synthesis",
+            "sql-analysis"
+          ],
+          "personas": [
+            "consultant",
+            "data-analyst",
+            "researcher"
           ]
         },
         {
@@ -189,20 +108,51 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
-            "campaign-planning",
-            "deployment-ops",
-            "development-workflows",
             "reporting",
             "spreadsheet-cleaning",
-            "testing-debugging",
             "workflow-automation"
           ],
           "personas": [
             "consultant",
             "data-analyst",
-            "engineer",
             "support"
+          ]
+        },
+        {
+          "slug": "anthropics-pdf",
+          "name": "anthropics/pdf",
+          "publisher": "anthropics",
+          "publisherSlug": "anthropics",
+          "sourceType": "github-readme",
+          "trustLevel": "official",
+          "jobs": [
+            "data-extraction",
+            "reporting",
+            "research-synthesis"
+          ],
+          "personas": [
+            "consultant",
+            "data-analyst",
+            "researcher",
+            "support"
+          ]
+        },
+        {
+          "slug": "duckdb-read-file",
+          "name": "duckdb/read-file",
+          "publisher": "duckdb",
+          "publisherSlug": "duckdb",
+          "sourceType": "github-readme",
+          "trustLevel": "official",
+          "jobs": [
+            "data-extraction",
+            "reporting",
+            "research-synthesis"
+          ],
+          "personas": [
+            "consultant",
+            "data-analyst",
+            "researcher"
           ]
         },
         {
@@ -213,16 +163,11 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
             "data-extraction",
-            "deployment-ops",
-            "development-workflows",
             "document-authoring",
-            "testing-debugging",
             "workflow-automation"
           ],
           "personas": [
-            "engineer",
             "researcher",
             "sales",
             "support"
@@ -236,23 +181,12 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
-            "deployment-ops",
-            "design-critique",
-            "development-workflows",
             "document-authoring",
             "prd-specs",
-            "presentation-building",
-            "research-synthesis",
-            "testing-debugging",
-            "ui-ux-design",
-            "visual-assets",
-            "workflow-automation"
+            "research-synthesis"
           ],
           "personas": [
             "consultant",
-            "designer",
-            "engineer",
             "founder",
             "pm",
             "researcher"
@@ -266,22 +200,13 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
             "content-production",
-            "deployment-ops",
-            "design-critique",
-            "development-workflows",
-            "presentation-building",
-            "testing-debugging",
-            "ui-ux-design",
-            "visual-assets",
-            "workflow-automation"
+            "presentation-building"
           ],
           "personas": [
             "consultant",
             "content-creator",
             "designer",
-            "engineer",
             "marketer",
             "pm",
             "sales"
@@ -301,12 +226,8 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
             "deployment-ops",
             "development-workflows",
-            "document-authoring",
-            "testing-debugging",
-            "ui-ux-design",
             "workflow-automation"
           ],
           "personas": [
@@ -323,15 +244,30 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
             "deployment-ops",
             "development-workflows",
-            "testing-debugging",
             "workflow-automation"
           ],
           "personas": [
             "engineer",
             "founder",
+            "ops"
+          ]
+        },
+        {
+          "slug": "openai-gh-fix-ci",
+          "name": "openai/gh-fix-ci",
+          "publisher": "openai",
+          "publisherSlug": "openai",
+          "sourceType": "github-readme",
+          "trustLevel": "official",
+          "jobs": [
+            "deployment-ops",
+            "development-workflows",
+            "testing-debugging"
+          ],
+          "personas": [
+            "engineer",
             "ops"
           ]
         },
@@ -343,12 +279,8 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
             "deployment-ops",
-            "development-workflows",
-            "testing-debugging",
-            "ui-ux-design",
-            "workflow-automation"
+            "development-workflows"
           ],
           "personas": [
             "engineer"
@@ -363,17 +295,9 @@
           "trustLevel": "official",
           "jobs": [
             "api-integration",
-            "deployment-ops",
-            "design-critique",
-            "development-workflows",
-            "presentation-building",
-            "testing-debugging",
-            "ui-ux-design",
-            "visual-assets",
-            "workflow-automation"
+            "development-workflows"
           ],
           "personas": [
-            "designer",
             "engineer"
           ]
         },
@@ -385,18 +309,10 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
-            "deployment-ops",
-            "design-critique",
             "development-workflows",
-            "presentation-building",
-            "testing-debugging",
-            "ui-ux-design",
-            "visual-assets",
-            "workflow-automation"
+            "testing-debugging"
           ],
           "personas": [
-            "designer",
             "engineer"
           ]
         },
@@ -408,68 +324,13 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
-            "dashboarding",
-            "data-extraction",
             "deployment-ops",
-            "development-workflows",
-            "reporting",
-            "research-synthesis",
-            "spreadsheet-cleaning",
-            "sql-analysis",
-            "testing-debugging",
             "workflow-automation"
           ],
           "personas": [
-            "data-analyst",
             "engineer",
             "founder",
             "ops"
-          ]
-        },
-        {
-          "slug": "openai-gh-fix-ci",
-          "name": "openai/gh-fix-ci",
-          "publisher": "openai",
-          "publisherSlug": "openai",
-          "sourceType": "github-readme",
-          "trustLevel": "official",
-          "jobs": [
-            "api-integration",
-            "deployment-ops",
-            "development-workflows",
-            "prd-specs",
-            "testing-debugging",
-            "workflow-automation"
-          ],
-          "personas": [
-            "engineer",
-            "ops"
-          ]
-        },
-        {
-          "slug": "anthropics-frontend-design",
-          "name": "anthropics/frontend-design",
-          "publisher": "anthropics",
-          "publisherSlug": "anthropics",
-          "sourceType": "github-readme",
-          "trustLevel": "official",
-          "jobs": [
-            "api-integration",
-            "deployment-ops",
-            "design-critique",
-            "development-workflows",
-            "landing-pages",
-            "presentation-building",
-            "testing-debugging",
-            "ui-ux-design",
-            "visual-assets",
-            "workflow-automation"
-          ],
-          "personas": [
-            "designer",
-            "engineer",
-            "marketer"
           ]
         },
         {
@@ -481,11 +342,7 @@
           "trustLevel": "official",
           "jobs": [
             "api-integration",
-            "deployment-ops",
-            "development-workflows",
-            "testing-debugging",
-            "ui-ux-design",
-            "workflow-automation"
+            "development-workflows"
           ],
           "personas": [
             "engineer"
@@ -499,17 +356,30 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
-            "deployment-ops",
             "development-workflows",
-            "document-authoring",
-            "landing-pages",
-            "testing-debugging",
-            "workflow-automation"
+            "landing-pages"
           ],
           "personas": [
             "engineer",
             "founder"
+          ]
+        },
+        {
+          "slug": "anthropics-frontend-design",
+          "name": "anthropics/frontend-design",
+          "publisher": "anthropics",
+          "publisherSlug": "anthropics",
+          "sourceType": "github-readme",
+          "trustLevel": "official",
+          "jobs": [
+            "landing-pages",
+            "ui-ux-design",
+            "visual-assets"
+          ],
+          "personas": [
+            "designer",
+            "engineer",
+            "marketer"
           ]
         }
       ]
@@ -622,67 +492,6 @@
           ]
         },
         {
-          "slug": "firecrawl-firecrawl-build",
-          "name": "firecrawl/firecrawl-build",
-          "publisher": "firecrawl",
-          "publisherSlug": "firecrawl",
-          "sourceType": "github-readme",
-          "trustLevel": "official",
-          "jobs": [
-            "api-integration",
-            "deployment-ops",
-            "development-workflows",
-            "planning-roadmapping",
-            "prd-specs",
-            "reporting",
-            "research-synthesis",
-            "testing-debugging",
-            "ui-ux-design",
-            "workflow-automation"
-          ],
-          "personas": [
-            "engineer",
-            "founder",
-            "pm",
-            "researcher"
-          ]
-        },
-        {
-          "slug": "anthropics-internal-comms",
-          "name": "anthropics/internal-comms",
-          "publisher": "anthropics",
-          "publisherSlug": "anthropics",
-          "sourceType": "github-readme",
-          "trustLevel": "official",
-          "jobs": [
-            "api-integration",
-            "campaign-planning",
-            "content-production",
-            "deployment-ops",
-            "design-critique",
-            "development-workflows",
-            "document-authoring",
-            "landing-pages",
-            "prd-specs",
-            "presentation-building",
-            "reporting",
-            "research-synthesis",
-            "testing-debugging",
-            "ui-ux-design",
-            "visual-assets",
-            "workflow-automation"
-          ],
-          "personas": [
-            "content-creator",
-            "designer",
-            "engineer",
-            "founder",
-            "marketer",
-            "pm",
-            "sales"
-          ]
-        },
-        {
           "slug": "googleworkspace-gws-docs",
           "name": "googleworkspace/gws-docs",
           "publisher": "googleworkspace",
@@ -690,21 +499,14 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
-            "campaign-planning",
-            "deployment-ops",
-            "development-workflows",
             "document-authoring",
             "prd-specs",
             "presentation-building",
             "reporting",
-            "research-synthesis",
-            "testing-debugging",
-            "workflow-automation"
+            "research-synthesis"
           ],
           "personas": [
             "consultant",
-            "engineer",
             "founder",
             "pm",
             "researcher",
@@ -712,30 +514,18 @@
           ]
         },
         {
-          "slug": "anthropics-doc-coauthoring",
-          "name": "anthropics/doc-coauthoring",
-          "publisher": "anthropics",
-          "publisherSlug": "anthropics",
+          "slug": "firecrawl-firecrawl-build",
+          "name": "firecrawl/firecrawl-build",
+          "publisher": "firecrawl",
+          "publisherSlug": "firecrawl",
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
-            "deployment-ops",
-            "design-critique",
-            "development-workflows",
-            "document-authoring",
-            "prd-specs",
-            "presentation-building",
+            "planning-roadmapping",
             "research-synthesis",
-            "testing-debugging",
-            "ui-ux-design",
-            "visual-assets",
             "workflow-automation"
           ],
           "personas": [
-            "consultant",
-            "designer",
-            "engineer",
             "founder",
             "pm",
             "researcher"
@@ -749,18 +539,53 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
-            "deployment-ops",
-            "development-workflows",
             "document-authoring",
             "prd-specs",
-            "testing-debugging",
             "workflow-automation"
           ],
           "personas": [
-            "engineer",
             "pm",
             "support"
+          ]
+        },
+        {
+          "slug": "anthropics-doc-coauthoring",
+          "name": "anthropics/doc-coauthoring",
+          "publisher": "anthropics",
+          "publisherSlug": "anthropics",
+          "sourceType": "github-readme",
+          "trustLevel": "official",
+          "jobs": [
+            "document-authoring",
+            "prd-specs",
+            "research-synthesis"
+          ],
+          "personas": [
+            "consultant",
+            "founder",
+            "pm",
+            "researcher"
+          ]
+        },
+        {
+          "slug": "anthropics-internal-comms",
+          "name": "anthropics/internal-comms",
+          "publisher": "anthropics",
+          "publisherSlug": "anthropics",
+          "sourceType": "github-readme",
+          "trustLevel": "official",
+          "jobs": [
+            "campaign-planning",
+            "content-production",
+            "document-authoring",
+            "reporting"
+          ],
+          "personas": [
+            "content-creator",
+            "founder",
+            "marketer",
+            "pm",
+            "sales"
           ]
         }
       ]
@@ -891,83 +716,6 @@
           ]
         },
         {
-          "slug": "anthropics-canvas-design",
-          "name": "anthropics/canvas-design",
-          "publisher": "anthropics",
-          "publisherSlug": "anthropics",
-          "sourceType": "github-readme",
-          "trustLevel": "official",
-          "jobs": [
-            "api-integration",
-            "content-production",
-            "data-extraction",
-            "deployment-ops",
-            "design-critique",
-            "development-workflows",
-            "presentation-building",
-            "testing-debugging",
-            "ui-ux-design",
-            "visual-assets",
-            "workflow-automation"
-          ],
-          "personas": [
-            "content-creator",
-            "designer",
-            "engineer",
-            "marketer"
-          ]
-        },
-        {
-          "slug": "anthropics-frontend-design",
-          "name": "anthropics/frontend-design",
-          "publisher": "anthropics",
-          "publisherSlug": "anthropics",
-          "sourceType": "github-readme",
-          "trustLevel": "official",
-          "jobs": [
-            "api-integration",
-            "deployment-ops",
-            "design-critique",
-            "development-workflows",
-            "landing-pages",
-            "presentation-building",
-            "testing-debugging",
-            "ui-ux-design",
-            "visual-assets",
-            "workflow-automation"
-          ],
-          "personas": [
-            "designer",
-            "engineer",
-            "marketer"
-          ]
-        },
-        {
-          "slug": "anthropics-theme-factory",
-          "name": "anthropics/theme-factory",
-          "publisher": "anthropics",
-          "publisherSlug": "anthropics",
-          "sourceType": "github-readme",
-          "trustLevel": "official",
-          "jobs": [
-            "api-integration",
-            "deployment-ops",
-            "design-critique",
-            "development-workflows",
-            "presentation-building",
-            "testing-debugging",
-            "ui-ux-design",
-            "visual-assets",
-            "workflow-automation"
-          ],
-          "personas": [
-            "consultant",
-            "designer",
-            "engineer",
-            "marketer"
-          ]
-        },
-        {
           "slug": "ehmo-platform-design-skills",
           "name": "ehmo/platform-design-skills",
           "publisher": "ehmo",
@@ -1013,156 +761,6 @@
             "designer",
             "engineer"
           ]
-        }
-      ]
-    },
-    {
-      "role": "marketer",
-      "label": "Marketer",
-      "topSkills": [
-        {
-          "slug": "anthropics-internal-comms",
-          "name": "anthropics/internal-comms",
-          "publisher": "anthropics",
-          "publisherSlug": "anthropics",
-          "sourceType": "github-readme",
-          "trustLevel": "official",
-          "jobs": [
-            "api-integration",
-            "campaign-planning",
-            "content-production",
-            "deployment-ops",
-            "design-critique",
-            "development-workflows",
-            "document-authoring",
-            "landing-pages",
-            "prd-specs",
-            "presentation-building",
-            "reporting",
-            "research-synthesis",
-            "testing-debugging",
-            "ui-ux-design",
-            "visual-assets",
-            "workflow-automation"
-          ],
-          "personas": [
-            "content-creator",
-            "designer",
-            "engineer",
-            "founder",
-            "marketer",
-            "pm",
-            "sales"
-          ]
-        },
-        {
-          "slug": "firecrawl-firecrawl-build-search",
-          "name": "firecrawl/firecrawl-build-search",
-          "publisher": "firecrawl",
-          "publisherSlug": "firecrawl",
-          "sourceType": "github-readme",
-          "trustLevel": "official",
-          "jobs": [
-            "api-integration",
-            "campaign-planning",
-            "content-production",
-            "dashboarding",
-            "data-extraction",
-            "deployment-ops",
-            "development-workflows",
-            "landing-pages",
-            "reporting",
-            "research-synthesis",
-            "spreadsheet-cleaning",
-            "sql-analysis",
-            "testing-debugging",
-            "ui-ux-design",
-            "workflow-automation"
-          ],
-          "personas": [
-            "content-creator",
-            "data-analyst",
-            "engineer",
-            "marketer",
-            "researcher"
-          ]
-        },
-        {
-          "slug": "sanity-io-seo-aeo-best-practices",
-          "name": "sanity-io/seo-aeo-best-practices",
-          "publisher": "sanity-io",
-          "publisherSlug": "sanity-io",
-          "sourceType": "github-readme",
-          "trustLevel": "official",
-          "jobs": [
-            "api-integration",
-            "campaign-planning",
-            "content-production",
-            "deployment-ops",
-            "development-workflows",
-            "landing-pages",
-            "reporting",
-            "research-synthesis",
-            "testing-debugging",
-            "workflow-automation"
-          ],
-          "personas": [
-            "content-creator",
-            "engineer",
-            "marketer"
-          ]
-        },
-        {
-          "slug": "typefully-typefully",
-          "name": "typefully/typefully",
-          "publisher": "typefully",
-          "publisherSlug": "typefully",
-          "sourceType": "github-readme",
-          "trustLevel": "official",
-          "jobs": [
-            "api-integration",
-            "campaign-planning",
-            "content-production",
-            "deployment-ops",
-            "development-workflows",
-            "landing-pages",
-            "reporting",
-            "research-synthesis",
-            "testing-debugging",
-            "workflow-automation"
-          ],
-          "personas": [
-            "content-creator",
-            "engineer",
-            "marketer"
-          ]
-        },
-        {
-          "slug": "anthropics-canvas-design",
-          "name": "anthropics/canvas-design",
-          "publisher": "anthropics",
-          "publisherSlug": "anthropics",
-          "sourceType": "github-readme",
-          "trustLevel": "official",
-          "jobs": [
-            "api-integration",
-            "content-production",
-            "data-extraction",
-            "deployment-ops",
-            "design-critique",
-            "development-workflows",
-            "presentation-building",
-            "testing-debugging",
-            "ui-ux-design",
-            "visual-assets",
-            "workflow-automation"
-          ],
-          "personas": [
-            "content-creator",
-            "designer",
-            "engineer",
-            "marketer"
-          ]
         },
         {
           "slug": "anthropics-frontend-design",
@@ -1172,16 +770,9 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
-            "deployment-ops",
-            "design-critique",
-            "development-workflows",
             "landing-pages",
-            "presentation-building",
-            "testing-debugging",
             "ui-ux-design",
-            "visual-assets",
-            "workflow-automation"
+            "visual-assets"
           ],
           "personas": [
             "designer",
@@ -1197,20 +788,161 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
-            "deployment-ops",
-            "design-critique",
-            "development-workflows",
             "presentation-building",
-            "testing-debugging",
-            "ui-ux-design",
-            "visual-assets",
-            "workflow-automation"
+            "visual-assets"
           ],
           "personas": [
             "consultant",
             "designer",
+            "marketer"
+          ]
+        },
+        {
+          "slug": "anthropics-canvas-design",
+          "name": "anthropics/canvas-design",
+          "publisher": "anthropics",
+          "publisherSlug": "anthropics",
+          "sourceType": "github-readme",
+          "trustLevel": "official",
+          "jobs": [
+            "content-production",
+            "visual-assets"
+          ],
+          "personas": [
+            "content-creator",
+            "designer",
+            "marketer"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "marketer",
+      "label": "Marketer",
+      "topSkills": [
+        {
+          "slug": "firecrawl-firecrawl-build-search",
+          "name": "firecrawl/firecrawl-build-search",
+          "publisher": "firecrawl",
+          "publisherSlug": "firecrawl",
+          "sourceType": "github-readme",
+          "trustLevel": "official",
+          "jobs": [
+            "campaign-planning",
+            "content-production",
+            "landing-pages",
+            "research-synthesis"
+          ],
+          "personas": [
+            "content-creator",
+            "marketer",
+            "researcher"
+          ]
+        },
+        {
+          "slug": "anthropics-internal-comms",
+          "name": "anthropics/internal-comms",
+          "publisher": "anthropics",
+          "publisherSlug": "anthropics",
+          "sourceType": "github-readme",
+          "trustLevel": "official",
+          "jobs": [
+            "campaign-planning",
+            "content-production",
+            "document-authoring",
+            "reporting"
+          ],
+          "personas": [
+            "content-creator",
+            "founder",
+            "marketer",
+            "pm",
+            "sales"
+          ]
+        },
+        {
+          "slug": "sanity-io-seo-aeo-best-practices",
+          "name": "sanity-io/seo-aeo-best-practices",
+          "publisher": "sanity-io",
+          "publisherSlug": "sanity-io",
+          "sourceType": "github-readme",
+          "trustLevel": "official",
+          "jobs": [
+            "campaign-planning",
+            "content-production",
+            "landing-pages"
+          ],
+          "personas": [
+            "content-creator",
+            "marketer"
+          ]
+        },
+        {
+          "slug": "typefully-typefully",
+          "name": "typefully/typefully",
+          "publisher": "typefully",
+          "publisherSlug": "typefully",
+          "sourceType": "github-readme",
+          "trustLevel": "official",
+          "jobs": [
+            "campaign-planning",
+            "content-production",
+            "workflow-automation"
+          ],
+          "personas": [
+            "content-creator",
+            "marketer"
+          ]
+        },
+        {
+          "slug": "anthropics-canvas-design",
+          "name": "anthropics/canvas-design",
+          "publisher": "anthropics",
+          "publisherSlug": "anthropics",
+          "sourceType": "github-readme",
+          "trustLevel": "official",
+          "jobs": [
+            "content-production",
+            "visual-assets"
+          ],
+          "personas": [
+            "content-creator",
+            "designer",
+            "marketer"
+          ]
+        },
+        {
+          "slug": "anthropics-frontend-design",
+          "name": "anthropics/frontend-design",
+          "publisher": "anthropics",
+          "publisherSlug": "anthropics",
+          "sourceType": "github-readme",
+          "trustLevel": "official",
+          "jobs": [
+            "landing-pages",
+            "ui-ux-design",
+            "visual-assets"
+          ],
+          "personas": [
+            "designer",
             "engineer",
+            "marketer"
+          ]
+        },
+        {
+          "slug": "anthropics-theme-factory",
+          "name": "anthropics/theme-factory",
+          "publisher": "anthropics",
+          "publisherSlug": "anthropics",
+          "sourceType": "github-readme",
+          "trustLevel": "official",
+          "jobs": [
+            "presentation-building",
+            "visual-assets"
+          ],
+          "personas": [
+            "consultant",
+            "designer",
             "marketer"
           ]
         },
@@ -1222,21 +954,14 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
-            "campaign-planning",
-            "deployment-ops",
-            "development-workflows",
             "document-authoring",
             "prd-specs",
             "presentation-building",
             "reporting",
-            "research-synthesis",
-            "testing-debugging",
-            "workflow-automation"
+            "research-synthesis"
           ],
           "personas": [
             "consultant",
-            "engineer",
             "founder",
             "pm",
             "researcher",
@@ -1251,54 +976,34 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
-            "campaign-planning",
             "content-production",
-            "deployment-ops",
-            "development-workflows",
             "presentation-building",
-            "reporting",
-            "testing-debugging",
-            "workflow-automation"
+            "reporting"
           ],
           "personas": [
             "consultant",
             "content-creator",
             "designer",
-            "engineer",
             "pm",
             "sales"
           ]
         },
         {
-          "slug": "anthropics-xlsx",
-          "name": "anthropics/xlsx",
+          "slug": "anthropics-doc-coauthoring",
+          "name": "anthropics/doc-coauthoring",
           "publisher": "anthropics",
           "publisherSlug": "anthropics",
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
-            "campaign-planning",
-            "dashboarding",
-            "data-extraction",
-            "deployment-ops",
-            "design-critique",
-            "development-workflows",
-            "presentation-building",
-            "reporting",
-            "spreadsheet-cleaning",
-            "sql-analysis",
-            "testing-debugging",
-            "ui-ux-design",
-            "visual-assets",
-            "workflow-automation"
+            "document-authoring",
+            "prd-specs",
+            "research-synthesis"
           ],
           "personas": [
             "consultant",
-            "data-analyst",
-            "designer",
-            "engineer",
+            "founder",
+            "pm",
             "researcher"
           ]
         }
@@ -1316,10 +1021,8 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
             "deployment-ops",
             "development-workflows",
-            "testing-debugging",
             "workflow-automation"
           ],
           "personas": [
@@ -1336,11 +1039,9 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
             "deployment-ops",
             "development-workflows",
-            "testing-debugging",
-            "workflow-automation"
+            "testing-debugging"
           ],
           "personas": [
             "engineer",
@@ -1355,20 +1056,10 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
-            "dashboarding",
-            "data-extraction",
             "deployment-ops",
-            "development-workflows",
-            "reporting",
-            "research-synthesis",
-            "spreadsheet-cleaning",
-            "sql-analysis",
-            "testing-debugging",
             "workflow-automation"
           ],
           "personas": [
-            "data-analyst",
             "engineer",
             "founder",
             "ops"
@@ -1382,12 +1073,8 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
             "deployment-ops",
             "development-workflows",
-            "document-authoring",
-            "testing-debugging",
-            "ui-ux-design",
             "workflow-automation"
           ],
           "personas": [
@@ -1404,12 +1091,9 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
             "deployment-ops",
             "development-workflows",
-            "prd-specs",
-            "testing-debugging",
-            "workflow-automation"
+            "testing-debugging"
           ],
           "personas": [
             "engineer",
@@ -1424,12 +1108,8 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
             "deployment-ops",
-            "development-workflows",
-            "testing-debugging",
-            "ui-ux-design",
-            "workflow-automation"
+            "development-workflows"
           ],
           "personas": [
             "engineer"
@@ -1444,17 +1124,9 @@
           "trustLevel": "official",
           "jobs": [
             "api-integration",
-            "deployment-ops",
-            "design-critique",
-            "development-workflows",
-            "presentation-building",
-            "testing-debugging",
-            "ui-ux-design",
-            "visual-assets",
-            "workflow-automation"
+            "development-workflows"
           ],
           "personas": [
-            "designer",
             "engineer"
           ]
         },
@@ -1466,18 +1138,10 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
-            "deployment-ops",
-            "design-critique",
             "development-workflows",
-            "presentation-building",
-            "testing-debugging",
-            "ui-ux-design",
-            "visual-assets",
-            "workflow-automation"
+            "testing-debugging"
           ],
           "personas": [
-            "designer",
             "engineer"
           ]
         },
@@ -1489,11 +1153,7 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
             "deployment-ops",
-            "development-workflows",
-            "prd-specs",
-            "testing-debugging",
             "workflow-automation"
           ],
           "personas": [
@@ -1534,56 +1194,15 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
             "data-extraction",
-            "deployment-ops",
-            "design-critique",
-            "development-workflows",
-            "document-authoring",
-            "presentation-building",
             "reporting",
-            "research-synthesis",
-            "testing-debugging",
-            "ui-ux-design",
-            "visual-assets",
-            "workflow-automation"
+            "research-synthesis"
           ],
           "personas": [
             "consultant",
             "data-analyst",
-            "designer",
-            "engineer",
             "researcher",
             "support"
-          ]
-        },
-        {
-          "slug": "anthropics-docx",
-          "name": "anthropics/docx",
-          "publisher": "anthropics",
-          "publisherSlug": "anthropics",
-          "sourceType": "github-readme",
-          "trustLevel": "official",
-          "jobs": [
-            "api-integration",
-            "data-extraction",
-            "deployment-ops",
-            "design-critique",
-            "development-workflows",
-            "document-authoring",
-            "presentation-building",
-            "research-synthesis",
-            "testing-debugging",
-            "ui-ux-design",
-            "visual-assets",
-            "workflow-automation"
-          ],
-          "personas": [
-            "consultant",
-            "designer",
-            "engineer",
-            "researcher",
-            "sales"
           ]
         },
         {
@@ -1594,55 +1213,13 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
-            "campaign-planning",
-            "dashboarding",
             "data-extraction",
-            "deployment-ops",
-            "development-workflows",
             "reporting",
-            "research-synthesis",
-            "spreadsheet-cleaning",
-            "sql-analysis",
-            "testing-debugging",
-            "workflow-automation"
+            "research-synthesis"
           ],
           "personas": [
             "consultant",
             "data-analyst",
-            "engineer",
-            "researcher"
-          ]
-        },
-        {
-          "slug": "firecrawl-firecrawl-build-search",
-          "name": "firecrawl/firecrawl-build-search",
-          "publisher": "firecrawl",
-          "publisherSlug": "firecrawl",
-          "sourceType": "github-readme",
-          "trustLevel": "official",
-          "jobs": [
-            "api-integration",
-            "campaign-planning",
-            "content-production",
-            "dashboarding",
-            "data-extraction",
-            "deployment-ops",
-            "development-workflows",
-            "landing-pages",
-            "reporting",
-            "research-synthesis",
-            "spreadsheet-cleaning",
-            "sql-analysis",
-            "testing-debugging",
-            "ui-ux-design",
-            "workflow-automation"
-          ],
-          "personas": [
-            "content-creator",
-            "data-analyst",
-            "engineer",
-            "marketer",
             "researcher"
           ]
         },
@@ -1654,21 +1231,14 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
-            "campaign-planning",
-            "deployment-ops",
-            "development-workflows",
             "document-authoring",
             "prd-specs",
             "presentation-building",
             "reporting",
-            "research-synthesis",
-            "testing-debugging",
-            "workflow-automation"
+            "research-synthesis"
           ],
           "personas": [
             "consultant",
-            "engineer",
             "founder",
             "pm",
             "researcher",
@@ -1683,26 +1253,32 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
-            "deployment-ops",
-            "design-critique",
-            "development-workflows",
             "document-authoring",
             "prd-specs",
-            "presentation-building",
-            "research-synthesis",
-            "testing-debugging",
-            "ui-ux-design",
-            "visual-assets",
-            "workflow-automation"
+            "research-synthesis"
           ],
           "personas": [
             "consultant",
-            "designer",
-            "engineer",
             "founder",
             "pm",
             "researcher"
+          ]
+        },
+        {
+          "slug": "anthropics-docx",
+          "name": "anthropics/docx",
+          "publisher": "anthropics",
+          "publisherSlug": "anthropics",
+          "sourceType": "github-readme",
+          "trustLevel": "official",
+          "jobs": [
+            "document-authoring",
+            "research-synthesis"
+          ],
+          "personas": [
+            "consultant",
+            "researcher",
+            "sales"
           ]
         },
         {
@@ -1713,27 +1289,32 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
-            "campaign-planning",
-            "dashboarding",
             "data-extraction",
-            "deployment-ops",
-            "design-critique",
-            "development-workflows",
-            "presentation-building",
             "reporting",
-            "spreadsheet-cleaning",
-            "sql-analysis",
-            "testing-debugging",
-            "ui-ux-design",
-            "visual-assets",
-            "workflow-automation"
+            "spreadsheet-cleaning"
           ],
           "personas": [
             "consultant",
             "data-analyst",
-            "designer",
-            "engineer",
+            "researcher"
+          ]
+        },
+        {
+          "slug": "firecrawl-firecrawl-build-search",
+          "name": "firecrawl/firecrawl-build-search",
+          "publisher": "firecrawl",
+          "publisherSlug": "firecrawl",
+          "sourceType": "github-readme",
+          "trustLevel": "official",
+          "jobs": [
+            "campaign-planning",
+            "content-production",
+            "landing-pages",
+            "research-synthesis"
+          ],
+          "personas": [
+            "content-creator",
+            "marketer",
             "researcher"
           ]
         },
@@ -1745,22 +1326,13 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
             "content-production",
-            "deployment-ops",
-            "design-critique",
-            "development-workflows",
-            "presentation-building",
-            "testing-debugging",
-            "ui-ux-design",
-            "visual-assets",
-            "workflow-automation"
+            "presentation-building"
           ],
           "personas": [
             "consultant",
             "content-creator",
             "designer",
-            "engineer",
             "marketer",
             "pm",
             "sales"
@@ -1774,47 +1346,32 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
             "data-extraction",
-            "deployment-ops",
-            "development-workflows",
             "document-authoring",
-            "planning-roadmapping",
-            "prd-specs",
-            "reporting",
-            "research-synthesis",
-            "testing-debugging",
-            "ui-ux-design",
             "workflow-automation"
           ],
           "personas": [
-            "engineer",
-            "pm",
             "researcher",
             "support"
           ]
         },
         {
-          "slug": "googleworkspace-gws-drive",
-          "name": "googleworkspace/gws-drive",
-          "publisher": "googleworkspace",
-          "publisherSlug": "googleworkspace",
+          "slug": "duckdb-query",
+          "name": "duckdb/query",
+          "publisher": "duckdb",
+          "publisherSlug": "duckdb",
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
             "data-extraction",
-            "deployment-ops",
-            "development-workflows",
-            "document-authoring",
-            "testing-debugging",
-            "workflow-automation"
+            "reporting",
+            "research-synthesis",
+            "sql-analysis"
           ],
           "personas": [
-            "engineer",
-            "researcher",
-            "sales",
-            "support"
+            "consultant",
+            "data-analyst",
+            "researcher"
           ]
         }
       ]
@@ -1934,41 +1491,6 @@
           ]
         },
         {
-          "slug": "anthropics-internal-comms",
-          "name": "anthropics/internal-comms",
-          "publisher": "anthropics",
-          "publisherSlug": "anthropics",
-          "sourceType": "github-readme",
-          "trustLevel": "official",
-          "jobs": [
-            "api-integration",
-            "campaign-planning",
-            "content-production",
-            "deployment-ops",
-            "design-critique",
-            "development-workflows",
-            "document-authoring",
-            "landing-pages",
-            "prd-specs",
-            "presentation-building",
-            "reporting",
-            "research-synthesis",
-            "testing-debugging",
-            "ui-ux-design",
-            "visual-assets",
-            "workflow-automation"
-          ],
-          "personas": [
-            "content-creator",
-            "designer",
-            "engineer",
-            "founder",
-            "marketer",
-            "pm",
-            "sales"
-          ]
-        },
-        {
           "slug": "firecrawl-firecrawl-build",
           "name": "firecrawl/firecrawl-build",
           "publisher": "firecrawl",
@@ -1976,19 +1498,11 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
-            "deployment-ops",
-            "development-workflows",
             "planning-roadmapping",
-            "prd-specs",
-            "reporting",
             "research-synthesis",
-            "testing-debugging",
-            "ui-ux-design",
             "workflow-automation"
           ],
           "personas": [
-            "engineer",
             "founder",
             "pm",
             "researcher"
@@ -2002,21 +1516,14 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
-            "campaign-planning",
-            "deployment-ops",
-            "development-workflows",
             "document-authoring",
             "prd-specs",
             "presentation-building",
             "reporting",
-            "research-synthesis",
-            "testing-debugging",
-            "workflow-automation"
+            "research-synthesis"
           ],
           "personas": [
             "consultant",
-            "engineer",
             "founder",
             "pm",
             "researcher",
@@ -2031,17 +1538,33 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
-            "deployment-ops",
             "development-workflows",
-            "document-authoring",
-            "landing-pages",
-            "testing-debugging",
-            "workflow-automation"
+            "landing-pages"
           ],
           "personas": [
             "engineer",
             "founder"
+          ]
+        },
+        {
+          "slug": "anthropics-internal-comms",
+          "name": "anthropics/internal-comms",
+          "publisher": "anthropics",
+          "publisherSlug": "anthropics",
+          "sourceType": "github-readme",
+          "trustLevel": "official",
+          "jobs": [
+            "campaign-planning",
+            "content-production",
+            "document-authoring",
+            "reporting"
+          ],
+          "personas": [
+            "content-creator",
+            "founder",
+            "marketer",
+            "pm",
+            "sales"
           ]
         },
         {
@@ -2151,52 +1674,16 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
-            "campaign-planning",
-            "deployment-ops",
-            "development-workflows",
             "document-authoring",
             "prd-specs",
             "presentation-building",
             "reporting",
-            "research-synthesis",
-            "testing-debugging",
-            "workflow-automation"
+            "research-synthesis"
           ],
           "personas": [
             "consultant",
-            "engineer",
             "founder",
             "pm",
-            "researcher",
-            "sales"
-          ]
-        },
-        {
-          "slug": "anthropics-docx",
-          "name": "anthropics/docx",
-          "publisher": "anthropics",
-          "publisherSlug": "anthropics",
-          "sourceType": "github-readme",
-          "trustLevel": "official",
-          "jobs": [
-            "api-integration",
-            "data-extraction",
-            "deployment-ops",
-            "design-critique",
-            "development-workflows",
-            "document-authoring",
-            "presentation-building",
-            "research-synthesis",
-            "testing-debugging",
-            "ui-ux-design",
-            "visual-assets",
-            "workflow-automation"
-          ],
-          "personas": [
-            "consultant",
-            "designer",
-            "engineer",
             "researcher",
             "sales"
           ]
@@ -2209,19 +1696,12 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
             "content-production",
-            "data-extraction",
-            "deployment-ops",
-            "development-workflows",
             "document-authoring",
-            "reporting",
-            "testing-debugging",
             "workflow-automation"
           ],
           "personas": [
             "content-creator",
-            "engineer",
             "sales",
             "support"
           ]
@@ -2234,50 +1714,14 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
-            "campaign-planning",
             "content-production",
-            "deployment-ops",
-            "development-workflows",
             "presentation-building",
-            "reporting",
-            "testing-debugging",
-            "workflow-automation"
+            "reporting"
           ],
           "personas": [
             "consultant",
             "content-creator",
             "designer",
-            "engineer",
-            "pm",
-            "sales"
-          ]
-        },
-        {
-          "slug": "anthropics-pptx",
-          "name": "anthropics/pptx",
-          "publisher": "anthropics",
-          "publisherSlug": "anthropics",
-          "sourceType": "github-readme",
-          "trustLevel": "official",
-          "jobs": [
-            "api-integration",
-            "content-production",
-            "deployment-ops",
-            "design-critique",
-            "development-workflows",
-            "presentation-building",
-            "testing-debugging",
-            "ui-ux-design",
-            "visual-assets",
-            "workflow-automation"
-          ],
-          "personas": [
-            "consultant",
-            "content-creator",
-            "designer",
-            "engineer",
-            "marketer",
             "pm",
             "sales"
           ]
@@ -2308,6 +1752,43 @@
             "engineer",
             "founder",
             "marketer",
+            "sales"
+          ]
+        },
+        {
+          "slug": "anthropics-docx",
+          "name": "anthropics/docx",
+          "publisher": "anthropics",
+          "publisherSlug": "anthropics",
+          "sourceType": "github-readme",
+          "trustLevel": "official",
+          "jobs": [
+            "document-authoring",
+            "research-synthesis"
+          ],
+          "personas": [
+            "consultant",
+            "researcher",
+            "sales"
+          ]
+        },
+        {
+          "slug": "anthropics-pptx",
+          "name": "anthropics/pptx",
+          "publisher": "anthropics",
+          "publisherSlug": "anthropics",
+          "sourceType": "github-readme",
+          "trustLevel": "official",
+          "jobs": [
+            "content-production",
+            "presentation-building"
+          ],
+          "personas": [
+            "consultant",
+            "content-creator",
+            "designer",
+            "marketer",
+            "pm",
             "sales"
           ]
         },
@@ -2384,62 +1865,6 @@
           ]
         },
         {
-          "slug": "anthropics-pdf",
-          "name": "anthropics/pdf",
-          "publisher": "anthropics",
-          "publisherSlug": "anthropics",
-          "sourceType": "github-readme",
-          "trustLevel": "official",
-          "jobs": [
-            "api-integration",
-            "data-extraction",
-            "deployment-ops",
-            "design-critique",
-            "development-workflows",
-            "document-authoring",
-            "presentation-building",
-            "reporting",
-            "research-synthesis",
-            "testing-debugging",
-            "ui-ux-design",
-            "visual-assets",
-            "workflow-automation"
-          ],
-          "personas": [
-            "consultant",
-            "data-analyst",
-            "designer",
-            "engineer",
-            "researcher",
-            "support"
-          ]
-        },
-        {
-          "slug": "googleworkspace-gws-gmail",
-          "name": "googleworkspace/gws-gmail",
-          "publisher": "googleworkspace",
-          "publisherSlug": "googleworkspace",
-          "sourceType": "github-readme",
-          "trustLevel": "official",
-          "jobs": [
-            "api-integration",
-            "content-production",
-            "data-extraction",
-            "deployment-ops",
-            "development-workflows",
-            "document-authoring",
-            "reporting",
-            "testing-debugging",
-            "workflow-automation"
-          ],
-          "personas": [
-            "content-creator",
-            "engineer",
-            "sales",
-            "support"
-          ]
-        },
-        {
           "slug": "lamelas-himalaya",
           "name": "lamelas/himalaya",
           "publisher": "lamelas",
@@ -2458,6 +1883,43 @@
           ]
         },
         {
+          "slug": "anthropics-pdf",
+          "name": "anthropics/pdf",
+          "publisher": "anthropics",
+          "publisherSlug": "anthropics",
+          "sourceType": "github-readme",
+          "trustLevel": "official",
+          "jobs": [
+            "data-extraction",
+            "reporting",
+            "research-synthesis"
+          ],
+          "personas": [
+            "consultant",
+            "data-analyst",
+            "researcher",
+            "support"
+          ]
+        },
+        {
+          "slug": "googleworkspace-gws-gmail",
+          "name": "googleworkspace/gws-gmail",
+          "publisher": "googleworkspace",
+          "publisherSlug": "googleworkspace",
+          "sourceType": "github-readme",
+          "trustLevel": "official",
+          "jobs": [
+            "content-production",
+            "document-authoring",
+            "workflow-automation"
+          ],
+          "personas": [
+            "content-creator",
+            "sales",
+            "support"
+          ]
+        },
+        {
           "slug": "firecrawl-firecrawl-build-interact",
           "name": "firecrawl/firecrawl-build-interact",
           "publisher": "firecrawl",
@@ -2465,22 +1927,11 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
             "data-extraction",
-            "deployment-ops",
-            "development-workflows",
             "document-authoring",
-            "planning-roadmapping",
-            "prd-specs",
-            "reporting",
-            "research-synthesis",
-            "testing-debugging",
-            "ui-ux-design",
             "workflow-automation"
           ],
           "personas": [
-            "engineer",
-            "pm",
             "researcher",
             "support"
           ]
@@ -2493,16 +1944,11 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
             "data-extraction",
-            "deployment-ops",
-            "development-workflows",
             "document-authoring",
-            "testing-debugging",
             "workflow-automation"
           ],
           "personas": [
-            "engineer",
             "researcher",
             "sales",
             "support"
@@ -2516,23 +1962,11 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
-            "data-extraction",
-            "deployment-ops",
-            "design-critique",
-            "development-workflows",
             "document-authoring",
-            "presentation-building",
-            "research-synthesis",
-            "testing-debugging",
-            "ui-ux-design",
-            "visual-assets",
-            "workflow-automation"
+            "research-synthesis"
           ],
           "personas": [
             "consultant",
-            "designer",
-            "engineer",
             "researcher",
             "sales"
           ]
@@ -2555,10 +1989,10 @@
           ]
         },
         {
-          "slug": "wscats-resume-assistant",
-          "name": "wscats/resume-assistant",
-          "publisher": "wscats",
-          "publisherSlug": "wscats",
+          "slug": "oswalpalash-ontology",
+          "name": "oswalpalash/ontology",
+          "publisher": "oswalpalash",
+          "publisherSlug": "oswalpalash",
           "sourceType": "marketplace",
           "trustLevel": "untrusted",
           "jobs": [
@@ -2585,20 +2019,12 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
             "campaign-planning",
             "content-production",
-            "deployment-ops",
-            "development-workflows",
-            "landing-pages",
-            "reporting",
-            "research-synthesis",
-            "testing-debugging",
-            "workflow-automation"
+            "landing-pages"
           ],
           "personas": [
             "content-creator",
-            "engineer",
             "marketer"
           ]
         },
@@ -2610,26 +2036,13 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
             "campaign-planning",
             "content-production",
-            "dashboarding",
-            "data-extraction",
-            "deployment-ops",
-            "development-workflows",
             "landing-pages",
-            "reporting",
-            "research-synthesis",
-            "spreadsheet-cleaning",
-            "sql-analysis",
-            "testing-debugging",
-            "ui-ux-design",
-            "workflow-automation"
+            "research-synthesis"
           ],
           "personas": [
             "content-creator",
-            "data-analyst",
-            "engineer",
             "marketer",
             "researcher"
           ]
@@ -2642,20 +2055,12 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
             "campaign-planning",
             "content-production",
-            "deployment-ops",
-            "development-workflows",
-            "landing-pages",
-            "reporting",
-            "research-synthesis",
-            "testing-debugging",
             "workflow-automation"
           ],
           "personas": [
             "content-creator",
-            "engineer",
             "marketer"
           ]
         },
@@ -2667,22 +2072,12 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
             "content-production",
-            "data-extraction",
-            "deployment-ops",
-            "design-critique",
-            "development-workflows",
-            "presentation-building",
-            "testing-debugging",
-            "ui-ux-design",
-            "visual-assets",
-            "workflow-automation"
+            "visual-assets"
           ],
           "personas": [
             "content-creator",
             "designer",
-            "engineer",
             "marketer"
           ]
         },
@@ -2694,22 +2089,13 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
             "content-production",
-            "deployment-ops",
-            "design-critique",
-            "development-workflows",
-            "presentation-building",
-            "testing-debugging",
-            "ui-ux-design",
-            "visual-assets",
-            "workflow-automation"
+            "presentation-building"
           ],
           "personas": [
             "consultant",
             "content-creator",
             "designer",
-            "engineer",
             "marketer",
             "pm",
             "sales"
@@ -2723,16 +2109,9 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
-            "deployment-ops",
-            "design-critique",
-            "development-workflows",
             "landing-pages",
-            "presentation-building",
-            "testing-debugging",
             "ui-ux-design",
-            "visual-assets",
-            "workflow-automation"
+            "visual-assets"
           ],
           "personas": [
             "designer",
@@ -2771,20 +2150,12 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
-            "deployment-ops",
-            "design-critique",
-            "development-workflows",
             "presentation-building",
-            "testing-debugging",
-            "ui-ux-design",
-            "visual-assets",
-            "workflow-automation"
+            "visual-assets"
           ],
           "personas": [
             "consultant",
             "designer",
-            "engineer",
             "marketer"
           ]
         },
@@ -2796,30 +2167,12 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
             "campaign-planning",
             "content-production",
-            "dashboarding",
-            "data-extraction",
-            "deployment-ops",
-            "design-critique",
-            "development-workflows",
-            "landing-pages",
-            "presentation-building",
-            "reporting",
-            "research-synthesis",
-            "spreadsheet-cleaning",
-            "sql-analysis",
-            "testing-debugging",
-            "ui-ux-design",
-            "visual-assets",
-            "workflow-automation"
+            "landing-pages"
           ],
           "personas": [
             "content-creator",
-            "data-analyst",
-            "designer",
-            "engineer",
             "marketer"
           ]
         },
@@ -2831,19 +2184,12 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
             "content-production",
-            "data-extraction",
-            "deployment-ops",
-            "development-workflows",
             "document-authoring",
-            "reporting",
-            "testing-debugging",
             "workflow-automation"
           ],
           "personas": [
             "content-creator",
-            "engineer",
             "sales",
             "support"
           ]
@@ -2855,37 +2201,6 @@
       "label": "Consultant",
       "topSkills": [
         {
-          "slug": "anthropics-pdf",
-          "name": "anthropics/pdf",
-          "publisher": "anthropics",
-          "publisherSlug": "anthropics",
-          "sourceType": "github-readme",
-          "trustLevel": "official",
-          "jobs": [
-            "api-integration",
-            "data-extraction",
-            "deployment-ops",
-            "design-critique",
-            "development-workflows",
-            "document-authoring",
-            "presentation-building",
-            "reporting",
-            "research-synthesis",
-            "testing-debugging",
-            "ui-ux-design",
-            "visual-assets",
-            "workflow-automation"
-          ],
-          "personas": [
-            "consultant",
-            "data-analyst",
-            "designer",
-            "engineer",
-            "researcher",
-            "support"
-          ]
-        },
-        {
           "slug": "googleworkspace-gws-docs",
           "name": "googleworkspace/gws-docs",
           "publisher": "googleworkspace",
@@ -2893,24 +2208,37 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
-            "campaign-planning",
-            "deployment-ops",
-            "development-workflows",
             "document-authoring",
             "prd-specs",
             "presentation-building",
             "reporting",
-            "research-synthesis",
-            "testing-debugging",
-            "workflow-automation"
+            "research-synthesis"
           ],
           "personas": [
             "consultant",
-            "engineer",
             "founder",
             "pm",
             "researcher",
+            "sales"
+          ]
+        },
+        {
+          "slug": "googleworkspace-gws-slides",
+          "name": "googleworkspace/gws-slides",
+          "publisher": "googleworkspace",
+          "publisherSlug": "googleworkspace",
+          "sourceType": "github-readme",
+          "trustLevel": "official",
+          "jobs": [
+            "content-production",
+            "presentation-building",
+            "reporting"
+          ],
+          "personas": [
+            "consultant",
+            "content-creator",
+            "designer",
+            "pm",
             "sales"
           ]
         },
@@ -2922,23 +2250,12 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
-            "deployment-ops",
-            "design-critique",
-            "development-workflows",
             "document-authoring",
             "prd-specs",
-            "presentation-building",
-            "research-synthesis",
-            "testing-debugging",
-            "ui-ux-design",
-            "visual-assets",
-            "workflow-automation"
+            "research-synthesis"
           ],
           "personas": [
             "consultant",
-            "designer",
-            "engineer",
             "founder",
             "pm",
             "researcher"
@@ -2952,52 +2269,32 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
-            "data-extraction",
-            "deployment-ops",
-            "design-critique",
-            "development-workflows",
             "document-authoring",
-            "presentation-building",
-            "research-synthesis",
-            "testing-debugging",
-            "ui-ux-design",
-            "visual-assets",
-            "workflow-automation"
+            "research-synthesis"
           ],
           "personas": [
             "consultant",
-            "designer",
-            "engineer",
             "researcher",
             "sales"
           ]
         },
         {
-          "slug": "googleworkspace-gws-slides",
-          "name": "googleworkspace/gws-slides",
-          "publisher": "googleworkspace",
-          "publisherSlug": "googleworkspace",
+          "slug": "anthropics-pdf",
+          "name": "anthropics/pdf",
+          "publisher": "anthropics",
+          "publisherSlug": "anthropics",
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
-            "campaign-planning",
-            "content-production",
-            "deployment-ops",
-            "development-workflows",
-            "presentation-building",
+            "data-extraction",
             "reporting",
-            "testing-debugging",
-            "workflow-automation"
+            "research-synthesis"
           ],
           "personas": [
             "consultant",
-            "content-creator",
-            "designer",
-            "engineer",
-            "pm",
-            "sales"
+            "data-analyst",
+            "researcher",
+            "support"
           ]
         },
         {
@@ -3008,22 +2305,14 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
-            "dashboarding",
             "data-extraction",
-            "deployment-ops",
-            "development-workflows",
             "reporting",
             "research-synthesis",
-            "spreadsheet-cleaning",
-            "sql-analysis",
-            "testing-debugging",
-            "workflow-automation"
+            "sql-analysis"
           ],
           "personas": [
             "consultant",
             "data-analyst",
-            "engineer",
             "researcher"
           ]
         },
@@ -3035,22 +2324,13 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
             "content-production",
-            "deployment-ops",
-            "design-critique",
-            "development-workflows",
-            "presentation-building",
-            "testing-debugging",
-            "ui-ux-design",
-            "visual-assets",
-            "workflow-automation"
+            "presentation-building"
           ],
           "personas": [
             "consultant",
             "content-creator",
             "designer",
-            "engineer",
             "marketer",
             "pm",
             "sales"
@@ -3064,20 +2344,12 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
-            "deployment-ops",
-            "design-critique",
-            "development-workflows",
             "presentation-building",
-            "testing-debugging",
-            "ui-ux-design",
-            "visual-assets",
-            "workflow-automation"
+            "visual-assets"
           ],
           "personas": [
             "consultant",
             "designer",
-            "engineer",
             "marketer"
           ]
         },
@@ -3089,48 +2361,32 @@
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
-            "campaign-planning",
-            "dashboarding",
             "data-extraction",
-            "deployment-ops",
-            "development-workflows",
             "reporting",
-            "research-synthesis",
-            "spreadsheet-cleaning",
-            "sql-analysis",
-            "testing-debugging",
-            "workflow-automation"
+            "research-synthesis"
           ],
           "personas": [
             "consultant",
             "data-analyst",
-            "engineer",
             "researcher"
           ]
         },
         {
-          "slug": "googleworkspace-gws-sheets",
-          "name": "googleworkspace/gws-sheets",
-          "publisher": "googleworkspace",
-          "publisherSlug": "googleworkspace",
+          "slug": "anthropics-xlsx",
+          "name": "anthropics/xlsx",
+          "publisher": "anthropics",
+          "publisherSlug": "anthropics",
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
-            "api-integration",
-            "campaign-planning",
-            "deployment-ops",
-            "development-workflows",
+            "data-extraction",
             "reporting",
-            "spreadsheet-cleaning",
-            "testing-debugging",
-            "workflow-automation"
+            "spreadsheet-cleaning"
           ],
           "personas": [
             "consultant",
             "data-analyst",
-            "engineer",
-            "support"
+            "researcher"
           ]
         }
       ]

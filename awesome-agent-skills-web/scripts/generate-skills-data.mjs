@@ -317,6 +317,10 @@ function inferPersonasAndJobs({ name, description, tags, publisherSlug, sectionS
     has(/\b(support|customer success|help desk|ticket|knowledge base|faq|response|reply|triage)\b/);
   const founderSignals =
     has(/\b(launch|strategy|pricing|gtm|go-to-market|pitch|investor|landing page|market research)\b/);
+  const sqlSignals = has(/\b(sql|postgres|bigquery|snowflake|redshift|duckdb|clickhouse|query|queries)\b/);
+  const spreadsheetSignals = has(/\b(spreadsheet|excel|xlsx|csv|tsv)\b/);
+  const dashboardSignals = has(/\b(dashboard|chart|visualization|analytics|analysis|metrics|kpi|tableau|power bi|looker)\b/);
+  const strongDataSignals = sqlSignals || spreadsheetSignals || dashboardSignals;
 
   const add = (persona, personaJobs) => {
     personas.add(persona);
@@ -325,7 +329,7 @@ function inferPersonasAndJobs({ name, description, tags, publisherSlug, sectionS
     }
   };
 
-  if (dataSignals || (reportingSignals && has(/\b(analytics|metrics|dashboard|sql|spreadsheet|xlsx|csv)\b/))) {
+  if (dataSignals || (reportingSignals && strongDataSignals)) {
     add("data-analyst", [
       "sql-analysis",
       "spreadsheet-cleaning",
@@ -407,15 +411,22 @@ function inferPersonasAndJobs({ name, description, tags, publisherSlug, sectionS
     jobs.add("research-synthesis");
   }
 
-  if (/(csv|xlsx|spreadsheet|excel|clean|cleanup|normalize|transform)/.test(haystack)) {
+  if (
+    spreadsheetSignals &&
+    (
+      /(clean|cleanup|normalize|transform|formula|sheet|table|tabular|pivot)/.test(haystack) ||
+      sqlSignals ||
+      dashboardSignals
+    )
+  ) {
     jobs.add("spreadsheet-cleaning");
   }
 
-  if (/(chart|dashboard|visualization|looker|tableau|power bi|plot)/.test(haystack)) {
+  if (dashboardSignals) {
     jobs.add("dashboarding");
   }
 
-  if (/(sql|postgres|query|queries|bigquery|snowflake|duckdb|clickhouse)/.test(haystack)) {
+  if (sqlSignals) {
     jobs.add("sql-analysis");
   }
 
@@ -501,8 +512,12 @@ function applySkillOverrides(skillSlug, roleMetadata) {
   }
 
   return {
-    personas: [...new Set([...(roleMetadata.personas ?? []), ...((override.personas ?? []).filter(Boolean))])].sort(),
-    jobs: [...new Set([...(roleMetadata.jobs ?? []), ...((override.jobs ?? []).filter(Boolean))])].sort(),
+    personas: Array.isArray(override.personas)
+      ? [...new Set(override.personas.filter(Boolean))].sort()
+      : [...new Set(roleMetadata.personas ?? [])].sort(),
+    jobs: Array.isArray(override.jobs)
+      ? [...new Set(override.jobs.filter(Boolean))].sort()
+      : [...new Set(roleMetadata.jobs ?? [])].sort(),
   };
 }
 
