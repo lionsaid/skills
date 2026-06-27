@@ -390,8 +390,8 @@ export function SkillsCatalog({
   const [repoStatsBySlug, setRepoStatsBySlug] = useState<Record<string, RepoStats>>(
     {},
   );
-  const scrollAreaRef = useRef<HTMLDivElement | null>(null);
   const sentinelRef = useRef<HTMLDivElement | null>(null);
+  const listScrollRef = useRef<HTMLDivElement | null>(null);
   const [, startTransition] = useTransition();
 
   useEffect(() => {
@@ -647,10 +647,10 @@ export function SkillsCatalog({
   }, [repoStatsBySlug, visibleSkills]);
 
   useEffect(() => {
-    const root = scrollAreaRef.current;
     const sentinel = sentinelRef.current;
+    const root = listScrollRef.current;
 
-    if (!root || !sentinel || !hasMore) {
+    if (!sentinel || !root || !hasMore) {
       return;
     }
 
@@ -675,6 +675,56 @@ export function SkillsCatalog({
   }, [filteredSkills.length, hasMore]);
 
   useEffect(() => {
+    const previousHtmlOverflow = document.documentElement.style.overflow;
+    const previousBodyOverflow = document.body.style.overflow;
+    const previousHtmlHeight = document.documentElement.style.height;
+    const previousBodyHeight = document.body.style.height;
+
+    document.documentElement.style.overflow = "hidden";
+    document.body.style.overflow = "hidden";
+    document.documentElement.style.height = "100%";
+    document.body.style.height = "100%";
+
+    return () => {
+      document.documentElement.style.overflow = previousHtmlOverflow;
+      document.body.style.overflow = previousBodyOverflow;
+      document.documentElement.style.height = previousHtmlHeight;
+      document.body.style.height = previousBodyHeight;
+    };
+  }, []);
+
+  useEffect(() => {
+    const root = listScrollRef.current;
+
+    if (!root || (!desktopFiltersOpen && !desktopFiltersExpanded)) {
+      return;
+    }
+
+    let collapsed = false;
+
+    const collapseFilters = () => {
+      if (collapsed) {
+        return;
+      }
+      collapsed = true;
+      setDesktopFiltersOpen(false);
+      setDesktopFiltersExpanded(false);
+    };
+
+    const onScroll = () => {
+      if (root.scrollTop > 8) {
+        collapseFilters();
+      }
+    };
+
+    root.addEventListener("scroll", onScroll, { passive: true });
+
+    return () => {
+      root.removeEventListener("scroll", onScroll);
+    };
+  }, [desktopFiltersOpen, desktopFiltersExpanded]);
+
+  useEffect(() => {
     if (!mobileFiltersOpen) {
       return;
     }
@@ -688,10 +738,10 @@ export function SkillsCatalog({
   }, [mobileFiltersOpen]);
 
   return (
-    <div className="page-shell min-w-0 py-4 sm:py-5">
-      <section className="catalog-shell overflow-hidden rounded-[1.75rem] border shadow-[0_24px_70px_rgba(20,16,10,0.07)] backdrop-blur sm:rounded-[2rem]">
-        <div className="flex min-w-0 flex-col p-3">
-          <div className="relative z-30 px-1 py-1 sm:px-2 sm:py-2">
+    <div className="mx-auto flex h-full min-h-0 w-full max-w-[1760px] min-w-0 flex-col px-4 py-4 sm:px-6 sm:py-5 lg:px-8">
+      <section className="catalog-shell flex min-h-0 flex-1 flex-col overflow-hidden rounded-[1.75rem] border shadow-[0_24px_70px_rgba(20,16,10,0.07)] backdrop-blur sm:rounded-[2rem]">
+        <div className="grid min-h-0 flex-1 min-w-0 grid-rows-[auto_auto_minmax(0,1fr)] p-3">
+          <div className="relative z-30 shrink-0 px-1 py-1 sm:px-2 sm:py-2">
             <div className="flex flex-col gap-4">
               <div className="catalog-top-grid flex min-w-0 flex-col gap-4">
                 <div className="flex min-w-0 flex-col gap-3 xl:flex-row xl:items-center">
@@ -1001,11 +1051,26 @@ export function SkillsCatalog({
             </div>
           </div>
 
-          <div className="flex flex-col border-t border-[var(--border-soft)] pt-4">
+          <div className="flex min-h-0 flex-1 flex-col border-t border-[var(--border-soft)] pt-4">
+
+            <div className="mb-4 flex shrink-0 items-center justify-between gap-3 rounded-[1.25rem] border border-[var(--border-soft)] bg-[var(--surface)] px-4 py-3 text-sm text-[var(--ink-muted)]">
+              <p className="min-w-0 truncate">
+                {locale === "zh-CN"
+                  ? `当前显示 ${visibleSkills.length} / ${filteredSkills.length} 个结果`
+                  : `Showing ${visibleSkills.length} of ${filteredSkills.length} results`}
+              </p>
+              {hasMore ? (
+                <p className="shrink-0 text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--accent)]">
+                  {locale === "zh-CN" ? "还有更多" : "More below"}
+                </p>
+              ) : null}
+            </div>
 
             <div
-              className="pr-1 pb-28 sm:pb-0"
-              ref={scrollAreaRef}
+              ref={listScrollRef}
+              data-testid="skills-list-scroll"
+              className="min-h-0 flex-1 overflow-y-auto overscroll-contain pr-1 pb-6"
+              style={{ scrollbarGutter: "stable" }}
             >
               <div className="grid gap-3 sm:gap-4">
                 {visibleSkills.length === 0 ? (
@@ -1133,7 +1198,26 @@ export function SkillsCatalog({
                     </Link>
                   ))
                 )}
-                {hasMore ? <div aria-hidden="true" ref={sentinelRef} className="h-4" /> : null}
+                {hasMore ? (
+                  <>
+                    <div aria-hidden="true" ref={sentinelRef} className="h-4" />
+                    <div className="flex justify-center pt-2">
+                      <button
+                        className="inline-flex min-w-[12rem] items-center justify-center rounded-full border border-[var(--accent)] bg-[var(--accent)] px-5 py-3 text-sm font-medium text-white shadow-[0_12px_26px_rgba(225,6,0,0.22)] transition hover:opacity-95"
+                        onClick={() =>
+                          setVisibleCount((current) =>
+                            Math.min(current + PAGE_SIZE, filteredSkills.length),
+                          )
+                        }
+                        type="button"
+                      >
+                        {locale === "zh-CN"
+                          ? `加载更多（再看 ${Math.min(PAGE_SIZE, filteredSkills.length - visibleSkills.length)} 个）`
+                          : `Load more (${Math.min(PAGE_SIZE, filteredSkills.length - visibleSkills.length)} more)`}
+                      </button>
+                    </div>
+                  </>
+                ) : null}
               </div>
             </div>
 

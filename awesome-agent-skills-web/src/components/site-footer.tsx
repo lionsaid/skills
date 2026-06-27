@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { CookieSettingsButton } from "@/components/cookie-settings-button";
+import { FooterActionLink } from "@/components/footer-action-link";
 import type { Locale } from "@/lib/i18n";
 
 const footerColumns = [
@@ -28,7 +30,54 @@ const footerColumns = [
       { label: "skill.lionsaid.com", href: "https://skill.lionsaid.com" },
     ],
   },
+  {
+    title: "More",
+    items: [
+      { label: "Sudoku", href: "https://sudoku.lionsaid.com/" },
+      { label: "Copybook", href: "https://copybook.lionsaid.com/" },
+    ],
+  },
+  {
+    title: "Support",
+    items: [{ label: "Donate", href: "/donate" }],
+  },
+  {
+    title: "Legal",
+    items: [
+      { label: "Privacy Policy", href: "/legal/privacy" },
+      { label: "Terms of Service", href: "/legal/terms" },
+      { label: "Disclaimer", href: "/legal/disclaimer" },
+      { label: "Cookie Settings", href: "#cookie-settings" },
+      { label: "Contact", href: "mailto:lionsaid@aliyun.com" },
+    ],
+  },
 ];
+
+function translateFooterLabel(locale: Locale, label: string) {
+  if (locale !== "zh-CN") {
+    return label;
+  }
+
+  const translations: Record<string, string> = {
+    "Browse Skills": "浏览全部 skill",
+    "Top picks": "热门推荐",
+    "From official teams": "官方出品",
+    Community: "社区",
+    "All publishers": "全部公司",
+    "GitHub repo": "GitHub 仓库",
+    "Project README": "项目介绍",
+    Sudoku: "数独",
+    Copybook: "Copybook",
+    "Privacy Policy": "隐私政策",
+    "Terms of Service": "服务条款",
+    Disclaimer: "免责声明",
+    Donate: "捐助",
+    "Cookie Settings": "Cookie 设置",
+    Contact: "联系我们",
+  };
+
+  return translations[label] ?? label;
+}
 
 export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
   return (
@@ -76,6 +125,12 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
                     ? "浏览"
                     : column.title === "Publishers"
                       ? "公司"
+                      : column.title === "More"
+                        ? "其他站点"
+                      : column.title === "Support"
+                        ? "支持"
+                      : column.title === "Legal"
+                        ? "法律"
                       : "来源"
                   : column.title}
               </p>
@@ -89,44 +144,29 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
                       rel="noreferrer"
                       target="_blank"
                     >
-                      {locale === "zh-CN"
-                        ? item.label === "Browse Skills"
-                          ? "浏览全部 skill"
-                          : item.label === "Top picks"
-                            ? "热门推荐"
-                            : item.label === "From official teams"
-                              ? "官方出品"
-                              : item.label === "Community"
-                                ? "社区"
-                                : item.label === "All publishers"
-                                  ? "全部公司"
-                                  : item.label === "GitHub repo"
-                                    ? "GitHub 仓库"
-                                    : item.label === "Project README"
-                                      ? "项目介绍"
-                                      : item.label
-                        : item.label}
+                      {translateFooterLabel(locale, item.label)}
                     </a>
                   ) : (
-                    <Link
-                      key={item.label}
-                      className="footer-link text-sm transition"
-                      href={item.href}
-                    >
-                      {locale === "zh-CN"
-                        ? item.label === "Browse Skills"
-                          ? "浏览全部 skill"
-                          : item.label === "Top picks"
-                            ? "热门推荐"
-                            : item.label === "From official teams"
-                              ? "官方出品"
-                              : item.label === "Community"
-                                ? "社区"
-                                : item.label === "All publishers"
-                                  ? "全部公司"
-                                  : item.label
-                        : item.label}
-                    </Link>
+                    item.label === "Cookie Settings" ? (
+                      <CookieSettingsButton
+                        key={item.label}
+                        label={locale === "zh-CN" ? "Cookie 设置" : item.label}
+                      />
+                    ) : item.label === "Contact" ? (
+                      <FooterActionLink
+                        key={item.label}
+                        href={item.href}
+                        label={locale === "zh-CN" ? "联系我们" : item.label}
+                      />
+                    ) : (
+                      <Link
+                        key={item.label}
+                        className="footer-link text-sm transition"
+                        href={item.href}
+                      >
+                        {translateFooterLabel(locale, item.label)}
+                      </Link>
+                    )
                   ),
                 )}
               </div>
@@ -136,11 +176,7 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
 
         <div className="footer-rule mt-14 flex flex-col gap-3 border-t pt-6 text-sm sm:flex-row sm:items-center sm:justify-between">
           <p>skill.lionsaid.com</p>
-          <p>
-            {locale === "zh-CN"
-              ? "帮你更快找到真正能用上的 skill。"
-              : "A faster way to find skills you can use right away."}
-          </p>
+          <p>{locale === "zh-CN" ? "帮你更快找到能直接用的 skill。" : "A faster way to find skills you can use right away."}</p>
         </div>
 
         <div

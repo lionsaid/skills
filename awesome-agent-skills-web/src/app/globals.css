@@ -686,6 +686,65 @@ html:not([data-theme="dark"]) .catalog-active-strip {
   min-width: max-content;
 }
 
+.legal-doc {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.legal-doc h2 {
+  margin: 0;
+  padding-top: 1.35rem;
+  border-top: 1px solid var(--panel-outline);
+  font-size: clamp(1.18rem, 1.08rem + 0.55vw, 1.7rem);
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: var(--panel-fg);
+}
+
+.legal-doc h2:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.legal-doc p {
+  margin: 0;
+  max-width: 72ch;
+  font-size: 1rem;
+  line-height: 1.92;
+  color: color-mix(in oklab, var(--panel-fg) 88%, transparent);
+}
+
+.legal-doc ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.9rem;
+}
+
+.legal-doc li {
+  position: relative;
+  padding-left: 1rem;
+  max-width: 72ch;
+  font-size: 1rem;
+  line-height: 1.9;
+  color: color-mix(in oklab, var(--panel-fg) 88%, transparent);
+}
+
+.legal-doc li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.92rem;
+  width: 0.36rem;
+  height: 0.36rem;
+  border-radius: 999px;
+  background: var(--accent);
+  box-shadow: 0 0 0 5px color-mix(in oklab, var(--accent) 14%, transparent);
+}
+
+
 @keyframes float-slow {
   0%,
   100% {

@@ -475,6 +475,59 @@ export default async function Home() {
         </p>
       </section>
 
+      <section className="page-shell py-6 pb-14">
+        <div className="surface-panel rounded-[2rem] p-6 sm:p-7">
+          <div className="flex items-end justify-between gap-4">
+            <div>
+              <p className="eyebrow text-[var(--accent)]">
+                {locale === "zh-CN" ? "来自 LionSaid 的其他站点" : "More from LionSaid"}
+              </p>
+              <h2 className="display mt-3 text-4xl font-semibold tracking-[-0.04em] sm:text-5xl">
+                {locale === "zh-CN" ? "如果你想换个轻松点的入口，也可以顺手看看。" : "If you want a lighter detour, these are worth a quick look."}
+              </h2>
+            </div>
+          </div>
+
+          <div className="mt-8 grid gap-4 md:grid-cols-2">
+            <a
+              className="glass group block rounded-[1.75rem] border border-[var(--border-soft)] p-6 transition hover:-translate-y-0.5 hover:border-[var(--accent)]"
+              href="https://sudoku.lionsaid.com/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <p className="eyebrow muted">Sudoku</p>
+              <h3 className="mt-3 text-2xl font-semibold">Sudoku.lionsaid.com</h3>
+              <p className="muted mt-3 max-w-xl leading-7">
+                {locale === "zh-CN"
+                  ? "想休息一下的时候，去做一盘数独。"
+                  : "Take a short break and solve a quick puzzle."}
+              </p>
+              <div className="mt-5 text-sm font-medium text-[var(--accent)]">
+                {locale === "zh-CN" ? "打开数独 →" : "Open Sudoku →"}
+              </div>
+            </a>
+
+            <a
+              className="glass group block rounded-[1.75rem] border border-[var(--border-soft)] p-6 transition hover:-translate-y-0.5 hover:border-[var(--accent)]"
+              href="https://copybook.lionsaid.com/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <p className="eyebrow muted">Copybook</p>
+              <h3 className="mt-3 text-2xl font-semibold">Copybook.lionsaid.com</h3>
+              <p className="muted mt-3 max-w-xl leading-7">
+                {locale === "zh-CN"
+                  ? "适合顺手收集、记录和整理内容。"
+                  : "A simple place to capture and organize notes."}
+              </p>
+              <div className="mt-5 text-sm font-medium text-[var(--accent)]">
+                {locale === "zh-CN" ? "打开 Copybook →" : "Open Copybook →"}
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
       <SiteFooter locale={locale} />
     </main>
   );

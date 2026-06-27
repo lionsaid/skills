@@ -1,5 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import Script from "next/script";
+import { CookieConsent } from "@/components/cookie-consent";
+import { GoogleAnalytics } from "@/components/google-analytics";
 import { getRequestLocale } from "@/lib/request-locale";
 import "./globals.css";
 
@@ -64,7 +66,11 @@ export default async function RootLayout({
           }}
         />
       </head>
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <GoogleAnalytics />
+        {children}
+        <CookieConsent locale={locale} />
+      </body>
     </html>
   );
 }
