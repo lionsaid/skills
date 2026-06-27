@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import { canFallbackToPublisherInitials } from "@/lib/skills";
 
 function getPublisherBrand(slug: string) {
   const map: Record<string, { bg: string; border: string; fg: string }> = {
@@ -26,10 +27,12 @@ export function PublisherLogo({
   name,
   slug,
   size = "md",
+  allowInitialsFallback,
 }: {
   name: string;
   slug: string;
   size?: "sm" | "md" | "lg";
+  allowInitialsFallback?: boolean;
 }) {
   const initials = name
     .split(/[\s/-]+/)
@@ -41,6 +44,7 @@ export function PublisherLogo({
   const brand = getPublisherBrand(slug);
   const localLogoPath = `/publisher-logos/${slug}.png`;
   const [imageFailed, setImageFailed] = useState(false);
+  const canUseInitials = allowInitialsFallback ?? canFallbackToPublisherInitials(slug);
 
   const sizeClass =
     size === "sm"
@@ -64,15 +68,17 @@ export function PublisherLogo({
           src={localLogoPath}
         />
       ) : null}
-      <span
-        aria-hidden="true"
-        className={`absolute inset-0 items-center justify-center font-semibold tracking-[-0.04em] ${
-          imageFailed ? "inline-flex" : "hidden"
-        }`}
-        style={{ color: brand.fg }}
-      >
-        {initials || name.slice(0, 1).toUpperCase()}
-      </span>
+      {canUseInitials ? (
+        <span
+          aria-hidden="true"
+          className={`absolute inset-0 items-center justify-center font-semibold tracking-[-0.04em] ${
+            imageFailed ? "inline-flex" : "hidden"
+          }`}
+          style={{ color: brand.fg }}
+        >
+          {initials || name.slice(0, 1).toUpperCase()}
+        </span>
+      ) : null}
     </span>
   );
 }

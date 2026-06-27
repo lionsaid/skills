@@ -7,8 +7,10 @@ const __dirname = path.dirname(__filename);
 const projectRoot = path.join(__dirname, "..");
 const sourcesPath = path.join(projectRoot, "config", "skill-sources.json");
 const seedPath = path.join(projectRoot, "config", "github-skill-repos.json");
+const highStarPath = path.join(projectRoot, "src", "data", "github-high-star-repos.generated.json");
 const outputDir = path.join(projectRoot, "src", "data");
 const outputPath = path.join(outputDir, "github-repo-expansion.generated.json");
+const githubToken = process.env.GITHUB_TOKEN?.trim() || null;
 
 function readJson(filePath) {
   return JSON.parse(readFileSync(filePath, "utf8"));
@@ -22,6 +24,59 @@ function slugify(value) {
     .replace(/^-+|-+$/g, "");
 }
 
+function githubHeaders() {
+  return {
+    Accept: "application/vnd.github+json",
+    "User-Agent": "lionsaid-skills-web",
+    ...(githubToken ? { Authorization: `Bearer ${githubToken}` } : {}),
+  };
+}
+
+async function fetchGithubJson(url) {
+  const response = await fetch(url, {
+    headers: githubHeaders(),
+  });
+
+  if (!response.ok) {
+    return null;
+  }
+
+  return await response.json();
+}
+
+function normalizeRepositoryList(values) {
+  return values.filter((value) => typeof value === "string" && /^[^/]+\/[^/]+$/.test(value));
+}
+
+function getDefaultBranchUrl(repository, branch, skillPath) {
+  return `https://github.com/${repository}/blob/${branch}/${skillPath}`;
+}
+
+function buildSkillEntry({ repository, branch, skillPath }) {
+  const pathParts = skillPath.split("/");
+  const skillName = pathParts.at(-2);
+  const owner = repository.split("/")[0];
+
+  return {
+    repository,
+    skillName,
+    path: skillPath,
+    url: getDefaultBranchUrl(repository, branch, skillPath),
+    description: `${source.descriptionFallback}: ${repository}`,
+    slug: slugify(`${owner}/${skillName}`),
+  };
+}
+
+async function fetchRepositoryMetadata(repository) {
+  return await fetchGithubJson(`https://api.github.com/repos/${repository}`);
+}
+
+async function fetchRepositoryTree(repository, branch) {
+  return await fetchGithubJson(
+    `https://api.github.com/repos/${repository}/git/trees/${encodeURIComponent(branch)}?recursive=1`,
+  );
+}
+
 const sources = readJson(sourcesPath);
 const source = sources.find((item) => item.id === "github-repo-expansion");
 
@@ -29,47 +84,79 @@ if (!source) {
   throw new Error("Missing github-repo-expansion source config.");
 }
 
-const repositories = readJson(seedPath).filter(
-  (value) => typeof value === "string" && /^[^/]+\/[^/]+$/.test(value),
+const repositories = normalizeRepositoryList(readJson(seedPath));
+const highStarRepositories = (() => {
+  try {
+    const payload = readJson(highStarPath);
+    if (!Array.isArray(payload.repositories)) {
+      return [];
+    }
+
+    return normalizeRepositoryList(payload.repositories.map((item) => item?.repository));
+  } catch {
+    return [];
+  }
+})();
+
+const repositoriesToScan = [...new Set([...highStarRepositories, ...repositories])].slice(
+  0,
+  source.maxRepositories,
 );
 
 const items = [];
+const repositoryDiagnostics = [];
 
-for (const repository of repositories.slice(0, source.maxRepositories)) {
-  const repoUrl = `https://github.com/${repository}`;
-
+for (const repository of repositoriesToScan) {
   try {
-    const response = await fetch(repoUrl, {
-      headers: {
-        Accept: "text/html,application/xhtml+xml;q=0.9,*/*;q=0.1",
-        "User-Agent": "awesome-agent-skills-web",
-      },
-    });
-
-    if (!response.ok) {
+    const metadata = await fetchRepositoryMetadata(repository);
+    if (!metadata?.default_branch) {
+      repositoryDiagnostics.push({
+        repository,
+        status: "skipped",
+        reason: "missing-default-branch",
+      });
       continue;
     }
 
-    const html = await response.text();
-    const matches = html.matchAll(
-      /href="\/([^"/]+\/[^"/]+)\/blob\/[^"/]+\/skills\/([^"/]+)\/SKILL\.md"/gi,
-    );
+    const treePayload = await fetchRepositoryTree(repository, metadata.default_branch);
+    const tree = Array.isArray(treePayload?.tree) ? treePayload.tree : [];
+    const skillPaths = tree
+      .filter((node) => node?.type === "blob" && typeof node.path === "string")
+      .map((node) => node.path)
+      .filter((filePath) => /^skills\/.+\/SKILL\.md$/i.test(filePath));
 
-    for (const match of matches) {
-      const [, repoFullName, skillName] = match;
-      const repoOwner = repoFullName.split("/")[0];
-
-      items.push({
-        repository: repoFullName,
-        skillName,
-        path: `skills/${skillName}/SKILL.md`,
-        url: `https://github.com/${repoFullName}/blob/main/skills/${skillName}/SKILL.md`,
-        description: `${source.descriptionFallback}: ${repoFullName}`,
-        slug: slugify(`${repoOwner}/${skillName}`),
+    if (skillPaths.length === 0) {
+      repositoryDiagnostics.push({
+        repository,
+        status: "scanned",
+        branch: metadata.default_branch,
+        skillsFound: 0,
       });
+      continue;
     }
-  } catch {
-    continue;
+
+    for (const skillPath of skillPaths) {
+      items.push(
+        buildSkillEntry({
+          repository,
+          branch: metadata.default_branch,
+          skillPath,
+        }),
+      );
+    }
+
+    repositoryDiagnostics.push({
+      repository,
+      status: "scanned",
+      branch: metadata.default_branch,
+      skillsFound: skillPaths.length,
+    });
+  } catch (error) {
+    repositoryDiagnostics.push({
+      repository,
+      status: "failed",
+      reason: error instanceof Error ? error.message : "unknown-error",
+    });
   }
 }
 
@@ -87,7 +174,9 @@ writeFileSync(
     {
       generatedAt: new Date().toISOString(),
       totalItems: deduped.size,
-      repositoriesScanned: repositories.slice(0, source.maxRepositories),
+      repositoriesScanned: repositoriesToScan,
+      highStarRepositoriesSeeded: highStarRepositories,
+      repositoryDiagnostics,
       items: [...deduped.values()],
     },
     null,

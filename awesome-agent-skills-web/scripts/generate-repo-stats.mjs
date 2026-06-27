@@ -9,6 +9,17 @@ const dataDir = path.join(projectRoot, "src", "data");
 const skillsPath = path.join(dataDir, "skills.generated.json");
 const outputPath = path.join(dataDir, "repo-stats.generated.json");
 
+function readExistingStats() {
+  try {
+    const payload = JSON.parse(readFileSync(outputPath, "utf8"));
+    return payload && typeof payload.statsBySlug === "object" && !Array.isArray(payload.statsBySlug)
+      ? payload.statsBySlug
+      : {};
+  } catch {
+    return {};
+  }
+}
+
 function getRepositoryKey(url, publisher) {
   try {
     const parsed = new URL(url);
@@ -34,6 +45,7 @@ function getRepositoryKey(url, publisher) {
 
 const skillsPayload = JSON.parse(readFileSync(skillsPath, "utf8"));
 const skills = Array.isArray(skillsPayload.skills) ? skillsPayload.skills : [];
+const existingStatsBySlug = readExistingStats();
 
 const slugToRepo = {};
 const repos = new Set();
@@ -48,6 +60,15 @@ for (const skill of skills) {
 
 const repoStatsEntries = await Promise.all(
   [...repos].map(async (repoKey) => {
+    const fallbackStats = Object.entries(slugToRepo)
+      .filter(([, value]) => value === repoKey)
+      .map(([slug]) => existingStatsBySlug[slug])
+      .find(
+        (value) =>
+          value &&
+          (typeof value.stars === "number" || typeof value.forks === "number"),
+      ) ?? { stars: null, forks: null };
+
     try {
       const response = await fetch(`https://api.github.com/repos/${repoKey}`, {
         headers: {
@@ -56,7 +77,7 @@ const repoStatsEntries = await Promise.all(
       });
 
       if (!response.ok) {
-        return [repoKey, { stars: null, forks: null }];
+        return [repoKey, fallbackStats];
       }
 
       const payload = await response.json();
@@ -73,7 +94,7 @@ const repoStatsEntries = await Promise.all(
         },
       ];
     } catch {
-      return [repoKey, { stars: null, forks: null }];
+      return [repoKey, fallbackStats];
     }
   }),
 );
@@ -82,7 +103,9 @@ const repoStats = Object.fromEntries(repoStatsEntries);
 const statsBySlug = {};
 
 for (const [slug, repoKey] of Object.entries(slugToRepo)) {
-  statsBySlug[slug] = repoKey ? repoStats[repoKey] ?? { stars: null, forks: null } : { stars: null, forks: null };
+  statsBySlug[slug] = repoKey
+    ? repoStats[repoKey] ?? existingStatsBySlug[slug] ?? { stars: null, forks: null }
+    : existingStatsBySlug[slug] ?? { stars: null, forks: null };
 }
 
 mkdirSync(dataDir, { recursive: true });

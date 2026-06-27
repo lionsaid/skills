@@ -1,5 +1,6 @@
 import skillsData from "@/data/skills.generated.json";
 import jobAliasesData from "@/../config/job-aliases.json";
+import publisherRulesData from "@/../config/publisher-rules.json";
 import roleDefinitionsData from "@/../config/role-definitions.json";
 
 export type Skill = {
@@ -23,6 +24,7 @@ export type Skill = {
   riskFlags: string[];
   creatorAvatarUrl?: string;
   creatorHandle?: string;
+  hasPublisherLogo?: boolean;
 };
 
 export type RoleDefinition = {
@@ -40,6 +42,7 @@ export type PublisherSummary = {
   slug: string;
   count: number;
   kind: "official" | "community";
+  hasLogo?: boolean;
 };
 
 export type RelatedSkill = {
@@ -97,6 +100,14 @@ const preferredPublisherRank = new Map(
 );
 const roleDefinitions = roleDefinitionsData as RoleDefinition[];
 const jobAliases = jobAliasesData as Record<string, string[]>;
+const publisherRules = publisherRulesData as {
+  logoPriorityPublishers: string[];
+  fallbackInitialsAllowedPublisherSlugs: string[];
+};
+const logoPriorityPublisherSet = new Set(publisherRules.logoPriorityPublishers ?? []);
+const fallbackInitialsAllowedPublisherSet = new Set(
+  publisherRules.fallbackInitialsAllowedPublisherSlugs ?? [],
+);
 const curatedFeaturedSkillSlugs = [
   "googleworkspace-gws-sheets",
   "duckdb-query",
@@ -170,6 +181,14 @@ export function isPriorityPublisher(slug: string) {
   return preferredPublisherRank.has(slug);
 }
 
+export function isLogoPriorityPublisher(slug: string) {
+  return logoPriorityPublisherSet.has(slug);
+}
+
+export function canFallbackToPublisherInitials(slug: string) {
+  return fallbackInitialsAllowedPublisherSet.has(slug);
+}
+
 export function getSourceTypeLabel(
   sourceType: Skill["sourceType"],
   locale: "en" | "zh-CN" = "en",
@@ -198,7 +217,7 @@ export function getTrustLevelLabel(
     case "official":
       return locale === "zh-CN" ? "官方出品" : "Official team";
     case "curated":
-      return locale === "zh-CN" ? "已整理推荐" : "Reviewed pick";
+      return locale === "zh-CN" ? "人工整理" : "Reviewed source";
     case "untrusted":
       return locale === "zh-CN" ? "需自行判断" : "Use with care";
     default:
@@ -261,6 +280,75 @@ function scoreRoleSkill(role: RoleDefinition, skill: Skill) {
     );
   }).length;
   score += queryMatches * 30;
+
+  if (role.slug === "founder") {
+    if (queryMatches >= 1) {
+      score += 80;
+    }
+
+    if (
+      skill.slug.includes("strategy") ||
+      skill.slug.includes("launch") ||
+      skill.slug.includes("pricing") ||
+      skill.slug.includes("market-research") ||
+      skill.slug.includes("gtm")
+    ) {
+      score += 120;
+    }
+  }
+
+  if (role.slug === "sales") {
+    if (queryMatches >= 1) {
+      score += 70;
+    }
+
+    if (
+      skill.slug.includes("battlecard") ||
+      skill.slug.includes("value-prop") ||
+      skill.slug.includes("sales-enablement") ||
+      skill.slug.includes("email-sequence") ||
+      skill.slug.includes("cold-email")
+    ) {
+      score += 120;
+    }
+  }
+
+  if (role.slug === "support") {
+    if (queryMatches >= 1) {
+      score += 60;
+    }
+
+    if (
+      skill.slug.includes("gmail") ||
+      skill.slug.includes("outlook") ||
+      skill.slug.includes("contact-discovery") ||
+      skill.slug.includes("maintainer-triage") ||
+      skill.slug.includes("guardian")
+    ) {
+      score += 100;
+    }
+  }
+
+  if (role.slug === "designer") {
+    if (
+      skill.slug.includes("figma") ||
+      skill.slug.includes("ui") ||
+      skill.slug.includes("storyboard")
+    ) {
+      score += 90;
+    }
+  }
+
+  if (role.slug === "pm") {
+    if (
+      skill.slug.includes("prd") ||
+      skill.slug.includes("roadmap") ||
+      skill.slug.includes("opportunity-solution-tree") ||
+      skill.slug.includes("product-strategy")
+    ) {
+      score += 90;
+    }
+  }
 
   if (!isStarter) {
     score -= Math.max(0, personaCount - 2) * 45;
@@ -342,10 +430,32 @@ function isRolePriorityCandidate(role: RoleDefinition, skill: Skill) {
     "gpu",
     "cuda",
     "model support",
+    "stock",
+    "trading",
+    "crypto",
+    "finance",
+    "investment",
   ];
   const pmBlockedTags = ["docker", "terraform", "wrangler", "workers", "sdk", "kubernetes", "tensorrt", "slurm", "megatron", "deepstream", "cuda", "gpu"];
   const designerBlockedTags = ["docker", "terraform", "wrangler", "workers", "sdk", "kubernetes", "ci", "slurm", "megatron", "deepstream", "cuda", "gpu"];
-  const founderBlockedTags = ["tensorrt", "kubernetes", "slurm", "megatron", "deepstream", "cuda", "gpu", "model support", "vision model"];
+  const founderBlockedTags = [
+    "tensorrt",
+    "kubernetes",
+    "slurm",
+    "megatron",
+    "deepstream",
+    "cuda",
+    "gpu",
+    "model support",
+    "vision model",
+    "trading",
+    "stock",
+    "crypto",
+    "investment",
+    "optimizer",
+    "evaluation",
+    "perf-host",
+  ];
 
   const haystack = [
     skill.slug,
@@ -401,6 +511,10 @@ function isRolePriorityCandidate(role: RoleDefinition, skill: Skill) {
       "extract",
       "interact",
       "knowledge",
+      "outlook",
+      "email",
+      "contact",
+      "triage",
     ];
 
     if (supportBlockedTags.some((token) => haystack.includes(token))) {
@@ -410,6 +524,19 @@ function isRolePriorityCandidate(role: RoleDefinition, skill: Skill) {
     if (
       !skill.personas.includes("support") &&
       !supportAllowedTokens.some((token) => haystack.includes(token))
+    ) {
+      return false;
+    }
+
+    if (
+      !skill.personas.includes("support") &&
+      !skill.slug.includes("gmail") &&
+      !skill.slug.includes("drive") &&
+      !skill.slug.includes("outlook") &&
+      !skill.slug.includes("contact-discovery") &&
+      !skill.slug.includes("interact") &&
+      !skill.slug.includes("pdf") &&
+      !skill.slug.includes("docx")
     ) {
       return false;
     }
@@ -477,6 +604,8 @@ function isRolePriorityCandidate(role: RoleDefinition, skill: Skill) {
       "proposal",
       "docs",
       "email",
+      "gtm",
+      "market research",
     ];
 
     if (founderBlockedTags.some((token) => haystack.includes(token)) && !skill.personas.includes("founder")) {
@@ -484,6 +613,19 @@ function isRolePriorityCandidate(role: RoleDefinition, skill: Skill) {
     }
 
     if (!skill.personas.includes("founder") && !founderAllowedTokens.some((token) => haystack.includes(token))) {
+      return false;
+    }
+
+    if (
+      !skill.personas.includes("founder") &&
+      !skill.slug.includes("launch") &&
+      !skill.slug.includes("strategy") &&
+      !skill.slug.includes("pricing") &&
+      !skill.slug.includes("market-research") &&
+      !skill.slug.includes("gtm") &&
+      !skill.slug.includes("docs") &&
+      !skill.slug.includes("build")
+    ) {
       return false;
     }
   }
@@ -591,6 +733,24 @@ export function getRolePrioritySkills(slug: string, limit = 10) {
       item.jobMatches < 2;
 
     if (tooManyFromPublisher) {
+      continue;
+    }
+
+    if (
+      role.slug === "founder" &&
+      !item.isStarter &&
+      item.hasPersonaMatch &&
+      item.skill.publisherSlug === "nvidia"
+    ) {
+      continue;
+    }
+
+    if (
+      role.slug === "support" &&
+      !item.isStarter &&
+      item.hasPersonaMatch &&
+      item.skill.publisherSlug === "nvidia"
+    ) {
       continue;
     }
 
@@ -812,6 +972,7 @@ export function getPublishers(): PublisherSummary[] {
       if (skill.kind === "official") {
         existing.kind = "official";
       }
+      existing.hasLogo = existing.hasLogo || Boolean(skill.hasPublisherLogo);
       continue;
     }
 
@@ -820,6 +981,7 @@ export function getPublishers(): PublisherSummary[] {
       slug: skill.publisherSlug,
       count: 1,
       kind: skill.kind,
+      hasLogo: Boolean(skill.hasPublisherLogo),
     });
   }
 

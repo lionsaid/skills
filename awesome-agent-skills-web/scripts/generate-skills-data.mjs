@@ -11,6 +11,7 @@ const classificationRulesPath = path.join(projectRoot, "config", "classification
 const skillOverridesPath = path.join(projectRoot, "config", "skill-overrides.json");
 const skillSourcesPath = path.join(projectRoot, "config", "skill-sources.json");
 const githubSkillReposPath = path.join(projectRoot, "config", "github-skill-repos.json");
+const publisherRulesPath = path.join(projectRoot, "config", "publisher-rules.json");
 const githubSkillRepoCachePath = path.join(outputDir, "github-repo-expansion.generated.json");
 const githubAvatarCachePath = path.join(outputDir, "github-avatars.generated.json");
 
@@ -147,9 +148,13 @@ const classificationRules = readClassificationRules();
 const skillSources = readSkillSources();
 const skillOverrides = readSkillOverrides();
 const githubSkillReposSeed = readJson(githubSkillReposPath);
+const publisherRules = readJson(publisherRulesPath);
 const sourcePriority = new Map(
   skillSources.map((source, index) => [source.id, skillSources.length - index]),
 );
+const logoAllowedKinds = new Set(publisherRules.logoAllowedKinds ?? []);
+const logoAllowedSourceTypes = new Set(publisherRules.logoAllowedSourceTypes ?? []);
+const logoAllowedPublisherSlugs = new Set(publisherRules.logoAllowedPublisherSlugs ?? []);
 
 function slugify(value) {
   return value
@@ -261,6 +266,14 @@ function buildSourceMetadata(source) {
     trustLevel: source.trustLevel,
     riskFlags: [...source.riskFlags].sort(),
   };
+}
+
+function canPublisherUseLogo(skill) {
+  if (logoAllowedPublisherSlugs.has(skill.publisherSlug)) {
+    return true;
+  }
+
+  return logoAllowedKinds.has(skill.kind) && logoAllowedSourceTypes.has(skill.sourceType);
 }
 
 function inferPersonasAndJobs({ name, description, tags, publisherSlug, sectionSlug }) {
@@ -730,7 +743,7 @@ async function collectMarketplaceApiItems(source) {
         "convex-client": "npm-1.41.0",
         Origin: "https://clawhub.ai",
         Referer: "https://clawhub.ai/",
-        "User-Agent": "awesome-agent-skills-web",
+        "User-Agent": "lionsaid-skills-web",
       },
       body: JSON.stringify(payload),
     });
@@ -917,7 +930,7 @@ async function collectGithubRepoExpansionEntries(existingEntries, source) {
       const response = await fetch(repoUrl, {
         headers: {
           Accept: "text/html,application/xhtml+xml;q=0.9,*/*;q=0.1",
-          "User-Agent": "awesome-agent-skills-web",
+          "User-Agent": "lionsaid-skills-web",
         },
       });
 
@@ -951,9 +964,9 @@ async function collectGithubRepoExpansionEntries(existingEntries, source) {
 
 function mergeSkillRecords(existing, incoming) {
   const existingDescription =
-    existing.description && existing.description !== "Skill listed on officialskills.sh";
+    existing.description && existing.description !== "Indexed from an official skills site";
   const incomingDescription =
-    incoming.description && incoming.description !== "Skill listed on officialskills.sh";
+    incoming.description && incoming.description !== "Indexed from an official skills site";
   const existingPriority = sourcePriority.get(existing.sourceId) ?? 0;
   const incomingPriority = sourcePriority.get(incoming.sourceId) ?? 0;
   const preferred = incomingPriority > existingPriority ? incoming : existing;
@@ -990,7 +1003,7 @@ async function readSourceContent(source) {
     const response = await fetch(source.url, {
       headers: {
         Accept: "text/plain, text/markdown;q=0.9, */*;q=0.1",
-        "User-Agent": "awesome-agent-skills-web",
+        "User-Agent": "lionsaid-skills-web",
       },
     });
 
@@ -1068,6 +1081,7 @@ async function collectSkills() {
 
     skill.creatorHandle = handle;
     skill.creatorAvatarUrl = avatarCache[handle] ?? skill.creatorAvatarUrl ?? null;
+    skill.hasPublisherLogo = canPublisherUseLogo(skill);
   }
 
   writeGithubAvatarCache(avatarCache);

@@ -9,22 +9,52 @@ const dataDir = path.join(projectRoot, "src", "data");
 const skillsPath = path.join(dataDir, "skills.generated.json");
 const logoDir = path.join(projectRoot, "public", "publisher-logos");
 const publishersPath = path.join(logoDir, "publishers.json");
+const publisherRulesPath = path.join(projectRoot, "config", "publisher-rules.json");
+
+function readJson(filePath) {
+  return JSON.parse(readFileSync(filePath, "utf8"));
+}
+
+const publisherRules = readJson(publisherRulesPath);
+const allowedKinds = new Set(publisherRules.logoAllowedKinds ?? []);
+const allowedSourceTypes = new Set(publisherRules.logoAllowedSourceTypes ?? []);
+const allowedPublisherSlugs = new Set(publisherRules.logoAllowedPublisherSlugs ?? []);
+const writeOnly = process.argv.includes("--write-only");
 
 function getPublishers() {
-  const payload = JSON.parse(readFileSync(skillsPath, "utf8"));
+  const payload = readJson(skillsPath);
   const skills = Array.isArray(payload.skills) ? payload.skills : [];
   const publishers = new Map();
 
   for (const skill of skills) {
-    if (!publishers.has(skill.publisherSlug)) {
-      publishers.set(skill.publisherSlug, {
-        slug: skill.publisherSlug,
-        name: skill.publisher,
-      });
+    const isAllowedByKind = allowedKinds.has(skill.kind);
+    const isAllowedBySourceType = allowedSourceTypes.has(skill.sourceType);
+    const isAllowedBySlug = allowedPublisherSlugs.has(skill.publisherSlug);
+
+    if (!isAllowedBySlug && !(isAllowedByKind && isAllowedBySourceType)) {
+      continue;
     }
+
+    const existing = publishers.get(skill.publisherSlug);
+    if (existing) {
+      existing.count += 1;
+      continue;
+    }
+
+    publishers.set(skill.publisherSlug, {
+      slug: skill.publisherSlug,
+      name: skill.publisher,
+      count: 1,
+    });
   }
 
-  return [...publishers.values()].sort((a, b) => a.slug.localeCompare(b.slug));
+  return [...publishers.values()].sort((a, b) => {
+    if (b.count !== a.count) {
+      return b.count - a.count;
+    }
+
+    return a.slug.localeCompare(b.slug);
+  });
 }
 
 function isLikelyGithubSlug(slug) {
@@ -34,7 +64,7 @@ function isLikelyGithubSlug(slug) {
 async function downloadLogo(slug) {
   const response = await fetch(`https://github.com/${slug}.png?size=88`, {
     headers: {
-      "User-Agent": "awesome-agent-skills-web",
+      "User-Agent": "lionsaid-skills-web",
       Accept: "image/png,image/*;q=0.8,*/*;q=0.5",
     },
   });
@@ -58,6 +88,11 @@ writeFileSync(publishersPath, `${JSON.stringify(publishers, null, 2)}\n`);
 let downloaded = 0;
 let skipped = 0;
 const failed = [];
+
+if (writeOnly) {
+  console.log(`Wrote ${publishers.length} allowed publishers to ${path.relative(projectRoot, publishersPath)}`);
+  process.exit(0);
+}
 
 for (const publisher of publishers) {
   if (!isLikelyGithubSlug(publisher.slug)) {
