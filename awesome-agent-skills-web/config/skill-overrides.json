@@ -29,15 +29,15 @@
       "jobs": ["workflow-automation", "document-authoring", "content-production"]
     },
     "anthropics-pdf": {
-      "personas": ["data-analyst", "researcher", "consultant", "support"],
-      "jobs": ["data-extraction", "research-synthesis", "reporting"]
+      "personas": ["researcher", "consultant", "support"],
+      "jobs": ["data-extraction", "research-synthesis"]
     },
     "anthropics-docx": {
       "personas": ["researcher", "sales", "consultant"],
       "jobs": ["document-authoring", "research-synthesis"]
     },
     "anthropics-xlsx": {
-      "personas": ["data-analyst", "researcher", "consultant"],
+      "personas": ["researcher", "consultant"],
       "jobs": ["spreadsheet-cleaning", "reporting", "data-extraction"]
     },
     "anthropics-doc-coauthoring": {

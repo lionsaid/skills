@@ -1,10 +1,34 @@
 {
-  "generatedAt": "2026-06-27T06:35:18.397Z",
+  "generatedAt": "2026-06-27T09:24:30.583Z",
   "roles": [
     {
       "role": "data-analyst",
       "label": "Data Analyst",
       "topSkills": [
+        {
+          "slug": "clickhouse-chdb-sql",
+          "name": "clickhouse/chdb-sql",
+          "publisher": "clickhouse",
+          "publisherSlug": "clickhouse",
+          "sourceType": "github-readme",
+          "trustLevel": "official",
+          "jobs": [
+            "api-integration",
+            "dashboarding",
+            "data-extraction",
+            "deployment-ops",
+            "development-workflows",
+            "reporting",
+            "spreadsheet-cleaning",
+            "sql-analysis",
+            "testing-debugging",
+            "workflow-automation"
+          ],
+          "personas": [
+            "data-analyst",
+            "engineer"
+          ]
+        },
         {
           "slug": "supabase-postgres-best-practices",
           "name": "supabase/postgres-best-practices",
@@ -64,21 +88,98 @@
           ]
         },
         {
-          "slug": "anthropics-xlsx",
-          "name": "anthropics/xlsx",
-          "publisher": "anthropics",
-          "publisherSlug": "anthropics",
+          "slug": "coreyhaines31-analytics-tracking",
+          "name": "coreyhaines31/analytics-tracking",
+          "publisher": "coreyhaines31",
+          "publisherSlug": "coreyhaines31",
+          "sourceType": "github-readme",
+          "trustLevel": "curated",
+          "jobs": [
+            "campaign-planning",
+            "content-production",
+            "dashboarding",
+            "data-extraction",
+            "landing-pages",
+            "reporting",
+            "research-synthesis",
+            "spreadsheet-cleaning",
+            "sql-analysis",
+            "workflow-automation"
+          ],
+          "personas": [
+            "data-analyst",
+            "marketer"
+          ]
+        },
+        {
+          "slug": "google-cloud-bigquery-basics",
+          "name": "google/cloud/bigquery-basics",
+          "publisher": "google",
+          "publisherSlug": "google",
+          "sourceType": "github-readme",
+          "trustLevel": "curated",
+          "jobs": [
+            "api-integration",
+            "dashboarding",
+            "data-extraction",
+            "deployment-ops",
+            "development-workflows",
+            "reporting",
+            "spreadsheet-cleaning",
+            "sql-analysis",
+            "testing-debugging",
+            "workflow-automation"
+          ],
+          "personas": [
+            "data-analyst",
+            "engineer"
+          ]
+        },
+        {
+          "slug": "neondatabase-neon-postgres",
+          "name": "neondatabase/neon-postgres",
+          "publisher": "neondatabase",
+          "publisherSlug": "neondatabase",
           "sourceType": "github-readme",
           "trustLevel": "official",
           "jobs": [
+            "api-integration",
+            "dashboarding",
             "data-extraction",
+            "deployment-ops",
+            "development-workflows",
             "reporting",
-            "spreadsheet-cleaning"
+            "spreadsheet-cleaning",
+            "sql-analysis",
+            "testing-debugging",
+            "workflow-automation"
           ],
           "personas": [
-            "consultant",
             "data-analyst",
-            "researcher"
+            "engineer"
+          ]
+        },
+        {
+          "slug": "phuryn-metrics-dashboard",
+          "name": "phuryn/metrics-dashboard",
+          "publisher": "phuryn",
+          "publisherSlug": "phuryn",
+          "sourceType": "github-readme",
+          "trustLevel": "curated",
+          "jobs": [
+            "dashboarding",
+            "data-extraction",
+            "planning-roadmapping",
+            "prd-specs",
+            "reporting",
+            "research-synthesis",
+            "spreadsheet-cleaning",
+            "sql-analysis",
+            "workflow-automation"
+          ],
+          "personas": [
+            "data-analyst",
+            "pm"
           ]
         },
         {
@@ -119,25 +220,6 @@
           ]
         },
         {
-          "slug": "anthropics-pdf",
-          "name": "anthropics/pdf",
-          "publisher": "anthropics",
-          "publisherSlug": "anthropics",
-          "sourceType": "github-readme",
-          "trustLevel": "official",
-          "jobs": [
-            "data-extraction",
-            "reporting",
-            "research-synthesis"
-          ],
-          "personas": [
-            "consultant",
-            "data-analyst",
-            "researcher",
-            "support"
-          ]
-        },
-        {
           "slug": "duckdb-read-file",
           "name": "duckdb/read-file",
           "publisher": "duckdb",
@@ -153,63 +235,6 @@
             "consultant",
             "data-analyst",
             "researcher"
-          ]
-        },
-        {
-          "slug": "googleworkspace-gws-drive",
-          "name": "googleworkspace/gws-drive",
-          "publisher": "googleworkspace",
-          "publisherSlug": "googleworkspace",
-          "sourceType": "github-readme",
-          "trustLevel": "official",
-          "jobs": [
-            "data-extraction",
-            "document-authoring",
-            "workflow-automation"
-          ],
-          "personas": [
-            "researcher",
-            "sales",
-            "support"
-          ]
-        },
-        {
-          "slug": "anthropics-doc-coauthoring",
-          "name": "anthropics/doc-coauthoring",
-          "publisher": "anthropics",
-          "publisherSlug": "anthropics",
-          "sourceType": "github-readme",
-          "trustLevel": "official",
-          "jobs": [
-            "document-authoring",
-            "prd-specs",
-            "research-synthesis"
-          ],
-          "personas": [
-            "consultant",
-            "founder",
-            "pm",
-            "researcher"
-          ]
-        },
-        {
-          "slug": "anthropics-pptx",
-          "name": "anthropics/pptx",
-          "publisher": "anthropics",
-          "publisherSlug": "anthropics",
-          "sourceType": "github-readme",
-          "trustLevel": "official",
-          "jobs": [
-            "content-production",
-            "presentation-building"
-          ],
-          "personas": [
-            "consultant",
-            "content-creator",
-            "designer",
-            "marketer",
-            "pm",
-            "sales"
           ]
         }
       ]
@@ -1195,12 +1220,10 @@
           "trustLevel": "official",
           "jobs": [
             "data-extraction",
-            "reporting",
             "research-synthesis"
           ],
           "personas": [
             "consultant",
-            "data-analyst",
             "researcher",
             "support"
           ]
@@ -1295,7 +1318,6 @@
           ],
           "personas": [
             "consultant",
-            "data-analyst",
             "researcher"
           ]
         },
@@ -1568,11 +1590,11 @@
           ]
         },
         {
-          "slug": "sp0oby-base-trader",
-          "name": "sp0oby/base-trader",
-          "publisher": "sp0oby",
-          "publisherSlug": "sp0oby",
-          "sourceType": "marketplace",
+          "slug": "eronred-app-launch",
+          "name": "Eronred/app-launch",
+          "publisher": "Eronred",
+          "publisherSlug": "eronred",
+          "sourceType": "github-discovery",
           "trustLevel": "untrusted",
           "jobs": [
             "campaign-planning",
@@ -1883,25 +1905,6 @@
           ]
         },
         {
-          "slug": "anthropics-pdf",
-          "name": "anthropics/pdf",
-          "publisher": "anthropics",
-          "publisherSlug": "anthropics",
-          "sourceType": "github-readme",
-          "trustLevel": "official",
-          "jobs": [
-            "data-extraction",
-            "reporting",
-            "research-synthesis"
-          ],
-          "personas": [
-            "consultant",
-            "data-analyst",
-            "researcher",
-            "support"
-          ]
-        },
-        {
           "slug": "googleworkspace-gws-gmail",
           "name": "googleworkspace/gws-gmail",
           "publisher": "googleworkspace",
@@ -1916,6 +1919,23 @@
           "personas": [
             "content-creator",
             "sales",
+            "support"
+          ]
+        },
+        {
+          "slug": "anthropics-pdf",
+          "name": "anthropics/pdf",
+          "publisher": "anthropics",
+          "publisherSlug": "anthropics",
+          "sourceType": "github-readme",
+          "trustLevel": "official",
+          "jobs": [
+            "data-extraction",
+            "research-synthesis"
+          ],
+          "personas": [
+            "consultant",
+            "researcher",
             "support"
           ]
         },
@@ -1989,11 +2009,11 @@
           ]
         },
         {
-          "slug": "oswalpalash-ontology",
-          "name": "oswalpalash/ontology",
-          "publisher": "oswalpalash",
-          "publisherSlug": "oswalpalash",
-          "sourceType": "marketplace",
+          "slug": "mukul975-performing-ransomware-response",
+          "name": "mukul975/performing-ransomware-response",
+          "publisher": "mukul975",
+          "publisherSlug": "mukul975",
+          "sourceType": "github-discovery",
           "trustLevel": "untrusted",
           "jobs": [
             "data-extraction",
@@ -2279,25 +2299,6 @@
           ]
         },
         {
-          "slug": "anthropics-pdf",
-          "name": "anthropics/pdf",
-          "publisher": "anthropics",
-          "publisherSlug": "anthropics",
-          "sourceType": "github-readme",
-          "trustLevel": "official",
-          "jobs": [
-            "data-extraction",
-            "reporting",
-            "research-synthesis"
-          ],
-          "personas": [
-            "consultant",
-            "data-analyst",
-            "researcher",
-            "support"
-          ]
-        },
-        {
           "slug": "duckdb-query",
           "name": "duckdb/query",
           "publisher": "duckdb",
@@ -2314,6 +2315,23 @@
             "consultant",
             "data-analyst",
             "researcher"
+          ]
+        },
+        {
+          "slug": "anthropics-pdf",
+          "name": "anthropics/pdf",
+          "publisher": "anthropics",
+          "publisherSlug": "anthropics",
+          "sourceType": "github-readme",
+          "trustLevel": "official",
+          "jobs": [
+            "data-extraction",
+            "research-synthesis"
+          ],
+          "personas": [
+            "consultant",
+            "researcher",
+            "support"
           ]
         },
         {
@@ -2385,7 +2403,6 @@
           ],
           "personas": [
             "consultant",
-            "data-analyst",
             "researcher"
           ]
         }

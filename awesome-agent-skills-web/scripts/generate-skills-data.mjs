@@ -1,6 +1,7 @@
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { execFileSync } from "node:child_process";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -15,8 +16,45 @@ const publisherRulesPath = path.join(projectRoot, "config", "publisher-rules.jso
 const githubSkillRepoCachePath = path.join(outputDir, "github-repo-expansion.generated.json");
 const githubAvatarCachePath = path.join(outputDir, "github-avatars.generated.json");
 
+let committedGeneratedSkillsCache = null;
+
 function readJson(filePath) {
   return JSON.parse(readFileSync(filePath, "utf8"));
+}
+
+function readCommittedGeneratedSkills() {
+  if (committedGeneratedSkillsCache) {
+    return committedGeneratedSkillsCache;
+  }
+
+  try {
+    const raw = execFileSync(
+      "git",
+      ["show", "HEAD~1:awesome-agent-skills-web/src/data/skills.generated.json"],
+      {
+        cwd: path.join(projectRoot, ".."),
+        encoding: "utf8",
+        stdio: ["ignore", "pipe", "ignore"],
+        maxBuffer: 64 * 1024 * 1024,
+      },
+    );
+    const payload = JSON.parse(raw);
+    committedGeneratedSkillsCache = Array.isArray(payload?.skills) ? payload.skills : [];
+  } catch {
+    committedGeneratedSkillsCache = [];
+  }
+
+  return committedGeneratedSkillsCache;
+}
+
+function readFallbackSkillsForSource(sourceId) {
+  return readCommittedGeneratedSkills().filter((skill) => {
+    if (Array.isArray(skill?.sourceIds) && skill.sourceIds.includes(sourceId)) {
+      return true;
+    }
+
+    return skill?.sourceId === sourceId;
+  });
 }
 
 function readClassificationRules() {
@@ -798,7 +836,18 @@ function parseGithubRepoExpansion(items, source) {
 
     const repository = item.repository;
     const repoOwner = repository.split("/")[0];
-    const name = `${repoOwner}/${item.skillName}`;
+    const repoName = repository.split("/")[1] ?? repository;
+    const normalizedSkillName =
+      typeof item.path === "string"
+        ? /^skills\/.+\/SKILL\.md$/i.test(item.path)
+          ? item.path.replace(/^skills\//i, "").replace(/\/SKILL\.md$/i, "")
+          : /^.+\/SKILL\.md$/i.test(item.path)
+            ? item.path.replace(/\/SKILL\.md$/i, "")
+            : /^SKILL\.md$/i.test(item.path)
+              ? repoName
+              : item.skillName
+        : item.skillName;
+    const name = `${repoOwner}/${normalizedSkillName}`;
     const publisher = repoOwner;
     const publisherSlug = slugify(publisher);
     const creatorHandle = repoOwner;
@@ -1065,6 +1114,17 @@ async function collectSkills() {
 
       allEntries.push(...skills);
     } catch (error) {
+      const fallbackSkills = readFallbackSkillsForSource(source.id);
+      if (fallbackSkills.length > 0) {
+        allEntries.push(...fallbackSkills);
+        failures.push({
+          sourceId: source.id,
+          label: source.label,
+          reason: `${error instanceof Error ? error.message : "Unknown error"}; using ${fallbackSkills.length} cached skills from previous generated data`,
+        });
+        continue;
+      }
+
       failures.push({
         sourceId: source.id,
         label: source.label,

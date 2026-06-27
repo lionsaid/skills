@@ -52,7 +52,7 @@ export default async function RolesPage() {
           <div>
             <p className="eyebrow text-[var(--accent)]">{copy.roles.allRoles}</p>
             <h2 className="display mt-3 text-4xl font-semibold tracking-[-0.04em] sm:text-5xl">
-              {locale === "zh-CN" ? "每个角色都先给你一组更值得先看的推荐。" : "Each role starts with a set of skills worth opening first."}
+              {locale === "zh-CN" ? "先看看不同角色最常用的 skill。" : "Start with the skills people in each role use most."}
             </h2>
           </div>
           <Link className="text-sm font-medium text-[var(--accent)]" href="/skills">
@@ -156,8 +156,8 @@ export default async function RolesPage() {
                   <h3 className="mt-3 text-xl font-semibold">{copy.taskLabels[item.job] ?? item.job}</h3>
                   <p className="muted mt-3 text-sm leading-6">
                     {locale === "zh-CN"
-                      ? `这里有 ${item.count} 个相关 skill。`
-                      : `${item.count} related skills here.`}
+                      ? `${item.count} 个相关 skill`
+                      : `${item.count} related skills`}
                   </p>
                 </Link>
               </GlareCard>

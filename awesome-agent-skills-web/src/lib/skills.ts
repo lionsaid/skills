@@ -252,6 +252,15 @@ function scoreRoleSkill(role: RoleDefinition, skill: Skill) {
   const jobCount = skill.jobs.length;
   const jobMatches = skill.jobs.filter((job) => role.jobs.includes(job)).length;
   const hasPersonaMatch = skill.personas.includes(role.slug);
+  const haystack = [
+    skill.slug,
+    skill.name,
+    skill.description,
+    skill.publisher,
+    ...skill.tags,
+  ]
+    .join(" ")
+    .toLowerCase();
 
   if (isStarter) {
     score += 1000;
@@ -350,6 +359,86 @@ function scoreRoleSkill(role: RoleDefinition, skill: Skill) {
     }
   }
 
+  if (role.slug === "data-analyst") {
+    const strongAnalysisTokens = [
+      "duckdb",
+      "clickhouse",
+      "postgres",
+      "sql",
+      "query",
+      "analytics",
+      "dashboard",
+      "bigquery",
+      "sheets",
+      "csv",
+      "warehouse",
+      "table",
+    ];
+    const weakGenericDocumentTokens = [
+      "pdf",
+      "docx",
+      "pptx",
+      "slides",
+      "presentation",
+      "coauthor",
+      "document",
+    ];
+
+    const strongTokenMatches = strongAnalysisTokens.filter((token) =>
+      haystack.includes(token),
+    ).length;
+    const weakTokenMatches = weakGenericDocumentTokens.filter((token) =>
+      haystack.includes(token),
+    ).length;
+
+    score += strongTokenMatches * 55;
+
+    if (skill.slug.includes("duckdb") || skill.slug.includes("clickhouse")) {
+      score += 140;
+    }
+
+    if (
+      skill.slug.includes("postgres") ||
+      skill.slug.includes("bigquery") ||
+      skill.slug.includes("analytics")
+    ) {
+      score += 100;
+    }
+
+    if (
+      skill.slug === "googleworkspace-gws-sheets" ||
+      skill.slug.includes("google-sheets") ||
+      skill.slug.includes("feishu-sheets")
+    ) {
+      score += 90;
+    }
+
+    if (skill.trustLevel === "official") {
+      score += 60;
+    } else if (skill.trustLevel === "curated") {
+      score += 20;
+    } else {
+      score -= 120;
+    }
+
+    if (skill.slug === "anthropics-xlsx") {
+      score -= 220;
+    }
+
+    if (
+      skill.slug === "anthropics-pdf" ||
+      skill.slug === "anthropics-docx" ||
+      skill.slug === "anthropics-pptx" ||
+      skill.slug === "anthropics-doc-coauthoring"
+    ) {
+      score -= 420;
+    }
+
+    if (!isStarter) {
+      score -= weakTokenMatches * 45;
+    }
+  }
+
   if (!isStarter) {
     score -= Math.max(0, personaCount - 2) * 45;
     score -= Math.max(0, jobCount - 3) * 12;
@@ -395,6 +484,26 @@ function isGenericRoleSkill(skill: Skill) {
 }
 
 function isRolePriorityCandidate(role: RoleDefinition, skill: Skill) {
+  const dataAnalystBlockedTags = [
+    "docker",
+    "terraform",
+    "wrangler",
+    "workers",
+    "kubernetes",
+    "gpu",
+    "cuda",
+    "ci",
+    "sdk",
+    "deploy",
+    "deployment",
+    "frontend",
+    "design critique",
+    "brand",
+    "slides",
+    "presentation",
+    "docx",
+    "pptx",
+  ];
   const salesBlockedTags = [
     "docker",
     "terraform",
@@ -492,6 +601,49 @@ function isRolePriorityCandidate(role: RoleDefinition, skill: Skill) {
     if (
       !skill.personas.includes("sales") &&
       !salesAllowedTokens.some((token) => haystack.includes(token))
+    ) {
+      return false;
+    }
+  }
+
+  if (role.slug === "data-analyst") {
+    const dataAnalystAllowedTokens = [
+      "data",
+      "sql",
+      "query",
+      "analytics",
+      "dashboard",
+      "spreadsheet",
+      "sheets",
+      "csv",
+      "duckdb",
+      "clickhouse",
+      "postgres",
+      "bigquery",
+      "table",
+      "report",
+      "extract",
+    ];
+
+    if (
+      dataAnalystBlockedTags.some((token) => haystack.includes(token)) &&
+      !skill.personas.includes("data-analyst")
+    ) {
+      return false;
+    }
+
+    if (
+      !skill.personas.includes("data-analyst") &&
+      !dataAnalystAllowedTokens.some((token) => haystack.includes(token))
+    ) {
+      return false;
+    }
+
+    if (
+      skill.slug === "anthropics-pdf" ||
+      skill.slug === "anthropics-docx" ||
+      skill.slug === "anthropics-pptx" ||
+      skill.slug === "anthropics-doc-coauthoring"
     ) {
       return false;
     }

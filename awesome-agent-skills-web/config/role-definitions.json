@@ -8,13 +8,14 @@
       "duckdb-query",
       "duckdb-read-file",
       "clickhouse-clickhouse-best-practices",
+      "clickhouse-chdb-sql",
+      "google-cloud-bigquery-basics",
       "googleworkspace-gws-sheets",
-      "googleworkspace-gws-drive",
       "supabase-postgres-best-practices",
-      "anthropics-xlsx",
-      "anthropics-pdf",
-      "anthropics-doc-coauthoring",
-      "anthropics-pptx"
+      "neondatabase-neon-postgres",
+      "phuryn-metrics-dashboard",
+      "coreyhaines31-analytics-tracking",
+      "anthropics-xlsx"
     ],
     "jobs": [
       "sql-analysis",
@@ -24,7 +25,7 @@
       "data-extraction",
       "workflow-automation"
     ],
-    "featuredQueries": ["sql", "xlsx", "csv", "dashboard", "report", "pdf"]
+    "featuredQueries": ["sql", "duckdb", "clickhouse", "postgres", "analytics", "sheets"]
   },
   {
     "slug": "engineer",
