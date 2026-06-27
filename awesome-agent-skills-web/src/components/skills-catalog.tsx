@@ -1,15 +1,10 @@
 "use client";
 
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { PublisherLogo } from "@/components/publisher-logo";
-import {
-  useDeferredValue,
-  useEffect,
-  useMemo,
-  useRef,
-  useState,
-  useTransition,
-} from "react";
+import { SkillAvatar } from "@/components/skill-avatar";
+import { useEffect, useMemo, useRef, useState, useTransition } from "react";
 import type {
   PublisherSummary,
   Skill,
@@ -18,14 +13,18 @@ import type {
   SkillTrustFilter,
 } from "@/lib/skills";
 import {
+  expandQueryAliases,
+  getRoles,
   getSourceTypeLabel,
   getTrustLevelLabel,
   isPriorityPublisher,
 } from "@/lib/skills";
+import { getCopy, type Locale } from "@/lib/i18n";
 
 const PAGE_SIZE = 36;
 
 type SkillsCatalogProps = {
+  locale?: Locale;
   initialKind: SkillFilterKind;
   initialPublisher: string;
   initialQuery: string;
@@ -33,6 +32,8 @@ type SkillsCatalogProps = {
   initialTrustFilter: SkillTrustFilter;
   initialEnterpriseOnly: boolean;
   initialExcludeMarketplace: boolean;
+  initialPersona?: string;
+  initialJob?: string;
   publishers: PublisherSummary[];
   skills: Skill[];
 };
@@ -113,6 +114,33 @@ function FilterIcon() {
   );
 }
 
+function SearchIcon() {
+  return (
+    <svg
+      aria-hidden="true"
+      fill="none"
+      height="18"
+      viewBox="0 0 24 24"
+      width="18"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle
+        cx="11"
+        cy="11"
+        r="6.5"
+        stroke="currentColor"
+        strokeWidth="1.8"
+      />
+      <path
+        d="M16 16L20 20"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeWidth="1.8"
+      />
+    </svg>
+  );
+}
+
 function StarIcon() {
   return (
     <svg
@@ -165,8 +193,16 @@ function PublisherMark({ slug }: { slug: string }) {
   return <PublisherLogo name={label} size="sm" slug={slug} />;
 }
 
-function formatCompactNumber(value: number) {
-  return new Intl.NumberFormat("en", {
+function SkillOwnerMark({ skill }: { skill: Skill }) {
+  if (skill.sourceType === "github-discovery" || skill.creatorAvatarUrl) {
+    return <SkillAvatar avatarUrl={skill.creatorAvatarUrl} name={skill.creatorHandle ?? skill.publisher} size="sm" />;
+  }
+
+  return <PublisherMark slug={skill.publisherSlug} />;
+}
+
+function formatCompactNumber(value: number, locale: Locale) {
+  return new Intl.NumberFormat(locale === "zh-CN" ? "zh-CN" : "en", {
     notation: "compact",
     maximumFractionDigits: 1,
   }).format(value);
@@ -263,7 +299,7 @@ function DropdownFilter({
         aria-haspopup="listbox"
         className={`catalog-control flex h-12 w-full items-center justify-between rounded-full border px-4 text-sm outline-none transition ${
           open
-            ? "catalog-control-active shadow-[0_12px_28px_rgba(23,105,255,0.14)] ring-1 ring-[var(--accent-soft)]"
+            ? "catalog-control-active shadow-[0_12px_28px_rgba(225,6,0,0.14)] ring-1 ring-[var(--accent-soft)]"
             : "hover:bg-[var(--surface)] focus:border-[var(--accent)]"
         }`}
         onClick={() => setOpen((current) => !current)}
@@ -307,6 +343,7 @@ function DropdownFilter({
 }
 
 export function SkillsCatalog({
+  locale = "en",
   initialKind,
   initialPublisher,
   initialQuery,
@@ -314,9 +351,13 @@ export function SkillsCatalog({
   initialTrustFilter,
   initialEnterpriseOnly,
   initialExcludeMarketplace,
+  initialPersona = "all",
+  initialJob = "all",
   publishers,
   skills,
 }: SkillsCatalogProps) {
+  const router = useRouter();
+  const copy = getCopy(locale);
   const [query, setQuery] = useState(initialQuery);
   const [kind, setKind] = useState<SkillFilterKind>(initialKind);
   const [publisher, setPublisher] = useState(initialPublisher);
@@ -324,12 +365,27 @@ export function SkillsCatalog({
   const [trustFilter, setTrustFilter] = useState<SkillTrustFilter>(initialTrustFilter);
   const [enterpriseOnly, setEnterpriseOnly] = useState(initialEnterpriseOnly);
   const [excludeMarketplace, setExcludeMarketplace] = useState(initialExcludeMarketplace);
+  const [persona, setPersona] = useState(initialPersona);
+  const [job, setJob] = useState(initialJob);
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
   const [draftKind, setDraftKind] = useState<SkillFilterKind>(initialKind);
   const [draftPublisher, setDraftPublisher] = useState(initialPublisher);
   const [draftTrustFilter, setDraftTrustFilter] = useState<SkillTrustFilter>(initialTrustFilter);
   const [draftEnterpriseOnly, setDraftEnterpriseOnly] = useState(initialEnterpriseOnly);
   const [draftExcludeMarketplace, setDraftExcludeMarketplace] = useState(initialExcludeMarketplace);
+  const [draftPersona, setDraftPersona] = useState(initialPersona);
+  const [draftJob, setDraftJob] = useState(initialJob);
+  const [desktopFiltersOpen, setDesktopFiltersOpen] = useState(
+    initialKind !== "all" ||
+      initialPublisher !== "all" ||
+      initialTrustFilter !== "all" ||
+      initialPersona !== "all" ||
+      initialJob !== "all" ||
+      initialEnterpriseOnly ||
+      initialExcludeMarketplace ||
+      initialSort !== "featured",
+  );
+  const [desktopFiltersExpanded, setDesktopFiltersExpanded] = useState(false);
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const [repoStatsBySlug, setRepoStatsBySlug] = useState<Record<string, RepoStats>>(
     {},
@@ -338,24 +394,25 @@ export function SkillsCatalog({
   const sentinelRef = useRef<HTMLDivElement | null>(null);
   const [, startTransition] = useTransition();
 
-  const deferredQuery = useDeferredValue(query);
-
   useEffect(() => {
     const params = new URLSearchParams();
-    if (deferredQuery) params.set("q", deferredQuery);
+    if (query) params.set("q", query);
     if (kind !== "all") params.set("kind", kind);
     if (publisher !== "all") params.set("publisher", publisher);
     if (sort !== "featured") params.set("sort", sort);
     if (trustFilter !== "all") params.set("trust", trustFilter);
     if (enterpriseOnly) params.set("enterprise", "1");
     if (excludeMarketplace) params.set("excludeMarketplace", "1");
+    if (persona !== "all") params.set("persona", persona);
+    if (job !== "all") params.set("job", job);
 
     const nextUrl = params.toString() ? `/skills?${params.toString()}` : "/skills";
-    window.history.replaceState(null, "", nextUrl);
-  }, [deferredQuery, kind, publisher, sort, trustFilter, enterpriseOnly, excludeMarketplace]);
+    router.replace(nextUrl, { scroll: false });
+  }, [query, kind, publisher, sort, trustFilter, enterpriseOnly, excludeMarketplace, persona, job]);
 
   const filteredSkills = useMemo(() => {
-    const normalizedQuery = deferredQuery.trim().toLowerCase();
+    const normalizedQuery = query.trim().toLowerCase();
+    const expandedJobs = expandQueryAliases(normalizedQuery);
 
     const subset = skills.filter((skill) => {
       const matchesQuery =
@@ -363,7 +420,10 @@ export function SkillsCatalog({
         skill.name.toLowerCase().includes(normalizedQuery) ||
         skill.description.toLowerCase().includes(normalizedQuery) ||
         skill.publisher.toLowerCase().includes(normalizedQuery) ||
-        skill.tags.some((tag) => tag.includes(normalizedQuery));
+        skill.tags.some((tag) => tag.includes(normalizedQuery)) ||
+        skill.personas.some((value) => value.includes(normalizedQuery)) ||
+        skill.jobs.some((value) => value.includes(normalizedQuery)) ||
+        expandedJobs.some((matchedJob) => skill.jobs.includes(matchedJob));
 
       const matchesPublisher =
         publisher === "all" || skill.publisherSlug === publisher;
@@ -375,6 +435,8 @@ export function SkillsCatalog({
         !enterpriseOnly || isPriorityPublisher(skill.publisherSlug);
       const matchesMarketplace =
         !excludeMarketplace || skill.sourceType !== "marketplace";
+      const matchesPersona = persona === "all" || skill.personas.includes(persona);
+      const matchesJob = job === "all" || skill.jobs.includes(job);
 
       return (
         matchesQuery &&
@@ -382,12 +444,29 @@ export function SkillsCatalog({
         matchesKind &&
         matchesTrust &&
         matchesEnterprise &&
-        matchesMarketplace
+        matchesMarketplace &&
+        matchesPersona &&
+        matchesJob
       );
     });
 
     return sortSkills(subset, sort);
-  }, [deferredQuery, kind, publisher, skills, sort, trustFilter, enterpriseOnly, excludeMarketplace]);
+  }, [query, kind, publisher, skills, sort, trustFilter, enterpriseOnly, excludeMarketplace, persona, job]);
+
+  useEffect(() => {
+    console.log("skills-catalog-filters", {
+      query,
+      kind,
+      publisher,
+      sort,
+      trustFilter,
+      enterpriseOnly,
+      excludeMarketplace,
+      persona,
+      job,
+      filteredCount: filteredSkills.length,
+    });
+  }, [query, kind, publisher, sort, trustFilter, enterpriseOnly, excludeMarketplace, persona, job, filteredSkills.length]);
 
   const visibleSkills = useMemo(() => {
     return filteredSkills.slice(0, visibleCount);
@@ -395,30 +474,32 @@ export function SkillsCatalog({
 
   const hasMore = visibleCount < filteredSkills.length;
   const activeFilterCount =
+    Number(query !== "") +
     Number(kind !== "all") +
     Number(publisher !== "all") +
     Number(trustFilter !== "all") +
     Number(enterpriseOnly) +
-    Number(excludeMarketplace);
-
+    Number(excludeMarketplace) +
+    Number(persona !== "all") +
+    Number(job !== "all");
   const currentPublisherName =
     publishers.find((item) => item.slug === publisher)?.name ?? publisher;
 
   const currentKindLabel =
     kind === "all"
-      ? "All skills"
+      ? copy.skills.allSkills
       : kind === "official"
-        ? "Official only"
-        : "Community only";
+        ? copy.skills.officialOnly
+        : copy.skills.communityOnly;
 
   const currentSortLabel =
     sort === "featured"
-      ? "Featured order"
+      ? copy.skillFilters.sort.featured
       : sort === "name"
-        ? "Alphabetical"
-        : "By publisher";
+        ? copy.skillFilters.sort.name
+        : copy.skillFilters.sort.publisher;
   const currentTrustLabel =
-    trustFilter === "all" ? "All trust levels" : getTrustLevelLabel(trustFilter);
+    trustFilter === "all" ? copy.skills.trustAll : getTrustLevelLabel(trustFilter, locale);
 
   const currentDraftPublisherName =
     publishers.find((item) => item.slug === draftPublisher)?.name ?? draftPublisher;
@@ -431,11 +512,15 @@ export function SkillsCatalog({
     setTrustFilter("all");
     setEnterpriseOnly(false);
     setExcludeMarketplace(false);
+    setPersona("all");
+    setJob("all");
     setDraftKind("all");
     setDraftPublisher("all");
     setDraftTrustFilter("all");
     setDraftEnterpriseOnly(false);
     setDraftExcludeMarketplace(false);
+    setDraftPersona("all");
+    setDraftJob("all");
     setVisibleCount(PAGE_SIZE);
   }
 
@@ -445,6 +530,8 @@ export function SkillsCatalog({
     setDraftTrustFilter(trustFilter);
     setDraftEnterpriseOnly(enterpriseOnly);
     setDraftExcludeMarketplace(excludeMarketplace);
+    setDraftPersona(persona);
+    setDraftJob(job);
     setMobileFiltersOpen(true);
   }
 
@@ -454,6 +541,8 @@ export function SkillsCatalog({
     setDraftTrustFilter(trustFilter);
     setDraftEnterpriseOnly(enterpriseOnly);
     setDraftExcludeMarketplace(excludeMarketplace);
+    setDraftPersona(persona);
+    setDraftJob(job);
     setMobileFiltersOpen(false);
   }
 
@@ -464,10 +553,48 @@ export function SkillsCatalog({
       setTrustFilter(draftTrustFilter);
       setEnterpriseOnly(draftEnterpriseOnly);
       setExcludeMarketplace(draftExcludeMarketplace);
+      setPersona(draftPersona);
+      setJob(draftJob);
       setVisibleCount(PAGE_SIZE);
       setMobileFiltersOpen(false);
     });
   }
+
+  const roles = getRoles();
+  const personaOptions = [
+    { value: "all", label: copy.skills.allRoles },
+    ...roles.map((role) => ({ value: role.slug, label: copy.roleLabels[role.slug] ?? role.label })),
+  ];
+
+  const jobOptions = [
+    { value: "all", label: copy.skills.allTasks },
+    { value: "sql-analysis", label: copy.taskLabels["sql-analysis"] },
+    { value: "spreadsheet-cleaning", label: copy.taskLabels["spreadsheet-cleaning"] },
+    { value: "dashboarding", label: copy.taskLabels["dashboarding"] },
+    { value: "reporting", label: copy.taskLabels["reporting"] },
+    { value: "data-extraction", label: copy.taskLabels["data-extraction"] },
+    { value: "workflow-automation", label: copy.taskLabels["workflow-automation"] },
+    { value: "research-synthesis", label: copy.taskLabels["research-synthesis"] },
+    { value: "development-workflows", label: copy.taskLabels["development-workflows"] },
+    { value: "testing-debugging", label: copy.taskLabels["testing-debugging"] },
+    { value: "deployment-ops", label: copy.taskLabels["deployment-ops"] },
+    { value: "api-integration", label: copy.taskLabels["api-integration"] },
+    { value: "prd-specs", label: copy.taskLabels["prd-specs"] },
+    { value: "planning-roadmapping", label: copy.taskLabels["planning-roadmapping"] },
+    { value: "ui-ux-design", label: copy.taskLabels["ui-ux-design"] },
+    { value: "design-critique", label: copy.taskLabels["design-critique"] },
+    { value: "presentation-building", label: copy.taskLabels["presentation-building"] },
+    { value: "visual-assets", label: copy.taskLabels["visual-assets"] },
+    { value: "content-production", label: copy.taskLabels["content-production"] },
+    { value: "campaign-planning", label: copy.taskLabels["campaign-planning"] },
+    { value: "landing-pages", label: copy.taskLabels["landing-pages"] },
+    { value: "document-authoring", label: copy.taskLabels["document-authoring"] },
+  ];
+
+  const currentPersonaLabel =
+    personaOptions.find((item) => item.value === persona)?.label ?? persona;
+  const currentJobLabel =
+    jobOptions.find((item) => item.value === job)?.label ?? job;
 
   useEffect(() => {
     const missingSkills = visibleSkills.filter(
@@ -561,30 +688,56 @@ export function SkillsCatalog({
   }, [mobileFiltersOpen]);
 
   return (
-    <div className="page-shell min-w-0 h-full min-h-0 py-4 sm:py-5">
-      <section className="catalog-shell h-full min-h-0 overflow-hidden rounded-[1.75rem] border shadow-[0_24px_70px_rgba(20,16,10,0.07)] backdrop-blur sm:rounded-[2rem]">
-        <div className="flex h-full min-h-0 min-w-0 flex-col p-3">
-          <div className="catalog-chrome relative z-30 rounded-[1.5rem] px-2 py-2.5 sm:rounded-[1.75rem] sm:px-3 sm:py-3">
-            <div className="flex flex-col gap-3">
-              <div className="flex min-w-0 flex-col gap-3 xl:flex-row xl:items-center">
-                <div
-                  className="catalog-control flex min-w-0 items-center gap-3 rounded-full border px-5 sm:px-6 xl:max-w-[36rem] xl:flex-1"
-                  style={{ height: 48 }}
-                >
-                  <FilterIcon />
-                  <input
-                    className="h-full w-full bg-transparent text-base text-[var(--foreground)] outline-none placeholder:text-[var(--ink-muted)]"
-                    onChange={(event) => {
-                      const nextValue = event.target.value;
-                      startTransition(() => {
-                        setQuery(nextValue);
-                        setVisibleCount(PAGE_SIZE);
-                      });
-                    }}
-                    placeholder="Search skills, publishers, tags"
-                    type="search"
-                    value={query}
-                  />
+    <div className="page-shell min-w-0 py-4 sm:py-5">
+      <section className="catalog-shell overflow-hidden rounded-[1.75rem] border shadow-[0_24px_70px_rgba(20,16,10,0.07)] backdrop-blur sm:rounded-[2rem]">
+        <div className="flex min-w-0 flex-col p-3">
+          <div className="relative z-30 px-1 py-1 sm:px-2 sm:py-2">
+            <div className="flex flex-col gap-4">
+              <div className="catalog-top-grid flex min-w-0 flex-col gap-4">
+                <div className="flex min-w-0 flex-col gap-3 xl:flex-row xl:items-center">
+                  <div className="min-w-0 flex-1">
+                  <div
+                    className="catalog-search-wrap catalog-control flex min-w-0 items-center gap-3 rounded-[1.35rem] border px-5 sm:px-6"
+                    style={{ minHeight: 56 }}
+                  >
+                    <SearchIcon />
+                    <input
+                      className="h-full w-full bg-transparent text-base text-[var(--foreground)] outline-none placeholder:text-[var(--ink-muted)]"
+                      onChange={(event) => {
+                        const nextValue = event.target.value;
+                        startTransition(() => {
+                          setQuery(nextValue);
+                          setVisibleCount(PAGE_SIZE);
+                        });
+                      }}
+                      placeholder={copy.skills.searchPlaceholder}
+                      type="search"
+                      value={query}
+                    />
+                  </div>
+                </div>
+
+                  <div className="hidden xl:flex xl:min-w-[fit-content] xl:shrink-0 xl:items-center xl:justify-end">
+                    <button
+                      aria-expanded={desktopFiltersOpen}
+                      className={`catalog-control inline-flex min-h-[56px] items-center whitespace-nowrap rounded-[1.35rem] border px-5 text-sm font-medium transition hover:bg-[var(--surface)] ${
+                        desktopFiltersOpen ? "catalog-control-active shadow-[0_12px_28px_rgba(225,6,0,0.14)]" : ""
+                      }`}
+                      onClick={() => setDesktopFiltersOpen((current) => !current)}
+                      type="button"
+                    >
+                      <span className="inline-flex items-center gap-2">
+                        <span>
+                          {locale === "zh-CN" ? "展开筛选" : "Show filters"} {desktopFiltersOpen ? "−" : "+"}
+                        </span>
+                        {activeFilterCount > 0 ? (
+                          <span className="inline-flex h-6 min-w-6 items-center justify-center rounded-full bg-[var(--accent-soft)] px-1.5 text-[11px] font-semibold text-[var(--accent)]">
+                            {activeFilterCount}
+                          </span>
+                        ) : null}
+                      </span>
+                    </button>
+                  </div>
                 </div>
 
                 <div className="grid min-w-0 grid-cols-[minmax(0,1fr)_minmax(0,1fr)] gap-3 xl:hidden">
@@ -592,14 +745,14 @@ export function SkillsCatalog({
                     aria-expanded={mobileFiltersOpen}
                     className={`catalog-control flex h-12 items-center justify-between rounded-full border px-4 text-sm font-medium transition ${
                       mobileFiltersOpen || activeFilterCount > 0
-                        ? "catalog-control-active shadow-[0_12px_28px_rgba(23,105,255,0.14)]"
+                        ? "catalog-control-active shadow-[0_12px_28px_rgba(225,6,0,0.14)]"
                         : "hover:bg-[var(--surface)]"
                     }`}
                     onClick={openMobileFilters}
                     type="button"
                   >
                     <span className="flex items-center gap-2">
-                      <span>Filters</span>
+                      <span>{locale === "zh-CN" ? "筛选" : "Filters"}</span>
                       {activeFilterCount > 0 ? (
                         <span className="inline-flex h-6 min-w-6 items-center justify-center rounded-full bg-[var(--accent-soft)] px-1.5 text-[11px] font-semibold text-[var(--accent)]">
                           {activeFilterCount}
@@ -610,6 +763,19 @@ export function SkillsCatalog({
                   </button>
 
                   <DropdownFilter
+                    currentLabel={currentPersonaLabel}
+                    onChange={(nextValue) =>
+                      startTransition(() => {
+                        setPersona(nextValue);
+                        setVisibleCount(PAGE_SIZE);
+                      })
+                    }
+                    options={personaOptions}
+                    value={persona}
+                    widthClass="w-full"
+                  />
+
+                  <DropdownFilter
                     currentLabel={currentSortLabel}
                     onChange={(nextValue) =>
                       startTransition(() => {
@@ -618,283 +784,239 @@ export function SkillsCatalog({
                       })
                     }
                     options={[
-                      { value: "featured", label: "Featured order" },
-                      { value: "name", label: "Alphabetical" },
-                      { value: "publisher", label: "By publisher" },
+                      { value: "featured", label: copy.skillFilters.sort.featured },
+                      { value: "name", label: copy.skillFilters.sort.name },
+                      { value: "publisher", label: copy.skillFilters.sort.publisher },
                     ]}
                     value={sort}
                     widthClass="w-full"
                   />
                 </div>
 
-                <div className="hidden xl:flex xl:flex-1 xl:flex-wrap xl:justify-end xl:gap-2.5 2xl:gap-3">
-                  <DropdownFilter
-                    currentLabel={currentKindLabel}
-                    onChange={(nextValue) =>
-                      startTransition(() => {
-                        setKind(nextValue as SkillFilterKind);
-                        setVisibleCount(PAGE_SIZE);
-                      })
-                    }
-                    options={[
-                      { value: "all", label: "All skills" },
-                      { value: "official", label: "Official only" },
-                      { value: "community", label: "Community only" },
-                    ]}
-                    value={kind}
-                    widthClass="w-full xl:min-w-[150px] xl:w-auto"
-                  />
+                <div className="hidden xl:flex xl:min-w-0 xl:flex-col xl:gap-3">
+                  {desktopFiltersOpen ? (
+                    <>
+                      <div className="flex items-start justify-between gap-3">
+                        <div>
+                          <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-[var(--accent)]">
+                            {locale === "zh-CN" ? "筛选条件" : "Filters"}
+                          </p>
+                          <p className="mt-1 text-sm text-[var(--ink-muted)]">
+                            {locale === "zh-CN"
+                              ? "需要时再展开，按来源、公司、任务和排序缩小范围。"
+                              : "Open only when needed, then narrow by source, company, task, or sort."}
+                          </p>
+                        </div>
+                        <div className="rounded-full border border-[var(--border-soft)] bg-[var(--surface)] px-3 py-1.5 text-[11px] font-medium text-[var(--ink-muted)]">
+                          {visibleSkills.length} {locale === "zh-CN" ? "个结果" : "results"}
+                        </div>
+                      </div>
 
-                  <DropdownFilter
-                    currentLabel={currentPublisherName}
-                    currentLeading={
-                      publisher === "all" ? (
-                        <span className="inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full border border-dashed border-[var(--border-soft)] bg-[var(--surface)] text-[11px] font-semibold text-[var(--ink-muted)]">
-                          All
-                        </span>
-                      ) : (
-                        <PublisherBadge label={currentPublisherName} slug={publisher} size="sm" />
-                      )
-                    }
-                    onChange={(nextValue) =>
-                      startTransition(() => {
-                        setPublisher(nextValue);
-                        setVisibleCount(PAGE_SIZE);
-                      })
-                    }
-                    options={[
-                      {
-                        value: "all",
-                        label: "All publishers",
-                        leading: (
-                          <span className="inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full border border-dashed border-[var(--border-soft)] bg-[var(--surface)] text-[11px] font-semibold text-[var(--ink-muted)]">
-                            All
-                          </span>
-                        ),
-                      },
-                      ...publishers.map((item) => ({
-                        value: item.slug,
-                        label: item.name,
-                        leading: <PublisherBadge label={item.name} slug={item.slug} size="sm" />,
-                        trailing: `(${item.count})`,
-                      })),
-                    ]}
-                    value={publisher}
-                    widthClass="w-full xl:min-w-[180px] xl:w-auto"
-                  />
+                      <div className="grid min-w-0 grid-cols-[repeat(3,minmax(0,1fr))_auto] gap-2.5 2xl:gap-3">
+                        <DropdownFilter
+                          currentLabel={currentKindLabel}
+                          onChange={(nextValue) =>
+                            startTransition(() => {
+                              setKind(nextValue as SkillFilterKind);
+                              setVisibleCount(PAGE_SIZE);
+                            })
+                          }
+                          options={[
+                            { value: "all", label: copy.skills.allSkills },
+                            { value: "official", label: copy.skills.officialOnly },
+                            { value: "community", label: copy.skills.communityOnly },
+                          ]}
+                          value={kind}
+                          widthClass="w-full"
+                        />
 
-                  <DropdownFilter
-                    currentLabel={currentTrustLabel}
-                    onChange={(nextValue) =>
-                      startTransition(() => {
-                        setTrustFilter(nextValue as SkillTrustFilter);
-                        setVisibleCount(PAGE_SIZE);
-                      })
-                    }
-                    options={[
-                      { value: "all", label: "All trust levels" },
-                      { value: "official", label: "Official only" },
-                      { value: "curated", label: "Curated only" },
-                      { value: "untrusted", label: "Untrusted only" },
-                    ]}
-                    value={trustFilter}
-                    widthClass="w-full xl:min-w-[170px] xl:w-auto"
-                  />
+                        <DropdownFilter
+                          currentLabel={currentPublisherName}
+                          currentLeading={
+                            publisher === "all" ? (
+                              <span className="inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full border border-dashed border-[var(--border-soft)] bg-[var(--surface)] text-[11px] font-semibold text-[var(--ink-muted)]">
+                                {locale === "zh-CN" ? "全" : "All"}
+                              </span>
+                            ) : (
+                              <PublisherBadge label={currentPublisherName} slug={publisher} size="sm" />
+                            )
+                          }
+                          onChange={(nextValue) =>
+                            startTransition(() => {
+                              setPublisher(nextValue);
+                              setVisibleCount(PAGE_SIZE);
+                            })
+                          }
+                          options={[
+                            {
+                              value: "all",
+                              label: copy.common.allPublishers,
+                              leading: (
+                                <span className="inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full border border-dashed border-[var(--border-soft)] bg-[var(--surface)] text-[11px] font-semibold text-[var(--ink-muted)]">
+                                  All
+                                </span>
+                              ),
+                            },
+                            ...publishers.map((item) => ({
+                              value: item.slug,
+                              label: item.name,
+                              leading: <PublisherBadge label={item.name} slug={item.slug} size="sm" />,
+                              trailing: `(${item.count})`,
+                            })),
+                          ]}
+                          value={publisher}
+                          widthClass="w-full"
+                        />
 
-                  <button
-                    className={`catalog-control h-12 rounded-full border px-4 text-sm font-medium transition xl:w-auto ${
-                      enterpriseOnly
-                        ? "catalog-control-active shadow-[0_12px_28px_rgba(23,105,255,0.14)]"
-                        : "hover:bg-[var(--surface)]"
-                    }`}
-                    onClick={() =>
-                      startTransition(() => {
-                        setEnterpriseOnly((current) => !current);
-                        setVisibleCount(PAGE_SIZE);
-                      })
-                    }
-                    type="button"
-                  >
-                    Enterprise first
-                  </button>
+                        <DropdownFilter
+                          currentLabel={currentJobLabel}
+                          onChange={(nextValue) =>
+                            startTransition(() => {
+                              setJob(nextValue);
+                              setVisibleCount(PAGE_SIZE);
+                            })
+                          }
+                          options={jobOptions}
+                          value={job}
+                          widthClass="w-full"
+                        />
 
-                  <button
-                    className={`catalog-control h-12 rounded-full border px-4 text-sm font-medium transition xl:w-auto ${
-                      excludeMarketplace
-                        ? "catalog-control-active shadow-[0_12px_28px_rgba(23,105,255,0.14)]"
-                        : "hover:bg-[var(--surface)]"
-                    }`}
-                    onClick={() =>
-                      startTransition(() => {
-                        setExcludeMarketplace((current) => !current);
-                        setVisibleCount(PAGE_SIZE);
-                      })
-                    }
-                    type="button"
-                  >
-                    Exclude marketplace
-                  </button>
+                        <DropdownFilter
+                          currentLabel={currentSortLabel}
+                          onChange={(nextValue) =>
+                            startTransition(() => {
+                              setSort(nextValue as SkillSort);
+                              setVisibleCount(PAGE_SIZE);
+                            })
+                          }
+                          options={[
+                            { value: "featured", label: copy.skillFilters.sort.featured },
+                            { value: "name", label: copy.skillFilters.sort.name },
+                            { value: "publisher", label: copy.skillFilters.sort.publisher },
+                          ]}
+                          value={sort}
+                          widthClass="w-full"
+                        />
 
-                  <DropdownFilter
-                    currentLabel={currentSortLabel}
-                    onChange={(nextValue) =>
-                      startTransition(() => {
-                        setSort(nextValue as SkillSort);
-                        setVisibleCount(PAGE_SIZE);
-                      })
-                    }
-                    options={[
-                      { value: "featured", label: "Featured order" },
-                      { value: "name", label: "Alphabetical" },
-                      { value: "publisher", label: "By publisher" },
-                    ]}
-                    value={sort}
-                    widthClass="w-full xl:min-w-[170px] xl:w-auto"
-                  />
+                        <button
+                          aria-expanded={desktopFiltersExpanded}
+                          className={`catalog-control h-12 whitespace-nowrap rounded-full border px-4 text-sm font-medium transition hover:bg-[var(--surface)] ${
+                            desktopFiltersExpanded ? "catalog-control-active shadow-[0_12px_28px_rgba(225,6,0,0.14)]" : ""
+                          }`}
+                          onClick={() => setDesktopFiltersExpanded((current) => !current)}
+                          type="button"
+                        >
+                          {locale === "zh-CN" ? "更多筛选" : "More filters"} {desktopFiltersExpanded ? "−" : "+"}
+                        </button>
+                      </div>
 
-                  <button
-                    className={`catalog-control h-12 rounded-full border px-4 text-sm font-medium transition xl:w-auto ${
-                      deferredQuery || kind !== "all" || publisher !== "all" || sort !== "featured"
-                        ? "catalog-control-active hover:bg-[var(--foreground)]"
-                        : "text-[var(--ink-muted)] hover:bg-[var(--surface)]"
-                    }`}
-                    onClick={() =>
-                      startTransition(() => {
-                        resetAllFilters();
-                      })
-                    }
-                    type="button"
-                  >
-                    Reset
-                  </button>
+                      {desktopFiltersExpanded ? (
+                        <div className="grid min-w-0 grid-cols-[minmax(0,1fr)_minmax(0,1fr)_auto_auto_auto] gap-2.5 border-t border-[var(--border-soft)] pt-3 2xl:gap-3">
+                          <DropdownFilter
+                            currentLabel={currentTrustLabel}
+                            onChange={(nextValue) =>
+                              startTransition(() => {
+                                setTrustFilter(nextValue as SkillTrustFilter);
+                                setVisibleCount(PAGE_SIZE);
+                              })
+                            }
+                            options={[
+                              { value: "all", label: copy.skills.trustAll },
+                              { value: "official", label: copy.skillFilters.trust.official },
+                              { value: "curated", label: copy.skillFilters.trust.curated },
+                              { value: "untrusted", label: copy.skillFilters.trust.untrusted },
+                            ]}
+                            value={trustFilter}
+                            widthClass="w-full"
+                          />
+
+                          <DropdownFilter
+                            currentLabel={currentPersonaLabel}
+                            onChange={(nextValue) =>
+                              startTransition(() => {
+                                setPersona(nextValue);
+                                setVisibleCount(PAGE_SIZE);
+                              })
+                            }
+                            options={personaOptions}
+                            value={persona}
+                            widthClass="w-full"
+                          />
+
+                          <button
+                            className={`catalog-control h-12 whitespace-nowrap rounded-full border px-4 text-sm font-medium transition ${
+                              enterpriseOnly
+                                ? "catalog-control-active shadow-[0_12px_28px_rgba(225,6,0,0.14)]"
+                                : "hover:bg-[var(--surface)]"
+                            }`}
+                            onClick={() =>
+                              startTransition(() => {
+                                setEnterpriseOnly((current) => !current);
+                                setVisibleCount(PAGE_SIZE);
+                              })
+                            }
+                            type="button"
+                          >
+                            {copy.skills.enterpriseOnly}
+                          </button>
+
+                          <button
+                            className={`catalog-control h-12 whitespace-nowrap rounded-full border px-4 text-sm font-medium transition ${
+                              excludeMarketplace
+                                ? "catalog-control-active shadow-[0_12px_28px_rgba(225,6,0,0.14)]"
+                                : "hover:bg-[var(--surface)]"
+                            }`}
+                            onClick={() =>
+                              startTransition(() => {
+                                setExcludeMarketplace((current) => !current);
+                                setVisibleCount(PAGE_SIZE);
+                              })
+                            }
+                            type="button"
+                          >
+                            {copy.skills.excludeMarketplace}
+                          </button>
+
+                          <button
+                            className={`catalog-control h-12 whitespace-nowrap rounded-full border px-4 text-sm font-medium transition ${
+                              activeFilterCount > 0 || sort !== "featured"
+                                ? "catalog-control-active hover:bg-[var(--foreground)]"
+                                : "text-[var(--ink-muted)] hover:bg-[var(--surface)]"
+                            }`}
+                            onClick={() =>
+                              startTransition(() => {
+                                resetAllFilters();
+                              })
+                            }
+                            type="button"
+                          >
+                            {locale === "zh-CN" ? "重置" : "Reset"}
+                          </button>
+                        </div>
+                      ) : null}
+                    </>
+                  ) : null}
                 </div>
               </div>
-
-              {(deferredQuery ||
-                kind !== "all" ||
-                publisher !== "all" ||
-                sort !== "featured" ||
-                trustFilter !== "all" ||
-                enterpriseOnly ||
-                excludeMarketplace) && (
-              <div className="flex min-w-0 flex-wrap gap-2">
-                {deferredQuery ? (
-                  <button
-                    className="catalog-chip min-w-0 max-w-full rounded-full px-3 py-2 text-xs font-semibold uppercase tracking-[0.18em] transition hover:bg-[var(--surface-strong)]"
-                    onClick={() =>
-                      startTransition(() => {
-                        setQuery("");
-                        setVisibleCount(PAGE_SIZE);
-                      })
-                    }
-                    type="button"
-                  >
-                    Search: {deferredQuery} ✕
-                  </button>
-                ) : null}
-                {kind !== "all" ? (
-                  <button
-                    className="catalog-chip min-w-0 max-w-full rounded-full px-3 py-2 text-xs font-semibold uppercase tracking-[0.18em] transition hover:bg-[var(--surface-strong)]"
-                    onClick={() =>
-                      startTransition(() => {
-                        setKind("all");
-                        setVisibleCount(PAGE_SIZE);
-                      })
-                    }
-                    type="button"
-                  >
-                    Type: {currentKindLabel} ✕
-                  </button>
-                ) : null}
-                {publisher !== "all" ? (
-                  <button
-                    className="catalog-chip min-w-0 max-w-full rounded-full px-3 py-2 text-xs font-semibold uppercase tracking-[0.18em] transition hover:bg-[var(--surface-strong)]"
-                    onClick={() =>
-                      startTransition(() => {
-                        setPublisher("all");
-                        setVisibleCount(PAGE_SIZE);
-                      })
-                    }
-                    type="button"
-                  >
-                    Publisher: {currentPublisherName} ✕
-                  </button>
-                ) : null}
-                {trustFilter !== "all" ? (
-                  <button
-                    className="catalog-chip min-w-0 max-w-full rounded-full px-3 py-2 text-xs font-semibold uppercase tracking-[0.18em] transition hover:bg-[var(--surface-strong)]"
-                    onClick={() =>
-                      startTransition(() => {
-                        setTrustFilter("all");
-                        setVisibleCount(PAGE_SIZE);
-                      })
-                    }
-                    type="button"
-                  >
-                    Trust: {currentTrustLabel} ✕
-                  </button>
-                ) : null}
-                {enterpriseOnly ? (
-                  <button
-                    className="catalog-chip min-w-0 max-w-full rounded-full px-3 py-2 text-xs font-semibold uppercase tracking-[0.18em] transition hover:bg-[var(--surface-strong)]"
-                    onClick={() =>
-                      startTransition(() => {
-                        setEnterpriseOnly(false);
-                        setVisibleCount(PAGE_SIZE);
-                      })
-                    }
-                    type="button"
-                  >
-                    Enterprise first ✕
-                  </button>
-                ) : null}
-                {excludeMarketplace ? (
-                  <button
-                    className="catalog-chip min-w-0 max-w-full rounded-full px-3 py-2 text-xs font-semibold uppercase tracking-[0.18em] transition hover:bg-[var(--surface-strong)]"
-                    onClick={() =>
-                      startTransition(() => {
-                        setExcludeMarketplace(false);
-                        setVisibleCount(PAGE_SIZE);
-                      })
-                    }
-                    type="button"
-                  >
-                    Exclude marketplace ✕
-                  </button>
-                ) : null}
-                {sort !== "featured" ? (
-                  <button
-                    className="catalog-chip min-w-0 max-w-full rounded-full px-3 py-2 text-xs font-semibold uppercase tracking-[0.18em] transition hover:bg-[var(--surface-strong)]"
-                    onClick={() =>
-                      startTransition(() => {
-                        setSort("featured");
-                        setVisibleCount(PAGE_SIZE);
-                      })
-                    }
-                    type="button"
-                  >
-                    Sort: {currentSortLabel} ✕
-                  </button>
-                ) : null}
-              </div>
-              )}
             </div>
           </div>
 
-          <div className="mt-3 flex min-h-0 flex-1 flex-col border-t border-[var(--border-soft)] pt-3 sm:mt-4 sm:pt-4">
+          <div className="flex flex-col border-t border-[var(--border-soft)] pt-4">
 
             <div
-              className="min-h-0 flex-1 overflow-y-auto overscroll-contain pr-1 pb-28 sm:pb-0"
+              className="pr-1 pb-28 sm:pb-0"
               ref={scrollAreaRef}
             >
               <div className="grid gap-3 sm:gap-4">
                 {visibleSkills.length === 0 ? (
                   <div className="glass rounded-[1.75rem] p-8">
-                    <h3 className="text-2xl font-semibold">No skills match this filter set.</h3>
+                    <h3 className="text-2xl font-semibold">
+                      {locale === "zh-CN" ? "暂时没找到合适的 skill。" : "No matching skills yet."}
+                    </h3>
                     <p className="muted mt-3 max-w-xl leading-7">
-                      Try removing the publisher filter first, then widen the search
-                      term. This catalog is large enough that overly specific combinations
-                      can easily collapse to zero.
+                      {locale === "zh-CN"
+                        ? "先少选几个条件试试，或者换个更宽一点的关键词，通常很快就能看到结果。"
+                        : "Try fewer filters or a broader keyword. That usually brings useful results back quickly."}
                     </p>
                     <div className="mt-5 flex flex-wrap gap-3">
                       <button
@@ -906,9 +1028,9 @@ export function SkillsCatalog({
                         }
                         type="button"
                       >
-                        Clear filters
+                        {locale === "zh-CN" ? "清除筛选" : "Clear filters"}
                       </button>
-                      {deferredQuery ? (
+                      {query ? (
                         <button
                           className="rounded-full border border-[var(--border-soft)] bg-[var(--surface-strong)] px-4 py-2 text-sm font-medium"
                           onClick={() =>
@@ -919,7 +1041,7 @@ export function SkillsCatalog({
                           }
                           type="button"
                         >
-                          Remove search
+                          {locale === "zh-CN" ? "移除搜索" : "Remove search"}
                         </button>
                       ) : null}
                     </div>
@@ -933,9 +1055,16 @@ export function SkillsCatalog({
                     >
                       <div className="min-w-0">
                         <p className="eyebrow muted">{skill.kind}</p>
-                        <div className="mt-2 flex items-center gap-3">
-                          <PublisherMark slug={skill.publisherSlug} />
-                          <p className="min-w-0 text-xl font-semibold leading-none">{skill.publisher}</p>
+                        <div className="mt-2 flex min-w-0 items-center gap-3">
+                          <SkillOwnerMark skill={skill} />
+                          <div className="min-w-0">
+                            <p className="truncate text-xl font-semibold leading-none">{skill.publisher}</p>
+                            {skill.creatorHandle ? (
+                              <p className="mt-1 truncate text-[11px] uppercase tracking-[0.16em] text-[var(--ink-muted)]">
+                                @{skill.creatorHandle}
+                              </p>
+                            ) : null}
+                          </div>
                         </div>
                         <p className="muted mt-2 text-xs uppercase tracking-[0.18em]">
                           {skill.sectionTitle}
@@ -950,14 +1079,14 @@ export function SkillsCatalog({
                               skill.trustLevel,
                             )}`}
                           >
-                            {getTrustLevelLabel(skill.trustLevel)}
+                            {getTrustLevelLabel(skill.trustLevel, locale)}
                           </span>
                           <span
                             className={`inline-flex items-center rounded-full border px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.14em] ${getSourceTone(
                               skill.sourceType,
                             )}`}
                           >
-                            {getSourceTypeLabel(skill.sourceType)}
+                            {getSourceTypeLabel(skill.sourceType, locale)}
                           </span>
                           {skill.riskFlags.slice(0, 2).map((flag) => (
                             <span
@@ -987,7 +1116,7 @@ export function SkillsCatalog({
                               {repoStatsBySlug[skill.slug]?.stars === null ||
                               repoStatsBySlug[skill.slug]?.stars === undefined
                                 ? "—"
-                                : formatCompactNumber(repoStatsBySlug[skill.slug]?.stars ?? 0)}
+                              : formatCompactNumber(repoStatsBySlug[skill.slug]?.stars ?? 0, locale)}
                             </span>
                           </span>
                           <span className="inline-flex items-center gap-1.5 rounded-full border border-[#d4dde8] bg-[#f5f9ff] px-3 py-1.5 text-[#5c6f88]">
@@ -996,7 +1125,7 @@ export function SkillsCatalog({
                               {repoStatsBySlug[skill.slug]?.forks === null ||
                               repoStatsBySlug[skill.slug]?.forks === undefined
                                 ? "—"
-                                : formatCompactNumber(repoStatsBySlug[skill.slug]?.forks ?? 0)}
+                                : formatCompactNumber(repoStatsBySlug[skill.slug]?.forks ?? 0, locale)}
                             </span>
                           </span>
                         </div>
@@ -1015,7 +1144,7 @@ export function SkillsCatalog({
       {mobileFiltersOpen ? (
         <div className="fixed inset-0 z-50 xl:hidden">
           <button
-            aria-label="Close filters"
+            aria-label={locale === "zh-CN" ? "关闭筛选" : "Close filters"}
             className="absolute inset-0 bg-[rgba(17,17,17,0.22)]"
             onClick={closeMobileFilters}
             type="button"
@@ -1023,9 +1152,15 @@ export function SkillsCatalog({
           <div className="absolute inset-x-0 bottom-0 max-h-[82vh] overflow-hidden rounded-t-[2rem] border border-[var(--border-soft)] bg-[#f8f4ed] shadow-[0_-14px_30px_rgba(20,16,10,0.1)]">
             <div className="flex items-center justify-between border-b border-[var(--border-soft)] px-5 py-4">
               <div>
-                <h2 className="text-lg font-semibold">Filters</h2>
+                <h2 className="text-lg font-semibold">{locale === "zh-CN" ? "筛选" : "Filters"}</h2>
                 <p className="mt-1 text-sm text-[var(--ink-muted)]">
-                  {activeFilterCount > 0 ? `${activeFilterCount} filters applied` : "Refine the catalog"}
+                  {activeFilterCount > 0
+                    ? locale === "zh-CN"
+                      ? `已应用 ${activeFilterCount} 个筛选`
+                      : `${activeFilterCount} filters applied`
+                    : locale === "zh-CN"
+                      ? "继续缩小目录"
+                      : "Refine the catalog"}
                 </p>
               </div>
               <button
@@ -1033,24 +1168,24 @@ export function SkillsCatalog({
                 onClick={closeMobileFilters}
                 type="button"
               >
-                Close
+                {locale === "zh-CN" ? "关闭" : "Close"}
               </button>
             </div>
 
             <div className="flex max-h-[calc(82vh-148px)] flex-col gap-5 overflow-y-auto px-5 py-5">
               <NativeFilterSelect
-                label="Type"
+                label={locale === "zh-CN" ? "类型" : "Type"}
                 onChange={(nextValue) => setDraftKind(nextValue as SkillFilterKind)}
                 options={[
-                  { value: "all", label: "All skills" },
-                  { value: "official", label: "Official only" },
-                  { value: "community", label: "Community only" },
+                  { value: "all", label: copy.skills.allSkills },
+                  { value: "official", label: copy.skills.officialOnly },
+                  { value: "community", label: copy.skills.communityOnly },
                 ]}
                 value={draftKind}
               />
 
               <NativeFilterSelect
-                label="Publisher"
+                label={locale === "zh-CN" ? "发布方" : "Publisher"}
                 leading={
                   draftPublisher === "all" ? null : (
                     <span className="inline-flex items-center gap-2 rounded-full bg-[var(--surface-strong)] px-3 py-2 text-xs font-medium text-[var(--ink-muted)]">
@@ -1063,7 +1198,7 @@ export function SkillsCatalog({
                 options={[
                   {
                     value: "all",
-                    label: "All publishers",
+                    label: copy.common.allPublishers,
                   },
                   ...publishers.map((item) => ({
                     value: item.slug,
@@ -1074,20 +1209,34 @@ export function SkillsCatalog({
               />
 
               <NativeFilterSelect
-                label="Trust"
+                label={locale === "zh-CN" ? "角色" : "Role"}
+                onChange={(nextValue) => setDraftPersona(nextValue)}
+                options={personaOptions}
+                value={draftPersona}
+              />
+
+              <NativeFilterSelect
+                label={locale === "zh-CN" ? "任务" : "Task"}
+                onChange={(nextValue) => setDraftJob(nextValue)}
+                options={jobOptions}
+                value={draftJob}
+              />
+
+              <NativeFilterSelect
+                label={locale === "zh-CN" ? "来源质量" : "Source quality"}
                 onChange={(nextValue) => setDraftTrustFilter(nextValue as SkillTrustFilter)}
                 options={[
-                  { value: "all", label: "All trust levels" },
-                  { value: "official", label: "Official only" },
-                  { value: "curated", label: "Curated only" },
-                  { value: "untrusted", label: "Untrusted only" },
+                  { value: "all", label: copy.skills.trustAll },
+                  { value: "official", label: copy.skillFilters.trust.official },
+                  { value: "curated", label: copy.skillFilters.trust.curated },
+                  { value: "untrusted", label: copy.skillFilters.trust.untrusted },
                 ]}
                 value={draftTrustFilter}
               />
 
               <label className="flex items-center justify-between rounded-[1.2rem] border border-[var(--border-soft)] bg-[var(--surface-strong)] px-4 py-3">
                 <span className="text-sm font-medium text-[var(--foreground)]">
-                  Enterprise first
+                  {copy.skills.enterpriseOnly}
                 </span>
                 <input
                   checked={draftEnterpriseOnly}
@@ -1099,7 +1248,7 @@ export function SkillsCatalog({
 
               <label className="flex items-center justify-between rounded-[1.2rem] border border-[var(--border-soft)] bg-[var(--surface-strong)] px-4 py-3">
                 <span className="text-sm font-medium text-[var(--foreground)]">
-                  Exclude marketplace
+                  {copy.skills.excludeMarketplace}
                 </span>
                 <input
                   checked={draftExcludeMarketplace}
@@ -1119,17 +1268,19 @@ export function SkillsCatalog({
                   setDraftTrustFilter("all");
                   setDraftEnterpriseOnly(false);
                   setDraftExcludeMarketplace(false);
+                  setDraftPersona("all");
+                  setDraftJob("all");
                 }}
                 type="button"
               >
-                Reset
+                {locale === "zh-CN" ? "重置" : "Reset"}
               </button>
               <button
                 className="h-12 flex-1 rounded-full border border-[var(--accent)] bg-[var(--accent-soft)] px-4 text-sm font-semibold text-[var(--accent)] shadow-none transition hover:bg-[var(--surface-strong)]"
                 onClick={applyMobileFilters}
                 type="button"
               >
-                Apply filters
+                {locale === "zh-CN" ? "应用筛选" : "Apply filters"}
               </button>
             </div>
           </div>

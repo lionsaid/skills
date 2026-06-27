@@ -1,0 +1,297 @@
+[
+  {
+    "slug": "data-analyst",
+    "label": "Data Analyst",
+    "summary": "Find skills for SQL, spreadsheets, dashboards, extraction, and recurring reporting.",
+    "hero": "A focused starting point for analysts who need to query, clean, visualize, and ship insights fast.",
+    "starterSkillSlugs": [
+      "duckdb-query",
+      "duckdb-read-file",
+      "clickhouse-clickhouse-best-practices",
+      "googleworkspace-gws-sheets",
+      "googleworkspace-gws-drive",
+      "supabase-postgres-best-practices",
+      "anthropics-xlsx",
+      "anthropics-pdf",
+      "anthropics-doc-coauthoring",
+      "anthropics-pptx"
+    ],
+    "jobs": [
+      "sql-analysis",
+      "spreadsheet-cleaning",
+      "dashboarding",
+      "reporting",
+      "data-extraction",
+      "workflow-automation"
+    ],
+    "featuredQueries": ["sql", "xlsx", "csv", "dashboard", "report", "pdf"]
+  },
+  {
+    "slug": "engineer",
+    "label": "Engineer",
+    "summary": "Browse skills for coding, debugging, APIs, infra, testing, and shipping software.",
+    "hero": "A direct path for developers who need to move from code generation to debugging, deployment, and automation.",
+    "starterSkillSlugs": [
+      "microsoft-copilot-sdk",
+      "cloudflare-wrangler",
+      "cloudflare-workers-best-practices",
+      "vercel-labs-next-best-practices",
+      "netlify-netlify-functions",
+      "hashicorp-terraform-search-import",
+      "openai-gh-fix-ci",
+      "anthropics-webapp-testing",
+      "anthropics-mcp-builder",
+      "anthropics-frontend-design"
+    ],
+    "jobs": [
+      "development-workflows",
+      "testing-debugging",
+      "deployment-ops",
+      "api-integration",
+      "workflow-automation"
+    ],
+    "featuredQueries": ["api", "test", "debug", "deploy", "code", "infra"]
+  },
+  {
+    "slug": "pm",
+    "label": "Product Manager",
+    "summary": "Use skills for research synthesis, PRDs, reporting, planning, and stakeholder communication.",
+    "hero": "A practical path for PMs who need to turn messy inputs into decisions, specs, updates, and execution plans.",
+    "starterSkillSlugs": [
+      "googleworkspace-gws-docs",
+      "googleworkspace-gws-slides",
+      "1kalin-market-research-agent",
+      "microsoft-github-issue-creator",
+      "bjesuiter-prd",
+      "deanpeters-roadmap-planning",
+      "deanpeters-opportunity-solution-tree",
+      "anthropics-internal-comms",
+      "firecrawl-firecrawl-build",
+      "anthropics-doc-coauthoring"
+    ],
+    "jobs": [
+      "research-synthesis",
+      "prd-specs",
+      "reporting",
+      "planning-roadmapping",
+      "workflow-automation"
+    ],
+    "featuredQueries": ["research", "brief", "spec", "report", "planning", "docs"]
+  },
+  {
+    "slug": "designer",
+    "label": "Designer",
+    "summary": "Explore skills for UI design, visual systems, prototypes, critique, and presentation-ready output.",
+    "hero": "A curated entry for designers who need faster concepting, stronger visuals, and better design communication.",
+    "starterSkillSlugs": [
+      "anthropics-frontend-design",
+      "anthropics-canvas-design",
+      "anthropics-brand-guidelines",
+      "anthropics-algorithmic-art",
+      "microsoft-frontend-design-review",
+      "googleworkspace-gws-slides",
+      "ehmo-platform-design-skills",
+      "deanpeters-storyboard",
+      "anthropics-web-artifacts-builder",
+      "anthropics-theme-factory"
+    ],
+    "jobs": [
+      "ui-ux-design",
+      "design-critique",
+      "presentation-building",
+      "visual-assets",
+      "workflow-automation"
+    ],
+    "featuredQueries": ["design", "ui", "prototype", "visual", "slides", "critique"]
+  },
+  {
+    "slug": "marketer",
+    "label": "Marketer",
+    "summary": "Find skills for content, campaign planning, landing pages, research, and reporting.",
+    "hero": "A role path for marketers who need to go from idea to content, campaigns, assets, and measurable reporting.",
+    "starterSkillSlugs": [
+      "googleworkspace-gws-gmail",
+      "firecrawl-firecrawl-build-search",
+      "typefully-typefully",
+      "sanity-io-seo-aeo-best-practices",
+      "googleworkspace-gws-slides",
+      "vercel-labs-next-best-practices",
+      "googleworkspace-gws-docs",
+      "anthropics-frontend-design",
+      "anthropics-canvas-design",
+      "anthropics-doc-coauthoring",
+      "anthropics-internal-comms",
+      "anthropics-theme-factory",
+      "anthropics-xlsx"
+    ],
+    "jobs": [
+      "content-production",
+      "campaign-planning",
+      "research-synthesis",
+      "reporting",
+      "landing-pages"
+    ],
+    "featuredQueries": ["content", "campaign", "landing page", "report", "research", "copy"]
+  },
+  {
+    "slug": "ops",
+    "label": "Ops / DevOps",
+    "summary": "Browse skills for deployment, infra operations, incident response, testing, and environment workflows.",
+    "hero": "A practical entry for operators and platform teams who need to ship safely, debug production issues, and automate infrastructure work.",
+    "starterSkillSlugs": [
+      "cloudflare-wrangler",
+      "cloudflare-workers-best-practices",
+      "hashicorp-terraform-search-import",
+      "hashicorp-run-acceptance-tests",
+      "netlify-netlify-functions",
+      "openai-gh-fix-ci",
+      "anthropics-webapp-testing",
+      "anthropics-mcp-builder"
+    ],
+    "jobs": [
+      "deployment-ops",
+      "testing-debugging",
+      "workflow-automation",
+      "api-integration"
+    ],
+    "featuredQueries": ["deploy", "ops", "infra", "ci", "debug", "terraform"]
+  },
+  {
+    "slug": "researcher",
+    "label": "Researcher",
+    "summary": "Find skills for synthesis, document review, extraction, reporting, and evidence-heavy workflows.",
+    "hero": "A focused role path for researchers who need to turn source material into findings, reports, and decision-ready outputs.",
+    "starterSkillSlugs": [
+      "firecrawl-firecrawl-build-search",
+      "duckdb-read-file",
+      "googleworkspace-gws-docs",
+      "anthropics-doc-coauthoring",
+      "anthropics-pdf",
+      "anthropics-docx",
+      "anthropics-xlsx",
+      "anthropics-pptx"
+    ],
+    "jobs": [
+      "research-synthesis",
+      "reporting",
+      "data-extraction",
+      "document-authoring"
+    ],
+    "featuredQueries": ["research", "synthesis", "extract", "pdf", "report", "brief"]
+  },
+  {
+    "slug": "founder",
+    "label": "Founder",
+    "summary": "Use skills for planning, product direction, GTM pages, pitch materials, and execution across small teams.",
+    "hero": "A high-leverage role path for founders who need to cover product, operations, storytelling, and shipping with a small team.",
+    "starterSkillSlugs": [
+      "firecrawl-firecrawl-build",
+      "cloudflare-cloudflare",
+      "vercel-labs-next-best-practices",
+      "googleworkspace-gws-docs",
+      "1kalin-market-research-agent",
+      "anthropics-internal-comms",
+      "anthropics-frontend-design",
+      "coreyhaines31-launch-strategy"
+    ],
+    "jobs": [
+      "planning-roadmapping",
+      "research-synthesis",
+      "landing-pages",
+      "workflow-automation"
+    ],
+    "featuredQueries": ["planning", "pitch", "landing page", "roadmap", "research", "launch"]
+  },
+  {
+    "slug": "sales",
+    "label": "Sales",
+    "summary": "Browse skills for decks, proposals, customer-facing documents, reporting, and account workflow support.",
+    "hero": "A direct path for sales teams who need stronger proposals, cleaner decks, faster follow-up, and better account materials.",
+    "starterSkillSlugs": [
+      "googleworkspace-gws-gmail",
+      "googleworkspace-gws-slides",
+      "googleworkspace-gws-docs",
+      "coreyhaines31-sales-enablement",
+      "coreyhaines31-email-sequence",
+      "coreyhaines31-pricing-strategy",
+      "anthropics-pptx",
+      "anthropics-docx"
+    ],
+    "jobs": [
+      "document-authoring",
+      "presentation-building",
+      "reporting",
+      "workflow-automation"
+    ],
+    "featuredQueries": ["proposal", "deck", "doc", "follow-up", "report", "email"]
+  },
+  {
+    "slug": "support",
+    "label": "Support",
+    "summary": "Find skills for repetitive workflows, documentation, extraction, response operations, and internal knowledge handling.",
+    "hero": "A role path for support and success teams who need to standardize repetitive work, turn documents into answers, and move faster on customer issues.",
+    "starterSkillSlugs": [
+      "googleworkspace-gws-gmail",
+      "googleworkspace-gws-drive",
+      "firecrawl-firecrawl-build-interact",
+      "anthropics-doc-coauthoring",
+      "anthropics-pdf",
+      "anthropics-docx",
+      "anthropics-internal-comms",
+      "anthropics-xlsx"
+    ],
+    "jobs": [
+      "workflow-automation",
+      "document-authoring",
+      "data-extraction",
+      "reporting"
+    ],
+    "featuredQueries": ["support", "automation", "document", "extract", "response", "ops"]
+  },
+  {
+    "slug": "content-creator",
+    "label": "Content Creator",
+    "summary": "Explore skills for content production, visual assets, landing pages, campaign support, and publishing workflows.",
+    "hero": "A focused role path for creators who need to produce content, shape visuals, and package ideas into assets people will actually consume.",
+    "starterSkillSlugs": [
+      "typefully-typefully",
+      "sanity-io-seo-aeo-best-practices",
+      "firecrawl-firecrawl-build-search",
+      "anthropics-canvas-design",
+      "anthropics-theme-factory",
+      "anthropics-pptx",
+      "anthropics-frontend-design",
+      "anthropics-slack-gif-creator"
+    ],
+    "jobs": [
+      "content-production",
+      "visual-assets",
+      "landing-pages",
+      "campaign-planning"
+    ],
+    "featuredQueries": ["content", "assets", "seo", "landing page", "creative", "campaign"]
+  },
+  {
+    "slug": "consultant",
+    "label": "Consultant",
+    "summary": "Use skills for research, structured decks, polished documents, reporting, and stakeholder-ready recommendations.",
+    "hero": "A practical path for consultants who need to move from research to synthesis to polished deliverables without losing speed.",
+    "starterSkillSlugs": [
+      "googleworkspace-gws-docs",
+      "googleworkspace-gws-slides",
+      "duckdb-query",
+      "anthropics-pptx",
+      "anthropics-docx",
+      "anthropics-doc-coauthoring",
+      "anthropics-pdf",
+      "anthropics-theme-factory"
+    ],
+    "jobs": [
+      "research-synthesis",
+      "presentation-building",
+      "document-authoring",
+      "reporting"
+    ],
+    "featuredQueries": ["deck", "report", "analysis", "research", "proposal", "slides"]
+  }
+]

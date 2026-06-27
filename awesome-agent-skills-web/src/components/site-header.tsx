@@ -1,24 +1,40 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import type { ReactNode } from "react";
+import { LanguageToggle } from "@/components/language-toggle";
 import { ThemeToggle } from "@/components/theme-toggle";
+import { getCopy, type Locale } from "@/lib/i18n";
 
 type SiteHeaderProps = {
-  currentPath?: "/" | "/skills";
+  currentPath?: "/" | "/skills" | "/roles";
+  locale: Locale;
 };
 
 function BrandMark() {
   return (
-    <Image
-      alt="LionSaid"
+    <svg
+      aria-label="LionSaid"
       className="h-8 w-auto"
-      height={84}
-      src="/lionsaid-logo.svg"
-      width={320}
-    />
+      role="img"
+      viewBox="0 0 320 84"
+    >
+      <title>LionSaid</title>
+      <text
+        x="16"
+        y="52"
+        fill="var(--brand-ink)"
+        fontFamily="Georgia, 'Times New Roman', serif"
+        fontSize="42"
+        fontWeight="700"
+        letterSpacing="1.8"
+      >
+        <tspan>Lion</tspan>
+        <tspan fill="var(--brand-accent)">S</tspan>
+        <tspan>aid</tspan>
+      </text>
+    </svg>
   );
 }
 
@@ -49,6 +65,20 @@ function GridIcon() {
   );
 }
 
+function RoleIcon() {
+  return (
+    <svg aria-hidden="true" fill="none" height="18" viewBox="0 0 24 24" width="18">
+      <path
+        d="M12 12a3.25 3.25 0 1 0 0-6.5 3.25 3.25 0 0 0 0 6.5Zm-6 8c0-3.02 2.69-5.5 6-5.5s6 2.48 6 5.5"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="1.7"
+      />
+    </svg>
+  );
+}
+
 function GitHubIcon() {
   return (
     <svg aria-hidden="true" fill="currentColor" height="18" viewBox="0 0 16 16" width="18">
@@ -61,14 +91,19 @@ function NavButton({
   active,
   children,
   href,
+  iconOnly = false,
 }: {
   active?: boolean;
   children: ReactNode;
   href: string;
+  iconOnly?: boolean;
 }) {
   return (
     <Link
-      className={`inline-flex h-11 items-center justify-center gap-2 whitespace-nowrap rounded-full px-4 text-sm font-medium transition ${
+      aria-label={iconOnly ? "Home" : undefined}
+      className={`inline-flex h-11 justify-self-center items-center justify-center whitespace-nowrap rounded-full text-sm font-medium transition ${
+        iconOnly ? "w-11 p-0" : "w-fit gap-2 px-4"
+      } ${
         active
           ? "header-pill-active shadow-sm ring-1 ring-[var(--border-soft)]"
           : "header-pill hover:bg-[var(--surface-strong)]"
@@ -80,8 +115,9 @@ function NavButton({
   );
 }
 
-export function SiteHeader({ currentPath = "/" }: SiteHeaderProps) {
+export function SiteHeader({ currentPath = "/", locale }: SiteHeaderProps) {
   const [compact, setCompact] = useState(false);
+  const copy = getCopy(locale);
 
   useEffect(() => {
     function onScroll() {
@@ -110,9 +146,9 @@ export function SiteHeader({ currentPath = "/" }: SiteHeaderProps) {
             <Link aria-label="Go to home page" className="flex min-w-0 shrink-0 items-center gap-3" href="/">
               <BrandMark />
               <div className={`min-w-0 transition-all duration-300 ${compact ? "max-w-[11rem]" : "max-w-[16rem]"}`}>
-                <p className="truncate font-medium">Awesome Agent Skills</p>
+                <p className="truncate font-medium">LionSaid Skills</p>
                 <p className={`muted truncate text-xs transition-all duration-300 ${compact ? "opacity-0" : "opacity-100"}`}>
-                  Curated skill discovery
+                  {locale === "zh-CN" ? "更快找到合适的 skill" : "Find useful skills faster"}
                 </p>
               </div>
             </Link>
@@ -120,11 +156,15 @@ export function SiteHeader({ currentPath = "/" }: SiteHeaderProps) {
             <div className="flex min-w-0 flex-1 items-center justify-center gap-2">
               <NavButton active={currentPath === "/"} href="/">
                 <HomeIcon />
-                <span>Home</span>
+                <span>{copy.nav.home}</span>
               </NavButton>
               <NavButton active={currentPath === "/skills"} href="/skills">
                 <GridIcon />
-                <span>Browse Skills</span>
+                <span>{copy.nav.browseSkills}</span>
+              </NavButton>
+              <NavButton active={currentPath === "/roles"} href="/roles">
+                <RoleIcon />
+                <span>{copy.nav.roles}</span>
               </NavButton>
             </div>
 
@@ -135,9 +175,10 @@ export function SiteHeader({ currentPath = "/" }: SiteHeaderProps) {
                 href="https://github.com/lionsaid/skills"
                 rel="noreferrer"
                 target="_blank"
-              >
-                <GitHubIcon />
-              </a>
+                >
+                  <GitHubIcon />
+                </a>
+              <LanguageToggle locale={locale} />
               <ThemeToggle />
             </div>
           </div>
@@ -146,16 +187,28 @@ export function SiteHeader({ currentPath = "/" }: SiteHeaderProps) {
 
       <div className="fixed inset-x-0 bottom-4 z-50 sm:hidden">
         <div className="page-shell">
-          <nav className="header-shell glass mx-auto grid max-w-[22rem] grid-cols-3 gap-2 rounded-[1.6rem] px-3 py-3 shadow-[0_16px_40px_rgba(56,49,36,0.14)]">
-            <NavButton active={currentPath === "/"} href="/">
-              <HomeIcon />
-              <span className="text-xs">Home</span>
-            </NavButton>
-            <NavButton active={currentPath === "/skills"} href="/skills">
-              <GridIcon />
-              <span className="text-xs">Browse</span>
-            </NavButton>
-            <ThemeToggle compact />
+          <nav className="header-shell glass mx-auto flex max-w-[28rem] items-center gap-2 rounded-[1.6rem] px-3 py-3 shadow-[0_16px_40px_rgba(56,49,36,0.14)]">
+            <div className="shrink-0">
+              <NavButton active={currentPath === "/"} href="/" iconOnly>
+                <HomeIcon />
+              </NavButton>
+            </div>
+            <div className="-mr-1 flex min-w-0 flex-1 items-center gap-2 overflow-x-auto pb-1 pr-1">
+              <NavButton active={currentPath === "/skills"} href="/skills">
+                <GridIcon />
+                <span className="text-xs">{copy.nav.browseSkills}</span>
+              </NavButton>
+              <NavButton active={currentPath === "/roles"} href="/roles">
+                <RoleIcon />
+                <span className="text-xs">{copy.nav.roles}</span>
+              </NavButton>
+              <div className="shrink-0">
+                <LanguageToggle locale={locale} />
+              </div>
+              <div className="shrink-0">
+                <ThemeToggle compact />
+              </div>
+            </div>
           </nav>
         </div>
       </div>

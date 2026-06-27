@@ -1,4 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 84" role="img" aria-labelledby="title">
   <title id="title">LionSaid</title>
-  <text x="16" y="52" fill="#111114" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="700" letter-spacing="1.8"><tspan>Lion</tspan><tspan fill="#e10600">S</tspan><tspan>aid</tspan></text>
+  <style>
+    .word {
+      fill: #111114;
+    }
+
+    .accent {
+      fill: #e10600;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .word {
+        fill: #f5f7fb;
+      }
+
+      .accent {
+        fill: #ff7468;
+      }
+    }
+  </style>
+  <text x="16" y="52" class="word" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="700" letter-spacing="1.8">
+    <tspan>Lion</tspan>
+    <tspan class="accent">S</tspan>
+    <tspan>aid</tspan>
+  </text>
 </svg>

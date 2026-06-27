@@ -1,0 +1,144 @@
+{
+  "slugOverrides": {
+    "duckdb-query": {
+      "personas": ["data-analyst", "researcher", "consultant"],
+      "jobs": ["sql-analysis", "data-extraction", "reporting", "research-synthesis"]
+    },
+    "duckdb-read-file": {
+      "personas": ["data-analyst", "researcher", "consultant"],
+      "jobs": ["data-extraction", "reporting", "research-synthesis"]
+    },
+    "googleworkspace-gws-sheets": {
+      "personas": ["data-analyst", "consultant", "support"],
+      "jobs": ["spreadsheet-cleaning", "reporting", "workflow-automation"]
+    },
+    "googleworkspace-gws-docs": {
+      "personas": ["pm", "founder", "consultant", "sales", "researcher"],
+      "jobs": ["document-authoring", "reporting", "prd-specs", "presentation-building", "research-synthesis"]
+    },
+    "googleworkspace-gws-slides": {
+      "personas": ["pm", "designer", "sales", "consultant", "content-creator"],
+      "jobs": ["presentation-building", "reporting", "content-production"]
+    },
+    "googleworkspace-gws-drive": {
+      "personas": ["support", "researcher", "sales"],
+      "jobs": ["document-authoring", "workflow-automation", "data-extraction"]
+    },
+    "googleworkspace-gws-gmail": {
+      "personas": ["sales", "support", "content-creator"],
+      "jobs": ["workflow-automation", "document-authoring", "content-production"]
+    },
+    "anthropics-pdf": {
+      "personas": ["data-analyst", "researcher", "consultant", "support"],
+      "jobs": ["data-extraction", "research-synthesis", "reporting"]
+    },
+    "anthropics-docx": {
+      "personas": ["researcher", "sales", "consultant"],
+      "jobs": ["document-authoring", "research-synthesis"]
+    },
+    "anthropics-xlsx": {
+      "personas": ["data-analyst", "researcher", "consultant"],
+      "jobs": ["spreadsheet-cleaning", "reporting", "data-extraction"]
+    },
+    "anthropics-doc-coauthoring": {
+      "personas": ["pm", "researcher", "consultant", "founder"],
+      "jobs": ["document-authoring", "prd-specs", "research-synthesis"]
+    },
+    "anthropics-pptx": {
+      "personas": ["pm", "designer", "marketer", "sales", "consultant", "content-creator"],
+      "jobs": ["presentation-building", "content-production"]
+    },
+    "anthropics-mcp-builder": {
+      "personas": ["engineer"],
+      "jobs": ["api-integration", "development-workflows"]
+    },
+    "anthropics-webapp-testing": {
+      "personas": ["engineer"],
+      "jobs": ["testing-debugging", "development-workflows"]
+    },
+    "anthropics-canvas-design": {
+      "personas": ["designer", "marketer", "content-creator"],
+      "jobs": ["visual-assets", "content-production"]
+    },
+    "anthropics-theme-factory": {
+      "personas": ["designer", "marketer", "consultant"],
+      "jobs": ["visual-assets", "presentation-building"]
+    },
+    "anthropics-internal-comms": {
+      "personas": ["pm", "marketer", "founder", "sales", "content-creator"],
+      "jobs": ["document-authoring", "content-production", "campaign-planning", "reporting"]
+    },
+    "anthropics-frontend-design": {
+      "personas": ["designer", "engineer", "marketer"],
+      "jobs": ["ui-ux-design", "landing-pages", "visual-assets"]
+    },
+    "cloudflare-cloudflare": {
+      "personas": ["engineer", "ops"],
+      "jobs": ["deployment-ops", "workflow-automation"]
+    },
+    "vercel-labs-next-best-practices": {
+      "personas": ["founder", "engineer"],
+      "jobs": ["development-workflows", "landing-pages"]
+    },
+    "firecrawl-firecrawl-build": {
+      "personas": ["pm", "founder", "researcher"],
+      "jobs": ["research-synthesis", "planning-roadmapping", "workflow-automation"]
+    },
+    "firecrawl-firecrawl-build-search": {
+      "personas": ["marketer", "researcher", "content-creator"],
+      "jobs": ["content-production", "research-synthesis", "campaign-planning", "landing-pages"]
+    },
+    "firecrawl-firecrawl-build-interact": {
+      "personas": ["support", "researcher"],
+      "jobs": ["workflow-automation", "document-authoring", "data-extraction"]
+    },
+    "cloudflare-wrangler": {
+      "personas": ["engineer", "ops", "founder"],
+      "jobs": ["deployment-ops", "development-workflows", "workflow-automation"]
+    },
+    "cloudflare-workers-best-practices": {
+      "personas": ["engineer", "ops", "founder"],
+      "jobs": ["deployment-ops", "development-workflows", "workflow-automation"]
+    },
+    "hashicorp-terraform-search-import": {
+      "personas": ["engineer", "ops", "founder"],
+      "jobs": ["deployment-ops", "workflow-automation"]
+    },
+    "hashicorp-run-acceptance-tests": {
+      "personas": ["engineer", "ops"],
+      "jobs": ["testing-debugging", "deployment-ops", "development-workflows"]
+    },
+    "openai-gh-fix-ci": {
+      "personas": ["engineer", "ops"],
+      "jobs": ["testing-debugging", "deployment-ops", "development-workflows"]
+    },
+    "netlify-netlify-functions": {
+      "personas": ["engineer"],
+      "jobs": ["deployment-ops", "development-workflows"]
+    },
+    "typefully-typefully": {
+      "personas": ["marketer", "content-creator"],
+      "jobs": ["content-production", "campaign-planning", "workflow-automation"]
+    },
+    "sanity-io-seo-aeo-best-practices": {
+      "personas": ["marketer", "content-creator"],
+      "jobs": ["content-production", "campaign-planning", "landing-pages"]
+    },
+    "sanity-io-content-experimentation-best-practices": {
+      "personas": ["marketer", "content-creator"],
+      "jobs": ["content-production", "campaign-planning", "landing-pages"]
+    },
+    "openai-gh-address-comments": {
+      "personas": ["engineer", "pm"],
+      "jobs": ["development-workflows", "reporting"]
+    },
+    "microsoft-github-issue-creator": {
+      "personas": ["pm", "support"],
+      "jobs": ["prd-specs", "workflow-automation", "document-authoring"]
+    },
+    "microsoft-copilot-sdk": {
+      "personas": ["engineer"],
+      "jobs": ["api-integration", "development-workflows"]
+    }
+  }
+}

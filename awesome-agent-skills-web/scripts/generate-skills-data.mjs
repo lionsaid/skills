@@ -8,9 +8,11 @@ const projectRoot = path.join(__dirname, "..");
 const outputDir = path.join(projectRoot, "src", "data");
 const outputPath = path.join(outputDir, "skills.generated.json");
 const classificationRulesPath = path.join(projectRoot, "config", "classification-rules.json");
+const skillOverridesPath = path.join(projectRoot, "config", "skill-overrides.json");
 const skillSourcesPath = path.join(projectRoot, "config", "skill-sources.json");
 const githubSkillReposPath = path.join(projectRoot, "config", "github-skill-repos.json");
 const githubSkillRepoCachePath = path.join(outputDir, "github-repo-expansion.generated.json");
+const githubAvatarCachePath = path.join(outputDir, "github-avatars.generated.json");
 
 function readJson(filePath) {
   return JSON.parse(readFileSync(filePath, "utf8"));
@@ -130,8 +132,20 @@ function readSkillSources() {
   return sources;
 }
 
+function readSkillOverrides() {
+  const payload = readJson(skillOverridesPath);
+  const slugOverrides = payload?.slugOverrides;
+
+  if (!slugOverrides || typeof slugOverrides !== "object" || Array.isArray(slugOverrides)) {
+    throw new Error("Skill overrides config must include a slugOverrides object.");
+  }
+
+  return slugOverrides;
+}
+
 const classificationRules = readClassificationRules();
 const skillSources = readSkillSources();
+const skillOverrides = readSkillOverrides();
 const githubSkillReposSeed = readJson(githubSkillReposPath);
 const sourcePriority = new Map(
   skillSources.map((source, index) => [source.id, skillSources.length - index]),
@@ -249,6 +263,236 @@ function buildSourceMetadata(source) {
   };
 }
 
+function inferPersonasAndJobs({ name, description, tags, publisherSlug, sectionSlug }) {
+  const haystack = [
+    name,
+    description,
+    publisherSlug,
+    sectionSlug,
+    ...tags,
+  ]
+    .join(" ")
+    .toLowerCase();
+
+  const personas = new Set();
+  const jobs = new Set();
+
+  const has = (pattern) => pattern.test(haystack);
+  const dataSignals =
+    has(/\b(sql|postgres|bigquery|snowflake|redshift|duckdb|clickhouse|query|queries)\b/) ||
+    has(/\b(spreadsheet|excel|xlsx|csv|tsv)\b/) ||
+    has(/\b(dashboard|chart|visualization|analytics|analysis|metrics|kpi|tableau|power bi|looker)\b/);
+  const reportingSignals =
+    has(/\b(report|reporting|scorecard|weekly update|weekly report|status update|business review|qbr)\b/) ||
+    (has(/\b(slides|deck|pptx|presentation)\b/) &&
+      has(/\b(report|review|quarterly|monthly|business)\b/));
+  const documentSignals =
+    has(/\b(docx|document|coauthor|memo|contract|proposal|writer|writing|redline|comment)\b/) &&
+    !has(/\bdocs\b/);
+  const extractionSignals = has(/\b(extract|ocr|parse|parser|pdf|docx|scan|ingest|unpack)\b/);
+  const researchSignals =
+    has(/\b(research|search|summarize|summary|insight|findings|evidence|synthesis|literature)\b/);
+  const pmSignals =
+    has(/\b(product|prd|spec|requirements|roadmap|roadmapping|stakeholder|backlog)\b/) ||
+    has(/opportunity solution tree/);
+  const designSignals =
+    has(/\b(design|ui|ux|prototype|wireframe|figma|visual|critique|theme|frontend|storyboard|brand)\b/);
+  const salesSignals =
+    has(/\b(sales|proposal|pricing|quote|crm|pipeline|follow-up|followup|outreach|prospect|pitch|enablement)\b/) ||
+    (has(/\b(deck|slides|pptx|presentation)\b/) && has(/\b(customer|client|buyer|prospect|sales)\b/));
+  const supportSignals =
+    has(/\b(support|customer success|help desk|ticket|knowledge base|faq|response|reply|triage)\b/);
+  const founderSignals =
+    has(/\b(launch|strategy|pricing|gtm|go-to-market|pitch|investor|landing page|market research)\b/);
+
+  const add = (persona, personaJobs) => {
+    personas.add(persona);
+    for (const job of personaJobs) {
+      jobs.add(job);
+    }
+  };
+
+  if (dataSignals || (reportingSignals && has(/\b(analytics|metrics|dashboard|sql|spreadsheet|xlsx|csv)\b/))) {
+    add("data-analyst", [
+      "sql-analysis",
+      "spreadsheet-cleaning",
+      "dashboarding",
+      "reporting",
+      "data-extraction",
+      "workflow-automation",
+    ]);
+  }
+
+  if (/(api|sdk|infra|deploy|cloudflare|vercel|firebase|supabase|debug|test|ci|build|code)/.test(haystack)) {
+    add("engineer", [
+      "development-workflows",
+      "testing-debugging",
+      "deployment-ops",
+      "api-integration",
+      "workflow-automation",
+    ]);
+  }
+
+  if (pmSignals || (researchSignals && has(/\b(brief|decision|stakeholder|product)\b/))) {
+    add("pm", [
+      "research-synthesis",
+      "prd-specs",
+      "planning-roadmapping",
+      "reporting",
+      "workflow-automation",
+    ]);
+  }
+
+  if (designSignals) {
+    add("designer", [
+      "ui-ux-design",
+      "design-critique",
+      "presentation-building",
+      "visual-assets",
+      "workflow-automation",
+    ]);
+  }
+
+  if (/(marketing|campaign|seo|landing page|copy|content|brand|newsletter|growth)/.test(haystack)) {
+    add("marketer", [
+      "content-production",
+      "campaign-planning",
+      "research-synthesis",
+      "reporting",
+      "landing-pages",
+    ]);
+  }
+
+  if (salesSignals) {
+    add("sales", [
+      "document-authoring",
+      "presentation-building",
+      "reporting",
+      "workflow-automation",
+    ]);
+  }
+
+  if (supportSignals || (documentSignals && has(/\b(faq|response|ticket|help|knowledge|reply)\b/))) {
+    add("support", [
+      "workflow-automation",
+      "document-authoring",
+      "data-extraction",
+      "reporting",
+    ]);
+  }
+
+  if (founderSignals) {
+    add("founder", [
+      "planning-roadmapping",
+      "research-synthesis",
+      "landing-pages",
+      "workflow-automation",
+    ]);
+  }
+
+  if (researchSignals || (extractionSignals && has(/\b(insight|summary|synthesis|research)\b/))) {
+    jobs.add("research-synthesis");
+  }
+
+  if (/(csv|xlsx|spreadsheet|excel|clean|cleanup|normalize|transform)/.test(haystack)) {
+    jobs.add("spreadsheet-cleaning");
+  }
+
+  if (/(chart|dashboard|visualization|looker|tableau|power bi|plot)/.test(haystack)) {
+    jobs.add("dashboarding");
+  }
+
+  if (/(sql|postgres|query|queries|bigquery|snowflake|duckdb|clickhouse)/.test(haystack)) {
+    jobs.add("sql-analysis");
+  }
+
+  if (reportingSignals || has(/\b(brief|memo)\b/)) {
+    jobs.add("reporting");
+  }
+
+  if (extractionSignals) {
+    jobs.add("data-extraction");
+  }
+
+  if (/(automate|automation|workflow|batch|pipeline)/.test(haystack)) {
+    jobs.add("workflow-automation");
+  }
+
+  if (/(api|sdk|integration|mcp|service)/.test(haystack)) {
+    jobs.add("api-integration");
+  }
+
+  if (/(test|testing|debug|qa|playwright|ci)/.test(haystack)) {
+    jobs.add("testing-debugging");
+  }
+
+  if (/(deploy|deployment|ops|infra|cloudflare|vercel|supabase|firebase)/.test(haystack)) {
+    jobs.add("deployment-ops");
+  }
+
+  if (/(code|coding|dev|developer|frontend|backend|tooling)/.test(haystack)) {
+    jobs.add("development-workflows");
+  }
+
+  if (/(prd|spec|requirements|product doc)/.test(haystack)) {
+    jobs.add("prd-specs");
+  }
+
+  if (/(roadmap|planning|roadmapping|milestone|backlog)/.test(haystack)) {
+    jobs.add("planning-roadmapping");
+  }
+
+  if (/(ui|ux|wireframe|prototype|frontend design|interaction design)/.test(haystack)) {
+    jobs.add("ui-ux-design");
+  }
+
+  if (/(critique|review design|heuristic|usability)/.test(haystack)) {
+    jobs.add("design-critique");
+  }
+
+  if (/(slides|presentation|deck|pptx)/.test(haystack)) {
+    jobs.add("presentation-building");
+  }
+
+  if (/(visual|image|canvas|theme|brand asset|poster)/.test(haystack)) {
+    jobs.add("visual-assets");
+  }
+
+  if (/(content|copy|newsletter|blog|social)/.test(haystack)) {
+    jobs.add("content-production");
+  }
+
+  if (/(campaign|launch|promotion|growth|ads)/.test(haystack)) {
+    jobs.add("campaign-planning");
+  }
+
+  if (/(landing page|landing|conversion|marketing site)/.test(haystack)) {
+    jobs.add("landing-pages");
+  }
+
+  if (documentSignals) {
+    jobs.add("document-authoring");
+  }
+
+  return {
+    personas: [...personas].sort(),
+    jobs: [...jobs].sort(),
+  };
+}
+
+function applySkillOverrides(skillSlug, roleMetadata) {
+  const override = skillOverrides[skillSlug];
+
+  if (!override) {
+    return roleMetadata;
+  }
+
+  return {
+    personas: [...new Set([...(roleMetadata.personas ?? []), ...((override.personas ?? []).filter(Boolean))])].sort(),
+    jobs: [...new Set([...(roleMetadata.jobs ?? []), ...((override.jobs ?? []).filter(Boolean))])].sort(),
+  };
+}
+
 function parseAwesomeMarkdown(content, source) {
   const lines = content.split(/\r?\n/);
   const skills = [];
@@ -274,6 +518,24 @@ function parseAwesomeMarkdown(content, source) {
     const publisherSlug = slugify(publisher);
     const sectionSlug = slugify(currentSection);
     const normalizedUrl = normalizeUrl(url);
+    const tags = inferTags({
+      name,
+      description,
+      publisher,
+      publisherSlug,
+      sectionTitle: currentSection,
+      sectionSlug,
+    });
+    const roleMetadata = applySkillOverrides(
+      slugify(name),
+      inferPersonasAndJobs({
+        name,
+        description,
+        tags,
+        publisherSlug,
+        sectionSlug,
+      }),
+    );
 
     skills.push({
       slug: slugify(name),
@@ -285,14 +547,8 @@ function parseAwesomeMarkdown(content, source) {
       sectionTitle: currentSection,
       sectionSlug,
       kind: currentKind,
-      tags: inferTags({
-        name,
-        description,
-        publisher,
-        publisherSlug,
-        sectionTitle: currentSection,
-        sectionSlug,
-      }),
+      tags,
+      ...roleMetadata,
       sourceId: source.id,
       sourceIds: [source.id],
       ...buildSourceMetadata(source),
@@ -337,6 +593,24 @@ function parseRemoteHtml(content, source) {
     const text = descriptionMatch ? decodeEscapedString(stripHtml(descriptionMatch[1])) : stripHtml(innerHtml);
     const fallbackDescription = source.descriptionFallback;
     const description = text && text !== name ? text : fallbackDescription;
+    const tags = inferTags({
+      name,
+      description,
+      publisher,
+      publisherSlug,
+      sectionTitle,
+      sectionSlug,
+    });
+    const roleMetadata = applySkillOverrides(
+      slugify(name),
+      inferPersonasAndJobs({
+        name,
+        description,
+        tags,
+        publisherSlug,
+        sectionSlug,
+      }),
+    );
 
     const existing = skillAnchors.get(normalizedUrl);
     if (existing && existing.description !== fallbackDescription) {
@@ -353,14 +627,8 @@ function parseRemoteHtml(content, source) {
       sectionTitle,
       sectionSlug,
       kind: source.kind,
-      tags: inferTags({
-        name,
-        description,
-        publisher,
-        publisherSlug,
-        sectionTitle,
-        sectionSlug,
-      }),
+      tags,
+      ...roleMetadata,
       sourceId: source.id,
       sourceIds: [source.id],
       ...buildSourceMetadata(source),
@@ -394,6 +662,24 @@ function parseMarketplaceApi(items, source) {
     const sectionTitle = source.sectionTitle;
     const sectionSlug = slugify(sectionTitle);
     const description = decodeEscapedString(summary) || source.descriptionFallback;
+    const tags = inferTags({
+      name,
+      description,
+      publisher,
+      publisherSlug,
+      sectionTitle,
+      sectionSlug,
+    });
+    const roleMetadata = applySkillOverrides(
+      slugify(name),
+      inferPersonasAndJobs({
+        name,
+        description,
+        tags,
+        publisherSlug,
+        sectionSlug,
+      }),
+    );
 
     skills.push({
       slug: slugify(name),
@@ -405,14 +691,8 @@ function parseMarketplaceApi(items, source) {
       sectionTitle,
       sectionSlug,
       kind: source.kind,
-      tags: inferTags({
-        name,
-        description,
-        publisher,
-        publisherSlug,
-        sectionTitle,
-        sectionSlug,
-      }),
+      tags,
+      ...roleMetadata,
       sourceId: source.id,
       sourceIds: [source.id],
       ...buildSourceMetadata(source),
@@ -493,9 +773,28 @@ function parseGithubRepoExpansion(items, source) {
     const name = `${repoOwner}/${item.skillName}`;
     const publisher = repoOwner;
     const publisherSlug = slugify(publisher);
+    const creatorHandle = repoOwner;
     const sectionTitle = source.sectionTitle;
     const sectionSlug = slugify(sectionTitle);
     const description = item.description || `${source.descriptionFallback}: ${repository}`;
+    const tags = inferTags({
+      name,
+      description,
+      publisher,
+      publisherSlug,
+      sectionTitle,
+      sectionSlug,
+    });
+    const roleMetadata = applySkillOverrides(
+      slugify(name),
+      inferPersonasAndJobs({
+        name,
+        description,
+        tags,
+        publisherSlug,
+        sectionSlug,
+      }),
+    );
 
     skills.push({
       slug: slugify(name),
@@ -507,18 +806,14 @@ function parseGithubRepoExpansion(items, source) {
       sectionTitle,
       sectionSlug,
       kind: source.kind,
-      tags: inferTags({
-        name,
-        description,
-        publisher,
-        publisherSlug,
-        sectionTitle,
-        sectionSlug,
-      }),
+      tags,
+      ...roleMetadata,
       sourceId: source.id,
       sourceIds: [source.id],
       repository,
       discoveryPath: item.path,
+      creatorHandle,
+      creatorAvatarUrl: getGithubAvatarUrl(creatorHandle),
       ...buildSourceMetadata(source),
     });
   }
@@ -572,6 +867,38 @@ function writeGithubRepoExpansionCache(items) {
       2,
     )}\n`,
   );
+}
+
+function readGithubAvatarCache() {
+  try {
+    const payload = readJson(githubAvatarCachePath);
+    return payload && typeof payload.items === "object" && !Array.isArray(payload.items)
+      ? payload.items
+      : {};
+  } catch {
+    return {};
+  }
+}
+
+function writeGithubAvatarCache(items) {
+  mkdirSync(outputDir, { recursive: true });
+  writeFileSync(
+    githubAvatarCachePath,
+    `${JSON.stringify(
+      {
+        generatedAt: new Date().toISOString(),
+        totalItems: Object.keys(items).length,
+        items,
+      },
+      null,
+      2,
+    )}\n`,
+  );
+}
+
+function getGithubAvatarUrl(handle) {
+  if (!handle) return null;
+  return `https://github.com/${handle}.png?size=88`;
 }
 
 async function collectGithubRepoExpansionEntries(existingEntries, source) {
@@ -640,6 +967,8 @@ function mergeSkillRecords(existing, incoming) {
         ? incoming.description
         : existing.description,
     tags: [...new Set([...existing.tags, ...incoming.tags])].sort(),
+    personas: [...new Set([...(existing.personas ?? []), ...(incoming.personas ?? [])])].sort(),
+    jobs: [...new Set([...(existing.jobs ?? []), ...(incoming.jobs ?? [])])].sort(),
     sourceIds: [...new Set([...(existing.sourceIds ?? [existing.sourceId]), ...(incoming.sourceIds ?? [incoming.sourceId])])].sort(),
     riskFlags: [...new Set([...(existing.riskFlags ?? []), ...(incoming.riskFlags ?? [])])].sort(),
     trustLevel:
@@ -729,6 +1058,19 @@ async function collectSkills() {
 
     deduped.set(key, mergeSkillRecords(existing, skill));
   }
+
+  const avatarCache = readGithubAvatarCache();
+  for (const skill of deduped.values()) {
+    const handle = skill.creatorHandle ?? skill.publisherSlug;
+    if (handle && !avatarCache[handle]) {
+      avatarCache[handle] = getGithubAvatarUrl(handle);
+    }
+
+    skill.creatorHandle = handle;
+    skill.creatorAvatarUrl = avatarCache[handle] ?? skill.creatorAvatarUrl ?? null;
+  }
+
+  writeGithubAvatarCache(avatarCache);
 
   return {
     skills: [...deduped.values()],

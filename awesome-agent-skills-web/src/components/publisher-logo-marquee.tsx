@@ -2,14 +2,22 @@
 
 import Link from "next/link";
 import { PublisherLogo } from "@/components/publisher-logo";
+import { getCopy, type Locale } from "@/lib/i18n";
 import type { PublisherSummary } from "@/lib/skills";
 
 export function PublisherLogoMarquee({
   publishers,
+  locale = "en",
 }: {
   publishers: PublisherSummary[];
+  locale?: Locale;
 }) {
   const marqueePublishers = [...publishers, ...publishers];
+  const copy = getCopy(locale);
+
+  if (publishers.length === 0) {
+    return null;
+  }
 
   return (
     <div className="publisher-marquee-shell mt-10 overflow-hidden rounded-[1.9rem] border border-white/8 bg-[linear-gradient(180deg,rgba(255,255,255,0.03),rgba(255,255,255,0.01))] py-4 sm:py-5">
@@ -26,7 +34,7 @@ export function PublisherLogoMarquee({
                 {publisher.name}
               </span>
               <span className="block text-[11px] uppercase tracking-[0.16em] text-[var(--ink-muted)]">
-                {publisher.count} skills
+                {publisher.count} {locale === "zh-CN" ? "个 skill" : copy.home.stats.skills}
               </span>
             </span>
           </Link>
