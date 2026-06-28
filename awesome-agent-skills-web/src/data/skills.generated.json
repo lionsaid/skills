@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T09:04:12.216Z",
+  "generatedAt": "2026-06-29T01:47:39.488Z",
   "totalSkills": 5090,
   "sourceCount": 5,
   "failures": [
@@ -59224,7 +59224,7 @@
       "slug": "d4vinci-scrapling-official",
       "name": "d4vinci/scrapling-official",
       "url": "https://clawhub.ai/d4vinci/scrapling-official",
-      "description": "Scrape web pages using Scrapling with anti-bot bypass (like Cloudflare Turnstile), stealth headless browsing, spiders framework, adaptive scraping, and JavaS...",
+      "description": "Web Scraping made easier using Scrapling with anti-bot bypass (like Cloudflare Turnstile), stealth headless browsing, spiders framework, adaptive scraping, and JavaScript rendering. Use when asked to scrape, crawl, or extract data from websites; web_fetch fails; the site has anti-bot protections; write Python code to scrape/crawl; or write spiders.",
       "publisher": "d4vinci",
       "publisherSlug": "d4vinci",
       "sectionTitle": "Community marketplace",
@@ -59241,6 +59241,7 @@
       ],
       "jobs": [
         "api-integration",
+        "data-extraction",
         "deployment-ops",
         "development-workflows",
         "testing-debugging",
@@ -67807,7 +67808,7 @@
       "slug": "bluecraft-ai-cold-email",
       "name": "bluecraft-ai/cold-email",
       "url": "https://clawhub.ai/bluecraft-ai/cold-email",
-      "description": "Generate hyper-personalized cold email sequences using AI. Turn lead data into high-converting outreach campaigns.",
+      "description": "Build cold email campaigns and generate hyper-personalized email sequences with MachFive. Build a campaign end-to-end, preview output, then generate sequences from lead data.",
       "publisher": "bluecraft-ai",
       "publisherSlug": "bluecraft-ai",
       "sectionTitle": "Community marketplace",
@@ -67820,17 +67821,20 @@
         "publisher-namespaced"
       ],
       "personas": [
-        "marketer",
-        "sales"
+        "engineer",
+        "marketer"
       ],
       "jobs": [
+        "api-integration",
         "campaign-planning",
         "content-production",
-        "document-authoring",
+        "deployment-ops",
+        "development-workflows",
         "landing-pages",
-        "presentation-building",
         "reporting",
         "research-synthesis",
+        "testing-debugging",
+        "ui-ux-design",
         "workflow-automation"
       ],
       "sourceId": "clawhub-home",

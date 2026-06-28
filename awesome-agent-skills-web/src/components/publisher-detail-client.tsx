@@ -285,6 +285,7 @@ export function PublisherDetailClient({ locale }: { locale: "en" | "zh-CN" }) {
               key={skill.slug}
               className="glass skill-card rounded-[1.75rem] p-5"
               href={prefixLocalePath(getSkillDetailPath(skill.slug, pageLocale), pageLocale)}
+              prefetch={false}
             >
               <div className="flex flex-wrap items-center gap-2">
                 <span className="eyebrow muted">
@@ -323,6 +324,7 @@ export function PublisherDetailClient({ locale }: { locale: "en" | "zh-CN" }) {
           <Link
             className="inline-flex items-center rounded-full border border-[var(--panel-outline)] px-4 py-2 text-sm transition hover:bg-[var(--panel-soft-hover)]"
             href={prefixLocalePath(getPublisherDetailPath(publisher.slug, pageLocale), pageLocale)}
+            prefetch={false}
           >
             {pageLocale === "zh-CN" ? "刷新当前发布方页面" : "Reload this publisher page"}
           </Link>

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T09:04:12.237Z",
+  "generatedAt": "2026-06-29T01:47:39.510Z",
   "chunkIndex": 7,
   "totalSkills": 5090,
   "skills": [
@@ -264,7 +264,7 @@
     {
       "slug": "bluecraft-ai-cold-email",
       "name": "bluecraft-ai/cold-email",
-      "description": "Generate hyper-personalized cold email sequences using AI. Turn lead data into high-converting outreach campaigns.",
+      "description": "Build cold email campaigns and generate hyper-personalized email sequences with MachFive. Build a campaign end-to-end, preview output, then generate sequences from lead data.",
       "publisher": "bluecraft-ai",
       "publisherSlug": "bluecraft-ai",
       "sectionTitle": "Community marketplace",
@@ -276,17 +276,20 @@
         "publisher-namespaced"
       ],
       "personas": [
-        "marketer",
-        "sales"
+        "engineer",
+        "marketer"
       ],
       "jobs": [
+        "api-integration",
         "campaign-planning",
         "content-production",
-        "document-authoring",
+        "deployment-ops",
+        "development-workflows",
         "landing-pages",
-        "presentation-building",
         "reporting",
         "research-synthesis",
+        "testing-debugging",
+        "ui-ux-design",
         "workflow-automation"
       ],
       "sourceType": "marketplace",

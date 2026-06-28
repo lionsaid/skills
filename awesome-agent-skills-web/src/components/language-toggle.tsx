@@ -1,7 +1,7 @@
 "use client";
 
 import { usePathname, useRouter } from "next/navigation";
-import { LOCALE_COOKIE, type Locale, getCopy, prefixLocalePath } from "@/lib/i18n";
+import { LOCALE_COOKIE, type Locale, getCopy, getLocaleSwitchUrl } from "@/lib/i18n";
 
 export function LanguageToggle({ locale }: { locale: Locale }) {
   const pathname = usePathname();
@@ -15,8 +15,7 @@ export function LanguageToggle({ locale }: { locale: Locale }) {
       className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-[var(--border-soft)] bg-[var(--surface-strong)] p-0 text-sm font-semibold tracking-[0.04em] text-[var(--foreground)] transition hover:bg-[var(--surface)]"
       onClick={() => {
         const search = typeof window !== "undefined" ? window.location.search : "";
-        const nextPath = prefixLocalePath(pathname, nextLocale);
-        const nextUrl = search ? `${nextPath}${search}` : nextPath;
+        const nextUrl = getLocaleSwitchUrl(pathname, search, nextLocale);
         if (typeof window !== "undefined") {
           try {
             window.localStorage.setItem(LOCALE_COOKIE, nextLocale);

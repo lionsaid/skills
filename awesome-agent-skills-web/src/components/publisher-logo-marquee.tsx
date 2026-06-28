@@ -27,6 +27,7 @@ export function PublisherLogoMarquee({
             key={`${publisher.slug}-${index}`}
             className="publisher-marquee-item inline-flex shrink-0 items-center gap-3 rounded-full border border-[var(--border-soft)] bg-[var(--surface-strong)] px-4 py-3 text-left transition hover:border-[var(--accent)]/22 hover:bg-[var(--surface)] sm:px-5"
             href={prefixLocalePath(getPublisherDetailPath(publisher.slug, locale), locale)}
+            prefetch={false}
           >
             <PublisherLogo name={publisher.name} slug={publisher.slug} />
             <span className="min-w-0">

@@ -12,16 +12,21 @@ export function normalizeLocale(value: string | undefined | null): Locale {
   return value === "zh-CN" ? "zh-CN" : "en";
 }
 
+function trimTrailingSlash(path: string) {
+  return path.endsWith("/") && path !== "/" ? path.slice(0, -1) : path;
+}
+
 export function prefixLocalePath(path: string, locale: Locale) {
   if (!path.startsWith("/")) {
     return path;
   }
 
   const zhPrefix = "/zh-CN";
+  const normalizedPath = trimTrailingSlash(path);
   const isEnglishOnlyDetailPath =
-    path === "/skill" ||
+    normalizedPath === "/skill" ||
     path.startsWith("/skill?") ||
-    path === "/publisher" ||
+    normalizedPath === "/publisher" ||
     path.startsWith("/publisher?");
 
   if (locale === "en") {
@@ -49,6 +54,28 @@ export function prefixLocalePath(path: string, locale: Locale) {
   }
 
   return `${zhPrefix}${path}`;
+}
+
+export function getLocaleSwitchUrl(
+  pathname: string,
+  search: string,
+  nextLocale: Locale,
+) {
+  const params = new URLSearchParams(search);
+  const normalizedPathname = trimTrailingSlash(pathname);
+  const nextPath = prefixLocalePath(pathname, nextLocale);
+  const isQueryDetailPath = normalizedPathname === "/skill" || normalizedPathname === "/publisher";
+
+  if (isQueryDetailPath) {
+    if (nextLocale === "zh-CN") {
+      params.set("locale", "zh-CN");
+    } else {
+      params.delete("locale");
+    }
+  }
+
+  const nextSearch = params.toString();
+  return nextSearch ? `${nextPath}?${nextSearch}` : nextPath;
 }
 
 export function getSkillDetailPath(slug: string, locale?: Locale) {

@@ -12,6 +12,7 @@ import { expandQueryAliases as expandQueryAliasesLight, type SkillFilterKind, ty
 
 const PAGE_SIZE = 36;
 const DEFAULT_CHUNK_SIZE = 120;
+const AUTO_LOAD_PAUSED_STORAGE_KEY = "lionsaid-skills-auto-load-paused";
 
 type SkillsCatalogProps = {
   locale?: Locale;
@@ -526,6 +527,14 @@ export function SkillsCatalog({
   const sentinelRef = useRef<HTMLDivElement | null>(null);
   const listScrollRef = useRef<HTMLDivElement | null>(null);
   const searchBarRef = useRef<HTMLDivElement | null>(null);
+  const hasUserScrolledRef = useRef(false);
+  const autoLoadPausedRef = useRef(
+    typeof window !== "undefined" &&
+      window.sessionStorage.getItem(AUTO_LOAD_PAUSED_STORAGE_KEY) === "1",
+  );
+  const manualPaginationLockUntilRef = useRef(0);
+  const resumeAutoLoadOnInteractionRef = useRef(false);
+  const lastScrollYRef = useRef(0);
   const [showBackToSearch, setShowBackToSearch] = useState(false);
   const [, startTransition] = useTransition();
 
@@ -681,6 +690,68 @@ export function SkillsCatalog({
   }, [page, safePage]);
 
   useEffect(() => {
+    hasUserScrolledRef.current = false;
+    autoLoadPausedRef.current = false;
+    resumeAutoLoadOnInteractionRef.current = false;
+    lastScrollYRef.current = 0;
+    if (typeof window !== "undefined") {
+      window.sessionStorage.removeItem(AUTO_LOAD_PAUSED_STORAGE_KEY);
+    }
+  }, [query, kind, publisher, sort, trustFilter, enterpriseOnly, excludeMarketplace, persona, job]);
+
+  useEffect(() => {
+    function handleScroll() {
+      const currentScrollY = window.scrollY;
+      if (currentScrollY > 120) {
+        hasUserScrolledRef.current = true;
+      }
+
+      lastScrollYRef.current = currentScrollY;
+    }
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  useEffect(() => {
+    function resumeAutoLoad() {
+      if (!resumeAutoLoadOnInteractionRef.current) {
+        return;
+      }
+
+      hasUserScrolledRef.current = true;
+      autoLoadPausedRef.current = false;
+      manualPaginationLockUntilRef.current = 0;
+      resumeAutoLoadOnInteractionRef.current = false;
+      window.sessionStorage.removeItem(AUTO_LOAD_PAUSED_STORAGE_KEY);
+    }
+
+    function handleKeyDown(event: KeyboardEvent) {
+      if (
+        event.key === "ArrowDown" ||
+        event.key === "ArrowUp" ||
+        event.key === "PageDown" ||
+        event.key === "PageUp" ||
+        event.key === "Home" ||
+        event.key === "End" ||
+        event.key === " "
+      ) {
+        resumeAutoLoad();
+      }
+    }
+
+    window.addEventListener("wheel", resumeAutoLoad, { passive: true });
+    window.addEventListener("touchmove", resumeAutoLoad, { passive: true });
+    window.addEventListener("keydown", handleKeyDown);
+
+    return () => {
+      window.removeEventListener("wheel", resumeAutoLoad);
+      window.removeEventListener("touchmove", resumeAutoLoad);
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, []);
+
+  useEffect(() => {
     const sentinel = sentinelRef.current;
 
     if (!sentinel || safePage >= totalPages) {
@@ -691,7 +762,13 @@ export function SkillsCatalog({
     const observer = new IntersectionObserver(
       (entries) => {
         const [entry] = entries;
-        if (!entry?.isIntersecting || locked) {
+        if (
+          !entry?.isIntersecting ||
+          locked ||
+          !hasUserScrolledRef.current ||
+          autoLoadPausedRef.current ||
+          Date.now() < manualPaginationLockUntilRef.current
+        ) {
           return;
         }
 
@@ -1354,6 +1431,7 @@ export function SkillsCatalog({
                       key={skill.slug}
                       className="glass skill-card grid min-w-0 gap-4 rounded-[1.5rem] p-4 sm:rounded-[1.75rem] sm:p-5 lg:grid-cols-[220px_minmax(0,1fr)_auto] lg:items-center"
                       href={prefixLocalePath(getSkillDetailPath(skill.slug, locale), locale)}
+                      prefetch={false}
                     >
                       <div className="min-w-0">
                         <p className="eyebrow muted">{skill.kind}</p>
@@ -1445,7 +1523,16 @@ export function SkillsCatalog({
                     {safePage < totalPages ? (
                       <button
                         className="inline-flex min-w-[11rem] items-center justify-center rounded-full border border-[var(--accent)] bg-[var(--accent)] px-5 py-3 text-sm font-medium text-white shadow-[0_12px_26px_rgba(225,6,0,0.22)] transition hover:opacity-95"
-                        onClick={() => setPage((current) => Math.min(totalPages, current + 1))}
+                        onClick={() => {
+                          autoLoadPausedRef.current = true;
+                          hasUserScrolledRef.current = false;
+                          manualPaginationLockUntilRef.current = Date.now() + 2000;
+                          resumeAutoLoadOnInteractionRef.current = true;
+                          if (typeof window !== "undefined") {
+                            window.sessionStorage.setItem(AUTO_LOAD_PAUSED_STORAGE_KEY, "1");
+                          }
+                          setPage((current) => Math.min(totalPages, Math.max(current, safePage) + 1));
+                        }}
                         type="button"
                       >
                         {locale === "zh-CN" ? "立即加载下一页" : "Load next page now"}
@@ -1466,14 +1553,17 @@ export function SkillsCatalog({
       </section>
 
       {mobileFiltersOpen ? (
-        <div className="fixed inset-0 z-50 xl:hidden">
+        <div className="fixed inset-0 z-50 xl:hidden" data-testid="mobile-filters-modal">
           <button
             aria-label={locale === "zh-CN" ? "关闭筛选" : "Close filters"}
             className="absolute inset-0 bg-[rgba(17,17,17,0.22)]"
             onClick={closeMobileFilters}
             type="button"
           />
-          <div className="absolute inset-x-0 bottom-0 max-h-[82vh] overflow-hidden rounded-t-[2rem] border border-[var(--border-soft)] bg-[#f8f4ed] shadow-[0_-14px_30px_rgba(20,16,10,0.1)]">
+          <div
+            className="absolute inset-x-0 bottom-0 max-h-[82vh] overflow-hidden rounded-t-[2rem] border border-[var(--border-soft)] bg-[#f8f4ed] shadow-[0_-14px_30px_rgba(20,16,10,0.1)]"
+            data-testid="mobile-filters-sheet"
+          >
             <div className="flex items-center justify-between border-b border-[var(--border-soft)] px-5 py-4">
               <div>
                 <h2 className="text-lg font-semibold">{locale === "zh-CN" ? "筛选" : "Filters"}</h2>
@@ -1615,6 +1705,7 @@ export function SkillsCatalog({
         <button
           aria-label={locale === "zh-CN" ? "回到搜索" : "Back to search"}
           className="fixed bottom-5 right-5 z-[55] inline-flex h-12 w-12 items-center justify-center rounded-full border border-[var(--accent)] bg-[var(--accent)] text-white shadow-[0_16px_34px_rgba(225,6,0,0.28)] transition hover:opacity-95 sm:bottom-6 sm:right-6"
+          data-testid="back-to-search-button"
           onClick={() => {
             searchBarRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
           }}

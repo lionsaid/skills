@@ -114,6 +114,7 @@ export async function RolesPageContent({ locale }: PageProps) {
                       <Link
                         className="surface-panel-soft block rounded-[1.4rem] p-4 transition hover:bg-[var(--panel-soft-hover)]"
                         href={prefixLocalePath(getSkillDetailPath(skill.slug, locale), locale)}
+                        prefetch={false}
                       >
                         <p className="eyebrow surface-muted">{skill.publisher}</p>
                         <p className="mt-3 text-base font-semibold leading-6">{skill.name}</p>

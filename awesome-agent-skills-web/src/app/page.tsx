@@ -441,6 +441,7 @@ export async function HomePage({ locale }: PageProps) {
                 <Link
                   className="group surface-panel-soft block rounded-[2rem] p-6 transition hover:bg-[var(--panel-soft-hover)]"
                   href={prefixLocalePath(getSkillDetailPath(skill.slug, locale), locale)}
+                  prefetch={false}
                 >
                   <div className="flex items-start justify-between gap-4">
                     <div>

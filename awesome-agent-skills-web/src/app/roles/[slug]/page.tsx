@@ -148,7 +148,8 @@ export async function RolePageContent({ params, locale }: RolePageContentProps) 
                 <Link
                   key={skill.slug}
                   className="surface-panel-soft rounded-[1.5rem] p-5 transition hover:bg-[var(--panel-soft-hover)]"
-                        href={prefixLocalePath(getSkillDetailPath(skill.slug, locale), locale)}
+                  href={prefixLocalePath(getSkillDetailPath(skill.slug, locale), locale)}
+                  prefetch={false}
                 >
                   <p className="eyebrow surface-muted">{String(index + 1).padStart(2, "0")} · {skill.publisher}</p>
                   <h3 className="mt-3 text-lg font-semibold leading-6">{skill.name}</h3>
@@ -199,6 +200,7 @@ export async function RolePageContent({ params, locale }: RolePageContentProps) 
                     key={skill.slug}
                     className="surface-panel-soft rounded-[1.5rem] p-5 transition hover:bg-[var(--panel-soft-hover)]"
                     href={prefixLocalePath(getSkillDetailPath(skill.slug, locale), locale)}
+                    prefetch={false}
                   >
                     <p className="eyebrow surface-muted">{skill.publisher}</p>
                     <h4 className="mt-3 text-xl font-semibold">{skill.name}</h4>

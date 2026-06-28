@@ -37,6 +37,8 @@ export function CookieConsent() {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
   const locale = pathname.startsWith("/zh-CN") ? "zh-CN" : "en";
+  const normalizedPathname = pathname.endsWith("/") && pathname !== "/" ? pathname.slice(0, -1) : pathname;
+  const isCatalogPage = normalizedPathname === "/skills" || normalizedPathname === "/zh-CN/skills";
 
   useEffect(() => {
     const current = readConsent();
@@ -72,9 +74,21 @@ export function CookieConsent() {
           : "Current: not set";
 
   return (
-    <div className="fixed inset-x-0 bottom-4 z-30 px-4 sm:bottom-6">
-      <div className="mx-auto max-w-4xl rounded-[1.8rem] border border-[var(--border-soft)] bg-[color:var(--background)]/96 p-4 shadow-[0_24px_80px_rgba(56,49,36,0.18)] backdrop-blur">
-        <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+    <div
+      data-testid="cookie-consent-shell"
+      className={
+        isCatalogPage
+          ? "pointer-events-none fixed inset-x-4 bottom-[6.75rem] z-30 sm:bottom-6 sm:left-6 sm:right-auto sm:w-[min(24rem,calc(100vw-3rem))]"
+          : "fixed inset-x-0 bottom-4 z-30 px-4 sm:bottom-6"
+      }
+    >
+      <div
+        data-testid="cookie-consent-card"
+        className={`pointer-events-auto rounded-[1.8rem] border border-[var(--border-soft)] bg-[color:var(--background)]/96 p-4 shadow-[0_24px_80px_rgba(56,49,36,0.18)] backdrop-blur ${
+          isCatalogPage ? "mx-0" : "mx-auto max-w-4xl"
+        }`}
+      >
+        <div className={`flex flex-col gap-4 ${isCatalogPage ? "" : "sm:flex-row sm:items-end sm:justify-between"}`}>
           <div className="min-w-0">
             <p className="text-sm font-semibold text-[var(--foreground)]">
               {zh ? "Cookie 与访问统计" : "Cookies and analytics"}
@@ -92,7 +106,7 @@ export function CookieConsent() {
             </p>
           </div>
 
-          <div className="flex shrink-0 flex-wrap gap-3">
+          <div className={`flex shrink-0 flex-wrap gap-3 ${isCatalogPage ? "" : ""}`}>
             {consent ? (
               <button
                 className="rounded-full border border-transparent px-4 py-2.5 text-sm font-medium text-[var(--ink-muted)] transition hover:text-[var(--foreground)]"

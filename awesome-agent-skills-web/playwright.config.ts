@@ -1,7 +1,8 @@
 import { defineConfig, devices } from "@playwright/test";
 
-const PORT = Number(process.env.PORT ?? "3000");
+const PORT = Number(process.env.PLAYWRIGHT_PORT ?? "3100");
 const baseURL = process.env.PLAYWRIGHT_BASE_URL ?? `http://127.0.0.1:${PORT}`;
+const shouldUseManagedWebServer = !process.env.DEV_BASE_URL && !process.env.STATIC_BASE_URL;
 
 export default defineConfig({
   testDir: "./tests/e2e",
@@ -15,12 +16,14 @@ export default defineConfig({
     screenshot: "only-on-failure",
     video: "off",
   },
-  webServer: {
-    command: `npm run dev -- --hostname 127.0.0.1 --port ${PORT}`,
-    url: baseURL,
-    reuseExistingServer: !process.env.CI,
-    timeout: 120000,
-  },
+  webServer: shouldUseManagedWebServer
+    ? {
+        command: `sh -c "npm run build && cd out && python3 -m http.server ${PORT} --bind 127.0.0.1"`,
+        url: baseURL,
+        reuseExistingServer: !process.env.CI,
+        timeout: 240000,
+      }
+    : undefined,
   projects: [
     {
       name: "chromium-desktop",

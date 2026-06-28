@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "clean:build": "find . -name .DS_Store -delete && node scripts/clean-build-artifacts.mjs",
+    "clean:build": "node scripts/clean-build-artifacts.mjs",
     "generate:data": "node scripts/generate-skills-data.mjs && npm run generate:repo-stats && npm run refresh:github-cache && node scripts/generate-skills-data.mjs && npm run generate:repo-stats && npm run validate:roles && npm run validate:high-star && npm run audit:roles",
     "generate:repo-stats": "node scripts/generate-repo-stats.mjs && npm run generate:high-star-repos",
     "generate:high-star-repos": "node scripts/generate-high-star-github-repos.mjs",
@@ -16,8 +16,10 @@
     "dev": "next dev",
     "build": "npm run clean:build && npm run validate:roles && next build",
     "start": "next start",
+    "serve:static": "python3 -m http.server",
     "lint": "eslint",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "test:dev-static": "node scripts/check-dev-static-visibility.mjs"
   },
   "dependencies": {
     "next": "16.2.9",

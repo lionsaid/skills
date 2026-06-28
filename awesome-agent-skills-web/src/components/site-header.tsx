@@ -187,7 +187,10 @@ export function SiteHeader({ currentPath = "/", locale }: SiteHeaderProps) {
 
       <div className="fixed inset-x-0 bottom-4 z-40 sm:hidden">
         <div className="page-shell">
-          <nav className="header-shell glass mx-auto flex max-w-[28rem] items-center gap-2 rounded-[1.6rem] px-3 py-3 shadow-[0_16px_40px_rgba(56,49,36,0.14)]">
+          <nav
+            className="header-shell glass mx-auto flex max-w-[28rem] items-center gap-2 rounded-[1.6rem] px-3 py-3 shadow-[0_16px_40px_rgba(56,49,36,0.14)]"
+            data-testid="mobile-bottom-nav"
+          >
               <div className="shrink-0">
               <NavButton active={currentPath === "/"} href={prefixLocalePath("/", locale)} iconOnly>
                 <HomeIcon />

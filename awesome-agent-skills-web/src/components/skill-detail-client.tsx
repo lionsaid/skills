@@ -166,6 +166,7 @@ export function SkillDetailClient({ locale }: { locale: "en" | "zh-CN" }) {
                   <Link
                     className="detail-chip inline-flex min-h-11 min-w-0 items-center rounded-full border px-4 py-2.5 text-[13px] font-medium leading-5 text-[var(--foreground)] transition hover:bg-[var(--surface-strong)] sm:text-sm sm:leading-6"
                     href={prefixLocalePath(getPublisherDetailPath(skill.publisherSlug, pageLocale), pageLocale)}
+                    prefetch={false}
                   >
                     {pageLocale === "zh-CN" ? `更多来自 ${skill.publisher}` : `More from ${skill.publisher}`}
                   </Link>
@@ -346,6 +347,7 @@ export function SkillDetailClient({ locale }: { locale: "en" | "zh-CN" }) {
                 key={relatedSkill.slug}
                 className="skill-card detail-card rounded-[1.75rem] border p-6 shadow-[0_18px_50px_rgba(56,49,36,0.06)]"
                 href={prefixLocalePath(getSkillDetailPath(relatedSkill.slug, pageLocale), pageLocale)}
+                prefetch={false}
               >
                 <p className="eyebrow muted">{relatedSkill.publisher}</p>
                 <h3 className="mt-3 text-[1.35rem] font-semibold tracking-[-0.03em]">
