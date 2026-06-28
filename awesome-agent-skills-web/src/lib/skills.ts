@@ -1,4 +1,5 @@
 import skillsData from "@/data/skills.generated.json";
+import repoStatsData from "@/data/repo-stats.generated.json";
 import jobAliasesData from "@/../config/job-aliases.json";
 import publisherRulesData from "@/../config/publisher-rules.json";
 import roleDefinitionsData from "@/../config/role-definitions.json";
@@ -25,6 +26,34 @@ export type Skill = {
   creatorAvatarUrl?: string;
   creatorHandle?: string;
   hasPublisherLogo?: boolean;
+};
+
+export type SkillCatalogItem = Pick<
+  Skill,
+  | "slug"
+  | "name"
+  | "description"
+  | "publisher"
+  | "publisherSlug"
+  | "sectionTitle"
+  | "kind"
+  | "tags"
+  | "personas"
+  | "jobs"
+  | "sourceType"
+  | "trustLevel"
+  | "riskFlags"
+  | "creatorAvatarUrl"
+  | "creatorHandle"
+  | "hasPublisherLogo"
+> & {
+  stars?: number | null;
+  forks?: number | null;
+};
+
+type RepoStatsPayload = {
+  generatedAt: string;
+  statsBySlug: Record<string, { stars?: number | null; forks?: number | null }>;
 };
 
 export type RoleDefinition = {
@@ -73,7 +102,9 @@ type SkillsPayload = {
 };
 
 const payload = skillsData as SkillsPayload;
+const repoStatsPayload = repoStatsData as RepoStatsPayload;
 const allSkills = payload.skills;
+const repoStatsBySlug = repoStatsPayload?.statsBySlug ?? {};
 const hiddenRecommendationTags = new Set(["namespaced", "publisher-namespaced"]);
 const preferredPublisherOrder = [
   "anthropics",
@@ -173,8 +204,37 @@ function formatRelatedReason(
   return locale === "zh-CN" ? reasons.join("；") : reasons.join("; ");
 }
 
+function toSkillCatalogItem(skill: Skill): SkillCatalogItem {
+  const repoStats = repoStatsBySlug[skill.slug] ?? {};
+
+  return {
+    slug: skill.slug,
+    name: skill.name,
+    description: skill.description,
+    publisher: skill.publisher,
+    publisherSlug: skill.publisherSlug,
+    sectionTitle: skill.sectionTitle,
+    kind: skill.kind,
+    tags: skill.tags,
+    personas: skill.personas,
+    jobs: skill.jobs,
+    sourceType: skill.sourceType,
+    trustLevel: skill.trustLevel,
+    riskFlags: skill.riskFlags,
+    creatorAvatarUrl: skill.creatorAvatarUrl,
+    creatorHandle: skill.creatorHandle,
+    hasPublisherLogo: skill.hasPublisherLogo,
+    stars: typeof repoStats.stars === "number" ? repoStats.stars : null,
+    forks: typeof repoStats.forks === "number" ? repoStats.forks : null,
+  };
+}
+
 export function getAllSkills() {
   return allSkills;
+}
+
+export function getCatalogSkillsPage(offset = 0, limit = 36): SkillCatalogItem[] {
+  return allSkills.slice(offset, offset + limit).map(toSkillCatalogItem);
 }
 
 export function isPriorityPublisher(slug: string) {

@@ -1,33 +1,34 @@
 "use client";
 
-import { useRouter } from "next/navigation";
-import { useTransition } from "react";
-import { LOCALE_COOKIE, type Locale, getCopy } from "@/lib/i18n";
-
-function setLocaleCookie(locale: Locale) {
-  document.cookie = `${LOCALE_COOKIE}=${locale}; path=/; max-age=31536000; samesite=lax`;
-  document.documentElement.lang = locale;
-}
+import { usePathname, useRouter } from "next/navigation";
+import { LOCALE_COOKIE, type Locale, getCopy, prefixLocalePath } from "@/lib/i18n";
 
 export function LanguageToggle({ locale }: { locale: Locale }) {
-  const router = useRouter();
-  const [, startTransition] = useTransition();
+  const pathname = usePathname();
   const copy = getCopy(locale);
   const nextLocale: Locale = locale === "en" ? "zh-CN" : "en";
+  const nextLabel = nextLocale === "zh-CN" ? "中" : "EN";
 
   return (
     <button
-      aria-label={`${copy.language.short}: ${copy.language.chinese}`}
+      aria-label={nextLocale === "zh-CN" ? copy.language.chinese : copy.language.english}
       className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-[var(--border-soft)] bg-[var(--surface-strong)] p-0 text-sm font-semibold tracking-[0.04em] text-[var(--foreground)] transition hover:bg-[var(--surface)]"
-      onClick={() =>
-        startTransition(() => {
-          setLocaleCookie(nextLocale);
-          router.refresh();
-        })
-      }
+      onClick={() => {
+        const search = typeof window !== "undefined" ? window.location.search : "";
+        const nextPath = prefixLocalePath(pathname, nextLocale);
+        const nextUrl = search ? `${nextPath}${search}` : nextPath;
+        if (typeof window !== "undefined") {
+          try {
+            window.localStorage.setItem(LOCALE_COOKIE, nextLocale);
+            document.cookie = `${LOCALE_COOKIE}=${encodeURIComponent(nextLocale)}; path=/; max-age=31536000; samesite=lax`;
+            document.documentElement.lang = nextLocale;
+          } catch {}
+          window.location.assign(nextUrl);
+        }
+      }}
       type="button"
     >
-      {copy.language.short}
+      {nextLabel}
     </button>
   );
 }

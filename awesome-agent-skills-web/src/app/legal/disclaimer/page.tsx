@@ -1,8 +1,20 @@
+import type { Metadata } from "next";
 import { LegalPageShell } from "@/components/legal-page-shell";
+import { type Locale } from "@/lib/i18n";
 import { getRequestLocale } from "@/lib/request-locale";
+import { buildMetadata, getLocalizedDescription } from "@/lib/seo";
 
-export default async function DisclaimerPage() {
-  const locale = await getRequestLocale();
+type PageProps = { locale: Locale };
+
+export function generateMetadata(): Metadata {
+  return buildMetadata({
+    title: "Disclaimer",
+    path: "/legal/disclaimer",
+    description: getLocalizedDescription("en"),
+  });
+}
+
+export async function DisclaimerPageContent({ locale }: PageProps) {
   const zh = locale === "zh-CN";
 
   return (
@@ -76,4 +88,8 @@ export default async function DisclaimerPage() {
       )}
     </LegalPageShell>
   );
+}
+
+export default async function DisclaimerPage() {
+  return <DisclaimerPageContent locale={await getRequestLocale()} />;
 }

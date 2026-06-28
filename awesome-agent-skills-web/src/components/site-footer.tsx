@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { CookieSettingsButton } from "@/components/cookie-settings-button";
 import { FooterActionLink } from "@/components/footer-action-link";
-import type { Locale } from "@/lib/i18n";
+import { prefixLocalePath, type Locale } from "@/lib/i18n";
 
 const footerColumns = [
   {
@@ -80,6 +80,8 @@ function translateFooterLabel(locale: Locale, label: string) {
 }
 
 export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
+  const localize = (path: string) => prefixLocalePath(path, locale);
+
   return (
     <footer className="site-footer mt-10 overflow-hidden">
       <div className="page-shell relative py-16 sm:py-20">
@@ -102,13 +104,13 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
             <div className="mt-8 flex flex-wrap gap-3">
               <Link
                 className="inline-flex min-w-[10rem] items-center justify-center whitespace-nowrap rounded-full border border-[var(--accent)] bg-[var(--accent)] px-5 py-3 text-sm font-medium text-white shadow-[0_12px_26px_rgba(225,6,0,0.22)] transition hover:opacity-95"
-                href="/skills"
+                href={localize("/skills")}
               >
                 {locale === "zh-CN" ? "开始找 skill" : "Search skills"}
               </Link>
               <Link
                 className="rounded-full border border-[color:var(--footer-border)] px-5 py-3 text-sm font-medium text-[color:var(--footer-fg)] transition hover:bg-black/[0.03] dark:hover:bg-white/[0.06]"
-                href="/skills?sort=featured"
+                href={localize("/skills?sort=featured")}
               >
                 {locale === "zh-CN" ? "看看热门推荐" : "Start with top picks"}
               </Link>
@@ -162,7 +164,7 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
                       <Link
                         key={item.label}
                         className="footer-link text-sm transition"
-                        href={item.href}
+                        href={localize(item.href)}
                       >
                         {translateFooterLabel(locale, item.label)}
                       </Link>

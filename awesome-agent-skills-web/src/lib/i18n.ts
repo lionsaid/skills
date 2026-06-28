@@ -12,6 +12,61 @@ export function normalizeLocale(value: string | undefined | null): Locale {
   return value === "zh-CN" ? "zh-CN" : "en";
 }
 
+export function prefixLocalePath(path: string, locale: Locale) {
+  if (!path.startsWith("/")) {
+    return path;
+  }
+
+  const zhPrefix = "/zh-CN";
+  const isEnglishOnlyDetailPath =
+    path === "/skill" ||
+    path.startsWith("/skill?") ||
+    path === "/publisher" ||
+    path.startsWith("/publisher?");
+
+  if (locale === "en") {
+    if (path === zhPrefix) {
+      return "/";
+    }
+
+    if (path.startsWith(`${zhPrefix}/`)) {
+      return path.slice(zhPrefix.length);
+    }
+
+    return path;
+  }
+
+  if (isEnglishOnlyDetailPath) {
+    return path;
+  }
+
+  if (path === "/" || path === zhPrefix) {
+    return zhPrefix;
+  }
+
+  if (path.startsWith(`${zhPrefix}/`)) {
+    return path;
+  }
+
+  return `${zhPrefix}${path}`;
+}
+
+export function getSkillDetailPath(slug: string, locale?: Locale) {
+  const params = new URLSearchParams({ slug });
+  if (locale === "zh-CN") {
+    params.set("locale", locale);
+  }
+  return `/skill?${params.toString()}`;
+}
+
+export function getPublisherDetailPath(slug: string, locale?: Locale) {
+  const params = new URLSearchParams({ slug });
+  if (locale === "zh-CN") {
+    params.set("locale", locale);
+  }
+  return `/publisher?${params.toString()}`;
+}
+
 type Copy = {
   nav: {
     home: string;

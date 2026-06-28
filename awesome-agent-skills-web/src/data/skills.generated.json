@@ -1,8 +1,14 @@
 {
-  "generatedAt": "2026-06-27T09:24:28.968Z",
-  "totalSkills": 5089,
+  "generatedAt": "2026-06-28T09:04:12.216Z",
+  "totalSkills": 5090,
   "sourceCount": 5,
-  "failures": [],
+  "failures": [
+    {
+      "sourceId": "github-curated-mirror",
+      "label": "GitHub curated mirror",
+      "reason": "fetch failed; using 1168 cached skills from previous generated data"
+    }
+  ],
   "skills": [
     {
       "slug": "anthropics-docx",
@@ -49883,7 +49889,7 @@
       "slug": "byungkyu-gmail",
       "name": "byungkyu/gmail",
       "url": "https://clawhub.ai/byungkyu/gmail",
-      "description": "Gmail API integration with managed OAuth. Read, send, and manage emails, threads, labels, and drafts. Use this skill when users want to interact with Gmail....",
+      "description": "Gmail API integration with managed OAuth. Read, send, and manage emails, threads, labels, and drafts. Use this skill when users want to interact with Gmail. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
       "publisher": "byungkyu",
       "publisherSlug": "byungkyu",
       "sectionTitle": "Community marketplace",
@@ -51320,7 +51326,7 @@
       "slug": "byungkyu-youtube-api-skill",
       "name": "byungkyu/youtube-api-skill",
       "url": "https://clawhub.ai/byungkyu/youtube-api-skill",
-      "description": "YouTube Data API integration with managed OAuth. Search videos, manage playlists, access channel data, and interact with comments. Use this skill when users...",
+      "description": "YouTube Data API integration with managed OAuth. Search videos, manage playlists, access channel data, and interact with comments. Use this skill when users want to interact with YouTube. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
       "publisher": "byungkyu",
       "publisherSlug": "byungkyu",
       "sectionTitle": "Community marketplace",
@@ -52248,7 +52254,7 @@
       "slug": "byungkyu-outlook-api",
       "name": "byungkyu/outlook-api",
       "url": "https://clawhub.ai/byungkyu/outlook-api",
-      "description": "Microsoft Outlook API integration with managed OAuth. Read, send, and manage emails, folders, calendar events, and contacts via Microsoft Graph. Use this ski...",
+      "description": "Microsoft Outlook API integration with managed OAuth. Read, send, and manage emails, folders, calendar events, and contacts via Microsoft Graph. Use this skill when users want to interact with Outlook. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
       "publisher": "byungkyu",
       "publisherSlug": "byungkyu",
       "sectionTitle": "Community marketplace",
@@ -52898,7 +52904,7 @@
       "slug": "byungkyu-stripe-api",
       "name": "byungkyu/stripe-api",
       "url": "https://clawhub.ai/byungkyu/stripe-api",
-      "description": "Stripe API integration with managed OAuth. This is a write-capable financial integration for customers, subscriptions, invoices, products, prices, and paymen...",
+      "description": "Stripe API integration with managed OAuth. This is a write-capable financial integration for customers, subscriptions, invoices, products, prices, and payments. Install only if you need Stripe administration. Connect with the least-privileged Stripe account and OAuth scopes available, verify the intended connection ID before each request, and revoke unused connections promptly. All write operations require explicit user approval showing the exact endpoint, target resource, object IDs, amounts, and test/live mode before execution.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).\nRequires network access and valid Maton API key.",
       "publisher": "byungkyu",
       "publisherSlug": "byungkyu",
       "sectionTitle": "Community marketplace",
@@ -52918,6 +52924,7 @@
         "deployment-ops",
         "development-workflows",
         "testing-debugging",
+        "ui-ux-design",
         "workflow-automation"
       ],
       "sourceId": "clawhub-home",
@@ -53907,7 +53914,7 @@
       "slug": "byungkyu-salesforce-api",
       "name": "byungkyu/salesforce-api",
       "url": "https://clawhub.ai/byungkyu/salesforce-api",
-      "description": "Salesforce CRM API integration with managed OAuth. Install only if you need Salesforce CRM administration. Connect with the narrowest Salesforce permissions...",
+      "description": "Salesforce CRM API integration with managed OAuth. Install only if you need Salesforce CRM administration. Connect with the narrowest Salesforce permissions available, prefer sandbox orgs for destructive or batch work, verify the intended connection ID before each request, and revoke unused connections promptly. This integration can mutate CRM records — approve only specific write actions after checking the exact sObject, record IDs, and consequence. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
       "publisher": "byungkyu",
       "publisherSlug": "byungkyu",
       "sectionTitle": "Community marketplace",
@@ -53928,6 +53935,7 @@
         "deployment-ops",
         "development-workflows",
         "document-authoring",
+        "prd-specs",
         "presentation-building",
         "reporting",
         "testing-debugging",
@@ -54441,7 +54449,7 @@
       "slug": "byungkyu-asana-api",
       "name": "byungkyu/asana-api",
       "url": "https://clawhub.ai/byungkyu/asana-api",
-      "description": "Asana API integration with managed OAuth. Access tasks, projects, workspaces, users, and manage webhooks. Use this skill when users want to manage work items...",
+      "description": "Asana API integration with managed OAuth. Access tasks, projects, workspaces, users, and manage webhooks. Use this skill when users want to manage work items, track projects, or integrate with Asana workflows. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
       "publisher": "byungkyu",
       "publisherSlug": "byungkyu",
       "sectionTitle": "Community marketplace",
@@ -54735,7 +54743,7 @@
       "slug": "byungkyu-trello-api",
       "name": "byungkyu/trello-api",
       "url": "https://clawhub.ai/byungkyu/trello-api",
-      "description": "Trello API integration with managed OAuth. Manage boards, lists, cards, members, and labels. Use this skill when users want to interact with Trello for proje...",
+      "description": "Trello API integration with managed OAuth. Manage boards, lists, cards, members, and labels. Use this skill when users want to interact with Trello for project management. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
       "publisher": "byungkyu",
       "publisherSlug": "byungkyu",
       "sectionTitle": "Community marketplace",
@@ -55023,7 +55031,7 @@
       "slug": "byungkyu-github-api",
       "name": "byungkyu/github-api",
       "url": "https://clawhub.ai/byungkyu/github-api",
-      "description": "GitHub API integration with managed OAuth. Access repositories, issues, pull requests, commits, branches, and users. Use this skill when users want to intera...",
+      "description": "GitHub API integration with managed OAuth. Access repositories, issues, pull requests, commits, branches, and users.\nUse this skill when users want to interact with GitHub repositories, manage issues and PRs, search code, or automate workflows.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
       "publisher": "byungkyu",
       "publisherSlug": "byungkyu",
       "sectionTitle": "Community marketplace",
@@ -55042,6 +55050,7 @@
         "api-integration",
         "deployment-ops",
         "development-workflows",
+        "research-synthesis",
         "testing-debugging",
         "workflow-automation"
       ],
@@ -55652,7 +55661,7 @@
       "slug": "byungkyu-google-sheets",
       "name": "byungkyu/google-sheets",
       "url": "https://clawhub.ai/byungkyu/google-sheets",
-      "description": "Google Sheets API integration with managed OAuth. Read and write spreadsheet data, create sheets, apply formatting, and manage ranges. Use this skill when us...",
+      "description": "Google Sheets API integration with managed OAuth. Read and write spreadsheet data, create sheets, apply formatting, and manage ranges. Use this skill when users want to read from or write to Google Sheets. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
       "publisher": "byungkyu",
       "publisherSlug": "byungkyu",
       "sectionTitle": "Community marketplace",
@@ -55804,7 +55813,7 @@
       "slug": "byungkyu-google-drive",
       "name": "byungkyu/google-drive",
       "url": "https://clawhub.ai/byungkyu/google-drive",
-      "description": "Google Drive API integration with managed OAuth. List, search, create, and manage files and folders. Use this skill when users want to interact with Google D...",
+      "description": "Google Drive API integration with managed OAuth. List, search, create, and manage files and folders. Use this skill when users want to interact with Google Drive files. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
       "publisher": "byungkyu",
       "publisherSlug": "byungkyu",
       "sectionTitle": "Community marketplace",
@@ -56885,7 +56894,7 @@
       "slug": "byungkyu-linear-api",
       "name": "byungkyu/linear-api",
       "url": "https://clawhub.ai/byungkyu/linear-api",
-      "description": "Linear API integration with managed OAuth. Query and manage issues, projects, teams, cycles, and labels using GraphQL. Use this skill when users want to crea...",
+      "description": "Linear API integration with managed OAuth. Query and manage issues, projects, teams, cycles, and labels using GraphQL.\nUse this skill when users want to create, update, or query Linear issues, search for tasks, manage projects, or track work.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).\nRequires network access and valid Maton API key.",
       "publisher": "byungkyu",
       "publisherSlug": "byungkyu",
       "sectionTitle": "Community marketplace",
@@ -56908,9 +56917,11 @@
         "deployment-ops",
         "development-workflows",
         "reporting",
+        "research-synthesis",
         "spreadsheet-cleaning",
         "sql-analysis",
         "testing-debugging",
+        "ui-ux-design",
         "workflow-automation"
       ],
       "sourceId": "clawhub-home",
@@ -61119,7 +61130,7 @@
       "slug": "byungkyu-google-calendar-api",
       "name": "byungkyu/google-calendar-api",
       "url": "https://clawhub.ai/byungkyu/google-calendar-api",
-      "description": "Google Calendar API integration with managed OAuth. Create events, list calendars, check availability, and manage schedules. Use this skill when users want t...",
+      "description": "Google Calendar API integration with managed OAuth. Create events, list calendars, check availability, and manage schedules. Use this skill when users want to interact with Google Calendar. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
       "publisher": "byungkyu",
       "publisherSlug": "byungkyu",
       "sectionTitle": "Community marketplace",
@@ -61578,7 +61589,7 @@
       "slug": "byungkyu-notion-api-skill",
       "name": "byungkyu/notion-api-skill",
       "url": "https://clawhub.ai/byungkyu/notion-api-skill",
-      "description": "Notion API integration with managed OAuth. Query databases, search pages, and read workspace content. Write operations require explicit user confirmation of...",
+      "description": "Notion API integration with managed OAuth. Query databases, search pages, and read workspace content. Write operations require explicit user confirmation of the target resource and connection. Use this skill when users want to interact with Notion workspaces, databases, or pages. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
       "publisher": "byungkyu",
       "publisherSlug": "byungkyu",
       "sectionTitle": "Community marketplace",
@@ -64952,7 +64963,7 @@
       "slug": "byungkyu-google-docs",
       "name": "byungkyu/google-docs",
       "url": "https://clawhub.ai/byungkyu/google-docs",
-      "description": "Google Docs API integration with managed OAuth. Create documents, insert text, apply formatting, and manage content. Use this skill when users want to intera...",
+      "description": "Google Docs API integration with managed OAuth. Create documents, insert text, apply formatting, and manage content. Use this skill when users want to interact with Google Docs. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
       "publisher": "byungkyu",
       "publisherSlug": "byungkyu",
       "sectionTitle": "Community marketplace",
@@ -67241,6 +67252,38 @@
       "hasPublisherLogo": false
     },
     {
+      "slug": "xndks-a-stock-trading-assistant",
+      "name": "xndks/a-stock-trading-assistant",
+      "url": "https://clawhub.ai/xndks/a-stock-trading-assistant",
+      "description": "专业A股交易助手，提供沪深市场实时行情、个股分析、大盘情绪、热点板块、交易策略和价格预警服务。",
+      "publisher": "xndks",
+      "publisherSlug": "xndks",
+      "sectionTitle": "Community marketplace",
+      "sectionSlug": "community-marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced",
+        "xndks"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceId": "clawhub-home",
+      "sourceIds": [
+        "clawhub-home"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorHandle": "xndks",
+      "creatorAvatarUrl": "https://github.com/xndks.png?size=88",
+      "hasPublisherLogo": false
+    },
+    {
       "slug": "briancolinger-pr-reviewer",
       "name": "briancolinger/pr-reviewer",
       "url": "https://clawhub.ai/briancolinger/pr-reviewer",
@@ -67284,38 +67327,6 @@
       ],
       "creatorHandle": "briancolinger",
       "creatorAvatarUrl": "https://github.com/briancolinger.png?size=88",
-      "hasPublisherLogo": false
-    },
-    {
-      "slug": "xndks-a-stock-trading-assistant",
-      "name": "xndks/a-stock-trading-assistant",
-      "url": "https://clawhub.ai/xndks/a-stock-trading-assistant",
-      "description": "专业A股交易助手，提供沪深市场实时行情、个股分析、大盘情绪、热点板块、交易策略和价格预警服务。",
-      "publisher": "xndks",
-      "publisherSlug": "xndks",
-      "sectionTitle": "Community marketplace",
-      "sectionSlug": "community-marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced",
-        "xndks"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceId": "clawhub-home",
-      "sourceIds": [
-        "clawhub-home"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorHandle": "xndks",
-      "creatorAvatarUrl": "https://github.com/xndks.png?size=88",
       "hasPublisherLogo": false
     },
     {
@@ -68595,7 +68606,7 @@
       "slug": "byungkyu-one-drive",
       "name": "byungkyu/one-drive",
       "url": "https://clawhub.ai/byungkyu/one-drive",
-      "description": "OneDrive API integration with managed OAuth via Microsoft Graph. Manage files, folders, and sharing. Use this skill when users want to upload, download, orga...",
+      "description": "OneDrive API integration with managed OAuth via Microsoft Graph. Manage files, folders, and sharing.\nUse this skill when users want to upload, download, organize, or share files in OneDrive.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).\nRequires network access and valid Maton API key.",
       "publisher": "byungkyu",
       "publisherSlug": "byungkyu",
       "sectionTitle": "Community marketplace",
@@ -68615,6 +68626,7 @@
         "deployment-ops",
         "development-workflows",
         "testing-debugging",
+        "ui-ux-design",
         "workflow-automation"
       ],
       "sourceId": "clawhub-home",
@@ -68950,7 +68962,7 @@
       "slug": "byungkyu-google-ads-api",
       "name": "byungkyu/google-ads-api",
       "url": "https://clawhub.ai/byungkyu/google-ads-api",
-      "description": "Google Ads API integration with managed OAuth. Query campaigns, ad groups, keywords, and performance metrics with GAQL. Use this skill when users want to int...",
+      "description": "Google Ads API integration with managed OAuth. Query campaigns, ad groups, keywords, and performance metrics with GAQL. Use this skill when users want to interact with Google Ads data. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
       "publisher": "byungkyu",
       "publisherSlug": "byungkyu",
       "sectionTitle": "Community marketplace",
@@ -69947,7 +69959,7 @@
       "slug": "byungkyu-google-tasks-api",
       "name": "byungkyu/google-tasks-api",
       "url": "https://clawhub.ai/byungkyu/google-tasks-api",
-      "description": "Google Tasks API integration with managed OAuth. Manage task lists and tasks with full CRUD operations. Use this skill when users want to read, create, updat...",
+      "description": "Google Tasks API integration with managed OAuth. Manage task lists and tasks with full CRUD operations.\nUse this skill when users want to read, create, update, or delete tasks and task lists in Google Tasks.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
       "publisher": "byungkyu",
       "publisherSlug": "byungkyu",
       "sectionTitle": "Community marketplace",
@@ -70265,7 +70277,7 @@
       "slug": "byungkyu-slack-api",
       "name": "byungkyu/slack-api",
       "url": "https://clawhub.ai/byungkyu/slack-api",
-      "description": "Slack API integration with managed OAuth. Send messages, manage channels, search conversations, and interact with Slack workspaces. Use this skill when users...",
+      "description": "Slack API integration with managed OAuth. Send messages, manage channels, search conversations, and interact with Slack workspaces. Use this skill when users want to post messages, list channels, get user info, or automate Slack workflows. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
       "publisher": "byungkyu",
       "publisherSlug": "byungkyu",
       "sectionTitle": "Community marketplace",
@@ -71541,7 +71553,7 @@
       "slug": "byungkyu-jira-api",
       "name": "byungkyu/jira-api",
       "url": "https://clawhub.ai/byungkyu/jira-api",
-      "description": "Jira API integration with managed OAuth. Search issues with JQL, create and update issues, manage projects and transitions. Use this skill when users want to...",
+      "description": "Jira API integration with managed OAuth. Search issues with JQL, create and update issues, manage projects and transitions. Use this skill when users want to interact with Jira issues, projects, or workflows. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
       "publisher": "byungkyu",
       "publisherSlug": "byungkyu",
       "sectionTitle": "Community marketplace",
@@ -74320,7 +74332,7 @@
       "slug": "wazionapps-nexo-brain",
       "name": "wazionapps/nexo-brain",
       "url": "https://clawhub.ai/wazionapps/nexo-brain",
-      "description": "Cognitive memory system for AI agents — Atkinson-Shiffrin memory model, semantic RAG, trust scoring, and metacognitive error prevention. Gives your agent per...",
+      "description": "Runtime core for NEXO Desktop. Provides local memory, Deep Sleep, Evolution support-ticket mode, skills, watchdog, and MCP tools for the desktop product.",
       "publisher": "wazionapps",
       "publisherSlug": "wazionapps",
       "sectionTitle": "Community marketplace",
@@ -74332,8 +74344,20 @@
         "publisher-namespaced",
         "wazionapps"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "pm",
+        "support"
+      ],
+      "jobs": [
+        "api-integration",
+        "data-extraction",
+        "document-authoring",
+        "planning-roadmapping",
+        "prd-specs",
+        "reporting",
+        "research-synthesis",
+        "workflow-automation"
+      ],
       "sourceId": "clawhub-home",
       "sourceIds": [
         "clawhub-home"
@@ -81364,7 +81388,7 @@
       "slug": "byungkyu-hubspot-api",
       "name": "byungkyu/hubspot-api",
       "url": "https://clawhub.ai/byungkyu/hubspot-api",
-      "description": "HubSpot CRM API integration with managed OAuth. Manage contacts, companies, deals, and associations. Use this skill when users want to create or update CRM r...",
+      "description": "HubSpot CRM API integration with managed OAuth. Manage contacts, companies, deals, and associations. Use this skill when users want to create or update CRM records, search contacts, or sync data with HubSpot. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
       "publisher": "byungkyu",
       "publisherSlug": "byungkyu",
       "sectionTitle": "Community marketplace",
@@ -81387,6 +81411,7 @@
         "document-authoring",
         "presentation-building",
         "reporting",
+        "research-synthesis",
         "testing-debugging",
         "workflow-automation"
       ],
@@ -128071,6 +128096,40 @@
       ],
       "repository": "google/skills",
       "discoveryPath": "skills/cloud/gke-upgrades/SKILL.md",
+      "creatorHandle": "google",
+      "creatorAvatarUrl": "https://github.com/google.png?size=88",
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "hasPublisherLogo": false
+    },
+    {
+      "slug": "google-cloud-google-agents-cli-onboarding",
+      "name": "google/cloud/google-agents-cli-onboarding",
+      "url": "https://github.com/google/skills/blob/main/skills/cloud/google-agents-cli-onboarding/SKILL.md",
+      "description": "Discovered from a public GitHub repository: google/skills",
+      "publisher": "google",
+      "publisherSlug": "google",
+      "sectionTitle": "GitHub discovery",
+      "sectionSlug": "github-discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "google",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceId": "github-repo-expansion",
+      "sourceIds": [
+        "github-repo-expansion"
+      ],
+      "repository": "google/skills",
+      "discoveryPath": "skills/cloud/google-agents-cli-onboarding/SKILL.md",
       "creatorHandle": "google",
       "creatorAvatarUrl": "https://github.com/google.png?size=88",
       "sourceType": "github-discovery",
@@ -176572,278 +176631,6 @@
       "hasPublisherLogo": false
     },
     {
-      "slug": "noizai-characteristic-voice",
-      "name": "NoizAI/characteristic-voice",
-      "url": "https://github.com/NoizAI/skills/blob/main/skills/characteristic-voice/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NoizAI/skills",
-      "publisher": "NoizAI",
-      "publisherSlug": "noizai",
-      "sectionTitle": "GitHub discovery",
-      "sectionSlug": "github-discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "noizai",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceId": "github-repo-expansion",
-      "sourceIds": [
-        "github-repo-expansion"
-      ],
-      "repository": "NoizAI/skills",
-      "discoveryPath": "skills/characteristic-voice/SKILL.md",
-      "creatorHandle": "NoizAI",
-      "creatorAvatarUrl": "https://github.com/NoizAI.png?size=88",
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "hasPublisherLogo": false
-    },
-    {
-      "slug": "noizai-chat-with-anyone",
-      "name": "NoizAI/chat-with-anyone",
-      "url": "https://github.com/NoizAI/skills/blob/main/skills/chat-with-anyone/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NoizAI/skills",
-      "publisher": "NoizAI",
-      "publisherSlug": "noizai",
-      "sectionTitle": "GitHub discovery",
-      "sectionSlug": "github-discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "noizai",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceId": "github-repo-expansion",
-      "sourceIds": [
-        "github-repo-expansion"
-      ],
-      "repository": "NoizAI/skills",
-      "discoveryPath": "skills/chat-with-anyone/SKILL.md",
-      "creatorHandle": "NoizAI",
-      "creatorAvatarUrl": "https://github.com/NoizAI.png?size=88",
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "hasPublisherLogo": false
-    },
-    {
-      "slug": "noizai-daily-news-caster",
-      "name": "NoizAI/daily-news-caster",
-      "url": "https://github.com/NoizAI/skills/blob/main/skills/daily-news-caster/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NoizAI/skills",
-      "publisher": "NoizAI",
-      "publisherSlug": "noizai",
-      "sectionTitle": "GitHub discovery",
-      "sectionSlug": "github-discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "noizai",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceId": "github-repo-expansion",
-      "sourceIds": [
-        "github-repo-expansion"
-      ],
-      "repository": "NoizAI/skills",
-      "discoveryPath": "skills/daily-news-caster/SKILL.md",
-      "creatorHandle": "NoizAI",
-      "creatorAvatarUrl": "https://github.com/NoizAI.png?size=88",
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "hasPublisherLogo": false
-    },
-    {
-      "slug": "noizai-sound-fx",
-      "name": "NoizAI/sound-fx",
-      "url": "https://github.com/NoizAI/skills/blob/main/skills/sound-fx/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NoizAI/skills",
-      "publisher": "NoizAI",
-      "publisherSlug": "noizai",
-      "sectionTitle": "GitHub discovery",
-      "sectionSlug": "github-discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "noizai",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceId": "github-repo-expansion",
-      "sourceIds": [
-        "github-repo-expansion"
-      ],
-      "repository": "NoizAI/skills",
-      "discoveryPath": "skills/sound-fx/SKILL.md",
-      "creatorHandle": "NoizAI",
-      "creatorAvatarUrl": "https://github.com/NoizAI.png?size=88",
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "hasPublisherLogo": false
-    },
-    {
-      "slug": "noizai-speech-to-text",
-      "name": "NoizAI/speech-to-text",
-      "url": "https://github.com/NoizAI/skills/blob/main/skills/speech-to-text/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NoizAI/skills",
-      "publisher": "NoizAI",
-      "publisherSlug": "noizai",
-      "sectionTitle": "GitHub discovery",
-      "sectionSlug": "github-discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "noizai",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceId": "github-repo-expansion",
-      "sourceIds": [
-        "github-repo-expansion"
-      ],
-      "repository": "NoizAI/skills",
-      "discoveryPath": "skills/speech-to-text/SKILL.md",
-      "creatorHandle": "NoizAI",
-      "creatorAvatarUrl": "https://github.com/NoizAI.png?size=88",
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "hasPublisherLogo": false
-    },
-    {
-      "slug": "noizai-template-skill",
-      "name": "NoizAI/template-skill",
-      "url": "https://github.com/NoizAI/skills/blob/main/skills/template-skill/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NoizAI/skills",
-      "publisher": "NoizAI",
-      "publisherSlug": "noizai",
-      "sectionTitle": "GitHub discovery",
-      "sectionSlug": "github-discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "noizai",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceId": "github-repo-expansion",
-      "sourceIds": [
-        "github-repo-expansion"
-      ],
-      "repository": "NoizAI/skills",
-      "discoveryPath": "skills/template-skill/SKILL.md",
-      "creatorHandle": "NoizAI",
-      "creatorAvatarUrl": "https://github.com/NoizAI.png?size=88",
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "hasPublisherLogo": false
-    },
-    {
-      "slug": "noizai-tts",
-      "name": "NoizAI/tts",
-      "url": "https://github.com/NoizAI/skills/blob/main/skills/tts/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NoizAI/skills",
-      "publisher": "NoizAI",
-      "publisherSlug": "noizai",
-      "sectionTitle": "GitHub discovery",
-      "sectionSlug": "github-discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "noizai",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceId": "github-repo-expansion",
-      "sourceIds": [
-        "github-repo-expansion"
-      ],
-      "repository": "NoizAI/skills",
-      "discoveryPath": "skills/tts/SKILL.md",
-      "creatorHandle": "NoizAI",
-      "creatorAvatarUrl": "https://github.com/NoizAI.png?size=88",
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "hasPublisherLogo": false
-    },
-    {
-      "slug": "noizai-video-translation",
-      "name": "NoizAI/video-translation",
-      "url": "https://github.com/NoizAI/skills/blob/main/skills/video-translation/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NoizAI/skills",
-      "publisher": "NoizAI",
-      "publisherSlug": "noizai",
-      "sectionTitle": "GitHub discovery",
-      "sectionSlug": "github-discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "noizai",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceId": "github-repo-expansion",
-      "sourceIds": [
-        "github-repo-expansion"
-      ],
-      "repository": "NoizAI/skills",
-      "discoveryPath": "skills/video-translation/SKILL.md",
-      "creatorHandle": "NoizAI",
-      "creatorAvatarUrl": "https://github.com/NoizAI.png?size=88",
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "hasPublisherLogo": false
-    },
-    {
       "slug": "lawvable-ai-governance-reviewer-carl-ditzler",
       "name": "lawvable/ai-governance-reviewer-carl-ditzler",
       "url": "https://github.com/lawvable/awesome-legal-skills/blob/main/skills/ai-governance-reviewer-carl-ditzler/SKILL.md",
@@ -181860,6 +181647,278 @@
       "hasPublisherLogo": false
     },
     {
+      "slug": "noizai-characteristic-voice",
+      "name": "NoizAI/characteristic-voice",
+      "url": "https://github.com/NoizAI/skills/blob/main/skills/characteristic-voice/SKILL.md",
+      "description": "Discovered from a public GitHub repository: NoizAI/skills",
+      "publisher": "NoizAI",
+      "publisherSlug": "noizai",
+      "sectionTitle": "GitHub discovery",
+      "sectionSlug": "github-discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "noizai",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceId": "github-repo-expansion",
+      "sourceIds": [
+        "github-repo-expansion"
+      ],
+      "repository": "NoizAI/skills",
+      "discoveryPath": "skills/characteristic-voice/SKILL.md",
+      "creatorHandle": "NoizAI",
+      "creatorAvatarUrl": "https://github.com/NoizAI.png?size=88",
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "hasPublisherLogo": false
+    },
+    {
+      "slug": "noizai-chat-with-anyone",
+      "name": "NoizAI/chat-with-anyone",
+      "url": "https://github.com/NoizAI/skills/blob/main/skills/chat-with-anyone/SKILL.md",
+      "description": "Discovered from a public GitHub repository: NoizAI/skills",
+      "publisher": "NoizAI",
+      "publisherSlug": "noizai",
+      "sectionTitle": "GitHub discovery",
+      "sectionSlug": "github-discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "noizai",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceId": "github-repo-expansion",
+      "sourceIds": [
+        "github-repo-expansion"
+      ],
+      "repository": "NoizAI/skills",
+      "discoveryPath": "skills/chat-with-anyone/SKILL.md",
+      "creatorHandle": "NoizAI",
+      "creatorAvatarUrl": "https://github.com/NoizAI.png?size=88",
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "hasPublisherLogo": false
+    },
+    {
+      "slug": "noizai-daily-news-caster",
+      "name": "NoizAI/daily-news-caster",
+      "url": "https://github.com/NoizAI/skills/blob/main/skills/daily-news-caster/SKILL.md",
+      "description": "Discovered from a public GitHub repository: NoizAI/skills",
+      "publisher": "NoizAI",
+      "publisherSlug": "noizai",
+      "sectionTitle": "GitHub discovery",
+      "sectionSlug": "github-discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "noizai",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceId": "github-repo-expansion",
+      "sourceIds": [
+        "github-repo-expansion"
+      ],
+      "repository": "NoizAI/skills",
+      "discoveryPath": "skills/daily-news-caster/SKILL.md",
+      "creatorHandle": "NoizAI",
+      "creatorAvatarUrl": "https://github.com/NoizAI.png?size=88",
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "hasPublisherLogo": false
+    },
+    {
+      "slug": "noizai-sound-fx",
+      "name": "NoizAI/sound-fx",
+      "url": "https://github.com/NoizAI/skills/blob/main/skills/sound-fx/SKILL.md",
+      "description": "Discovered from a public GitHub repository: NoizAI/skills",
+      "publisher": "NoizAI",
+      "publisherSlug": "noizai",
+      "sectionTitle": "GitHub discovery",
+      "sectionSlug": "github-discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "noizai",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceId": "github-repo-expansion",
+      "sourceIds": [
+        "github-repo-expansion"
+      ],
+      "repository": "NoizAI/skills",
+      "discoveryPath": "skills/sound-fx/SKILL.md",
+      "creatorHandle": "NoizAI",
+      "creatorAvatarUrl": "https://github.com/NoizAI.png?size=88",
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "hasPublisherLogo": false
+    },
+    {
+      "slug": "noizai-speech-to-text",
+      "name": "NoizAI/speech-to-text",
+      "url": "https://github.com/NoizAI/skills/blob/main/skills/speech-to-text/SKILL.md",
+      "description": "Discovered from a public GitHub repository: NoizAI/skills",
+      "publisher": "NoizAI",
+      "publisherSlug": "noizai",
+      "sectionTitle": "GitHub discovery",
+      "sectionSlug": "github-discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "noizai",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceId": "github-repo-expansion",
+      "sourceIds": [
+        "github-repo-expansion"
+      ],
+      "repository": "NoizAI/skills",
+      "discoveryPath": "skills/speech-to-text/SKILL.md",
+      "creatorHandle": "NoizAI",
+      "creatorAvatarUrl": "https://github.com/NoizAI.png?size=88",
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "hasPublisherLogo": false
+    },
+    {
+      "slug": "noizai-template-skill",
+      "name": "NoizAI/template-skill",
+      "url": "https://github.com/NoizAI/skills/blob/main/skills/template-skill/SKILL.md",
+      "description": "Discovered from a public GitHub repository: NoizAI/skills",
+      "publisher": "NoizAI",
+      "publisherSlug": "noizai",
+      "sectionTitle": "GitHub discovery",
+      "sectionSlug": "github-discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "noizai",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceId": "github-repo-expansion",
+      "sourceIds": [
+        "github-repo-expansion"
+      ],
+      "repository": "NoizAI/skills",
+      "discoveryPath": "skills/template-skill/SKILL.md",
+      "creatorHandle": "NoizAI",
+      "creatorAvatarUrl": "https://github.com/NoizAI.png?size=88",
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "hasPublisherLogo": false
+    },
+    {
+      "slug": "noizai-tts",
+      "name": "NoizAI/tts",
+      "url": "https://github.com/NoizAI/skills/blob/main/skills/tts/SKILL.md",
+      "description": "Discovered from a public GitHub repository: NoizAI/skills",
+      "publisher": "NoizAI",
+      "publisherSlug": "noizai",
+      "sectionTitle": "GitHub discovery",
+      "sectionSlug": "github-discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "noizai",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceId": "github-repo-expansion",
+      "sourceIds": [
+        "github-repo-expansion"
+      ],
+      "repository": "NoizAI/skills",
+      "discoveryPath": "skills/tts/SKILL.md",
+      "creatorHandle": "NoizAI",
+      "creatorAvatarUrl": "https://github.com/NoizAI.png?size=88",
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "hasPublisherLogo": false
+    },
+    {
+      "slug": "noizai-video-translation",
+      "name": "NoizAI/video-translation",
+      "url": "https://github.com/NoizAI/skills/blob/main/skills/video-translation/SKILL.md",
+      "description": "Discovered from a public GitHub repository: NoizAI/skills",
+      "publisher": "NoizAI",
+      "publisherSlug": "noizai",
+      "sectionTitle": "GitHub discovery",
+      "sectionSlug": "github-discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "noizai",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceId": "github-repo-expansion",
+      "sourceIds": [
+        "github-repo-expansion"
+      ],
+      "repository": "NoizAI/skills",
+      "discoveryPath": "skills/video-translation/SKILL.md",
+      "creatorHandle": "NoizAI",
+      "creatorAvatarUrl": "https://github.com/NoizAI.png?size=88",
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "hasPublisherLogo": false
+    },
+    {
       "slug": "komal-skynet-home-assistant-manager",
       "name": "komal-SkyNET/home-assistant-manager",
       "url": "https://github.com/komal-SkyNET/claude-skill-homeassistant/blob/main/skills/home-assistant-manager/SKILL.md",
@@ -184241,49 +184300,6 @@
       "discoveryPath": "skills/postiz/SKILL.md",
       "creatorHandle": "gitroomhq",
       "creatorAvatarUrl": "https://github.com/gitroomhq.png?size=88",
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "hasPublisherLogo": false
-    },
-    {
-      "slug": "charlie85270-world-builder",
-      "name": "Charlie85270/world-builder",
-      "url": "https://github.com/Charlie85270/Dorothy/blob/main/skills/world-builder/SKILL.md",
-      "description": "Discovered from a public GitHub repository: Charlie85270/Dorothy",
-      "publisher": "Charlie85270",
-      "publisherSlug": "charlie85270",
-      "sectionTitle": "GitHub discovery",
-      "sectionSlug": "github-discovery",
-      "kind": "community",
-      "tags": [
-        "charlie85270",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceId": "github-repo-expansion",
-      "sourceIds": [
-        "github-repo-expansion"
-      ],
-      "repository": "Charlie85270/Dorothy",
-      "discoveryPath": "skills/world-builder/SKILL.md",
-      "creatorHandle": "Charlie85270",
-      "creatorAvatarUrl": "https://github.com/Charlie85270.png?size=88",
       "sourceType": "github-discovery",
       "trustLevel": "untrusted",
       "riskFlags": [
@@ -187351,6 +187367,49 @@
       "discoveryPath": "xunit-skill/SKILL.md",
       "creatorHandle": "LambdaTest",
       "creatorAvatarUrl": "https://github.com/LambdaTest.png?size=88",
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "hasPublisherLogo": false
+    },
+    {
+      "slug": "charlie85270-world-builder",
+      "name": "Charlie85270/world-builder",
+      "url": "https://github.com/Charlie85270/Dorothy/blob/main/skills/world-builder/SKILL.md",
+      "description": "Discovered from a public GitHub repository: Charlie85270/Dorothy",
+      "publisher": "Charlie85270",
+      "publisherSlug": "charlie85270",
+      "sectionTitle": "GitHub discovery",
+      "sectionSlug": "github-discovery",
+      "kind": "community",
+      "tags": [
+        "charlie85270",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceId": "github-repo-expansion",
+      "sourceIds": [
+        "github-repo-expansion"
+      ],
+      "repository": "Charlie85270/Dorothy",
+      "discoveryPath": "skills/world-builder/SKILL.md",
+      "creatorHandle": "Charlie85270",
+      "creatorAvatarUrl": "https://github.com/Charlie85270.png?size=88",
       "sourceType": "github-discovery",
       "trustLevel": "untrusted",
       "riskFlags": [

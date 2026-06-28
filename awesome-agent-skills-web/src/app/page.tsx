@@ -7,11 +7,24 @@ import { PublisherLogoMarquee } from "@/components/publisher-logo-marquee";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { getFeaturedSkills, getPublishers, getRoles, getStats } from "@/lib/skills";
-import { getCopy } from "@/lib/i18n";
+import { getCopy, getSkillDetailPath, prefixLocalePath, type Locale } from "@/lib/i18n";
 import { getRequestLocale } from "@/lib/request-locale";
+import { buildMetadata, getLocalizedDescription } from "@/lib/seo";
+import type { Metadata } from "next";
 
-export default async function Home() {
-  const locale = await getRequestLocale();
+export function generateMetadata(): Metadata {
+  return buildMetadata({
+    title: "LionSaid Skills",
+    path: "/",
+    description: getLocalizedDescription("en"),
+  });
+}
+
+type PageProps = {
+  locale: Locale;
+};
+
+export async function HomePage({ locale }: PageProps) {
   const copy = getCopy(locale);
   const stats = getStats();
   const featured = getFeaturedSkills();
@@ -94,7 +107,7 @@ export default async function Home() {
     },
     {
       label: copy.taskLabels["workflow-automation"],
-      href: "/skills?job=workflow-automation",
+      href: prefixLocalePath("/skills?job=workflow-automation", locale),
       summary:
         locale === "zh-CN"
           ? "把重复工作串成自动流程。"
@@ -103,12 +116,12 @@ export default async function Home() {
   ];
 
   const quickStarts = [
-    { label: copy.roles.officialOnly, href: "/skills?kind=official" },
-    { label: copy.common.browse, href: "/skills" },
-    { label: "Anthropics", href: "/skills?publisher=anthropics" },
-    { label: "OpenAI", href: "/skills?publisher=openai" },
-    { label: locale === "zh-CN" ? "文档工作流" : "Docs workflows", href: "/skills?q=docs" },
-    { label: locale === "zh-CN" ? "演示文稿" : "Presentations", href: "/skills?q=pptx" },
+    { label: copy.roles.officialOnly, href: prefixLocalePath("/skills?kind=official", locale) },
+    { label: copy.common.browse, href: prefixLocalePath("/skills", locale) },
+    { label: "Anthropics", href: prefixLocalePath("/skills?publisher=anthropics", locale) },
+    { label: "OpenAI", href: prefixLocalePath("/skills?publisher=openai", locale) },
+    { label: locale === "zh-CN" ? "文档工作流" : "Docs workflows", href: prefixLocalePath("/skills?q=docs", locale) },
+    { label: locale === "zh-CN" ? "演示文稿" : "Presentations", href: prefixLocalePath("/skills?q=pptx", locale) },
   ];
 
   return (
@@ -131,7 +144,7 @@ export default async function Home() {
               {copy.home.subtitle}
             </p>
 
-            <form action="/skills" className="mt-8 sm:mt-10">
+    <form action={prefixLocalePath("/skills", locale)} className="mt-8 sm:mt-10">
               <label className="sr-only" htmlFor="home-search">
                 {locale === "zh-CN" ? "搜索 skill" : "Search skills"}
               </label>
@@ -272,14 +285,14 @@ export default async function Home() {
               {locale === "zh-CN" ? "先从更容易找到结果的入口开始。" : "Start from the paths that usually get you results faster."}
             </h2>
           </div>
-          <Link className="text-sm font-medium text-[var(--accent)]" href="/skills">
+          <Link className="text-sm font-medium text-[var(--accent)]" href={prefixLocalePath("/skills", locale)}>
             {locale === "zh-CN" ? "查看全部" : "See all skills"}
           </Link>
         </div>
 
         <div className="mt-8 grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
           <GlareCard className="rounded-[1.75rem]">
-            <Link className="glass skill-card block rounded-[1.75rem] p-6" href="/skills?publisher=googleworkspace">
+            <Link className="glass skill-card block rounded-[1.75rem] p-6" href={prefixLocalePath("/skills?publisher=googleworkspace", locale)}>
               <p className="eyebrow muted">{locale === "zh-CN" ? "常用入口" : "Common starting point"}</p>
               <div className="mt-4">
                 <PublisherLogo name="Google Workspace" size="sm" slug="googleworkspace" />
@@ -293,7 +306,7 @@ export default async function Home() {
             </Link>
           </GlareCard>
           <GlareCard className="rounded-[1.75rem]">
-            <Link className="glass skill-card block rounded-[1.75rem] p-6" href="/skills?publisher=microsoft">
+            <Link className="glass skill-card block rounded-[1.75rem] p-6" href={prefixLocalePath("/skills?publisher=microsoft", locale)}>
               <p className="eyebrow muted">{locale === "zh-CN" ? "官方出品" : "Official teams"}</p>
               <div className="mt-4">
                 <PublisherLogo name="Microsoft" size="sm" slug="microsoft" />
@@ -307,7 +320,7 @@ export default async function Home() {
             </Link>
           </GlareCard>
           <GlareCard className="rounded-[1.75rem]">
-            <Link className="glass skill-card block rounded-[1.75rem] p-6" href="/skills?publisher=anthropics">
+            <Link className="glass skill-card block rounded-[1.75rem] p-6" href={prefixLocalePath("/skills?publisher=anthropics", locale)}>
               <p className="eyebrow muted">{locale === "zh-CN" ? "公司" : "Company"}</p>
               <div className="mt-4">
                 <PublisherLogo name="Anthropics" size="sm" slug="anthropics" />
@@ -321,7 +334,7 @@ export default async function Home() {
             </Link>
           </GlareCard>
           <GlareCard className="rounded-[1.75rem]">
-            <Link className="glass skill-card block rounded-[1.75rem] p-6" href="/skills?publisher=openai">
+            <Link className="glass skill-card block rounded-[1.75rem] p-6" href={prefixLocalePath("/skills?publisher=openai", locale)}>
               <p className="eyebrow muted">{locale === "zh-CN" ? "公司" : "Company"}</p>
               <div className="mt-4">
                 <PublisherLogo name="OpenAI" size="sm" slug="openai" />
@@ -356,7 +369,7 @@ export default async function Home() {
                 <GlareCard key={role.slug} className="rounded-[1.5rem]">
                   <Link
                     className="surface-panel-soft block rounded-[1.5rem] p-5 transition hover:bg-[var(--panel-soft-hover)]"
-                    href={`/roles/${role.slug}`}
+                    href={prefixLocalePath(`/roles/${role.slug}`, locale)}
                   >
                     <p className="text-xl font-semibold">{copy.roleLabels[role.slug] ?? role.label}</p>
                     <p className="muted mt-2 text-sm leading-6">
@@ -402,7 +415,7 @@ export default async function Home() {
                   ? "如果你已经知道要找什么，直接搜索最快。"
                   : "If you already know what you want, search is the fastest path."}
               </p>
-              <Link className="mt-2 inline-flex text-sm font-medium text-[var(--accent)]" href="/skills">
+              <Link className="mt-2 inline-flex text-sm font-medium text-[var(--accent)]" href={prefixLocalePath("/skills", locale)}>
                 {locale === "zh-CN" ? "查看全部" : "See all skills"}
               </Link>
             </div>
@@ -427,7 +440,7 @@ export default async function Home() {
               <GlareCard key={skill.slug} className="rounded-[2rem]">
                 <Link
                   className="group surface-panel-soft block rounded-[2rem] p-6 transition hover:bg-[var(--panel-soft-hover)]"
-                  href={`/skills/${skill.slug}`}
+                  href={prefixLocalePath(getSkillDetailPath(skill.slug, locale), locale)}
                 >
                   <div className="flex items-start justify-between gap-4">
                     <div>
@@ -464,7 +477,7 @@ export default async function Home() {
                 : "Many users start from the publisher they already know, not the exact skill name."}
             </p>
           </div>
-          <Link className="text-sm font-medium text-[var(--accent)]" href="/skills">
+          <Link className="text-sm font-medium text-[var(--accent)]" href={prefixLocalePath("/skills", locale)}>
             {locale === "zh-CN" ? "查看全部" : "See all skills"}
           </Link>
         </div>
@@ -531,4 +544,8 @@ export default async function Home() {
       <SiteFooter locale={locale} />
     </main>
   );
+}
+
+export default async function Home() {
+  return <HomePage locale={await getRequestLocale()} />;
 }

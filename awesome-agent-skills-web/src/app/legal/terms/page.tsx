@@ -1,8 +1,20 @@
+import type { Metadata } from "next";
 import { LegalPageShell } from "@/components/legal-page-shell";
+import { type Locale } from "@/lib/i18n";
 import { getRequestLocale } from "@/lib/request-locale";
+import { buildMetadata, getLocalizedDescription } from "@/lib/seo";
 
-export default async function TermsPage() {
-  const locale = await getRequestLocale();
+type PageProps = { locale: Locale };
+
+export function generateMetadata(): Metadata {
+  return buildMetadata({
+    title: "Terms of Service",
+    path: "/legal/terms",
+    description: getLocalizedDescription("en"),
+  });
+}
+
+export async function TermsPageContent({ locale }: PageProps) {
   const zh = locale === "zh-CN";
 
   return (
@@ -68,4 +80,8 @@ export default async function TermsPage() {
       )}
     </LegalPageShell>
   );
+}
+
+export default async function TermsPage() {
+  return <TermsPageContent locale={await getRequestLocale()} />;
 }

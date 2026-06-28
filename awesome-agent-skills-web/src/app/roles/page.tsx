@@ -1,13 +1,24 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { GlareCard } from "@/components/glare-card";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { getRolePrioritySkills, getRoles, getSkillsByJob, getStarterSkillsForRole } from "@/lib/skills";
-import { getCopy } from "@/lib/i18n";
+import { getCopy, getSkillDetailPath, prefixLocalePath, type Locale } from "@/lib/i18n";
 import { getRequestLocale } from "@/lib/request-locale";
+import { buildMetadata, getLocalizedDescription } from "@/lib/seo";
 
-export default async function RolesPage() {
-  const locale = await getRequestLocale();
+export function generateMetadata(): Metadata {
+  return buildMetadata({
+    title: "Roles",
+    path: "/roles",
+    description: getLocalizedDescription("en"),
+  });
+}
+
+type PageProps = { locale: Locale };
+
+export async function RolesPageContent({ locale }: PageProps) {
   const copy = getCopy(locale);
   const roles = getRoles();
 
@@ -32,13 +43,13 @@ export default async function RolesPage() {
             <div className="mt-8 flex flex-wrap gap-3">
               <Link
                 className="inline-flex min-w-[10rem] items-center justify-center whitespace-nowrap rounded-full border border-[var(--accent)] bg-[var(--accent)] px-5 py-3 text-sm font-medium text-white shadow-[0_12px_26px_rgba(225,6,0,0.22)] transition hover:opacity-95"
-                href="/skills"
+                href={prefixLocalePath("/skills", locale)}
               >
                 {copy.roles.openCatalog}
               </Link>
               <Link
                 className="rounded-full border border-[var(--border-soft)] bg-[var(--surface-strong)] px-5 py-3 text-sm font-medium text-[var(--foreground)] transition hover:bg-[var(--surface)]"
-                href="/skills?kind=official"
+                href={prefixLocalePath("/skills?kind=official", locale)}
               >
                 {copy.roles.officialOnly}
               </Link>
@@ -55,7 +66,7 @@ export default async function RolesPage() {
               {locale === "zh-CN" ? "先看看不同角色最常用的 skill。" : "Start with the skills people in each role use most."}
             </h2>
           </div>
-          <Link className="text-sm font-medium text-[var(--accent)]" href="/skills">
+          <Link className="text-sm font-medium text-[var(--accent)]" href={prefixLocalePath("/skills", locale)}>
             {copy.roles.viewAllSkills}
           </Link>
         </div>
@@ -90,7 +101,7 @@ export default async function RolesPage() {
                     <Link
                       key={job}
                       className="rounded-full border border-[var(--border-soft)] bg-[var(--surface-strong)] px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.12em] text-[var(--foreground)] transition hover:bg-[var(--surface)]"
-                      href={`/skills?persona=${role.slug}&job=${job}`}
+                      href={prefixLocalePath(`/skills?persona=${role.slug}&job=${job}`, locale)}
                     >
                       {copy.taskLabels[job] ?? job}
                     </Link>
@@ -102,7 +113,7 @@ export default async function RolesPage() {
                     <GlareCard key={skill.slug} className="rounded-[1.4rem]">
                       <Link
                         className="surface-panel-soft block rounded-[1.4rem] p-4 transition hover:bg-[var(--panel-soft-hover)]"
-                        href={`/skills/${skill.slug}`}
+                        href={prefixLocalePath(getSkillDetailPath(skill.slug, locale), locale)}
                       >
                         <p className="eyebrow surface-muted">{skill.publisher}</p>
                         <p className="mt-3 text-base font-semibold leading-6">{skill.name}</p>
@@ -114,13 +125,13 @@ export default async function RolesPage() {
                 <div className="mt-6 flex flex-wrap gap-3">
                   <Link
                     className="inline-flex min-w-[9.5rem] items-center justify-center whitespace-nowrap rounded-full border border-[var(--accent)] bg-[var(--accent)] px-5 py-3 text-sm font-medium text-white shadow-[0_12px_26px_rgba(225,6,0,0.22)] transition hover:opacity-95"
-                    href={`/roles/${role.slug}`}
+                        href={prefixLocalePath(`/roles/${role.slug}`, locale)}
                   >
                     {locale === "zh-CN" ? `查看 ${roleLabel}推荐` : `View ${roleLabel}`}
                   </Link>
                   <Link
                     className="rounded-full border border-[var(--border-soft)] bg-[var(--surface-strong)] px-5 py-3 text-sm font-medium text-[var(--foreground)] transition hover:bg-[var(--surface)]"
-                    href={`/skills?persona=${role.slug}`}
+                    href={prefixLocalePath(`/skills?persona=${role.slug}`, locale)}
                   >
                     {copy.roles.viewAllSkills}
                   </Link>
@@ -150,7 +161,7 @@ export default async function RolesPage() {
               <GlareCard key={item.key} className="rounded-[1.5rem]">
                 <Link
                   className="surface-panel-soft block rounded-[1.5rem] p-5 transition hover:bg-[var(--panel-soft-hover)]"
-                  href={`/skills?persona=${item.roleSlug}&job=${item.job}`}
+                  href={prefixLocalePath(`/skills?persona=${item.roleSlug}&job=${item.job}`, locale)}
                 >
                   <p className="eyebrow surface-muted">{copy.roleLabels[item.roleSlug] ?? item.role}</p>
                   <h3 className="mt-3 text-xl font-semibold">{copy.taskLabels[item.job] ?? item.job}</h3>
@@ -169,4 +180,8 @@ export default async function RolesPage() {
       <SiteFooter locale={locale} />
     </main>
   );
+}
+
+export default async function RolesPage() {
+  return <RolesPageContent locale={await getRequestLocale()} />;
 }

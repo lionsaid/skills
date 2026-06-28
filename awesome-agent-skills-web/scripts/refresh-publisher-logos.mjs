@@ -1,4 +1,4 @@
-import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -84,6 +84,23 @@ async function downloadLogo(slug) {
 const publishers = getPublishers();
 mkdirSync(logoDir, { recursive: true });
 writeFileSync(publishersPath, `${JSON.stringify(publishers, null, 2)}\n`);
+
+const keepLogoFiles = new Set(
+  publishers
+    .map((publisher) => publisher.slug)
+    .filter((slug) => typeof slug === "string" && slug.trim())
+    .map((slug) => `${slug}.png`),
+);
+
+for (const file of readdirSync(logoDir)) {
+  if (!file.endsWith(".png")) {
+    continue;
+  }
+
+  if (!keepLogoFiles.has(file)) {
+    rmSync(path.join(logoDir, file), { force: true });
+  }
+}
 
 let downloaded = 0;
 let skipped = 0;

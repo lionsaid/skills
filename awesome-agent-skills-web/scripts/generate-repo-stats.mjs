@@ -1,4 +1,4 @@
-import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { execFileSync } from "node:child_process";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -7,6 +7,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const projectRoot = path.join(__dirname, "..");
 const dataDir = path.join(projectRoot, "src", "data");
+const publicDataDir = path.join(projectRoot, "public", "data");
+const publicCatalogDir = path.join(publicDataDir, "skills-catalog");
 const skillsPath = path.join(dataDir, "skills.generated.json");
 const outputPath = path.join(dataDir, "repo-stats.generated.json");
 const repoCacheDir = path.join(dataDir, "repo-stats-cache");
@@ -48,6 +50,51 @@ function readCommittedStatsPayload() {
 
 function readJson(filePath) {
   return JSON.parse(readFileSync(filePath, "utf8"));
+}
+
+function writeCatalogChunkStats(statsBySlug) {
+  if (!existsSync(publicCatalogDir)) {
+    return;
+  }
+
+  const manifestPath = path.join(publicCatalogDir, "manifest.json");
+  if (!existsSync(manifestPath)) {
+    return;
+  }
+
+  const manifest = readJson(manifestPath);
+  const chunkCount =
+    typeof manifest?.chunkCount === "number" && manifest.chunkCount > 0
+      ? manifest.chunkCount
+      : 0;
+
+  for (let index = 0; index < chunkCount; index += 1) {
+    const chunkPath = path.join(publicCatalogDir, `chunk-${index}.json`);
+    if (!existsSync(chunkPath)) {
+      continue;
+    }
+
+    const chunk = readJson(chunkPath);
+    const nextSkills = Array.isArray(chunk?.skills)
+      ? chunk.skills.map((skill) => ({
+          ...skill,
+          stars: statsBySlug[skill.slug]?.stars ?? null,
+          forks: statsBySlug[skill.slug]?.forks ?? null,
+        }))
+      : [];
+
+    writeFileSync(
+      chunkPath,
+      `${JSON.stringify(
+        {
+          ...chunk,
+          skills: nextSkills,
+        },
+        null,
+        2,
+      )}\n`,
+    );
+  }
 }
 
 function getRepositoryKey(url) {
@@ -270,6 +317,8 @@ for (const [slug, repoKey] of Object.entries(slugToRepo)) {
 
 mkdirSync(dataDir, { recursive: true });
 mkdirSync(repoCacheDir, { recursive: true });
+mkdirSync(publicDataDir, { recursive: true });
+rmSync(path.join(publicDataDir, "repo-stats.generated.json"), { force: true });
 writeFileSync(
   outputPath,
   `${JSON.stringify(
@@ -282,6 +331,7 @@ writeFileSync(
     2,
   )}\n`,
 );
+writeCatalogChunkStats(statsBySlug);
 
 console.log(
   `Generated repo stats for ${Object.keys(statsBySlug).length} skills at ${path.relative(projectRoot, outputPath)} ` +

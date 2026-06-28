@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import type { ReactNode } from "react";
 import { LanguageToggle } from "@/components/language-toggle";
 import { ThemeToggle } from "@/components/theme-toggle";
-import { getCopy, type Locale } from "@/lib/i18n";
+import { getCopy, prefixLocalePath, type Locale } from "@/lib/i18n";
 
 type SiteHeaderProps = {
   currentPath?: "/" | "/skills" | "/roles";
@@ -143,7 +143,7 @@ export function SiteHeader({ currentPath = "/", locale }: SiteHeaderProps) {
           }`}
         >
           <div className="flex items-center gap-4">
-            <Link aria-label="Go to home page" className="flex min-w-0 shrink-0 items-center gap-3" href="/">
+            <Link aria-label="Go to home page" className="flex min-w-0 shrink-0 items-center gap-3" href={prefixLocalePath("/", locale)}>
               <BrandMark />
               <div className={`min-w-0 transition-all duration-300 ${compact ? "max-w-[11rem]" : "max-w-[16rem]"}`}>
                 <p className="truncate font-medium">LionSaid Skills</p>
@@ -154,15 +154,15 @@ export function SiteHeader({ currentPath = "/", locale }: SiteHeaderProps) {
             </Link>
 
             <div className="flex min-w-0 flex-1 items-center justify-center gap-2">
-              <NavButton active={currentPath === "/"} href="/">
+              <NavButton active={currentPath === "/"} href={prefixLocalePath("/", locale)}>
                 <HomeIcon />
                 <span>{copy.nav.home}</span>
               </NavButton>
-              <NavButton active={currentPath === "/skills"} href="/skills">
+              <NavButton active={currentPath === "/skills"} href={prefixLocalePath("/skills", locale)}>
                 <GridIcon />
                 <span>{copy.nav.browseSkills}</span>
               </NavButton>
-              <NavButton active={currentPath === "/roles"} href="/roles">
+              <NavButton active={currentPath === "/roles"} href={prefixLocalePath("/roles", locale)}>
                 <RoleIcon />
                 <span>{copy.nav.roles}</span>
               </NavButton>
@@ -185,20 +185,20 @@ export function SiteHeader({ currentPath = "/", locale }: SiteHeaderProps) {
         </nav>
       </div>
 
-      <div className="fixed inset-x-0 bottom-4 z-50 sm:hidden">
+      <div className="fixed inset-x-0 bottom-4 z-40 sm:hidden">
         <div className="page-shell">
           <nav className="header-shell glass mx-auto flex max-w-[28rem] items-center gap-2 rounded-[1.6rem] px-3 py-3 shadow-[0_16px_40px_rgba(56,49,36,0.14)]">
-            <div className="shrink-0">
-              <NavButton active={currentPath === "/"} href="/" iconOnly>
+              <div className="shrink-0">
+              <NavButton active={currentPath === "/"} href={prefixLocalePath("/", locale)} iconOnly>
                 <HomeIcon />
               </NavButton>
             </div>
             <div className="-mr-1 flex min-w-0 flex-1 items-center gap-2 overflow-x-auto pb-1 pr-1">
-              <NavButton active={currentPath === "/skills"} href="/skills">
+              <NavButton active={currentPath === "/skills"} href={prefixLocalePath("/skills", locale)}>
                 <GridIcon />
                 <span className="text-xs">{copy.nav.browseSkills}</span>
               </NavButton>
-              <NavButton active={currentPath === "/roles"} href="/roles">
+              <NavButton active={currentPath === "/roles"} href={prefixLocalePath("/roles", locale)}>
                 <RoleIcon />
                 <span className="text-xs">{copy.nav.roles}</span>
               </NavButton>

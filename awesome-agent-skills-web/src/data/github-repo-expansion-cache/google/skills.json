@@ -2,9 +2,9 @@
   "repository": "google/skills",
   "branch": "main",
   "defaultBranch": "main",
-  "pushedAt": "2026-06-27T08:09:51Z",
-  "scannedAt": "2026-06-27T09:02:19.344Z",
-  "treeSha": "cdbd650dfefa4f3cba7ccf05f9fa8f746ba47282",
+  "pushedAt": "2026-06-27T13:06:47Z",
+  "scannedAt": "2026-06-28T05:19:09.999Z",
+  "treeSha": "4f2b58c848e15b371ecc5079869a8381d9249fc9",
   "items": [
     {
       "repository": "google/skills",
@@ -486,6 +486,15 @@
     {
       "repository": "google/skills",
       "branch": "main",
+      "skillName": "cloud/google-agents-cli-onboarding",
+      "path": "skills/cloud/google-agents-cli-onboarding/SKILL.md",
+      "url": "https://github.com/google/skills/blob/main/skills/cloud/google-agents-cli-onboarding/SKILL.md",
+      "description": "Discovered from a public GitHub repository: google/skills",
+      "slug": "google-cloud-google-agents-cli-onboarding"
+    },
+    {
+      "repository": "google/skills",
+      "branch": "main",
       "skillName": "cloud/google-cloud-networking-observability",
       "path": "skills/cloud/google-cloud-networking-observability/SKILL.md",
       "url": "https://github.com/google/skills/blob/main/skills/cloud/google-cloud-networking-observability/SKILL.md",
@@ -583,6 +592,6 @@
       "slug": "google-cloud-workload-manager-basics"
     }
   ],
-  "itemCount": 64,
+  "itemCount": 65,
   "lastStatus": "cache-fresh"
 }

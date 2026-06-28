@@ -1,11 +1,23 @@
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
+import { prefixLocalePath, type Locale } from "@/lib/i18n";
 import { getRequestLocale } from "@/lib/request-locale";
+import { buildMetadata, getLocalizedDescription } from "@/lib/seo";
 
-export default async function DonatePage() {
-  const locale = await getRequestLocale();
+export function generateMetadata(): Metadata {
+  return buildMetadata({
+    title: "Donate",
+    path: "/donate",
+    description: getLocalizedDescription("en"),
+  });
+}
+
+type PageProps = { locale: Locale };
+
+export async function DonatePageContent({ locale }: PageProps) {
   const zh = locale === "zh-CN";
 
   return (
@@ -84,7 +96,7 @@ export default async function DonatePage() {
           {zh ? (
             <>
               你也可以先继续用站点，等需要的时候再来这里。{" "}
-              <Link className="text-[var(--accent)] underline underline-offset-4" href="/skills">
+              <Link className="text-[var(--accent)] underline underline-offset-4" href={prefixLocalePath("/skills", locale)}>
                 回到 skill 列表
               </Link>
               。
@@ -92,7 +104,7 @@ export default async function DonatePage() {
           ) : (
             <>
               You can keep using the site and come back here anytime.{" "}
-              <Link className="text-[var(--accent)] underline underline-offset-4" href="/skills">
+              <Link className="text-[var(--accent)] underline underline-offset-4" href={prefixLocalePath("/skills", locale)}>
                 Back to skills
               </Link>
               .
@@ -104,4 +116,8 @@ export default async function DonatePage() {
       <SiteFooter locale={locale} />
     </main>
   );
+}
+
+export default async function DonatePage() {
+  return <DonatePageContent locale={await getRequestLocale()} />;
 }

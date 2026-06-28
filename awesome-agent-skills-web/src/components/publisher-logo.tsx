@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
-import { canFallbackToPublisherInitials } from "@/lib/skills";
+import { canFallbackToPublisherInitials } from "@/lib/skills-common";
 
 function getPublisherBrand(slug: string) {
   const map: Record<string, { bg: string; border: string; fg: string }> = {

@@ -3,15 +3,35 @@ import Script from "next/script";
 import { CookieConsent } from "@/components/cookie-consent";
 import { GoogleAnalytics } from "@/components/google-analytics";
 import { getRequestLocale } from "@/lib/request-locale";
+import {
+  SITE_DESCRIPTION_EN,
+  SITE_NAME,
+  SITE_URL,
+} from "@/lib/site";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "LionSaid Skills",
-  description:
-    "Find useful agent skills faster by searching, starting from your role, or jumping in by task.",
-  metadataBase: new URL("https://skill.lionsaid.com"),
-  alternates: {
-    canonical: "https://skill.lionsaid.com",
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: SITE_NAME,
+    template: `%s · ${SITE_NAME}`,
+  },
+  description: SITE_DESCRIPTION_EN,
+  applicationName: SITE_NAME,
+  authors: [{ name: SITE_NAME }],
+  creator: SITE_NAME,
+  publisher: SITE_NAME,
+  openGraph: {
+    type: "website",
+    siteName: SITE_NAME,
+    title: SITE_NAME,
+    description: SITE_DESCRIPTION_EN,
+    url: SITE_URL,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: SITE_NAME,
+    description: SITE_DESCRIPTION_EN,
   },
   icons: {
     icon: "/favicon.png",
@@ -30,11 +50,31 @@ export default async function RootLayout({
   children: React.ReactNode;
 }>) {
   const locale = await getRequestLocale();
-  const localizedTitle = "LionSaid Skills";
   const localizedDescription =
     locale === "zh-CN"
       ? "按角色、任务或发布方更快找到真正能用的 skill。"
-      : "Find useful agent skills faster by searching, starting from your role, or jumping in by task.";
+      : SITE_DESCRIPTION_EN;
+  const structuredData = [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      name: SITE_NAME,
+      url: SITE_URL,
+      logo: `${SITE_URL}/lionsaid-logo.svg`,
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      name: SITE_NAME,
+      url: SITE_URL,
+      description: SITE_DESCRIPTION_EN,
+      potentialAction: {
+        "@type": "SearchAction",
+        target: `${SITE_URL}/skills?q={search_term_string}`,
+        "query-input": "required name=search_term_string",
+      },
+    },
+  ];
 
   return (
     <html
@@ -43,8 +83,34 @@ export default async function RootLayout({
       suppressHydrationWarning
     >
       <head>
-        <title>{localizedTitle}</title>
         <meta content={localizedDescription} name="description" />
+        <link href={`${SITE_URL}/sitemap.xml`} rel="sitemap" type="application/xml" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `document.documentElement.dataset.site="${SITE_NAME}";`,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(structuredData),
+          }}
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function () {
+                try {
+                  if (window.location.pathname.startsWith('/zh-CN')) {
+                    document.documentElement.lang = 'zh-CN';
+                  } else {
+                    document.documentElement.lang = 'en';
+                  }
+                } catch (error) {}
+              })();
+            `,
+          }}
+        />
         <Script
           id="theme-init"
           strategy="beforeInteractive"
@@ -69,7 +135,7 @@ export default async function RootLayout({
       <body className="min-h-full flex flex-col">
         <GoogleAnalytics />
         {children}
-        <CookieConsent locale={locale} />
+        <CookieConsent />
       </body>
     </html>
   );

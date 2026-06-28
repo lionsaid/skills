@@ -1,4 +1,4 @@
-import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { execFileSync } from "node:child_process";
@@ -8,6 +8,9 @@ const __dirname = path.dirname(__filename);
 const projectRoot = path.join(__dirname, "..");
 const outputDir = path.join(projectRoot, "src", "data");
 const outputPath = path.join(outputDir, "skills.generated.json");
+const repoStatsPath = path.join(outputDir, "repo-stats.generated.json");
+const publicDataDir = path.join(projectRoot, "public", "data");
+const publicCatalogDir = path.join(publicDataDir, "skills-catalog");
 const classificationRulesPath = path.join(projectRoot, "config", "classification-rules.json");
 const skillOverridesPath = path.join(projectRoot, "config", "skill-overrides.json");
 const skillSourcesPath = path.join(projectRoot, "config", "skill-sources.json");
@@ -20,6 +23,19 @@ let committedGeneratedSkillsCache = null;
 
 function readJson(filePath) {
   return JSON.parse(readFileSync(filePath, "utf8"));
+}
+
+function readRepoStatsBySlug() {
+  try {
+    const payload = readJson(repoStatsPath);
+    if (payload && typeof payload.statsBySlug === "object" && !Array.isArray(payload.statsBySlug)) {
+      return payload.statsBySlug;
+    }
+  } catch {
+    return {};
+  }
+
+  return {};
 }
 
 function readCommittedGeneratedSkills() {
@@ -187,6 +203,7 @@ const skillSources = readSkillSources();
 const skillOverrides = readSkillOverrides();
 const githubSkillReposSeed = readJson(githubSkillReposPath);
 const publisherRules = readJson(publisherRulesPath);
+const repoStatsBySlug = readRepoStatsBySlug();
 const sourcePriority = new Map(
   skillSources.map((source, index) => [source.id, skillSources.length - index]),
 );
@@ -202,6 +219,33 @@ function slugify(value) {
     .replace(/^-+|-+$/g, "");
 }
 
+function toCatalogItem(skill) {
+  const repoStats = repoStatsBySlug[skill.slug] ?? {};
+
+  return {
+    slug: skill.slug,
+    name: skill.name,
+    description: skill.description,
+    publisher: skill.publisher,
+    publisherSlug: skill.publisherSlug,
+    sectionTitle: skill.sectionTitle,
+    kind: skill.kind,
+    tags: skill.tags,
+    personas: skill.personas,
+    jobs: skill.jobs,
+    sourceType: skill.sourceType,
+    trustLevel: skill.trustLevel,
+    riskFlags: skill.riskFlags,
+    creatorAvatarUrl: skill.creatorAvatarUrl ?? null,
+    creatorHandle: skill.creatorHandle ?? null,
+    hasPublisherLogo: Boolean(skill.hasPublisherLogo),
+    stars: typeof repoStats.stars === "number" ? repoStats.stars : null,
+    forks: typeof repoStats.forks === "number" ? repoStats.forks : null,
+  };
+}
+
+const CATALOG_CHUNK_SIZE = 240;
+
 function normalizePublisher(raw) {
   return raw
     .replace(/^official\s+/i, "")
@@ -211,6 +255,23 @@ function normalizePublisher(raw) {
     .replace(/^security skills by\s+/i, "")
     .replace(/\s+team(?:\s+for.*)?$/i, "")
     .trim();
+}
+
+function toCatalogIndexItem(skill, chunkIndex) {
+  return [
+    skill.slug,
+    skill.name,
+    skill.description,
+    skill.publisher,
+    skill.publisherSlug,
+    skill.kind,
+    skill.tags,
+    skill.personas,
+    skill.jobs,
+    skill.sourceType,
+    skill.trustLevel,
+    chunkIndex,
+  ];
 }
 
 function decodeHtmlEntities(value) {
@@ -1185,7 +1246,65 @@ writeFileSync(
   )}\n`,
 );
 
+mkdirSync(publicDataDir, { recursive: true });
+rmSync(path.join(publicDataDir, "skills-index.generated.json"), { force: true });
+rmSync(publicCatalogDir, { recursive: true, force: true });
+mkdirSync(publicCatalogDir, { recursive: true });
+
+const generatedAt = new Date().toISOString();
+const catalogItems = skills.map((skill) => toCatalogItem(skill));
+const chunkCount = Math.ceil(catalogItems.length / CATALOG_CHUNK_SIZE);
+const catalogIndexItems = skills.map((skill, index) =>
+  toCatalogIndexItem(skill, Math.floor(index / CATALOG_CHUNK_SIZE)),
+);
+
+writeFileSync(
+  path.join(publicCatalogDir, "manifest.json"),
+  `${JSON.stringify(
+    {
+      generatedAt,
+      totalSkills: catalogItems.length,
+      chunkSize: CATALOG_CHUNK_SIZE,
+      chunkCount,
+    },
+    null,
+    2,
+  )}\n`,
+);
+
+writeFileSync(
+  path.join(publicCatalogDir, "index.json"),
+  `${JSON.stringify(
+    {
+      generatedAt,
+      totalSkills: catalogIndexItems.length,
+      chunkSize: CATALOG_CHUNK_SIZE,
+      fields: ["slug", "name", "description", "publisher", "publisherSlug", "kind", "tags", "personas", "jobs", "sourceType", "trustLevel", "chunkIndex"],
+      items: catalogIndexItems,
+    }
+  )}\n`,
+);
+
+for (let index = 0; index < chunkCount; index += 1) {
+  const start = index * CATALOG_CHUNK_SIZE;
+  const end = start + CATALOG_CHUNK_SIZE;
+  writeFileSync(
+    path.join(publicCatalogDir, `chunk-${index}.json`),
+    `${JSON.stringify(
+      {
+        generatedAt,
+        chunkIndex: index,
+        totalSkills: catalogItems.length,
+        skills: catalogItems.slice(start, end),
+      },
+      null,
+      2,
+    )}\n`,
+  );
+}
+
 console.log(`Generated ${skills.length} skills at ${path.relative(projectRoot, outputPath)}`);
+console.log(`Generated public catalog chunks at ${path.relative(projectRoot, publicCatalogDir)}`);
 
 if (failures.length > 0) {
   console.log("Source failures:");

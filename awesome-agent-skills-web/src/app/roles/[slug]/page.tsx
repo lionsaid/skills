@@ -1,10 +1,13 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { getRolePrioritySkills, getStarterSkillsForRole, getRoleBySlug, getSkillsForRole } from "@/lib/skills";
-import { getCopy } from "@/lib/i18n";
+import { getCopy, getSkillDetailPath, prefixLocalePath } from "@/lib/i18n";
 import { getRequestLocale } from "@/lib/request-locale";
+import { getRoles } from "@/lib/skills";
+import { buildMetadata, getLocalizedDescription } from "@/lib/seo";
 
 type RolePageProps = {
   params: Promise<{
@@ -12,8 +15,31 @@ type RolePageProps = {
   }>;
 };
 
-export default async function RolePage({ params }: RolePageProps) {
-  const locale = await getRequestLocale();
+export function generateStaticParams() {
+  return getRoles().map((role) => ({ slug: role.slug }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const role = getRoleBySlug(slug);
+
+  return buildMetadata({
+    title: role?.label ?? "Role",
+    path: `/roles/${slug}`,
+    description: role?.summary ?? getLocalizedDescription("en"),
+  });
+}
+
+type RolePageContentProps = {
+  params: RolePageProps["params"];
+  locale: "en" | "zh-CN";
+};
+
+export async function RolePageContent({ params, locale }: RolePageContentProps) {
   const copy = getCopy(locale);
   const { slug } = await params;
   const role = getRoleBySlug(slug);
@@ -66,16 +92,16 @@ export default async function RolePage({ params }: RolePageProps) {
             <div className="mt-8 flex flex-wrap gap-3">
               <Link
                 className="inline-flex min-w-[11rem] items-center justify-center whitespace-nowrap rounded-full border border-[var(--accent)] bg-[var(--accent)] px-5 py-3 text-sm font-medium text-white shadow-[0_12px_26px_rgba(225,6,0,0.22)] transition hover:opacity-95"
-                href={`/skills?persona=${role.slug}&enterprise=1&trust=official`}
+                href={prefixLocalePath(`/skills?persona=${role.slug}&enterprise=1&trust=official`, locale)}
               >
                 {copy.roles.startWithOfficial}
               </Link>
               <Link
                   className="rounded-full border border-[var(--border-soft)] bg-white/75 px-5 py-3 text-sm font-medium transition hover:bg-white"
-                  href={`/skills?persona=${role.slug}`}
+                  href={prefixLocalePath(`/skills?persona=${role.slug}`, locale)}
               >
                 {locale === "zh-CN"
-                  ? `查看全部 ${roleLabel} 相关 skill`
+                  ? `查看全部与 ${roleLabel} 相关的 skill`
                   : `See all ${roleLabel} skills`}
               </Link>
             </div>
@@ -85,7 +111,7 @@ export default async function RolePage({ params }: RolePageProps) {
                 <Link
                   key={query}
                   className="rounded-full border border-[var(--border-soft)] bg-[var(--surface-strong)] px-4 py-2 text-sm font-medium transition hover:bg-white"
-                  href={`/skills?persona=${role.slug}&q=${encodeURIComponent(query)}`}
+                  href={prefixLocalePath(`/skills?persona=${role.slug}&q=${encodeURIComponent(query)}`, locale)}
                 >
                   {copy.queryLabels[query] ?? query}
                 </Link>
@@ -109,7 +135,10 @@ export default async function RolePage({ params }: RolePageProps) {
                   : "If you do not want to sort through everything yourself, start here."}
               </p>
             </div>
-              <Link className="text-sm font-medium text-[var(--accent)]" href={`/skills?persona=${role.slug}`}>
+              <Link
+                className="text-sm font-medium text-[var(--accent)]"
+                href={prefixLocalePath(`/skills?persona=${role.slug}`, locale)}
+              >
               {copy.roles.viewAllSkills}
             </Link>
           </div>
@@ -119,7 +148,7 @@ export default async function RolePage({ params }: RolePageProps) {
                 <Link
                   key={skill.slug}
                   className="surface-panel-soft rounded-[1.5rem] p-5 transition hover:bg-[var(--panel-soft-hover)]"
-                  href={`/skills/${skill.slug}`}
+                        href={prefixLocalePath(getSkillDetailPath(skill.slug, locale), locale)}
                 >
                   <p className="eyebrow surface-muted">{String(index + 1).padStart(2, "0")} · {skill.publisher}</p>
                   <h3 className="mt-3 text-lg font-semibold leading-6">{skill.name}</h3>
@@ -136,7 +165,10 @@ export default async function RolePage({ params }: RolePageProps) {
               {locale === "zh-CN" ? "再按任务继续往下找。" : "Keep going by task."}
             </h2>
           </div>
-          <Link className="text-sm font-medium text-[var(--accent)]" href={`/skills?persona=${role.slug}`}>
+          <Link
+            className="text-sm font-medium text-[var(--accent)]"
+            href={prefixLocalePath(`/skills?persona=${role.slug}`, locale)}
+          >
             {copy.roles.viewAllSkills}
           </Link>
         </div>
@@ -153,7 +185,7 @@ export default async function RolePage({ params }: RolePageProps) {
                 </div>
                 <Link
                   className="text-sm font-medium text-[var(--accent)]"
-                  href={`/skills?persona=${role.slug}&job=${group.job}`}
+                  href={prefixLocalePath(`/skills?persona=${role.slug}&job=${group.job}`, locale)}
                 >
                   {locale === "zh-CN"
                     ? `查看全部 ${copy.taskLabels[group.job] ?? group.label}`
@@ -166,7 +198,7 @@ export default async function RolePage({ params }: RolePageProps) {
                   <Link
                     key={skill.slug}
                     className="surface-panel-soft rounded-[1.5rem] p-5 transition hover:bg-[var(--panel-soft-hover)]"
-                    href={`/skills/${skill.slug}`}
+                    href={prefixLocalePath(getSkillDetailPath(skill.slug, locale), locale)}
                   >
                     <p className="eyebrow surface-muted">{skill.publisher}</p>
                     <h4 className="mt-3 text-xl font-semibold">{skill.name}</h4>
@@ -192,4 +224,8 @@ export default async function RolePage({ params }: RolePageProps) {
       <SiteFooter locale={locale} />
     </main>
   );
+}
+
+export default async function RolePage({ params }: RolePageProps) {
+  return <RolePageContent params={params} locale={await getRequestLocale()} />;
 }

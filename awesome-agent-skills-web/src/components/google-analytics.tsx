@@ -1,13 +1,19 @@
 "use client";
 
 import Script from "next/script";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import {
   COOKIE_CONSENT_COOKIE,
   COOKIE_CONSENT_EVENT,
 } from "@/components/cookie-consent";
 
 const GA_ID = "G-PVLZD6F47L";
+
+declare global {
+  interface Window {
+    gtag?: (...args: unknown[]) => void;
+  }
+}
 
 function hasAnalyticsConsent() {
   if (typeof document === "undefined") {
@@ -21,22 +27,26 @@ function hasAnalyticsConsent() {
 }
 
 export function GoogleAnalytics() {
-  const [enabled, setEnabled] = useState(false);
-
   useEffect(() => {
-    setEnabled(hasAnalyticsConsent());
+    function applyConsent() {
+      if (typeof window === "undefined" || typeof window.gtag !== "function") {
+        return;
+      }
 
-    function handleChange() {
-      setEnabled(hasAnalyticsConsent());
+      const granted = hasAnalyticsConsent();
+      window.gtag("consent", "update", {
+        ad_personalization: granted ? "granted" : "denied",
+        ad_storage: "denied",
+        ad_user_data: granted ? "granted" : "denied",
+        analytics_storage: granted ? "granted" : "denied",
+      });
     }
 
-    window.addEventListener(COOKIE_CONSENT_EVENT, handleChange);
-    return () => window.removeEventListener(COOKIE_CONSENT_EVENT, handleChange);
-  }, []);
+    applyConsent();
 
-  if (!enabled) {
-    return null;
-  }
+    window.addEventListener(COOKIE_CONSENT_EVENT, applyConsent);
+    return () => window.removeEventListener(COOKIE_CONSENT_EVENT, applyConsent);
+  }, []);
 
   return (
     <>
@@ -47,9 +57,17 @@ export function GoogleAnalytics() {
       <Script id="google-analytics" strategy="afterInteractive">
         {`
           window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
+          window.gtag = function gtag(){dataLayer.push(arguments);}
+          gtag('consent', 'default', {
+            ad_personalization: 'denied',
+            ad_storage: 'denied',
+            ad_user_data: 'denied',
+            analytics_storage: 'denied'
+          });
           gtag('js', new Date());
-          gtag('config', '${GA_ID}');
+          gtag('config', '${GA_ID}', {
+            anonymize_ip: true
+          });
         `}
       </Script>
     </>

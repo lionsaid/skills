@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "clean:build": "find . -name .DS_Store -delete && node scripts/clean-build-artifacts.mjs",
     "generate:data": "node scripts/generate-skills-data.mjs && npm run generate:repo-stats && npm run refresh:github-cache && node scripts/generate-skills-data.mjs && npm run generate:repo-stats && npm run validate:roles && npm run validate:high-star && npm run audit:roles",
     "generate:repo-stats": "node scripts/generate-repo-stats.mjs && npm run generate:high-star-repos",
     "generate:high-star-repos": "node scripts/generate-high-star-github-repos.mjs",
@@ -13,9 +14,10 @@
     "refresh:publisher-logos": "node scripts/refresh-publisher-logos.mjs",
     "refresh:all": "npm run generate:data && npm run generate:repo-stats && npm run refresh:publisher-logos",
     "dev": "next dev",
-    "build": "npm run validate:roles && next build",
+    "build": "npm run clean:build && npm run validate:roles && next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test:e2e": "playwright test"
   },
   "dependencies": {
     "next": "16.2.9",
@@ -23,6 +25,7 @@
     "react-dom": "19.2.4"
   },
   "devDependencies": {
+    "@playwright/test": "^1.61.1",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
