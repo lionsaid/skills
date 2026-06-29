@@ -3,10 +3,11 @@ import type { Metadata } from "next";
 import { GlareCard } from "@/components/glare-card";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
-import { getRolePrioritySkills, getRoles, getSkillsByJob, getStarterSkillsForRole } from "@/lib/skills";
+import { getRolePrioritySkills, getRoles, getSkillBySlug, getSkillsByJob, getStarterSkillsForRole } from "@/lib/skills";
 import { getCopy, getSkillDetailPath, prefixLocalePath, type Locale } from "@/lib/i18n";
 import { getRequestLocale } from "@/lib/request-locale";
 import { buildMetadata, getLocalizedDescription } from "@/lib/seo";
+import type { Skill } from "@/lib/skills";
 
 export function generateMetadata(): Metadata {
   return buildMetadata({
@@ -17,6 +18,47 @@ export function generateMetadata(): Metadata {
 }
 
 type PageProps = { locale: Locale };
+
+const rolePreviewSkillOverrides: Partial<Record<string, string[]>> = {
+  engineer: [
+    "microsoft-copilot-sdk",
+    "anthropics-webapp-testing",
+    "openai-gh-fix-ci",
+  ],
+};
+
+function pickPreviewSkills(roleSlug: string) {
+  const selected: Skill[] = [];
+  const overridden = (rolePreviewSkillOverrides[roleSlug] ?? [])
+    .map((slug) => getSkillBySlug(slug))
+    .filter((skill): skill is Skill => Boolean(skill));
+
+  for (const skill of overridden) {
+    if (selected.length >= 3) {
+      break;
+    }
+
+    if (selected.some((item) => item.publisherSlug === skill.publisherSlug)) {
+      continue;
+    }
+
+    selected.push(skill);
+  }
+
+  for (const skill of getStarterSkillsForRole(roleSlug)) {
+    if (selected.length >= 3) {
+      break;
+    }
+
+    if (selected.some((item) => item.publisherSlug === skill.publisherSlug)) {
+      continue;
+    }
+
+    selected.push(skill);
+  }
+
+  return selected;
+}
 
 export async function RolesPageContent({ locale }: PageProps) {
   const copy = getCopy(locale);
@@ -74,7 +116,7 @@ export async function RolesPageContent({ locale }: PageProps) {
         <div className="mt-8 grid gap-6 xl:grid-cols-2">
           {roles.map((role) => {
             const curatedCount = getRolePrioritySkills(role.slug, 10).length;
-            const starters = getStarterSkillsForRole(role.slug).slice(0, 3);
+            const starters = pickPreviewSkills(role.slug);
             const roleLabel = copy.roleLabels[role.slug] ?? role.label;
             const roleSummary = copy.roleSummaries[role.slug] ?? role.summary;
 
@@ -108,18 +150,24 @@ export async function RolesPageContent({ locale }: PageProps) {
                   ))}
                 </div>
 
-                <div className="mt-6 grid gap-3 sm:grid-cols-3">
+                <div className="mt-6 overflow-hidden rounded-[1.45rem] border border-[var(--panel-outline)] bg-[var(--surface-strong)]">
                   {starters.map((skill) => (
-                    <GlareCard key={skill.slug} className="rounded-[1.4rem]">
-                      <Link
-                        className="surface-panel-soft block rounded-[1.4rem] p-4 transition hover:bg-[var(--panel-soft-hover)]"
-                        href={prefixLocalePath(getSkillDetailPath(skill.slug, locale), locale)}
-                        prefetch={false}
-                      >
+                    <Link
+                      key={skill.slug}
+                      className="role-skill-spotlight group flex min-h-[5.75rem] items-center justify-between gap-4 border-b border-[var(--panel-outline)] px-5 py-4 transition last:border-b-0"
+                      href={prefixLocalePath(getSkillDetailPath(skill.slug, locale), locale)}
+                      prefetch={false}
+                    >
+                      <div className="min-w-0">
                         <p className="eyebrow surface-muted">{skill.publisher}</p>
-                        <p className="mt-3 text-base font-semibold leading-6">{skill.name}</p>
-                      </Link>
-                    </GlareCard>
+                        <p className="mt-2 text-base font-semibold leading-6">
+                          {skill.name}
+                        </p>
+                      </div>
+                      <span className="shrink-0 text-sm font-medium text-[var(--accent)] transition group-hover:translate-x-0.5">
+                        {locale === "zh-CN" ? "查看" : "Open"}
+                      </span>
+                    </Link>
                   ))}
                 </div>
 
@@ -149,7 +197,7 @@ export async function RolesPageContent({ locale }: PageProps) {
             <h2 className="mt-3 text-3xl font-semibold tracking-[-0.03em] sm:text-4xl">
               {copy.roles.openAllRoleCatalog}
             </h2>
-          <div className="mt-6 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+          <div className="mt-6 grid gap-px overflow-hidden rounded-[1.55rem] border border-[var(--panel-outline)] bg-[var(--panel-outline)] md:grid-cols-2 xl:grid-cols-4">
             {roles.flatMap((role) =>
               role.jobs.slice(0, 2).map((job) => ({
                 key: `${role.slug}-${job}`,
@@ -159,9 +207,9 @@ export async function RolesPageContent({ locale }: PageProps) {
                 count: getSkillsByJob(job).filter((skill) => skill.personas.includes(role.slug)).length,
               })),
             ).slice(0, 8).map((item) => (
-              <GlareCard key={item.key} className="rounded-[1.5rem]">
+              <GlareCard key={item.key} className="glare-card-flat rounded-[1.5rem]">
                 <Link
-                  className="surface-panel-soft block rounded-[1.5rem] p-5 transition hover:bg-[var(--panel-soft-hover)]"
+                  className="block bg-[var(--panel-soft)] p-5 transition hover:bg-[var(--panel-soft-hover)]"
                   href={prefixLocalePath(`/skills?persona=${item.roleSlug}&job=${item.job}`, locale)}
                 >
                   <p className="eyebrow surface-muted">{copy.roleLabels[item.roleSlug] ?? item.role}</p>

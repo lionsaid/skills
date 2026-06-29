@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { CookieSettingsButton } from "@/components/cookie-settings-button";
-import { FooterActionLink } from "@/components/footer-action-link";
 import { prefixLocalePath, type Locale } from "@/lib/i18n";
 
 const footerColumns = [
@@ -8,9 +7,9 @@ const footerColumns = [
     title: "Explore",
     items: [
       { label: "Browse Skills", href: "/skills" },
-      { label: "Top picks", href: "/skills?sort=featured" },
-      { label: "From official teams", href: "/skills?kind=official" },
-      { label: "Community", href: "/skills?kind=community" },
+      { label: "Featured skills", href: "/skills?sort=featured" },
+      { label: "Official teams", href: "/skills?kind=official" },
+      { label: "Community picks", href: "/skills?kind=community" },
     ],
   },
   {
@@ -25,16 +24,17 @@ const footerColumns = [
   {
     title: "Source",
     items: [
-      { label: "GitHub repo", href: "https://github.com/lionsaid/skills" },
-      { label: "Project README", href: "https://github.com/lionsaid/skills/blob/main/README.md" },
-      { label: "skill.lionsaid.com", href: "https://skill.lionsaid.com" },
+      { label: "GitHub", href: "https://github.com/lionsaid/skills" },
+      { label: "How it works", href: "https://github.com/lionsaid/skills/blob/main/README.md" },
+      { label: "Main site", href: "https://skill.lionsaid.com" },
     ],
   },
   {
-    title: "More",
+    title: "About",
     items: [
-      { label: "Sudoku", href: "https://sudoku.lionsaid.com/" },
-      { label: "Copybook", href: "https://copybook.lionsaid.com/" },
+      { label: "About us", href: "/about" },
+      { label: "Updates", href: "/updates" },
+      { label: "Other products", href: "/more" },
     ],
   },
   {
@@ -48,7 +48,6 @@ const footerColumns = [
       { label: "Terms of Service", href: "/legal/terms" },
       { label: "Disclaimer", href: "/legal/disclaimer" },
       { label: "Cookie Settings", href: "#cookie-settings" },
-      { label: "Contact", href: "mailto:lionsaid@aliyun.com" },
     ],
   },
 ];
@@ -60,23 +59,41 @@ function translateFooterLabel(locale: Locale, label: string) {
 
   const translations: Record<string, string> = {
     "Browse Skills": "浏览全部 skill",
-    "Top picks": "热门推荐",
-    "From official teams": "官方出品",
-    Community: "社区",
+    "Featured skills": "精选 skill",
+    "Official teams": "官方出品",
+    "Community picks": "社区整理",
     "All publishers": "全部公司",
-    "GitHub repo": "GitHub 仓库",
-    "Project README": "项目介绍",
-    Sudoku: "数独",
-    Copybook: "Copybook",
+    GitHub: "GitHub",
+    "How it works": "了解更多",
+    "Main site": "主站",
+    "About us": "关于我们",
+    "Other products": "其他产品",
+    Updates: "更新历史",
     "Privacy Policy": "隐私政策",
     "Terms of Service": "服务条款",
     Disclaimer: "免责声明",
     Donate: "捐助",
     "Cookie Settings": "Cookie 设置",
-    Contact: "联系我们",
   };
 
   return translations[label] ?? label;
+}
+
+function translateFooterTitle(locale: Locale, title: string) {
+  if (locale !== "zh-CN") {
+    return title;
+  }
+
+  const translations: Record<string, string> = {
+    Explore: "开始找",
+    Publishers: "公司",
+    Source: "更多来源",
+    About: "关于",
+    Support: "支持",
+    Legal: "法律",
+  };
+
+  return translations[title] ?? title;
 }
 
 export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
@@ -88,17 +105,17 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
         <div className="grid gap-10 lg:grid-cols-[minmax(0,1.3fr)_minmax(320px,0.7fr)] lg:items-start">
           <div>
             <p className="eyebrow text-[color:var(--footer-muted)]">
-              {locale === "zh-CN" ? "开始查找" : "Skills directory"}
+              {locale === "zh-CN" ? "继续浏览" : "Keep exploring"}
             </p>
             <h2 className="display mt-4 max-w-4xl text-5xl font-semibold tracking-[-0.05em] text-balance sm:text-6xl lg:text-[5.25rem]">
               {locale === "zh-CN"
                 ? "想找能直接用的 skill，先从这里开始。"
-                : "Find a skill here, then open the source only when you need it."}
+                : "Start here when you want a skill that can help right away."}
             </h2>
             <p className="mt-6 max-w-2xl text-lg leading-8 text-[color:var(--footer-muted)]">
               {locale === "zh-CN"
-                ? "按任务、角色或公司快速筛选，先找到合适的 skill，再决定要不要打开原始来源。"
-                : "Search by task, company, or role, and find the right skill before you open the original source."}
+                ? "按任务、角色或公司开始找，先看到更适合你的选择。"
+                : "Browse by task, role, or company, and get to the right options sooner."}
             </p>
 
             <div className="mt-8 flex flex-wrap gap-3">
@@ -112,7 +129,7 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
                 className="rounded-full border border-[color:var(--footer-border)] px-5 py-3 text-sm font-medium text-[color:var(--footer-fg)] transition hover:bg-black/[0.03] dark:hover:bg-white/[0.06]"
                 href={localize("/skills?sort=featured")}
               >
-                {locale === "zh-CN" ? "看看热门推荐" : "Start with top picks"}
+                {locale === "zh-CN" ? "看看精选 skill" : "See featured skills"}
               </Link>
             </div>
           </div>
@@ -122,19 +139,7 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
           {footerColumns.map((column) => (
             <div key={column.title} className="footer-rule border-t pt-6">
               <p className="eyebrow text-[color:var(--footer-muted)]">
-                {locale === "zh-CN"
-                  ? column.title === "Explore"
-                    ? "浏览"
-                    : column.title === "Publishers"
-                      ? "公司"
-                      : column.title === "More"
-                        ? "其他站点"
-                      : column.title === "Support"
-                        ? "支持"
-                      : column.title === "Legal"
-                        ? "法律"
-                      : "来源"
-                  : column.title}
+                {translateFooterTitle(locale, column.title)}
               </p>
               <div className="mt-4 grid gap-3">
                 {column.items.map((item) =>
@@ -153,12 +158,6 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
                       <CookieSettingsButton
                         key={item.label}
                         label={locale === "zh-CN" ? "Cookie 设置" : item.label}
-                      />
-                    ) : item.label === "Contact" ? (
-                      <FooterActionLink
-                        key={item.label}
-                        href={item.href}
-                        label={locale === "zh-CN" ? "联系我们" : item.label}
                       />
                     ) : (
                       <Link

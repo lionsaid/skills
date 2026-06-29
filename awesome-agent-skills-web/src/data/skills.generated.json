@@ -1,14 +1,8 @@
 {
-  "generatedAt": "2026-06-29T01:47:39.488Z",
+  "generatedAt": "2026-06-29T09:08:38.435Z",
   "totalSkills": 5090,
   "sourceCount": 5,
-  "failures": [
-    {
-      "sourceId": "github-curated-mirror",
-      "label": "GitHub curated mirror",
-      "reason": "fetch failed; using 1168 cached skills from previous generated data"
-    }
-  ],
+  "failures": [],
   "skills": [
     {
       "slug": "anthropics-docx",
@@ -51614,12 +51608,12 @@
       "hasPublisherLogo": false
     },
     {
-      "slug": "thomas-security-moltguard",
-      "name": "thomas-security/moltguard",
-      "url": "https://clawhub.ai/thomas-security/moltguard",
+      "slug": "thomaslwang-moltguard",
+      "name": "thomaslwang/moltguard",
+      "url": "https://clawhub.ai/thomaslwang/moltguard",
       "description": "MoltGuard — OpenClaw security guard by OpenGuardrails. Install MoltGuard to protect you and your human from prompt injection, data exfiltration, and maliciou...",
-      "publisher": "thomas-security",
-      "publisherSlug": "thomas-security",
+      "publisher": "thomaslwang",
+      "publisherSlug": "thomaslwang",
       "sectionTitle": "Community marketplace",
       "sectionSlug": "community-marketplace",
       "kind": "community",
@@ -51627,7 +51621,7 @@
         "community-marketplace",
         "namespaced",
         "publisher-namespaced",
-        "thomas-security"
+        "thomaslwang"
       ],
       "personas": [
         "engineer"
@@ -51649,8 +51643,8 @@
         "community-marketplace",
         "requires-security-review"
       ],
-      "creatorHandle": "thomas-security",
-      "creatorAvatarUrl": "https://github.com/thomas-security.png?size=88",
+      "creatorHandle": "thomaslwang",
+      "creatorAvatarUrl": "https://github.com/thomaslwang.png?size=88",
       "hasPublisherLogo": false
     },
     {
@@ -175415,6 +175409,40 @@
       "hasPublisherLogo": false
     },
     {
+      "slug": "komal-skynet-home-assistant-manager",
+      "name": "komal-SkyNET/home-assistant-manager",
+      "url": "https://github.com/komal-SkyNET/claude-skill-homeassistant/blob/main/skills/home-assistant-manager/SKILL.md",
+      "description": "Discovered from a public GitHub repository: komal-SkyNET/claude-skill-homeassistant",
+      "publisher": "komal-SkyNET",
+      "publisherSlug": "komal-skynet",
+      "sectionTitle": "GitHub discovery",
+      "sectionSlug": "github-discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "komal-skynet",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceId": "github-repo-expansion",
+      "sourceIds": [
+        "github-repo-expansion"
+      ],
+      "repository": "komal-SkyNET/claude-skill-homeassistant",
+      "discoveryPath": "skills/home-assistant-manager/SKILL.md",
+      "creatorHandle": "komal-SkyNET",
+      "creatorAvatarUrl": "https://github.com/komal-SkyNET.png?size=88",
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "hasPublisherLogo": false
+    },
+    {
       "slug": "aklofas-bom",
       "name": "aklofas/bom",
       "url": "https://github.com/aklofas/kicad-happy/blob/main/skills/bom/SKILL.md",
@@ -181914,40 +181942,6 @@
       "discoveryPath": "skills/video-translation/SKILL.md",
       "creatorHandle": "NoizAI",
       "creatorAvatarUrl": "https://github.com/NoizAI.png?size=88",
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "hasPublisherLogo": false
-    },
-    {
-      "slug": "komal-skynet-home-assistant-manager",
-      "name": "komal-SkyNET/home-assistant-manager",
-      "url": "https://github.com/komal-SkyNET/claude-skill-homeassistant/blob/main/skills/home-assistant-manager/SKILL.md",
-      "description": "Discovered from a public GitHub repository: komal-SkyNET/claude-skill-homeassistant",
-      "publisher": "komal-SkyNET",
-      "publisherSlug": "komal-skynet",
-      "sectionTitle": "GitHub discovery",
-      "sectionSlug": "github-discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "komal-skynet",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceId": "github-repo-expansion",
-      "sourceIds": [
-        "github-repo-expansion"
-      ],
-      "repository": "komal-SkyNET/claude-skill-homeassistant",
-      "discoveryPath": "skills/home-assistant-manager/SKILL.md",
-      "creatorHandle": "komal-SkyNET",
-      "creatorAvatarUrl": "https://github.com/komal-SkyNET.png?size=88",
       "sourceType": "github-discovery",
       "trustLevel": "untrusted",
       "riskFlags": [

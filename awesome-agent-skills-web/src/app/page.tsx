@@ -1,12 +1,12 @@
 import { existsSync } from "node:fs";
 import path from "node:path";
 import Link from "next/link";
-import { GlareCard } from "@/components/glare-card";
 import { PublisherLogo } from "@/components/publisher-logo";
 import { PublisherLogoMarquee } from "@/components/publisher-logo-marquee";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
-import { getFeaturedSkills, getPublishers, getRoles, getStats } from "@/lib/skills";
+import { VortexBackground } from "@/components/vortex-background";
+import { getFeaturedSkills, getPublishers, getRoles, getStats, getTrustLevelLabel } from "@/lib/skills";
 import { getCopy, getSkillDetailPath, prefixLocalePath, type Locale } from "@/lib/i18n";
 import { getRequestLocale } from "@/lib/request-locale";
 import { buildMetadata, getLocalizedDescription } from "@/lib/seo";
@@ -29,6 +29,7 @@ export async function HomePage({ locale }: PageProps) {
   const stats = getStats();
   const featured = getFeaturedSkills();
   const publishers = getPublishers();
+  const roles = getRoles();
   const marqueePublisherWhitelist = new Set([
     "anthropics",
     "openai",
@@ -63,7 +64,18 @@ export async function HomePage({ locale }: PageProps) {
       marqueePublisherWhitelist.has(publisher.slug) &&
       existsSync(path.join(process.cwd(), "public", "publisher-logos", `${publisher.slug}.png`)),
   );
-  const roles = getRoles();
+  const ecosystemPublishers = [
+    "anthropics",
+    "openai",
+    "googleworkspace",
+    "microsoft",
+    "cloudflare",
+    "clickhouse",
+    "duckdb",
+    "supabase",
+  ]
+    .map((slug) => publishers.find((publisher) => publisher.slug === slug))
+    .filter((publisher): publisher is NonNullable<(typeof publishers)[number]> => Boolean(publisher));
   const taskCards = [
     {
       label: copy.taskLabels["sql-analysis"],
@@ -123,15 +135,11 @@ export async function HomePage({ locale }: PageProps) {
     { label: locale === "zh-CN" ? "文档工作流" : "Docs workflows", href: prefixLocalePath("/skills?q=docs", locale) },
     { label: locale === "zh-CN" ? "演示文稿" : "Presentations", href: prefixLocalePath("/skills?q=pptx", locale) },
   ];
-
   return (
     <main className="grain flex flex-1 flex-col overflow-x-hidden pb-28 sm:pb-0">
-      <section className="hero-grid relative overflow-hidden py-6">
-        <div className="pointer-events-none absolute inset-0 overflow-hidden">
-          <div className="hero-orb absolute left-1/2 top-[-5rem] h-72 w-72 -translate-x-1/2 rounded-full bg-[rgba(225,6,0,0.14)] blur-3xl" />
-          <div className="hero-orb absolute right-[-5rem] top-40 h-80 w-80 rounded-full bg-[rgba(13,23,38,0.12)] blur-3xl [animation-delay:1.5s]" />
-          <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(255,255,255,0.18),rgba(255,255,255,0))]" />
-        </div>
+      <section className="hero-vortex relative overflow-hidden py-6">
+        <VortexBackground className="opacity-75 mix-blend-multiply dark:opacity-100 dark:mix-blend-screen" />
+        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_50%_32%,rgba(255,255,255,0.2),transparent_28%)]" />
         <SiteHeader currentPath="/" locale={locale} />
 
         <div className="page-shell grid gap-6 py-12 lg:grid-cols-[minmax(0,1.25fr)_minmax(360px,0.75fr)] lg:items-stretch lg:py-16 2xl:gap-8">
@@ -144,7 +152,7 @@ export async function HomePage({ locale }: PageProps) {
               {copy.home.subtitle}
             </p>
 
-    <form action={prefixLocalePath("/skills", locale)} className="mt-8 sm:mt-10">
+            <form action={prefixLocalePath("/skills", locale)} className="mt-8 sm:mt-10">
               <label className="sr-only" htmlFor="home-search">
                 {locale === "zh-CN" ? "搜索 skill" : "Search skills"}
               </label>
@@ -177,7 +185,7 @@ export async function HomePage({ locale }: PageProps) {
                   />
                 </div>
                 <button
-                className="h-12 rounded-full bg-[var(--accent)] px-5 text-sm font-medium text-white transition hover:opacity-90"
+                  className="h-12 rounded-full bg-[var(--accent)] px-5 text-sm font-medium text-white transition hover:opacity-90"
                   type="submit"
                 >
                   {copy.home.searchButton}
@@ -202,6 +210,20 @@ export async function HomePage({ locale }: PageProps) {
               <span>{stats.totalPublishers} {copy.home.stats.publishers}</span>
               <span>{stats.officialCount} {copy.home.stats.official}</span>
               <span>{stats.communityCount} {copy.home.stats.community}</span>
+            </div>
+
+            <div className="mt-7">
+              <p className="eyebrow text-[var(--accent)]">{locale === "zh-CN" ? "比如这些结果" : "For example"}</p>
+              <div className="mt-3 flex flex-wrap gap-2">
+                {copy.home.goalExamples.map((example) => (
+                  <span
+                    key={example}
+                    className="rounded-full border border-[var(--border-soft)] bg-[var(--surface-strong)] px-3 py-2 text-sm text-[var(--foreground)]"
+                  >
+                    {example}
+                  </span>
+                ))}
+              </div>
             </div>
           </div>
 
@@ -235,7 +257,7 @@ export async function HomePage({ locale }: PageProps) {
             </div>
 
             <div className="glass rounded-[1.75rem] p-5 sm:p-6">
-            <p className="eyebrow muted">{locale === "zh-CN" ? "已收录 skill" : "Skills"}</p>
+              <p className="eyebrow muted">{locale === "zh-CN" ? "已收录 skill" : "Skills"}</p>
               <p className="mt-3 text-4xl font-semibold">{stats.totalSkills}</p>
               <p className="muted mt-2 text-sm leading-6">
                 {locale === "zh-CN"
@@ -245,7 +267,7 @@ export async function HomePage({ locale }: PageProps) {
             </div>
 
             <div className="glass rounded-[1.75rem] p-5 sm:p-6">
-            <p className="eyebrow muted">{locale === "zh-CN" ? "发布方" : "Publishers"}</p>
+              <p className="eyebrow muted">{locale === "zh-CN" ? "发布方" : "Publishers"}</p>
               <p className="mt-3 text-4xl font-semibold">{stats.totalPublishers}</p>
               <p className="muted mt-2 text-sm leading-6">
                 {locale === "zh-CN"
@@ -255,7 +277,7 @@ export async function HomePage({ locale }: PageProps) {
             </div>
 
             <div className="glass rounded-[1.75rem] p-5 sm:p-6">
-            <p className="eyebrow muted">{locale === "zh-CN" ? "官方出品" : "Official teams"}</p>
+              <p className="eyebrow muted">{locale === "zh-CN" ? "官方出品" : "Official teams"}</p>
               <p className="mt-3 text-4xl font-semibold">{stats.officialCount}</p>
               <p className="muted mt-2 text-sm leading-6">
                 {locale === "zh-CN"
@@ -265,7 +287,7 @@ export async function HomePage({ locale }: PageProps) {
             </div>
 
             <div className="glass rounded-[1.75rem] p-5 sm:p-6">
-            <p className="eyebrow muted">{locale === "zh-CN" ? "社区整理" : "Community"}</p>
+              <p className="eyebrow muted">{locale === "zh-CN" ? "社区整理" : "Community"}</p>
               <p className="mt-3 text-4xl font-semibold">{stats.communityCount}</p>
               <p className="muted mt-2 text-sm leading-6">
                 {locale === "zh-CN"
@@ -290,137 +312,177 @@ export async function HomePage({ locale }: PageProps) {
           </Link>
         </div>
 
-        <div className="mt-8 grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
-          <GlareCard className="rounded-[1.75rem]">
-            <Link className="glass skill-card block rounded-[1.75rem] p-6" href={prefixLocalePath("/skills?publisher=googleworkspace", locale)}>
-              <p className="eyebrow muted">{locale === "zh-CN" ? "常用入口" : "Common starting point"}</p>
-              <div className="mt-4">
-                <PublisherLogo name="Google Workspace" size="sm" slug="googleworkspace" />
+            <div className="mt-8 grid gap-4 lg:grid-cols-2 xl:grid-cols-4">
+              {[
+                {
+                  href: prefixLocalePath("/skills?kind=official", locale),
+                  title: locale === "zh-CN" ? "先看官方和企业维护的 skill" : "Start with official and enterprise-maintained skills",
+              body:
+                locale === "zh-CN"
+                  ? "信息更完整，更新更稳定，也更容易先找到靠谱入口。"
+                  : "Usually the clearest, most stable starting point.",
+              meta: `${stats.officialCount} ${copy.home.stats.official}`,
+              slug: "openai",
+                },
+                {
+                  href: prefixLocalePath("/skills?q=weekly%20report", locale),
+                  title: locale === "zh-CN" ? "从目标开始" : "Start from a goal",
+                  body:
+                    locale === "zh-CN"
+                      ? "做周报、整理旅行计划、练摄影、写博客，都能先从结果倒推。"
+                      : "Planning a trip, improving a report, practicing photography, or writing a blog can all start from the result you want.",
+                  meta: locale === "zh-CN" ? "个人目标" : "Personal goal",
+                  slug: "openai",
+                },
+                {
+                  href: prefixLocalePath("/roles/data-analyst", locale),
+                  title: locale === "zh-CN" ? "从角色入口开始" : "Begin with your role",
+                  body:
+                    locale === "zh-CN"
+                      ? "如果你知道自己是什么角色，推荐会更贴近工作流。"
+                      : "Role pages point you to skills that match your workflow better.",
+                  meta: copy.skills.browseByRole,
+              slug: "microsoft",
+            },
+            {
+              href: prefixLocalePath("/skills", locale),
+                  title: locale === "zh-CN" ? "直接搜索你熟悉的生态" : "Search the ecosystem you already know",
+                  body:
+                    locale === "zh-CN"
+                      ? "Google Workspace、Microsoft、OpenAI 这类生态会更直接。"
+                      : "Ecosystems like Google Workspace, Microsoft, or OpenAI are a quick way in.",
+                  meta: locale === "zh-CN" ? "直接进入" : "Go straight in",
+                  slug: "googleworkspace",
+                },
+          ].map((item) => (
+            <Link
+              key={item.title}
+              className="homepage-entry-card group flex min-h-[260px] flex-col justify-between rounded-[1.8rem] border border-[var(--panel-outline)] bg-[var(--surface-strong)] p-6 transition hover:-translate-y-0.5 hover:border-[var(--accent-soft)] hover:shadow-[0_24px_54px_rgba(56,49,36,0.12)]"
+              href={item.href}
+            >
+              <div className="flex items-start justify-between gap-4">
+                <div className="min-w-0">
+                  <p className="eyebrow text-[var(--accent)]">{item.meta}</p>
+                  <h3 className="mt-4 text-[1.55rem] font-semibold leading-[1.08] tracking-[-0.035em] text-[var(--panel-fg)]">
+                    {item.title}
+                  </h3>
+                </div>
+                <div className="shrink-0">
+                  <PublisherLogo name={item.title} size="sm" slug={item.slug} />
+                </div>
               </div>
-              <p className="mt-4 text-xl font-semibold">Google Workspace</p>
-              <p className="muted mt-3 text-sm leading-6">
-                {locale === "zh-CN"
-                  ? "如果你常用 Google Workspace，可以直接从这里开始找。"
-                  : "If you already work in Google Workspace, this is an easy place to start."}
+              <p className="mt-5 max-w-[32ch] text-sm leading-7 text-[var(--panel-muted)]">
+                {item.body}
               </p>
-            </Link>
-          </GlareCard>
-          <GlareCard className="rounded-[1.75rem]">
-            <Link className="glass skill-card block rounded-[1.75rem] p-6" href={prefixLocalePath("/skills?publisher=microsoft", locale)}>
-              <p className="eyebrow muted">{locale === "zh-CN" ? "官方出品" : "Official teams"}</p>
-              <div className="mt-4">
-                <PublisherLogo name="Microsoft" size="sm" slug="microsoft" />
+              <div className="mt-8 flex items-center justify-between gap-3 border-t border-[var(--panel-outline)] pt-4">
+                <span className="text-sm font-medium text-[var(--accent)]">
+                  {locale === "zh-CN" ? "打开入口" : "Open entry"}
+                </span>
+                <span className="text-sm text-[var(--panel-muted)]">→</span>
               </div>
-              <p className="mt-4 text-xl font-semibold">Microsoft</p>
-              <p className="muted mt-3 text-sm leading-6">
-                {locale === "zh-CN"
-                  ? "如果你平时主要用微软生态，从这里开始会更顺。"
-                  : "If most of your work already lives in Microsoft tools, start here."}
-              </p>
             </Link>
-          </GlareCard>
-          <GlareCard className="rounded-[1.75rem]">
-            <Link className="glass skill-card block rounded-[1.75rem] p-6" href={prefixLocalePath("/skills?publisher=anthropics", locale)}>
-              <p className="eyebrow muted">{locale === "zh-CN" ? "公司" : "Company"}</p>
-              <div className="mt-4">
-                <PublisherLogo name="Anthropics" size="sm" slug="anthropics" />
-              </div>
-              <p className="mt-4 text-xl font-semibold">Anthropics</p>
-              <p className="muted mt-3 text-sm leading-6">
-                {locale === "zh-CN"
-                  ? "如果你就是冲着 Anthropic 来的，这里最直接。"
-                  : "If you are specifically looking for Anthropic skills, start here."}
-              </p>
-            </Link>
-          </GlareCard>
-          <GlareCard className="rounded-[1.75rem]">
-            <Link className="glass skill-card block rounded-[1.75rem] p-6" href={prefixLocalePath("/skills?publisher=openai", locale)}>
-              <p className="eyebrow muted">{locale === "zh-CN" ? "公司" : "Company"}</p>
-              <div className="mt-4">
-                <PublisherLogo name="OpenAI" size="sm" slug="openai" />
-              </div>
-              <p className="mt-4 text-xl font-semibold">OpenAI</p>
-              <p className="muted mt-3 text-sm leading-6">
-                {locale === "zh-CN"
-                  ? "如果你想先看 OpenAI 相关 skill，可以直接进这里。"
-                  : "If you want OpenAI-related skills first, go straight here."}
-              </p>
-            </Link>
-          </GlareCard>
+          ))}
         </div>
 
         <PublisherLogoMarquee locale={locale} publishers={marqueePublishers} />
       </section>
 
       <section className="page-shell py-6 pb-14">
-        <div className="space-y-6">
-          <div className="surface-panel rounded-[2rem] p-6 sm:p-7">
-            <div className="max-w-3xl">
-              <p className="eyebrow text-[var(--accent)]">{copy.skills.browseByRole}</p>
-              <h2 className="display mt-4 text-4xl font-semibold tracking-[-0.04em] sm:text-5xl">
-                {locale === "zh-CN" ? "先按角色来找。" : "Start with your role."}
-              </h2>
-              <p className="muted mt-4 max-w-2xl text-base leading-7">
-                {copy.home.roleIntro}
-              </p>
-            </div>
-            <div className="mt-6 grid gap-3 xl:grid-cols-2">
-              {roles.map((role) => (
-                <GlareCard key={role.slug} className="rounded-[1.5rem]">
-                  <Link
-                    className="surface-panel-soft block rounded-[1.5rem] p-5 transition hover:bg-[var(--panel-soft-hover)]"
-                    href={prefixLocalePath(`/roles/${role.slug}`, locale)}
-                  >
-                    <p className="text-xl font-semibold">{copy.roleLabels[role.slug] ?? role.label}</p>
-                    <p className="muted mt-2 text-sm leading-6">
-                      {copy.roleSummaries[role.slug] ?? role.summary}
-                    </p>
-                  </Link>
-                </GlareCard>
-              ))}
-            </div>
+        <div className="surface-panel rounded-[2.2rem] p-6 sm:p-7 lg:p-8">
+          <div className="max-w-3xl">
+            <p className="eyebrow text-[var(--accent)]">{copy.skills.browseByRole}</p>
+            <h2 className="display mt-4 text-4xl font-semibold tracking-[-0.04em] sm:text-5xl">
+              {locale === "zh-CN" ? "从你的工作身份开始找。" : "Begin with the role you work in."}
+            </h2>
+            <p className="homepage-soft-copy mt-4 max-w-2xl text-base leading-7">
+              {copy.home.roleIntro}
+            </p>
           </div>
 
-          <div className="glass rounded-[2rem] p-6 sm:p-7">
-            <div className="max-w-3xl">
-              <p className="eyebrow muted">{locale === "zh-CN" ? "按任务找" : "Find by task"}</p>
-              <h2 className="mt-4 text-3xl font-semibold tracking-[-0.03em] sm:text-4xl">
-                {locale === "zh-CN" ? "或者直接按任务找。" : "Or go straight to the task."}
-              </h2>
-              <p className="muted mt-4 max-w-2xl text-base leading-7">
-                {copy.home.taskIntro}
-              </p>
-            </div>
-            <div className="mt-6 grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
-              {taskCards.map((task) => (
-                <GlareCard key={task.label} className="rounded-[1.35rem]">
-                  <Link
-                    className="surface-panel-soft group block rounded-[1.35rem] p-4 transition hover:bg-[var(--panel-soft-hover)]"
-                    href={task.href}
-                  >
-                    <div className="flex items-start justify-between gap-3">
-                      <p className="text-base font-semibold leading-6">{task.label}</p>
-                      <span className="text-[11px] uppercase tracking-[0.18em] text-[var(--ink-muted)]">
-                        {locale === "zh-CN" ? "进入" : "Open"}
+          <div className="mt-7 border-t border-[var(--panel-outline)] pt-6">
+            <div className="grid gap-3 md:grid-cols-2">
+              {roles.slice(0, 6).map((role) => (
+                <Link
+                  key={role.slug}
+                  className="group flex items-start gap-4 rounded-[1.2rem] border border-transparent px-4 py-4 transition hover:border-[var(--panel-outline)] hover:bg-[var(--surface-strong)]"
+                  href={prefixLocalePath(`/roles/${role.slug}`, locale)}
+                >
+                  <span className="mt-0.5 inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-[var(--panel-outline)] text-sm font-medium text-[var(--accent)]">
+                    {String(roles.findIndex((item) => item.slug === role.slug) + 1).padStart(2, "0")}
+                  </span>
+                  <div className="min-w-0 flex-1">
+                    <div className="flex items-center justify-between gap-3">
+                      <p className="text-base font-semibold text-[var(--panel-fg)]">
+                        {copy.roleLabels[role.slug] ?? role.label}
+                      </p>
+                      <span className="homepage-inline-link shrink-0">
+                        {locale === "zh-CN" ? "打开" : "Open"}
                       </span>
                     </div>
-                    <p className="muted mt-3 text-sm leading-6">{task.summary}</p>
-                  </Link>
-                </GlareCard>
+                    <p className="mt-2 text-sm leading-7 text-[var(--panel-muted)]">
+                      {copy.roleSummaries[role.slug] ?? role.summary}
+                    </p>
+                    <div className="mt-4 flex flex-wrap gap-2">
+                      {role.jobs.slice(0, 3).map((job) => (
+                        <span key={job} className="homepage-light-chip">
+                          {copy.taskLabels[job] ?? job}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                </Link>
               ))}
             </div>
-            <div className="mt-6 rounded-[1.4rem] border border-[var(--border-soft)] bg-[var(--surface-strong)] px-4 py-3">
-              <p className="text-sm leading-6 text-[var(--ink-muted)]">
-                {locale === "zh-CN"
-                  ? "如果你已经知道要找什么，直接搜索最快。"
-                  : "If you already know what you want, search is the fastest path."}
-              </p>
-              <Link className="mt-2 inline-flex text-sm font-medium text-[var(--accent)]" href={prefixLocalePath("/skills", locale)}>
-                {locale === "zh-CN" ? "查看全部" : "See all skills"}
+
+            <div className="mt-5 flex justify-end">
+              <Link className="text-sm font-medium text-[var(--accent)]" href={prefixLocalePath("/roles", locale)}>
+                {locale === "zh-CN" ? "查看全部角色" : "See all roles"}
               </Link>
             </div>
           </div>
         </div>
+
+        <div className="homepage-section-dark mt-8 rounded-[2.2rem] p-6 sm:p-7 lg:p-8">
+              <div className="max-w-3xl">
+              <p className="homepage-task-kicker eyebrow">{locale === "zh-CN" ? "按结果找" : "Find by result"}</p>
+              <h2 className="display homepage-task-heading mt-4 text-4xl font-semibold tracking-[-0.04em] sm:text-5xl">
+                {locale === "zh-CN" ? "你想完成什么，就从什么开始。" : "Start from what you want to finish."}
+              </h2>
+              <p className="homepage-task-copy mt-4 max-w-2xl text-base leading-7">
+                {copy.home.taskIntro}
+              </p>
+            </div>
+
+            <div className="mt-8 grid gap-3 lg:grid-cols-2">
+              {taskCards.map((task, index) => (
+                <Link
+                  key={task.label}
+                  className="homepage-task-strip group flex items-start gap-4 rounded-[1.45rem] p-4 sm:p-5"
+                  href={task.href}
+                >
+                  <span className="homepage-task-index">{String(index + 1).padStart(2, "0")}</span>
+                  <div className="min-w-0 flex-1">
+                    <div className="flex items-start justify-between gap-3">
+                      <p className="homepage-task-title text-lg font-semibold leading-6">{task.label}</p>
+                      <span className="homepage-task-cta">{locale === "zh-CN" ? "进入" : "Open"}</span>
+                    </div>
+                    <p className="homepage-task-copy mt-2 text-sm leading-6">{task.summary}</p>
+                  </div>
+                </Link>
+              ))}
+            </div>
+
+            <div className="homepage-task-footer mt-6 flex flex-col items-start justify-between gap-4 rounded-[1.5rem] px-4 py-4 sm:flex-row sm:items-center">
+              <p className="homepage-task-copy max-w-md text-sm leading-6">
+                {locale === "zh-CN"
+                  ? "如果你已经知道目标，直接搜索会更快。"
+                  : "If you already know the goal, search is still the fastest path."}
+              </p>
+              <Link className="homepage-dark-cta shrink-0" href={prefixLocalePath("/skills", locale)}>
+                {locale === "zh-CN" ? "查看全部" : "See all skills"}
+              </Link>
+            </div>
+          </div>
       </section>
 
       <section className="surface-panel py-20 2xl:py-24">
@@ -435,31 +497,71 @@ export async function HomePage({ locale }: PageProps) {
             </p>
           </div>
 
-          <div className="mt-12 grid gap-5 lg:grid-cols-2 2xl:grid-cols-4 2xl:gap-6">
+          <div className="mt-12 grid gap-5 lg:grid-cols-12 2xl:gap-6">
             {featured.map((skill, index) => (
-              <GlareCard key={skill.slug} className="rounded-[2rem]">
+              <div
+                key={skill.slug}
+                className={`homepage-entry-card rounded-[2rem] border border-[var(--panel-outline)] bg-[var(--surface-strong)] ${
+                  index === 0
+                    ? "lg:col-span-6 lg:row-span-2"
+                    : index < 3
+                      ? "lg:col-span-3"
+                      : "lg:col-span-4"
+                }`}
+              >
                 <Link
-                  className="group surface-panel-soft block rounded-[2rem] p-6 transition hover:bg-[var(--panel-soft-hover)]"
+                  className={`group relative block h-full overflow-hidden rounded-[2rem] ${
+                    index === 0 ? "homepage-feature-hero p-7 lg:p-8" : "homepage-feature-card p-6"
+                  } ${
+                    index === 0 ? "min-h-[520px] lg:p-8" : "min-h-[240px]"
+                  }`}
                   href={prefixLocalePath(getSkillDetailPath(skill.slug, locale), locale)}
                   prefetch={false}
                 >
-                  <div className="flex items-start justify-between gap-4">
-                    <div>
-                      <p className="eyebrow surface-muted">
-                        {String(index + 1).padStart(2, "0")} · {skill.publisher}
-                      </p>
-                      <h3 className="surface-strong mt-4 text-2xl font-semibold">{skill.name}</h3>
+                  <div className="homepage-card-glow absolute -right-10 -top-10 h-36 w-36 rounded-full opacity-80" />
+                  <div className="homepage-card-glow-secondary absolute bottom-[-3rem] left-[-1rem] h-28 w-28 rounded-full opacity-65" />
+                  <div className="relative flex h-full flex-col">
+                    <div className="flex items-start justify-between gap-4">
+                      <div className="min-w-0">
+                        <div className="flex flex-wrap items-center gap-2">
+                          <span className="homepage-light-chip">
+                            {String(index + 1).padStart(2, "0")}
+                          </span>
+                          <span className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--ink-muted)]">
+                            {skill.publisher}
+                          </span>
+                        </div>
+                        <h3
+                          className={`surface-strong mt-4 font-semibold ${
+                            index === 0 ? "max-w-xl text-[2.5rem] leading-[1.02]" : "text-[1.7rem] leading-tight"
+                          }`}
+                        >
+                          {skill.name}
+                        </h3>
+                      </div>
                     </div>
-                    <span className="surface-panel-outline surface-muted rounded-full border px-3 py-1 text-xs uppercase tracking-[0.24em]">
-                      {skill.kind}
-                    </span>
-                  </div>
-                  <p className="muted mt-5 max-w-xl leading-7">{skill.description}</p>
-                  <div className="surface-muted mt-6 text-sm font-medium transition group-hover:surface-strong">
-                    {locale === "zh-CN" ? "打开 skill →" : "Open skill →"}
+
+                    <p
+                      className={`muted mt-5 max-w-xl leading-7 ${
+                        index === 0 ? "text-base" : "text-[15px]"
+                      }`}
+                    >
+                      {skill.description}
+                    </p>
+
+                    <div className="mt-auto pt-8">
+                      <div className="flex items-center justify-between gap-3 border-t border-[rgba(225,6,0,0.08)] pt-4">
+                        <span className="text-sm font-medium text-[var(--accent)]">
+                          {getTrustLevelLabel(skill.trustLevel, locale)}
+                        </span>
+                        <div className="surface-muted text-sm font-medium transition group-hover:surface-strong">
+                          {locale === "zh-CN" ? "打开 skill →" : "Open skill →"}
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </Link>
-              </GlareCard>
+              </div>
             ))}
           </div>
         </div>
@@ -468,77 +570,40 @@ export async function HomePage({ locale }: PageProps) {
       <section className="page-shell py-20 2xl:py-24">
         <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
           <div>
-            <p className="eyebrow text-[var(--accent)]">{locale === "zh-CN" ? "发布方" : "Publishers"}</p>
+            <p className="eyebrow text-[var(--accent)]">{locale === "zh-CN" ? "生态入口" : "Ecosystems"}</p>
             <h2 className="display mt-3 text-5xl font-semibold tracking-[-0.04em] 2xl:text-6xl">
-              {locale === "zh-CN" ? "如果你信任某个生态，就直接从那里开始。" : "If you trust an ecosystem, start there."}
+              {locale === "zh-CN" ? "先看你熟悉的生态，再点进去。" : "Start with the ecosystems you already know."}
             </h2>
             <p className="muted mt-4 max-w-2xl text-lg leading-8">
               {locale === "zh-CN"
-                ? "很多用户并不是先找 skill 名，而是先找熟悉的发布方。"
-                : "Many users start from the publisher they already know, not the exact skill name."}
+                ? "很多人不是先找 skill 名，而是先看自己熟悉的公司或平台。"
+                : "Many people start from the company or platform they already trust."}
             </p>
           </div>
           <Link className="text-sm font-medium text-[var(--accent)]" href={prefixLocalePath("/skills", locale)}>
             {locale === "zh-CN" ? "查看全部" : "See all skills"}
           </Link>
         </div>
-        <p className="muted mt-6 max-w-3xl text-base leading-7">
-          {locale === "zh-CN"
-            ? "先扫一眼常见发布方，再点进你熟悉或更信任的那一个。"
-            : "Scan the major publishers first, then jump into the one you already know or trust most."}
-        </p>
-      </section>
-
-      <section className="page-shell py-6 pb-14">
-        <div className="surface-panel rounded-[2rem] p-6 sm:p-7">
-          <div className="flex items-end justify-between gap-4">
-            <div>
-              <p className="eyebrow text-[var(--accent)]">
-                {locale === "zh-CN" ? "来自 LionSaid 的其他站点" : "More from LionSaid"}
-              </p>
-              <h2 className="display mt-3 text-4xl font-semibold tracking-[-0.04em] sm:text-5xl">
-                {locale === "zh-CN" ? "如果你想换个轻松点的入口，也可以顺手看看。" : "If you want a lighter detour, these are worth a quick look."}
-              </h2>
-            </div>
-          </div>
-
-          <div className="mt-8 grid gap-4 md:grid-cols-2">
-            <a
-              className="glass group block rounded-[1.75rem] border border-[var(--border-soft)] p-6 transition hover:-translate-y-0.5 hover:border-[var(--accent)]"
-              href="https://sudoku.lionsaid.com/"
-              rel="noreferrer"
-              target="_blank"
+        <div className="mt-8 grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
+          {ecosystemPublishers.map((publisher) => (
+            <Link
+              key={publisher.slug}
+              className="homepage-entry-card flex min-h-[160px] flex-col justify-between rounded-[1.55rem] border border-[var(--panel-outline)] bg-[var(--surface-strong)] p-5 transition hover:-translate-y-0.5 hover:border-[var(--accent-soft)] hover:shadow-[0_24px_54px_rgba(56,49,36,0.12)]"
+              href={prefixLocalePath(`/skills?publisher=${publisher.slug}`, locale)}
             >
-              <p className="eyebrow muted">Sudoku</p>
-              <h3 className="mt-3 text-2xl font-semibold">Sudoku.lionsaid.com</h3>
-              <p className="muted mt-3 max-w-xl leading-7">
-                {locale === "zh-CN"
-                  ? "想休息一下的时候，去做一盘数独。"
-                  : "Take a short break and solve a quick puzzle."}
-              </p>
-              <div className="mt-5 text-sm font-medium text-[var(--accent)]">
-                {locale === "zh-CN" ? "打开数独 →" : "Open Sudoku →"}
+              <div>
+                <p className="homepage-mini-kicker">
+                  {publisher.count} {locale === "zh-CN" ? "个 skill" : "skills"}
+                </p>
+                <div className="mt-4">
+                  <PublisherLogo name={publisher.name} size="sm" slug={publisher.slug} />
+                </div>
               </div>
-            </a>
-
-            <a
-              className="glass group block rounded-[1.75rem] border border-[var(--border-soft)] p-6 transition hover:-translate-y-0.5 hover:border-[var(--accent)]"
-              href="https://copybook.lionsaid.com/"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <p className="eyebrow muted">Copybook</p>
-              <h3 className="mt-3 text-2xl font-semibold">Copybook.lionsaid.com</h3>
-              <p className="muted mt-3 max-w-xl leading-7">
-                {locale === "zh-CN"
-                  ? "适合顺手收集、记录和整理内容。"
-                  : "A simple place to capture and organize notes."}
-              </p>
-              <div className="mt-5 text-sm font-medium text-[var(--accent)]">
-                {locale === "zh-CN" ? "打开 Copybook →" : "Open Copybook →"}
-              </div>
-            </a>
-          </div>
+              <span className="homepage-inline-link">
+                {locale === "zh-CN" ? "进入生态" : "Open ecosystem"}
+              </span>
+            </Link>
+          ))}
         </div>
       </section>
 

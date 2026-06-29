@@ -148,7 +148,7 @@ export function SiteHeader({ currentPath = "/", locale }: SiteHeaderProps) {
               <div className={`min-w-0 transition-all duration-300 ${compact ? "max-w-[11rem]" : "max-w-[16rem]"}`}>
                 <p className="truncate font-medium">LionSaid Skills</p>
                 <p className={`muted truncate text-xs transition-all duration-300 ${compact ? "opacity-0" : "opacity-100"}`}>
-                  {locale === "zh-CN" ? "更快找到合适的 skill" : "Find useful skills faster"}
+                  {locale === "zh-CN" ? "更快找到适合你的 skill" : "Find the right skill faster"}
                 </p>
               </div>
             </Link>

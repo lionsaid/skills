@@ -12,6 +12,13 @@ import type {
 
 export type { SkillCatalogFilterState, SkillFilterKind, SkillSort, SkillTrustFilter };
 
+export type ParsedSearchQuery = {
+  normalized: string;
+  compact: string;
+  tokens: string[];
+  shouldCompactMatch: boolean;
+};
+
 const roleDefinitions = roleDefinitionsData as RoleDefinition[];
 
 export function canFallbackToPublisherInitials(slug: string) {
@@ -102,4 +109,85 @@ export function expandQueryAliases(query: string) {
     .map(([job]) => job);
 
   return [...new Set(matchedJobs)].sort();
+}
+
+export function parseSearchQuery(query: string): ParsedSearchQuery {
+  const normalized = query
+    .trim()
+    .toLowerCase()
+    .replace(/\s+/g, " ");
+
+  if (!normalized) {
+    return { normalized: "", compact: "", tokens: [], shouldCompactMatch: false };
+  }
+
+  const rawTokens = normalized
+    .split(/[\s/|,_-]+/)
+    .map((token) => token.trim())
+    .filter(Boolean);
+
+  const compact = normalized.replace(/\s+/g, "");
+  const singleCharOnly = rawTokens.every((token) => token.length === 1);
+
+  const tokens = Array.from(
+    new Set(
+      rawTokens.filter((token) => {
+        if (/[\u4e00-\u9fff]/.test(token)) {
+          return token.length >= 1;
+        }
+
+        if (singleCharOnly) {
+          return false;
+        }
+
+        return token.length >= 2;
+      }),
+    ),
+  );
+
+  return {
+    normalized,
+    compact,
+    tokens,
+    shouldCompactMatch: !singleCharOnly && compact.length >= 3,
+  };
+}
+
+export function matchesSearchQuery(
+  fields: string[],
+  parsedQuery: ParsedSearchQuery,
+  expandedAliases: string[] = [],
+) {
+  if (!parsedQuery.normalized) {
+    return true;
+  }
+
+  const haystacks = fields
+    .map((field) => field.toLowerCase())
+    .filter(Boolean);
+
+  if (haystacks.some((field) => field.includes(parsedQuery.normalized))) {
+    return true;
+  }
+
+  if (
+    parsedQuery.shouldCompactMatch &&
+    parsedQuery.compact &&
+    parsedQuery.compact !== parsedQuery.normalized &&
+    haystacks.some((field) => field.replace(/\s+/g, "").includes(parsedQuery.compact))
+  ) {
+    return true;
+  }
+
+  if (parsedQuery.tokens.length > 0) {
+    const tokenMatched = parsedQuery.tokens.every((token) =>
+      haystacks.some((field) => field.includes(token)),
+    );
+
+    if (tokenMatched) {
+      return true;
+    }
+  }
+
+  return expandedAliases.length > 0;
 }

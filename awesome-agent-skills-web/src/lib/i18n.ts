@@ -124,6 +124,7 @@ type Copy = {
     roleIntro: string;
     taskIntro: string;
     featuredIntro: string;
+    goalExamples: string[];
   };
   roles: {
     eyebrow: string;
@@ -185,8 +186,8 @@ type Copy = {
 const commonEn: Copy = {
   nav: {
     home: "Home",
-    browseSkills: "Browse Skills",
-    roles: "Roles",
+    browseSkills: "Find Skills",
+    roles: "By Role",
     github: "GitHub",
   },
   language: {
@@ -198,7 +199,7 @@ const commonEn: Copy = {
     eyebrow: "Skill discovery",
     title: "Find a skill you can actually use.",
     subtitle:
-      "Search directly, start from your role, or begin with a task. The point is to help you get to a useful skill faster.",
+      "Search directly, start from your role, or begin from a goal you care about. The point is to help you get to something useful faster.",
     searchPlaceholder: "Search by skill, company, or task",
     searchButton: "Search skills",
     stats: {
@@ -207,21 +208,27 @@ const commonEn: Copy = {
       official: "official",
       community: "community",
     },
-    rolesHeading: "Start from your role.",
-    tasksHeading: "Or start from the task.",
-    featuredHeading: "Start with strong options that are worth opening first.",
+    rolesHeading: "Start from your role, hobby, or goal.",
+    tasksHeading: "Or start from the result you want.",
+    featuredHeading: "Start with the skills most likely to help first.",
     roleIntro:
-      "Most people do not know which company published the skill. They just know the job they need to get done. Start there.",
+      "Most people only know the outcome they want: a cleaner weekly report, a better pitch deck, a photo workflow that feels easier, or a travel plan they can actually finish. Start there.",
     taskIntro:
-      "If you already know the task, this is usually the fastest way to find something useful.",
+      "If you already know the job, this is the fastest way to get to something concrete.",
     featuredIntro:
-      "These are good starting points when you want to move quickly.",
+      "These are good starting points when you want to move quickly and see a result sooner.",
+    goalExamples: [
+      "Ship a cleaner weekly report",
+      "Make a better pitch deck",
+      "Build a travel planner for your next trip",
+      "Organize photos or notes more easily",
+    ],
   },
   roles: {
     eyebrow: "Find by role",
     title: "Start from the job you need done.",
     subtitle:
-      "Pick the role closest to your work and start with the skills most likely to help.",
+      "Pick the closest starting point and open the skills most likely to help.",
     openCatalog: "See all skills",
     officialOnly: "From official teams",
     allRoles: "All roles",
@@ -230,7 +237,7 @@ const commonEn: Copy = {
     openRole: "Open role",
     viewAllSkills: "See all skills",
     taskHeading: "Common tasks",
-    taskIntro: "Pick a task when you know what you need to do but not which skill to open.",
+    taskIntro: "Pick a task when you know the outcome you want, but not which skill to open yet.",
     openAllRoleCatalog: "Find by task",
   },
   skills: {
@@ -393,8 +400,8 @@ const commonEn: Copy = {
 const commonZh: Copy = {
   nav: {
     home: "首页",
-    browseSkills: "浏览技能",
-    roles: "角色",
+    browseSkills: "找技能",
+    roles: "按角色",
     github: "GitHub",
   },
   language: {
@@ -404,9 +411,9 @@ const commonZh: Copy = {
   },
   home: {
     eyebrow: "技能发现",
-    title: "先找到能直接用的 skill。",
+    title: "先把想做的事，变成能完成的结果。",
     subtitle:
-      "你可以直接搜索，也可以按角色或任务开始找。目的很简单：少走弯路，更快找到合适的 skill。",
+      "你可以直接搜索，也可以从角色、任务，甚至一个兴趣或目标开始找。目的很简单：少走弯路，更快看到结果。",
     searchPlaceholder: "按 skill、发布方或使用场景搜索",
     searchButton: "搜索 skill",
     stats: {
@@ -415,21 +422,27 @@ const commonZh: Copy = {
       official: "官方",
       community: "社区",
     },
-    rolesHeading: "从你的角色开始。",
-    tasksHeading: "或者直接按任务找。",
-    featuredHeading: "先从更值得打开的 skill 开始。",
+    rolesHeading: "从你的角色、兴趣或目标开始。",
+    tasksHeading: "或者直接从你想要的结果开始。",
+    featuredHeading: "先看最值得打开的 skill。",
     roleIntro:
-      "大多数人并不知道该找哪家公司出的 skill，只知道自己要做什么工作。那就先从角色开始。",
+      "很多人不只是来找工作上的技能，也可能是想把周报做得更漂亮、把旅行计划整理好、把摄影或写作变得更顺手。先从你想实现的结果开始。",
     taskIntro:
-      "如果你已经知道要做的任务，从这里开始通常会更快找到合适的 skill。",
+      "如果你已经知道要做什么，这里通常能更快找到可以直接用的 skill。",
     featuredIntro:
-      "如果你想更快开始，可以先从这些推荐看起。",
+      "如果你想更快看到成果，可以先从这些推荐看起。",
+    goalExamples: [
+      "把周报做得更清楚",
+      "把旅行计划整理得更顺手",
+      "把摄影、写作或剪辑流程变简单",
+      "把日常重复工作变得更省时间",
+    ],
   },
   roles: {
     eyebrow: "按角色浏览",
     title: "从你要完成的工作开始。",
     subtitle:
-      "先选最接近你的角色，再从最可能有帮助的 skill 开始。",
+      "先选最接近你的起点，再从最可能有帮助的 skill 开始。",
     openCatalog: "查看全部",
     officialOnly: "只看官方出品",
     allRoles: "全部角色",

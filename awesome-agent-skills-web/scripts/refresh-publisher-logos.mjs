@@ -16,8 +16,6 @@ function readJson(filePath) {
 }
 
 const publisherRules = readJson(publisherRulesPath);
-const allowedKinds = new Set(publisherRules.logoAllowedKinds ?? []);
-const allowedSourceTypes = new Set(publisherRules.logoAllowedSourceTypes ?? []);
 const allowedPublisherSlugs = new Set(publisherRules.logoAllowedPublisherSlugs ?? []);
 const writeOnly = process.argv.includes("--write-only");
 
@@ -27,11 +25,9 @@ function getPublishers() {
   const publishers = new Map();
 
   for (const skill of skills) {
-    const isAllowedByKind = allowedKinds.has(skill.kind);
-    const isAllowedBySourceType = allowedSourceTypes.has(skill.sourceType);
     const isAllowedBySlug = allowedPublisherSlugs.has(skill.publisherSlug);
 
-    if (!isAllowedBySlug && !(isAllowedByKind && isAllowedBySourceType)) {
+    if (!isAllowedBySlug) {
       continue;
     }
 

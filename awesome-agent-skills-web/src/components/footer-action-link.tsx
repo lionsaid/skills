@@ -8,7 +8,7 @@ export function FooterActionLink({
   return (
     <a
       href={href}
-      className="footer-link inline-flex w-fit items-center rounded-full border border-[color:var(--footer-border)] px-3 py-1.5 text-left text-sm font-medium transition hover:bg-black/[0.03] dark:hover:bg-white/[0.06]"
+      className="footer-link text-sm transition"
     >
       {label}
     </a>

@@ -1,18 +1,16 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { PublisherLogo } from "@/components/publisher-logo";
 import { SkillAvatar } from "@/components/skill-avatar";
 import { useEffect, useMemo, useRef, useState, useTransition } from "react";
 import type { PublisherSummary, SkillCatalogIndexItem, SkillCatalogItem, Skill } from "@/lib/skill-types";
-import { getRoles, getSourceTypeLabel, getTrustLevelLabel, isPriorityPublisher } from "@/lib/skills-common";
+import { getRoles, getSourceTypeLabel, getTrustLevelLabel, isPriorityPublisher, matchesSearchQuery, parseSearchQuery } from "@/lib/skills-common";
 import { getCopy, getSkillDetailPath, prefixLocalePath, type Locale } from "@/lib/i18n";
 import { expandQueryAliases as expandQueryAliasesLight, type SkillFilterKind, type SkillSort, type SkillTrustFilter } from "@/lib/skills-common";
 
 const PAGE_SIZE = 36;
 const DEFAULT_CHUNK_SIZE = 120;
-const AUTO_LOAD_PAUSED_STORAGE_KEY = "lionsaid-skills-auto-load-paused";
 
 type SkillsCatalogProps = {
   locale?: Locale;
@@ -79,21 +77,6 @@ type SkillsCatalogIndexPayload = {
       ]
   >;
 };
-
-function sortSkills(skills: SkillCatalogItem[], sort: SkillSort) {
-  const sorted = [...skills];
-
-  if (sort === "name") {
-    sorted.sort((a, b) => a.name.localeCompare(b.name));
-  } else if (sort === "publisher") {
-    sorted.sort((a, b) => {
-      const publisherOrder = a.publisher.localeCompare(b.publisher);
-      return publisherOrder === 0 ? a.name.localeCompare(b.name) : publisherOrder;
-    });
-  }
-
-  return sorted;
-}
 
 function sortIndexSkills(skills: SkillCatalogIndexItem[], sort: SkillSort) {
   const sorted = [...skills];
@@ -189,27 +172,6 @@ function getSourceTone(sourceType: Skill["sourceType"]) {
   }
 
   return "border-[#d8e0ea] bg-[#f6f8fb] text-[#556577]";
-}
-
-function FilterIcon() {
-  return (
-    <svg
-      aria-hidden="true"
-      fill="none"
-      height="18"
-      viewBox="0 0 24 24"
-      width="18"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M4 6h16M7 12h10M10 18h4"
-        stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth="1.8"
-      />
-    </svg>
-  );
 }
 
 function SearchIcon() {
@@ -459,30 +421,17 @@ export function SkillsCatalog({
   initialSkills,
   totalSkills,
 }: SkillsCatalogProps) {
-  const router = useRouter();
-  const pathname = usePathname();
-  const searchParams = useSearchParams();
   const copy = getCopy(locale);
-  const queryParam = searchParams.get("q")?.trim() ?? initialQuery;
-  const publisherParam = searchParams.get("publisher")?.trim() ?? initialPublisher;
-  const kindParam = searchParams.get("kind") as SkillFilterKind | null;
-  const sortParam = searchParams.get("sort") as SkillSort | null;
-  const trustParam = searchParams.get("trust") as SkillTrustFilter | null;
-  const enterpriseParam = searchParams.get("enterprise");
-  const excludeMarketplaceParam = searchParams.get("excludeMarketplace");
-  const personaParam = searchParams.get("persona")?.trim() ?? initialPersona;
-  const jobParam = searchParams.get("job")?.trim() ?? initialJob;
-  const pageParam = Number.parseInt(searchParams.get("page") ?? "1", 10);
-  const [query, setQuery] = useState(queryParam);
-  const [kind, setKind] = useState<SkillFilterKind>(kindParam ?? initialKind);
-  const [publisher, setPublisher] = useState(publisherParam);
-  const [sort, setSort] = useState<SkillSort>(sortParam ?? initialSort);
-  const [trustFilter, setTrustFilter] = useState<SkillTrustFilter>(trustParam ?? initialTrustFilter);
-  const [enterpriseOnly, setEnterpriseOnly] = useState(enterpriseParam === "1" || initialEnterpriseOnly);
-  const [excludeMarketplace, setExcludeMarketplace] = useState(excludeMarketplaceParam === "1" || initialExcludeMarketplace);
-  const [persona, setPersona] = useState(personaParam);
-  const [job, setJob] = useState(jobParam);
-  const [page, setPage] = useState(Number.isFinite(pageParam) && pageParam > 0 ? pageParam : 1);
+  const [query, setQuery] = useState(initialQuery);
+  const [kind, setKind] = useState<SkillFilterKind>(initialKind);
+  const [publisher, setPublisher] = useState(initialPublisher);
+  const [sort, setSort] = useState<SkillSort>(initialSort);
+  const [trustFilter, setTrustFilter] = useState<SkillTrustFilter>(initialTrustFilter);
+  const [enterpriseOnly, setEnterpriseOnly] = useState(initialEnterpriseOnly);
+  const [excludeMarketplace, setExcludeMarketplace] = useState(initialExcludeMarketplace);
+  const [persona, setPersona] = useState(initialPersona);
+  const [job, setJob] = useState(initialJob);
+  const [page, setPage] = useState(1);
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
   const [draftKind, setDraftKind] = useState<SkillFilterKind>(initialKind);
   const [draftPublisher, setDraftPublisher] = useState(initialPublisher);
@@ -510,7 +459,6 @@ export function SkillsCatalog({
   );
   const [catalogSkills, setCatalogSkills] = useState<SkillCatalogItem[]>(initialSkills);
   const [catalogLoaded, setCatalogLoaded] = useState(initialSkills.length >= totalSkills);
-  const [catalogChunkSize, setCatalogChunkSize] = useState(DEFAULT_CHUNK_SIZE);
   const [catalogVersion, setCatalogVersion] = useState<string | null>(null);
   const [loadedChunkIndexes, setLoadedChunkIndexes] = useState<Set<number>>(() => new Set());
   const [repoStatsBySlug, setRepoStatsBySlug] = useState<Record<string, RepoStats>>(() =>
@@ -524,17 +472,8 @@ export function SkillsCatalog({
       ]),
     ),
   );
-  const sentinelRef = useRef<HTMLDivElement | null>(null);
   const listScrollRef = useRef<HTMLDivElement | null>(null);
   const searchBarRef = useRef<HTMLDivElement | null>(null);
-  const hasUserScrolledRef = useRef(false);
-  const autoLoadPausedRef = useRef(
-    typeof window !== "undefined" &&
-      window.sessionStorage.getItem(AUTO_LOAD_PAUSED_STORAGE_KEY) === "1",
-  );
-  const manualPaginationLockUntilRef = useRef(0);
-  const resumeAutoLoadOnInteractionRef = useRef(false);
-  const lastScrollYRef = useRef(0);
   const [showBackToSearch, setShowBackToSearch] = useState(false);
   const [, startTransition] = useTransition();
 
@@ -543,16 +482,10 @@ export function SkillsCatalog({
 
     async function loadCatalogIndex() {
       try {
-        const [manifestResponse, indexResponse] = await Promise.all([
-          fetch("/data/skills-catalog/manifest.json", {
-            cache: "no-store",
-            signal: controller.signal,
-          }),
-          fetch("/data/skills-catalog/manifest.json", {
-            cache: "no-store",
-            signal: controller.signal,
-          }),
-        ]);
+        const manifestResponse = await fetch("/data/skills-catalog/manifest.json", {
+          cache: "no-store",
+          signal: controller.signal,
+        });
 
         if (!manifestResponse.ok) {
           throw new Error(`Failed to load skills manifest: ${manifestResponse.status}`);
@@ -574,9 +507,6 @@ export function SkillsCatalog({
 
         const indexPayload = (await indexResponseWithVersion.json()) as SkillsCatalogIndexPayload;
         if (!controller.signal.aborted) {
-          if (typeof manifestPayload.chunkSize === "number" && manifestPayload.chunkSize > 0) {
-            setCatalogChunkSize(manifestPayload.chunkSize);
-          }
           setCatalogVersion(version);
           setCatalogIndex(indexPayload.items.map((item) => decodeCatalogIndexItem(item)));
           setLoadedChunkIndexes(new Set());
@@ -594,47 +524,23 @@ export function SkillsCatalog({
     return () => controller.abort();
   }, [initialSkills, totalSkills]);
 
-  useEffect(() => {
-    const normalizedPage = Number.isFinite(pageParam) && pageParam > 0 ? pageParam : 1;
-    setPage(normalizedPage);
-  }, [pageParam]);
-
-  useEffect(() => {
-    const params = new URLSearchParams();
-    if (query) params.set("q", query);
-    if (kind !== "all") params.set("kind", kind);
-    if (publisher !== "all") params.set("publisher", publisher);
-    if (sort !== "featured") params.set("sort", sort);
-    if (trustFilter !== "all") params.set("trust", trustFilter);
-    if (enterpriseOnly) params.set("enterprise", "1");
-    if (excludeMarketplace) params.set("excludeMarketplace", "1");
-    if (persona !== "all") params.set("persona", persona);
-    if (job !== "all") params.set("job", job);
-    if (page > 1) params.set("page", String(page));
-
-    const nextUrl = params.toString() ? `/skills?${params.toString()}` : "/skills";
-    const localizedNextUrl = prefixLocalePath(nextUrl, locale);
-    const currentUrl = `${pathname}${searchParams.toString() ? `?${searchParams.toString()}` : ""}`;
-
-    if (currentUrl !== localizedNextUrl) {
-      router.replace(localizedNextUrl, { scroll: false });
-    }
-  }, [query, kind, publisher, sort, trustFilter, enterpriseOnly, excludeMarketplace, persona, job, page, locale, pathname, router, searchParams]);
-
   const filteredIndexSkills = useMemo(() => {
-    const normalizedQuery = query.trim().toLowerCase();
-    const expandedJobs = expandQueryAliasesLight(normalizedQuery);
+    const parsedQuery = parseSearchQuery(query);
+    const expandedJobs = expandQueryAliasesLight(parsedQuery.normalized);
 
     const subset = catalogIndex.filter((skill) => {
-      const matchesQuery =
-        !normalizedQuery ||
-        skill.name.toLowerCase().includes(normalizedQuery) ||
-        skill.description.toLowerCase().includes(normalizedQuery) ||
-        skill.publisher.toLowerCase().includes(normalizedQuery) ||
-        skill.tags.some((tag) => tag.includes(normalizedQuery)) ||
-        skill.personas.some((value) => value.includes(normalizedQuery)) ||
-        skill.jobs.some((value) => value.includes(normalizedQuery)) ||
-        expandedJobs.some((matchedJob) => skill.jobs.includes(matchedJob));
+      const matchesQuery = matchesSearchQuery(
+        [
+          skill.name,
+          skill.description,
+          skill.publisher,
+          ...skill.tags,
+          ...skill.personas,
+          ...skill.jobs,
+        ],
+        parsedQuery,
+        expandedJobs.filter((matchedJob) => skill.jobs.includes(matchedJob)),
+      );
 
       const matchesPublisher =
         publisher === "all" || skill.publisherSlug === publisher;
@@ -681,118 +587,6 @@ export function SkillsCatalog({
       .map((skill) => bySlug.get(skill.slug))
       .filter((skill): skill is SkillCatalogItem => Boolean(skill));
   }, [catalogSkills, currentPageIndexSkills]);
-  const currentPageComplete = visibleSkills.length === currentPageIndexSkills.length;
-
-  useEffect(() => {
-    if (page !== safePage) {
-      setPage(safePage);
-    }
-  }, [page, safePage]);
-
-  useEffect(() => {
-    hasUserScrolledRef.current = false;
-    autoLoadPausedRef.current = false;
-    resumeAutoLoadOnInteractionRef.current = false;
-    lastScrollYRef.current = 0;
-    if (typeof window !== "undefined") {
-      window.sessionStorage.removeItem(AUTO_LOAD_PAUSED_STORAGE_KEY);
-    }
-  }, [query, kind, publisher, sort, trustFilter, enterpriseOnly, excludeMarketplace, persona, job]);
-
-  useEffect(() => {
-    function handleScroll() {
-      const currentScrollY = window.scrollY;
-      if (currentScrollY > 120) {
-        hasUserScrolledRef.current = true;
-      }
-
-      lastScrollYRef.current = currentScrollY;
-    }
-
-    window.addEventListener("scroll", handleScroll, { passive: true });
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
-  useEffect(() => {
-    function resumeAutoLoad() {
-      if (!resumeAutoLoadOnInteractionRef.current) {
-        return;
-      }
-
-      hasUserScrolledRef.current = true;
-      autoLoadPausedRef.current = false;
-      manualPaginationLockUntilRef.current = 0;
-      resumeAutoLoadOnInteractionRef.current = false;
-      window.sessionStorage.removeItem(AUTO_LOAD_PAUSED_STORAGE_KEY);
-    }
-
-    function handleKeyDown(event: KeyboardEvent) {
-      if (
-        event.key === "ArrowDown" ||
-        event.key === "ArrowUp" ||
-        event.key === "PageDown" ||
-        event.key === "PageUp" ||
-        event.key === "Home" ||
-        event.key === "End" ||
-        event.key === " "
-      ) {
-        resumeAutoLoad();
-      }
-    }
-
-    window.addEventListener("wheel", resumeAutoLoad, { passive: true });
-    window.addEventListener("touchmove", resumeAutoLoad, { passive: true });
-    window.addEventListener("keydown", handleKeyDown);
-
-    return () => {
-      window.removeEventListener("wheel", resumeAutoLoad);
-      window.removeEventListener("touchmove", resumeAutoLoad);
-      window.removeEventListener("keydown", handleKeyDown);
-    };
-  }, []);
-
-  useEffect(() => {
-    const sentinel = sentinelRef.current;
-
-    if (!sentinel || safePage >= totalPages) {
-      return;
-    }
-
-    let locked = false;
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const [entry] = entries;
-        if (
-          !entry?.isIntersecting ||
-          locked ||
-          !hasUserScrolledRef.current ||
-          autoLoadPausedRef.current ||
-          Date.now() < manualPaginationLockUntilRef.current
-        ) {
-          return;
-        }
-
-        locked = true;
-        setPage((current) => {
-          const nextPage = Math.min(totalPages, current + 1);
-          return nextPage;
-        });
-
-        window.setTimeout(() => {
-          locked = false;
-        }, 180);
-      },
-      {
-        root: null,
-        rootMargin: "480px 0px",
-      },
-    );
-
-    observer.observe(sentinel);
-
-    return () => observer.disconnect();
-  }, [safePage, totalPages]);
-
   useEffect(() => {
     const controller = new AbortController();
 
@@ -908,14 +702,14 @@ export function SkillsCatalog({
   const headerResultsLabel = hasActiveSearchOrFilter
     ? catalogLoaded
       ? locale === "zh-CN"
-        ? `已自动加载到第 ${safePage} 页，当前显示 ${visibleSkills.length} / ${filteredIndexSkills.length} 个结果`
-        : `Auto-loaded to page ${safePage}, showing ${visibleSkills.length} of ${filteredIndexSkills.length} results`
+        ? `当前显示第 ${safePage} 页，已展示 ${visibleSkills.length} / ${filteredIndexSkills.length} 个结果`
+        : `Showing page ${safePage}, with ${visibleSkills.length} of ${filteredIndexSkills.length} results`
       : locale === "zh-CN"
-        ? `已自动加载到第 ${safePage} 页，当前显示 ${visibleSkills.length} 个结果，正在从 ${formatFullNumber(totalSkills, locale)} 个已索引 skill 中继续筛选`
-        : `Auto-loaded to page ${safePage}, showing ${visibleSkills.length} results while filtering across ${formatFullNumber(totalSkills, locale)} indexed skills`
+        ? `当前显示第 ${safePage} 页，已展示 ${visibleSkills.length} 个结果，正在从 ${formatFullNumber(totalSkills, locale)} 个已索引 skill 中继续筛选`
+        : `Showing page ${safePage}, with ${visibleSkills.length} results while filtering across ${formatFullNumber(totalSkills, locale)} indexed skills`
     : locale === "zh-CN"
-      ? `已自动加载到第 ${safePage} 页，当前显示 ${visibleSkills.length} / ${formatFullNumber(totalSkills, locale)} 个已索引 skill`
-      : `Auto-loaded to page ${safePage}, showing ${visibleSkills.length} of ${formatFullNumber(totalSkills, locale)} indexed skills`;
+      ? `当前显示第 ${safePage} 页，已展示 ${visibleSkills.length} / ${formatFullNumber(totalSkills, locale)} 个已索引 skill`
+      : `Showing page ${safePage}, with ${visibleSkills.length} of ${formatFullNumber(totalSkills, locale)} indexed skills`;
   const desktopResultsLabel = hasActiveSearchOrFilter
     ? catalogLoaded
       ? locale === "zh-CN"
@@ -1524,13 +1318,6 @@ export function SkillsCatalog({
                       <button
                         className="inline-flex min-w-[11rem] items-center justify-center rounded-full border border-[var(--accent)] bg-[var(--accent)] px-5 py-3 text-sm font-medium text-white shadow-[0_12px_26px_rgba(225,6,0,0.22)] transition hover:opacity-95"
                         onClick={() => {
-                          autoLoadPausedRef.current = true;
-                          hasUserScrolledRef.current = false;
-                          manualPaginationLockUntilRef.current = Date.now() + 2000;
-                          resumeAutoLoadOnInteractionRef.current = true;
-                          if (typeof window !== "undefined") {
-                            window.sessionStorage.setItem(AUTO_LOAD_PAUSED_STORAGE_KEY, "1");
-                          }
                           setPage((current) => Math.min(totalPages, Math.max(current, safePage) + 1));
                         }}
                         type="button"
@@ -1544,7 +1331,6 @@ export function SkillsCatalog({
                     )}
                   </div>
                 ) : null}
-                {safePage < totalPages ? <div aria-hidden="true" ref={sentinelRef} className="h-6" /> : null}
               </div>
             </div>
 

@@ -3,6 +3,7 @@ import repoStatsData from "@/data/repo-stats.generated.json";
 import jobAliasesData from "@/../config/job-aliases.json";
 import publisherRulesData from "@/../config/publisher-rules.json";
 import roleDefinitionsData from "@/../config/role-definitions.json";
+import { matchesSearchQuery, parseSearchQuery } from "@/lib/skills-common";
 
 export type Skill = {
   slug: string;
@@ -1004,19 +1005,22 @@ export function expandQueryAliases(query: string) {
 }
 
 export function filterSkills(skills: Skill[], filters: SkillCatalogFilterState) {
-  const normalizedQuery = filters.query.trim().toLowerCase();
-  const expandedJobs = expandQueryAliases(normalizedQuery);
+  const parsedQuery = parseSearchQuery(filters.query);
+  const expandedJobs = expandQueryAliases(parsedQuery.normalized);
 
   const subset = skills.filter((skill) => {
-    const matchesQuery =
-      !normalizedQuery ||
-      skill.name.toLowerCase().includes(normalizedQuery) ||
-      skill.description.toLowerCase().includes(normalizedQuery) ||
-      skill.publisher.toLowerCase().includes(normalizedQuery) ||
-      skill.tags.some((tag) => tag.includes(normalizedQuery)) ||
-      skill.personas.some((value) => value.includes(normalizedQuery)) ||
-      skill.jobs.some((value) => value.includes(normalizedQuery)) ||
-      expandedJobs.some((matchedJob) => skill.jobs.includes(matchedJob));
+    const matchesQuery = matchesSearchQuery(
+      [
+        skill.name,
+        skill.description,
+        skill.publisher,
+        ...skill.tags,
+        ...skill.personas,
+        ...skill.jobs,
+      ],
+      parsedQuery,
+      expandedJobs.filter((matchedJob) => skill.jobs.includes(matchedJob)),
+    );
 
     const matchesPublisher =
       filters.publisher === "all" || skill.publisherSlug === filters.publisher;
