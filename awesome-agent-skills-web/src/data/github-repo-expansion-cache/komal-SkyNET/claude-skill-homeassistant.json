@@ -9,13 +9,27 @@
     {
       "repository": "komal-SkyNET/claude-skill-homeassistant",
       "branch": "main",
+      "skillName": "claude-skill-homeassistant",
+      "path": "README.md",
+      "url": "https://github.com/komal-SkyNET/claude-skill-homeassistant",
+      "description": "Discovered from a public GitHub repository: komal-SkyNET/claude-skill-homeassistant",
+      "slug": "komal-skynet-claude-skill-homeassistant-collection",
+      "isCollection": true,
+      "stars": null,
+      "skillPaths": [
+        "skills/home-assistant-manager/SKILL.md"
+      ]
+    },
+    {
+      "repository": "komal-SkyNET/claude-skill-homeassistant",
+      "branch": "main",
       "skillName": "home-assistant-manager",
       "path": "skills/home-assistant-manager/SKILL.md",
       "url": "https://github.com/komal-SkyNET/claude-skill-homeassistant/blob/main/skills/home-assistant-manager/SKILL.md",
-      "description": "Discovered from a public GitHub repository: komal-SkyNET/claude-skill-homeassistant",
+      "description": "Manage Home Assistant configuration safely and fast — edit and deploy YAML (automations, scripts, scenes, templates, MQTT), validate with ha core check, deploy via git or rapid scp, reload-vs-restart correctly, verify changes from logs and entity state, and build Lovelace dashboards. Use for any Home Assistant config, automation, template, or dashboard work over SSH/hass-cli/MCP.",
       "slug": "komal-skynet-home-assistant-manager"
     }
   ],
-  "itemCount": 1,
-  "lastStatus": "reused-unchanged"
+  "itemCount": 2,
+  "lastStatus": "cache-fresh"
 }

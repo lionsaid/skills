@@ -9,10 +9,31 @@
     {
       "repository": "NoizAI/skills",
       "branch": "main",
+      "skillName": "skills",
+      "path": "README.md",
+      "url": "https://github.com/NoizAI/skills",
+      "description": "Discovered from a public GitHub repository: NoizAI/skills",
+      "slug": "noizai-skills-collection",
+      "isCollection": true,
+      "stars": null,
+      "skillPaths": [
+        "skills/characteristic-voice/SKILL.md",
+        "skills/chat-with-anyone/SKILL.md",
+        "skills/daily-news-caster/SKILL.md",
+        "skills/sound-fx/SKILL.md",
+        "skills/speech-to-text/SKILL.md",
+        "skills/template-skill/SKILL.md",
+        "skills/tts/SKILL.md",
+        "skills/video-translation/SKILL.md"
+      ]
+    },
+    {
+      "repository": "NoizAI/skills",
+      "branch": "main",
       "skillName": "characteristic-voice",
       "path": "skills/characteristic-voice/SKILL.md",
       "url": "https://github.com/NoizAI/skills/blob/main/skills/characteristic-voice/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NoizAI/skills",
+      "description": "Use this skill whenever the user wants speech to sound more human, companion-like, or emotionally expressive. Triggers include: any mention of 'say like', 'talk like', 'speak like', 'companion voice', 'comfort me', 'cheer me up', 'sound more human', 'good night voice', 'good morning voice', or requests to add fillers, emotion, or personality to generated speech. Also use when the user wants to mimic a specific character's voice, apply speaking style presets (goodnight, morning, comfort, celebration, chatting), tune emotional parameters like warmth or tenderness, or make TTS output feel like a real person talking. If the user asks for a 'voice message', 'companion audio', 'character voice', or wants speech that sighs, laughs, hesitates, or sounds genuinely warm, use this skill. Do NOT use for plain text-to-speech without personality, music generation, sound effects, or general coding task",
       "slug": "noizai-characteristic-voice"
     },
     {
@@ -21,7 +42,7 @@
       "skillName": "chat-with-anyone",
       "path": "skills/chat-with-anyone/SKILL.md",
       "url": "https://github.com/NoizAI/skills/blob/main/skills/chat-with-anyone/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NoizAI/skills",
+      "description": "Chat with any real person or fictional character in their own voice by automatically finding their speech online, extracting a clean reference sample, and generating audio replies. Also supports generating a matching voice from an uploaded image. Use when the user says \"我想跟xxx聊天\", \"你来扮演xxx跟我说话\", \"让xxx给我讲讲这篇文章\", \"我想跟图片中的人说话\", or similar.",
       "slug": "noizai-chat-with-anyone"
     },
     {
@@ -30,7 +51,7 @@
       "skillName": "daily-news-caster",
       "path": "skills/daily-news-caster/SKILL.md",
       "url": "https://github.com/NoizAI/skills/blob/main/skills/daily-news-caster/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NoizAI/skills",
+      "description": "Fetches the latest news using news-aggregator-skill, formats it into a podcast script in Markdown format, and uses the tts skill to generate a podcast audio file. Use when the user asks to get the latest news and read it out as a podcast.",
       "slug": "noizai-daily-news-caster"
     },
     {
@@ -39,7 +60,7 @@
       "skillName": "sound-fx",
       "path": "skills/sound-fx/SKILL.md",
       "url": "https://github.com/NoizAI/skills/blob/main/skills/sound-fx/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NoizAI/skills",
+      "description": "Use this skill whenever the user wants to generate sound effects, ambient audio, or short audio clips from a text description. Triggers include: any mention of 'sound effect', 'sfx', 'generate sound', 'make a sound', 'audio effect', 'ambient sound', 'foley', 'sound clip', 'noise', or requests to produce a specific sound (e.g. 'make a gunshot sound', 'generate thunder', 'create the sound of rain'). Also use when the user describes an action or scenario and wants the corresponding audio (e.g. 'someone getting spanked', 'a door slamming', 'cartoon boing'). Do NOT use for speech synthesis, music generation with melody/lyrics, or voice cloning.",
       "slug": "noizai-sound-fx"
     },
     {
@@ -48,7 +69,7 @@
       "skillName": "speech-to-text",
       "path": "skills/speech-to-text/SKILL.md",
       "url": "https://github.com/NoizAI/skills/blob/main/skills/speech-to-text/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NoizAI/skills",
+      "description": "Use this skill whenever the user wants to transcribe audio to text, convert speech to text, or get a transcript from an audio or video file. Triggers include: any mention of 'transcribe', 'transcription', 'speech to text', 'STT', 'convert audio to text', 'what does this audio say', 'get transcript', 'subtitle generation', or requests to extract spoken words from a file. Also use when the user wants speaker identification from audio, timestamps for captions, or multilingual transcription.",
       "slug": "noizai-speech-to-text"
     },
     {
@@ -57,7 +78,7 @@
       "skillName": "template-skill",
       "path": "skills/template-skill/SKILL.md",
       "url": "https://github.com/NoizAI/skills/blob/main/skills/template-skill/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NoizAI/skills",
+      "description": "Reusable template for authoring new Agent Skills with clear triggers, workflow, and I/O contracts.",
       "slug": "noizai-template-skill"
     },
     {
@@ -66,7 +87,7 @@
       "skillName": "tts",
       "path": "skills/tts/SKILL.md",
       "url": "https://github.com/NoizAI/skills/blob/main/skills/tts/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NoizAI/skills",
+      "description": "Use this skill whenever the user wants to convert text into speech, generate audio from text, or produce voiceovers. Triggers include: any mention of 'TTS', 'text to speech', 'speak', 'say', 'voice', 'read aloud', 'audio narration', 'voiceover', 'dubbing', or requests to turn written content into spoken audio. Also use when converting EPUB/PDF/SRT/articles to audio, cloning voices from reference audio, controlling emotion or speed in speech, aligning speech to subtitle timelines, or producing per-segment voice-mapped audio.",
       "slug": "noizai-tts"
     },
     {
@@ -75,10 +96,10 @@
       "skillName": "video-translation",
       "path": "skills/video-translation/SKILL.md",
       "url": "https://github.com/NoizAI/skills/blob/main/skills/video-translation/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NoizAI/skills",
+      "description": "Translate and dub videos from one language to another, replacing the original audio with TTS while keeping the video intact.",
       "slug": "noizai-video-translation"
     }
   ],
-  "itemCount": 8,
-  "lastStatus": "reused-unchanged"
+  "itemCount": 9,
+  "lastStatus": "cache-fresh"
 }

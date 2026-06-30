@@ -9,10 +9,28 @@
     {
       "repository": "ibelick/ui-skills",
       "branch": "main",
+      "skillName": "ui-skills",
+      "path": "README.md",
+      "url": "https://github.com/ibelick/ui-skills",
+      "description": "Discovered from a public GitHub repository: ibelick/ui-skills",
+      "slug": "ibelick-ui-skills-collection",
+      "isCollection": true,
+      "stars": null,
+      "skillPaths": [
+        "skills/baseline-ui/SKILL.md",
+        "skills/fixing-accessibility/SKILL.md",
+        "skills/fixing-metadata/SKILL.md",
+        "skills/fixing-motion-performance/SKILL.md",
+        "skills/ui-skills-root/SKILL.md"
+      ]
+    },
+    {
+      "repository": "ibelick/ui-skills",
+      "branch": "main",
       "skillName": "baseline-ui",
       "path": "skills/baseline-ui/SKILL.md",
       "url": "https://github.com/ibelick/ui-skills/blob/main/skills/baseline-ui/SKILL.md",
-      "description": "Discovered from a public GitHub repository: ibelick/ui-skills",
+      "description": "Quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.",
       "slug": "ibelick-baseline-ui"
     },
     {
@@ -21,7 +39,7 @@
       "skillName": "fixing-accessibility",
       "path": "skills/fixing-accessibility/SKILL.md",
       "url": "https://github.com/ibelick/ui-skills/blob/main/skills/fixing-accessibility/SKILL.md",
-      "description": "Discovered from a public GitHub repository: ibelick/ui-skills",
+      "description": "Audit and fix HTML accessibility issues including ARIA labels, keyboard navigation, focus management, color contrast, and form errors. Use when adding interactive controls, forms, dialogs, or reviewing WCAG compliance.",
       "slug": "ibelick-fixing-accessibility"
     },
     {
@@ -30,7 +48,7 @@
       "skillName": "fixing-metadata",
       "path": "skills/fixing-metadata/SKILL.md",
       "url": "https://github.com/ibelick/ui-skills/blob/main/skills/fixing-metadata/SKILL.md",
-      "description": "Discovered from a public GitHub repository: ibelick/ui-skills",
+      "description": ">",
       "slug": "ibelick-fixing-metadata"
     },
     {
@@ -39,7 +57,7 @@
       "skillName": "fixing-motion-performance",
       "path": "skills/fixing-motion-performance/SKILL.md",
       "url": "https://github.com/ibelick/ui-skills/blob/main/skills/fixing-motion-performance/SKILL.md",
-      "description": "Discovered from a public GitHub repository: ibelick/ui-skills",
+      "description": "Audit and fix animation performance issues including layout thrashing, compositor properties, scroll-linked motion, and blur effects. Use when animations stutter, transitions jank, or reviewing CSS/JS animation performance.",
       "slug": "ibelick-fixing-motion-performance"
     },
     {
@@ -48,10 +66,10 @@
       "skillName": "ui-skills-root",
       "path": "skills/ui-skills-root/SKILL.md",
       "url": "https://github.com/ibelick/ui-skills/blob/main/skills/ui-skills-root/SKILL.md",
-      "description": "Discovered from a public GitHub repository: ibelick/ui-skills",
+      "description": "Use before UI-related work to select the smallest useful UI Skills context through the ui-skills CLI.",
       "slug": "ibelick-ui-skills-root"
     }
   ],
-  "itemCount": 5,
-  "lastStatus": "scanned"
+  "itemCount": 6,
+  "lastStatus": "cache-fresh"
 }

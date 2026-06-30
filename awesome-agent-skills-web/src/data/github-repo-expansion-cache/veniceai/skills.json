@@ -9,10 +9,42 @@
     {
       "repository": "veniceai/skills",
       "branch": "main",
+      "skillName": "skills",
+      "path": "README.md",
+      "url": "https://github.com/veniceai/skills",
+      "description": "Discovered from a public GitHub repository: veniceai/skills",
+      "slug": "veniceai-skills-collection",
+      "isCollection": true,
+      "stars": null,
+      "skillPaths": [
+        "skills/venice-api-keys/SKILL.md",
+        "skills/venice-api-overview/SKILL.md",
+        "skills/venice-audio-music/SKILL.md",
+        "skills/venice-audio-speech/SKILL.md",
+        "skills/venice-audio-transcription/SKILL.md",
+        "skills/venice-augment/SKILL.md",
+        "skills/venice-auth/SKILL.md",
+        "skills/venice-billing/SKILL.md",
+        "skills/venice-characters/SKILL.md",
+        "skills/venice-chat/SKILL.md",
+        "skills/venice-crypto-rpc/SKILL.md",
+        "skills/venice-embeddings/SKILL.md",
+        "skills/venice-errors/SKILL.md",
+        "skills/venice-image-edit/SKILL.md",
+        "skills/venice-image-generate/SKILL.md",
+        "skills/venice-models/SKILL.md",
+        "skills/venice-responses/SKILL.md",
+        "skills/venice-video/SKILL.md",
+        "skills/venice-x402/SKILL.md"
+      ]
+    },
+    {
+      "repository": "veniceai/skills",
+      "branch": "main",
       "skillName": "venice-api-keys",
       "path": "skills/venice-api-keys/SKILL.md",
       "url": "https://github.com/veniceai/skills/blob/main/skills/venice-api-keys/SKILL.md",
-      "description": "Discovered from a public GitHub repository: veniceai/skills",
+      "description": "Manage Venice API keys. Covers GET/POST/PATCH/DELETE /api_keys, GET /api_keys/{id}, GET /api_keys/rate_limits, GET /api_keys/rate_limits/log, the two-step /api_keys/generate_web3_key wallet flow, INFERENCE vs ADMIN key types, and per-key consumption limits (USD / DIEM).",
       "slug": "veniceai-venice-api-keys"
     },
     {
@@ -21,7 +53,7 @@
       "skillName": "venice-api-overview",
       "path": "skills/venice-api-overview/SKILL.md",
       "url": "https://github.com/veniceai/skills/blob/main/skills/venice-api-overview/SKILL.md",
-      "description": "Discovered from a public GitHub repository: veniceai/skills",
+      "description": "High-level map of the Venice.ai API - base URL, authentication modes, endpoint categories, response headers, pricing model, error shape, and versioning. Load this first when starting any Venice integration.",
       "slug": "veniceai-venice-api-overview"
     },
     {
@@ -30,7 +62,7 @@
       "skillName": "venice-audio-music",
       "path": "skills/venice-audio-music/SKILL.md",
       "url": "https://github.com/veniceai/skills/blob/main/skills/venice-audio-music/SKILL.md",
-      "description": "Discovered from a public GitHub repository: veniceai/skills",
+      "description": "Async music / audio-track generation via Venice. Covers the /audio/quote + /audio/queue + /audio/retrieve + /audio/complete lifecycle, lyrics vs instrumental, voice selection, duration, language, speed, model capability probing, and webhook-free polling.",
       "slug": "veniceai-venice-audio-music"
     },
     {
@@ -39,7 +71,7 @@
       "skillName": "venice-audio-speech",
       "path": "skills/venice-audio-speech/SKILL.md",
       "url": "https://github.com/veniceai/skills/blob/main/skills/venice-audio-speech/SKILL.md",
-      "description": "Discovered from a public GitHub repository: veniceai/skills",
+      "description": "Generate speech from text via POST /audio/speech. Covers TTS models (Kokoro, Qwen 3, xAI, Inworld, Chatterbox, Orpheus, ElevenLabs Turbo, MiniMax, Gemini Flash), voices per family, output formats (mp3/opus/aac/flac/wav/pcm), streaming, prompt/emotion styling, temperature/top_p, and language hints.",
       "slug": "veniceai-venice-audio-speech"
     },
     {
@@ -48,7 +80,7 @@
       "skillName": "venice-audio-transcription",
       "path": "skills/venice-audio-transcription/SKILL.md",
       "url": "https://github.com/veniceai/skills/blob/main/skills/venice-audio-transcription/SKILL.md",
-      "description": "Discovered from a public GitHub repository: veniceai/skills",
+      "description": "Transcribe audio files to text via POST /audio/transcriptions. Covers supported models (Parakeet, Whisper, Wizper, Scribe, xAI STT), supported formats (wav/flac/m4a/aac/mp4/mp3/ogg/webm), response formats (json/text), timestamps, and language hints. OpenAI-compatible multipart.",
       "slug": "veniceai-venice-audio-transcription"
     },
     {
@@ -57,7 +89,7 @@
       "skillName": "venice-augment",
       "path": "skills/venice-augment/SKILL.md",
       "url": "https://github.com/veniceai/skills/blob/main/skills/venice-augment/SKILL.md",
-      "description": "Discovered from a public GitHub repository: veniceai/skills",
+      "description": "Venice augmentation endpoints for agent pipelines. Covers POST /augment/text-parser (extract text from PDF/DOCX/XLSX/plain text, multipart, up to 25MB, JSON or plain text response), POST /augment/scrape (fetch a URL and return markdown; blocks X/Reddit), and POST /augment/search (Brave ZDR or anonymized Google; structured title/url/content/date results, up to 20 per query). Privacy (zero data retention), rate limits, and error shapes.",
       "slug": "veniceai-venice-augment"
     },
     {
@@ -66,7 +98,7 @@
       "skillName": "venice-auth",
       "path": "skills/venice-auth/SKILL.md",
       "url": "https://github.com/veniceai/skills/blob/main/skills/venice-auth/SKILL.md",
-      "description": "Discovered from a public GitHub repository: veniceai/skills",
+      "description": "Authenticate to the Venice API with a Bearer API key or with an x402 / SIWE wallet. Covers header formats, the SIWE message fields, TTL and nonce rules, the venice-x402-client SDK, and how to choose between the two modes.",
       "slug": "veniceai-venice-auth"
     },
     {
@@ -75,7 +107,7 @@
       "skillName": "venice-billing",
       "path": "skills/venice-billing/SKILL.md",
       "url": "https://github.com/veniceai/skills/blob/main/skills/venice-billing/SKILL.md",
-      "description": "Discovered from a public GitHub repository: veniceai/skills",
+      "description": "Venice billing and usage analytics - GET /billing/balance, GET /billing/usage (paginated per-request ledger, JSON or CSV), and GET /billing/usage-analytics (aggregated by date/model/key). Covers the DIEM/USD/BUNDLED_CREDITS consumption priority and building dashboards. (Beta)",
       "slug": "veniceai-venice-billing"
     },
     {
@@ -84,7 +116,7 @@
       "skillName": "venice-characters",
       "path": "skills/venice-characters/SKILL.md",
       "url": "https://github.com/veniceai/skills/blob/main/skills/venice-characters/SKILL.md",
-      "description": "Discovered from a public GitHub repository: veniceai/skills",
+      "description": "Discover and use Venice public characters (persona-driven system prompts with a bound model). Covers GET /characters (search/filter/sort), /characters/{slug}, /characters/{slug}/reviews, the Character schema, and how to apply a character via venice_parameters.character_slug in chat completions.",
       "slug": "veniceai-venice-characters"
     },
     {
@@ -93,7 +125,7 @@
       "skillName": "venice-chat",
       "path": "skills/venice-chat/SKILL.md",
       "url": "https://github.com/veniceai/skills/blob/main/skills/venice-chat/SKILL.md",
-      "description": "Discovered from a public GitHub repository: veniceai/skills",
+      "description": "Call POST /chat/completions on Venice. Covers the OpenAI-compatible request shape, Venice-only venice_parameters (web search, E2EE, characters, thinking control, X search), multimodal inputs (images/audio/video), tool calls, reasoning controls, streaming, prompt caching, structured output, and model feature suffixes.",
       "slug": "veniceai-venice-chat"
     },
     {
@@ -102,7 +134,7 @@
       "skillName": "venice-crypto-rpc",
       "path": "skills/venice-crypto-rpc/SKILL.md",
       "url": "https://github.com/veniceai/skills/blob/main/skills/venice-crypto-rpc/SKILL.md",
-      "description": "Discovered from a public GitHub repository: veniceai/skills",
+      "description": "Use Venice as a pay-per-call JSON-RPC proxy to 20+ EVM and Starknet networks. Covers GET /crypto/rpc/networks, POST /crypto/rpc/{network}, the 1×/2×/4× method-tier pricing model, per-minute + 24-hour credit rate limits, idempotency keys for safe retries, single vs batch requests, and the unsupported stateful/WebSocket methods (eth_subscribe, eth_newFilter, etc.).",
       "slug": "veniceai-venice-crypto-rpc"
     },
     {
@@ -111,7 +143,7 @@
       "skillName": "venice-embeddings",
       "path": "skills/venice-embeddings/SKILL.md",
       "url": "https://github.com/veniceai/skills/blob/main/skills/venice-embeddings/SKILL.md",
-      "description": "Discovered from a public GitHub repository: veniceai/skills",
+      "description": "Call POST /embeddings on Venice. Covers request shape (input, model, encoding_format, dimensions, user), OpenAI compatibility, response compression (gzip/br), and practical usage for retrieval, clustering, and RAG.",
       "slug": "veniceai-venice-embeddings"
     },
     {
@@ -120,7 +152,7 @@
       "skillName": "venice-errors",
       "path": "skills/venice-errors/SKILL.md",
       "url": "https://github.com/veniceai/skills/blob/main/skills/venice-errors/SKILL.md",
-      "description": "Discovered from a public GitHub repository: veniceai/skills",
+      "description": "Handle Venice API errors correctly. Covers the StandardError / DetailedError / ContentViolationError / X402InferencePaymentRequired body shapes, every meaningful status code (400, 401, 402, 403, 415, 422, 429, 500, 503, 504), the 402 PAYMENT-REQUIRED header used by x402 inference, 422 content-policy suggested_prompt retry pattern, 429 rate-limit headers, and an exponential-backoff retry strategy with idempotency.",
       "slug": "veniceai-venice-errors"
     },
     {
@@ -129,7 +161,7 @@
       "skillName": "venice-image-edit",
       "path": "skills/venice-image-edit/SKILL.md",
       "url": "https://github.com/veniceai/skills/blob/main/skills/venice-image-edit/SKILL.md",
-      "description": "Discovered from a public GitHub repository: veniceai/skills",
+      "description": "Transform existing images with Venice. Covers POST /image/edit (prompt-driven single-image edit), /image/multi-edit (compose 1-3 images), /image/upscale (2-4x upscale + enhance), and /image/background-remove. Accepts base64, file upload, or HTTPS URL.",
       "slug": "veniceai-venice-image-edit"
     },
     {
@@ -138,7 +170,7 @@
       "skillName": "venice-image-generate",
       "path": "skills/venice-image-generate/SKILL.md",
       "url": "https://github.com/veniceai/skills/blob/main/skills/venice-image-generate/SKILL.md",
-      "description": "Discovered from a public GitHub repository: veniceai/skills",
+      "description": "Generate images with Venice. Covers POST /image/generate (Venice-native), POST /images/generations (OpenAI-compatible), GET /image/styles (style presets), request fields (prompt, dimensions, cfg_scale, seed, variants, style_preset, aspect_ratio, resolution, safe_mode, watermark), and response formats.",
       "slug": "veniceai-venice-image-generate"
     },
     {
@@ -147,7 +179,7 @@
       "skillName": "venice-models",
       "path": "skills/venice-models/SKILL.md",
       "url": "https://github.com/veniceai/skills/blob/main/skills/venice-models/SKILL.md",
-      "description": "Discovered from a public GitHub repository: veniceai/skills",
+      "description": "Discover Venice models, their capabilities, constraints, and pricing. Covers GET /models (with ?type filter), /models/traits, /models/compatibility_mapping, the ModelResponse schema (capabilities, constraints, pricing per type), and how to use this to pick the right model programmatically.",
       "slug": "veniceai-venice-models"
     },
     {
@@ -156,7 +188,7 @@
       "skillName": "venice-responses",
       "path": "skills/venice-responses/SKILL.md",
       "url": "https://github.com/veniceai/skills/blob/main/skills/venice-responses/SKILL.md",
-      "description": "Discovered from a public GitHub repository: veniceai/skills",
+      "description": "Use Venice's Alpha POST /responses endpoint - an OpenAI-compatible Responses API with typed output blocks (reasoning, message, function_call, web_search_call). Covers request shape, streaming, differences from /chat/completions, supported venice_parameters subset, and E2EE behavior.",
       "slug": "veniceai-venice-responses"
     },
     {
@@ -165,7 +197,7 @@
       "skillName": "venice-video",
       "path": "skills/venice-video/SKILL.md",
       "url": "https://github.com/veniceai/skills/blob/main/skills/venice-video/SKILL.md",
-      "description": "Discovered from a public GitHub repository: veniceai/skills",
+      "description": "Generate and transcribe videos via Venice. Covers the async /video/quote + /video/queue + /video/retrieve + /video/complete loop, text-to-video, image-to-video, video-to-video (upscale), audio input, reference images, scene and element support, plus /video/transcriptions for YouTube URLs.",
       "slug": "veniceai-venice-video"
     },
     {
@@ -174,19 +206,10 @@
       "skillName": "venice-x402",
       "path": "skills/venice-x402/SKILL.md",
       "url": "https://github.com/veniceai/skills/blob/main/skills/venice-x402/SKILL.md",
-      "description": "Discovered from a public GitHub repository: veniceai/skills",
+      "description": "Manage Venice x402 wallet credits. Covers POST /x402/top-up (payment discovery + signed USDC settlement), GET /x402/balance/{walletAddress}, GET /x402/transactions/{walletAddress}, USDC on Base (chain 8453), minimum $5 top-up, transaction types TOP_UP/CHARGE/REFUND, and the x402 v2 PAYMENT-REQUIRED response shape returned by all inference endpoints.",
       "slug": "veniceai-venice-x402"
-    },
-    {
-      "repository": "veniceai/skills",
-      "branch": "main",
-      "skillName": "template",
-      "path": "template/SKILL.md",
-      "url": "https://github.com/veniceai/skills/blob/main/template/SKILL.md",
-      "description": "Discovered from a public GitHub repository: veniceai/skills",
-      "slug": "veniceai-template"
     }
   ],
   "itemCount": 20,
-  "lastStatus": "reused-unchanged"
+  "lastStatus": "cache-fresh"
 }

@@ -9,110 +9,241 @@
     {
       "repository": "NVIDIA/skills",
       "branch": "main",
-      "skillName": "plugins/nvidia-skills/skills/aiq-deploy",
-      "path": "plugins/nvidia-skills/skills/aiq-deploy/SKILL.md",
-      "url": "https://github.com/NVIDIA/skills/blob/main/plugins/nvidia-skills/skills/aiq-deploy/SKILL.md",
+      "skillName": "skills",
+      "path": "README.md",
+      "url": "https://github.com/NVIDIA/skills",
       "description": "Discovered from a public GitHub repository: NVIDIA/skills",
-      "slug": "nvidia-plugins-nvidia-skills-skills-aiq-deploy"
-    },
-    {
-      "repository": "NVIDIA/skills",
-      "branch": "main",
-      "skillName": "plugins/nvidia-skills/skills/aiq-research",
-      "path": "plugins/nvidia-skills/skills/aiq-research/SKILL.md",
-      "url": "https://github.com/NVIDIA/skills/blob/main/plugins/nvidia-skills/skills/aiq-research/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
-      "slug": "nvidia-plugins-nvidia-skills-skills-aiq-research"
-    },
-    {
-      "repository": "NVIDIA/skills",
-      "branch": "main",
-      "skillName": "plugins/nvidia-skills/skills/cuopt-user-rules",
-      "path": "plugins/nvidia-skills/skills/cuopt-user-rules/SKILL.md",
-      "url": "https://github.com/NVIDIA/skills/blob/main/plugins/nvidia-skills/skills/cuopt-user-rules/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
-      "slug": "nvidia-plugins-nvidia-skills-skills-cuopt-user-rules"
-    },
-    {
-      "repository": "NVIDIA/skills",
-      "branch": "main",
-      "skillName": "plugins/nvidia-skills/skills/dali-dynamic-mode",
-      "path": "plugins/nvidia-skills/skills/dali-dynamic-mode/SKILL.md",
-      "url": "https://github.com/NVIDIA/skills/blob/main/plugins/nvidia-skills/skills/dali-dynamic-mode/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
-      "slug": "nvidia-plugins-nvidia-skills-skills-dali-dynamic-mode"
-    },
-    {
-      "repository": "NVIDIA/skills",
-      "branch": "main",
-      "skillName": "plugins/nvidia-skills/skills/dynamo-interconnect-check",
-      "path": "plugins/nvidia-skills/skills/dynamo-interconnect-check/SKILL.md",
-      "url": "https://github.com/NVIDIA/skills/blob/main/plugins/nvidia-skills/skills/dynamo-interconnect-check/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
-      "slug": "nvidia-plugins-nvidia-skills-skills-dynamo-interconnect-check"
-    },
-    {
-      "repository": "NVIDIA/skills",
-      "branch": "main",
-      "skillName": "plugins/nvidia-skills/skills/dynamo-router-starter",
-      "path": "plugins/nvidia-skills/skills/dynamo-router-starter/SKILL.md",
-      "url": "https://github.com/NVIDIA/skills/blob/main/plugins/nvidia-skills/skills/dynamo-router-starter/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
-      "slug": "nvidia-plugins-nvidia-skills-skills-dynamo-router-starter"
-    },
-    {
-      "repository": "NVIDIA/skills",
-      "branch": "main",
-      "skillName": "plugins/nvidia-skills/skills/nemoclaw-user-guide",
-      "path": "plugins/nvidia-skills/skills/nemoclaw-user-guide/SKILL.md",
-      "url": "https://github.com/NVIDIA/skills/blob/main/plugins/nvidia-skills/skills/nemoclaw-user-guide/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
-      "slug": "nvidia-plugins-nvidia-skills-skills-nemoclaw-user-guide"
-    },
-    {
-      "repository": "NVIDIA/skills",
-      "branch": "main",
-      "skillName": "plugins/nvidia-skills/skills/omniverse-cad-to-simready",
-      "path": "plugins/nvidia-skills/skills/omniverse-cad-to-simready/SKILL.md",
-      "url": "https://github.com/NVIDIA/skills/blob/main/plugins/nvidia-skills/skills/omniverse-cad-to-simready/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
-      "slug": "nvidia-plugins-nvidia-skills-skills-omniverse-cad-to-simready"
-    },
-    {
-      "repository": "NVIDIA/skills",
-      "branch": "main",
-      "skillName": "plugins/nvidia-skills/skills/omniverse-realtime-viewer",
-      "path": "plugins/nvidia-skills/skills/omniverse-realtime-viewer/SKILL.md",
-      "url": "https://github.com/NVIDIA/skills/blob/main/plugins/nvidia-skills/skills/omniverse-realtime-viewer/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
-      "slug": "nvidia-plugins-nvidia-skills-skills-omniverse-realtime-viewer"
-    },
-    {
-      "repository": "NVIDIA/skills",
-      "branch": "main",
-      "skillName": "plugins/nvidia-skills/skills/omniverse-usd-performance-tuning",
-      "path": "plugins/nvidia-skills/skills/omniverse-usd-performance-tuning/SKILL.md",
-      "url": "https://github.com/NVIDIA/skills/blob/main/plugins/nvidia-skills/skills/omniverse-usd-performance-tuning/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
-      "slug": "nvidia-plugins-nvidia-skills-skills-omniverse-usd-performance-tuning"
-    },
-    {
-      "repository": "NVIDIA/skills",
-      "branch": "main",
-      "skillName": "plugins/nvidia-skills/skills/physical-ai-infrastructure-setup-and-resilient-scaling",
-      "path": "plugins/nvidia-skills/skills/physical-ai-infrastructure-setup-and-resilient-scaling/SKILL.md",
-      "url": "https://github.com/NVIDIA/skills/blob/main/plugins/nvidia-skills/skills/physical-ai-infrastructure-setup-and-resilient-scaling/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
-      "slug": "nvidia-plugins-nvidia-skills-skills-physical-ai-infrastructure-setup-and-resilient-scaling"
-    },
-    {
-      "repository": "NVIDIA/skills",
-      "branch": "main",
-      "skillName": "plugins/nvidia-skills/skills/physical-ai-neural-reconstruction",
-      "path": "plugins/nvidia-skills/skills/physical-ai-neural-reconstruction/SKILL.md",
-      "url": "https://github.com/NVIDIA/skills/blob/main/plugins/nvidia-skills/skills/physical-ai-neural-reconstruction/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
-      "slug": "nvidia-plugins-nvidia-skills-skills-physical-ai-neural-reconstruction"
+      "slug": "nvidia-skills-collection",
+      "isCollection": true,
+      "stars": null,
+      "skillPaths": [
+        "skills/accelerated-computing-cudf/SKILL.md",
+        "skills/aiq-deploy/SKILL.md",
+        "skills/aiq-research/SKILL.md",
+        "skills/cudaq-guide/SKILL.md",
+        "skills/cufolio/SKILL.md",
+        "skills/cuopt-developer/SKILL.md",
+        "skills/cuopt-install/SKILL.md",
+        "skills/cuopt-multi-objective-exploration/SKILL.md",
+        "skills/cuopt-numerical-optimization-api-c/SKILL.md",
+        "skills/cuopt-numerical-optimization-api-cli/SKILL.md",
+        "skills/cuopt-numerical-optimization-api-python/SKILL.md",
+        "skills/cuopt-numerical-optimization-formulation/SKILL.md",
+        "skills/cuopt-routing-api-python/SKILL.md",
+        "skills/cuopt-routing-formulation/SKILL.md",
+        "skills/cuopt-server-api-python/SKILL.md",
+        "skills/cuopt-server-common/SKILL.md",
+        "skills/cuopt-skill-evolution/SKILL.md",
+        "skills/cuopt-user-rules/SKILL.md",
+        "skills/cupynumeric-hdf5/SKILL.md",
+        "skills/cupynumeric-install/SKILL.md",
+        "skills/cupynumeric-migration-readiness/SKILL.md",
+        "skills/cupynumeric-parallel-data-load/SKILL.md",
+        "skills/dali-dynamic-mode/SKILL.md",
+        "skills/data-designer/SKILL.md",
+        "skills/deepstream-dev/SKILL.md",
+        "skills/deepstream-import-vision-model/SKILL.md",
+        "skills/dicom-metadata-extract/SKILL.md",
+        "skills/dicom-series-preflight/SKILL.md",
+        "skills/dicom-series-to-volume/SKILL.md",
+        "skills/digital-health-clinical-asr-build/SKILL.md",
+        "skills/digital-health-clinical-asr-eval/SKILL.md",
+        "skills/digital-health-clinical-asr-finetune/SKILL.md",
+        "skills/digital-health-clinical-asr-setup/SKILL.md",
+        "skills/dynamo-interconnect-check/SKILL.md",
+        "skills/dynamo-recipe-runner/SKILL.md",
+        "skills/dynamo-router-starter/SKILL.md",
+        "skills/dynamo-troubleshoot/SKILL.md",
+        "skills/earth2studio-data-fetch/SKILL.md",
+        "skills/earth2studio-deterministic-forecast/SKILL.md",
+        "skills/earth2studio-discover/SKILL.md",
+        "skills/earth2studio-install/SKILL.md",
+        "skills/holoscan-install-conda/SKILL.md",
+        "skills/holoscan-install-container/SKILL.md",
+        "skills/holoscan-install-debian/SKILL.md",
+        "skills/holoscan-install-source/SKILL.md",
+        "skills/holoscan-install-wheel/SKILL.md",
+        "skills/holoscan-setup/SKILL.md",
+        "skills/hsb-app/SKILL.md",
+        "skills/hsb-flash/SKILL.md",
+        "skills/hsb-setup/SKILL.md",
+        "skills/hsb-test/SKILL.md",
+        "skills/jetson-build-source/SKILL.md",
+        "skills/jetson-customize-camera/SKILL.md",
+        "skills/jetson-customize-clocks/SKILL.md",
+        "skills/jetson-customize-fan/SKILL.md",
+        "skills/jetson-customize-mgbe/SKILL.md",
+        "skills/jetson-customize-nvpmodel/SKILL.md",
+        "skills/jetson-customize-pcie/SKILL.md",
+        "skills/jetson-customize-pinmux/SKILL.md",
+        "skills/jetson-customize-uphy/SKILL.md",
+        "skills/jetson-customize-usb/SKILL.md",
+        "skills/jetson-derive-carrier/SKILL.md",
+        "skills/jetson-diagnostic/SKILL.md",
+        "skills/jetson-download-bsp/SKILL.md",
+        "skills/jetson-flash-image/SKILL.md",
+        "skills/jetson-generate-kb/SKILL.md",
+        "skills/jetson-headless-mode/SKILL.md",
+        "skills/jetson-inference-mem-tune/SKILL.md",
+        "skills/jetson-init-image/SKILL.md",
+        "skills/jetson-init-source/SKILL.md",
+        "skills/jetson-init-target/SKILL.md",
+        "skills/jetson-link-docs/SKILL.md",
+        "skills/jetson-llm-benchmark/SKILL.md",
+        "skills/jetson-llm-serve/SKILL.md",
+        "skills/jetson-memory-audit/SKILL.md",
+        "skills/jetson-optimize-memory/SKILL.md",
+        "skills/jetson-package/SKILL.md",
+        "skills/jetson-print-bsp-info/SKILL.md",
+        "skills/jetson-print-device-info/SKILL.md",
+        "skills/jetson-promote-image/SKILL.md",
+        "skills/jetson-quick-start/SKILL.md",
+        "skills/jetson-set-target/SKILL.md",
+        "skills/jetson-speculative-decoding/SKILL.md",
+        "skills/jetson-validate-image/SKILL.md",
+        "skills/launch-nemo-rl/SKILL.md",
+        "skills/mcore-create-issue/SKILL.md",
+        "skills/mcore-linting-and-formatting/SKILL.md",
+        "skills/mcore-run-on-slurm/SKILL.md",
+        "skills/mcore-split-pr/SKILL.md",
+        "skills/mcore-testing/SKILL.md",
+        "skills/nemo-automodel-distributed-training/SKILL.md",
+        "skills/nemo-automodel-launcher-config/SKILL.md",
+        "skills/nemo-automodel-model-onboarding/SKILL.md",
+        "skills/nemo-automodel-recipe-development/SKILL.md",
+        "skills/nemo-data-designer-plugin/SKILL.md",
+        "skills/nemo-evaluator-plugin/SKILL.md",
+        "skills/nemo-mbridge-mlm-bridge-training/SKILL.md",
+        "skills/nemo-mbridge-multi-node-slurm/SKILL.md",
+        "skills/nemo-mbridge-perf-activation-recompute/SKILL.md",
+        "skills/nemo-mbridge-perf-cpu-offloading/SKILL.md",
+        "skills/nemo-mbridge-perf-cuda-graphs/SKILL.md",
+        "skills/nemo-mbridge-perf-expert-parallel-overlap/SKILL.md",
+        "skills/nemo-mbridge-perf-hierarchical-context-parallel/SKILL.md",
+        "skills/nemo-mbridge-perf-megatron-fsdp/SKILL.md",
+        "skills/nemo-mbridge-perf-memory-tuning/SKILL.md",
+        "skills/nemo-mbridge-perf-moe-comm-overlap/SKILL.md",
+        "skills/nemo-mbridge-perf-moe-dispatcher-selection/SKILL.md",
+        "skills/nemo-mbridge-perf-moe-hardware-configs/SKILL.md",
+        "skills/nemo-mbridge-perf-moe-long-context/SKILL.md",
+        "skills/nemo-mbridge-perf-moe-optimization-workflow/SKILL.md",
+        "skills/nemo-mbridge-perf-moe-vlm-training/SKILL.md",
+        "skills/nemo-mbridge-perf-parallelism-strategies/SKILL.md",
+        "skills/nemo-mbridge-perf-sequence-packing/SKILL.md",
+        "skills/nemo-mbridge-perf-tp-dp-comm-overlap/SKILL.md",
+        "skills/nemo-mbridge-recipe-recommender/SKILL.md",
+        "skills/nemo-mbridge-resiliency/SKILL.md",
+        "skills/nemo-retriever/SKILL.md",
+        "skills/nemo-rl-auto-research/SKILL.md",
+        "skills/nemo-rl-brev-etiquette/SKILL.md",
+        "skills/nemo-rl-docs/SKILL.md",
+        "skills/nemo-rl-session-memory/SKILL.md",
+        "skills/nemoclaw-user-guide/SKILL.md",
+        "skills/nemotron-customize/SKILL.md",
+        "skills/nemotron-policy-generator/SKILL.md",
+        "skills/nemotron-retrieval-recipes/SKILL.md",
+        "skills/nemotron-speech/SKILL.md",
+        "skills/nv-generate-ct-rflow/SKILL.md",
+        "skills/nv-generate-mr-brain-finetune/SKILL.md",
+        "skills/nv-generate-mr-brain/SKILL.md",
+        "skills/nv-generate-mr/SKILL.md",
+        "skills/nv-generate-vae-finetune/SKILL.md",
+        "skills/nv-reason-cxr/SKILL.md",
+        "skills/nv-segment-ct-finetune/SKILL.md",
+        "skills/nv-segment-ct/SKILL.md",
+        "skills/nv-segment-ctmr/SKILL.md",
+        "skills/omniverse-cad-to-simready/SKILL.md",
+        "skills/omniverse-realtime-viewer/SKILL.md",
+        "skills/omniverse-usd-performance-tuning/SKILL.md",
+        "skills/physical-ai-defect-image-generation/SKILL.md",
+        "skills/physical-ai-infrastructure-setup-and-resilient-scaling/SKILL.md",
+        "skills/physical-ai-neural-reconstruction/SKILL.md",
+        "skills/physical-ai-video-data-augmentation/SKILL.md",
+        "skills/physicsnemo-discover/SKILL.md",
+        "skills/rag-blueprint/SKILL.md",
+        "skills/rag-eval/SKILL.md",
+        "skills/rag-perf/SKILL.md",
+        "skills/skill-card-generator/SKILL.md",
+        "skills/tao-analyze-changenet-rca/SKILL.md",
+        "skills/tao-analyze-gaps-visual-changenet/SKILL.md",
+        "skills/tao-analyze-gaps-vlm-bcq/SKILL.md",
+        "skills/tao-convert-dataset-format/SKILL.md",
+        "skills/tao-finetune-clip/SKILL.md",
+        "skills/tao-finetune-cosmos-embed/SKILL.md",
+        "skills/tao-finetune-cosmos-reason/SKILL.md",
+        "skills/tao-finetune-huggingface-model/SKILL.md",
+        "skills/tao-generate-image-grounding/SKILL.md",
+        "skills/tao-generate-referring-expressions/SKILL.md",
+        "skills/tao-generate-video-reasoning-annotations/SKILL.md",
+        "skills/tao-launch-workflow/SKILL.md",
+        "skills/tao-list-capabilities/SKILL.md",
+        "skills/tao-mine-aoi-images/SKILL.md",
+        "skills/tao-port-huggingface-model/SKILL.md",
+        "skills/tao-route-visual-changenet-samples/SKILL.md",
+        "skills/tao-run-automl-deft-pipeline/SKILL.md",
+        "skills/tao-run-automl/SKILL.md",
+        "skills/tao-run-deft-aoi/SKILL.md",
+        "skills/tao-run-inference-service/SKILL.md",
+        "skills/tao-run-on-brev/SKILL.md",
+        "skills/tao-run-on-kubernetes/SKILL.md",
+        "skills/tao-run-on-lepton/SKILL.md",
+        "skills/tao-run-on-local-docker/SKILL.md",
+        "skills/tao-run-on-slurm/SKILL.md",
+        "skills/tao-run-platform/SKILL.md",
+        "skills/tao-setup-nvidia-gpu-host/SKILL.md",
+        "skills/tao-train-action-recognition/SKILL.md",
+        "skills/tao-train-bevfusion/SKILL.md",
+        "skills/tao-train-centerpose/SKILL.md",
+        "skills/tao-train-deformable-detr/SKILL.md",
+        "skills/tao-train-depth-anything-v2/SKILL.md",
+        "skills/tao-train-dino/SKILL.md",
+        "skills/tao-train-fast-foundation-stereo/SKILL.md",
+        "skills/tao-train-foundation-stereo/SKILL.md",
+        "skills/tao-train-grounding-dino/SKILL.md",
+        "skills/tao-train-image-classification/SKILL.md",
+        "skills/tao-train-mask-auto-encoder/SKILL.md",
+        "skills/tao-train-mask-auto-label/SKILL.md",
+        "skills/tao-train-mask-grounding-dino/SKILL.md",
+        "skills/tao-train-mask2former/SKILL.md",
+        "skills/tao-train-metric-learning-recognition/SKILL.md",
+        "skills/tao-train-nvdinov2/SKILL.md",
+        "skills/tao-train-nvpanoptix3d/SKILL.md",
+        "skills/tao-train-ocdnet/SKILL.md",
+        "skills/tao-train-ocrnet/SKILL.md",
+        "skills/tao-train-oneformer/SKILL.md",
+        "skills/tao-train-optical-inspection/SKILL.md",
+        "skills/tao-train-pointpillars/SKILL.md",
+        "skills/tao-train-pose-classification/SKILL.md",
+        "skills/tao-train-reid/SKILL.md",
+        "skills/tao-train-rtdetr/SKILL.md",
+        "skills/tao-train-segformer/SKILL.md",
+        "skills/tao-train-single-step/SKILL.md",
+        "skills/tao-train-sparse4d/SKILL.md",
+        "skills/tao-train-visual-changenet/SKILL.md",
+        "skills/tao-validate-dataset-format/SKILL.md",
+        "skills/tilegym-adding-cutile-kernel/SKILL.md",
+        "skills/tilegym-converting-cutile-to-julia/SKILL.md",
+        "skills/tilegym-converting-cutile-to-triton/SKILL.md",
+        "skills/tilegym-cutile-autotuning/SKILL.md",
+        "skills/tilegym-cutile-python/SKILL.md",
+        "skills/tilegym-improve-cutile-kernel-perf/SKILL.md",
+        "skills/tilegym-monkey-patch-kernels-to-transformers/SKILL.md",
+        "skills/vss-ask-video/SKILL.md",
+        "skills/vss-deploy-dense-captioning/SKILL.md",
+        "skills/vss-deploy-detection-tracking-2d/SKILL.md",
+        "skills/vss-deploy-detection-tracking-3d/SKILL.md",
+        "skills/vss-deploy-profile/SKILL.md",
+        "skills/vss-deploy-video-embedding/SKILL.md",
+        "skills/vss-generate-video-calibration/SKILL.md",
+        "skills/vss-generate-video-report/SKILL.md",
+        "skills/vss-manage-alerts/SKILL.md",
+        "skills/vss-manage-video-io-storage/SKILL.md",
+        "skills/vss-query-analytics/SKILL.md",
+        "skills/vss-search-archive/SKILL.md",
+        "skills/vss-setup-behavior-analytics/SKILL.md",
+        "skills/vss-setup-video-analytics-api/SKILL.md",
+        "skills/vss-summarize-video/SKILL.md"
+      ]
     },
     {
       "repository": "NVIDIA/skills",
@@ -120,7 +251,7 @@
       "skillName": "accelerated-computing-cudf",
       "path": "skills/accelerated-computing-cudf/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/accelerated-computing-cudf/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Official NVIDIA-authored guidance for NVIDIA cuDF GPU DataFrames, pandas acceleration, dask-cuDF, ETL, joins, groupby, CSV/Parquet I/O, nullable semantics, and multi-GPU DataFrame workloads.",
       "slug": "nvidia-accelerated-computing-cudf"
     },
     {
@@ -129,7 +260,7 @@
       "skillName": "aiq-deploy",
       "path": "skills/aiq-deploy/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/aiq-deploy/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "|",
       "slug": "nvidia-aiq-deploy"
     },
     {
@@ -138,7 +269,7 @@
       "skillName": "aiq-research",
       "path": "skills/aiq-research/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/aiq-research/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "|",
       "slug": "nvidia-aiq-research"
     },
     {
@@ -147,7 +278,7 @@
       "skillName": "cudaq-guide",
       "path": "skills/cudaq-guide/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/cudaq-guide/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "CUDA-Q onboarding guide for installation, test programs, GPU simulation, QPU hardware, and quantum applications.",
       "slug": "nvidia-cudaq-guide"
     },
     {
@@ -156,7 +287,7 @@
       "skillName": "cufolio",
       "path": "skills/cufolio/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/cufolio/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Use when a user asks to build, optimize, backtest, rebalance, or analyze a stock portfolio with Mean-CVaR, efficient frontiers, scenario generation, or NVIDIA cuOpt.",
       "slug": "nvidia-cufolio"
     },
     {
@@ -165,7 +296,7 @@
       "skillName": "cuopt-developer",
       "path": "skills/cuopt-developer/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/cuopt-developer/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Modify, build, test, debug, and contribute to NVIDIA cuOpt (C++/CUDA, Python, server, CI). Use for solver internals, PRs, DCO, and code conventions.",
       "slug": "nvidia-cuopt-developer"
     },
     {
@@ -174,7 +305,7 @@
       "skillName": "cuopt-install",
       "path": "skills/cuopt-install/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/cuopt-install/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Install cuOpt for Python, C, or server via pip, conda, or Docker; verify the install. For building cuOpt from source, see cuopt-developer.",
       "slug": "nvidia-cuopt-install"
     },
     {
@@ -183,7 +314,7 @@
       "skillName": "cuopt-multi-objective-exploration",
       "path": "skills/cuopt-multi-objective-exploration/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/cuopt-multi-objective-exploration/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Trace and interpret the Pareto frontier across competing objectives using repeated single-objective cuOpt solves (weighted-sum and ε-constraint).",
       "slug": "nvidia-cuopt-multi-objective-exploration"
     },
     {
@@ -192,7 +323,7 @@
       "skillName": "cuopt-numerical-optimization-api-c",
       "path": "skills/cuopt-numerical-optimization-api-c/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/cuopt-numerical-optimization-api-c/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "LP, MILP, and QP (beta) with cuOpt — C API only. Use when the user is embedding LP, MILP, or QP in C/C++.",
       "slug": "nvidia-cuopt-numerical-optimization-api-c"
     },
     {
@@ -201,7 +332,7 @@
       "skillName": "cuopt-numerical-optimization-api-cli",
       "path": "skills/cuopt-numerical-optimization-api-cli/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/cuopt-numerical-optimization-api-cli/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "LP, MILP, and QP (beta) with cuOpt — CLI only (MPS files, cuopt_cli). Use when the user is solving LP, MILP, or QP from MPS via command line.",
       "slug": "nvidia-cuopt-numerical-optimization-api-cli"
     },
     {
@@ -210,7 +341,7 @@
       "skillName": "cuopt-numerical-optimization-api-python",
       "path": "skills/cuopt-numerical-optimization-api-python/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/cuopt-numerical-optimization-api-python/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Solve LP, MILP, QP (beta) with cuOpt Python API — linear/quadratic objectives, integer variables, scheduling, portfolio, least squares.",
       "slug": "nvidia-cuopt-numerical-optimization-api-python"
     },
     {
@@ -219,7 +350,7 @@
       "skillName": "cuopt-numerical-optimization-formulation",
       "path": "skills/cuopt-numerical-optimization-formulation/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/cuopt-numerical-optimization-formulation/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "LP, MILP, QP — concepts, problem-text parsing, and formulation patterns (parameters, constraints, decisions, objective). Concepts only; no API.",
       "slug": "nvidia-cuopt-numerical-optimization-formulation"
     },
     {
@@ -228,7 +359,7 @@
       "skillName": "cuopt-routing-api-python",
       "path": "skills/cuopt-routing-api-python/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/cuopt-routing-api-python/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Vehicle routing (VRP, TSP, PDP) with cuOpt — Python API only. Use when the user is building or solving routing in Python.",
       "slug": "nvidia-cuopt-routing-api-python"
     },
     {
@@ -237,7 +368,7 @@
       "skillName": "cuopt-routing-formulation",
       "path": "skills/cuopt-routing-formulation/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/cuopt-routing-formulation/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Vehicle routing (VRP, TSP, PDP) — problem types and data requirements. Domain concepts; no API or interface.",
       "slug": "nvidia-cuopt-routing-formulation"
     },
     {
@@ -246,7 +377,7 @@
       "skillName": "cuopt-server-api-python",
       "path": "skills/cuopt-server-api-python/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/cuopt-server-api-python/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "cuOpt REST server — start server, endpoints, Python/curl client examples. Use when the user is deploying or calling the REST API.",
       "slug": "nvidia-cuopt-server-api-python"
     },
     {
@@ -255,7 +386,7 @@
       "skillName": "cuopt-server-common",
       "path": "skills/cuopt-server-common/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/cuopt-server-common/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "cuOpt REST server — what it does and how requests flow. Domain concepts; no deploy or client code.",
       "slug": "nvidia-cuopt-server-common"
     },
     {
@@ -264,7 +395,7 @@
       "skillName": "cuopt-skill-evolution",
       "path": "skills/cuopt-skill-evolution/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/cuopt-skill-evolution/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "After solving a non-trivial problem, detect generalizable learnings and propose skill updates. Always active — applies to every interaction.",
       "slug": "nvidia-cuopt-skill-evolution"
     },
     {
@@ -273,7 +404,7 @@
       "skillName": "cuopt-user-rules",
       "path": "skills/cuopt-user-rules/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/cuopt-user-rules/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Base rules for end users calling NVIDIA cuOpt (routing/LP/MILP/QP/install/server). Not for cuOpt internals — use cuopt-developer for those.",
       "slug": "nvidia-cuopt-user-rules"
     },
     {
@@ -282,7 +413,7 @@
       "skillName": "cupynumeric-hdf5",
       "path": "skills/cupynumeric-hdf5/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/cupynumeric-hdf5/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": ">-",
       "slug": "nvidia-cupynumeric-hdf5"
     },
     {
@@ -291,7 +422,7 @@
       "skillName": "cupynumeric-install",
       "path": "skills/cupynumeric-install/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/cupynumeric-install/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Install and verify cuPyNumeric for Python — requirements, commands, verification. Source builds are out of scope.",
       "slug": "nvidia-cupynumeric-install"
     },
     {
@@ -300,7 +431,7 @@
       "skillName": "cupynumeric-migration-readiness",
       "path": "skills/cupynumeric-migration-readiness/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/cupynumeric-migration-readiness/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Pre-migration readiness assessor for porting NumPy to cuPyNumeric. Use BEFORE substantial porting work begins when the user asks whether code will scale on GPU, whether they should migrate to cuPyNumeric, which NumPy patterns transfer cleanly, what must be refactored before porting, or mentions pre-port assessment, scaling analysis, or refactor planning. Inspect the user's source code, look up NumPy usage, cross-reference the cuPyNumeric API support manifest, and distinguish distributed-scaling-friendly patterns from blockers such as unsupported APIs, scalar synchronization, host round-trips, Python/object-heavy control flow, shape/data-dependent branching, and in-place mutation hazards. Produce a verdict of READY, LIGHT REFACTOR, SIGNIFICANT REFACTOR, or NOT RECOMMENDED, with concrete refactor pointers.",
       "slug": "nvidia-cupynumeric-migration-readiness"
     },
     {
@@ -309,7 +440,7 @@
       "skillName": "cupynumeric-parallel-data-load",
       "path": "skills/cupynumeric-parallel-data-load/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/cupynumeric-parallel-data-load/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Load a sharded, on-disk dataset (sharded .npy, Parquet/Arrow, raw binary, sharded HDF5, custom layouts) into a distributed cuPyNumeric ndarray via a manual partition + leaf @task launch with CPU/OMP/GPU variants. Use when no single-call loader fits, including when per-shard row counts differ across files. Prefer cupynumeric.load or legate.io.hdf5.from_file when they apply.",
       "slug": "nvidia-cupynumeric-parallel-data-load"
     },
     {
@@ -318,7 +449,7 @@
       "skillName": "dali-dynamic-mode",
       "path": "skills/dali-dynamic-mode/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/dali-dynamic-mode/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "DALI imperative dynamic mode (`nvidia.dali.experimental.dynamic`, ndd): use when working on ndd code or migrating pipelines; skip pipeline-only tasks.",
       "slug": "nvidia-dali-dynamic-mode"
     },
     {
@@ -327,7 +458,7 @@
       "skillName": "data-designer",
       "path": "skills/data-designer/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/data-designer/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Use when the user wants to create a dataset, generate synthetic data, or build a data generation pipeline.",
       "slug": "nvidia-data-designer"
     },
     {
@@ -336,7 +467,7 @@
       "skillName": "deepstream-dev",
       "path": "skills/deepstream-dev/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/deepstream-dev/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "NVIDIA DeepStream SDK 9.0 development with Python pyservicemaker API. Use when building video analytics pipelines, GStreamer-based video processing, TensorRT inference integration, object detection/tracking, or Kafka/message broker integration.",
       "slug": "nvidia-deepstream-dev"
     },
     {
@@ -345,7 +476,7 @@
       "skillName": "deepstream-import-vision-model",
       "path": "skills/deepstream-import-vision-model/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/deepstream-import-vision-model/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": ">",
       "slug": "nvidia-deepstream-import-vision-model"
     },
     {
@@ -354,7 +485,7 @@
       "skillName": "dicom-metadata-extract",
       "path": "skills/dicom-metadata-extract/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/dicom-metadata-extract/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Used for extracting selected metadata from one DICOM file and flagging standard-tag PHI presence. Not for anonymization or clinical use.",
       "slug": "nvidia-dicom-metadata-extract"
     },
     {
@@ -363,7 +494,7 @@
       "skillName": "dicom-series-preflight",
       "path": "skills/dicom-series-preflight/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/dicom-series-preflight/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Used for header-only preflight of one DICOM series folder before conversion or inference. Not for de-identification or clinical clearance.",
       "slug": "nvidia-dicom-series-preflight"
     },
     {
@@ -372,7 +503,7 @@
       "skillName": "dicom-series-to-volume",
       "path": "skills/dicom-series-to-volume/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/dicom-series-to-volume/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Used for converting one CT DICOM series folder to a HU NIfTI volume with affine evidence. Not for multi-frame DICOM or clinical use.",
       "slug": "nvidia-dicom-series-to-volume"
     },
     {
@@ -381,7 +512,7 @@
       "skillName": "digital-health-clinical-asr-build",
       "path": "skills/digital-health-clinical-asr-build/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/digital-health-clinical-asr-build/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Stage 2 of the Clinical ASR Flywheel. Use when curating clinical terms, tagging IPA, and synthesizing a NeMo manifest. NOT for scoring (use /digital-health-clinical-asr-eval).",
       "slug": "nvidia-digital-health-clinical-asr-build"
     },
     {
@@ -390,7 +521,7 @@
       "skillName": "digital-health-clinical-asr-eval",
       "path": "skills/digital-health-clinical-asr-eval/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/digital-health-clinical-asr-eval/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Stage 3 of Clinical ASR Flywheel. Score a NeMo manifest, produce the five-section KER leaderboard (by-ipa_source diagnostic). Not for ASR auth (/riva-asr).",
       "slug": "nvidia-digital-health-clinical-asr-eval"
     },
     {
@@ -399,7 +530,7 @@
       "skillName": "digital-health-clinical-asr-finetune",
       "path": "skills/digital-health-clinical-asr-finetune/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/digital-health-clinical-asr-finetune/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Stage 4 of the Clinical ASR Flywheel. Use when priority KER is above 0.3 to run stock NeMo SFT on Parakeet TDT v2 and offline cycle N+1 re-eval. NOT for generic word boosting (use /finetune-asr).",
       "slug": "nvidia-digital-health-clinical-asr-finetune"
     },
     {
@@ -408,7 +539,7 @@
       "skillName": "digital-health-clinical-asr-setup",
       "path": "skills/digital-health-clinical-asr-setup/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/digital-health-clinical-asr-setup/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Stage 1 of Clinical ASR Flywheel. Use when bootstrapping a cycle: NVCF+MW disclosure, NVIDIA_API_KEY check, deps install, TTS+ASR smoke test.",
       "slug": "nvidia-digital-health-clinical-asr-setup"
     },
     {
@@ -417,7 +548,7 @@
       "skillName": "dynamo-interconnect-check",
       "path": "skills/dynamo-interconnect-check/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/dynamo-interconnect-check/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Validate that a Dynamo deployment's NIXL/UCX/NCCL interconnect is ready for disaggregated serving over RDMA/NVLink. Use after recipe-runner brings a deployment up (especially disagg/multi-node) to confirm the KV transport is correct; use troubleshoot for diagnosing already-failed pods.",
       "slug": "nvidia-dynamo-interconnect-check"
     },
     {
@@ -426,7 +557,7 @@
       "skillName": "dynamo-recipe-runner",
       "path": "skills/dynamo-recipe-runner/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/dynamo-recipe-runner/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Select, validate, patch, and deploy existing NVIDIA Dynamo Kubernetes recipes. Use for model/backend/GPU/deployment-mode recipe bring-up; use router-starter for router-only mode work and troubleshoot for broken deployments.",
       "slug": "nvidia-dynamo-recipe-runner"
     },
     {
@@ -435,7 +566,7 @@
       "skillName": "dynamo-router-starter",
       "path": "skills/dynamo-router-starter/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/dynamo-router-starter/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Start or patch Dynamo router modes and run router endpoint smoke checks. Use for round-robin, KV-aware, least-loaded, or device-aware routing setup; use recipe-runner for recipe deployment and troubleshoot for failure diagnosis.",
       "slug": "nvidia-dynamo-router-starter"
     },
     {
@@ -444,7 +575,7 @@
       "skillName": "dynamo-troubleshoot",
       "path": "skills/dynamo-troubleshoot/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/dynamo-troubleshoot/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Diagnose failed or unhealthy Dynamo deployments. Use when pods, model-cache jobs, PVCs, workers, frontend/router health, endpoints, or benchmark jobs fail; use recipe-runner/router-starter before this for normal bring-up.",
       "slug": "nvidia-dynamo-troubleshoot"
     },
     {
@@ -453,7 +584,7 @@
       "skillName": "earth2studio-data-fetch",
       "path": "skills/earth2studio-data-fetch/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/earth2studio-data-fetch/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": ">",
       "slug": "nvidia-earth2studio-data-fetch"
     },
     {
@@ -462,7 +593,7 @@
       "skillName": "earth2studio-deterministic-forecast",
       "path": "skills/earth2studio-deterministic-forecast/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/earth2studio-deterministic-forecast/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": ">",
       "slug": "nvidia-earth2studio-deterministic-forecast"
     },
     {
@@ -471,7 +602,7 @@
       "skillName": "earth2studio-discover",
       "path": "skills/earth2studio-discover/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/earth2studio-discover/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": ">",
       "slug": "nvidia-earth2studio-discover"
     },
     {
@@ -480,7 +611,7 @@
       "skillName": "earth2studio-install",
       "path": "skills/earth2studio-install/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/earth2studio-install/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": ">",
       "slug": "nvidia-earth2studio-install"
     },
     {
@@ -489,7 +620,7 @@
       "skillName": "holoscan-install-conda",
       "path": "skills/holoscan-install-conda/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/holoscan-install-conda/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Install Holoscan SDK v4.3+ via Conda in a CUDA 13 environment. Use for Conda installs; redirect CUDA 12 hosts to container/wheel.",
       "slug": "nvidia-holoscan-install-conda"
     },
     {
@@ -498,7 +629,7 @@
       "skillName": "holoscan-install-container",
       "path": "skills/holoscan-install-container/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/holoscan-install-container/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Install Holoscan SDK via the NGC Docker container. Use for container-based installs; not for native apt/pip/Conda installs.",
       "slug": "nvidia-holoscan-install-container"
     },
     {
@@ -507,7 +638,7 @@
       "skillName": "holoscan-install-debian",
       "path": "skills/holoscan-install-debian/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/holoscan-install-debian/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Install Holoscan SDK natively on Ubuntu via apt. Use for C++ installs on Ubuntu; pair with /holoscan-install-wheel for Python.",
       "slug": "nvidia-holoscan-install-debian"
     },
     {
@@ -516,7 +647,7 @@
       "skillName": "holoscan-install-source",
       "path": "skills/holoscan-install-source/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/holoscan-install-source/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Build Holoscan SDK from source via the in-tree ./run script. Use only when published packages don't meet the user's needs.",
       "slug": "nvidia-holoscan-install-source"
     },
     {
@@ -525,7 +656,7 @@
       "skillName": "holoscan-install-wheel",
       "path": "skills/holoscan-install-wheel/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/holoscan-install-wheel/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Install Holoscan SDK Python wheel via pip into a venv. Use for Python installs; not for native C++/apt or Conda installs.",
       "slug": "nvidia-holoscan-install-wheel"
     },
     {
@@ -534,7 +665,7 @@
       "skillName": "holoscan-setup",
       "path": "skills/holoscan-setup/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/holoscan-setup/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Guides Holoscan SDK installation: inspects the host, assesses platform compatibility, recommends an install method, and delegates to the matching install skill.",
       "slug": "nvidia-holoscan-setup"
     },
     {
@@ -543,7 +674,7 @@
       "skillName": "hsb-app",
       "path": "skills/hsb-app/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/hsb-app/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Discover and run Holoscan Sensor Bridge example applications on a connected devkit. Filters available apps by the user's platform, HSB software version, board type, and sensors. Supports timed execution, failure analysis, code-edit suggestions, and iterative re-runs.",
       "slug": "nvidia-hsb-app"
     },
     {
@@ -552,7 +683,7 @@
       "skillName": "hsb-flash",
       "path": "skills/hsb-flash/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/hsb-flash/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Flash the FPGA on an HSB board connected to an NVIDIA devkit. Supports HSB Lattice boards (FPGA versions 2407, 2412, 2507, 2510) and Leopard Imaging VB1940 \"all-in-one\" cameras (FPGA versions 2507, 2510). Uses release-specific YAML manifests and board-type-specific program commands. Lattice and VB1940 commands must never be mixed.",
       "slug": "nvidia-hsb-flash"
     },
     {
@@ -561,7 +692,7 @@
       "skillName": "hsb-setup",
       "path": "skills/hsb-setup/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/hsb-setup/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Clone the latest NVIDIA Holoscan Sensor Bridge repo, ask which supported devkit is being used, configure the host per platform, build the correct demo container, run it, and verify HSB connectivity by pinging 192.168.0.2. Use for Holoscan Sensor Bridge setup, build, container launch, and first-connectivity bring-up.",
       "slug": "nvidia-hsb-setup"
     },
     {
@@ -570,7 +701,7 @@
       "skillName": "hsb-test",
       "path": "skills/hsb-test/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/hsb-test/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Execute QA test plans on Holoscan Sensor Bridge hardware. Reads a user-provided test document, filters tests by the user's setup, determines which tests can run automatically, executes them with pass/fail evaluation, and produces a structured test results report.",
       "slug": "nvidia-hsb-test"
     },
     {
@@ -579,7 +710,7 @@
       "skillName": "jetson-build-source",
       "path": "skills/jetson-build-source/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/jetson-build-source/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": ">-",
       "slug": "nvidia-jetson-build-source"
     },
     {
@@ -588,7 +719,7 @@
       "skillName": "jetson-customize-camera",
       "path": "skills/jetson-customize-camera/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/jetson-customize-camera/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": ">-",
       "slug": "nvidia-jetson-customize-camera"
     },
     {
@@ -597,7 +728,7 @@
       "skillName": "jetson-customize-clocks",
       "path": "skills/jetson-customize-clocks/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/jetson-customize-clocks/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Use to lock/cap Jetson CPU/GPU/EMC clocks, toggle EMC/CPU DVFS, or change cpufreq governors by editing BPMP DTB and nvpower.sh pre-flash. Do NOT use for live tuning or nvpmodel edits.",
       "slug": "nvidia-jetson-customize-clocks"
     },
     {
@@ -606,7 +737,7 @@
       "skillName": "jetson-customize-fan",
       "path": "skills/jetson-customize-fan/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/jetson-customize-fan/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": ">-",
       "slug": "nvidia-jetson-customize-fan"
     },
     {
@@ -615,7 +746,7 @@
       "skillName": "jetson-customize-mgbe",
       "path": "skills/jetson-customize-mgbe/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/jetson-customize-mgbe/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": ">-",
       "slug": "nvidia-jetson-customize-mgbe"
     },
     {
@@ -624,7 +755,7 @@
       "skillName": "jetson-customize-nvpmodel",
       "path": "skills/jetson-customize-nvpmodel/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/jetson-customize-nvpmodel/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": ">-",
       "slug": "nvidia-jetson-customize-nvpmodel"
     },
     {
@@ -633,7 +764,7 @@
       "skillName": "jetson-customize-pcie",
       "path": "skills/jetson-customize-pcie/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/jetson-customize-pcie/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": ">-",
       "slug": "nvidia-jetson-customize-pcie"
     },
     {
@@ -642,7 +773,7 @@
       "skillName": "jetson-customize-pinmux",
       "path": "skills/jetson-customize-pinmux/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/jetson-customize-pinmux/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": ">-",
       "slug": "nvidia-jetson-customize-pinmux"
     },
     {
@@ -651,7 +782,7 @@
       "skillName": "jetson-customize-uphy",
       "path": "skills/jetson-customize-uphy/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/jetson-customize-uphy/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Configure Jetson UPHY lane allocation (uphy0/uphy1-config) on Orin/Thor custom carriers. Do NOT use for pinmux or PCIe-only edits.",
       "slug": "nvidia-jetson-customize-uphy"
     },
     {
@@ -660,7 +791,7 @@
       "skillName": "jetson-customize-usb",
       "path": "skills/jetson-customize-usb/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/jetson-customize-usb/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Enable/disable Jetson USB2/USB3 SS ports via kernel-DT overlay. Do NOT use for UPHY lane allocation or ODMDATA edits.",
       "slug": "nvidia-jetson-customize-usb"
     },
     {
@@ -669,7 +800,7 @@
       "skillName": "jetson-derive-carrier",
       "path": "skills/jetson-derive-carrier/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/jetson-derive-carrier/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": ">-",
       "slug": "nvidia-jetson-derive-carrier"
     },
     {
@@ -678,7 +809,7 @@
       "skillName": "jetson-diagnostic",
       "path": "skills/jetson-diagnostic/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/jetson-diagnostic/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Read-only Jetson health snapshot for identity, memory, GPU, thermal, power, storage, services, and top processes.",
       "slug": "nvidia-jetson-diagnostic"
     },
     {
@@ -687,7 +818,7 @@
       "skillName": "jetson-download-bsp",
       "path": "skills/jetson-download-bsp/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/jetson-download-bsp/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": ">-",
       "slug": "nvidia-jetson-download-bsp"
     },
     {
@@ -696,7 +827,7 @@
       "skillName": "jetson-flash-image",
       "path": "skills/jetson-flash-image/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/jetson-flash-image/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Use to flash a promoted BSP image to a Jetson DUT in RCM mode via flash.sh or l4t_initrd_flash.sh. Do NOT use for BSP customization, image promotion, or carrier derivation.",
       "slug": "nvidia-jetson-flash-image"
     },
     {
@@ -705,7 +836,7 @@
       "skillName": "jetson-generate-kb",
       "path": "skills/jetson-generate-kb/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/jetson-generate-kb/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": ">-",
       "slug": "nvidia-jetson-generate-kb"
     },
     {
@@ -714,7 +845,7 @@
       "skillName": "jetson-headless-mode",
       "path": "skills/jetson-headless-mode/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/jetson-headless-mode/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Plan and apply safe Jetson headless-mode changes to reclaim GUI and daemon memory.",
       "slug": "nvidia-jetson-headless-mode"
     },
     {
@@ -723,7 +854,7 @@
       "skillName": "jetson-inference-mem-tune",
       "path": "skills/jetson-inference-mem-tune/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/jetson-inference-mem-tune/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Pick the serving stack and per-runtime memory flags (vLLM, SGLang, llama.cpp, TensorRT Edge-LLM) for an LLM/VLM workload on any NVIDIA Jetson.",
       "slug": "nvidia-jetson-inference-mem-tune"
     },
     {
@@ -732,7 +863,7 @@
       "skillName": "jetson-init-image",
       "path": "skills/jetson-init-image/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/jetson-init-image/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": ">-",
       "slug": "nvidia-jetson-init-image"
     },
     {
@@ -741,7 +872,7 @@
       "skillName": "jetson-init-source",
       "path": "skills/jetson-init-source/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/jetson-init-source/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": ">-",
       "slug": "nvidia-jetson-init-source"
     },
     {
@@ -750,7 +881,7 @@
       "skillName": "jetson-init-target",
       "path": "skills/jetson-init-target/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/jetson-init-target/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": ">-",
       "slug": "nvidia-jetson-init-target"
     },
     {
@@ -759,7 +890,7 @@
       "skillName": "jetson-link-docs",
       "path": "skills/jetson-link-docs/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/jetson-link-docs/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": ">-",
       "slug": "nvidia-jetson-link-docs"
     },
     {
@@ -768,7 +899,7 @@
       "skillName": "jetson-llm-benchmark",
       "path": "skills/jetson-llm-benchmark/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/jetson-llm-benchmark/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Benchmark Jetson LLM/VLM serving performance across vLLM, llama.cpp, and Ollama with structured JSON output.",
       "slug": "nvidia-jetson-llm-benchmark"
     },
     {
@@ -777,7 +908,7 @@
       "skillName": "jetson-llm-serve",
       "path": "skills/jetson-llm-serve/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/jetson-llm-serve/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Stand up vLLM or SGLang serving on Jetson, using upstream vLLM on Thor and Orin JetPack 7.2+, and NVIDIA-AI-IOT vLLM on older Orin.",
       "slug": "nvidia-jetson-llm-serve"
     },
     {
@@ -786,7 +917,7 @@
       "skillName": "jetson-memory-audit",
       "path": "skills/jetson-memory-audit/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/jetson-memory-audit/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Measure Jetson DRAM/NvMap usage and verify before/after memory reclamation with live audit data.",
       "slug": "nvidia-jetson-memory-audit"
     },
     {
@@ -795,7 +926,7 @@
       "skillName": "jetson-optimize-memory",
       "path": "skills/jetson-optimize-memory/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/jetson-optimize-memory/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": ">-",
       "slug": "nvidia-jetson-optimize-memory"
     },
     {
@@ -804,7 +935,7 @@
       "skillName": "jetson-package",
       "path": "skills/jetson-package/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/jetson-package/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Pick Jetson-compatible containers, vLLM runtime images, and Jetson AI Lab PyPI indexes; maps Orin SM 8.7 vs Thor SM 11.0 and JetPack-specific package choices.",
       "slug": "nvidia-jetson-package"
     },
     {
@@ -813,7 +944,7 @@
       "skillName": "jetson-print-bsp-info",
       "path": "skills/jetson-print-bsp-info/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/jetson-print-bsp-info/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Use when you need to print Jetson BSP info (L4T version, board configs, rootfs state) from a Linux_for_Tegra root on the host PC. This is an example skill.",
       "slug": "nvidia-jetson-print-bsp-info"
     },
     {
@@ -822,7 +953,7 @@
       "skillName": "jetson-print-device-info",
       "path": "skills/jetson-print-device-info/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/jetson-print-device-info/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Use when you need to print Jetson device info (module model, L4T version, kernel, OS version, current power mode) from a running Jetson target. This is an example skill.",
       "slug": "nvidia-jetson-print-device-info"
     },
     {
@@ -831,7 +962,7 @@
       "skillName": "jetson-promote-image",
       "path": "skills/jetson-promote-image/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/jetson-promote-image/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": ">-",
       "slug": "nvidia-jetson-promote-image"
     },
     {
@@ -840,7 +971,7 @@
       "skillName": "jetson-quick-start",
       "path": "skills/jetson-quick-start/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/jetson-quick-start/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": ">-",
       "slug": "nvidia-jetson-quick-start"
     },
     {
@@ -849,7 +980,7 @@
       "skillName": "jetson-set-target",
       "path": "skills/jetson-set-target/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/jetson-set-target/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": ">-",
       "slug": "nvidia-jetson-set-target"
     },
     {
@@ -858,7 +989,7 @@
       "skillName": "jetson-speculative-decoding",
       "path": "skills/jetson-speculative-decoding/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/jetson-speculative-decoding/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Add EAGLE-3 or draft-model speculative decoding to a Jetson vLLM server when TPOT is the bottleneck.",
       "slug": "nvidia-jetson-speculative-decoding"
     },
     {
@@ -867,7 +998,7 @@
       "skillName": "jetson-validate-image",
       "path": "skills/jetson-validate-image/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/jetson-validate-image/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": ">-",
       "slug": "nvidia-jetson-validate-image"
     },
     {
@@ -876,7 +1007,7 @@
       "skillName": "launch-nemo-rl",
       "path": "skills/launch-nemo-rl/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/launch-nemo-rl/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Playbook for launching, monitoring, stopping, and debugging NeMo-RL recipes on a Kubernetes cluster via the nrl-k8s CLI. Covers ephemeral vs long-lived RayCluster modes, iterating on runs, and debugging hung or failed training jobs.",
       "slug": "nvidia-launch-nemo-rl"
     },
     {
@@ -885,7 +1016,7 @@
       "skillName": "mcore-create-issue",
       "path": "skills/mcore-create-issue/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/mcore-create-issue/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Investigate a failing GitHub Actions run or job and create a GitHub issue for the failure.",
       "slug": "nvidia-mcore-create-issue"
     },
     {
@@ -894,7 +1025,7 @@
       "skillName": "mcore-linting-and-formatting",
       "path": "skills/mcore-linting-and-formatting/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/mcore-linting-and-formatting/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Linting and formatting for Megatron-LM. Covers running autoformat.sh, tools (ruff, black, isort, pylint, mypy), and code style rules.",
       "slug": "nvidia-mcore-linting-and-formatting"
     },
     {
@@ -903,7 +1034,7 @@
       "skillName": "mcore-run-on-slurm",
       "path": "skills/mcore-run-on-slurm/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/mcore-run-on-slurm/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "How to launch distributed Megatron-LM training jobs on a SLURM cluster. Covers a minimal sbatch skeleton, environment-variable setup for torch.distributed.run, CUDA_DEVICE_MAX_CONNECTIONS rules across hardware and parallelism modes, container conventions, monitoring, and per-rank failure diagnosis.",
       "slug": "nvidia-mcore-run-on-slurm"
     },
     {
@@ -912,7 +1043,7 @@
       "skillName": "mcore-split-pr",
       "path": "skills/mcore-split-pr/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/mcore-split-pr/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Split a PR into multiple PRs to reduce the number of required CODEOWNERS reviewer groups.",
       "slug": "nvidia-mcore-split-pr"
     },
     {
@@ -921,7 +1052,7 @@
       "skillName": "mcore-testing",
       "path": "skills/mcore-testing/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/mcore-testing/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Test system for Megatron-LM. Covers test layout, recipe YAML structure, adding and running unit and functional tests, golden values, marker filters, and CI parity.",
       "slug": "nvidia-mcore-testing"
     },
     {
@@ -930,7 +1061,7 @@
       "skillName": "nemo-automodel-distributed-training",
       "path": "skills/nemo-automodel-distributed-training/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemo-automodel-distributed-training/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Guide for selecting and configuring distributed training strategies in NeMo AutoModel, including FSDP2, Megatron FSDP, DDP, and parallelism settings.",
       "slug": "nvidia-nemo-automodel-distributed-training"
     },
     {
@@ -939,7 +1070,7 @@
       "skillName": "nemo-automodel-launcher-config",
       "path": "skills/nemo-automodel-launcher-config/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemo-automodel-launcher-config/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Configure NeMo AutoModel job launches for interactive runs, Slurm clusters, and SkyPilot cloud execution.",
       "slug": "nvidia-nemo-automodel-launcher-config"
     },
     {
@@ -948,7 +1079,7 @@
       "skillName": "nemo-automodel-model-onboarding",
       "path": "skills/nemo-automodel-model-onboarding/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemo-automodel-model-onboarding/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Guide for onboarding new model architectures into NeMo AutoModel, including architecture discovery, implementation patterns, registration, and validation.",
       "slug": "nvidia-nemo-automodel-model-onboarding"
     },
     {
@@ -957,7 +1088,7 @@
       "skillName": "nemo-automodel-recipe-development",
       "path": "skills/nemo-automodel-recipe-development/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemo-automodel-recipe-development/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Create and modify NeMo AutoModel training and evaluation recipes, including YAML structure, builders, and execution flow.",
       "slug": "nvidia-nemo-automodel-recipe-development"
     },
     {
@@ -966,7 +1097,7 @@
       "skillName": "nemo-data-designer-plugin",
       "path": "skills/nemo-data-designer-plugin/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemo-data-designer-plugin/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Use when the user wants to create a dataset, generate synthetic data, or build a data generation pipeline.",
       "slug": "nvidia-nemo-data-designer-plugin"
     },
     {
@@ -975,7 +1106,7 @@
       "skillName": "nemo-evaluator-plugin",
       "path": "skills/nemo-evaluator-plugin/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemo-evaluator-plugin/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Use when working on the Evaluator plugin CLI, jobs, SDK-backed specs, metric types, or plugin-owned Evaluator skills.",
       "slug": "nvidia-nemo-evaluator-plugin"
     },
     {
@@ -984,7 +1115,7 @@
       "skillName": "nemo-mbridge-mlm-bridge-training",
       "path": "skills/nemo-mbridge-mlm-bridge-training/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemo-mbridge-mlm-bridge-training/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Run Megatron-LM (MLM) and Megatron Bridge training with mock or real data. Covers correlation testing, available recipes, and multi-GPU examples.",
       "slug": "nvidia-nemo-mbridge-mlm-bridge-training"
     },
     {
@@ -993,7 +1124,7 @@
       "skillName": "nemo-mbridge-multi-node-slurm",
       "path": "skills/nemo-mbridge-multi-node-slurm/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemo-mbridge-multi-node-slurm/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Convert single-node scripts to multi-node Slurm sbatch jobs and debug common multi-node failures. Covers srun-native vs uv run torch.distributed approaches, container setup, NCCL timeouts, OOM sizing for MoE models, and interactive allocation.",
       "slug": "nvidia-nemo-mbridge-multi-node-slurm"
     },
     {
@@ -1002,7 +1133,7 @@
       "skillName": "nemo-mbridge-perf-activation-recompute",
       "path": "skills/nemo-mbridge-perf-activation-recompute/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemo-mbridge-perf-activation-recompute/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Validate and use selective and full activation recompute in Megatron Bridge to reduce GPU memory usage at the cost of extra compute.",
       "slug": "nvidia-nemo-mbridge-perf-activation-recompute"
     },
     {
@@ -1011,7 +1142,7 @@
       "skillName": "nemo-mbridge-perf-cpu-offloading",
       "path": "skills/nemo-mbridge-perf-cpu-offloading/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemo-mbridge-perf-cpu-offloading/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Validate and use CPU offloading in Megatron Bridge, including layer-level activation offloading and fractional optimizer state offloading with HybridDeviceOptimizer.",
       "slug": "nvidia-nemo-mbridge-perf-cpu-offloading"
     },
     {
@@ -1020,7 +1151,7 @@
       "skillName": "nemo-mbridge-perf-cuda-graphs",
       "path": "skills/nemo-mbridge-perf-cuda-graphs/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemo-mbridge-perf-cuda-graphs/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Validate and use CUDA graph capture in Megatron Bridge, including local full-iteration graphs and Transformer Engine scoped graphs for attention, MLP, and MoE modules.",
       "slug": "nvidia-nemo-mbridge-perf-cuda-graphs"
     },
     {
@@ -1029,7 +1160,7 @@
       "skillName": "nemo-mbridge-perf-expert-parallel-overlap",
       "path": "skills/nemo-mbridge-perf-expert-parallel-overlap/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemo-mbridge-perf-expert-parallel-overlap/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Validate and use MoE expert-parallel communication overlap in Megatron-Bridge, including overlap_moe_expert_parallel_comm, delay_wgrad_compute, and flex dispatcher backends such as DeepEP and HybridEP.",
       "slug": "nvidia-nemo-mbridge-perf-expert-parallel-overlap"
     },
     {
@@ -1038,7 +1169,7 @@
       "skillName": "nemo-mbridge-perf-hierarchical-context-parallel",
       "path": "skills/nemo-mbridge-perf-hierarchical-context-parallel/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemo-mbridge-perf-hierarchical-context-parallel/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Operational guide for enabling hierarchical context parallelism in Megatron-Bridge, including config knobs, code anchors, pitfalls, and verification.",
       "slug": "nvidia-nemo-mbridge-perf-hierarchical-context-parallel"
     },
     {
@@ -1047,7 +1178,7 @@
       "skillName": "nemo-mbridge-perf-megatron-fsdp",
       "path": "skills/nemo-mbridge-perf-megatron-fsdp/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemo-mbridge-perf-megatron-fsdp/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Operational guide for enabling Megatron FSDP in Megatron-Bridge, including config knobs, code anchors, pitfalls, and verification.",
       "slug": "nvidia-nemo-mbridge-perf-megatron-fsdp"
     },
     {
@@ -1056,7 +1187,7 @@
       "skillName": "nemo-mbridge-perf-memory-tuning",
       "path": "skills/nemo-mbridge-perf-memory-tuning/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemo-mbridge-perf-memory-tuning/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Techniques for reducing peak GPU memory in Megatron Bridge — expandable segments, parallelism resizing, activation recompute, CPU offloading constraints, and common OOM fixes.",
       "slug": "nvidia-nemo-mbridge-perf-memory-tuning"
     },
     {
@@ -1065,7 +1196,7 @@
       "skillName": "nemo-mbridge-perf-moe-comm-overlap",
       "path": "skills/nemo-mbridge-perf-moe-comm-overlap/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemo-mbridge-perf-moe-comm-overlap/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "MoE expert-parallel communication overlap in Megatron Bridge. Covers dispatch/combine overlap, flex dispatcher backends, and expert wgrad scheduling.",
       "slug": "nvidia-nemo-mbridge-perf-moe-comm-overlap"
     },
     {
@@ -1074,7 +1205,7 @@
       "skillName": "nemo-mbridge-perf-moe-dispatcher-selection",
       "path": "skills/nemo-mbridge-perf-moe-dispatcher-selection/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemo-mbridge-perf-moe-dispatcher-selection/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Choose the right MoE token dispatcher (`alltoall`, DeepEP, or HybridEP) for the hardware, EP degree, and optimization stage. Summarizes patterns from DSV3, Qwen3, Qwen3-Next, and VLM bring-up work.",
       "slug": "nvidia-nemo-mbridge-perf-moe-dispatcher-selection"
     },
     {
@@ -1083,7 +1214,7 @@
       "skillName": "nemo-mbridge-perf-moe-hardware-configs",
       "path": "skills/nemo-mbridge-perf-moe-hardware-configs/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemo-mbridge-perf-moe-hardware-configs/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Representative MoE training playbooks by hardware platform and model family. Summarizes rounded throughput bands, parallelism patterns, and common tuning stacks.",
       "slug": "nvidia-nemo-mbridge-perf-moe-hardware-configs"
     },
     {
@@ -1092,7 +1223,7 @@
       "skillName": "nemo-mbridge-perf-moe-long-context",
       "path": "skills/nemo-mbridge-perf-moe-long-context/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemo-mbridge-perf-moe-long-context/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Long-context MoE training guidance for Megatron Bridge. Covers CP sizing, selective recompute, dispatcher choices, and practical patterns from DSV3, Qwen3, and Qwen3-Next long-context experiments.",
       "slug": "nvidia-nemo-mbridge-perf-moe-long-context"
     },
     {
@@ -1101,7 +1232,7 @@
       "skillName": "nemo-mbridge-perf-moe-optimization-workflow",
       "path": "skills/nemo-mbridge-perf-moe-optimization-workflow/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemo-mbridge-perf-moe-optimization-workflow/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Systematic workflow for MoE training optimization in Megatron Bridge, based on the Megatron-Core MoE paper. Covers the Three Walls framework, parallel folding, recompute strategy, dispatcher choice, and CUDA-graph bring-up.",
       "slug": "nvidia-nemo-mbridge-perf-moe-optimization-workflow"
     },
     {
@@ -1110,7 +1241,7 @@
       "skillName": "nemo-mbridge-perf-moe-vlm-training",
       "path": "skills/nemo-mbridge-perf-moe-vlm-training/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemo-mbridge-perf-moe-vlm-training/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Practical guidance for training MoE VLMs in Megatron Bridge. Compares FSDP and 3D-parallel approaches, using rounded lessons from Qwen3-VL, Qwen3-Next, and other multimodal experiments.",
       "slug": "nvidia-nemo-mbridge-perf-moe-vlm-training"
     },
     {
@@ -1119,7 +1250,7 @@
       "skillName": "nemo-mbridge-perf-parallelism-strategies",
       "path": "skills/nemo-mbridge-perf-parallelism-strategies/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemo-mbridge-perf-parallelism-strategies/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Operational guide for choosing and combining parallelism strategies in Megatron Bridge, including sizing rules, hardware topology mapping, and combined parallelism configuration.",
       "slug": "nvidia-nemo-mbridge-perf-parallelism-strategies"
     },
     {
@@ -1128,7 +1259,7 @@
       "skillName": "nemo-mbridge-perf-sequence-packing",
       "path": "skills/nemo-mbridge-perf-sequence-packing/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemo-mbridge-perf-sequence-packing/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Validate and use packed sequences and long-context training in Megatron-Bridge, distinguishing offline packed SFT for LLMs from in-batch packing for VLMs, and applying the right CP constraints.",
       "slug": "nvidia-nemo-mbridge-perf-sequence-packing"
     },
     {
@@ -1137,7 +1268,7 @@
       "skillName": "nemo-mbridge-perf-tp-dp-comm-overlap",
       "path": "skills/nemo-mbridge-perf-tp-dp-comm-overlap/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemo-mbridge-perf-tp-dp-comm-overlap/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Operational guide for enabling TP, DP, and PP communication overlap in Megatron-Bridge, including config knobs, code anchors, pitfalls, and verification.",
       "slug": "nvidia-nemo-mbridge-perf-tp-dp-comm-overlap"
     },
     {
@@ -1146,7 +1277,7 @@
       "skillName": "nemo-mbridge-recipe-recommender",
       "path": "skills/nemo-mbridge-recipe-recommender/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemo-mbridge-recipe-recommender/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Recommend and customize Megatron Bridge recipes for a user's model, GPU count, and training goal. Indexes library recipes (pretrain/SFT/PEFT) and performance recipes.",
       "slug": "nvidia-nemo-mbridge-recipe-recommender"
     },
     {
@@ -1155,7 +1286,7 @@
       "skillName": "nemo-mbridge-resiliency",
       "path": "skills/nemo-mbridge-resiliency/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemo-mbridge-resiliency/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Resiliency features in Megatron Bridge including fault tolerance, straggler detection, in-process restart, preemption, and re-run state machine.",
       "slug": "nvidia-nemo-mbridge-resiliency"
     },
     {
@@ -1164,7 +1295,7 @@
       "skillName": "nemo-retriever",
       "path": "skills/nemo-retriever/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemo-retriever/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Use when the user wants to search, query, extract, transcribe, describe, quote, filter, or aggregate across documents — PDFs, scanned forms / images (`.jpg` `.png` `.tiff`), Office (`.docx` `.pptx`), text (`.html` `.txt`), audio (`.mp3` `.wav` `.m4a`), or video (`.mp4` `.mov`). Prefer this over native Read / Grep for multi-file or non-PDF corpora. Not for: editing files, web browsing, single-file plain-text lookups, fine-tuning.",
       "slug": "nvidia-nemo-retriever"
     },
     {
@@ -1173,7 +1304,7 @@
       "skillName": "nemo-rl-auto-research",
       "path": "skills/nemo-rl-auto-research/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemo-rl-auto-research/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Autonomous NeMo-RL research agent workflow for directed hypothesis testing and open-ended discovery. Guides agents through the full experiment lifecycle: understanding recipes and environments, wiring RL or NeMo-gym runs, launching reproducible baselines and iterations, analyzing results, preserving human oversight, and using git plus TSV logs as the research ledger. Do NOT use for: bug fixes, code review, documentation, refactoring, dependency updates, or single-file changes.",
       "slug": "nvidia-nemo-rl-auto-research"
     },
     {
@@ -1182,7 +1313,7 @@
       "skillName": "nemo-rl-brev-etiquette",
       "path": "skills/nemo-rl-brev-etiquette/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemo-rl-brev-etiquette/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Brev instance operating guidance for NeMo-RL agents working in /home/ubuntu/RL with limited workspace disk, a larger /ephemeral volume, and optional /home/ubuntu/RL/.env secrets. Use when running nemo-rl-auto-research campaigns, experiments, training jobs, model or dataset downloads, shared cache-heavy commands, log-producing runs, checkpoint generation, W&B or Hugging Face authenticated workflows, or any workflow that may create large files on Brev.",
       "slug": "nvidia-nemo-rl-brev-etiquette"
     },
     {
@@ -1191,7 +1322,7 @@
       "skillName": "nemo-rl-docs",
       "path": "skills/nemo-rl-docs/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemo-rl-docs/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Documentation conventions for NeMo-RL. Covers docs/index.md updates and docstring format. Do NOT use for: bug fixes, test fixes, dependency bumps, refactoring, CI/CD changes, performance tuning, or any task that does not involve writing or updating documentation.",
       "slug": "nvidia-nemo-rl-docs"
     },
     {
@@ -1200,7 +1331,7 @@
       "skillName": "nemo-rl-session-memory",
       "path": "skills/nemo-rl-session-memory/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemo-rl-session-memory/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Manage durable working-session memory for coding agents. Use when a user asks to preserve or recover agent context across disconnects, VS Code restarts, long-running work, handoffs, or any session where important state should be written periodically under the repo's session directory. Do NOT use for: simple questions, short tasks, one-off commands, linting, or code review.",
       "slug": "nvidia-nemo-rl-session-memory"
     },
     {
@@ -1209,7 +1340,7 @@
       "skillName": "nemoclaw-user-guide",
       "path": "skills/nemoclaw-user-guide/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemoclaw-user-guide/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Guides human users' AI agents to the NemoClaw docs MCP server and canonical Fern documentation in Markdown form. Use when users ask how to install, configure, operate, troubleshoot, secure, or learn NemoClaw with an AI coding assistant. Trigger keywords - nemoclaw docs, use nemoclaw with ai agent, nemoclaw mcp docs, nemoclaw install help, nemoclaw quickstart, nemoclaw markdown docs, llms.txt, agent skills.",
       "slug": "nvidia-nemoclaw-user-guide"
     },
     {
@@ -1218,7 +1349,7 @@
       "skillName": "nemotron-customize",
       "path": "skills/nemotron-customize/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemotron-customize/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Plan, configure, and chain repo-native Nemotron customization steps into single-step or multi-step pipelines: curation, translation, SFT/PEFT (AutoModel or Megatron-Bridge), pretraining/CPT, RL alignment (DPO/RLVR/GRPO/RLHF), BYOB/MCQ benchmarks, checkpoint conversion, ModelOpt optimization, env profiles, and evaluation of trained checkpoints or existing/hosted endpoints. Use when a request names a Nemotron step or workflow, or asks to clean, translate, train, fine-tune, align, convert, optimize, evaluate, or compose these into a pipeline. Do NOT use for frontend/dashboard/visualization work, generic ML advice, billing/access, or non-Nemotron coding tasks.",
       "slug": "nvidia-nemotron-customize"
     },
     {
@@ -1227,7 +1358,7 @@
       "skillName": "nemotron-policy-generator",
       "path": "skills/nemotron-policy-generator/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemotron-policy-generator/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Generates BYO custom safety policies for NVIDIA Nemotron content-safety guardrails — Nemotron-Content-Safety-Reasoning-4B (text) and multimodal Nemotron-3-Content-Safety. Produces a Markdown policy, JSON taxonomy, and drop-in inference prompts. Maps rough words or an existing policy to V2 categories, adding custom categories or topic-following rules.",
       "slug": "nvidia-nemotron-policy-generator"
     },
     {
@@ -1236,7 +1367,7 @@
       "skillName": "nemotron-retrieval-recipes",
       "path": "skills/nemotron-retrieval-recipes/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemotron-retrieval-recipes/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Use when planning, debugging, tuning, evaluating, exporting, or deploying public Nemotron `embed`/`rerank` retrieval recipes.",
       "slug": "nvidia-nemotron-retrieval-recipes"
     },
     {
@@ -1245,7 +1376,7 @@
       "skillName": "nemotron-speech",
       "path": "skills/nemotron-speech/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemotron-speech/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Routes NVIDIA Nemotron Speech (Riva) NIM tasks — deploys, runs, and tests ASR, TTS, and NMT NIMs on build.nvidia.com or self-hosted.",
       "slug": "nvidia-nemotron-speech"
     },
     {
@@ -1254,7 +1385,7 @@
       "skillName": "nv-generate-ct-rflow",
       "path": "skills/nv-generate-ct-rflow/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nv-generate-ct-rflow/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Used for generating synthetic CT volumes and masks with NV-Generate-CTMR rflow-ct. Not for production training data without review.",
       "slug": "nvidia-nv-generate-ct-rflow"
     },
     {
@@ -1263,7 +1394,7 @@
       "skillName": "nv-generate-mr-brain-finetune",
       "path": "skills/nv-generate-mr-brain-finetune/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nv-generate-mr-brain-finetune/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Used for finetuning NV-Generate-CTMR MR-brain diffusion UNet from a NIfTI datalist. Not for clinical or production data approval.",
       "slug": "nvidia-nv-generate-mr-brain-finetune"
     },
     {
@@ -1272,7 +1403,7 @@
       "skillName": "nv-generate-mr-brain",
       "path": "skills/nv-generate-mr-brain/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nv-generate-mr-brain/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Used for generating synthetic brain MRI volumes with NV-Generate-CTMR rflow-mr-brain. Not for production training data.",
       "slug": "nvidia-nv-generate-mr-brain"
     },
     {
@@ -1281,7 +1412,7 @@
       "skillName": "nv-generate-mr",
       "path": "skills/nv-generate-mr/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nv-generate-mr/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Used for generating synthetic body MRI volumes with NV-Generate-CTMR rflow-mr. Not for paired masks or production training data.",
       "slug": "nvidia-nv-generate-mr"
     },
     {
@@ -1290,7 +1421,7 @@
       "skillName": "nv-generate-vae-finetune",
       "path": "skills/nv-generate-vae-finetune/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nv-generate-vae-finetune/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Used for finetuning the NV-Generate-CTMR MAISI VAE from CT/MRI NIfTI datalists. Not for clinical or production data approval.",
       "slug": "nvidia-nv-generate-vae-finetune"
     },
     {
@@ -1299,7 +1430,7 @@
       "skillName": "nv-reason-cxr",
       "path": "skills/nv-reason-cxr/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nv-reason-cxr/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Used for command-shape or live NV-Reason-CXR chest X-ray reasoning smoke tests. Not for diagnosis or clinical reporting.",
       "slug": "nvidia-nv-reason-cxr"
     },
     {
@@ -1308,7 +1439,7 @@
       "skillName": "nv-segment-ct-finetune",
       "path": "skills/nv-segment-ct-finetune/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nv-segment-ct-finetune/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Used for smoke or dataset finetuning of NV-Segment-CT VISTA3D on CT NIfTI labels. Not for clinical validation.",
       "slug": "nvidia-nv-segment-ct-finetune"
     },
     {
@@ -1317,7 +1448,7 @@
       "skillName": "nv-segment-ct",
       "path": "skills/nv-segment-ct/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nv-segment-ct/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Used for running NV-Segment-CT VISTA3D on CT NIfTI volumes and recording label-map evidence.",
       "slug": "nvidia-nv-segment-ct"
     },
     {
@@ -1326,7 +1457,7 @@
       "skillName": "nv-segment-ctmr",
       "path": "skills/nv-segment-ctmr/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nv-segment-ctmr/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Used for running NV-Segment-CTMR on CT or MRI NIfTI volumes and recording label-map evidence. Not for clinical interpretation.",
       "slug": "nvidia-nv-segment-ctmr"
     },
     {
@@ -1335,7 +1466,7 @@
       "skillName": "omniverse-cad-to-simready",
       "path": "skills/omniverse-cad-to-simready/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/omniverse-cad-to-simready/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Coordinate the end-to-end CAD/source-asset to SimReady workflow. Use for broad requests such as CAD to SimReady, source asset to simulation-ready USD, or prop packaging that require conversion, material/physics assignment, SimReady conformance, validation, and optional package creation; deploy or verify Content Agents services first when property assignment is enabled; route single-stage work through nested references.",
       "slug": "nvidia-omniverse-cad-to-simready"
     },
     {
@@ -1344,7 +1475,7 @@
       "skillName": "omniverse-realtime-viewer",
       "path": "skills/omniverse-realtime-viewer/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/omniverse-realtime-viewer/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Use as the top-level router for Omniverse Realtime Viewer USD app requests and focused viewer reference documents.",
       "slug": "nvidia-omniverse-realtime-viewer"
     },
     {
@@ -1353,7 +1484,7 @@
       "skillName": "omniverse-usd-performance-tuning",
       "path": "skills/omniverse-usd-performance-tuning/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/omniverse-usd-performance-tuning/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Top-level workflow skill for USD performance diagnosis and optimization. Use for slow loading, high memory, low FPS, or 'optimize my scene' requests; delegates auth/runtime setup to Phase 0 owners.",
       "slug": "nvidia-omniverse-usd-performance-tuning"
     },
     {
@@ -1362,7 +1493,7 @@
       "skillName": "physical-ai-defect-image-generation",
       "path": "skills/physical-ai-defect-image-generation/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/physical-ai-defect-image-generation/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": ">-",
       "slug": "nvidia-physical-ai-defect-image-generation"
     },
     {
@@ -1371,7 +1502,7 @@
       "skillName": "physical-ai-infrastructure-setup-and-resilient-scaling",
       "path": "skills/physical-ai-infrastructure-setup-and-resilient-scaling/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/physical-ai-infrastructure-setup-and-resilient-scaling/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": ">-",
       "slug": "nvidia-physical-ai-infrastructure-setup-and-resilient-scaling"
     },
     {
@@ -1380,7 +1511,7 @@
       "skillName": "physical-ai-neural-reconstruction",
       "path": "skills/physical-ai-neural-reconstruction/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/physical-ai-neural-reconstruction/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Router for NVIDIA NuRec/NRE: USDZ rendering, NCore conversion, 3DGS, gRPC sensor sim, PhysicalAI HF datasets. Do NOT use for SimReady or infra setup.",
       "slug": "nvidia-physical-ai-neural-reconstruction"
     },
     {
@@ -1389,7 +1520,7 @@
       "skillName": "physical-ai-video-data-augmentation",
       "path": "skills/physical-ai-video-data-augmentation/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/physical-ai-video-data-augmentation/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": ">-",
       "slug": "nvidia-physical-ai-video-data-augmentation"
     },
     {
@@ -1398,7 +1529,7 @@
       "skillName": "physicsnemo-discover",
       "path": "skills/physicsnemo-discover/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/physicsnemo-discover/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Official NVIDIA-authored guidance for navigating PhysicsNeMo — pick the model, datapipe, or example for a SciML/AI4Science task (surrogates, forecasting, downscaling, physics-informed, inverse, generative). Points at existing files via live repo search; never writes code. Do NOT use for installation or environment setup, training-loop or other code authoring/scaffolding, contributor/CI/packaging questions, repo-specific questions in physicsnemo-sym/-cfd/-curator, or general (non-physics) ML/PyTorch.",
       "slug": "nvidia-physicsnemo-discover"
     },
     {
@@ -1407,7 +1538,7 @@
       "skillName": "rag-blueprint",
       "path": "skills/rag-blueprint/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/rag-blueprint/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "NVIDIA RAG Blueprint — deploy, configure, troubleshoot, and manage. Handles any RAG action: deploy, install, start, enable, disable, toggle, change, configure, troubleshoot, debug, fix, shutdown, stop, or tear down any RAG feature or service (Agentic RAG, VLM, guardrails, query rewriting, models, search, ingestion, observability, summarization, reasoning, and more).",
       "slug": "nvidia-rag-blueprint"
     },
     {
@@ -1416,7 +1547,7 @@
       "skillName": "rag-eval",
       "path": "skills/rag-eval/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/rag-eval/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": ">-",
       "slug": "nvidia-rag-eval"
     },
     {
@@ -1425,7 +1556,7 @@
       "skillName": "rag-perf",
       "path": "skills/rag-perf/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/rag-perf/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": ">-",
       "slug": "nvidia-rag-perf"
     },
     {
@@ -1434,7 +1565,7 @@
       "skillName": "skill-card-generator",
       "path": "skills/skill-card-generator/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/skill-card-generator/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Use only to generate or update a governance skill card for a specified existing agent skill directory. Do not use for explaining, listing, comparing, or discussing skill capabilities.",
       "slug": "nvidia-skill-card-generator"
     },
     {
@@ -1443,7 +1574,7 @@
       "skillName": "tao-analyze-changenet-rca",
       "path": "skills/tao-analyze-changenet-rca/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-analyze-changenet-rca/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Performs deep Root Cause Analysis (RCA) on NVIDIA TAO Visual ChangeNet classification experiments with",
       "slug": "nvidia-tao-analyze-changenet-rca"
     },
     {
@@ -1452,7 +1583,7 @@
       "skillName": "tao-analyze-gaps-visual-changenet",
       "path": "skills/tao-analyze-gaps-visual-changenet/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-analyze-gaps-visual-changenet/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Performs gap analysis on NVIDIA TAO VCN Classify (Visual Component Net) experiments by invoking the data-services container (`tao_toolkit.data_services` from `versions.yaml`) directly via `docker run … gap_analysis vcn_aoi …` — picks the optimal decision threshold, ranks per-sample weakness, and emits a top-K weakest parquet expanded per-lighting for downstream augmentation. Use when analyzing VCN classification failures, picking SDA augmentation targets, or auditing PASS/NO_PASS boundary cases.",
       "slug": "nvidia-tao-analyze-gaps-visual-changenet"
     },
     {
@@ -1461,7 +1592,7 @@
       "skillName": "tao-analyze-gaps-vlm-bcq",
       "path": "skills/tao-analyze-gaps-vlm-bcq/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-analyze-gaps-vlm-bcq/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Extract false-positive and false-negative gaps from VLM binary-classification-question (BCQ, yes/no) predictions.",
       "slug": "nvidia-tao-analyze-gaps-vlm-bcq"
     },
     {
@@ -1470,7 +1601,7 @@
       "skillName": "tao-convert-dataset-format",
       "path": "skills/tao-convert-dataset-format/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-convert-dataset-format/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Run `tao-daft convert` to convert NVIDIA TAO DAFT datasets between supported formats. Do not use for non-DAFT data.",
       "slug": "nvidia-tao-convert-dataset-format"
     },
     {
@@ -1479,7 +1610,7 @@
       "skillName": "tao-finetune-clip",
       "path": "skills/tao-finetune-clip/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-finetune-clip/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "CLIP vision-language model for image-text retrieval, zero-shot classification, embedding extraction, ONNX",
       "slug": "nvidia-tao-finetune-clip"
     },
     {
@@ -1488,7 +1619,7 @@
       "skillName": "tao-finetune-cosmos-embed",
       "path": "skills/tao-finetune-cosmos-embed/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-finetune-cosmos-embed/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": ">-",
       "slug": "nvidia-tao-finetune-cosmos-embed"
     },
     {
@@ -1497,7 +1628,7 @@
       "skillName": "tao-finetune-cosmos-reason",
       "path": "skills/tao-finetune-cosmos-reason/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-finetune-cosmos-reason/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Cosmos3-Nano video QA supervised fine-tuning with FSDP parallelism. Use when training or evaluating video",
       "slug": "nvidia-tao-finetune-cosmos-reason"
     },
     {
@@ -1506,7 +1637,7 @@
       "skillName": "tao-finetune-huggingface-model",
       "path": "skills/tao-finetune-huggingface-model/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-finetune-huggingface-model/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": ">",
       "slug": "nvidia-tao-finetune-huggingface-model"
     },
     {
@@ -1515,7 +1646,7 @@
       "skillName": "tao-generate-image-grounding",
       "path": "skills/tao-generate-image-grounding/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-generate-image-grounding/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Two-step image grounding pipeline: extracts referring expressions from (image, caption) pairs and grounds them",
       "slug": "nvidia-tao-generate-image-grounding"
     },
     {
@@ -1524,7 +1655,7 @@
       "skillName": "tao-generate-referring-expressions",
       "path": "skills/tao-generate-referring-expressions/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-generate-referring-expressions/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Four-step image referring-expression pipeline: turns images plus KITTI bounding-box labels into region",
       "slug": "nvidia-tao-generate-referring-expressions"
     },
     {
@@ -1533,7 +1664,7 @@
       "skillName": "tao-generate-video-reasoning-annotations",
       "path": "skills/tao-generate-video-reasoning-annotations/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-generate-video-reasoning-annotations/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": ">-",
       "slug": "nvidia-tao-generate-video-reasoning-annotations"
     },
     {
@@ -1542,7 +1673,7 @@
       "skillName": "tao-launch-workflow",
       "path": "skills/tao-launch-workflow/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-launch-workflow/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": ">-",
       "slug": "nvidia-tao-launch-workflow"
     },
     {
@@ -1551,7 +1682,7 @@
       "skillName": "tao-list-capabilities",
       "path": "skills/tao-list-capabilities/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-list-capabilities/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": ">-",
       "slug": "nvidia-tao-list-capabilities"
     },
     {
@@ -1560,7 +1691,7 @@
       "skillName": "tao-mine-aoi-images",
       "path": "skills/tao-mine-aoi-images/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-mine-aoi-images/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Runs the DEFT embed-then-mine workflow for VCN AOI iterations — embeds the gap-analysis target parquet, embeds a source pool, and mines nearest-neighbour source images for downstream augmentation. Use as the immediate next step after `tao-route-visual-changenet-samples` when expanding a real-image augmentation queue from the mining subset.",
       "slug": "nvidia-tao-mine-aoi-images"
     },
     {
@@ -1569,7 +1700,7 @@
       "skillName": "tao-port-huggingface-model",
       "path": "skills/tao-port-huggingface-model/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-port-huggingface-model/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": ">",
       "slug": "nvidia-tao-port-huggingface-model"
     },
     {
@@ -1578,7 +1709,7 @@
       "skillName": "tao-route-visual-changenet-samples",
       "path": "skills/tao-route-visual-changenet-samples/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-route-visual-changenet-samples/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Routes the weakest VCN samples (output of `tao-analyze-gaps-visual-changenet`) into per-augmentation-module",
       "slug": "nvidia-tao-route-visual-changenet-samples"
     },
     {
@@ -1587,7 +1718,7 @@
       "skillName": "tao-run-automl-deft-pipeline",
       "path": "skills/tao-run-automl-deft-pipeline/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-run-automl-deft-pipeline/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": ">",
       "slug": "nvidia-tao-run-automl-deft-pipeline"
     },
     {
@@ -1596,7 +1727,7 @@
       "skillName": "tao-run-automl",
       "path": "skills/tao-run-automl/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-run-automl/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Run AutoML / hyperparameter optimization (HPO) for NVIDIA TAO networks using AutoMLRunner. Handles algorithm",
       "slug": "nvidia-tao-run-automl"
     },
     {
@@ -1605,7 +1736,7 @@
       "skillName": "tao-run-deft-aoi",
       "path": "skills/tao-run-deft-aoi/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-run-deft-aoi/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": ">",
       "slug": "nvidia-tao-run-deft-aoi"
     },
     {
@@ -1614,7 +1745,7 @@
       "skillName": "tao-run-inference-service",
       "path": "skills/tao-run-inference-service/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-run-inference-service/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": ">",
       "slug": "nvidia-tao-run-inference-service"
     },
     {
@@ -1623,7 +1754,7 @@
       "skillName": "tao-run-on-brev",
       "path": "skills/tao-run-on-brev/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-run-on-brev/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Brev managed GPU instances with Docker support. Use when running TAO training, evaluation, or inference on",
       "slug": "nvidia-tao-run-on-brev"
     },
     {
@@ -1632,7 +1763,7 @@
       "skillName": "tao-run-on-kubernetes",
       "path": "skills/tao-run-on-kubernetes/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-run-on-kubernetes/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Kubernetes execution platform — submits TAO container jobs as single-pod k8s Jobs with NVIDIA GPU scheduling.",
       "slug": "nvidia-tao-run-on-kubernetes"
     },
     {
@@ -1641,7 +1772,7 @@
       "skillName": "tao-run-on-lepton",
       "path": "skills/tao-run-on-lepton/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-run-on-lepton/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "DGX Cloud Lepton managed GPU compute platform with run/status/cancel interface. Use when submitting TAO jobs",
       "slug": "nvidia-tao-run-on-lepton"
     },
     {
@@ -1650,7 +1781,7 @@
       "skillName": "tao-run-on-local-docker",
       "path": "skills/tao-run-on-local-docker/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-run-on-local-docker/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Local or remote Docker execution for TAO SDK job containers using a Docker daemon with NVIDIA GPU runtime. Use",
       "slug": "nvidia-tao-run-on-local-docker"
     },
     {
@@ -1659,7 +1790,7 @@
       "skillName": "tao-run-on-slurm",
       "path": "skills/tao-run-on-slurm/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-run-on-slurm/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Remote SLURM GPU cluster execution over SSH with sbatch/srun, Pyxis/Enroot containers, and Lustre-backed",
       "slug": "nvidia-tao-run-on-slurm"
     },
     {
@@ -1668,7 +1799,7 @@
       "skillName": "tao-run-platform",
       "path": "skills/tao-run-platform/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-run-platform/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "TAO Execution SDK for submitting and monitoring GPU training jobs on supported platforms (Brev, SLURM,",
       "slug": "nvidia-tao-run-platform"
     },
     {
@@ -1677,7 +1808,7 @@
       "skillName": "tao-setup-nvidia-gpu-host",
       "path": "skills/tao-setup-nvidia-gpu-host/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-setup-nvidia-gpu-host/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": ">-",
       "slug": "nvidia-tao-setup-nvidia-gpu-host"
     },
     {
@@ -1686,7 +1817,7 @@
       "skillName": "tao-train-action-recognition",
       "path": "skills/tao-train-action-recognition/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-train-action-recognition/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Action recognition from video sequences. Supports RGB, optical flow, and joint (multi-stream) input types for",
       "slug": "nvidia-tao-train-action-recognition"
     },
     {
@@ -1695,7 +1826,7 @@
       "skillName": "tao-train-bevfusion",
       "path": "skills/tao-train-bevfusion/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-train-bevfusion/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "BEVFusion for multi-sensor 3D object detection. Fuses LiDAR point clouds and camera images in bird's-eye-view",
       "slug": "nvidia-tao-train-bevfusion"
     },
     {
@@ -1704,7 +1835,7 @@
       "skillName": "tao-train-centerpose",
       "path": "skills/tao-train-centerpose/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-train-centerpose/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "CenterPose for keypoint / pose estimation. Detects object centers and regresses keypoint locations for 6-DoF",
       "slug": "nvidia-tao-train-centerpose"
     },
     {
@@ -1713,7 +1844,7 @@
       "skillName": "tao-train-deformable-detr",
       "path": "skills/tao-train-deformable-detr/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-train-deformable-detr/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Deformable DETR for 2D object detection. Uses deformable attention for efficient multi-scale feature processing,",
       "slug": "nvidia-tao-train-deformable-detr"
     },
     {
@@ -1722,7 +1853,7 @@
       "skillName": "tao-train-depth-anything-v2",
       "path": "skills/tao-train-depth-anything-v2/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-train-depth-anything-v2/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Monocular depth estimation using Metric Depth Anything v2 or Relative Depth Anything architectures. Predicts",
       "slug": "nvidia-tao-train-depth-anything-v2"
     },
     {
@@ -1731,7 +1862,7 @@
       "skillName": "tao-train-dino",
       "path": "skills/tao-train-dino/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-train-dino/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "DINO (DETR with Improved DeNoising Anchor Boxes) for 2D object detection. Transformer-based detector with",
       "slug": "nvidia-tao-train-dino"
     },
     {
@@ -1740,7 +1871,7 @@
       "skillName": "tao-train-fast-foundation-stereo",
       "path": "skills/tao-train-fast-foundation-stereo/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-train-fast-foundation-stereo/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Real-time stereo depth estimation using FastFoundationStereo (FFS), the distilled bp2 commercial variant of",
       "slug": "nvidia-tao-train-fast-foundation-stereo"
     },
     {
@@ -1749,7 +1880,7 @@
       "skillName": "tao-train-foundation-stereo",
       "path": "skills/tao-train-foundation-stereo/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-train-foundation-stereo/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Stereo depth estimation using FoundationStereo. Predicts disparity maps from stereo image pairs for 3D",
       "slug": "nvidia-tao-train-foundation-stereo"
     },
     {
@@ -1758,7 +1889,7 @@
       "skillName": "tao-train-grounding-dino",
       "path": "skills/tao-train-grounding-dino/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-train-grounding-dino/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Grounding DINO for open-set object detection. Combines DINO-style detection with a BERT text encoder for",
       "slug": "nvidia-tao-train-grounding-dino"
     },
     {
@@ -1767,7 +1898,7 @@
       "skillName": "tao-train-image-classification",
       "path": "skills/tao-train-image-classification/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-train-image-classification/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "PyTorch-based TAO image classification. Supports a wide range of backbones (FAN, EfficientNet, ResNet, etc.)",
       "slug": "nvidia-tao-train-image-classification"
     },
     {
@@ -1776,7 +1907,7 @@
       "skillName": "tao-train-mask-auto-encoder",
       "path": "skills/tao-train-mask-auto-encoder/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-train-mask-auto-encoder/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Masked Auto-Encoder (MAE) for self-supervised pretraining and fine-tuning. Masks random patches and reconstructs",
       "slug": "nvidia-tao-train-mask-auto-encoder"
     },
     {
@@ -1785,7 +1916,7 @@
       "skillName": "tao-train-mask-auto-label",
       "path": "skills/tao-train-mask-auto-label/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-train-mask-auto-label/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "MAL (Mask Auto-Label) for weakly-supervised segmentation. Produces segmentation masks from minimal annotations",
       "slug": "nvidia-tao-train-mask-auto-label"
     },
     {
@@ -1794,7 +1925,7 @@
       "skillName": "tao-train-mask-grounding-dino",
       "path": "skills/tao-train-mask-grounding-dino/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-train-mask-grounding-dino/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Mask Grounding DINO for grounded instance segmentation. Extends Grounding DINO with a mask-prediction head for",
       "slug": "nvidia-tao-train-mask-grounding-dino"
     },
     {
@@ -1803,7 +1934,7 @@
       "skillName": "tao-train-mask2former",
       "path": "skills/tao-train-mask2former/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-train-mask2former/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Mask2Former for universal image segmentation (panoptic, instance, and semantic). Transformer-based with",
       "slug": "nvidia-tao-train-mask2former"
     },
     {
@@ -1812,7 +1943,7 @@
       "skillName": "tao-train-metric-learning-recognition",
       "path": "skills/tao-train-metric-learning-recognition/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-train-metric-learning-recognition/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Metric-learning recognition (ml-recog) for fine-grained visual recognition. Learns embeddings for",
       "slug": "nvidia-tao-train-metric-learning-recognition"
     },
     {
@@ -1821,7 +1952,7 @@
       "skillName": "tao-train-nvdinov2",
       "path": "skills/tao-train-nvdinov2/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-train-nvdinov2/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "NVDINOv2 for self-supervised visual representation learning. Trains vision transformers via self-distillation",
       "slug": "nvidia-tao-train-nvdinov2"
     },
     {
@@ -1830,7 +1961,7 @@
       "skillName": "tao-train-nvpanoptix3d",
       "path": "skills/tao-train-nvpanoptix3d/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-train-nvpanoptix3d/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "NVPanoptix3D for panoptic 3D scene reconstruction from posed RGB images. Produces 3D panoptic segmentation",
       "slug": "nvidia-tao-train-nvpanoptix3d"
     },
     {
@@ -1839,7 +1970,7 @@
       "skillName": "tao-train-ocdnet",
       "path": "skills/tao-train-ocdnet/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-train-ocdnet/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "OCDNet for scene text detection. Detects arbitrary-oriented text regions in natural images using a",
       "slug": "nvidia-tao-train-ocdnet"
     },
     {
@@ -1848,7 +1979,7 @@
       "skillName": "tao-train-ocrnet",
       "path": "skills/tao-train-ocrnet/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-train-ocrnet/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "OCRNet for scene text recognition. Recognizes text content from cropped text-region images and supports CTC",
       "slug": "nvidia-tao-train-ocrnet"
     },
     {
@@ -1857,7 +1988,7 @@
       "skillName": "tao-train-oneformer",
       "path": "skills/tao-train-oneformer/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-train-oneformer/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "OneFormer for universal image segmentation. Unifies panoptic, instance, and semantic segmentation with a",
       "slug": "nvidia-tao-train-oneformer"
     },
     {
@@ -1866,7 +1997,7 @@
       "skillName": "tao-train-optical-inspection",
       "path": "skills/tao-train-optical-inspection/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-train-optical-inspection/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Optical Inspection for defect detection using Siamese networks. Compares image pairs to detect manufacturing",
       "slug": "nvidia-tao-train-optical-inspection"
     },
     {
@@ -1875,7 +2006,7 @@
       "skillName": "tao-train-pointpillars",
       "path": "skills/tao-train-pointpillars/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-train-pointpillars/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "PointPillars for 3D object detection from LiDAR point clouds. Encodes point clouds into a pseudo-image via a",
       "slug": "nvidia-tao-train-pointpillars"
     },
     {
@@ -1884,7 +2015,7 @@
       "skillName": "tao-train-pose-classification",
       "path": "skills/tao-train-pose-classification/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-train-pose-classification/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Pose classification using ST-GCN (Spatial Temporal Graph Convolutional Network). Classifies skeleton sequences",
       "slug": "nvidia-tao-train-pose-classification"
     },
     {
@@ -1893,7 +2024,7 @@
       "skillName": "tao-train-reid",
       "path": "skills/tao-train-reid/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-train-reid/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Person re-identification (ReID). Learns discriminative embeddings to match the same person across different",
       "slug": "nvidia-tao-train-reid"
     },
     {
@@ -1902,7 +2033,7 @@
       "skillName": "tao-train-rtdetr",
       "path": "skills/tao-train-rtdetr/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-train-rtdetr/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "RT-DETR (Real-Time DEtection TRansformer) for 2D object detection. Designed for real-time inference with",
       "slug": "nvidia-tao-train-rtdetr"
     },
     {
@@ -1911,7 +2042,7 @@
       "skillName": "tao-train-segformer",
       "path": "skills/tao-train-segformer/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-train-segformer/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "SegFormer for semantic segmentation. Lightweight transformer-based architecture with hierarchical feature",
       "slug": "nvidia-tao-train-segformer"
     },
     {
@@ -1920,7 +2051,7 @@
       "skillName": "tao-train-single-step",
       "path": "skills/tao-train-single-step/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-train-single-step/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Standard single-step train/eval/export workflow for any TAO model. Use when training a TAO model on a dataset",
       "slug": "nvidia-tao-train-single-step"
     },
     {
@@ -1929,7 +2060,7 @@
       "skillName": "tao-train-sparse4d",
       "path": "skills/tao-train-sparse4d/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-train-sparse4d/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Sparse4D for multi-camera temporal 3D object detection and tracking. Uses sparse queries with deformable",
       "slug": "nvidia-tao-train-sparse4d"
     },
     {
@@ -1938,7 +2069,7 @@
       "skillName": "tao-train-visual-changenet",
       "path": "skills/tao-train-visual-changenet/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-train-visual-changenet/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Visual ChangeNet for binary image classification and segmentation in AOI defect detection. Use when training,",
       "slug": "nvidia-tao-train-visual-changenet"
     },
     {
@@ -1947,7 +2078,7 @@
       "skillName": "tao-validate-dataset-format",
       "path": "skills/tao-validate-dataset-format/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-validate-dataset-format/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Run `tao-daft validate` to check NVIDIA TAO DAFT datasets for structure, schema, and cross-reference errors. Do",
       "slug": "nvidia-tao-validate-dataset-format"
     },
     {
@@ -1956,7 +2087,7 @@
       "skillName": "tilegym-adding-cutile-kernel",
       "path": "skills/tilegym-adding-cutile-kernel/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tilegym-adding-cutile-kernel/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Add a new cuTile GPU kernel operator to TileGym. Covers dispatch registration in ops.py, cuTile backend implementation, __init__.py exports, test creation, and benchmark in tests/benchmark. Use when adding, creating, or implementing a new cuTile operator/kernel in TileGym, or when asking how to register a new cuTile op.",
       "slug": "nvidia-tilegym-adding-cutile-kernel"
     },
     {
@@ -1965,7 +2096,7 @@
       "skillName": "tilegym-converting-cutile-to-julia",
       "path": "skills/tilegym-converting-cutile-to-julia/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tilegym-converting-cutile-to-julia/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Converts cuTile Python GPU kernels (@ct.kernel) to cuTile.jl Julia equivalents. Handles kernel syntax translation, 0-indexed to 1-indexed conversion, broadcasting differences, memory layout (row-major to column-major), type system mapping, and launch API differences. Use when converting, porting, or translating cuTile Python kernels to Julia cuTile.jl, or debugging/optimizing existing Julia cuTile translations.",
       "slug": "nvidia-tilegym-converting-cutile-to-julia"
     },
     {
@@ -1974,7 +2105,7 @@
       "skillName": "tilegym-converting-cutile-to-triton",
       "path": "skills/tilegym-converting-cutile-to-triton/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tilegym-converting-cutile-to-triton/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Converts cuTile GPU kernels (@ct.kernel) to Triton (@triton.jit). Handles standard in-repo conversion, debugging (cudaErrorIllegalAddress, shape mismatch, numerical mismatch), and mapping cuTile idioms (ct.load/ct.store, ct.Constant, ct.launch) to Triton equivalents. Covers dual-kernel layout flags (e.g. transpose=True/False + autotune grid via META) per translations/advanced-patterns.md. Use when converting, porting, or translating cuTile kernels to Triton, or debugging existing Triton translations.",
       "slug": "nvidia-tilegym-converting-cutile-to-triton"
     },
     {
@@ -1983,7 +2114,7 @@
       "skillName": "tilegym-cutile-autotuning",
       "path": "skills/tilegym-cutile-autotuning/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tilegym-cutile-autotuning/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Use when adding, modifying, optimizing, or debugging CuTile autotuning code. Trigger signals: `exhaustive_search` / `replace_hints` / `hints_fn` / `cuda.tile.tune` in code, `autotune` in filenames, or correctness/performance issues in autotuned CuTile kernels. Covers: tune-once/cache/launch pattern, per-architecture configs (sm80–sm120), parameter space design (tile sizes, occupancy, num_ctas), and 7 common pitfalls with solutions.",
       "slug": "nvidia-tilegym-cutile-autotuning"
     },
     {
@@ -1992,7 +2123,7 @@
       "skillName": "tilegym-cutile-python",
       "path": "skills/tilegym-cutile-python/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tilegym-cutile-python/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Expert cuTile programming assistant. Write high-performance GPU kernels using cuTile's tile-based programming model with proper validation and optimization. Supports deep agent orchestration for complex multi-kernel tasks.",
       "slug": "nvidia-tilegym-cutile-python"
     },
     {
@@ -2001,7 +2132,7 @@
       "skillName": "tilegym-improve-cutile-kernel-perf",
       "path": "skills/tilegym-improve-cutile-kernel-perf/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tilegym-improve-cutile-kernel-perf/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Iteratively optimize cuTile kernel performance through systematic profiling, bottleneck analysis, IR comparison, and targeted tuning. Covers tile sizes, occupancy, autotune configs, TMA, latency hints, persistent scheduling, num_ctas, flush_to_zero, and IR-level debugging. Use when asked to \"optimize cutile kernel\", \"improve kernel perf\", \"tune cutile performance\", \"make kernel faster\", or iteratively benchmark and refine a cuTile GPU kernel in the TileGym project.",
       "slug": "nvidia-tilegym-improve-cutile-kernel-perf"
     },
     {
@@ -2010,7 +2141,7 @@
       "skillName": "tilegym-monkey-patch-kernels-to-transformers",
       "path": "skills/tilegym-monkey-patch-kernels-to-transformers/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tilegym-monkey-patch-kernels-to-transformers/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Integrate TileGym kernels into Hugging Face `transformers` models by replacing the library's submodule(s) and certain class(es)' implementations, and patching certain class(es)' init/forward/load weight methods prior to instantiating models. Used when the user requires integrating TileGym kernels into `transformers` models.",
       "slug": "nvidia-tilegym-monkey-patch-kernels-to-transformers"
     },
     {
@@ -2019,7 +2150,7 @@
       "skillName": "vss-ask-video",
       "path": "skills/vss-ask-video/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/vss-ask-video/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Use this skill to ask the VSS agent's video_understanding tool a fresh visual question about a recorded clip. Not for prior tool output, search hits, or metadata-answerable questions.",
       "slug": "nvidia-vss-ask-video"
     },
     {
@@ -2028,7 +2159,7 @@
       "skillName": "vss-deploy-dense-captioning",
       "path": "skills/vss-deploy-dense-captioning/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/vss-deploy-dense-captioning/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Use this skill when deploying standalone RT-VLM dense captioning or calling its REST API (uploads, captions, streams, chat-completions, Kafka). Not for VSS profile deploy or video-search ingestion.",
       "slug": "nvidia-vss-deploy-dense-captioning"
     },
     {
@@ -2037,7 +2168,7 @@
       "skillName": "vss-deploy-detection-tracking-2d",
       "path": "skills/vss-deploy-detection-tracking-2d/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/vss-deploy-detection-tracking-2d/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Use this skill when the user wants to deploy, run, debug, tear down, or call the REST API of the RTVI-CV 2D detection / tracking microservice. Trigger when the user says things like 'deploy rtvi-cv', 'start warehouse 2d', 'add a stream', 'check rtvi-cv health', or 'stop the perception container'. Not for VLM, embedding, or analytics — use the matching vss-* skill.",
       "slug": "nvidia-vss-deploy-detection-tracking-2d"
     },
     {
@@ -2046,7 +2177,7 @@
       "skillName": "vss-deploy-detection-tracking-3d",
       "path": "skills/vss-deploy-detection-tracking-3d/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/vss-deploy-detection-tracking-3d/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": ">",
       "slug": "nvidia-vss-deploy-detection-tracking-3d"
     },
     {
@@ -2055,7 +2186,7 @@
       "skillName": "vss-deploy-profile",
       "path": "skills/vss-deploy-profile/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/vss-deploy-profile/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Use to select, configure, deploy, verify, debug, or tear down a VSS profile (base, search, lvs, warehouse, edge). Not for standalone microservices — use the vss-deploy-* skill.",
       "slug": "nvidia-vss-deploy-profile"
     },
     {
@@ -2064,7 +2195,7 @@
       "skillName": "vss-deploy-video-embedding",
       "path": "skills/vss-deploy-video-embedding/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/vss-deploy-video-embedding/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": ">",
       "slug": "nvidia-vss-deploy-video-embedding"
     },
     {
@@ -2073,7 +2204,7 @@
       "skillName": "vss-generate-video-calibration",
       "path": "skills/vss-generate-video-calibration/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/vss-generate-video-calibration/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Use to run AutoMagicCalib on local MP4s, RTSP, or the bundled sample dataset, and to deploy vss-auto-calibration when needed. Do not use for non-AMC calibration or runtime analytics.",
       "slug": "nvidia-vss-generate-video-calibration"
     },
     {
@@ -2082,7 +2213,7 @@
       "skillName": "vss-generate-video-report",
       "path": "skills/vss-generate-video-report/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/vss-generate-video-report/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Use this skill when producing a VSS analysis report — Mode A per-clip VLM, Mode B incident-range via video-analytics. Not for standalone video summarization, real-time alerts or ad-hoc Q&A.",
       "slug": "nvidia-vss-generate-video-report"
     },
     {
@@ -2091,7 +2222,7 @@
       "skillName": "vss-manage-alerts",
       "path": "skills/vss-manage-alerts/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/vss-manage-alerts/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Use for VSS alert workflows — real-time monitoring, Alert-Bridge subscriptions, Slack notifications, incident queries, camera onboarding. Not for non-alert analytics.",
       "slug": "nvidia-vss-manage-alerts"
     },
     {
@@ -2100,7 +2231,7 @@
       "skillName": "vss-manage-video-io-storage",
       "path": "skills/vss-manage-video-io-storage/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/vss-manage-video-io-storage/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Use to call the VIOS REST API (sensor list, timelines, clip extraction, snapshots, add/delete sensors and streams). Not for VLM inference or search.",
       "slug": "nvidia-vss-manage-video-io-storage"
     },
     {
@@ -2109,7 +2240,7 @@
       "skillName": "vss-query-analytics",
       "path": "skills/vss-query-analytics/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/vss-query-analytics/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Use this skill when reading video-analytics metrics, incidents, alerts, and sensor data via the VA-MCP server (port 9901). Not for live VLM or incident-range narrative reports.",
       "slug": "nvidia-vss-query-analytics"
     },
     {
@@ -2118,7 +2249,7 @@
       "skillName": "vss-search-archive",
       "path": "skills/vss-search-archive/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/vss-search-archive/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Use this skill to run top-level VSS fusion search on archived video, or to ingest video files / RTSP streams for search. Do NOT use for ad-hoc visual Q&A (use vss-ask-video), live captioning (use vss-deploy-dense-captioning), or video summarization and reports (use vss-summarize-video).",
       "slug": "nvidia-vss-search-archive"
     },
     {
@@ -2127,7 +2258,7 @@
       "skillName": "vss-setup-behavior-analytics",
       "path": "skills/vss-setup-behavior-analytics/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/vss-setup-behavior-analytics/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Use to deploy the vss-behavior-analytics service standalone (entrypoint, config-source, optional calibration). Not for the full warehouse deploy.",
       "slug": "nvidia-vss-setup-behavior-analytics"
     },
     {
@@ -2136,7 +2267,7 @@
       "skillName": "vss-setup-video-analytics-api",
       "path": "skills/vss-setup-video-analytics-api/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/vss-setup-video-analytics-api/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Use to deploy the vss-video-analytics-api REST service standalone (config-source, data-log bind, Elasticsearch, optional Kafka). Not for full warehouse deploy.",
       "slug": "nvidia-vss-setup-video-analytics-api"
     },
     {
@@ -2145,10 +2276,10 @@
       "skillName": "vss-summarize-video",
       "path": "skills/vss-summarize-video/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/vss-summarize-video/SKILL.md",
-      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "description": "Use to summarize a recorded video via the LVS summarization microservice (HITL-gated) with a VLM fallback. Not for report generation or live RTSP captioning.",
       "slug": "nvidia-vss-summarize-video"
     }
   ],
-  "itemCount": 238,
-  "lastStatus": "scanned"
+  "itemCount": 227,
+  "lastStatus": "cache-fresh"
 }

@@ -10,9 +10,24 @@
       "repository": "gitroomhq/postiz-agent",
       "branch": "main",
       "skillName": "postiz-agent",
+      "path": "README.md",
+      "url": "https://github.com/gitroomhq/postiz-agent",
+      "description": "Discovered from a public GitHub repository: gitroomhq/postiz-agent",
+      "slug": "gitroomhq-postiz-agent-collection",
+      "isCollection": true,
+      "stars": null,
+      "skillPaths": [
+        "SKILL.md",
+        "skills/postiz/SKILL.md"
+      ]
+    },
+    {
+      "repository": "gitroomhq/postiz-agent",
+      "branch": "main",
+      "skillName": "postiz-agent",
       "path": "SKILL.md",
       "url": "https://github.com/gitroomhq/postiz-agent/blob/main/SKILL.md",
-      "description": "Discovered from a public GitHub repository: gitroomhq/postiz-agent",
+      "description": "Postiz is a tool to schedule social media and chat posts to 28+ channels X, LinkedIn, LinkedIn Page, Reddit, Instagram, Facebook Page, Threads, YouTube, Google My Business, TikTok, Pinterest, Dribbble, Discord, Slack, Kick, Twitch, Mastodon, Bluesky, Lemmy, Farcaster, Telegram, Nostr, VK, Medium, Dev.to, Hashnode, WordPress, ListMonk",
       "slug": "gitroomhq-postiz-agent"
     },
     {
@@ -21,10 +36,10 @@
       "skillName": "postiz",
       "path": "skills/postiz/SKILL.md",
       "url": "https://github.com/gitroomhq/postiz-agent/blob/main/skills/postiz/SKILL.md",
-      "description": "Discovered from a public GitHub repository: gitroomhq/postiz-agent",
+      "description": "../../SKILL.md",
       "slug": "gitroomhq-postiz"
     }
   ],
-  "itemCount": 2,
-  "lastStatus": "reused-unchanged"
+  "itemCount": 3,
+  "lastStatus": "cache-fresh"
 }

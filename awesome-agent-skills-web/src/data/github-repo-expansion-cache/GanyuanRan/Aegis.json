@@ -9,10 +9,45 @@
     {
       "repository": "GanyuanRan/Aegis",
       "branch": "main",
+      "skillName": "Aegis",
+      "path": "README.md",
+      "url": "https://github.com/GanyuanRan/Aegis",
+      "description": "Discovered from a public GitHub repository: GanyuanRan/Aegis",
+      "slug": "ganyuanran-aegis-collection",
+      "isCollection": true,
+      "stars": null,
+      "skillPaths": [
+        "skills/anti-entropy-governance/SKILL.md",
+        "skills/brainstorming/SKILL.md",
+        "skills/communicating-concisely/SKILL.md",
+        "skills/dispatching-parallel-agents/SKILL.md",
+        "skills/establishing-project-context/SKILL.md",
+        "skills/executing-plans/SKILL.md",
+        "skills/finishing-a-development-branch/SKILL.md",
+        "skills/first-principles-review/SKILL.md",
+        "skills/goal-framing/SKILL.md",
+        "skills/long-task-continuation/SKILL.md",
+        "skills/receiving-code-review/SKILL.md",
+        "skills/recording-architecture-decisions/SKILL.md",
+        "skills/requesting-code-review/SKILL.md",
+        "skills/subagent-driven-development/SKILL.md",
+        "skills/systematic-debugging/SKILL.md",
+        "skills/test-driven-development/SKILL.md",
+        "skills/update-aegis/SKILL.md",
+        "skills/using-aegis/SKILL.md",
+        "skills/using-git-worktrees/SKILL.md",
+        "skills/verification-before-completion/SKILL.md",
+        "skills/writing-plans/SKILL.md",
+        "skills/writing-skills/SKILL.md"
+      ]
+    },
+    {
+      "repository": "GanyuanRan/Aegis",
+      "branch": "main",
       "skillName": "anti-entropy-governance",
       "path": "skills/anti-entropy-governance/SKILL.md",
       "url": "https://github.com/GanyuanRan/Aegis/blob/main/skills/anti-entropy-governance/SKILL.md",
-      "description": "Discovered from a public GitHub repository: GanyuanRan/Aegis",
+      "description": "Use when retiring old logic, collapsing duplicate owners, removing fallbacks, or touching schema, persistence, or source-of-truth boundaries while deciding whether to delete old paths, retain compatibility, or stop for confirmation.",
       "slug": "ganyuanran-anti-entropy-governance"
     },
     {
@@ -21,7 +56,7 @@
       "skillName": "brainstorming",
       "path": "skills/brainstorming/SKILL.md",
       "url": "https://github.com/GanyuanRan/Aegis/blob/main/skills/brainstorming/SKILL.md",
-      "description": "Discovered from a public GitHub repository: GanyuanRan/Aegis",
+      "description": "Use when defining new features, product behavior, UI/component design, architecture choices, contract changes, or ambiguous medium/high-complexity work before implementation.",
       "slug": "ganyuanran-brainstorming"
     },
     {
@@ -30,7 +65,7 @@
       "skillName": "communicating-concisely",
       "path": "skills/communicating-concisely/SKILL.md",
       "url": "https://github.com/GanyuanRan/Aegis/blob/main/skills/communicating-concisely/SKILL.md",
-      "description": "Discovered from a public GitHub repository: GanyuanRan/Aegis",
+      "description": "Use when the user asks for caveman mode, fewer tokens, brief responses, compressed communication, or otherwise explicitly requests a much shorter answer.",
       "slug": "ganyuanran-communicating-concisely"
     },
     {
@@ -39,7 +74,7 @@
       "skillName": "dispatching-parallel-agents",
       "path": "skills/dispatching-parallel-agents/SKILL.md",
       "url": "https://github.com/GanyuanRan/Aegis/blob/main/skills/dispatching-parallel-agents/SKILL.md",
-      "description": "Discovered from a public GitHub repository: GanyuanRan/Aegis",
+      "description": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
       "slug": "ganyuanran-dispatching-parallel-agents"
     },
     {
@@ -48,7 +83,7 @@
       "skillName": "establishing-project-context",
       "path": "skills/establishing-project-context/SKILL.md",
       "url": "https://github.com/GanyuanRan/Aegis/blob/main/skills/establishing-project-context/SKILL.md",
-      "description": "Discovered from a public GitHub repository: GanyuanRan/Aegis",
+      "description": "Use when entering a project for the first time, or when the user asks to establish shared language, define domain terms, or create a project glossary.",
       "slug": "ganyuanran-establishing-project-context"
     },
     {
@@ -57,7 +92,7 @@
       "skillName": "executing-plans",
       "path": "skills/executing-plans/SKILL.md",
       "url": "https://github.com/GanyuanRan/Aegis/blob/main/skills/executing-plans/SKILL.md",
-      "description": "Discovered from a public GitHub repository: GanyuanRan/Aegis",
+      "description": "Use when you have a written implementation plan to execute in a separate session with review checkpoints",
       "slug": "ganyuanran-executing-plans"
     },
     {
@@ -66,7 +101,7 @@
       "skillName": "finishing-a-development-branch",
       "path": "skills/finishing-a-development-branch/SKILL.md",
       "url": "https://github.com/GanyuanRan/Aegis/blob/main/skills/finishing-a-development-branch/SKILL.md",
-      "description": "Discovered from a public GitHub repository: GanyuanRan/Aegis",
+      "description": "Use when implementation is complete, verification has passed, and the user needs to choose merge, PR, branch cleanup, or follow-up integration handling.",
       "slug": "ganyuanran-finishing-a-development-branch"
     },
     {
@@ -75,7 +110,7 @@
       "skillName": "first-principles-review",
       "path": "skills/first-principles-review/SKILL.md",
       "url": "https://github.com/GanyuanRan/Aegis/blob/main/skills/first-principles-review/SKILL.md",
-      "description": "Discovered from a public GitHub repository: GanyuanRan/Aegis",
+      "description": "Use when the user explicitly asks for first principles, first-principles review, Occam's razor, or when a complex decision has ambiguous goals, competing constraints, repeated fixes, fallback growth, duplicate owners, or architecture/product direction risk.",
       "slug": "ganyuanran-first-principles-review"
     },
     {
@@ -84,7 +119,7 @@
       "skillName": "goal-framing",
       "path": "skills/goal-framing/SKILL.md",
       "url": "https://github.com/GanyuanRan/Aegis/blob/main/skills/goal-framing/SKILL.md",
-      "description": "Discovered from a public GitHub repository: GanyuanRan/Aegis",
+      "description": "Use when the user explicitly sets an Aegis goal with /aegis-goal, Aegis goal:, or asks to define goal, success evidence, stop condition, or task boundaries before work.",
       "slug": "ganyuanran-goal-framing"
     },
     {
@@ -93,7 +128,7 @@
       "skillName": "long-task-continuation",
       "path": "skills/long-task-continuation/SKILL.md",
       "url": "https://github.com/GanyuanRan/Aegis/blob/main/skills/long-task-continuation/SKILL.md",
-      "description": "Discovered from a public GitHub repository: GanyuanRan/Aegis",
+      "description": "Use when a task is multi-step, may span context resets or sessions, uses subagents, or risks losing state before completion.",
       "slug": "ganyuanran-long-task-continuation"
     },
     {
@@ -102,7 +137,7 @@
       "skillName": "receiving-code-review",
       "path": "skills/receiving-code-review/SKILL.md",
       "url": "https://github.com/GanyuanRan/Aegis/blob/main/skills/receiving-code-review/SKILL.md",
-      "description": "Discovered from a public GitHub repository: GanyuanRan/Aegis",
+      "description": "Use when receiving code review feedback before implementing suggestions, especially when feedback is unclear, risky, disputed, or technically questionable.",
       "slug": "ganyuanran-receiving-code-review"
     },
     {
@@ -111,7 +146,7 @@
       "skillName": "recording-architecture-decisions",
       "path": "skills/recording-architecture-decisions/SKILL.md",
       "url": "https://github.com/GanyuanRan/Aegis/blob/main/skills/recording-architecture-decisions/SKILL.md",
-      "description": "Discovered from a public GitHub repository: GanyuanRan/Aegis",
+      "description": "Use when the user asks to create, write, update, amend, supersede, or evaluate an ADR, architecture decision record, durable architecture decision, decision log, or baseline sync after architecture-changing work.",
       "slug": "ganyuanran-recording-architecture-decisions"
     },
     {
@@ -120,7 +155,7 @@
       "skillName": "requesting-code-review",
       "path": "skills/requesting-code-review/SKILL.md",
       "url": "https://github.com/GanyuanRan/Aegis/blob/main/skills/requesting-code-review/SKILL.md",
-      "description": "Discovered from a public GitHub repository: GanyuanRan/Aegis",
+      "description": "Use when explicitly requesting an independent code review, after subagent-driven implementation slices, before merging high-risk work, or when verification finds evidence, baseline, architecture, compatibility, or retirement uncertainty that needs reviewer scrutiny.",
       "slug": "ganyuanran-requesting-code-review"
     },
     {
@@ -129,7 +164,7 @@
       "skillName": "subagent-driven-development",
       "path": "skills/subagent-driven-development/SKILL.md",
       "url": "https://github.com/GanyuanRan/Aegis/blob/main/skills/subagent-driven-development/SKILL.md",
-      "description": "Discovered from a public GitHub repository: GanyuanRan/Aegis",
+      "description": "Use when executing implementation plans with independent tasks in the current session",
       "slug": "ganyuanran-subagent-driven-development"
     },
     {
@@ -138,7 +173,7 @@
       "skillName": "systematic-debugging",
       "path": "skills/systematic-debugging/SKILL.md",
       "url": "https://github.com/GanyuanRan/Aegis/blob/main/skills/systematic-debugging/SKILL.md",
-      "description": "Discovered from a public GitHub repository: GanyuanRan/Aegis",
+      "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
       "slug": "ganyuanran-systematic-debugging"
     },
     {
@@ -147,7 +182,7 @@
       "skillName": "test-driven-development",
       "path": "skills/test-driven-development/SKILL.md",
       "url": "https://github.com/GanyuanRan/Aegis/blob/main/skills/test-driven-development/SKILL.md",
-      "description": "Discovered from a public GitHub repository: GanyuanRan/Aegis",
+      "description": "Use when the user explicitly requests strict or test-first TDD, or when the current conversation already contains an explicit `TDD Route: strict` decision from another Aegis workflow.",
       "slug": "ganyuanran-test-driven-development"
     },
     {
@@ -156,7 +191,7 @@
       "skillName": "update-aegis",
       "path": "skills/update-aegis/SKILL.md",
       "url": "https://github.com/GanyuanRan/Aegis/blob/main/skills/update-aegis/SKILL.md",
-      "description": "Discovered from a public GitHub repository: GanyuanRan/Aegis",
+      "description": "Use when the user says `aegis:update`, asks to update or upgrade an installed Aegis method-pack, wants the latest Aegis version, or asks whether Aegis is current on this host.",
       "slug": "ganyuanran-update-aegis"
     },
     {
@@ -165,7 +200,7 @@
       "skillName": "using-aegis",
       "path": "skills/using-aegis/SKILL.md",
       "url": "https://github.com/GanyuanRan/Aegis/blob/main/skills/using-aegis/SKILL.md",
-      "description": "Discovered from a public GitHub repository: GanyuanRan/Aegis",
+      "description": "Use when starting a turn or checking Aegis skill routing.",
       "slug": "ganyuanran-using-aegis"
     },
     {
@@ -174,7 +209,7 @@
       "skillName": "using-git-worktrees",
       "path": "skills/using-git-worktrees/SKILL.md",
       "url": "https://github.com/GanyuanRan/Aegis/blob/main/skills/using-git-worktrees/SKILL.md",
-      "description": "Discovered from a public GitHub repository: GanyuanRan/Aegis",
+      "description": "Use when starting feature work that needs isolation from the current workspace, or when an implementation plan should run outside the active working tree.",
       "slug": "ganyuanran-using-git-worktrees"
     },
     {
@@ -183,7 +218,7 @@
       "skillName": "verification-before-completion",
       "path": "skills/verification-before-completion/SKILL.md",
       "url": "https://github.com/GanyuanRan/Aegis/blob/main/skills/verification-before-completion/SKILL.md",
-      "description": "Discovered from a public GitHub repository: GanyuanRan/Aegis",
+      "description": "Use when about to claim work is complete, fixed, passing, verified, release-ready, or ready to commit, merge, publish, or hand off.",
       "slug": "ganyuanran-verification-before-completion"
     },
     {
@@ -192,7 +227,7 @@
       "skillName": "writing-plans",
       "path": "skills/writing-plans/SKILL.md",
       "url": "https://github.com/GanyuanRan/Aegis/blob/main/skills/writing-plans/SKILL.md",
-      "description": "Discovered from a public GitHub repository: GanyuanRan/Aegis",
+      "description": "Use when you have a spec or requirements for a multi-step task, before touching code",
       "slug": "ganyuanran-writing-plans"
     },
     {
@@ -201,10 +236,10 @@
       "skillName": "writing-skills",
       "path": "skills/writing-skills/SKILL.md",
       "url": "https://github.com/GanyuanRan/Aegis/blob/main/skills/writing-skills/SKILL.md",
-      "description": "Discovered from a public GitHub repository: GanyuanRan/Aegis",
+      "description": "Use when creating new skills, editing existing skills, or verifying skills work before deployment",
       "slug": "ganyuanran-writing-skills"
     }
   ],
-  "itemCount": 22,
-  "lastStatus": "reused-unchanged"
+  "itemCount": 23,
+  "lastStatus": "cache-fresh"
 }

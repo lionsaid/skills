@@ -9,10 +9,31 @@
     {
       "repository": "ehmo/platform-design-skills",
       "branch": "main",
+      "skillName": "platform-design-skills",
+      "path": "README.md",
+      "url": "https://github.com/ehmo/platform-design-skills",
+      "description": "Discovered from a public GitHub repository: ehmo/platform-design-skills",
+      "slug": "ehmo-platform-design-skills-collection",
+      "isCollection": true,
+      "stars": null,
+      "skillPaths": [
+        "skills/android/SKILL.md",
+        "skills/ios/SKILL.md",
+        "skills/ipados/SKILL.md",
+        "skills/macos/SKILL.md",
+        "skills/tvos/SKILL.md",
+        "skills/visionos/SKILL.md",
+        "skills/watchos/SKILL.md",
+        "skills/web/SKILL.md"
+      ]
+    },
+    {
+      "repository": "ehmo/platform-design-skills",
+      "branch": "main",
       "skillName": "android",
       "path": "skills/android/SKILL.md",
       "url": "https://github.com/ehmo/platform-design-skills/blob/main/skills/android/SKILL.md",
-      "description": "Discovered from a public GitHub repository: ehmo/platform-design-skills",
+      "description": "Material Design 3 and Android platform guidelines. Use when building Android apps with Jetpack Compose or XML layouts, implementing Material You, navigation, or accessibility. Triggers on tasks involving Android UI, Compose components, dynamic color, or Material Design compliance.",
       "slug": "ehmo-android"
     },
     {
@@ -21,7 +42,7 @@
       "skillName": "ios",
       "path": "skills/ios/SKILL.md",
       "url": "https://github.com/ehmo/platform-design-skills/blob/main/skills/ios/SKILL.md",
-      "description": "Discovered from a public GitHub repository: ehmo/platform-design-skills",
+      "description": "Apple Human Interface Guidelines for iPhone. Use when building, reviewing, or refactoring SwiftUI/UIKit interfaces for iOS. Triggers on tasks involving iPhone UI, iOS components, accessibility, Dynamic Type, Dark Mode, or HIG compliance.",
       "slug": "ehmo-ios"
     },
     {
@@ -30,7 +51,7 @@
       "skillName": "ipados",
       "path": "skills/ipados/SKILL.md",
       "url": "https://github.com/ehmo/platform-design-skills/blob/main/skills/ipados/SKILL.md",
-      "description": "Discovered from a public GitHub repository: ehmo/platform-design-skills",
+      "description": "Apple Human Interface Guidelines for iPad. Use when building iPad-optimized interfaces, implementing multitasking, pointer support, keyboard shortcuts, or responsive layouts. Triggers on tasks involving iPad, Split View, Stage Manager, sidebar navigation, or trackpad support.",
       "slug": "ehmo-ipados"
     },
     {
@@ -39,7 +60,7 @@
       "skillName": "macos",
       "path": "skills/macos/SKILL.md",
       "url": "https://github.com/ehmo/platform-design-skills/blob/main/skills/macos/SKILL.md",
-      "description": "Discovered from a public GitHub repository: ehmo/platform-design-skills",
+      "description": "Apple Human Interface Guidelines for Mac. Use when building macOS apps with SwiftUI or AppKit, implementing menu bars, toolbars, window management, or keyboard shortcuts. Triggers on tasks involving Mac UI, desktop apps, or Mac Catalyst.",
       "slug": "ehmo-macos"
     },
     {
@@ -57,7 +78,7 @@
       "skillName": "visionos",
       "path": "skills/visionos/SKILL.md",
       "url": "https://github.com/ehmo/platform-design-skills/blob/main/skills/visionos/SKILL.md",
-      "description": "Discovered from a public GitHub repository: ehmo/platform-design-skills",
+      "description": "Apple Human Interface Guidelines for Apple Vision Pro. Use when building spatial computing apps, implementing eye/hand input, or designing immersive experiences. Triggers on tasks involving visionOS, RealityKit, spatial UI, or mixed reality.",
       "slug": "ehmo-visionos"
     },
     {
@@ -66,7 +87,7 @@
       "skillName": "watchos",
       "path": "skills/watchos/SKILL.md",
       "url": "https://github.com/ehmo/platform-design-skills/blob/main/skills/watchos/SKILL.md",
-      "description": "Discovered from a public GitHub repository: ehmo/platform-design-skills",
+      "description": "Apple Human Interface Guidelines for Apple Watch. Use when building watchOS apps, complications, or workout features. Triggers on tasks involving Watch UI, Digital Crown, glanceable interfaces, or wrist-based interactions.",
       "slug": "ehmo-watchos"
     },
     {
@@ -75,10 +96,10 @@
       "skillName": "web",
       "path": "skills/web/SKILL.md",
       "url": "https://github.com/ehmo/platform-design-skills/blob/main/skills/web/SKILL.md",
-      "description": "Discovered from a public GitHub repository: ehmo/platform-design-skills",
+      "description": "Web platform design and accessibility guidelines. Use when building web interfaces, auditing accessibility, implementing responsive layouts, or reviewing web UI code. Triggers on tasks involving HTML, CSS, web components, WCAG compliance, responsive design, or web performance.",
       "slug": "ehmo-web"
     }
   ],
-  "itemCount": 8,
-  "lastStatus": "reused-unchanged"
+  "itemCount": 9,
+  "lastStatus": "cache-fresh"
 }

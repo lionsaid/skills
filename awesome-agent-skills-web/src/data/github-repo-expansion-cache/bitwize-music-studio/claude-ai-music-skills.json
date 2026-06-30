@@ -9,10 +9,75 @@
     {
       "repository": "bitwize-music-studio/claude-ai-music-skills",
       "branch": "main",
+      "skillName": "claude-ai-music-skills",
+      "path": "README.md",
+      "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills",
+      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "slug": "bitwize-music-studio-claude-ai-music-skills-collection",
+      "isCollection": true,
+      "stars": null,
+      "skillPaths": [
+        "skills/about/SKILL.md",
+        "skills/album-art-director/SKILL.md",
+        "skills/album-conceptualizer/SKILL.md",
+        "skills/album-dashboard/SKILL.md",
+        "skills/album-ideas/SKILL.md",
+        "skills/clipboard/SKILL.md",
+        "skills/cloud-uploader/SKILL.md",
+        "skills/configure/SKILL.md",
+        "skills/document-hunter/SKILL.md",
+        "skills/explicit-checker/SKILL.md",
+        "skills/genre-creator/SKILL.md",
+        "skills/health-check/SKILL.md",
+        "skills/help/SKILL.md",
+        "skills/import-art/SKILL.md",
+        "skills/import-audio/SKILL.md",
+        "skills/import-track/SKILL.md",
+        "skills/lyric-refiner/SKILL.md",
+        "skills/lyric-reviewer/SKILL.md",
+        "skills/lyric-writer/SKILL.md",
+        "skills/mastering-engineer/SKILL.md",
+        "skills/mix-engineer/SKILL.md",
+        "skills/new-album/SKILL.md",
+        "skills/next-step/SKILL.md",
+        "skills/plagiarism-checker/SKILL.md",
+        "skills/pre-generation-check/SKILL.md",
+        "skills/promo-director/SKILL.md",
+        "skills/promo-reviewer/SKILL.md",
+        "skills/promo-writer/SKILL.md",
+        "skills/promote-idea/SKILL.md",
+        "skills/pronunciation-specialist/SKILL.md",
+        "skills/release-director/SKILL.md",
+        "skills/rename/SKILL.md",
+        "skills/researcher/SKILL.md",
+        "skills/researchers-biographical/SKILL.md",
+        "skills/researchers-financial/SKILL.md",
+        "skills/researchers-gov/SKILL.md",
+        "skills/researchers-historical/SKILL.md",
+        "skills/researchers-journalism/SKILL.md",
+        "skills/researchers-legal/SKILL.md",
+        "skills/researchers-primary-source/SKILL.md",
+        "skills/researchers-security/SKILL.md",
+        "skills/researchers-tech/SKILL.md",
+        "skills/researchers-verifier/SKILL.md",
+        "skills/resume/SKILL.md",
+        "skills/session-start/SKILL.md",
+        "skills/setup/SKILL.md",
+        "skills/sheet-music-publisher/SKILL.md",
+        "skills/suno-engineer/SKILL.md",
+        "skills/tutorial/SKILL.md",
+        "skills/validate-album/SKILL.md",
+        "skills/verify-sources/SKILL.md",
+        "skills/voice-checker/SKILL.md"
+      ]
+    },
+    {
+      "repository": "bitwize-music-studio/claude-ai-music-skills",
+      "branch": "main",
       "skillName": "about",
       "path": "skills/about/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/about/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Provides information about the bitwize-music plugin, its version, and its creator. Use when the user asks about the plugin, its purpose, version, or capabilities.",
       "slug": "bitwize-music-studio-about"
     },
     {
@@ -21,7 +86,7 @@
       "skillName": "album-art-director",
       "path": "skills/album-art-director/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/album-art-director/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Creates visual concepts for album artwork and generates AI art prompts. Use during planning for concept discussion, or after all tracks are Final for actual artwork generation.",
       "slug": "bitwize-music-studio-album-art-director"
     },
     {
@@ -30,7 +95,7 @@
       "skillName": "album-conceptualizer",
       "path": "skills/album-conceptualizer/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/album-conceptualizer/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Designs album concepts, tracklist architecture, and thematic planning through 7 structured phases. Use when planning a new album or reworking an existing album concept.",
       "slug": "bitwize-music-studio-album-conceptualizer"
     },
     {
@@ -39,7 +104,7 @@
       "skillName": "album-dashboard",
       "path": "skills/album-dashboard/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/album-dashboard/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Shows a structured progress dashboard for an album with percentage complete per phase, blocking items, and status breakdown. Use for a quick visual overview of album progress.",
       "slug": "bitwize-music-studio-album-dashboard"
     },
     {
@@ -48,7 +113,7 @@
       "skillName": "album-ideas",
       "path": "skills/album-ideas/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/album-ideas/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Tracks and manages album ideas including brainstorming, planning, and status updates. Use when the user wants to add, review, or organize their album idea backlog.",
       "slug": "bitwize-music-studio-album-ideas"
     },
     {
@@ -57,7 +122,7 @@
       "skillName": "clipboard",
       "path": "skills/clipboard/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/clipboard/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Copies track content (lyrics, style prompts, streaming lyrics) to the system clipboard. Use when the user needs to paste lyrics or style prompts into Suno or other external tools.",
       "slug": "bitwize-music-studio-clipboard"
     },
     {
@@ -66,7 +131,7 @@
       "skillName": "cloud-uploader",
       "path": "skills/cloud-uploader/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/cloud-uploader/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Uploads promo videos and content to Cloudflare R2 or AWS S3. Use when the user wants to host promo content for social media or distribution.",
       "slug": "bitwize-music-studio-cloud-uploader"
     },
     {
@@ -75,7 +140,7 @@
       "skillName": "configure",
       "path": "skills/configure/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/configure/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Sets up or edits the plugin configuration file interactively. Use on first-time setup, when config is missing, or when the user wants to change settings.",
       "slug": "bitwize-music-studio-configure"
     },
     {
@@ -84,7 +149,7 @@
       "skillName": "document-hunter",
       "path": "skills/document-hunter/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/document-hunter/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Searches and retrieves documents from free public sources using automated browser navigation. Use when research needs primary source documents like court filings, government reports, or public records.",
       "slug": "bitwize-music-studio-document-hunter"
     },
     {
@@ -93,7 +158,7 @@
       "skillName": "explicit-checker",
       "path": "skills/explicit-checker/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/explicit-checker/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Scans lyrics for explicit content and verifies that explicit flags match actual content. Use before Suno generation or release to ensure accurate content ratings.",
       "slug": "bitwize-music-studio-explicit-checker"
     },
     {
@@ -102,7 +167,7 @@
       "skillName": "genre-creator",
       "path": "skills/genre-creator/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/genre-creator/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Create new genre documentation files for the bitwize-music genre library. Use when the user wants to add a genre, says \"/genre-creator\", \"neues Genre erstellen\", \"Genre hinzufuegen\", \"add genre\", or asks to create genre documentation. Takes a genre name as argument.",
       "slug": "bitwize-music-studio-genre-creator"
     },
     {
@@ -111,7 +176,7 @@
       "skillName": "health-check",
       "path": "skills/health-check/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/health-check/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Runs plugin health checks (venv packages and skill registration). Use when the user asks to check plugin health, verify setup, or troubleshoot missing skills.",
       "slug": "bitwize-music-studio-health-check"
     },
     {
@@ -120,7 +185,7 @@
       "skillName": "help",
       "path": "skills/help/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/help/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Shows available skills, common workflows, and quick reference for the plugin. Use when the user asks for help, what skills are available, or how to do something.",
       "slug": "bitwize-music-studio-help"
     },
     {
@@ -129,7 +194,7 @@
       "skillName": "import-art",
       "path": "skills/import-art/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/import-art/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Places album art files in the correct audio and content directory locations. Use when the user has generated or downloaded album artwork that needs to be saved.",
       "slug": "bitwize-music-studio-import-art"
     },
     {
@@ -138,7 +203,7 @@
       "skillName": "import-audio",
       "path": "skills/import-audio/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/import-audio/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Moves audio files to the correct album location with proper path structure. Use when the user has downloaded WAV files from Suno or other sources that need to be organized.",
       "slug": "bitwize-music-studio-import-audio"
     },
     {
@@ -147,7 +212,7 @@
       "skillName": "import-track",
       "path": "skills/import-track/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/import-track/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Moves track markdown files to the correct album location. Use when the user has track files in Downloads or other locations that need to be placed in an album.",
       "slug": "bitwize-music-studio-import-track"
     },
     {
@@ -156,7 +221,7 @@
       "skillName": "lyric-refiner",
       "path": "skills/lyric-refiner/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/lyric-refiner/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Autonomous multi-pass lyric refinement for tightening, cohesion, and album unity. Use after lyrics are written to polish a track or entire album through iterative passes.",
       "slug": "bitwize-music-studio-lyric-refiner"
     },
     {
@@ -165,7 +230,7 @@
       "skillName": "lyric-reviewer",
       "path": "skills/lyric-reviewer/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/lyric-reviewer/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Reviews lyrics against a quality checklist before Suno generation. Use before generating tracks to catch rhyme, prosody, pronunciation, and structural issues.",
       "slug": "bitwize-music-studio-lyric-reviewer"
     },
     {
@@ -174,7 +239,7 @@
       "skillName": "lyric-writer",
       "path": "skills/lyric-writer/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/lyric-writer/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Writes or reviews lyrics with professional prosody, rhyme craft, and quality checks. Use when writing new lyrics, revising existing lyrics, or when the user says 'let's work on a track.",
       "slug": "bitwize-music-studio-lyric-writer"
     },
     {
@@ -183,7 +248,7 @@
       "skillName": "mastering-engineer",
       "path": "skills/mastering-engineer/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/mastering-engineer/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Guides audio mastering for streaming platforms including loudness optimization and tonal balance. Use when the user has approved tracks and wants to master audio files.",
       "slug": "bitwize-music-studio-mastering-engineer"
     },
     {
@@ -192,7 +257,7 @@
       "skillName": "mix-engineer",
       "path": "skills/mix-engineer/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/mix-engineer/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Polishes raw Suno audio by processing per-stem WAVs (vocals, backing_vocals, drums, bass, guitar, keyboard, strings, brass, woodwinds, percussion, synth, other) with targeted cleanup, EQ, and compression, then remixing into a polished stereo WAV ready for mastering. Use after audio import and before mastering.",
       "slug": "bitwize-music-studio-mix-engineer"
     },
     {
@@ -201,7 +266,7 @@
       "skillName": "new-album",
       "path": "skills/new-album/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/new-album/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Creates a new album with the correct directory structure and templates. Use IMMEDIATELY when the user says 'make a new album' or similar, before any discussion.",
       "slug": "bitwize-music-studio-new-album"
     },
     {
@@ -210,7 +275,7 @@
       "skillName": "next-step",
       "path": "skills/next-step/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/next-step/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Analyzes album state and recommends the optimal next action. Use when the user asks \"what should I do next?\" or \"what's left to do?",
       "slug": "bitwize-music-studio-next-step"
     },
     {
@@ -219,7 +284,7 @@
       "skillName": "plagiarism-checker",
       "path": "skills/plagiarism-checker/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/plagiarism-checker/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Scans lyrics for phrases that may match existing songs using web search and LLM knowledge. Use before release to check for unintentional borrowing.",
       "slug": "bitwize-music-studio-plagiarism-checker"
     },
     {
@@ -228,7 +293,7 @@
       "skillName": "pre-generation-check",
       "path": "skills/pre-generation-check/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/pre-generation-check/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Validates all pre-generation gates before sending tracks to Suno. Checks sources verified, lyrics reviewed, pronunciation resolved, explicit flag set, style prompt complete, and artist names cleared. Use before generating tracks on Suno or when the user says \"pre-gen check\" or \"ready to generate\".",
       "slug": "bitwize-music-studio-pre-generation-check"
     },
     {
@@ -237,7 +302,7 @@
       "skillName": "promo-director",
       "path": "skills/promo-director/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/promo-director/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Generates 15-second vertical promo videos for social media from mastered audio. Use after mastering is complete and before release, when the user wants social media content.",
       "slug": "bitwize-music-studio-promo-director"
     },
     {
@@ -246,7 +311,7 @@
       "skillName": "promo-reviewer",
       "path": "skills/promo-reviewer/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/promo-reviewer/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Reviews and iterates on social media copy in album promo/ files. Use after populating promo templates and before release to polish platform-specific posts.",
       "slug": "bitwize-music-studio-promo-reviewer"
     },
     {
@@ -255,7 +320,7 @@
       "skillName": "promo-writer",
       "path": "skills/promo-writer/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/promo-writer/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Generates platform-specific social media copy from album themes, track concepts, and lyrics. Use when promo/ templates need to be populated before release.",
       "slug": "bitwize-music-studio-promo-writer"
     },
     {
@@ -264,7 +329,7 @@
       "skillName": "promote-idea",
       "path": "skills/promote-idea/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/promote-idea/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Converts an album idea from IDEAS.md into an actual album project in one step. Use when the user says \"promote [idea title]\", \"turn idea into album\", or \"start working on [idea]\".",
       "slug": "bitwize-music-studio-promote-idea"
     },
     {
@@ -273,7 +338,7 @@
       "skillName": "pronunciation-specialist",
       "path": "skills/pronunciation-specialist/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/pronunciation-specialist/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Scans lyrics for pronunciation risks and prevents Suno mispronunciations. Use when writing lyrics with proper nouns, technical terms, homographs, or non-English words.",
       "slug": "bitwize-music-studio-pronunciation-specialist"
     },
     {
@@ -282,7 +347,7 @@
       "skillName": "release-director",
       "path": "skills/release-director/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/release-director/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Coordinates album release including QA, distribution prep, and platform uploads. Use when mastering and album art are complete and the user is ready to release.",
       "slug": "bitwize-music-studio-release-director"
     },
     {
@@ -291,7 +356,7 @@
       "skillName": "rename",
       "path": "skills/rename/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/rename/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Renames an album or track, updating slugs, titles, and all mirrored paths. Use when the user wants to rename an album or track.",
       "slug": "bitwize-music-studio-rename"
     },
     {
@@ -300,7 +365,7 @@
       "skillName": "researcher",
       "path": "skills/researcher/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/researcher/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Conducts investigative-grade research with primary source analysis, cross-verification, and trial-level depth. Use when an album needs factual research, source material, or verification of claims.",
       "slug": "bitwize-music-studio-researcher"
     },
     {
@@ -309,7 +374,7 @@
       "skillName": "researchers-biographical",
       "path": "skills/researchers-biographical/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/researchers-biographical/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Researches personal backgrounds, interviews, motivations, and humanizing details. Use when research needs biographical context about people involved in the album's subject.",
       "slug": "bitwize-music-studio-researchers-biographical"
     },
     {
@@ -318,7 +383,7 @@
       "skillName": "researchers-financial",
       "path": "skills/researchers-financial/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/researchers-financial/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Researches SEC filings, earnings calls, analyst reports, and market data. Use when the album subject involves financial crimes, corporate stories, or market events.",
       "slug": "bitwize-music-studio-researchers-financial"
     },
     {
@@ -327,7 +392,7 @@
       "skillName": "researchers-gov",
       "path": "skills/researchers-gov/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/researchers-gov/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Researches DOJ/FBI/SEC press releases, agency statements, and government sources. Use when research needs official government records or agency documentation.",
       "slug": "bitwize-music-studio-researchers-gov"
     },
     {
@@ -336,7 +401,7 @@
       "skillName": "researchers-historical",
       "path": "skills/researchers-historical/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/researchers-historical/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Researches archives, contemporary accounts, and timeline reconstruction. Use when the album subject involves historical events that need primary source verification.",
       "slug": "bitwize-music-studio-researchers-historical"
     },
     {
@@ -345,7 +410,7 @@
       "skillName": "researchers-journalism",
       "path": "skills/researchers-journalism/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/researchers-journalism/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Researches investigative articles, interviews, and news coverage. Use when research needs journalistic sources for cross-referencing or additional context.",
       "slug": "bitwize-music-studio-researchers-journalism"
     },
     {
@@ -354,7 +419,7 @@
       "skillName": "researchers-legal",
       "path": "skills/researchers-legal/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/researchers-legal/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Researches court documents, indictments, plea agreements, and sentencing records. Use when the album subject involves legal proceedings or criminal cases.",
       "slug": "bitwize-music-studio-researchers-legal"
     },
     {
@@ -363,7 +428,7 @@
       "skillName": "researchers-primary-source",
       "path": "skills/researchers-primary-source/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/researchers-primary-source/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Researches the subject's own words from tweets, blogs, forums, and chat logs. Use when research needs direct quotes or first-person accounts.",
       "slug": "bitwize-music-studio-researchers-primary-source"
     },
     {
@@ -372,7 +437,7 @@
       "skillName": "researchers-security",
       "path": "skills/researchers-security/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/researchers-security/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Researches malware analysis, CVEs, attribution reports, and hacker community sources. Use when the album subject involves cybersecurity incidents or threat actors.",
       "slug": "bitwize-music-studio-researchers-security"
     },
     {
@@ -381,7 +446,7 @@
       "skillName": "researchers-tech",
       "path": "skills/researchers-tech/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/researchers-tech/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Researches project histories, changelogs, developer interviews, and open source documentation. Use when the album subject involves technology projects or developer stories.",
       "slug": "bitwize-music-studio-researchers-tech"
     },
     {
@@ -390,7 +455,7 @@
       "skillName": "researchers-verifier",
       "path": "skills/researchers-verifier/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/researchers-verifier/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Performs quality control, citation validation, and fact-checking before human review. Use after research is complete to verify all sources and claims before production.",
       "slug": "bitwize-music-studio-researchers-verifier"
     },
     {
@@ -399,7 +464,7 @@
       "skillName": "resume",
       "path": "skills/resume/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/resume/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Finds an album by name and shows detailed status with next steps. Use when the user mentions an album name or wants to continue previous work.",
       "slug": "bitwize-music-studio-resume"
     },
     {
@@ -408,7 +473,7 @@
       "skillName": "session-start",
       "path": "skills/session-start/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/session-start/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Runs the session startup procedure - verifies setup, loads config and state, checks skill models, and reports project status. Use at the beginning of a fresh session.",
       "slug": "bitwize-music-studio-session-start"
     },
     {
@@ -417,7 +482,7 @@
       "skillName": "setup",
       "path": "skills/setup/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/setup/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Detects your Python environment and guides you through installing plugin dependencies. Use on first-time setup or when MCP server fails to start.",
       "slug": "bitwize-music-studio-setup"
     },
     {
@@ -426,7 +491,7 @@
       "skillName": "sheet-music-publisher",
       "path": "skills/sheet-music-publisher/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/sheet-music-publisher/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Converts mastered audio to sheet music and creates printable songbooks. Use after mastering when the user wants sheet music or a songbook for their album.",
       "slug": "bitwize-music-studio-sheet-music-publisher"
     },
     {
@@ -435,17 +500,8 @@
       "skillName": "suno-engineer",
       "path": "skills/suno-engineer/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/suno-engineer/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Constructs technical Suno V5/V5.5 style prompts, selects genres, and optimizes generation settings. Use when creating or refining Suno prompts for track generation.",
       "slug": "bitwize-music-studio-suno-engineer"
-    },
-    {
-      "repository": "bitwize-music-studio/claude-ai-music-skills",
-      "branch": "main",
-      "skillName": "test",
-      "path": "skills/test/SKILL.md",
-      "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/test/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
-      "slug": "bitwize-music-studio-test"
     },
     {
       "repository": "bitwize-music-studio/claude-ai-music-skills",
@@ -453,7 +509,7 @@
       "skillName": "tutorial",
       "path": "skills/tutorial/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/tutorial/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Provides interactive guided album creation for new users. Use when the user is new to the plugin or asks for a walkthrough of the album creation process.",
       "slug": "bitwize-music-studio-tutorial"
     },
     {
@@ -462,7 +518,7 @@
       "skillName": "validate-album",
       "path": "skills/validate-album/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/validate-album/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Validates album directory structure, file locations, and content integrity. Use before release or whenever the user wants to check an album's structural health.",
       "slug": "bitwize-music-studio-validate-album"
     },
     {
@@ -471,7 +527,7 @@
       "skillName": "verify-sources",
       "path": "skills/verify-sources/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/verify-sources/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Captures human source verification for tracks, timestamps it, and updates track files. Use when sources need human review before generation.",
       "slug": "bitwize-music-studio-verify-sources"
     },
     {
@@ -480,10 +536,10 @@
       "skillName": "voice-checker",
       "path": "skills/voice-checker/SKILL.md",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/voice-checker/SKILL.md",
-      "description": "Discovered from a public GitHub repository: bitwize-music-studio/claude-ai-music-skills",
+      "description": "Reviews lyrics and prose for AI-written patterns (abstract noun stacking, over-explained metaphors, cliche escalation, missing idiosyncrasy, prose AI tells). Advisory Warning/Info severity — flags issues, does not block or rewrite. Use when reviewing lyrics for authenticity or before generation to catch AI-sounding language.",
       "slug": "bitwize-music-studio-voice-checker"
     }
   ],
   "itemCount": 53,
-  "lastStatus": "reused-unchanged"
+  "lastStatus": "cache-fresh"
 }

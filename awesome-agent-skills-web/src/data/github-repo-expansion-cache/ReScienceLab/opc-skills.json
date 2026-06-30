@@ -9,10 +9,33 @@
     {
       "repository": "ReScienceLab/opc-skills",
       "branch": "main",
+      "skillName": "opc-skills",
+      "path": "README.md",
+      "url": "https://github.com/ReScienceLab/opc-skills",
+      "description": "Discovered from a public GitHub repository: ReScienceLab/opc-skills",
+      "slug": "resciencelab-opc-skills-collection",
+      "isCollection": true,
+      "stars": null,
+      "skillPaths": [
+        "skills/archive/SKILL.md",
+        "skills/banner-creator/SKILL.md",
+        "skills/domain-hunter/SKILL.md",
+        "skills/logo-creator/SKILL.md",
+        "skills/nanobanana/SKILL.md",
+        "skills/producthunt/SKILL.md",
+        "skills/reddit/SKILL.md",
+        "skills/requesthunt/SKILL.md",
+        "skills/seo-geo/SKILL.md",
+        "skills/twitter/SKILL.md"
+      ]
+    },
+    {
+      "repository": "ReScienceLab/opc-skills",
+      "branch": "main",
       "skillName": "archive",
       "path": "skills/archive/SKILL.md",
       "url": "https://github.com/ReScienceLab/opc-skills/blob/main/skills/archive/SKILL.md",
-      "description": "Discovered from a public GitHub repository: ReScienceLab/opc-skills",
+      "description": "Archive session learnings, debugging solutions, and deployment logs to .archive/yyyy-mm-dd/ as indexed markdown with searchable tags. Use when completing a significant task, resolving a tricky bug, deploying, or when the user says \\\"archive this\\\". Maintains .archive/MEMORY.md index for cross-session knowledge reuse.",
       "slug": "resciencelab-archive"
     },
     {
@@ -21,7 +44,7 @@
       "skillName": "banner-creator",
       "path": "skills/banner-creator/SKILL.md",
       "url": "https://github.com/ReScienceLab/opc-skills/blob/main/skills/banner-creator/SKILL.md",
-      "description": "Discovered from a public GitHub repository: ReScienceLab/opc-skills",
+      "description": "Create banners using AI image generation. Discuss format/style, generate variations, iterate with user feedback, crop to target ratio. Use when user wants to create a banner, header, hero image, cover image, GitHub banner, Twitter header, or readme banner.",
       "slug": "resciencelab-banner-creator"
     },
     {
@@ -30,7 +53,7 @@
       "skillName": "domain-hunter",
       "path": "skills/domain-hunter/SKILL.md",
       "url": "https://github.com/ReScienceLab/opc-skills/blob/main/skills/domain-hunter/SKILL.md",
-      "description": "Discovered from a public GitHub repository: ReScienceLab/opc-skills",
+      "description": "Search domains, compare prices, find promo codes, get purchase recommendations. Use when user wants to buy a domain, check domain prices, find domain deals, compare registrars, or search for .ai/.com domains.",
       "slug": "resciencelab-domain-hunter"
     },
     {
@@ -39,7 +62,7 @@
       "skillName": "logo-creator",
       "path": "skills/logo-creator/SKILL.md",
       "url": "https://github.com/ReScienceLab/opc-skills/blob/main/skills/logo-creator/SKILL.md",
-      "description": "Discovered from a public GitHub repository: ReScienceLab/opc-skills",
+      "description": "Create logos using AI image generation. Discuss style/ratio, generate variations, iterate with user feedback, crop, remove background, and export as SVG. Use when user wants to create a logo, icon, favicon, brand mark, mascot, emblem, or design a logo.",
       "slug": "resciencelab-logo-creator"
     },
     {
@@ -48,7 +71,7 @@
       "skillName": "nanobanana",
       "path": "skills/nanobanana/SKILL.md",
       "url": "https://github.com/ReScienceLab/opc-skills/blob/main/skills/nanobanana/SKILL.md",
-      "description": "Discovered from a public GitHub repository: ReScienceLab/opc-skills",
+      "description": "Generate and edit images using Google Gemini 3 Pro Image (Nano Banana Pro). Supports text-to-image, image editing, various aspect ratios, and high-resolution output (2K/4K). Use when user wants to generate images, create images, use Gemini image generation, or do AI image generation.",
       "slug": "resciencelab-nanobanana"
     },
     {
@@ -57,7 +80,7 @@
       "skillName": "producthunt",
       "path": "skills/producthunt/SKILL.md",
       "url": "https://github.com/ReScienceLab/opc-skills/blob/main/skills/producthunt/SKILL.md",
-      "description": "Discovered from a public GitHub repository: ReScienceLab/opc-skills",
+      "description": "Search and retrieve content from Product Hunt. Get posts, topics, users, and collections via the GraphQL API. Use when user mentions Product Hunt, PH, or product launches.",
       "slug": "resciencelab-producthunt"
     },
     {
@@ -66,7 +89,7 @@
       "skillName": "reddit",
       "path": "skills/reddit/SKILL.md",
       "url": "https://github.com/ReScienceLab/opc-skills/blob/main/skills/reddit/SKILL.md",
-      "description": "Discovered from a public GitHub repository: ReScienceLab/opc-skills",
+      "description": "Search and retrieve content from Reddit. Get posts, comments, subreddit info, and user profiles via the public JSON API. Use when user mentions Reddit, a subreddit, or r/ links.",
       "slug": "resciencelab-reddit"
     },
     {
@@ -75,7 +98,7 @@
       "skillName": "requesthunt",
       "path": "skills/requesthunt/SKILL.md",
       "url": "https://github.com/ReScienceLab/opc-skills/blob/main/skills/requesthunt/SKILL.md",
-      "description": "Discovered from a public GitHub repository: ReScienceLab/opc-skills",
+      "description": "Generate user demand research reports from real user feedback. Scrape and analyze feature requests, complaints, and questions from Reddit, X, GitHub, YouTube, LinkedIn, and Amazon. Use when user wants to do demand research, find feature requests, analyze user demand, or run RequestHunt queries.",
       "slug": "resciencelab-requesthunt"
     },
     {
@@ -84,7 +107,7 @@
       "skillName": "seo-geo",
       "path": "skills/seo-geo/SKILL.md",
       "url": "https://github.com/ReScienceLab/opc-skills/blob/main/skills/seo-geo/SKILL.md",
-      "description": "Discovered from a public GitHub repository: ReScienceLab/opc-skills",
+      "description": "SEO & GEO (Generative Engine Optimization) for websites. Analyze keywords, generate schema markup, optimize for AI search engines (ChatGPT, Perplexity, Gemini, Copilot, Claude) and traditional search (Google, Bing). Use when user wants to improve search visibility, search optimization, search ranking, AI visibility, ChatGPT ranking, Google AI Overview, indexing, JSON-LD, meta tags, or keyword research.",
       "slug": "resciencelab-seo-geo"
     },
     {
@@ -93,19 +116,10 @@
       "skillName": "twitter",
       "path": "skills/twitter/SKILL.md",
       "url": "https://github.com/ReScienceLab/opc-skills/blob/main/skills/twitter/SKILL.md",
-      "description": "Discovered from a public GitHub repository: ReScienceLab/opc-skills",
+      "description": "Search and retrieve content from Twitter/X. Get user info, tweets, replies, followers, communities, spaces, and trends via twitterapi.io. Use when user mentions Twitter, X, or tweets.",
       "slug": "resciencelab-twitter"
-    },
-    {
-      "repository": "ReScienceLab/opc-skills",
-      "branch": "main",
-      "skillName": "template",
-      "path": "template/SKILL.md",
-      "url": "https://github.com/ReScienceLab/opc-skills/blob/main/template/SKILL.md",
-      "description": "Discovered from a public GitHub repository: ReScienceLab/opc-skills",
-      "slug": "resciencelab-template"
     }
   ],
   "itemCount": 11,
-  "lastStatus": "scanned"
+  "lastStatus": "cache-fresh"
 }

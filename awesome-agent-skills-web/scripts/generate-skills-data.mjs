@@ -935,7 +935,7 @@ function parseGithubRepoExpansion(items, source) {
     );
 
     skills.push({
-      slug: slugify(name),
+      slug: typeof item.slug === "string" && item.slug ? item.slug : slugify(name),
       name,
       url: normalizeUrl(item.url),
       description,

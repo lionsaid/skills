@@ -9,10 +9,37 @@
     {
       "repository": "obra/superpowers",
       "branch": "main",
+      "skillName": "superpowers",
+      "path": "README.md",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "slug": "obra-superpowers-collection",
+      "isCollection": true,
+      "stars": null,
+      "skillPaths": [
+        "skills/brainstorming/SKILL.md",
+        "skills/dispatching-parallel-agents/SKILL.md",
+        "skills/executing-plans/SKILL.md",
+        "skills/finishing-a-development-branch/SKILL.md",
+        "skills/receiving-code-review/SKILL.md",
+        "skills/requesting-code-review/SKILL.md",
+        "skills/subagent-driven-development/SKILL.md",
+        "skills/systematic-debugging/SKILL.md",
+        "skills/test-driven-development/SKILL.md",
+        "skills/using-git-worktrees/SKILL.md",
+        "skills/using-superpowers/SKILL.md",
+        "skills/verification-before-completion/SKILL.md",
+        "skills/writing-plans/SKILL.md",
+        "skills/writing-skills/SKILL.md"
+      ]
+    },
+    {
+      "repository": "obra/superpowers",
+      "branch": "main",
       "skillName": "brainstorming",
       "path": "skills/brainstorming/SKILL.md",
       "url": "https://github.com/obra/superpowers/blob/main/skills/brainstorming/SKILL.md",
-      "description": "Discovered from a public GitHub repository: obra/superpowers",
+      "description": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.",
       "slug": "obra-brainstorming"
     },
     {
@@ -21,7 +48,7 @@
       "skillName": "dispatching-parallel-agents",
       "path": "skills/dispatching-parallel-agents/SKILL.md",
       "url": "https://github.com/obra/superpowers/blob/main/skills/dispatching-parallel-agents/SKILL.md",
-      "description": "Discovered from a public GitHub repository: obra/superpowers",
+      "description": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
       "slug": "obra-dispatching-parallel-agents"
     },
     {
@@ -30,7 +57,7 @@
       "skillName": "executing-plans",
       "path": "skills/executing-plans/SKILL.md",
       "url": "https://github.com/obra/superpowers/blob/main/skills/executing-plans/SKILL.md",
-      "description": "Discovered from a public GitHub repository: obra/superpowers",
+      "description": "Use when you have a written implementation plan to execute in a separate session with review checkpoints",
       "slug": "obra-executing-plans"
     },
     {
@@ -39,7 +66,7 @@
       "skillName": "finishing-a-development-branch",
       "path": "skills/finishing-a-development-branch/SKILL.md",
       "url": "https://github.com/obra/superpowers/blob/main/skills/finishing-a-development-branch/SKILL.md",
-      "description": "Discovered from a public GitHub repository: obra/superpowers",
+      "description": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup",
       "slug": "obra-finishing-a-development-branch"
     },
     {
@@ -48,7 +75,7 @@
       "skillName": "receiving-code-review",
       "path": "skills/receiving-code-review/SKILL.md",
       "url": "https://github.com/obra/superpowers/blob/main/skills/receiving-code-review/SKILL.md",
-      "description": "Discovered from a public GitHub repository: obra/superpowers",
+      "description": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation",
       "slug": "obra-receiving-code-review"
     },
     {
@@ -57,7 +84,7 @@
       "skillName": "requesting-code-review",
       "path": "skills/requesting-code-review/SKILL.md",
       "url": "https://github.com/obra/superpowers/blob/main/skills/requesting-code-review/SKILL.md",
-      "description": "Discovered from a public GitHub repository: obra/superpowers",
+      "description": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements",
       "slug": "obra-requesting-code-review"
     },
     {
@@ -66,7 +93,7 @@
       "skillName": "subagent-driven-development",
       "path": "skills/subagent-driven-development/SKILL.md",
       "url": "https://github.com/obra/superpowers/blob/main/skills/subagent-driven-development/SKILL.md",
-      "description": "Discovered from a public GitHub repository: obra/superpowers",
+      "description": "Use when executing implementation plans with independent tasks in the current session",
       "slug": "obra-subagent-driven-development"
     },
     {
@@ -75,7 +102,7 @@
       "skillName": "systematic-debugging",
       "path": "skills/systematic-debugging/SKILL.md",
       "url": "https://github.com/obra/superpowers/blob/main/skills/systematic-debugging/SKILL.md",
-      "description": "Discovered from a public GitHub repository: obra/superpowers",
+      "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
       "slug": "obra-systematic-debugging"
     },
     {
@@ -84,7 +111,7 @@
       "skillName": "test-driven-development",
       "path": "skills/test-driven-development/SKILL.md",
       "url": "https://github.com/obra/superpowers/blob/main/skills/test-driven-development/SKILL.md",
-      "description": "Discovered from a public GitHub repository: obra/superpowers",
+      "description": "Use when implementing any feature or bugfix, before writing implementation code",
       "slug": "obra-test-driven-development"
     },
     {
@@ -93,7 +120,7 @@
       "skillName": "using-git-worktrees",
       "path": "skills/using-git-worktrees/SKILL.md",
       "url": "https://github.com/obra/superpowers/blob/main/skills/using-git-worktrees/SKILL.md",
-      "description": "Discovered from a public GitHub repository: obra/superpowers",
+      "description": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback",
       "slug": "obra-using-git-worktrees"
     },
     {
@@ -102,7 +129,7 @@
       "skillName": "using-superpowers",
       "path": "skills/using-superpowers/SKILL.md",
       "url": "https://github.com/obra/superpowers/blob/main/skills/using-superpowers/SKILL.md",
-      "description": "Discovered from a public GitHub repository: obra/superpowers",
+      "description": "Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions",
       "slug": "obra-using-superpowers"
     },
     {
@@ -111,7 +138,7 @@
       "skillName": "verification-before-completion",
       "path": "skills/verification-before-completion/SKILL.md",
       "url": "https://github.com/obra/superpowers/blob/main/skills/verification-before-completion/SKILL.md",
-      "description": "Discovered from a public GitHub repository: obra/superpowers",
+      "description": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always",
       "slug": "obra-verification-before-completion"
     },
     {
@@ -120,7 +147,7 @@
       "skillName": "writing-plans",
       "path": "skills/writing-plans/SKILL.md",
       "url": "https://github.com/obra/superpowers/blob/main/skills/writing-plans/SKILL.md",
-      "description": "Discovered from a public GitHub repository: obra/superpowers",
+      "description": "Use when you have a spec or requirements for a multi-step task, before touching code",
       "slug": "obra-writing-plans"
     },
     {
@@ -129,10 +156,10 @@
       "skillName": "writing-skills",
       "path": "skills/writing-skills/SKILL.md",
       "url": "https://github.com/obra/superpowers/blob/main/skills/writing-skills/SKILL.md",
-      "description": "Discovered from a public GitHub repository: obra/superpowers",
+      "description": "Use when creating new skills, editing existing skills, or verifying skills work before deployment",
       "slug": "obra-writing-skills"
     }
   ],
-  "itemCount": 14,
-  "lastStatus": "reused-unchanged"
+  "itemCount": 15,
+  "lastStatus": "cache-fresh"
 }

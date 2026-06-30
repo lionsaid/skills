@@ -9,10 +9,35 @@
     {
       "repository": "aklofas/kicad-happy",
       "branch": "main",
+      "skillName": "kicad-happy",
+      "path": "README.md",
+      "url": "https://github.com/aklofas/kicad-happy",
+      "description": "Discovered from a public GitHub repository: aklofas/kicad-happy",
+      "slug": "aklofas-kicad-happy-collection",
+      "isCollection": true,
+      "stars": null,
+      "skillPaths": [
+        "skills/bom/SKILL.md",
+        "skills/datasheets/SKILL.md",
+        "skills/digikey/SKILL.md",
+        "skills/element14/SKILL.md",
+        "skills/emc/SKILL.md",
+        "skills/jlcpcb/SKILL.md",
+        "skills/kicad/SKILL.md",
+        "skills/kidoc/SKILL.md",
+        "skills/lcsc/SKILL.md",
+        "skills/mouser/SKILL.md",
+        "skills/pcbway/SKILL.md",
+        "skills/spice/SKILL.md"
+      ]
+    },
+    {
+      "repository": "aklofas/kicad-happy",
+      "branch": "main",
       "skillName": "bom",
       "path": "skills/bom/SKILL.md",
       "url": "https://github.com/aklofas/kicad-happy/blob/main/skills/bom/SKILL.md",
-      "description": "Discovered from a public GitHub repository: aklofas/kicad-happy",
+      "description": "BOM (Bill of Materials) management for electronics projects — the primary orchestrator skill that coordinates DigiKey, Mouser, LCSC, element14, JLCPCB, PCBWay, and KiCad skills into a unified workflow. Create, update, and maintain BOMs with part numbers, costs, quantities stored as KiCad symbol properties. ALWAYS trigger this skill for any task involving component sourcing, pricing, ordering, distributor searches, BOM export, or fabrication preparation — even if the user names a specific distributor or fab house (e.g. \"search DigiKey for...\", \"generate JLCPCB BOM\", \"order from Mouser\"). This skill decides which distributor/fab skills to invoke and in what order. Also trigger on phrases like \"what parts do I need\", \"order components\", \"how much will this cost\", \"export for JLCPCB\", \"find parts for this board\", \"cost estimate\", \"compare pricing\", or \"check stock\".",
       "slug": "aklofas-bom"
     },
     {
@@ -21,7 +46,7 @@
       "skillName": "datasheets",
       "path": "skills/datasheets/SKILL.md",
       "url": "https://github.com/aklofas/kicad-happy/blob/main/skills/datasheets/SKILL.md",
-      "description": "Discovered from a public GitHub repository: aklofas/kicad-happy",
+      "description": "Extract structured specifications from electronic component datasheet PDFs — pinouts, electrical characteristics, peripherals, topology, and features. Cache extractions per project for consumption by schematic and PCB analyzers. Primary consumer infrastructure for `kicad`, `emc`, `spice`, and `thermal` analyzers. Use this skill whenever the user asks to extract, verify, or read specs from a component datasheet; when analyzers need verified IC knowledge (EN pin thresholds, PG presence, USB peripheral speed); or when a review mentions datasheet coverage, extraction quality, or per-MPN specifications. Also triggers on \"extract this datasheet\", \"what are the specs for MPN X\", \"verify datasheet extraction\", or \"check pin functions for part Y\".",
       "slug": "aklofas-datasheets"
     },
     {
@@ -30,7 +55,7 @@
       "skillName": "digikey",
       "path": "skills/digikey/SKILL.md",
       "url": "https://github.com/aklofas/kicad-happy/blob/main/skills/digikey/SKILL.md",
-      "description": "Discovered from a public GitHub repository: aklofas/kicad-happy",
+      "description": ">-",
       "slug": "aklofas-digikey"
     },
     {
@@ -39,7 +64,7 @@
       "skillName": "element14",
       "path": "skills/element14/SKILL.md",
       "url": "https://github.com/aklofas/kicad-happy/blob/main/skills/element14/SKILL.md",
-      "description": "Discovered from a public GitHub repository: aklofas/kicad-happy",
+      "description": "Search Newark, Farnell, and element14 for electronic components — find parts by MPN or distributor part number, check pricing/stock, download datasheets, analyze specifications. One unified API covers all three storefronts (Newark for US, Farnell for UK/EU, element14 for APAC). Free API key, simple query-parameter auth, no OAuth. Datasheets download directly from farnell.com CDN with no bot protection. Sync and maintain a local datasheets directory for a KiCad project, or use batch MPN-list seeding (`--mpn-list`) for bulk workflows without a project. Use this skill when the user mentions Newark, Farnell, element14, needs parts from a non-US distributor, wants to compare pricing across regions, or needs datasheets from a source that doesn't require complex API auth. For package cross-reference tables and BOM workflow, see the `bom` skill.",
       "slug": "aklofas-element14"
     },
     {
@@ -48,7 +73,7 @@
       "skillName": "emc",
       "path": "skills/emc/SKILL.md",
       "url": "https://github.com/aklofas/kicad-happy/blob/main/skills/emc/SKILL.md",
-      "description": "Discovered from a public GitHub repository: aklofas/kicad-happy",
+      "description": ">-",
       "slug": "aklofas-emc"
     },
     {
@@ -57,7 +82,7 @@
       "skillName": "jlcpcb",
       "path": "skills/jlcpcb/SKILL.md",
       "url": "https://github.com/aklofas/kicad-happy/blob/main/skills/jlcpcb/SKILL.md",
-      "description": "Discovered from a public GitHub repository: aklofas/kicad-happy",
+      "description": "JLCPCB PCB fabrication and assembly — BOM/CPL generation, basic vs extended parts, assembly constraints, design rules, ordering workflow. Use with KiCad for JLCPCB manufacturing. Use this skill when the user mentions JLCPCB, wants to order PCBs or assembled boards, needs prototype bare PCBs and stencils, wants to know JLCPCB design rules and capabilities, or is asking about PCB manufacturing costs or turnaround times. For gerber/CPL export, stencil ordering, and BOM management, see the `bom` skill.",
       "slug": "aklofas-jlcpcb"
     },
     {
@@ -66,7 +91,7 @@
       "skillName": "kicad",
       "path": "skills/kicad/SKILL.md",
       "url": "https://github.com/aklofas/kicad-happy/blob/main/skills/kicad/SKILL.md",
-      "description": "Discovered from a public GitHub repository: aklofas/kicad-happy",
+      "description": ">-",
       "slug": "aklofas-kicad"
     },
     {
@@ -75,7 +100,7 @@
       "skillName": "kidoc",
       "path": "skills/kidoc/SKILL.md",
       "url": "https://github.com/aklofas/kicad-happy/blob/main/skills/kidoc/SKILL.md",
-      "description": "Discovered from a public GitHub repository: aklofas/kicad-happy",
+      "description": ">-",
       "slug": "aklofas-kidoc"
     },
     {
@@ -84,7 +109,7 @@
       "skillName": "lcsc",
       "path": "skills/lcsc/SKILL.md",
       "url": "https://github.com/aklofas/kicad-happy/blob/main/skills/lcsc/SKILL.md",
-      "description": "Discovered from a public GitHub repository: aklofas/kicad-happy",
+      "description": "Search LCSC Electronics for electronic components — find parts by LCSC number (Cxxxxx) or MPN, check stock/pricing, download datasheets, analyze specifications. Sister company to JLCPCB, same parts library. Sync and maintain a local datasheets directory for a KiCad project, or use batch MPN-list seeding (`--mpn-list`) for bulk workflows without a project. No API key needed — uses the free jlcsearch community API. Use this skill when the user mentions LCSC, JLCPCB parts library, JLCPCB assembly parts, production sourcing, Cxxxxx part numbers, needs to find LCSC equivalents for parts, is preparing a BOM for JLCPCB assembly, or wants to download datasheets and LCSC is available. For package cross-reference tables and BOM workflow, see the `bom` skill.",
       "slug": "aklofas-lcsc"
     },
     {
@@ -93,7 +118,7 @@
       "skillName": "mouser",
       "path": "skills/mouser/SKILL.md",
       "url": "https://github.com/aklofas/kicad-happy/blob/main/skills/mouser/SKILL.md",
-      "description": "Discovered from a public GitHub repository: aklofas/kicad-happy",
+      "description": "Search Mouser Electronics for electronic components — secondary source for prototype orders. Find parts, check pricing/stock, download datasheets, analyze specifications. Use with KiCad for BOM creation and part selection. Also supports batch MPN-list seeding (`--mpn-list`) for bulk datasheet workflows without a KiCad project. Use this skill when the user specifically mentions Mouser, when DigiKey is out of stock or has worse pricing, when comparing prices across distributors, or when searching for parts that DigiKey doesn't carry. For package cross-reference tables and BOM workflow, see the `bom` skill.",
       "slug": "aklofas-mouser"
     },
     {
@@ -102,7 +127,7 @@
       "skillName": "pcbway",
       "path": "skills/pcbway/SKILL.md",
       "url": "https://github.com/aklofas/kicad-happy/blob/main/skills/pcbway/SKILL.md",
-      "description": "Discovered from a public GitHub repository: aklofas/kicad-happy",
+      "description": "PCBWay PCB fabrication and assembly — turnkey/consigned assembly, design rules, ordering workflow. Alternative to JLCPCB for manufacturing. Use with KiCad. Use this skill when the user mentions PCBWay, needs turnkey assembly (PCBWay sources parts by MPN), has parts not available on LCSC, needs assembled boards with non-LCSC components, wants to compare PCBWay vs JLCPCB, or needs assembly with parts sourced globally rather than from LCSC only. For gerber/CPL export, stencil ordering, and BOM management, see the `bom` skill.",
       "slug": "aklofas-pcbway"
     },
     {
@@ -111,10 +136,10 @@
       "skillName": "spice",
       "path": "skills/spice/SKILL.md",
       "url": "https://github.com/aklofas/kicad-happy/blob/main/skills/spice/SKILL.md",
-      "description": "Discovered from a public GitHub repository: aklofas/kicad-happy",
+      "description": ">-",
       "slug": "aklofas-spice"
     }
   ],
-  "itemCount": 12,
-  "lastStatus": "reused-unchanged"
+  "itemCount": 13,
+  "lastStatus": "cache-fresh"
 }

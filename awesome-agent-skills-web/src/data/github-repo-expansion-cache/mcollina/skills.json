@@ -9,10 +9,34 @@
     {
       "repository": "mcollina/skills",
       "branch": "main",
+      "skillName": "skills",
+      "path": "README.md",
+      "url": "https://github.com/mcollina/skills",
+      "description": "Discovered from a public GitHub repository: mcollina/skills",
+      "slug": "mcollina-skills-collection",
+      "isCollection": true,
+      "stars": null,
+      "skillPaths": [
+        "skills/documentation/SKILL.md",
+        "skills/fastify/SKILL.md",
+        "skills/init/SKILL.md",
+        "skills/linting-neostandard-eslint9/SKILL.md",
+        "skills/node/SKILL.md",
+        "skills/nodejs-core/SKILL.md",
+        "skills/oauth/SKILL.md",
+        "skills/octocat/SKILL.md",
+        "skills/skill-optimizer/SKILL.md",
+        "skills/snipgrapher/SKILL.md",
+        "skills/typescript-magician/SKILL.md"
+      ]
+    },
+    {
+      "repository": "mcollina/skills",
+      "branch": "main",
       "skillName": "documentation",
       "path": "skills/documentation/SKILL.md",
       "url": "https://github.com/mcollina/skills/blob/main/skills/documentation/SKILL.md",
-      "description": "Discovered from a public GitHub repository: mcollina/skills",
+      "description": "Creates, structures, and reviews technical documentation following the Diátaxis framework (tutorials, how-to guides, reference, and explanation pages). Use when a user needs to write or reorganize docs, structure a tutorial vs. a how-to guide, build reference docs or API documentation, create explanation pages, choose between Diátaxis documentation types, or improve existing documentation structure. Trigger terms include: documentation structure, Diátaxis, tutorials vs how-to guides, organize docs, user guide, reference docs, technical writing.",
       "slug": "mcollina-documentation"
     },
     {
@@ -21,7 +45,7 @@
       "skillName": "fastify",
       "path": "skills/fastify/SKILL.md",
       "url": "https://github.com/mcollina/skills/blob/main/skills/fastify/SKILL.md",
-      "description": "Discovered from a public GitHub repository: mcollina/skills",
+      "description": "Guides development of Fastify Node.js backend servers and REST APIs using TypeScript or JavaScript. Use when building, configuring, or debugging a Fastify application — including defining routes, implementing plugins, setting up JSON Schema validation, handling errors, optimising performance, managing authentication, configuring CORS and security headers, integrating databases, working with WebSockets, and deploying to production. Covers the full Fastify request lifecycle (hooks, serialization, logging with Pino) and TypeScript integration via strip types. Trigger terms: Fastify, Node.js server, REST API, API routes, backend framework, fastify.config, server.ts, app.ts.",
       "slug": "mcollina-fastify"
     },
     {
@@ -30,7 +54,7 @@
       "skillName": "init",
       "path": "skills/init/SKILL.md",
       "url": "https://github.com/mcollina/skills/blob/main/skills/init/SKILL.md",
-      "description": "Discovered from a public GitHub repository: mcollina/skills",
+      "description": "Creates, updates, or optimizes an AGENTS.md file for a repository with minimal, high-signal instructions covering non-discoverable coding conventions, tooling quirks, workflow preferences, and project-specific rules that agents cannot infer from reading the codebase. Use when setting up agent instructions or Claude configuration for a new repository, when an existing AGENTS.md is too long, generic, or stale, when agents repeatedly make avoidable mistakes, or when repository workflows have changed and the agent configuration needs pruning. Applies a discoverability filter—omitting anything Claude can learn from README, code, config, or directory structure—and a quality gate to verify each line remains accurate and operationally significant.",
       "slug": "mcollina-init"
     },
     {
@@ -39,7 +63,7 @@
       "skillName": "linting-neostandard-eslint9",
       "path": "skills/linting-neostandard-eslint9/SKILL.md",
       "url": "https://github.com/mcollina/skills/blob/main/skills/linting-neostandard-eslint9/SKILL.md",
-      "description": "Discovered from a public GitHub repository: mcollina/skills",
+      "description": "Configures ESLint v9 flat config and neostandard for JavaScript and TypeScript projects, including migrating from legacy `.eslintrc*` files or the `standard` package. Use when you need to set up or fix linting with `eslint.config.js` or `eslint.config.mjs`, troubleshoot lint errors, configure neostandard rules, migrate from `.eslintrc` to flat config, or integrate linting into CI pipelines and pre-commit hooks.",
       "slug": "mcollina-linting-neostandard-eslint9"
     },
     {
@@ -48,7 +72,7 @@
       "skillName": "node",
       "path": "skills/node/SKILL.md",
       "url": "https://github.com/mcollina/skills/blob/main/skills/node/SKILL.md",
-      "description": "Discovered from a public GitHub repository: mcollina/skills",
+      "description": "Provides domain-specific best practices for Node.js development with TypeScript, covering type stripping, async patterns, error handling, streams, modules, testing, performance, caching, logging, and more. Use when setting up Node.js projects with native TypeScript support, configuring type stripping (--experimental-strip-types), writing Node 22+ TypeScript without a build step, or when the user mentions 'native TypeScript in Node', 'strip types', 'Node 22 TypeScript', '.ts files without compilation', 'ts-node alternative', or needs guidance on error handling, graceful shutdown, flaky tests, profiling, or environment configuration in Node.js. Helps configure tsconfig.json for type stripping, set up package.json scripts, handle module resolution and import extensions, and apply robust patterns across the full Node.js stack.",
       "slug": "mcollina-node"
     },
     {
@@ -57,7 +81,7 @@
       "skillName": "nodejs-core",
       "path": "skills/nodejs-core/SKILL.md",
       "url": "https://github.com/mcollina/skills/blob/main/skills/nodejs-core/SKILL.md",
-      "description": "Discovered from a public GitHub repository: mcollina/skills",
+      "description": "Debugs native module crashes, optimizes V8 performance, configures node-gyp builds, writes N-API/node-addon-api bindings, and diagnoses libuv event loop issues in Node.js. Use when working with C++ addons, native modules, binding.gyp, node-gyp errors, segfaults, memory leaks in native code, V8 optimization/deoptimization, libuv thread pool tuning, N-API or NAN bindings, build system failures, or any Node.js internals below the JavaScript layer.",
       "slug": "mcollina-nodejs-core"
     },
     {
@@ -66,7 +90,7 @@
       "skillName": "oauth",
       "path": "skills/oauth/SKILL.md",
       "url": "https://github.com/mcollina/skills/blob/main/skills/oauth/SKILL.md",
-      "description": "Discovered from a public GitHub repository: mcollina/skills",
+      "description": "Implements OAuth 2.0/2.1 authorization flows in Fastify applications — configures authorization code with PKCE, client credentials, device flow, refresh token rotation, JWT validation, and token introspection/revocation endpoints. Use when setting up authentication, authorization, login flows, access tokens, API security, or securing Fastify routes with OAuth; also applies when troubleshooting token validation errors, mismatched redirect URIs, CSRF issues, scope problems, or RFC 6749/6750/7636/8252/8628 compliance questions.",
       "slug": "mcollina-oauth"
     },
     {
@@ -75,7 +99,7 @@
       "skillName": "octocat",
       "path": "skills/octocat/SKILL.md",
       "url": "https://github.com/mcollina/skills/blob/main/skills/octocat/SKILL.md",
-      "description": "Discovered from a public GitHub repository: mcollina/skills",
+      "description": "Use this skill whenever the prompt contains any `github.com` URL, even if the user only pastes a link and gives no GitHub-specific keywords. Handles git and GitHub operations using the gh CLI. Triggers include any GitHub link to an issue, pull request, commit, compare page, Actions run, release, discussion, or repository. Covers creating and reviewing PRs, watching CI checks, interactive rebasing, branch cleanup, submodule management, and repository archaeology with git log/blame/bisect.",
       "slug": "mcollina-octocat"
     },
     {
@@ -84,7 +108,7 @@
       "skillName": "skill-optimizer",
       "path": "skills/skill-optimizer/SKILL.md",
       "url": "https://github.com/mcollina/skills/blob/main/skills/skill-optimizer/SKILL.md",
-      "description": "Discovered from a public GitHub repository: mcollina/skills",
+      "description": "Optimizes AI skills for activation, clarity, and cross-model reliability. Use when creating or editing skill packs, diagnosing weak skill uptake, reducing regressions, tuning instruction salience, improving examples, shrinking context cost, or setting benchmark/release gates for skills. Trigger terms: skill optimization, activation gap, benchmark skill, with/without skill delta, regression, context budget, prompt salience.",
       "slug": "mcollina-skill-optimizer"
     },
     {
@@ -93,7 +117,7 @@
       "skillName": "snipgrapher",
       "path": "skills/snipgrapher/SKILL.md",
       "url": "https://github.com/mcollina/skills/blob/main/skills/snipgrapher/SKILL.md",
-      "description": "Discovered from a public GitHub repository: mcollina/skills",
+      "description": "Configures and uses snipgrapher to generate polished code snippet images, including syntax-highlighted PNGs, SVGs, and WebP exports with custom themes, profiles, and styling options. Use when the user wants to create code screenshots, turn code into shareable images, generate pretty code snippets for docs or social posts, produce syntax-highlighted images from source files, or explicitly mentions snipgrapher. Supports single-file renders, batch jobs, watch mode, and reusable named profiles via the snipgrapher CLI or npx.",
       "slug": "mcollina-snipgrapher"
     },
     {
@@ -102,10 +126,10 @@
       "skillName": "typescript-magician",
       "path": "skills/typescript-magician/SKILL.md",
       "url": "https://github.com/mcollina/skills/blob/main/skills/typescript-magician/SKILL.md",
-      "description": "Discovered from a public GitHub repository: mcollina/skills",
+      "description": "Designs complex generic types, refactors `any` types to strict alternatives, creates type guards and utility types, and resolves TypeScript compiler errors. Use when the user asks about TypeScript (TS) types, generics, type inference, type guards, removing `any` types, strict typing, type errors, `infer`, `extends`, conditional types, mapped types, template literal types, branded/opaque types, or utility types like `Partial`, `Record`, `ReturnType`, and `Awaited`.",
       "slug": "mcollina-typescript-magician"
     }
   ],
-  "itemCount": 11,
-  "lastStatus": "reused-unchanged"
+  "itemCount": 12,
+  "lastStatus": "cache-fresh"
 }

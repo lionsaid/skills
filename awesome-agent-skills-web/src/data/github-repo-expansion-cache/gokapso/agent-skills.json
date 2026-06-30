@@ -9,10 +9,26 @@
     {
       "repository": "gokapso/agent-skills",
       "branch": "master",
+      "skillName": "agent-skills",
+      "path": "README.md",
+      "url": "https://github.com/gokapso/agent-skills",
+      "description": "Discovered from a public GitHub repository: gokapso/agent-skills",
+      "slug": "gokapso-agent-skills-collection",
+      "isCollection": true,
+      "stars": null,
+      "skillPaths": [
+        "skills/automate-whatsapp/SKILL.md",
+        "skills/integrate-whatsapp/SKILL.md",
+        "skills/observe-whatsapp/SKILL.md"
+      ]
+    },
+    {
+      "repository": "gokapso/agent-skills",
+      "branch": "master",
       "skillName": "automate-whatsapp",
       "path": "skills/automate-whatsapp/SKILL.md",
       "url": "https://github.com/gokapso/agent-skills/blob/master/skills/automate-whatsapp/SKILL.md",
-      "description": "Discovered from a public GitHub repository: gokapso/agent-skills",
+      "description": "Build WhatsApp automations with Kapso workflows: configure WhatsApp triggers, edit workflow graphs, manage executions, deploy functions, and debug automation behavior. Use when automating WhatsApp conversations and event handling.",
       "slug": "gokapso-automate-whatsapp"
     },
     {
@@ -21,7 +37,7 @@
       "skillName": "integrate-whatsapp",
       "path": "skills/integrate-whatsapp/SKILL.md",
       "url": "https://github.com/gokapso/agent-skills/blob/master/skills/integrate-whatsapp/SKILL.md",
-      "description": "Discovered from a public GitHub repository: gokapso/agent-skills",
+      "description": "Connect WhatsApp to your product with Kapso: onboard customers with setup links, detect connections, receive events via webhooks, and send messages/templates/media. Also manage WhatsApp Flows (create/update/publish, data endpoints, encryption). Use when integrating WhatsApp end-to-end.",
       "slug": "gokapso-integrate-whatsapp"
     },
     {
@@ -30,10 +46,10 @@
       "skillName": "observe-whatsapp",
       "path": "skills/observe-whatsapp/SKILL.md",
       "url": "https://github.com/gokapso/agent-skills/blob/master/skills/observe-whatsapp/SKILL.md",
-      "description": "Discovered from a public GitHub repository: gokapso/agent-skills",
+      "description": "Observe and troubleshoot WhatsApp in Kapso: debug message delivery, inspect webhook deliveries/retries, triage API errors, and run health checks. Use when investigating production issues, message failures, or webhook delivery problems.",
       "slug": "gokapso-observe-whatsapp"
     }
   ],
-  "itemCount": 3,
-  "lastStatus": "reused-unchanged"
+  "itemCount": 4,
+  "lastStatus": "cache-fresh"
 }

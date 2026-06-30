@@ -9,74 +9,40 @@
     {
       "repository": "AgriciDaniel/claude-seo",
       "branch": "main",
-      "skillName": "extensions/ahrefs/skills/seo-ahrefs",
-      "path": "extensions/ahrefs/skills/seo-ahrefs/SKILL.md",
-      "url": "https://github.com/AgriciDaniel/claude-seo/blob/main/extensions/ahrefs/skills/seo-ahrefs/SKILL.md",
-      "description": "Discovered from a public GitHub repository: AgriciDaniel/claude-seo",
-      "slug": "agricidaniel-extensions-ahrefs-skills-seo-ahrefs"
-    },
-    {
-      "repository": "AgriciDaniel/claude-seo",
-      "branch": "main",
-      "skillName": "extensions/banana/skills/seo-image-gen",
-      "path": "extensions/banana/skills/seo-image-gen/SKILL.md",
-      "url": "https://github.com/AgriciDaniel/claude-seo/blob/main/extensions/banana/skills/seo-image-gen/SKILL.md",
-      "description": "Discovered from a public GitHub repository: AgriciDaniel/claude-seo",
-      "slug": "agricidaniel-extensions-banana-skills-seo-image-gen"
-    },
-    {
-      "repository": "AgriciDaniel/claude-seo",
-      "branch": "main",
-      "skillName": "extensions/bing-webmaster/skills/seo-bing",
-      "path": "extensions/bing-webmaster/skills/seo-bing/SKILL.md",
-      "url": "https://github.com/AgriciDaniel/claude-seo/blob/main/extensions/bing-webmaster/skills/seo-bing/SKILL.md",
-      "description": "Discovered from a public GitHub repository: AgriciDaniel/claude-seo",
-      "slug": "agricidaniel-extensions-bing-webmaster-skills-seo-bing"
-    },
-    {
-      "repository": "AgriciDaniel/claude-seo",
-      "branch": "main",
-      "skillName": "extensions/dataforseo/skills/seo-dataforseo",
-      "path": "extensions/dataforseo/skills/seo-dataforseo/SKILL.md",
-      "url": "https://github.com/AgriciDaniel/claude-seo/blob/main/extensions/dataforseo/skills/seo-dataforseo/SKILL.md",
-      "description": "Discovered from a public GitHub repository: AgriciDaniel/claude-seo",
-      "slug": "agricidaniel-extensions-dataforseo-skills-seo-dataforseo"
-    },
-    {
-      "repository": "AgriciDaniel/claude-seo",
-      "branch": "main",
-      "skillName": "extensions/firecrawl/skills/seo-firecrawl",
-      "path": "extensions/firecrawl/skills/seo-firecrawl/SKILL.md",
-      "url": "https://github.com/AgriciDaniel/claude-seo/blob/main/extensions/firecrawl/skills/seo-firecrawl/SKILL.md",
-      "description": "Discovered from a public GitHub repository: AgriciDaniel/claude-seo",
-      "slug": "agricidaniel-extensions-firecrawl-skills-seo-firecrawl"
-    },
-    {
-      "repository": "AgriciDaniel/claude-seo",
-      "branch": "main",
-      "skillName": "extensions/profound/skills/seo-profound",
-      "path": "extensions/profound/skills/seo-profound/SKILL.md",
-      "url": "https://github.com/AgriciDaniel/claude-seo/blob/main/extensions/profound/skills/seo-profound/SKILL.md",
-      "description": "Discovered from a public GitHub repository: AgriciDaniel/claude-seo",
-      "slug": "agricidaniel-extensions-profound-skills-seo-profound"
-    },
-    {
-      "repository": "AgriciDaniel/claude-seo",
-      "branch": "main",
-      "skillName": "extensions/seranking/skills/seo-seranking",
-      "path": "extensions/seranking/skills/seo-seranking/SKILL.md",
-      "url": "https://github.com/AgriciDaniel/claude-seo/blob/main/extensions/seranking/skills/seo-seranking/SKILL.md",
-      "description": "Discovered from a public GitHub repository: AgriciDaniel/claude-seo",
-      "slug": "agricidaniel-extensions-seranking-skills-seo-seranking"
-    },
-    {
-      "repository": "AgriciDaniel/claude-seo",
-      "branch": "main",
-      "skillName": "extensions/unlighthouse/skills/seo-unlighthouse",
-      "path": "extensions/unlighthouse/skills/seo-unlighthouse/SKILL.md",
-      "url": "https://github.com/AgriciDaniel/claude-seo/blob/main/extensions/unlighthouse/skills/seo-unlighthouse/SKILL.md",
-      "description": "Discovered from a public GitHub repository: AgriciDaniel/claude-seo",
-      "slug": "agricidaniel-extensions-unlighthouse-skills-seo-unlighthouse"
+      "skillName": "claude-seo",
+      "path": "README.md",
+      "url": "https://github.com/AgriciDaniel/claude-seo",
+      "description": "Universal SEO skill for Claude Code. 25 sub-skills + 18 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, backlinks, local SEO, maps intelligence, semantic clustering, e-commerce SEO, international SEO, Google APIs, and PDF/Excel reporting. Optional DataForSEO, Firecrawl, and Banana extensions.",
+      "slug": "agricidaniel-claude-seo-collection",
+      "isCollection": true,
+      "stars": null,
+      "skillPaths": [
+        "skills/seo-audit/SKILL.md",
+        "skills/seo-backlinks/SKILL.md",
+        "skills/seo-cluster/SKILL.md",
+        "skills/seo-competitor-pages/SKILL.md",
+        "skills/seo-content-brief/SKILL.md",
+        "skills/seo-content/SKILL.md",
+        "skills/seo-dataforseo/SKILL.md",
+        "skills/seo-drift/SKILL.md",
+        "skills/seo-ecommerce/SKILL.md",
+        "skills/seo-flow/SKILL.md",
+        "skills/seo-geo/SKILL.md",
+        "skills/seo-google/SKILL.md",
+        "skills/seo-hreflang/SKILL.md",
+        "skills/seo-image-gen/SKILL.md",
+        "skills/seo-images/SKILL.md",
+        "skills/seo-local/SKILL.md",
+        "skills/seo-maps/SKILL.md",
+        "skills/seo-page/SKILL.md",
+        "skills/seo-plan/SKILL.md",
+        "skills/seo-programmatic/SKILL.md",
+        "skills/seo-schema/SKILL.md",
+        "skills/seo-sitemap/SKILL.md",
+        "skills/seo-sxo/SKILL.md",
+        "skills/seo-technical/SKILL.md",
+        "skills/seo/SKILL.md"
+      ]
     },
     {
       "repository": "AgriciDaniel/claude-seo",
@@ -84,7 +50,7 @@
       "skillName": "seo-audit",
       "path": "skills/seo-audit/SKILL.md",
       "url": "https://github.com/AgriciDaniel/claude-seo/blob/main/skills/seo-audit/SKILL.md",
-      "description": "Discovered from a public GitHub repository: AgriciDaniel/claude-seo",
+      "description": "Full website SEO audit with parallel subagent delegation. Crawls up to 500 pages, detects business type, delegates to up to 15 specialists (8 always + 7 conditional), generates health score. Use when user says audit, full SEO check, analyze my site, or website health check.",
       "slug": "agricidaniel-seo-audit"
     },
     {
@@ -93,7 +59,7 @@
       "skillName": "seo-backlinks",
       "path": "skills/seo-backlinks/SKILL.md",
       "url": "https://github.com/AgriciDaniel/claude-seo/blob/main/skills/seo-backlinks/SKILL.md",
-      "description": "Discovered from a public GitHub repository: AgriciDaniel/claude-seo",
+      "description": "Backlink profile analysis: referring domains, anchor text distribution, toxic link detection, competitor gap analysis. Works with free APIs (Moz, Bing Webmaster, Common Crawl) and DataForSEO extension. Use when user says backlinks, link profile, referring domains, anchor text, toxic links, link gap, link building, disavow, or backlink audit.",
       "slug": "agricidaniel-seo-backlinks"
     },
     {
@@ -102,7 +68,7 @@
       "skillName": "seo-cluster",
       "path": "skills/seo-cluster/SKILL.md",
       "url": "https://github.com/AgriciDaniel/claude-seo/blob/main/skills/seo-cluster/SKILL.md",
-      "description": "Discovered from a public GitHub repository: AgriciDaniel/claude-seo",
+      "description": ">",
       "slug": "agricidaniel-seo-cluster"
     },
     {
@@ -111,7 +77,7 @@
       "skillName": "seo-competitor-pages",
       "path": "skills/seo-competitor-pages/SKILL.md",
       "url": "https://github.com/AgriciDaniel/claude-seo/blob/main/skills/seo-competitor-pages/SKILL.md",
-      "description": "Discovered from a public GitHub repository: AgriciDaniel/claude-seo",
+      "description": ">",
       "slug": "agricidaniel-seo-competitor-pages"
     },
     {
@@ -120,7 +86,7 @@
       "skillName": "seo-content-brief",
       "path": "skills/seo-content-brief/SKILL.md",
       "url": "https://github.com/AgriciDaniel/claude-seo/blob/main/skills/seo-content-brief/SKILL.md",
-      "description": "Discovered from a public GitHub repository: AgriciDaniel/claude-seo",
+      "description": ">",
       "slug": "agricidaniel-seo-content-brief"
     },
     {
@@ -129,7 +95,7 @@
       "skillName": "seo-content",
       "path": "skills/seo-content/SKILL.md",
       "url": "https://github.com/AgriciDaniel/claude-seo/blob/main/skills/seo-content/SKILL.md",
-      "description": "Discovered from a public GitHub repository: AgriciDaniel/claude-seo",
+      "description": ">",
       "slug": "agricidaniel-seo-content"
     },
     {
@@ -138,7 +104,7 @@
       "skillName": "seo-dataforseo",
       "path": "skills/seo-dataforseo/SKILL.md",
       "url": "https://github.com/AgriciDaniel/claude-seo/blob/main/skills/seo-dataforseo/SKILL.md",
-      "description": "Discovered from a public GitHub repository: AgriciDaniel/claude-seo",
+      "description": ">",
       "slug": "agricidaniel-seo-dataforseo"
     },
     {
@@ -147,7 +113,7 @@
       "skillName": "seo-drift",
       "path": "skills/seo-drift/SKILL.md",
       "url": "https://github.com/AgriciDaniel/claude-seo/blob/main/skills/seo-drift/SKILL.md",
-      "description": "Discovered from a public GitHub repository: AgriciDaniel/claude-seo",
+      "description": ">",
       "slug": "agricidaniel-seo-drift"
     },
     {
@@ -156,7 +122,7 @@
       "skillName": "seo-ecommerce",
       "path": "skills/seo-ecommerce/SKILL.md",
       "url": "https://github.com/AgriciDaniel/claude-seo/blob/main/skills/seo-ecommerce/SKILL.md",
-      "description": "Discovered from a public GitHub repository: AgriciDaniel/claude-seo",
+      "description": ">",
       "slug": "agricidaniel-seo-ecommerce"
     },
     {
@@ -165,7 +131,7 @@
       "skillName": "seo-flow",
       "path": "skills/seo-flow/SKILL.md",
       "url": "https://github.com/AgriciDaniel/claude-seo/blob/main/skills/seo-flow/SKILL.md",
-      "description": "Discovered from a public GitHub repository: AgriciDaniel/claude-seo",
+      "description": ">",
       "slug": "agricidaniel-seo-flow"
     },
     {
@@ -174,7 +140,7 @@
       "skillName": "seo-geo",
       "path": "skills/seo-geo/SKILL.md",
       "url": "https://github.com/AgriciDaniel/claude-seo/blob/main/skills/seo-geo/SKILL.md",
-      "description": "Discovered from a public GitHub repository: AgriciDaniel/claude-seo",
+      "description": ">",
       "slug": "agricidaniel-seo-geo"
     },
     {
@@ -183,7 +149,7 @@
       "skillName": "seo-google",
       "path": "skills/seo-google/SKILL.md",
       "url": "https://github.com/AgriciDaniel/claude-seo/blob/main/skills/seo-google/SKILL.md",
-      "description": "Discovered from a public GitHub repository: AgriciDaniel/claude-seo",
+      "description": ">",
       "slug": "agricidaniel-seo-google"
     },
     {
@@ -192,7 +158,7 @@
       "skillName": "seo-hreflang",
       "path": "skills/seo-hreflang/SKILL.md",
       "url": "https://github.com/AgriciDaniel/claude-seo/blob/main/skills/seo-hreflang/SKILL.md",
-      "description": "Discovered from a public GitHub repository: AgriciDaniel/claude-seo",
+      "description": ">",
       "slug": "agricidaniel-seo-hreflang"
     },
     {
@@ -201,7 +167,7 @@
       "skillName": "seo-image-gen",
       "path": "skills/seo-image-gen/SKILL.md",
       "url": "https://github.com/AgriciDaniel/claude-seo/blob/main/skills/seo-image-gen/SKILL.md",
-      "description": "Discovered from a public GitHub repository: AgriciDaniel/claude-seo",
+      "description": "AI image generation for SEO assets: OG/social preview images, blog hero images, schema images, product photography, infographics. Powered by Gemini via nanobanana-mcp. Requires banana extension installed. Use when user says \\\"generate image\\\", \\\"OG image\\\", \\\"social preview\\\", \\\"hero image\\\", \\\"blog image\\\", \\\"product photo\\\", \\\"infographic\\\", \\\"seo image\\\", \\\"create visual\\\", \\\"image-gen\\\", \\\"favicon\\\", \\\"schema image\\\", \\\"pinterest pin\\\", \\\"generate visual\\\", \\\"banner\\\", or \\\"thumbnail\\\".",
       "slug": "agricidaniel-seo-image-gen"
     },
     {
@@ -219,7 +185,7 @@
       "skillName": "seo-local",
       "path": "skills/seo-local/SKILL.md",
       "url": "https://github.com/AgriciDaniel/claude-seo/blob/main/skills/seo-local/SKILL.md",
-      "description": "Discovered from a public GitHub repository: AgriciDaniel/claude-seo",
+      "description": ">",
       "slug": "agricidaniel-seo-local"
     },
     {
@@ -228,7 +194,7 @@
       "skillName": "seo-maps",
       "path": "skills/seo-maps/SKILL.md",
       "url": "https://github.com/AgriciDaniel/claude-seo/blob/main/skills/seo-maps/SKILL.md",
-      "description": "Discovered from a public GitHub repository: AgriciDaniel/claude-seo",
+      "description": ">",
       "slug": "agricidaniel-seo-maps"
     },
     {
@@ -237,7 +203,7 @@
       "skillName": "seo-page",
       "path": "skills/seo-page/SKILL.md",
       "url": "https://github.com/AgriciDaniel/claude-seo/blob/main/skills/seo-page/SKILL.md",
-      "description": "Discovered from a public GitHub repository: AgriciDaniel/claude-seo",
+      "description": ">",
       "slug": "agricidaniel-seo-page"
     },
     {
@@ -246,7 +212,7 @@
       "skillName": "seo-plan",
       "path": "skills/seo-plan/SKILL.md",
       "url": "https://github.com/AgriciDaniel/claude-seo/blob/main/skills/seo-plan/SKILL.md",
-      "description": "Discovered from a public GitHub repository: AgriciDaniel/claude-seo",
+      "description": ">",
       "slug": "agricidaniel-seo-plan"
     },
     {
@@ -255,7 +221,7 @@
       "skillName": "seo-programmatic",
       "path": "skills/seo-programmatic/SKILL.md",
       "url": "https://github.com/AgriciDaniel/claude-seo/blob/main/skills/seo-programmatic/SKILL.md",
-      "description": "Discovered from a public GitHub repository: AgriciDaniel/claude-seo",
+      "description": ">",
       "slug": "agricidaniel-seo-programmatic"
     },
     {
@@ -264,7 +230,7 @@
       "skillName": "seo-schema",
       "path": "skills/seo-schema/SKILL.md",
       "url": "https://github.com/AgriciDaniel/claude-seo/blob/main/skills/seo-schema/SKILL.md",
-      "description": "Discovered from a public GitHub repository: AgriciDaniel/claude-seo",
+      "description": ">",
       "slug": "agricidaniel-seo-schema"
     },
     {
@@ -273,7 +239,7 @@
       "skillName": "seo-sitemap",
       "path": "skills/seo-sitemap/SKILL.md",
       "url": "https://github.com/AgriciDaniel/claude-seo/blob/main/skills/seo-sitemap/SKILL.md",
-      "description": "Discovered from a public GitHub repository: AgriciDaniel/claude-seo",
+      "description": ">",
       "slug": "agricidaniel-seo-sitemap"
     },
     {
@@ -282,7 +248,7 @@
       "skillName": "seo-sxo",
       "path": "skills/seo-sxo/SKILL.md",
       "url": "https://github.com/AgriciDaniel/claude-seo/blob/main/skills/seo-sxo/SKILL.md",
-      "description": "Discovered from a public GitHub repository: AgriciDaniel/claude-seo",
+      "description": ">",
       "slug": "agricidaniel-seo-sxo"
     },
     {
@@ -291,7 +257,7 @@
       "skillName": "seo-technical",
       "path": "skills/seo-technical/SKILL.md",
       "url": "https://github.com/AgriciDaniel/claude-seo/blob/main/skills/seo-technical/SKILL.md",
-      "description": "Discovered from a public GitHub repository: AgriciDaniel/claude-seo",
+      "description": ">",
       "slug": "agricidaniel-seo-technical"
     },
     {
@@ -300,10 +266,10 @@
       "skillName": "seo",
       "path": "skills/seo/SKILL.md",
       "url": "https://github.com/AgriciDaniel/claude-seo/blob/main/skills/seo/SKILL.md",
-      "description": "Discovered from a public GitHub repository: AgriciDaniel/claude-seo",
+      "description": "Comprehensive SEO analysis for any website or business type. Full site audits, single-page analysis, technical SEO (crawlability, indexability, Core Web Vitals with INP), schema markup, content quality (E-E-A-T), image optimization, sitemap analysis, and GEO for AI Overviews/ChatGPT/Perplexity. Industry detection for SaaS, e-commerce, local, publishers, agencies. Triggers on: SEO, audit, schema, Core Web Vitals, sitemap, E-E-A-T, AI Overviews, GEO, technical SEO, content quality, page speed, structured data.",
       "slug": "agricidaniel-seo"
     }
   ],
-  "itemCount": 33,
-  "lastStatus": "reused-unchanged"
+  "itemCount": 26,
+  "lastStatus": "cache-fresh"
 }

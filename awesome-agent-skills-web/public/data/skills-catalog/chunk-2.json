@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-30T00:38:45.567Z",
+  "generatedAt": "2026-06-30T04:04:15.235Z",
   "chunkIndex": 2,
-  "totalSkills": 5100,
+  "totalSkills": 8512,
   "skills": [
     {
       "slug": "apollographql-apollo-kotlin",
@@ -1250,6 +1250,7 @@
       "kind": "official",
       "tags": [
         "browserbase",
+        "github-discovery",
         "namespaced",
         "official-skills",
         "publisher-namespaced",
@@ -1260,6 +1261,7 @@
       ],
       "jobs": [
         "api-integration",
+        "data-extraction",
         "deployment-ops",
         "development-workflows",
         "testing-debugging",
@@ -1267,7 +1269,10 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/browserbase.png?size=88",
       "creatorHandle": "browserbase",
       "hasPublisherLogo": true,
@@ -1284,142 +1289,7 @@
       "kind": "official",
       "tags": [
         "browserbase",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-browserbase"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/browserbase.png?size=88",
-      "creatorHandle": "browserbase",
-      "hasPublisherLogo": true,
-      "stars": 3609,
-      "forks": 226
-    },
-    {
-      "slug": "browserbase-cookie-sync",
-      "name": "browserbase/cookie-sync",
-      "description": "Export cookies from local Chrome into a Browserbase persistent context",
-      "publisher": "browserbase",
-      "publisherSlug": "browserbase",
-      "sectionTitle": "Skills by Browserbase",
-      "kind": "official",
-      "tags": [
-        "browserbase",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-browserbase"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/browserbase.png?size=88",
-      "creatorHandle": "browserbase",
-      "hasPublisherLogo": true,
-      "stars": 3609,
-      "forks": 226
-    },
-    {
-      "slug": "browserbase-fetch",
-      "name": "browserbase/fetch",
-      "description": "Fetch HTML, JSON, headers, and status codes through the Browserbase API",
-      "publisher": "browserbase",
-      "publisherSlug": "browserbase",
-      "sectionTitle": "Skills by Browserbase",
-      "kind": "official",
-      "tags": [
-        "browserbase",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-browserbase"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/browserbase.png?size=88",
-      "creatorHandle": "browserbase",
-      "hasPublisherLogo": true,
-      "stars": 3609,
-      "forks": 226
-    },
-    {
-      "slug": "browserbase-functions",
-      "name": "browserbase/functions",
-      "description": "Deploy browser automation scripts as serverless cloud functions",
-      "publisher": "browserbase",
-      "publisherSlug": "browserbase",
-      "sectionTitle": "Skills by Browserbase",
-      "kind": "official",
-      "tags": [
-        "browserbase",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-browserbase"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/browserbase.png?size=88",
-      "creatorHandle": "browserbase",
-      "hasPublisherLogo": true,
-      "stars": 3609,
-      "forks": 226
-    },
-    {
-      "slug": "browserbase-search",
-      "name": "browserbase/search",
-      "description": "Search the web via the Browserbase API with structured results",
-      "publisher": "browserbase",
-      "publisherSlug": "browserbase",
-      "sectionTitle": "Skills by Browserbase",
-      "kind": "official",
-      "tags": [
-        "browserbase",
+        "github-discovery",
         "namespaced",
         "official-skills",
         "publisher-namespaced",
@@ -1438,7 +1308,174 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/browserbase.png?size=88",
+      "creatorHandle": "browserbase",
+      "hasPublisherLogo": true,
+      "stars": 3609,
+      "forks": 226
+    },
+    {
+      "slug": "browserbase-cookie-sync",
+      "name": "browserbase/cookie-sync",
+      "description": "Export cookies from local Chrome into a Browserbase persistent context",
+      "publisher": "browserbase",
+      "publisherSlug": "browserbase",
+      "sectionTitle": "Skills by Browserbase",
+      "kind": "official",
+      "tags": [
+        "browserbase",
+        "github-discovery",
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-browserbase"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/browserbase.png?size=88",
+      "creatorHandle": "browserbase",
+      "hasPublisherLogo": true,
+      "stars": 3609,
+      "forks": 226
+    },
+    {
+      "slug": "browserbase-fetch",
+      "name": "browserbase/fetch",
+      "description": "Fetch HTML, JSON, headers, and status codes through the Browserbase API",
+      "publisher": "browserbase",
+      "publisherSlug": "browserbase",
+      "sectionTitle": "Skills by Browserbase",
+      "kind": "official",
+      "tags": [
+        "browserbase",
+        "github-discovery",
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-browserbase"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "prd-specs",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/browserbase.png?size=88",
+      "creatorHandle": "browserbase",
+      "hasPublisherLogo": true,
+      "stars": 3609,
+      "forks": 226
+    },
+    {
+      "slug": "browserbase-functions",
+      "name": "browserbase/functions",
+      "description": "Deploy browser automation scripts as serverless cloud functions",
+      "publisher": "browserbase",
+      "publisherSlug": "browserbase",
+      "sectionTitle": "Skills by Browserbase",
+      "kind": "official",
+      "tags": [
+        "browserbase",
+        "github-discovery",
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-browserbase"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/browserbase.png?size=88",
+      "creatorHandle": "browserbase",
+      "hasPublisherLogo": true,
+      "stars": 3609,
+      "forks": 226
+    },
+    {
+      "slug": "browserbase-search",
+      "name": "browserbase/search",
+      "description": "Search the web via the Browserbase API with structured results",
+      "publisher": "browserbase",
+      "publisherSlug": "browserbase",
+      "sectionTitle": "Skills by Browserbase",
+      "kind": "official",
+      "tags": [
+        "browserbase",
+        "github-discovery",
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-browserbase"
+      ],
+      "personas": [
+        "data-analyst",
+        "engineer",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/browserbase.png?size=88",
       "creatorHandle": "browserbase",
       "hasPublisherLogo": true,
@@ -1455,6 +1492,7 @@
       "kind": "official",
       "tags": [
         "browserbase",
+        "github-discovery",
         "namespaced",
         "official-skills",
         "publisher-namespaced",
@@ -1477,7 +1515,10 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/browserbase.png?size=88",
       "creatorHandle": "browserbase",
       "hasPublisherLogo": true,
@@ -3390,12 +3431,16 @@
       ],
       "personas": [
         "engineer",
+        "marketer",
         "pm"
       ],
       "jobs": [
         "api-integration",
+        "campaign-planning",
+        "content-production",
         "deployment-ops",
         "development-workflows",
+        "landing-pages",
         "planning-roadmapping",
         "prd-specs",
         "reporting",
@@ -3444,6 +3489,7 @@
         "reporting",
         "research-synthesis",
         "testing-debugging",
+        "ui-ux-design",
         "workflow-automation"
       ],
       "sourceType": "github-readme",
@@ -3511,13 +3557,22 @@
         "publisher-namespaced"
       ],
       "personas": [
+        "engineer",
+        "marketer",
         "pm"
       ],
       "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
         "planning-roadmapping",
         "prd-specs",
         "reporting",
         "research-synthesis",
+        "testing-debugging",
         "workflow-automation"
       ],
       "sourceType": "github-readme",
@@ -3549,11 +3604,13 @@
       ],
       "personas": [
         "data-analyst",
+        "founder",
         "pm"
       ],
       "jobs": [
         "dashboarding",
         "data-extraction",
+        "landing-pages",
         "planning-roadmapping",
         "prd-specs",
         "reporting",
@@ -3590,13 +3647,18 @@
         "publisher-namespaced"
       ],
       "personas": [
+        "data-analyst",
         "pm"
       ],
       "jobs": [
+        "dashboarding",
+        "data-extraction",
         "planning-roadmapping",
         "prd-specs",
         "reporting",
         "research-synthesis",
+        "spreadsheet-cleaning",
+        "sql-analysis",
         "workflow-automation"
       ],
       "sourceType": "github-readme",
@@ -3793,6 +3855,7 @@
       "personas": [
         "data-analyst",
         "engineer",
+        "founder",
         "pm"
       ],
       "jobs": [
@@ -3802,6 +3865,7 @@
         "data-extraction",
         "deployment-ops",
         "development-workflows",
+        "landing-pages",
         "planning-roadmapping",
         "prd-specs",
         "reporting",
@@ -3851,6 +3915,7 @@
         "reporting",
         "research-synthesis",
         "testing-debugging",
+        "ui-ux-design",
         "workflow-automation"
       ],
       "sourceType": "github-readme",
@@ -3918,13 +3983,19 @@
         "publisher-namespaced"
       ],
       "personas": [
+        "engineer",
         "pm"
       ],
       "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
         "planning-roadmapping",
         "prd-specs",
         "reporting",
         "research-synthesis",
+        "testing-debugging",
+        "ui-ux-design",
         "workflow-automation"
       ],
       "sourceType": "github-readme",
@@ -4029,14 +4100,19 @@
         "publisher-namespaced"
       ],
       "personas": [
+        "engineer",
         "pm"
       ],
       "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
         "document-authoring",
         "planning-roadmapping",
         "prd-specs",
         "reporting",
         "research-synthesis",
+        "testing-debugging",
         "visual-assets",
         "workflow-automation"
       ],
@@ -4203,13 +4279,18 @@
         "publisher-namespaced"
       ],
       "personas": [
+        "engineer",
         "pm"
       ],
       "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
         "planning-roadmapping",
         "prd-specs",
         "reporting",
         "research-synthesis",
+        "testing-debugging",
         "workflow-automation"
       ],
       "sourceType": "github-readme",
@@ -4277,13 +4358,18 @@
         "publisher-namespaced"
       ],
       "personas": [
+        "engineer",
         "pm"
       ],
       "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
         "planning-roadmapping",
         "prd-specs",
         "reporting",
         "research-synthesis",
+        "testing-debugging",
         "workflow-automation"
       ],
       "sourceType": "github-readme",
@@ -4397,10 +4483,12 @@
         "pm"
       ],
       "jobs": [
+        "landing-pages",
         "planning-roadmapping",
         "prd-specs",
         "reporting",
         "research-synthesis",
+        "ui-ux-design",
         "workflow-automation"
       ],
       "sourceType": "github-readme",
@@ -4510,13 +4598,20 @@
         "publisher-namespaced"
       ],
       "personas": [
+        "engineer",
+        "founder",
         "pm"
       ],
       "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
         "planning-roadmapping",
         "prd-specs",
         "reporting",
         "research-synthesis",
+        "testing-debugging",
         "workflow-automation"
       ],
       "sourceType": "github-readme",
@@ -4600,15 +4695,20 @@
       ],
       "personas": [
         "designer",
+        "engineer",
         "pm"
       ],
       "jobs": [
+        "api-integration",
+        "deployment-ops",
         "design-critique",
+        "development-workflows",
         "planning-roadmapping",
         "prd-specs",
         "presentation-building",
         "reporting",
         "research-synthesis",
+        "testing-debugging",
         "ui-ux-design",
         "visual-assets",
         "workflow-automation"
@@ -4653,6 +4753,7 @@
         "reporting",
         "research-synthesis",
         "testing-debugging",
+        "ui-ux-design",
         "workflow-automation"
       ],
       "sourceType": "github-readme",
@@ -4688,6 +4789,7 @@
       ],
       "jobs": [
         "design-critique",
+        "development-workflows",
         "planning-roadmapping",
         "prd-specs",
         "presentation-building",
@@ -4763,13 +4865,18 @@
         "publisher-namespaced"
       ],
       "personas": [
+        "engineer",
         "pm"
       ],
       "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
         "planning-roadmapping",
         "prd-specs",
         "reporting",
         "research-synthesis",
+        "testing-debugging",
         "workflow-automation"
       ],
       "sourceType": "github-readme",
@@ -4807,6 +4914,7 @@
         "prd-specs",
         "reporting",
         "research-synthesis",
+        "ui-ux-design",
         "visual-assets",
         "workflow-automation"
       ],
@@ -4920,10 +5028,12 @@
         "pm"
       ],
       "jobs": [
+        "landing-pages",
         "planning-roadmapping",
         "prd-specs",
         "reporting",
         "research-synthesis",
+        "ui-ux-design",
         "workflow-automation"
       ],
       "sourceType": "github-readme",
@@ -5071,18 +5181,24 @@
       ],
       "personas": [
         "data-analyst",
+        "engineer",
         "pm"
       ],
       "jobs": [
+        "api-integration",
         "dashboarding",
         "data-extraction",
+        "deployment-ops",
         "development-workflows",
+        "document-authoring",
         "planning-roadmapping",
         "prd-specs",
         "reporting",
         "research-synthesis",
         "spreadsheet-cleaning",
         "sql-analysis",
+        "testing-debugging",
+        "ui-ux-design",
         "workflow-automation"
       ],
       "sourceType": "github-readme",
@@ -5152,13 +5268,20 @@
         "publisher-namespaced"
       ],
       "personas": [
+        "engineer",
+        "founder",
         "pm"
       ],
       "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
         "planning-roadmapping",
         "prd-specs",
         "reporting",
         "research-synthesis",
+        "testing-debugging",
         "workflow-automation"
       ],
       "sourceType": "github-readme",
@@ -5189,9 +5312,13 @@
         "publisher-namespaced"
       ],
       "personas": [
+        "marketer",
         "pm"
       ],
       "jobs": [
+        "campaign-planning",
+        "content-production",
+        "landing-pages",
         "planning-roadmapping",
         "prd-specs",
         "reporting",
@@ -8243,6 +8370,7 @@
       "sectionTitle": "Skills by GSAP (GreenSock)",
       "kind": "official",
       "tags": [
+        "github-discovery",
         "greensock",
         "namespaced",
         "official-skills",
@@ -8261,7 +8389,10 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/greensock.png?size=88",
       "creatorHandle": "greensock",
       "hasPublisherLogo": true,
@@ -8277,6 +8408,7 @@
       "sectionTitle": "Skills by GSAP (GreenSock)",
       "kind": "official",
       "tags": [
+        "github-discovery",
         "greensock",
         "namespaced",
         "official-skills",
@@ -8295,7 +8427,10 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/greensock.png?size=88",
       "creatorHandle": "greensock",
       "hasPublisherLogo": true,
@@ -8311,6 +8446,7 @@
       "sectionTitle": "Skills by GSAP (GreenSock)",
       "kind": "official",
       "tags": [
+        "github-discovery",
         "greensock",
         "namespaced",
         "official-skills",
@@ -8324,12 +8460,17 @@
         "api-integration",
         "deployment-ops",
         "development-workflows",
+        "prd-specs",
         "testing-debugging",
+        "ui-ux-design",
         "workflow-automation"
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/greensock.png?size=88",
       "creatorHandle": "greensock",
       "hasPublisherLogo": true,
@@ -8345,6 +8486,7 @@
       "sectionTitle": "Skills by GSAP (GreenSock)",
       "kind": "official",
       "tags": [
+        "github-discovery",
         "greensock",
         "namespaced",
         "official-skills",
@@ -8363,7 +8505,10 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/greensock.png?size=88",
       "creatorHandle": "greensock",
       "hasPublisherLogo": true,
@@ -8379,6 +8524,7 @@
       "sectionTitle": "Skills by GSAP (GreenSock)",
       "kind": "official",
       "tags": [
+        "github-discovery",
         "greensock",
         "namespaced",
         "official-skills",
@@ -8397,7 +8543,10 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/greensock.png?size=88",
       "creatorHandle": "greensock",
       "hasPublisherLogo": true,
@@ -8413,6 +8562,7 @@
       "sectionTitle": "Skills by GSAP (GreenSock)",
       "kind": "official",
       "tags": [
+        "github-discovery",
         "greensock",
         "namespaced",
         "official-skills",
@@ -8431,7 +8581,10 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/greensock.png?size=88",
       "creatorHandle": "greensock",
       "hasPublisherLogo": true,
@@ -8447,6 +8600,7 @@
       "sectionTitle": "Skills by GSAP (GreenSock)",
       "kind": "official",
       "tags": [
+        "github-discovery",
         "greensock",
         "namespaced",
         "official-skills",
@@ -8466,7 +8620,10 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/greensock.png?size=88",
       "creatorHandle": "greensock",
       "hasPublisherLogo": true,
@@ -8482,6 +8639,7 @@
       "sectionTitle": "Skills by GSAP (GreenSock)",
       "kind": "official",
       "tags": [
+        "github-discovery",
         "greensock",
         "namespaced",
         "official-skills",
@@ -8495,13 +8653,17 @@
         "api-integration",
         "deployment-ops",
         "development-workflows",
+        "prd-specs",
         "testing-debugging",
         "ui-ux-design",
         "workflow-automation"
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/greensock.png?size=88",
       "creatorHandle": "greensock",
       "hasPublisherLogo": true,

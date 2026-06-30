@@ -9,10 +9,33 @@
     {
       "repository": "CloudAI-X/threejs-skills",
       "branch": "main",
+      "skillName": "threejs-skills",
+      "path": "README.md",
+      "url": "https://github.com/CloudAI-X/threejs-skills",
+      "description": "Discovered from a public GitHub repository: CloudAI-X/threejs-skills",
+      "slug": "cloudai-x-threejs-skills-collection",
+      "isCollection": true,
+      "stars": null,
+      "skillPaths": [
+        "skills/threejs-animation/SKILL.md",
+        "skills/threejs-fundamentals/SKILL.md",
+        "skills/threejs-geometry/SKILL.md",
+        "skills/threejs-interaction/SKILL.md",
+        "skills/threejs-lighting/SKILL.md",
+        "skills/threejs-loaders/SKILL.md",
+        "skills/threejs-materials/SKILL.md",
+        "skills/threejs-postprocessing/SKILL.md",
+        "skills/threejs-shaders/SKILL.md",
+        "skills/threejs-textures/SKILL.md"
+      ]
+    },
+    {
+      "repository": "CloudAI-X/threejs-skills",
+      "branch": "main",
       "skillName": "threejs-animation",
       "path": "skills/threejs-animation/SKILL.md",
       "url": "https://github.com/CloudAI-X/threejs-skills/blob/main/skills/threejs-animation/SKILL.md",
-      "description": "Discovered from a public GitHub repository: CloudAI-X/threejs-skills",
+      "description": "Three.js animation - keyframe animation, skeletal animation, morph targets, animation mixing. Use when animating objects, playing GLTF animations, creating procedural motion, or blending animations.",
       "slug": "cloudai-x-threejs-animation"
     },
     {
@@ -21,7 +44,7 @@
       "skillName": "threejs-fundamentals",
       "path": "skills/threejs-fundamentals/SKILL.md",
       "url": "https://github.com/CloudAI-X/threejs-skills/blob/main/skills/threejs-fundamentals/SKILL.md",
-      "description": "Discovered from a public GitHub repository: CloudAI-X/threejs-skills",
+      "description": "Three.js scene setup, cameras, renderer, Object3D hierarchy, coordinate systems. Use when setting up 3D scenes, creating cameras, configuring renderers, managing object hierarchies, or working with transforms.",
       "slug": "cloudai-x-threejs-fundamentals"
     },
     {
@@ -30,7 +53,7 @@
       "skillName": "threejs-geometry",
       "path": "skills/threejs-geometry/SKILL.md",
       "url": "https://github.com/CloudAI-X/threejs-skills/blob/main/skills/threejs-geometry/SKILL.md",
-      "description": "Discovered from a public GitHub repository: CloudAI-X/threejs-skills",
+      "description": "Three.js geometry creation - built-in shapes, BufferGeometry, custom geometry, instancing. Use when creating 3D shapes, working with vertices, building custom meshes, or optimizing with instanced rendering.",
       "slug": "cloudai-x-threejs-geometry"
     },
     {
@@ -39,7 +62,7 @@
       "skillName": "threejs-interaction",
       "path": "skills/threejs-interaction/SKILL.md",
       "url": "https://github.com/CloudAI-X/threejs-skills/blob/main/skills/threejs-interaction/SKILL.md",
-      "description": "Discovered from a public GitHub repository: CloudAI-X/threejs-skills",
+      "description": "Three.js interaction - raycasting, controls, mouse/touch input, object selection. Use when handling user input, implementing click detection, adding camera controls, or creating interactive 3D experiences.",
       "slug": "cloudai-x-threejs-interaction"
     },
     {
@@ -48,7 +71,7 @@
       "skillName": "threejs-lighting",
       "path": "skills/threejs-lighting/SKILL.md",
       "url": "https://github.com/CloudAI-X/threejs-skills/blob/main/skills/threejs-lighting/SKILL.md",
-      "description": "Discovered from a public GitHub repository: CloudAI-X/threejs-skills",
+      "description": "Three.js lighting - light types, shadows, environment lighting. Use when adding lights, configuring shadows, setting up IBL, or optimizing lighting performance.",
       "slug": "cloudai-x-threejs-lighting"
     },
     {
@@ -57,7 +80,7 @@
       "skillName": "threejs-loaders",
       "path": "skills/threejs-loaders/SKILL.md",
       "url": "https://github.com/CloudAI-X/threejs-skills/blob/main/skills/threejs-loaders/SKILL.md",
-      "description": "Discovered from a public GitHub repository: CloudAI-X/threejs-skills",
+      "description": "Three.js asset loading - GLTF, textures, images, models, async patterns. Use when loading 3D models, textures, HDR environments, or managing loading progress.",
       "slug": "cloudai-x-threejs-loaders"
     },
     {
@@ -66,7 +89,7 @@
       "skillName": "threejs-materials",
       "path": "skills/threejs-materials/SKILL.md",
       "url": "https://github.com/CloudAI-X/threejs-skills/blob/main/skills/threejs-materials/SKILL.md",
-      "description": "Discovered from a public GitHub repository: CloudAI-X/threejs-skills",
+      "description": "Three.js materials - PBR, basic, phong, shader materials, material properties. Use when styling meshes, working with textures, creating custom shaders, or optimizing material performance.",
       "slug": "cloudai-x-threejs-materials"
     },
     {
@@ -75,7 +98,7 @@
       "skillName": "threejs-postprocessing",
       "path": "skills/threejs-postprocessing/SKILL.md",
       "url": "https://github.com/CloudAI-X/threejs-skills/blob/main/skills/threejs-postprocessing/SKILL.md",
-      "description": "Discovered from a public GitHub repository: CloudAI-X/threejs-skills",
+      "description": "Three.js post-processing - EffectComposer, bloom, DOF, screen effects. Use when adding visual effects, color grading, blur, glow, or creating custom screen-space shaders.",
       "slug": "cloudai-x-threejs-postprocessing"
     },
     {
@@ -84,7 +107,7 @@
       "skillName": "threejs-shaders",
       "path": "skills/threejs-shaders/SKILL.md",
       "url": "https://github.com/CloudAI-X/threejs-skills/blob/main/skills/threejs-shaders/SKILL.md",
-      "description": "Discovered from a public GitHub repository: CloudAI-X/threejs-skills",
+      "description": "Three.js shaders - GLSL, ShaderMaterial, uniforms, custom effects. Use when creating custom visual effects, modifying vertices, writing fragment shaders, or extending built-in materials.",
       "slug": "cloudai-x-threejs-shaders"
     },
     {
@@ -93,10 +116,10 @@
       "skillName": "threejs-textures",
       "path": "skills/threejs-textures/SKILL.md",
       "url": "https://github.com/CloudAI-X/threejs-skills/blob/main/skills/threejs-textures/SKILL.md",
-      "description": "Discovered from a public GitHub repository: CloudAI-X/threejs-skills",
+      "description": "Three.js textures - texture types, UV mapping, environment maps, texture settings. Use when working with images, UV coordinates, cubemaps, HDR environments, or texture optimization.",
       "slug": "cloudai-x-threejs-textures"
     }
   ],
-  "itemCount": 10,
-  "lastStatus": "reused-unchanged"
+  "itemCount": 11,
+  "lastStatus": "cache-fresh"
 }

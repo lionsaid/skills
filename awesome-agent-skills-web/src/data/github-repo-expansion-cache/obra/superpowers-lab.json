@@ -9,10 +9,27 @@
     {
       "repository": "obra/superpowers-lab",
       "branch": "main",
+      "skillName": "superpowers-lab",
+      "path": "README.md",
+      "url": "https://github.com/obra/superpowers-lab",
+      "description": "Discovered from a public GitHub repository: obra/superpowers-lab",
+      "slug": "obra-superpowers-lab-collection",
+      "isCollection": true,
+      "stars": null,
+      "skillPaths": [
+        "skills/finding-duplicate-functions/SKILL.md",
+        "skills/mcp-cli/SKILL.md",
+        "skills/using-tmux-for-interactive-commands/SKILL.md",
+        "skills/windows-vm/SKILL.md"
+      ]
+    },
+    {
+      "repository": "obra/superpowers-lab",
+      "branch": "main",
       "skillName": "finding-duplicate-functions",
       "path": "skills/finding-duplicate-functions/SKILL.md",
       "url": "https://github.com/obra/superpowers-lab/blob/main/skills/finding-duplicate-functions/SKILL.md",
-      "description": "Discovered from a public GitHub repository: obra/superpowers-lab",
+      "description": "Use when auditing a codebase for semantic duplication - functions that do the same thing but have different names or implementations. Especially useful for LLM-generated codebases where new functions are often created rather than reusing existing ones.",
       "slug": "obra-finding-duplicate-functions"
     },
     {
@@ -21,7 +38,7 @@
       "skillName": "mcp-cli",
       "path": "skills/mcp-cli/SKILL.md",
       "url": "https://github.com/obra/superpowers-lab/blob/main/skills/mcp-cli/SKILL.md",
-      "description": "Discovered from a public GitHub repository: obra/superpowers-lab",
+      "description": "Use MCP servers on-demand via the mcp CLI tool - discover tools, resources, and prompts without polluting context with pre-loaded MCP integrations",
       "slug": "obra-mcp-cli"
     },
     {
@@ -30,7 +47,7 @@
       "skillName": "using-tmux-for-interactive-commands",
       "path": "skills/using-tmux-for-interactive-commands/SKILL.md",
       "url": "https://github.com/obra/superpowers-lab/blob/main/skills/using-tmux-for-interactive-commands/SKILL.md",
-      "description": "Discovered from a public GitHub repository: obra/superpowers-lab",
+      "description": "Use when you need to run interactive CLI tools (vim, git rebase -i, Python REPL, etc.) that require real-time input/output - provides tmux-based approach for controlling interactive sessions through detached sessions and send-keys",
       "slug": "obra-using-tmux-for-interactive-commands"
     },
     {
@@ -39,10 +56,10 @@
       "skillName": "windows-vm",
       "path": "skills/windows-vm/SKILL.md",
       "url": "https://github.com/obra/superpowers-lab/blob/main/skills/windows-vm/SKILL.md",
-      "description": "Discovered from a public GitHub repository: obra/superpowers-lab",
+      "description": "Create, manage, or connect to a headless Windows 11 VM running in Docker with SSH access. Use when the user wants to spin up, stop, restart, or SSH into a Windows VM.",
       "slug": "obra-windows-vm"
     }
   ],
-  "itemCount": 4,
-  "lastStatus": "reused-unchanged"
+  "itemCount": 5,
+  "lastStatus": "cache-fresh"
 }

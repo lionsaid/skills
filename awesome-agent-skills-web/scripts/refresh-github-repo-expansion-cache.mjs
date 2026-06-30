@@ -10,12 +10,15 @@ const projectRoot = path.join(__dirname, "..");
 const sourcesPath = path.join(projectRoot, "config", "skill-sources.json");
 const seedPath = path.join(projectRoot, "config", "github-skill-repos.json");
 const highStarPath = path.join(projectRoot, "src", "data", "github-high-star-repos.generated.json");
+const coverageAuditPath = path.join(projectRoot, "src", "data", "github-skill-coverage-audit.generated.json");
 const outputDir = path.join(projectRoot, "src", "data");
 const outputPath = path.join(outputDir, "github-repo-expansion.generated.json");
 const repoCacheDir = path.join(outputDir, "github-repo-expansion-cache");
 const githubToken = process.env.GITHUB_TOKEN?.trim() || null;
 const gitFallbackTimeoutMs = 20_000;
 const githubFetchTimeoutMs = 15_000;
+const githubRawFetchTimeoutMs = 10_000;
+const skillSummaryConcurrency = Number(process.env.GITHUB_SKILL_SUMMARY_CONCURRENCY ?? 6);
 const metadataCacheTtlMs = Number(process.env.GITHUB_REPO_EXPANSION_CACHE_TTL_HOURS ?? 12) * 60 * 60 * 1000;
 
 function readJson(filePath) {
@@ -31,7 +34,24 @@ function slugify(value) {
 }
 
 function normalizeRepositoryList(values) {
-  return values.filter((value) => typeof value === "string" && /^[^/]+\/[^/]+$/.test(value));
+  const repositories = [];
+  const seen = new Set();
+
+  for (const value of values) {
+    if (typeof value !== "string" || !/^[^/]+\/[^/]+$/.test(value)) {
+      continue;
+    }
+
+    const key = value.toLowerCase();
+    if (seen.has(key)) {
+      continue;
+    }
+
+    seen.add(key);
+    repositories.push(value);
+  }
+
+  return repositories;
 }
 
 function isEligibleSkillPath(skillPath) {
@@ -41,7 +61,20 @@ function isEligibleSkillPath(skillPath) {
 
   const segments = skillPath.split("/").filter(Boolean);
   const directorySegments = segments.slice(0, -1);
-  return !directorySegments.some((segment) => segment.startsWith("."));
+
+  if (directorySegments.some((segment) => segment.startsWith("."))) {
+    return false;
+  }
+
+  if (directorySegments.some((segment) => /^(docs?|examples?|tests?|fixtures?|external_plugins?)$/i.test(segment))) {
+    return false;
+  }
+
+  if (/^skills\/[^/]+\/SKILL\.md$/i.test(skillPath) || /^SKILL\.md$/i.test(skillPath)) {
+    return true;
+  }
+
+  return false;
 }
 
 function getNormalizedSkillPath(skillPath, repository = null) {
@@ -68,6 +101,88 @@ function getNormalizedSkillPath(skillPath, repository = null) {
 
 function getDefaultBranchUrl(repository, branch, skillPath) {
   return `https://github.com/${repository}/blob/${branch}/${skillPath}`;
+}
+
+function getRawGithubUrl(repository, branch, skillPath) {
+  return `https://raw.githubusercontent.com/${repository}/${branch}/${skillPath}`;
+}
+
+function stripMarkdown(value) {
+  return value
+    .replace(/```[\s\S]*?```/g, " ")
+    .replace(/`([^`]+)`/g, "$1")
+    .replace(/!\[[^\]]*]\([^)]+\)/g, " ")
+    .replace(/\[([^\]]+)]\([^)]+\)/g, "$1")
+    .replace(/[#>*_~|]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function parseFrontmatterDescription(content) {
+  const match = content.match(/^---\s*\n([\s\S]*?)\n---\s*(?:\n|$)/);
+  if (!match) {
+    return null;
+  }
+
+  const frontmatter = match[1];
+  const descriptionMatch = frontmatter.match(/^description:\s*(.+)$/im);
+  if (!descriptionMatch?.[1]) {
+    return null;
+  }
+
+  return descriptionMatch[1].trim().replace(/^['"]|['"]$/g, "");
+}
+
+function extractSkillSummary(content) {
+  const frontmatterDescription = parseFrontmatterDescription(content);
+  if (frontmatterDescription) {
+    return frontmatterDescription;
+  }
+
+  const withoutFrontmatter = content.replace(/^---\s*\n[\s\S]*?\n---\s*/, "");
+  const paragraph = withoutFrontmatter
+    .split(/\n{2,}/)
+    .map((block) => stripMarkdown(block))
+    .find((block) => block && !/^[-=]+$/.test(block) && !/^bundled scripts$/i.test(block));
+
+  return paragraph ?? null;
+}
+
+async function fetchSkillSummary(repository, branch, skillPath) {
+  const response = await fetch(getRawGithubUrl(repository, branch, skillPath), {
+    headers: {
+      Accept: "text/plain, text/markdown;q=0.9, */*;q=0.1",
+      "User-Agent": "lionsaid-skills-web",
+    },
+    signal: AbortSignal.timeout(githubRawFetchTimeoutMs),
+  });
+
+  if (!response.ok) {
+    return null;
+  }
+
+  const content = await response.text();
+  const summary = extractSkillSummary(content);
+  return summary ? summary.slice(0, 900) : null;
+}
+
+async function mapWithConcurrency(items, concurrency, mapper) {
+  const results = [];
+  let cursor = 0;
+
+  async function worker() {
+    while (cursor < items.length) {
+      const index = cursor;
+      cursor += 1;
+      results[index] = await mapper(items[index], index);
+    }
+  }
+
+  await Promise.all(
+    Array.from({ length: Math.min(concurrency, items.length) }, () => worker()),
+  );
+
+  return results;
 }
 
 function normalizeSkillEntryShape(entry) {
@@ -133,7 +248,7 @@ async function fetchGithubJson(url) {
   return await response.json();
 }
 
-function buildSkillEntry({ repository, branch, skillPath }) {
+function buildSkillEntry({ repository, branch, skillPath, description = null }) {
   const skillName = getNormalizedSkillPath(skillPath, repository);
   const owner = repository.split("/")[0];
 
@@ -147,8 +262,215 @@ function buildSkillEntry({ repository, branch, skillPath }) {
     skillName,
     path: skillPath,
     url: getDefaultBranchUrl(repository, branch, skillPath),
-    description: `${source.descriptionFallback}: ${repository}`,
+    description: description || `${source.descriptionFallback}: ${repository}`,
     slug: slugify(`${owner}/${skillName}`),
+  };
+}
+
+function buildRepositoryCollectionEntry({ repository, branch, metadata, skillPaths = [] }) {
+  const [owner, repo] = repository.split("/");
+  const description =
+    typeof metadata?.description === "string" && metadata.description.trim()
+      ? metadata.description.trim()
+      : `${source.descriptionFallback}: ${repository}`;
+
+  return {
+    repository,
+    branch,
+    skillName: repo,
+    path: "README.md",
+    url: `https://github.com/${repository}`,
+    description,
+    slug: slugify(`${owner}/${repo}/collection`),
+    isCollection: true,
+    stars: typeof metadata?.stargazers_count === "number" ? metadata.stargazers_count : null,
+    skillPaths,
+  };
+}
+
+function shouldIncludeRepositoryCollection(repository, skillPaths = []) {
+  const publicSkillPaths = skillPaths.filter(isEligibleSkillPath);
+  if (publicSkillPaths.length !== 1) {
+    return true;
+  }
+
+  const repoName = repository.split("/")[1] ?? repository;
+  const onlyPath = publicSkillPaths[0];
+  const normalizedSkillName = getNormalizedSkillPath(onlyPath, repository);
+
+  return normalizedSkillName !== repoName;
+}
+
+function hasRepositoryCollectionEntry(items, repository) {
+  return items.some((item) => item?.repository === repository && item.isCollection === true);
+}
+
+function normalizeSkillPathsFromItems(items, repository) {
+  return [
+    ...new Set(
+      items
+        .filter((item) => item?.repository === repository && typeof item.path === "string")
+        .filter((item) => !item.isCollection && isEligibleSkillPath(item.path))
+        .map((item) => item.path),
+    ),
+  ].sort((a, b) => a.localeCompare(b));
+}
+
+async function buildSkillSummaries(repository, branch, skillPaths, existingItems = []) {
+  const existingByPath = new Map(
+    existingItems
+      .filter((item) => typeof item?.path === "string" && typeof item?.description === "string")
+      .map((item) => [item.path, item.description]),
+  );
+  const summaries = {};
+
+  const pathsToFetch = [];
+
+  for (const skillPath of skillPaths) {
+    const existingDescription = existingByPath.get(skillPath);
+    if (
+      existingDescription &&
+      existingDescription !== `${source.descriptionFallback}: ${repository}`
+    ) {
+      summaries[skillPath] = existingDescription;
+      continue;
+    }
+
+    pathsToFetch.push(skillPath);
+  }
+
+  const fetchedSummaries = await mapWithConcurrency(
+    pathsToFetch,
+    skillSummaryConcurrency,
+    async (skillPath) => {
+      try {
+        const summary = await fetchSkillSummary(repository, branch, skillPath);
+        return [skillPath, summary];
+      } catch {
+        return [skillPath, null];
+      }
+    },
+  );
+
+  for (const [skillPath, summary] of fetchedSummaries) {
+    if (summary) {
+      summaries[skillPath] = summary;
+    }
+  }
+
+  return summaries;
+}
+
+async function buildRepositorySnapshot({
+  repository,
+  branch,
+  defaultBranch,
+  pushedAt = null,
+  scannedAt = new Date().toISOString(),
+  treeSha = null,
+  skillPaths = [],
+  metadata = null,
+  existingItems = [],
+  lastStatus,
+}) {
+  const publicSkillPaths = [
+    ...new Set(skillPaths.filter(isEligibleSkillPath)),
+  ].sort((a, b) => a.localeCompare(b));
+  const skillSummaries = await buildSkillSummaries(repository, branch, publicSkillPaths, existingItems);
+  const items = [
+    ...(shouldIncludeRepositoryCollection(repository, publicSkillPaths)
+      ? [
+          buildRepositoryCollectionEntry({
+            repository,
+            branch,
+            metadata,
+            skillPaths: publicSkillPaths,
+          }),
+        ]
+      : []),
+    ...publicSkillPaths
+      .map((skillPath) =>
+        buildSkillEntry({
+          repository,
+          branch,
+          skillPath,
+          description: skillSummaries[skillPath] ?? null,
+        }),
+      )
+      .filter(Boolean),
+  ];
+
+  return {
+    repository,
+    branch,
+    defaultBranch,
+    pushedAt,
+    scannedAt,
+    treeSha,
+    items,
+    itemCount: items.length,
+    publicSkillCount: publicSkillPaths.length,
+    lastStatus,
+  };
+}
+
+function ensureRepositoryCollectionInSnapshot(repository, snapshot, metadata = null) {
+  if (!snapshot) {
+    return snapshot;
+  }
+
+  const items = Array.isArray(snapshot.items)
+    ? snapshot.items.map(normalizeSkillEntryShape).filter(Boolean)
+        .filter((item) => item.isCollection || isEligibleSkillPath(item.path))
+    : [];
+
+  const expectedCollectionSlug = buildRepositoryCollectionEntry({
+    repository,
+    branch: snapshot.branch ?? snapshot.defaultBranch ?? items[0]?.branch ?? "main",
+    metadata,
+    skillPaths: normalizeSkillPathsFromItems(items, repository),
+  }).slug;
+  const branch = snapshot.branch ?? snapshot.defaultBranch ?? items[0]?.branch ?? "main";
+  const skillPaths = normalizeSkillPathsFromItems(items, repository);
+  const nonCollectionItems = items.filter((item) => !item.isCollection);
+
+  if (!shouldIncludeRepositoryCollection(repository, skillPaths)) {
+    return {
+      ...snapshot,
+      branch,
+      defaultBranch: snapshot.defaultBranch ?? branch,
+      items: nonCollectionItems,
+      itemCount: nonCollectionItems.length,
+      publicSkillCount: skillPaths.length,
+    };
+  }
+
+  if (
+    hasRepositoryCollectionEntry(items, repository) &&
+    items.some((item) => item?.isCollection === true && item.slug === expectedCollectionSlug)
+  ) {
+    return {
+      ...snapshot,
+      items,
+      itemCount: typeof snapshot.itemCount === "number" ? snapshot.itemCount : items.length,
+    };
+  }
+
+  const collectionEntry = buildRepositoryCollectionEntry({
+    repository,
+    branch,
+    metadata,
+    skillPaths,
+  });
+  const nextItems = [collectionEntry, ...nonCollectionItems];
+
+  return {
+    ...snapshot,
+    branch,
+    defaultBranch: snapshot.defaultBranch ?? branch,
+    items: nextItems,
+    itemCount: nextItems.length,
+    publicSkillCount: skillPaths.length,
   };
 }
 
@@ -175,7 +497,7 @@ function normalizeRepositorySnapshot(repository, snapshot, diagnosticsMap, items
     : itemsMap.get(repository) ?? [];
   const diagnostics = diagnosticsMap.get(repository) ?? null;
 
-  return {
+  return ensureRepositoryCollectionInSnapshot(repository, {
     repository,
     branch:
       typeof snapshot?.branch === "string" && snapshot.branch
@@ -202,7 +524,7 @@ function normalizeRepositorySnapshot(repository, snapshot, diagnosticsMap, items
           : items.length > 0
             ? "cached"
             : "empty",
-  };
+  });
 }
 
 function getRepositoryCacheFilePath(repository) {
@@ -468,29 +790,18 @@ function fetchRepositoryTreeViaGit(repository) {
   }
 }
 
-function buildRepositorySnapshotFromGitFallback(repository) {
+async function buildRepositorySnapshotFromGitFallback(repository) {
   const gitTree = fetchRepositoryTreeViaGit(repository);
-  const items = gitTree.skillPaths
-    .map((skillPath) =>
-      buildSkillEntry({
-        repository,
-        branch: gitTree.defaultBranch,
-        skillPath,
-      }),
-    )
-    .filter(Boolean);
 
-  return {
+  return await buildRepositorySnapshot({
     repository,
     branch: gitTree.defaultBranch,
     defaultBranch: gitTree.defaultBranch,
     pushedAt: gitTree.pushedAt,
-    scannedAt: new Date().toISOString(),
     treeSha: gitTree.treeSha,
-    items,
-    itemCount: items.length,
+    skillPaths: gitTree.skillPaths,
     lastStatus: "scanned-via-git-fallback",
-  };
+  });
 }
 
 async function fetchRepositoryTreeViaArchive(repository) {
@@ -557,8 +868,25 @@ const highStarRepositories = (() => {
     return [];
   }
 })();
+const coverageAuditRepositories = (() => {
+  try {
+    const payload = readJson(coverageAuditPath);
+    const items = [
+      ...(Array.isArray(payload.covered) ? payload.covered : []),
+      ...(Array.isArray(payload.missing) ? payload.missing : []),
+    ];
 
-const highPriorityRepositories = [...new Set(highStarRepositories)];
+    return normalizeRepositoryList(
+      items
+        .sort((a, b) => (b?.stars ?? 0) - (a?.stars ?? 0))
+        .map((item) => item?.repository),
+    );
+  } catch {
+    return [];
+  }
+})();
+
+const highPriorityRepositories = normalizeRepositoryList([...highStarRepositories, ...coverageAuditRepositories]);
 const seedRepositories = repositories.filter((repository) => !highPriorityRepositories.includes(repository));
 const repositoriesToScan = [...highPriorityRepositories, ...seedRepositories].slice(
   0,
@@ -597,17 +925,21 @@ for (const repository of repositoriesToScan) {
     committedCache,
   );
   const freshSnapshot =
-    existingSnapshot && hasUsableSnapshot(existingSnapshot) && isRecentlyScanned(existingSnapshot)
+    existingSnapshot &&
+    hasUsableSnapshot(existingSnapshot) &&
+    isRecentlyScanned(existingSnapshot)
       ? existingSnapshot
-      : committedSnapshot && hasUsableSnapshot(committedSnapshot) && isRecentlyScanned(committedSnapshot)
+      : committedSnapshot &&
+          hasUsableSnapshot(committedSnapshot) &&
+          isRecentlyScanned(committedSnapshot)
         ? committedSnapshot
         : null;
 
   if (freshSnapshot) {
-    repositorySnapshots[repository] = {
+    repositorySnapshots[repository] = ensureRepositoryCollectionInSnapshot(repository, {
       ...freshSnapshot,
       lastStatus: "cache-fresh",
-    };
+    });
     repositoryDiagnostics.push({
       repository,
       status: "cache-fresh",
@@ -622,7 +954,7 @@ for (const repository of repositoriesToScan) {
   if (scanInterruptedByRateLimit) {
     if (!fallbackSnapshot && highStarRepositorySet.has(repository)) {
       try {
-        const snapshot = buildRepositorySnapshotFromGitFallback(repository);
+        const snapshot = await buildRepositorySnapshotFromGitFallback(repository);
         repositorySnapshots[repository] = snapshot;
         repositoryDiagnostics.push({
           repository,
@@ -636,32 +968,20 @@ for (const repository of repositoriesToScan) {
       } catch (gitError) {
         try {
           const archiveTree = await fetchRepositoryTreeViaArchive(repository);
-          const items = archiveTree.skillPaths
-            .map((skillPath) =>
-              buildSkillEntry({
-                repository,
-                branch: archiveTree.defaultBranch,
-                skillPath,
-              }),
-            )
-            .filter(Boolean);
-
-          repositorySnapshots[repository] = {
+          repositorySnapshots[repository] = await buildRepositorySnapshot({
             repository,
             branch: archiveTree.defaultBranch,
             defaultBranch: archiveTree.defaultBranch,
             pushedAt: archiveTree.pushedAt,
-            scannedAt: new Date().toISOString(),
             treeSha: archiveTree.treeSha,
-            items,
-            itemCount: items.length,
+            skillPaths: archiveTree.skillPaths,
             lastStatus: "scanned-via-archive-fallback",
-          };
+          });
           repositoryDiagnostics.push({
             repository,
             status: "scanned-via-archive-fallback",
             branch: archiveTree.defaultBranch,
-            skillsFound: items.length,
+            skillsFound: repositorySnapshots[repository].publicSkillCount ?? 0,
             reason: gitError instanceof Error ? gitError.message : "git-fallback-failed-after-rate-limit",
           });
           summary.repositoriesScannedViaGitFallback += 1;
@@ -701,7 +1021,7 @@ for (const repository of repositoriesToScan) {
       itemCount: 0,
       lastStatus: "skipped-after-rate-limit",
     };
-    repositorySnapshots[repository] = snapshot;
+    repositorySnapshots[repository] = ensureRepositoryCollectionInSnapshot(repository, snapshot);
     repositoryDiagnostics.push({
       repository,
       status: snapshot.items.length > 0 ? "preserved-cache" : "skipped",
@@ -745,7 +1065,7 @@ for (const repository of repositoriesToScan) {
         itemCount: 0,
         lastStatus: "missing-default-branch",
       };
-      repositorySnapshots[repository] = snapshot;
+      repositorySnapshots[repository] = ensureRepositoryCollectionInSnapshot(repository, snapshot);
       repositoryDiagnostics.push({
         repository,
         status: snapshot.items.length > 0 ? "preserved-cache" : "skipped",
@@ -780,14 +1100,14 @@ for (const repository of repositoriesToScan) {
           : null;
 
     if (reusableSnapshot) {
-      repositorySnapshots[repository] = {
+      repositorySnapshots[repository] = ensureRepositoryCollectionInSnapshot(repository, {
         ...reusableSnapshot,
         branch: defaultBranch,
         defaultBranch,
         pushedAt,
         scannedAt: new Date().toISOString(),
         lastStatus: "reused-unchanged",
-      };
+      }, metadata);
       repositoryDiagnostics.push({
         repository,
         status: "reused-unchanged",
@@ -807,34 +1127,24 @@ for (const repository of repositoriesToScan) {
       .filter(isEligibleSkillPath)
       .sort((a, b) => a.localeCompare(b));
 
-    const items = skillPaths
-      .map((skillPath) =>
-        buildSkillEntry({
-          repository,
-          branch: defaultBranch,
-          skillPath,
-        }),
-      )
-      .filter(Boolean);
-
-    repositorySnapshots[repository] = {
+    repositorySnapshots[repository] = await buildRepositorySnapshot({
       repository,
       branch: defaultBranch,
       defaultBranch,
       pushedAt,
-      scannedAt: new Date().toISOString(),
       treeSha:
         typeof treePayload?.sha === "string" && treePayload.sha ? treePayload.sha : treeSha,
-      items,
-      itemCount: items.length,
+      skillPaths,
+      metadata,
+      existingItems: reusableSnapshot?.items ?? fallbackSnapshot?.items ?? [],
       lastStatus: "scanned",
-    };
+    });
     repositoryDiagnostics.push({
       repository,
       status: "scanned",
       branch: defaultBranch,
       pushedAt,
-      skillsFound: items.length,
+      skillsFound: repositorySnapshots[repository].publicSkillCount ?? 0,
     });
     summary.repositoriesScannedFresh += 1;
   } catch (error) {
@@ -846,7 +1156,7 @@ for (const repository of repositoriesToScan) {
 
     if (canTryGitFallback) {
       try {
-        const snapshot = buildRepositorySnapshotFromGitFallback(repository);
+        const snapshot = await buildRepositorySnapshotFromGitFallback(repository);
         repositorySnapshots[repository] = snapshot;
         repositoryDiagnostics.push({
           repository,
@@ -860,32 +1170,20 @@ for (const repository of repositoriesToScan) {
       } catch (gitError) {
         try {
           const archiveTree = await fetchRepositoryTreeViaArchive(repository);
-          const items = archiveTree.skillPaths
-            .map((skillPath) =>
-              buildSkillEntry({
-                repository,
-                branch: archiveTree.defaultBranch,
-                skillPath,
-              }),
-            )
-            .filter(Boolean);
-
-          repositorySnapshots[repository] = {
+          repositorySnapshots[repository] = await buildRepositorySnapshot({
             repository,
             branch: archiveTree.defaultBranch,
             defaultBranch: archiveTree.defaultBranch,
             pushedAt: archiveTree.pushedAt,
-            scannedAt: new Date().toISOString(),
             treeSha: archiveTree.treeSha,
-            items,
-            itemCount: items.length,
+            skillPaths: archiveTree.skillPaths,
             lastStatus: "scanned-via-archive-fallback",
-          };
+          });
           repositoryDiagnostics.push({
             repository,
             status: "scanned-via-archive-fallback",
             branch: archiveTree.defaultBranch,
-            skillsFound: items.length,
+            skillsFound: repositorySnapshots[repository].publicSkillCount ?? 0,
             reason: gitError instanceof Error ? gitError.message : "git-fallback-failed",
           });
           summary.repositoriesScannedViaGitFallback += 1;
@@ -913,7 +1211,7 @@ for (const repository of repositoriesToScan) {
       summary.repositoriesRateLimited += 1;
     }
 
-    repositorySnapshots[repository] = snapshot;
+    repositorySnapshots[repository] = ensureRepositoryCollectionInSnapshot(repository, snapshot);
     repositoryDiagnostics.push({
       repository,
       status: snapshot.items.length > 0 ? "preserved-cache" : "failed",

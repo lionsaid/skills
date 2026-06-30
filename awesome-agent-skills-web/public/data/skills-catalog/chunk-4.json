@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-30T00:38:45.567Z",
+  "generatedAt": "2026-06-30T04:04:15.235Z",
   "chunkIndex": 4,
-  "totalSkills": 5100,
+  "totalSkills": 8512,
   "skills": [
     {
       "slug": "testmu-ai-karma-skill",
@@ -1323,17 +1323,21 @@
         "xquik-dev"
       ],
       "personas": [
+        "engineer",
         "marketer"
       ],
       "jobs": [
         "api-integration",
         "campaign-planning",
         "content-production",
+        "deployment-ops",
         "development-workflows",
         "landing-pages",
         "reporting",
         "research-synthesis",
-        "ui-ux-design"
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
       ],
       "sourceType": "github-readme",
       "trustLevel": "curated",
@@ -1775,15 +1779,20 @@
         "publisher-namespaced"
       ],
       "personas": [
-        "data-analyst"
+        "data-analyst",
+        "engineer"
       ],
       "jobs": [
+        "api-integration",
         "dashboarding",
         "data-extraction",
+        "deployment-ops",
+        "development-workflows",
         "document-authoring",
         "reporting",
         "spreadsheet-cleaning",
         "sql-analysis",
+        "testing-debugging",
         "visual-assets",
         "workflow-automation"
       ],
@@ -1815,12 +1824,23 @@
         "zarazhangrui"
       ],
       "personas": [
-        "designer"
+        "designer",
+        "engineer",
+        "founder",
+        "sales"
       ],
       "jobs": [
+        "api-integration",
+        "deployment-ops",
         "design-critique",
         "development-workflows",
+        "document-authoring",
+        "landing-pages",
+        "planning-roadmapping",
         "presentation-building",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
         "ui-ux-design",
         "visual-assets",
         "workflow-automation"
@@ -1852,8 +1872,16 @@
         "productivity-and-collaboration",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "pm"
+      ],
+      "jobs": [
+        "planning-roadmapping",
+        "prd-specs",
+        "reporting",
+        "research-synthesis",
+        "workflow-automation"
+      ],
       "sourceType": "github-readme",
       "trustLevel": "curated",
       "riskFlags": [
@@ -1920,12 +1948,17 @@
         "publisher-namespaced"
       ],
       "personas": [
-        "engineer"
+        "engineer",
+        "support"
       ],
       "jobs": [
         "api-integration",
+        "data-extraction",
         "deployment-ops",
         "development-workflows",
+        "document-authoring",
+        "prd-specs",
+        "reporting",
         "testing-debugging",
         "workflow-automation"
       ],
@@ -1956,9 +1989,22 @@
         "productivity-and-collaboration",
         "publisher-namespaced"
       ],
-      "personas": [],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
       "jobs": [
-        "document-authoring"
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "workflow-automation"
       ],
       "sourceType": "github-readme",
       "trustLevel": "curated",
@@ -2012,8 +2058,26 @@
         "productivity-and-collaboration",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "designer",
+        "engineer",
+        "pm"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "design-critique",
+        "development-workflows",
+        "planning-roadmapping",
+        "prd-specs",
+        "presentation-building",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
       "sourceType": "github-readme",
       "trustLevel": "curated",
       "riskFlags": [
@@ -2041,9 +2105,22 @@
         "productivity-and-collaboration",
         "publisher-namespaced"
       ],
-      "personas": [],
+      "personas": [
+        "engineer",
+        "pm"
+      ],
       "jobs": [
-        "document-authoring"
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "planning-roadmapping",
+        "prd-specs",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
       ],
       "sourceType": "github-readme",
       "trustLevel": "curated",
@@ -2101,8 +2178,16 @@
         "productivity-and-collaboration",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
       "sourceType": "github-readme",
       "trustLevel": "curated",
       "riskFlags": [
@@ -2155,8 +2240,16 @@
         "productivity-and-collaboration",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "support"
+      ],
+      "jobs": [
+        "data-extraction",
+        "document-authoring",
+        "reporting",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
       "sourceType": "github-readme",
       "trustLevel": "curated",
       "riskFlags": [
@@ -2243,12 +2336,18 @@
         "publisher-namespaced"
       ],
       "personas": [
+        "data-analyst",
         "engineer"
       ],
       "jobs": [
         "api-integration",
+        "dashboarding",
+        "data-extraction",
         "deployment-ops",
         "development-workflows",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
         "testing-debugging",
         "workflow-automation"
       ],
@@ -2305,7 +2404,9 @@
         "wrsmith108"
       ],
       "personas": [],
-      "jobs": [],
+      "jobs": [
+        "workflow-automation"
+      ],
       "sourceType": "github-readme",
       "trustLevel": "curated",
       "riskFlags": [
@@ -2614,17 +2715,27 @@
       ],
       "personas": [
         "data-analyst",
+        "engineer",
+        "marketer",
         "pm"
       ],
       "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
         "dashboarding",
         "data-extraction",
+        "deployment-ops",
+        "design-critique",
+        "development-workflows",
+        "landing-pages",
         "planning-roadmapping",
         "prd-specs",
         "reporting",
         "research-synthesis",
         "spreadsheet-cleaning",
         "sql-analysis",
+        "testing-debugging",
         "workflow-automation"
       ],
       "sourceType": "github-readme",
@@ -2858,6 +2969,7 @@
         "api-integration",
         "deployment-ops",
         "development-workflows",
+        "document-authoring",
         "testing-debugging",
         "workflow-automation"
       ],
@@ -3098,15 +3210,20 @@
       ],
       "personas": [
         "data-analyst",
-        "engineer"
+        "engineer",
+        "marketer"
       ],
       "jobs": [
         "api-integration",
+        "campaign-planning",
+        "content-production",
         "dashboarding",
         "data-extraction",
         "deployment-ops",
         "development-workflows",
+        "landing-pages",
         "reporting",
+        "research-synthesis",
         "spreadsheet-cleaning",
         "sql-analysis",
         "testing-debugging",
@@ -3140,13 +3257,19 @@
         "sanjay3290"
       ],
       "personas": [
+        "data-analyst",
         "engineer"
       ],
       "jobs": [
         "api-integration",
+        "dashboarding",
+        "data-extraction",
         "deployment-ops",
         "development-workflows",
+        "reporting",
         "research-synthesis",
+        "spreadsheet-cleaning",
+        "sql-analysis",
         "testing-debugging",
         "workflow-automation"
       ],
@@ -3211,13 +3334,18 @@
         "publisher-namespaced"
       ],
       "personas": [
+        "designer",
         "engineer"
       ],
       "jobs": [
         "api-integration",
         "deployment-ops",
+        "design-critique",
         "development-workflows",
+        "presentation-building",
         "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
         "workflow-automation"
       ],
       "sourceType": "github-readme",
@@ -3436,6 +3564,7 @@
         "api-integration",
         "deployment-ops",
         "development-workflows",
+        "document-authoring",
         "testing-debugging",
         "workflow-automation"
       ],
@@ -3647,6 +3776,7 @@
         "deployment-ops",
         "development-workflows",
         "testing-debugging",
+        "ui-ux-design",
         "workflow-automation"
       ],
       "sourceType": "github-readme",
@@ -3677,13 +3807,19 @@
         "publisher-namespaced"
       ],
       "personas": [
-        "engineer"
+        "engineer",
+        "pm"
       ],
       "jobs": [
         "api-integration",
         "deployment-ops",
         "development-workflows",
+        "planning-roadmapping",
+        "prd-specs",
+        "reporting",
+        "research-synthesis",
         "testing-debugging",
+        "ui-ux-design",
         "workflow-automation"
       ],
       "sourceType": "github-readme",
@@ -3720,7 +3856,9 @@
         "api-integration",
         "deployment-ops",
         "development-workflows",
+        "prd-specs",
         "testing-debugging",
+        "ui-ux-design",
         "workflow-automation"
       ],
       "sourceType": "github-readme",
@@ -3794,7 +3932,9 @@
         "api-integration",
         "deployment-ops",
         "development-workflows",
+        "research-synthesis",
         "testing-debugging",
+        "ui-ux-design",
         "workflow-automation"
       ],
       "sourceType": "github-readme",
@@ -4352,14 +4492,20 @@
       ],
       "personas": [
         "designer",
-        "engineer"
+        "engineer",
+        "marketer"
       ],
       "jobs": [
         "api-integration",
+        "campaign-planning",
+        "content-production",
         "deployment-ops",
         "design-critique",
         "development-workflows",
+        "landing-pages",
         "presentation-building",
+        "reporting",
+        "research-synthesis",
         "testing-debugging",
         "ui-ux-design",
         "visual-assets",
@@ -4394,13 +4540,19 @@
         "testing"
       ],
       "personas": [
+        "designer",
         "engineer"
       ],
       "jobs": [
         "api-integration",
         "deployment-ops",
+        "design-critique",
         "development-workflows",
+        "document-authoring",
+        "presentation-building",
         "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
         "workflow-automation"
       ],
       "sourceType": "github-readme",
@@ -5344,13 +5496,19 @@
         "publisher-namespaced"
       ],
       "personas": [
-        "engineer"
+        "engineer",
+        "pm"
       ],
       "jobs": [
         "api-integration",
         "deployment-ops",
         "development-workflows",
+        "planning-roadmapping",
+        "prd-specs",
+        "reporting",
+        "research-synthesis",
         "testing-debugging",
+        "ui-ux-design",
         "workflow-automation"
       ],
       "sourceType": "github-readme",
@@ -5525,8 +5683,17 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "prd-specs",
+        "testing-debugging",
+        "workflow-automation"
+      ],
       "sourceType": "github-readme",
       "trustLevel": "curated",
       "riskFlags": [
@@ -5620,8 +5787,20 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "engineer",
+        "founder"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "planning-roadmapping",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
       "sourceType": "github-readme",
       "trustLevel": "curated",
       "riskFlags": [
@@ -5649,8 +5828,16 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
       "sourceType": "github-readme",
       "trustLevel": "curated",
       "riskFlags": [
@@ -5679,11 +5866,17 @@
         "publisher-namespaced"
       ],
       "personas": [
-        "designer"
+        "designer",
+        "engineer"
       ],
       "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "deployment-ops",
         "design-critique",
+        "development-workflows",
         "presentation-building",
+        "testing-debugging",
         "ui-ux-design",
         "visual-assets",
         "workflow-automation"
@@ -5717,14 +5910,20 @@
       ],
       "personas": [
         "designer",
-        "engineer"
+        "engineer",
+        "sales",
+        "support"
       ],
       "jobs": [
         "api-integration",
+        "data-extraction",
         "deployment-ops",
         "design-critique",
         "development-workflows",
+        "document-authoring",
+        "prd-specs",
         "presentation-building",
+        "reporting",
         "testing-debugging",
         "ui-ux-design",
         "visual-assets",
@@ -6983,6 +7182,7 @@
         "api-integration",
         "deployment-ops",
         "development-workflows",
+        "landing-pages",
         "prd-specs",
         "testing-debugging",
         "workflow-automation"
@@ -7100,6 +7300,8 @@
         "api-integration",
         "deployment-ops",
         "development-workflows",
+        "document-authoring",
+        "landing-pages",
         "testing-debugging",
         "workflow-automation"
       ],
@@ -7137,7 +7339,10 @@
         "api-integration",
         "deployment-ops",
         "development-workflows",
+        "document-authoring",
+        "prd-specs",
         "testing-debugging",
+        "ui-ux-design",
         "workflow-automation"
       ],
       "sourceType": "github-readme",
@@ -7167,8 +7372,15 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
+      "personas": [
+        "engineer"
+      ],
       "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "testing-debugging",
         "workflow-automation"
       ],
       "sourceType": "github-readme",
@@ -7198,9 +7410,14 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
+      "personas": [
+        "engineer"
+      ],
       "jobs": [
         "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
         "ui-ux-design",
         "workflow-automation"
       ],
@@ -7231,8 +7448,15 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
+      "personas": [
+        "engineer"
+      ],
       "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "ui-ux-design",
         "workflow-automation"
       ],
       "sourceType": "github-readme",
@@ -7264,6 +7488,7 @@
       ],
       "personas": [],
       "jobs": [
+        "ui-ux-design",
         "workflow-automation"
       ],
       "sourceType": "github-readme",
@@ -7293,8 +7518,20 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
+      "personas": [
+        "designer",
+        "engineer"
+      ],
       "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "design-critique",
+        "development-workflows",
+        "planning-roadmapping",
+        "presentation-building",
+        "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
         "workflow-automation"
       ],
       "sourceType": "github-readme",

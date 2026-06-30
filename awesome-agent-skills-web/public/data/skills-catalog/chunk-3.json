@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-30T00:38:45.567Z",
+  "generatedAt": "2026-06-30T04:04:15.235Z",
   "chunkIndex": 3,
-  "totalSkills": 5100,
+  "totalSkills": 8512,
   "skills": [
     {
       "slug": "garrytan-qa-only",
@@ -842,14 +842,24 @@
         "skills-by-resend"
       ],
       "personas": [
-        "engineer"
+        "designer",
+        "engineer",
+        "marketer"
       ],
       "jobs": [
         "api-integration",
+        "campaign-planning",
+        "content-production",
         "deployment-ops",
+        "design-critique",
         "development-workflows",
+        "landing-pages",
+        "presentation-building",
+        "reporting",
+        "research-synthesis",
         "testing-debugging",
         "ui-ux-design",
+        "visual-assets",
         "workflow-automation"
       ],
       "sourceType": "github-readme",
@@ -883,14 +893,20 @@
       ],
       "personas": [
         "designer",
-        "engineer"
+        "engineer",
+        "marketer"
       ],
       "jobs": [
         "api-integration",
+        "campaign-planning",
+        "content-production",
         "deployment-ops",
         "design-critique",
         "development-workflows",
+        "landing-pages",
         "presentation-building",
+        "reporting",
+        "research-synthesis",
         "testing-debugging",
         "ui-ux-design",
         "visual-assets",
@@ -926,13 +942,23 @@
         "skills-by-resend"
       ],
       "personas": [
-        "engineer"
+        "engineer",
+        "marketer",
+        "support"
       ],
       "jobs": [
         "api-integration",
+        "campaign-planning",
+        "content-production",
+        "data-extraction",
         "deployment-ops",
         "development-workflows",
+        "document-authoring",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
         "testing-debugging",
+        "ui-ux-design",
         "workflow-automation"
       ],
       "sourceType": "github-readme",
@@ -996,6 +1022,7 @@
       "kind": "official",
       "tags": [
         "addyosmani",
+        "github-discovery",
         "namespaced",
         "official-skills",
         "publisher-namespaced",
@@ -1019,7 +1046,10 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
       "creatorHandle": "addyosmani",
       "hasPublisherLogo": true,
@@ -1036,6 +1066,7 @@
       "kind": "official",
       "tags": [
         "addyosmani",
+        "github-discovery",
         "namespaced",
         "official-skills",
         "publisher-namespaced",
@@ -1059,7 +1090,10 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
       "creatorHandle": "addyosmani",
       "hasPublisherLogo": true,
@@ -1076,6 +1110,7 @@
       "kind": "official",
       "tags": [
         "addyosmani",
+        "github-discovery",
         "namespaced",
         "official-skills",
         "publisher-namespaced",
@@ -1089,12 +1124,16 @@
         "deployment-ops",
         "development-workflows",
         "prd-specs",
+        "research-synthesis",
         "testing-debugging",
         "workflow-automation"
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
       "creatorHandle": "addyosmani",
       "hasPublisherLogo": true,
@@ -1111,6 +1150,7 @@
       "kind": "official",
       "tags": [
         "addyosmani",
+        "github-discovery",
         "namespaced",
         "official-skills",
         "publisher-namespaced",
@@ -1128,11 +1168,15 @@
         "document-authoring",
         "reporting",
         "testing-debugging",
+        "ui-ux-design",
         "workflow-automation"
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
       "creatorHandle": "addyosmani",
       "hasPublisherLogo": true,
@@ -1149,6 +1193,7 @@
       "kind": "official",
       "tags": [
         "addyosmani",
+        "github-discovery",
         "namespaced",
         "official-skills",
         "publisher-namespaced",
@@ -1173,7 +1218,10 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
       "creatorHandle": "addyosmani",
       "hasPublisherLogo": true,
@@ -1190,6 +1238,7 @@
       "kind": "official",
       "tags": [
         "addyosmani",
+        "github-discovery",
         "namespaced",
         "official-skills",
         "publisher-namespaced",
@@ -1207,7 +1256,10 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
       "creatorHandle": "addyosmani",
       "hasPublisherLogo": true,
@@ -3360,14 +3412,22 @@
         "publisher-namespaced"
       ],
       "personas": [
+        "data-analyst",
         "engineer"
       ],
       "jobs": [
         "api-integration",
+        "campaign-planning",
+        "dashboarding",
+        "data-extraction",
         "deployment-ops",
         "development-workflows",
+        "reporting",
         "research-synthesis",
+        "spreadsheet-cleaning",
+        "sql-analysis",
         "testing-debugging",
+        "ui-ux-design",
         "workflow-automation"
       ],
       "sourceType": "github-readme",
@@ -3397,9 +3457,22 @@
         "nvidia",
         "publisher-namespaced"
       ],
-      "personas": [],
+      "personas": [
+        "engineer",
+        "marketer"
+      ],
       "jobs": [
-        "ui-ux-design"
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
       ],
       "sourceType": "github-readme",
       "trustLevel": "curated",
@@ -3583,8 +3656,16 @@
         "nvidia",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
       "sourceType": "github-readme",
       "trustLevel": "curated",
       "riskFlags": [
@@ -3744,9 +3825,15 @@
         "nvidia",
         "publisher-namespaced"
       ],
-      "personas": [],
+      "personas": [
+        "engineer"
+      ],
       "jobs": [
-        "development-workflows"
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
       ],
       "sourceType": "github-readme",
       "trustLevel": "curated",
@@ -5226,8 +5313,16 @@
         "publisher-namespaced",
         "tilegym"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
       "sourceType": "github-readme",
       "trustLevel": "curated",
       "riskFlags": [
@@ -5255,9 +5350,21 @@
         "publisher-namespaced",
         "tilegym"
       ],
-      "personas": [],
+      "personas": [
+        "engineer",
+        "founder"
+      ],
       "jobs": [
-        "ui-ux-design"
+        "api-integration",
+        "campaign-planning",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "planning-roadmapping",
+        "research-synthesis",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
       ],
       "sourceType": "github-readme",
       "trustLevel": "curated",
@@ -5286,8 +5393,22 @@
         "publisher-namespaced",
         "tilegym"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "engineer",
+        "founder"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "planning-roadmapping",
+        "research-synthesis",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
       "sourceType": "github-readme",
       "trustLevel": "curated",
       "riskFlags": [
@@ -5316,13 +5437,23 @@
         "tilegym"
       ],
       "personas": [
-        "engineer"
+        "designer",
+        "engineer",
+        "founder"
       ],
       "jobs": [
         "api-integration",
+        "campaign-planning",
         "deployment-ops",
+        "design-critique",
         "development-workflows",
+        "landing-pages",
+        "planning-roadmapping",
+        "presentation-building",
+        "research-synthesis",
         "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
         "workflow-automation"
       ],
       "sourceType": "github-readme",
@@ -5382,14 +5513,19 @@
         "tilegym"
       ],
       "personas": [
-        "data-analyst"
+        "data-analyst",
+        "engineer"
       ],
       "jobs": [
+        "api-integration",
         "dashboarding",
         "data-extraction",
+        "deployment-ops",
+        "development-workflows",
         "reporting",
         "spreadsheet-cleaning",
         "sql-analysis",
+        "testing-debugging",
         "workflow-automation"
       ],
       "sourceType": "github-readme",
@@ -5427,6 +5563,7 @@
         "deployment-ops",
         "development-workflows",
         "testing-debugging",
+        "ui-ux-design",
         "workflow-automation"
       ],
       "sourceType": "github-readme",
@@ -5739,8 +5876,16 @@
         "nvidia",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
       "sourceType": "github-readme",
       "trustLevel": "curated",
       "riskFlags": [
@@ -5769,13 +5914,18 @@
         "publisher-namespaced"
       ],
       "personas": [
+        "engineer",
         "pm"
       ],
       "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
         "planning-roadmapping",
         "prd-specs",
         "reporting",
         "research-synthesis",
+        "testing-debugging",
         "ui-ux-design",
         "workflow-automation"
       ],

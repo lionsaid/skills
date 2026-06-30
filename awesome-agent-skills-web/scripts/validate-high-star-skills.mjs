@@ -17,6 +17,48 @@ function normalizePath(filePath) {
   return typeof filePath === "string" ? filePath.replace(/\\/g, "/") : null;
 }
 
+function normalizeRepository(repository) {
+  return typeof repository === "string" ? repository.toLowerCase() : null;
+}
+
+function isEligibleSkillPath(skillPath) {
+  if (typeof skillPath !== "string" || !/(^|\/)SKILL\.md$/i.test(skillPath)) {
+    return false;
+  }
+
+  const segments = skillPath.split("/").filter(Boolean);
+  const directorySegments = segments.slice(0, -1);
+
+  if (directorySegments.some((segment) => segment.startsWith("."))) {
+    return false;
+  }
+
+  if (directorySegments.some((segment) => /^(docs?|examples?|tests?|fixtures?|external_plugins?)$/i.test(segment))) {
+    return false;
+  }
+
+  return /^SKILL\.md$/i.test(skillPath) || /^skills\/[^/]+\/SKILL\.md$/i.test(skillPath);
+}
+
+function getNormalizedSkillName(repository, skillPath) {
+  if (/^SKILL\.md$/i.test(skillPath)) {
+    return repository.split("/")[1] ?? repository;
+  }
+
+  const match = skillPath.match(/^skills\/([^/]+)\/SKILL\.md$/i);
+  return match?.[1] ?? null;
+}
+
+function shouldIncludeRepositoryCollection(repository, paths) {
+  const publicPaths = [...paths].filter(isEligibleSkillPath);
+  if (publicPaths.length !== 1) {
+    return true;
+  }
+
+  const repoName = repository.split("/")[1] ?? repository;
+  return getNormalizedSkillName(repository, publicPaths[0]) !== repoName;
+}
+
 function main() {
   const highStarPayload = readJson(highStarPath);
   const githubExpansionPayload = readJson(githubExpansionPath);
@@ -33,46 +75,63 @@ function main() {
       : {};
   const skills = Array.isArray(skillsPayload.skills) ? skillsPayload.skills : [];
   const finalSkillsByRepository = new Map();
+  const finalCollectionRepositories = new Set();
 
   for (const skill of skills) {
     if (typeof skill?.repository !== "string" || typeof skill?.discoveryPath !== "string") {
       continue;
     }
 
-    const key = skill.repository;
+    const key = normalizeRepository(skill.repository);
+    if (!key) {
+      continue;
+    }
+
+    if (skill.discoveryPath === "README.md") {
+      finalCollectionRepositories.add(key);
+    }
+
     const existing = finalSkillsByRepository.get(key) ?? new Set();
     existing.add(normalizePath(skill.discoveryPath));
     finalSkillsByRepository.set(key, existing);
   }
 
   const highStarRepositories = new Set(
-    repositories.map((repo) => repo?.repository).filter(Boolean),
+    repositories.map((repo) => normalizeRepository(repo?.repository)).filter(Boolean),
   );
-  const expectedGithubSkills = githubExpansionItems.filter((item) =>
-    highStarRepositories.has(item?.repository),
+  const expectedGithubItems = githubExpansionItems.filter((item) =>
+    highStarRepositories.has(normalizeRepository(item?.repository)),
+  );
+  const expectedGithubSkills = expectedGithubItems.filter((item) =>
+    isEligibleSkillPath(item?.path),
   );
   const expectedPathsByRepository = new Map();
 
   for (const item of expectedGithubSkills) {
-    if (typeof item?.repository !== "string" || typeof item?.path !== "string") {
+    const repositoryKey = normalizeRepository(item?.repository);
+    if (!repositoryKey || typeof item?.path !== "string") {
       continue;
     }
 
-    const existing = expectedPathsByRepository.get(item.repository) ?? new Set();
+    const existing = expectedPathsByRepository.get(repositoryKey) ?? new Set();
     existing.add(normalizePath(item.path));
-    expectedPathsByRepository.set(item.repository, existing);
+    expectedPathsByRepository.set(repositoryKey, existing);
   }
 
   const failures = [];
 
-  if (repositories.length > 0 && expectedGithubSkills.length === 0) {
+  if (repositories.length > 0 && expectedGithubItems.length === 0) {
     failures.push(
-      "GitHub repo expansion produced 0 SKILL.md files for 100+ star repositories. Refresh the expansion cache before validating.",
+      "GitHub repo expansion produced 0 items for 100+ star repositories. Refresh the expansion cache before validating.",
     );
   }
 
   for (const repository of highStarRepositories) {
-    const snapshot = githubExpansionRepositories[repository];
+    const snapshot =
+      githubExpansionRepositories[repository] ??
+      Object.entries(githubExpansionRepositories).find(
+        ([snapshotRepository]) => normalizeRepository(snapshotRepository) === repository,
+      )?.[1];
     const expectedPaths = expectedPathsByRepository.get(repository) ?? new Set();
 
     if (!snapshot || !Array.isArray(snapshot.items)) {
@@ -92,6 +151,8 @@ function main() {
         "cache-fresh",
         "recovered",
         "fresh",
+        "scanned-via-git-fallback",
+        "scanned-via-archive-fallback",
       ].includes(snapshot.lastStatus)
     ) {
       failures.push(
@@ -100,11 +161,24 @@ function main() {
       continue;
     }
 
+    const requiresCollection = shouldIncludeRepositoryCollection(repository, expectedPaths);
+
     if (expectedPaths.size === 0) {
+      if (!finalCollectionRepositories.has(repository)) {
+        failures.push(
+          `${repository} is missing its repository collection entry in final skills.generated.json.`,
+        );
+      }
       continue;
     }
 
     const finalPaths = finalSkillsByRepository.get(repository) ?? new Set();
+    if (requiresCollection && !finalPaths.has("README.md")) {
+      failures.push(
+        `${repository} is missing its repository collection entry in final skills.generated.json.`,
+      );
+    }
+
     for (const expectedPath of expectedPaths) {
       if (!finalPaths.has(expectedPath)) {
         failures.push(
@@ -119,7 +193,7 @@ function main() {
       continue;
     }
 
-    const finalPaths = finalSkillsByRepository.get(item.repository) ?? new Set();
+    const finalPaths = finalSkillsByRepository.get(normalizeRepository(item.repository)) ?? new Set();
     if (!finalPaths.has(normalizePath(item.path))) {
       failures.push(
         `${item.repository} is missing skill ${item.slug} from ${item.path} in final skills data.`,
@@ -137,7 +211,7 @@ function main() {
   }
 
   console.log(
-    `High-star skill validation passed for ${expectedGithubSkills.length} SKILL.md files across ${repositories.length} repositories against ${skills.length} skills.`,
+    `High-star skill validation passed for ${repositories.length} repositories and ${expectedGithubSkills.length} public SKILL.md files against ${skills.length} skills.`,
   );
 }
 

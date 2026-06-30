@@ -9,10 +9,26 @@
     {
       "repository": "hqhq1025/skill-optimizer",
       "branch": "main",
+      "skillName": "skill-optimizer",
+      "path": "README.md",
+      "url": "https://github.com/hqhq1025/skill-optimizer",
+      "description": "Discovered from a public GitHub repository: hqhq1025/skill-optimizer",
+      "slug": "hqhq1025-skill-optimizer-collection",
+      "isCollection": true,
+      "stars": null,
+      "skillPaths": [
+        "skills/skill-generalizer/SKILL.md",
+        "skills/skill-miner/SKILL.md",
+        "skills/skill-personalizer/SKILL.md"
+      ]
+    },
+    {
+      "repository": "hqhq1025/skill-optimizer",
+      "branch": "main",
       "skillName": "skill-generalizer",
       "path": "skills/skill-generalizer/SKILL.md",
       "url": "https://github.com/hqhq1025/skill-optimizer/blob/main/skills/skill-generalizer/SKILL.md",
-      "description": "Discovered from a public GitHub repository: hqhq1025/skill-optimizer",
+      "description": "Use when turning local, private, or personal Agent Skills into publishable skills for GitHub, marketplaces, teams, or public sharing, especially when private paths, personal habits, credentials, internal hosts, or user-specific context must be removed.",
       "slug": "hqhq1025-skill-generalizer"
     },
     {
@@ -21,7 +37,7 @@
       "skillName": "skill-miner",
       "path": "skills/skill-miner/SKILL.md",
       "url": "https://github.com/hqhq1025/skill-optimizer/blob/main/skills/skill-miner/SKILL.md",
-      "description": "Discovered from a public GitHub repository: hqhq1025/skill-optimizer",
+      "description": "Use when mining coding-agent session history, archived transcripts, memories, or repeated local work to discover recurring workflows that should become new Agent Skills.",
       "slug": "hqhq1025-skill-miner"
     },
     {
@@ -30,10 +46,10 @@
       "skillName": "skill-personalizer",
       "path": "skills/skill-personalizer/SKILL.md",
       "url": "https://github.com/hqhq1025/skill-optimizer/blob/main/skills/skill-personalizer/SKILL.md",
-      "description": "Discovered from a public GitHub repository: hqhq1025/skill-optimizer",
+      "description": "Use when auditing or adapting newly created, downloaded, forked, installed, or community Agent Skills to the user's tools, habits, directories, session history, and preferred workflows, especially when triggers feel wrong, noisy, or too generic.",
       "slug": "hqhq1025-skill-personalizer"
     }
   ],
-  "itemCount": 3,
-  "lastStatus": "reused-unchanged"
+  "itemCount": 4,
+  "lastStatus": "cache-fresh"
 }

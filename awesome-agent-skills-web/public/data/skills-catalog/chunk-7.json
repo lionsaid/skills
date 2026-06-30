@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-30T00:38:45.567Z",
+  "generatedAt": "2026-06-30T04:04:15.235Z",
   "chunkIndex": 7,
-  "totalSkills": 5100,
+  "totalSkills": 8512,
   "skills": [
     {
       "slug": "ivangdavila-skill-builder",
@@ -3883,16 +3883,27 @@
       "kind": "community",
       "tags": [
         "community-marketplace",
+        "github-discovery",
         "namespaced",
         "publisher-namespaced",
         "tanweai"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
       "sourceType": "marketplace",
       "trustLevel": "untrusted",
       "riskFlags": [
         "community-marketplace",
+        "github-discovery",
         "requires-security-review"
       ],
       "creatorAvatarUrl": "https://github.com/tanweai.png?size=88",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T09:08:40.315Z",
+  "generatedAt": "2026-06-30T04:04:17.294Z",
   "roles": [
     {
       "role": "data-analyst",
@@ -445,13 +445,20 @@
           "sourceType": "github-readme",
           "trustLevel": "curated",
           "jobs": [
+            "api-integration",
+            "deployment-ops",
+            "development-workflows",
+            "landing-pages",
             "planning-roadmapping",
             "prd-specs",
             "reporting",
             "research-synthesis",
+            "testing-debugging",
             "workflow-automation"
           ],
           "personas": [
+            "engineer",
+            "founder",
             "pm"
           ]
         },
@@ -471,6 +478,7 @@
             "reporting",
             "research-synthesis",
             "testing-debugging",
+            "ui-ux-design",
             "workflow-automation"
           ],
           "personas": [
@@ -1187,18 +1195,17 @@
           ]
         },
         {
-          "slug": "ivangdavila-devops",
-          "name": "ivangdavila/devops",
-          "publisher": "ivangdavila",
-          "publisherSlug": "ivangdavila",
-          "sourceType": "marketplace",
+          "slug": "sickn33-devops-deploy",
+          "name": "sickn33/devops-deploy",
+          "publisher": "sickn33",
+          "publisherSlug": "sickn33",
+          "sourceType": "github-discovery",
           "trustLevel": "untrusted",
           "jobs": [
             "api-integration",
             "deployment-ops",
             "development-workflows",
             "testing-debugging",
-            "ui-ux-design",
             "workflow-automation"
           ],
           "personas": [
@@ -1590,20 +1597,25 @@
           ]
         },
         {
-          "slug": "eronred-app-launch",
-          "name": "Eronred/app-launch",
-          "publisher": "Eronred",
-          "publisherSlug": "eronred",
+          "slug": "addyosmani-shipping-and-launch",
+          "name": "addyosmani/shipping-and-launch",
+          "publisher": "addyosmani",
+          "publisherSlug": "addyosmani",
           "sourceType": "github-discovery",
           "trustLevel": "untrusted",
           "jobs": [
+            "api-integration",
             "campaign-planning",
+            "deployment-ops",
+            "development-workflows",
             "landing-pages",
             "planning-roadmapping",
             "research-synthesis",
+            "testing-debugging",
             "workflow-automation"
           ],
           "personas": [
+            "engineer",
             "founder"
           ]
         }
@@ -1621,17 +1633,28 @@
           "sourceType": "github-readme",
           "trustLevel": "curated",
           "jobs": [
+            "api-integration",
             "campaign-planning",
             "content-production",
+            "dashboarding",
+            "data-extraction",
+            "deployment-ops",
+            "development-workflows",
             "document-authoring",
             "landing-pages",
             "planning-roadmapping",
+            "prd-specs",
             "presentation-building",
             "reporting",
             "research-synthesis",
+            "spreadsheet-cleaning",
+            "sql-analysis",
+            "testing-debugging",
             "workflow-automation"
           ],
           "personas": [
+            "data-analyst",
+            "engineer",
             "founder",
             "marketer",
             "sales"
@@ -2009,10 +2032,10 @@
           ]
         },
         {
-          "slug": "mukul975-performing-ransomware-response",
-          "name": "mukul975/performing-ransomware-response",
-          "publisher": "mukul975",
-          "publisherSlug": "mukul975",
+          "slug": "prompt-security-soul-guardian",
+          "name": "prompt-security/soul-guardian",
+          "publisher": "prompt-security",
+          "publisherSlug": "prompt-security",
           "sourceType": "github-discovery",
           "trustLevel": "untrusted",
           "jobs": [

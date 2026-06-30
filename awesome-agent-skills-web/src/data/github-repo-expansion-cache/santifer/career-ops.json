@@ -9,40 +9,16 @@
     {
       "repository": "santifer/career-ops",
       "branch": "main",
-      "skillName": "plugins/_template",
-      "path": "plugins/_template/skill.md",
-      "url": "https://github.com/santifer/career-ops/blob/main/plugins/_template/skill.md",
-      "description": "Discovered from a public GitHub repository: santifer/career-ops",
-      "slug": "santifer-plugins-template"
-    },
-    {
-      "repository": "santifer/career-ops",
-      "branch": "main",
-      "skillName": "plugins/apify",
-      "path": "plugins/apify/skill.md",
-      "url": "https://github.com/santifer/career-ops/blob/main/plugins/apify/skill.md",
-      "description": "Discovered from a public GitHub repository: santifer/career-ops",
-      "slug": "santifer-plugins-apify"
-    },
-    {
-      "repository": "santifer/career-ops",
-      "branch": "main",
-      "skillName": "plugins/gmail",
-      "path": "plugins/gmail/skill.md",
-      "url": "https://github.com/santifer/career-ops/blob/main/plugins/gmail/skill.md",
-      "description": "Discovered from a public GitHub repository: santifer/career-ops",
-      "slug": "santifer-plugins-gmail"
-    },
-    {
-      "repository": "santifer/career-ops",
-      "branch": "main",
-      "skillName": "plugins/notion",
-      "path": "plugins/notion/skill.md",
-      "url": "https://github.com/santifer/career-ops/blob/main/plugins/notion/skill.md",
-      "description": "Discovered from a public GitHub repository: santifer/career-ops",
-      "slug": "santifer-plugins-notion"
+      "skillName": "career-ops",
+      "path": "README.md",
+      "url": "https://github.com/santifer/career-ops",
+      "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
+      "slug": "santifer-career-ops-collection",
+      "isCollection": true,
+      "stars": null,
+      "skillPaths": []
     }
   ],
-  "itemCount": 4,
-  "lastStatus": "scanned"
+  "itemCount": 1,
+  "lastStatus": "cache-fresh"
 }

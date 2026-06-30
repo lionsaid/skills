@@ -9,10 +9,39 @@
     {
       "repository": "prompt-security/clawsec",
       "branch": "main",
+      "skillName": "clawsec",
+      "path": "README.md",
+      "url": "https://github.com/prompt-security/clawsec",
+      "description": "Discovered from a public GitHub repository: prompt-security/clawsec",
+      "slug": "prompt-security-clawsec-collection",
+      "isCollection": true,
+      "stars": null,
+      "skillPaths": [
+        "skills/claw-release/SKILL.md",
+        "skills/clawsec-clawhub-checker/SKILL.md",
+        "skills/clawsec-feed/SKILL.md",
+        "skills/clawsec-nanoclaw/SKILL.md",
+        "skills/clawsec-scanner/SKILL.md",
+        "skills/clawsec-suite/SKILL.md",
+        "skills/clawtributor/SKILL.md",
+        "skills/hermes-attestation-guardian/SKILL.md",
+        "skills/hermes-traffic-guardian/SKILL.md",
+        "skills/nanoclaw-traffic-guardian/SKILL.md",
+        "skills/openclaw-audit-watchdog/SKILL.md",
+        "skills/openclaw-traffic-guardian/SKILL.md",
+        "skills/picoclaw-security-guardian/SKILL.md",
+        "skills/picoclaw-self-pen-testing/SKILL.md",
+        "skills/picoclaw-traffic-guardian/SKILL.md",
+        "skills/soul-guardian/SKILL.md"
+      ]
+    },
+    {
+      "repository": "prompt-security/clawsec",
+      "branch": "main",
       "skillName": "claw-release",
       "path": "skills/claw-release/SKILL.md",
       "url": "https://github.com/prompt-security/clawsec/blob/main/skills/claw-release/SKILL.md",
-      "description": "Discovered from a public GitHub repository: prompt-security/clawsec",
+      "description": "Release automation for Claw skills and website. Guides through version bumping, tagging, and release verification.",
       "slug": "prompt-security-claw-release"
     },
     {
@@ -21,7 +50,7 @@
       "skillName": "clawsec-clawhub-checker",
       "path": "skills/clawsec-clawhub-checker/SKILL.md",
       "url": "https://github.com/prompt-security/clawsec/blob/main/skills/clawsec-clawhub-checker/SKILL.md",
-      "description": "Discovered from a public GitHub repository: prompt-security/clawsec",
+      "description": "ClawHub reputation checker for clawsec-suite. Adds a standalone reputation gate before guarded skill installation.",
       "slug": "prompt-security-clawsec-clawhub-checker"
     },
     {
@@ -30,7 +59,7 @@
       "skillName": "clawsec-feed",
       "path": "skills/clawsec-feed/SKILL.md",
       "url": "https://github.com/prompt-security/clawsec/blob/main/skills/clawsec-feed/SKILL.md",
-      "description": "Discovered from a public GitHub repository: prompt-security/clawsec",
+      "description": "Security advisory feed package for OpenClaw-related threats and vulnerabilities. The upstream feed is updated daily; local automation is handled by clawsec-suite or the operator.",
       "slug": "prompt-security-clawsec-feed"
     },
     {
@@ -39,7 +68,7 @@
       "skillName": "clawsec-nanoclaw",
       "path": "skills/clawsec-nanoclaw/SKILL.md",
       "url": "https://github.com/prompt-security/clawsec/blob/main/skills/clawsec-nanoclaw/SKILL.md",
-      "description": "Discovered from a public GitHub repository: prompt-security/clawsec",
+      "description": "Use when checking for security vulnerabilities in NanoClaw skills, before installing new skills, or when asked about security advisories affecting the bot",
       "slug": "prompt-security-clawsec-nanoclaw"
     },
     {
@@ -48,7 +77,7 @@
       "skillName": "clawsec-scanner",
       "path": "skills/clawsec-scanner/SKILL.md",
       "url": "https://github.com/prompt-security/clawsec/blob/main/skills/clawsec-scanner/SKILL.md",
-      "description": "Discovered from a public GitHub repository: prompt-security/clawsec",
+      "description": "Automated vulnerability scanner for agent platforms. Performs dependency scanning (npm audit, pip-audit), multi-database CVE lookup (OSV, NVD, GitHub Advisory), SAST analysis (Semgrep, Bandit), and agent-specific static hook inspection for OpenClaw hooks.",
       "slug": "prompt-security-clawsec-scanner"
     },
     {
@@ -57,7 +86,7 @@
       "skillName": "clawsec-suite",
       "path": "skills/clawsec-suite/SKILL.md",
       "url": "https://github.com/prompt-security/clawsec/blob/main/skills/clawsec-suite/SKILL.md",
-      "description": "Discovered from a public GitHub repository: prompt-security/clawsec",
+      "description": "ClawSec suite manager with embedded advisory-feed monitoring, cryptographic signature verification, approval-gated malicious-skill response, and guided setup for additional security skills.",
       "slug": "prompt-security-clawsec-suite"
     },
     {
@@ -66,7 +95,7 @@
       "skillName": "clawtributor",
       "path": "skills/clawtributor/SKILL.md",
       "url": "https://github.com/prompt-security/clawsec/blob/main/skills/clawtributor/SKILL.md",
-      "description": "Discovered from a public GitHub repository: prompt-security/clawsec",
+      "description": "Harness-neutral community incident reporting for AI agents. Contribute to collective security by reporting threats.",
       "slug": "prompt-security-clawtributor"
     },
     {
@@ -75,7 +104,7 @@
       "skillName": "hermes-attestation-guardian",
       "path": "skills/hermes-attestation-guardian/SKILL.md",
       "url": "https://github.com/prompt-security/clawsec/blob/main/skills/hermes-attestation-guardian/SKILL.md",
-      "description": "Discovered from a public GitHub repository: prompt-security/clawsec",
+      "description": "Hermes-only runtime security attestation and drift detection skill for operator-managed Hermes infrastructure.",
       "slug": "prompt-security-hermes-attestation-guardian"
     },
     {
@@ -84,7 +113,7 @@
       "skillName": "hermes-traffic-guardian",
       "path": "skills/hermes-traffic-guardian/SKILL.md",
       "url": "https://github.com/prompt-security/clawsec/blob/main/skills/hermes-traffic-guardian/SKILL.md",
-      "description": "Discovered from a public GitHub repository: prompt-security/clawsec",
+      "description": "Hermes runtime traffic monitoring baseline for opt-in proxy inspection, egress detection, and attestation-aware traffic posture.",
       "slug": "prompt-security-hermes-traffic-guardian"
     },
     {
@@ -93,7 +122,7 @@
       "skillName": "nanoclaw-traffic-guardian",
       "path": "skills/nanoclaw-traffic-guardian/SKILL.md",
       "url": "https://github.com/prompt-security/clawsec/blob/main/skills/nanoclaw-traffic-guardian/SKILL.md",
-      "description": "Discovered from a public GitHub repository: prompt-security/clawsec",
+      "description": "NanoClaw runtime traffic monitoring baseline for host-side proxy inspection with container-safe MCP and IPC status surfaces.",
       "slug": "prompt-security-nanoclaw-traffic-guardian"
     },
     {
@@ -102,7 +131,7 @@
       "skillName": "openclaw-audit-watchdog",
       "path": "skills/openclaw-audit-watchdog/SKILL.md",
       "url": "https://github.com/prompt-security/clawsec/blob/main/skills/openclaw-audit-watchdog/SKILL.md",
-      "description": "Discovered from a public GitHub repository: prompt-security/clawsec",
+      "description": "Automated daily security audits for OpenClaw agents with DM delivery and optional email reporting. Runs deep audits, creates or updates a recurring cron job, and sends formatted reports to configured recipients.",
       "slug": "prompt-security-openclaw-audit-watchdog"
     },
     {
@@ -111,7 +140,7 @@
       "skillName": "openclaw-traffic-guardian",
       "path": "skills/openclaw-traffic-guardian/SKILL.md",
       "url": "https://github.com/prompt-security/clawsec/blob/main/skills/openclaw-traffic-guardian/SKILL.md",
-      "description": "Discovered from a public GitHub repository: prompt-security/clawsec",
+      "description": "OpenClaw runtime traffic monitoring baseline for opt-in HTTP/HTTPS proxy inspection, egress detection, inbound injection detection, and social-account policy review.",
       "slug": "prompt-security-openclaw-traffic-guardian"
     },
     {
@@ -120,7 +149,7 @@
       "skillName": "picoclaw-security-guardian",
       "path": "skills/picoclaw-security-guardian/SKILL.md",
       "url": "https://github.com/prompt-security/clawsec/blob/main/skills/picoclaw-security-guardian/SKILL.md",
-      "description": "Discovered from a public GitHub repository: prompt-security/clawsec",
+      "description": "Picoclaw security posture skill with advisory awareness, configuration drift detection, and supply-chain verification guidance.",
       "slug": "prompt-security-picoclaw-security-guardian"
     },
     {
@@ -129,7 +158,7 @@
       "skillName": "picoclaw-self-pen-testing",
       "path": "skills/picoclaw-self-pen-testing/SKILL.md",
       "url": "https://github.com/prompt-security/clawsec/blob/main/skills/picoclaw-self-pen-testing/SKILL.md",
-      "description": "Discovered from a public GitHub repository: prompt-security/clawsec",
+      "description": "Picoclaw-only local posture-review skill focused on read-only findings and safe operator remediation guidance.",
       "slug": "prompt-security-picoclaw-self-pen-testing"
     },
     {
@@ -138,7 +167,7 @@
       "skillName": "picoclaw-traffic-guardian",
       "path": "skills/picoclaw-traffic-guardian/SKILL.md",
       "url": "https://github.com/prompt-security/clawsec/blob/main/skills/picoclaw-traffic-guardian/SKILL.md",
-      "description": "Discovered from a public GitHub repository: prompt-security/clawsec",
+      "description": "Picoclaw runtime traffic monitoring baseline for lightweight AI gateway proxy inspection, egress detection, and posture integration.",
       "slug": "prompt-security-picoclaw-traffic-guardian"
     },
     {
@@ -147,10 +176,10 @@
       "skillName": "soul-guardian",
       "path": "skills/soul-guardian/SKILL.md",
       "url": "https://github.com/prompt-security/clawsec/blob/main/skills/soul-guardian/SKILL.md",
-      "description": "Discovered from a public GitHub repository: prompt-security/clawsec",
+      "description": "Drift detection + baseline integrity guard for agent workspace files with automatic alerting support",
       "slug": "prompt-security-soul-guardian"
     }
   ],
-  "itemCount": 16,
-  "lastStatus": "scanned"
+  "itemCount": 17,
+  "lastStatus": "cache-fresh"
 }

@@ -9,10 +9,46 @@
     {
       "repository": "rudrankriyam/app-store-connect-cli-skills",
       "branch": "main",
+      "skillName": "app-store-connect-cli-skills",
+      "path": "README.md",
+      "url": "https://github.com/rudrankriyam/app-store-connect-cli-skills",
+      "description": "Discovered from a public GitHub repository: rudrankriyam/app-store-connect-cli-skills",
+      "slug": "rudrankriyam-app-store-connect-cli-skills-collection",
+      "isCollection": true,
+      "stars": null,
+      "skillPaths": [
+        "skills/asc-app-create-ui/SKILL.md",
+        "skills/asc-apple-ads/SKILL.md",
+        "skills/asc-aso-audit/SKILL.md",
+        "skills/asc-build-lifecycle/SKILL.md",
+        "skills/asc-cli-usage/SKILL.md",
+        "skills/asc-crash-triage/SKILL.md",
+        "skills/asc-id-resolver/SKILL.md",
+        "skills/asc-localize-metadata/SKILL.md",
+        "skills/asc-metadata-sync/SKILL.md",
+        "skills/asc-notarization/SKILL.md",
+        "skills/asc-ppp-pricing/SKILL.md",
+        "skills/asc-release-flow/SKILL.md",
+        "skills/asc-revenuecat-catalog-sync/SKILL.md",
+        "skills/asc-screenshot-resize/SKILL.md",
+        "skills/asc-shots-pipeline/SKILL.md",
+        "skills/asc-signing-setup/SKILL.md",
+        "skills/asc-submission-health/SKILL.md",
+        "skills/asc-subscription-localization/SKILL.md",
+        "skills/asc-testflight-orchestration/SKILL.md",
+        "skills/asc-wall-submit/SKILL.md",
+        "skills/asc-whats-new-writer/SKILL.md",
+        "skills/asc-workflow/SKILL.md",
+        "skills/asc-xcode-build/SKILL.md"
+      ]
+    },
+    {
+      "repository": "rudrankriyam/app-store-connect-cli-skills",
+      "branch": "main",
       "skillName": "asc-app-create-ui",
       "path": "skills/asc-app-create-ui/SKILL.md",
       "url": "https://github.com/rudrankriyam/app-store-connect-cli-skills/blob/main/skills/asc-app-create-ui/SKILL.md",
-      "description": "Discovered from a public GitHub repository: rudrankriyam/app-store-connect-cli-skills",
+      "description": "Create a new App Store Connect app record via browser automation. Use when there is no public API for app creation and you need an agent to drive the New App form.",
       "slug": "rudrankriyam-asc-app-create-ui"
     },
     {
@@ -21,7 +57,7 @@
       "skillName": "asc-apple-ads",
       "path": "skills/asc-apple-ads/SKILL.md",
       "url": "https://github.com/rudrankriyam/app-store-connect-cli-skills/blob/main/skills/asc-apple-ads/SKILL.md",
-      "description": "Discovered from a public GitHub repository: rudrankriyam/app-store-connect-cli-skills",
+      "description": "Use when managing Apple Ads with asc, including auth, org lookup, campaigns, ad groups, ads, keywords, reports, raw API calls, and safe live testing.",
       "slug": "rudrankriyam-asc-apple-ads"
     },
     {
@@ -30,7 +66,7 @@
       "skillName": "asc-aso-audit",
       "path": "skills/asc-aso-audit/SKILL.md",
       "url": "https://github.com/rudrankriyam/app-store-connect-cli-skills/blob/main/skills/asc-aso-audit/SKILL.md",
-      "description": "Discovered from a public GitHub repository: rudrankriyam/app-store-connect-cli-skills",
+      "description": "Run an offline ASO audit on canonical App Store metadata under `./metadata` and surface keyword gaps using Astro MCP. Use after pulling metadata with `asc metadata pull`.",
       "slug": "rudrankriyam-asc-aso-audit"
     },
     {
@@ -39,7 +75,7 @@
       "skillName": "asc-build-lifecycle",
       "path": "skills/asc-build-lifecycle/SKILL.md",
       "url": "https://github.com/rudrankriyam/app-store-connect-cli-skills/blob/main/skills/asc-build-lifecycle/SKILL.md",
-      "description": "Discovered from a public GitHub repository: rudrankriyam/app-store-connect-cli-skills",
+      "description": "Track build processing, find latest builds, and clean up old builds with asc. Use when managing build retention or waiting on processing.",
       "slug": "rudrankriyam-asc-build-lifecycle"
     },
     {
@@ -48,7 +84,7 @@
       "skillName": "asc-cli-usage",
       "path": "skills/asc-cli-usage/SKILL.md",
       "url": "https://github.com/rudrankriyam/app-store-connect-cli-skills/blob/main/skills/asc-cli-usage/SKILL.md",
-      "description": "Discovered from a public GitHub repository: rudrankriyam/app-store-connect-cli-skills",
+      "description": "Guidance for using asc cli in this repo (flags, output formats, pagination, auth, and discovery). Use when asked to run or design asc commands or interact with App Store Connect via the CLI.",
       "slug": "rudrankriyam-asc-cli-usage"
     },
     {
@@ -57,7 +93,7 @@
       "skillName": "asc-crash-triage",
       "path": "skills/asc-crash-triage/SKILL.md",
       "url": "https://github.com/rudrankriyam/app-store-connect-cli-skills/blob/main/skills/asc-crash-triage/SKILL.md",
-      "description": "Discovered from a public GitHub repository: rudrankriyam/app-store-connect-cli-skills",
+      "description": "Triage TestFlight crashes, beta feedback, and performance diagnostics using asc. Use when the user asks about TF crashes, TestFlight crash reports, beta tester feedback, app hangs, disk writes, launch diagnostics, or wants a crash summary for a build or app.",
       "slug": "rudrankriyam-asc-crash-triage"
     },
     {
@@ -66,7 +102,7 @@
       "skillName": "asc-id-resolver",
       "path": "skills/asc-id-resolver/SKILL.md",
       "url": "https://github.com/rudrankriyam/app-store-connect-cli-skills/blob/main/skills/asc-id-resolver/SKILL.md",
-      "description": "Discovered from a public GitHub repository: rudrankriyam/app-store-connect-cli-skills",
+      "description": "Resolve App Store Connect IDs (apps, builds, versions, groups, testers) from human-friendly names using asc. Use when commands require IDs.",
       "slug": "rudrankriyam-asc-id-resolver"
     },
     {
@@ -75,7 +111,7 @@
       "skillName": "asc-localize-metadata",
       "path": "skills/asc-localize-metadata/SKILL.md",
       "url": "https://github.com/rudrankriyam/app-store-connect-cli-skills/blob/main/skills/asc-localize-metadata/SKILL.md",
-      "description": "Discovered from a public GitHub repository: rudrankriyam/app-store-connect-cli-skills",
+      "description": "Automatically translate and sync App Store metadata (description, keywords, what's new, subtitle) to multiple languages using LLM translation and asc CLI. Use when asked to localize an app's App Store listing, translate app descriptions, or add new languages to App Store Connect.",
       "slug": "rudrankriyam-asc-localize-metadata"
     },
     {
@@ -84,7 +120,7 @@
       "skillName": "asc-metadata-sync",
       "path": "skills/asc-metadata-sync/SKILL.md",
       "url": "https://github.com/rudrankriyam/app-store-connect-cli-skills/blob/main/skills/asc-metadata-sync/SKILL.md",
-      "description": "Discovered from a public GitHub repository: rudrankriyam/app-store-connect-cli-skills",
+      "description": "Sync, validate, and apply App Store metadata with the current asc canonical metadata workflow. Use when updating metadata, localizations, keywords, or migrating legacy fastlane metadata.",
       "slug": "rudrankriyam-asc-metadata-sync"
     },
     {
@@ -93,7 +129,7 @@
       "skillName": "asc-notarization",
       "path": "skills/asc-notarization/SKILL.md",
       "url": "https://github.com/rudrankriyam/app-store-connect-cli-skills/blob/main/skills/asc-notarization/SKILL.md",
-      "description": "Discovered from a public GitHub repository: rudrankriyam/app-store-connect-cli-skills",
+      "description": "Archive, export, and notarize macOS apps using xcodebuild and asc. Use when you need to prepare a macOS app for distribution outside the App Store with Developer ID signing and Apple notarization.",
       "slug": "rudrankriyam-asc-notarization"
     },
     {
@@ -102,7 +138,7 @@
       "skillName": "asc-ppp-pricing",
       "path": "skills/asc-ppp-pricing/SKILL.md",
       "url": "https://github.com/rudrankriyam/app-store-connect-cli-skills/blob/main/skills/asc-ppp-pricing/SKILL.md",
-      "description": "Discovered from a public GitHub repository: rudrankriyam/app-store-connect-cli-skills",
+      "description": "Set territory-specific pricing for subscriptions and in-app purchases using current asc setup, pricing summary, price import, and price schedule commands. Use when adjusting prices by country or implementing localized PPP strategies.",
       "slug": "rudrankriyam-asc-ppp-pricing"
     },
     {
@@ -111,7 +147,7 @@
       "skillName": "asc-release-flow",
       "path": "skills/asc-release-flow/SKILL.md",
       "url": "https://github.com/rudrankriyam/app-store-connect-cli-skills/blob/main/skills/asc-release-flow/SKILL.md",
-      "description": "Discovered from a public GitHub repository: rudrankriyam/app-store-connect-cli-skills",
+      "description": "Determine whether an app is ready to submit, then drive the current App Store release flow with asc, including validation, staging, review submission, first-time availability, subscriptions, IAP, Game Center, and App Privacy checks.",
       "slug": "rudrankriyam-asc-release-flow"
     },
     {
@@ -120,7 +156,7 @@
       "skillName": "asc-revenuecat-catalog-sync",
       "path": "skills/asc-revenuecat-catalog-sync/SKILL.md",
       "url": "https://github.com/rudrankriyam/app-store-connect-cli-skills/blob/main/skills/asc-revenuecat-catalog-sync/SKILL.md",
-      "description": "Discovered from a public GitHub repository: rudrankriyam/app-store-connect-cli-skills",
+      "description": "Reconcile App Store Connect subscriptions and in-app purchases with RevenueCat products, entitlements, offerings, and packages using asc and RevenueCat MCP. Use when setting up or syncing subscription catalogs across ASC and RevenueCat.",
       "slug": "rudrankriyam-asc-revenuecat-catalog-sync"
     },
     {
@@ -129,7 +165,7 @@
       "skillName": "asc-screenshot-resize",
       "path": "skills/asc-screenshot-resize/SKILL.md",
       "url": "https://github.com/rudrankriyam/app-store-connect-cli-skills/blob/main/skills/asc-screenshot-resize/SKILL.md",
-      "description": "Discovered from a public GitHub repository: rudrankriyam/app-store-connect-cli-skills",
+      "description": "Resize and validate App Store screenshots with current asc screenshot-size data and macOS sips. Use when preparing or fixing screenshots for App Store Connect submission.",
       "slug": "rudrankriyam-asc-screenshot-resize"
     },
     {
@@ -138,7 +174,7 @@
       "skillName": "asc-shots-pipeline",
       "path": "skills/asc-shots-pipeline/SKILL.md",
       "url": "https://github.com/rudrankriyam/app-store-connect-cli-skills/blob/main/skills/asc-shots-pipeline/SKILL.md",
-      "description": "Discovered from a public GitHub repository: rudrankriyam/app-store-connect-cli-skills",
+      "description": "Orchestrate iOS screenshot automation with xcodebuild/simctl for build-run, AXe for UI actions, JSON settings and plan files, Koubou-based framing (`asc screenshots frame`), and screenshot upload (`asc screenshots upload`). Use when users ask for automated screenshot capture, AXe-driven simulator flows, frame composition, or screenshot-to-upload pipelines.",
       "slug": "rudrankriyam-asc-shots-pipeline"
     },
     {
@@ -147,7 +183,7 @@
       "skillName": "asc-signing-setup",
       "path": "skills/asc-signing-setup/SKILL.md",
       "url": "https://github.com/rudrankriyam/app-store-connect-cli-skills/blob/main/skills/asc-signing-setup/SKILL.md",
-      "description": "Discovered from a public GitHub repository: rudrankriyam/app-store-connect-cli-skills",
+      "description": "Set up bundle IDs, capabilities, signing certificates, provisioning profiles, and encrypted signing sync with the asc cli. Use when onboarding a new app, rotating signing assets, or sharing them across a team.",
       "slug": "rudrankriyam-asc-signing-setup"
     },
     {
@@ -156,7 +192,7 @@
       "skillName": "asc-submission-health",
       "path": "skills/asc-submission-health/SKILL.md",
       "url": "https://github.com/rudrankriyam/app-store-connect-cli-skills/blob/main/skills/asc-submission-health/SKILL.md",
-      "description": "Discovered from a public GitHub repository: rudrankriyam/app-store-connect-cli-skills",
+      "description": "Validate App Store submission readiness, submit prepared versions, and monitor review status with current asc commands. Use when shipping or troubleshooting review submissions.",
       "slug": "rudrankriyam-asc-submission-health"
     },
     {
@@ -165,7 +201,7 @@
       "skillName": "asc-subscription-localization",
       "path": "skills/asc-subscription-localization/SKILL.md",
       "url": "https://github.com/rudrankriyam/app-store-connect-cli-skills/blob/main/skills/asc-subscription-localization/SKILL.md",
-      "description": "Discovered from a public GitHub repository: rudrankriyam/app-store-connect-cli-skills",
+      "description": "Bulk-localize subscription and in-app purchase display names across all App Store locales using asc. Use when you want to fill in subscription/IAP names for every language without clicking through App Store Connect manually.",
       "slug": "rudrankriyam-asc-subscription-localization"
     },
     {
@@ -174,7 +210,7 @@
       "skillName": "asc-testflight-orchestration",
       "path": "skills/asc-testflight-orchestration/SKILL.md",
       "url": "https://github.com/rudrankriyam/app-store-connect-cli-skills/blob/main/skills/asc-testflight-orchestration/SKILL.md",
-      "description": "Discovered from a public GitHub repository: rudrankriyam/app-store-connect-cli-skills",
+      "description": "Orchestrate TestFlight distribution, groups, testers, and What to Test notes using asc. Use when rolling out betas.",
       "slug": "rudrankriyam-asc-testflight-orchestration"
     },
     {
@@ -183,7 +219,7 @@
       "skillName": "asc-wall-submit",
       "path": "skills/asc-wall-submit/SKILL.md",
       "url": "https://github.com/rudrankriyam/app-store-connect-cli-skills/blob/main/skills/asc-wall-submit/SKILL.md",
-      "description": "Discovered from a public GitHub repository: rudrankriyam/app-store-connect-cli-skills",
+      "description": "Submit or update a Wall of Apps entry in the App-Store-Connect-CLI repository using `asc apps wall submit`. Use when the user says \"submit to wall of apps\", \"add my app to the wall\", or \"wall-of-apps\".",
       "slug": "rudrankriyam-asc-wall-submit"
     },
     {
@@ -192,7 +228,7 @@
       "skillName": "asc-whats-new-writer",
       "path": "skills/asc-whats-new-writer/SKILL.md",
       "url": "https://github.com/rudrankriyam/app-store-connect-cli-skills/blob/main/skills/asc-whats-new-writer/SKILL.md",
-      "description": "Discovered from a public GitHub repository: rudrankriyam/app-store-connect-cli-skills",
+      "description": "Generate engaging, localized App Store release notes (What's New) from git log, bullet points, or free text using canonical metadata under `./metadata`. Optionally pairs with promotional text updates.",
       "slug": "rudrankriyam-asc-whats-new-writer"
     },
     {
@@ -201,7 +237,7 @@
       "skillName": "asc-workflow",
       "path": "skills/asc-workflow/SKILL.md",
       "url": "https://github.com/rudrankriyam/app-store-connect-cli-skills/blob/main/skills/asc-workflow/SKILL.md",
-      "description": "Discovered from a public GitHub repository: rudrankriyam/app-store-connect-cli-skills",
+      "description": "Define, validate, run, resume, and audit repo-local multi-step automations with current `asc workflow` and `.asc/workflow.json`, including step outputs and safe release/TestFlight workflows.",
       "slug": "rudrankriyam-asc-workflow"
     },
     {
@@ -210,10 +246,10 @@
       "skillName": "asc-xcode-build",
       "path": "skills/asc-xcode-build/SKILL.md",
       "url": "https://github.com/rudrankriyam/app-store-connect-cli-skills/blob/main/skills/asc-xcode-build/SKILL.md",
-      "description": "Discovered from a public GitHub repository: rudrankriyam/app-store-connect-cli-skills",
+      "description": "Build, archive, export, upload, and manage Xcode version/build numbers with the current asc xcode helpers before App Store Connect upload or submission. Use when creating an IPA or PKG for upload.",
       "slug": "rudrankriyam-asc-xcode-build"
     }
   ],
-  "itemCount": 23,
-  "lastStatus": "scanned"
+  "itemCount": 24,
+  "lastStatus": "cache-fresh"
 }

@@ -9,22 +9,16 @@
     {
       "repository": "angular/skills",
       "branch": "main",
-      "skillName": "angular-developer",
-      "path": "angular-developer/SKILL.md",
-      "url": "https://github.com/angular/skills/blob/main/angular-developer/SKILL.md",
+      "skillName": "skills",
+      "path": "README.md",
+      "url": "https://github.com/angular/skills",
       "description": "Discovered from a public GitHub repository: angular/skills",
-      "slug": "angular-angular-developer"
-    },
-    {
-      "repository": "angular/skills",
-      "branch": "main",
-      "skillName": "angular-new-app",
-      "path": "angular-new-app/SKILL.md",
-      "url": "https://github.com/angular/skills/blob/main/angular-new-app/SKILL.md",
-      "description": "Discovered from a public GitHub repository: angular/skills",
-      "slug": "angular-angular-new-app"
+      "slug": "angular-skills-collection",
+      "isCollection": true,
+      "stars": null,
+      "skillPaths": []
     }
   ],
-  "itemCount": 2,
-  "lastStatus": "scanned"
+  "itemCount": 1,
+  "lastStatus": "cache-fresh"
 }

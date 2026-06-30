@@ -9,11 +9,16 @@
     {
       "repository": "yusufkaraaslan/Skill_Seekers",
       "branch": "development",
-      "skillName": "distribution/claude-plugin/skills/skill-builder",
-      "path": "distribution/claude-plugin/skills/skill-builder/SKILL.md",
-      "url": "https://github.com/yusufkaraaslan/Skill_Seekers/blob/development/distribution/claude-plugin/skills/skill-builder/SKILL.md",
-      "description": "Discovered from a public GitHub repository: yusufkaraaslan/Skill_Seekers",
-      "slug": "yusufkaraaslan-distribution-claude-plugin-skills-skill-builder"
+      "skillName": "Skill_Seekers",
+      "path": "README.md",
+      "url": "https://github.com/yusufkaraaslan/Skill_Seekers",
+      "description": "Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict detection",
+      "slug": "yusufkaraaslan-skill-seekers-collection",
+      "isCollection": true,
+      "stars": null,
+      "skillPaths": [
+        "skills/skill-seekers/SKILL.md"
+      ]
     },
     {
       "repository": "yusufkaraaslan/Skill_Seekers",
@@ -21,226 +26,10 @@
       "skillName": "skill-seekers",
       "path": "skills/skill-seekers/SKILL.md",
       "url": "https://github.com/yusufkaraaslan/Skill_Seekers/blob/development/skills/skill-seekers/SKILL.md",
-      "description": "Discovered from a public GitHub repository: yusufkaraaslan/Skill_Seekers",
+      "description": "Automatically detect source types and build AI skills using Skill Seekers. Use when the user wants to create skills from documentation, repos, PDFs, videos, or other knowledge sources.",
       "slug": "yusufkaraaslan-skill-seekers"
-    },
-    {
-      "repository": "yusufkaraaslan/Skill_Seekers",
-      "branch": "development",
-      "skillName": "tests/golden/phase2/chat_empty",
-      "path": "tests/golden/phase2/chat_empty/SKILL.md",
-      "url": "https://github.com/yusufkaraaslan/Skill_Seekers/blob/development/tests/golden/phase2/chat_empty/SKILL.md",
-      "description": "Discovered from a public GitHub repository: yusufkaraaslan/Skill_Seekers",
-      "slug": "yusufkaraaslan-tests-golden-phase2-chat-empty"
-    },
-    {
-      "repository": "yusufkaraaslan/Skill_Seekers",
-      "branch": "development",
-      "skillName": "tests/golden/phase2/chat_single",
-      "path": "tests/golden/phase2/chat_single/SKILL.md",
-      "url": "https://github.com/yusufkaraaslan/Skill_Seekers/blob/development/tests/golden/phase2/chat_single/SKILL.md",
-      "description": "Discovered from a public GitHub repository: yusufkaraaslan/Skill_Seekers",
-      "slug": "yusufkaraaslan-tests-golden-phase2-chat-single"
-    },
-    {
-      "repository": "yusufkaraaslan/Skill_Seekers",
-      "branch": "development",
-      "skillName": "tests/golden/phase2/chat_topics",
-      "path": "tests/golden/phase2/chat_topics/SKILL.md",
-      "url": "https://github.com/yusufkaraaslan/Skill_Seekers/blob/development/tests/golden/phase2/chat_topics/SKILL.md",
-      "description": "Discovered from a public GitHub repository: yusufkaraaslan/Skill_Seekers",
-      "slug": "yusufkaraaslan-tests-golden-phase2-chat-topics"
-    },
-    {
-      "repository": "yusufkaraaslan/Skill_Seekers",
-      "branch": "development",
-      "skillName": "tests/golden/phase2/chat",
-      "path": "tests/golden/phase2/chat/SKILL.md",
-      "url": "https://github.com/yusufkaraaslan/Skill_Seekers/blob/development/tests/golden/phase2/chat/SKILL.md",
-      "description": "Discovered from a public GitHub repository: yusufkaraaslan/Skill_Seekers",
-      "slug": "yusufkaraaslan-tests-golden-phase2-chat"
-    },
-    {
-      "repository": "yusufkaraaslan/Skill_Seekers",
-      "branch": "development",
-      "skillName": "tests/golden/phase2/epub_kw",
-      "path": "tests/golden/phase2/epub_kw/SKILL.md",
-      "url": "https://github.com/yusufkaraaslan/Skill_Seekers/blob/development/tests/golden/phase2/epub_kw/SKILL.md",
-      "description": "Discovered from a public GitHub repository: yusufkaraaslan/Skill_Seekers",
-      "slug": "yusufkaraaslan-tests-golden-phase2-epub-kw"
-    },
-    {
-      "repository": "yusufkaraaslan/Skill_Seekers",
-      "branch": "development",
-      "skillName": "tests/golden/phase2/epub",
-      "path": "tests/golden/phase2/epub/SKILL.md",
-      "url": "https://github.com/yusufkaraaslan/Skill_Seekers/blob/development/tests/golden/phase2/epub/SKILL.md",
-      "description": "Discovered from a public GitHub repository: yusufkaraaslan/Skill_Seekers",
-      "slug": "yusufkaraaslan-tests-golden-phase2-epub"
-    },
-    {
-      "repository": "yusufkaraaslan/Skill_Seekers",
-      "branch": "development",
-      "skillName": "tests/golden/phase2/html_kw",
-      "path": "tests/golden/phase2/html_kw/SKILL.md",
-      "url": "https://github.com/yusufkaraaslan/Skill_Seekers/blob/development/tests/golden/phase2/html_kw/SKILL.md",
-      "description": "Discovered from a public GitHub repository: yusufkaraaslan/Skill_Seekers",
-      "slug": "yusufkaraaslan-tests-golden-phase2-html-kw"
-    },
-    {
-      "repository": "yusufkaraaslan/Skill_Seekers",
-      "branch": "development",
-      "skillName": "tests/golden/phase2/html_multi",
-      "path": "tests/golden/phase2/html_multi/SKILL.md",
-      "url": "https://github.com/yusufkaraaslan/Skill_Seekers/blob/development/tests/golden/phase2/html_multi/SKILL.md",
-      "description": "Discovered from a public GitHub repository: yusufkaraaslan/Skill_Seekers",
-      "slug": "yusufkaraaslan-tests-golden-phase2-html-multi"
-    },
-    {
-      "repository": "yusufkaraaslan/Skill_Seekers",
-      "branch": "development",
-      "skillName": "tests/golden/phase2/html",
-      "path": "tests/golden/phase2/html/SKILL.md",
-      "url": "https://github.com/yusufkaraaslan/Skill_Seekers/blob/development/tests/golden/phase2/html/SKILL.md",
-      "description": "Discovered from a public GitHub repository: yusufkaraaslan/Skill_Seekers",
-      "slug": "yusufkaraaslan-tests-golden-phase2-html"
-    },
-    {
-      "repository": "yusufkaraaslan/Skill_Seekers",
-      "branch": "development",
-      "skillName": "tests/golden/phase2/jupyter_dir",
-      "path": "tests/golden/phase2/jupyter_dir/SKILL.md",
-      "url": "https://github.com/yusufkaraaslan/Skill_Seekers/blob/development/tests/golden/phase2/jupyter_dir/SKILL.md",
-      "description": "Discovered from a public GitHub repository: yusufkaraaslan/Skill_Seekers",
-      "slug": "yusufkaraaslan-tests-golden-phase2-jupyter-dir"
-    },
-    {
-      "repository": "yusufkaraaslan/Skill_Seekers",
-      "branch": "development",
-      "skillName": "tests/golden/phase2/jupyter_kw",
-      "path": "tests/golden/phase2/jupyter_kw/SKILL.md",
-      "url": "https://github.com/yusufkaraaslan/Skill_Seekers/blob/development/tests/golden/phase2/jupyter_kw/SKILL.md",
-      "description": "Discovered from a public GitHub repository: yusufkaraaslan/Skill_Seekers",
-      "slug": "yusufkaraaslan-tests-golden-phase2-jupyter-kw"
-    },
-    {
-      "repository": "yusufkaraaslan/Skill_Seekers",
-      "branch": "development",
-      "skillName": "tests/golden/phase2/jupyter_topics",
-      "path": "tests/golden/phase2/jupyter_topics/SKILL.md",
-      "url": "https://github.com/yusufkaraaslan/Skill_Seekers/blob/development/tests/golden/phase2/jupyter_topics/SKILL.md",
-      "description": "Discovered from a public GitHub repository: yusufkaraaslan/Skill_Seekers",
-      "slug": "yusufkaraaslan-tests-golden-phase2-jupyter-topics"
-    },
-    {
-      "repository": "yusufkaraaslan/Skill_Seekers",
-      "branch": "development",
-      "skillName": "tests/golden/phase2/jupyter",
-      "path": "tests/golden/phase2/jupyter/SKILL.md",
-      "url": "https://github.com/yusufkaraaslan/Skill_Seekers/blob/development/tests/golden/phase2/jupyter/SKILL.md",
-      "description": "Discovered from a public GitHub repository: yusufkaraaslan/Skill_Seekers",
-      "slug": "yusufkaraaslan-tests-golden-phase2-jupyter"
-    },
-    {
-      "repository": "yusufkaraaslan/Skill_Seekers",
-      "branch": "development",
-      "skillName": "tests/golden/phase2/man_kw",
-      "path": "tests/golden/phase2/man_kw/SKILL.md",
-      "url": "https://github.com/yusufkaraaslan/Skill_Seekers/blob/development/tests/golden/phase2/man_kw/SKILL.md",
-      "description": "Discovered from a public GitHub repository: yusufkaraaslan/Skill_Seekers",
-      "slug": "yusufkaraaslan-tests-golden-phase2-man-kw"
-    },
-    {
-      "repository": "yusufkaraaslan/Skill_Seekers",
-      "branch": "development",
-      "skillName": "tests/golden/phase2/man_single",
-      "path": "tests/golden/phase2/man_single/SKILL.md",
-      "url": "https://github.com/yusufkaraaslan/Skill_Seekers/blob/development/tests/golden/phase2/man_single/SKILL.md",
-      "description": "Discovered from a public GitHub repository: yusufkaraaslan/Skill_Seekers",
-      "slug": "yusufkaraaslan-tests-golden-phase2-man-single"
-    },
-    {
-      "repository": "yusufkaraaslan/Skill_Seekers",
-      "branch": "development",
-      "skillName": "tests/golden/phase2/man",
-      "path": "tests/golden/phase2/man/SKILL.md",
-      "url": "https://github.com/yusufkaraaslan/Skill_Seekers/blob/development/tests/golden/phase2/man/SKILL.md",
-      "description": "Discovered from a public GitHub repository: yusufkaraaslan/Skill_Seekers",
-      "slug": "yusufkaraaslan-tests-golden-phase2-man"
-    },
-    {
-      "repository": "yusufkaraaslan/Skill_Seekers",
-      "branch": "development",
-      "skillName": "tests/golden/phase2/pdf_chapters",
-      "path": "tests/golden/phase2/pdf_chapters/SKILL.md",
-      "url": "https://github.com/yusufkaraaslan/Skill_Seekers/blob/development/tests/golden/phase2/pdf_chapters/SKILL.md",
-      "description": "Discovered from a public GitHub repository: yusufkaraaslan/Skill_Seekers",
-      "slug": "yusufkaraaslan-tests-golden-phase2-pdf-chapters"
-    },
-    {
-      "repository": "yusufkaraaslan/Skill_Seekers",
-      "branch": "development",
-      "skillName": "tests/golden/phase2/pdf_kw",
-      "path": "tests/golden/phase2/pdf_kw/SKILL.md",
-      "url": "https://github.com/yusufkaraaslan/Skill_Seekers/blob/development/tests/golden/phase2/pdf_kw/SKILL.md",
-      "description": "Discovered from a public GitHub repository: yusufkaraaslan/Skill_Seekers",
-      "slug": "yusufkaraaslan-tests-golden-phase2-pdf-kw"
-    },
-    {
-      "repository": "yusufkaraaslan/Skill_Seekers",
-      "branch": "development",
-      "skillName": "tests/golden/phase2/pdf",
-      "path": "tests/golden/phase2/pdf/SKILL.md",
-      "url": "https://github.com/yusufkaraaslan/Skill_Seekers/blob/development/tests/golden/phase2/pdf/SKILL.md",
-      "description": "Discovered from a public GitHub repository: yusufkaraaslan/Skill_Seekers",
-      "slug": "yusufkaraaslan-tests-golden-phase2-pdf"
-    },
-    {
-      "repository": "yusufkaraaslan/Skill_Seekers",
-      "branch": "development",
-      "skillName": "tests/golden/phase2/pptx_kw",
-      "path": "tests/golden/phase2/pptx_kw/SKILL.md",
-      "url": "https://github.com/yusufkaraaslan/Skill_Seekers/blob/development/tests/golden/phase2/pptx_kw/SKILL.md",
-      "description": "Discovered from a public GitHub repository: yusufkaraaslan/Skill_Seekers",
-      "slug": "yusufkaraaslan-tests-golden-phase2-pptx-kw"
-    },
-    {
-      "repository": "yusufkaraaslan/Skill_Seekers",
-      "branch": "development",
-      "skillName": "tests/golden/phase2/pptx",
-      "path": "tests/golden/phase2/pptx/SKILL.md",
-      "url": "https://github.com/yusufkaraaslan/Skill_Seekers/blob/development/tests/golden/phase2/pptx/SKILL.md",
-      "description": "Discovered from a public GitHub repository: yusufkaraaslan/Skill_Seekers",
-      "slug": "yusufkaraaslan-tests-golden-phase2-pptx"
-    },
-    {
-      "repository": "yusufkaraaslan/Skill_Seekers",
-      "branch": "development",
-      "skillName": "tests/golden/phase2/rss_empty",
-      "path": "tests/golden/phase2/rss_empty/SKILL.md",
-      "url": "https://github.com/yusufkaraaslan/Skill_Seekers/blob/development/tests/golden/phase2/rss_empty/SKILL.md",
-      "description": "Discovered from a public GitHub repository: yusufkaraaslan/Skill_Seekers",
-      "slug": "yusufkaraaslan-tests-golden-phase2-rss-empty"
-    },
-    {
-      "repository": "yusufkaraaslan/Skill_Seekers",
-      "branch": "development",
-      "skillName": "tests/golden/phase2/rss",
-      "path": "tests/golden/phase2/rss/SKILL.md",
-      "url": "https://github.com/yusufkaraaslan/Skill_Seekers/blob/development/tests/golden/phase2/rss/SKILL.md",
-      "description": "Discovered from a public GitHub repository: yusufkaraaslan/Skill_Seekers",
-      "slug": "yusufkaraaslan-tests-golden-phase2-rss"
-    },
-    {
-      "repository": "yusufkaraaslan/Skill_Seekers",
-      "branch": "development",
-      "skillName": "tests/golden/phase2/word",
-      "path": "tests/golden/phase2/word/SKILL.md",
-      "url": "https://github.com/yusufkaraaslan/Skill_Seekers/blob/development/tests/golden/phase2/word/SKILL.md",
-      "description": "Discovered from a public GitHub repository: yusufkaraaslan/Skill_Seekers",
-      "slug": "yusufkaraaslan-tests-golden-phase2-word"
     }
   ],
-  "itemCount": 26,
-  "lastStatus": "scanned"
+  "itemCount": 2,
+  "lastStatus": "cache-fresh"
 }

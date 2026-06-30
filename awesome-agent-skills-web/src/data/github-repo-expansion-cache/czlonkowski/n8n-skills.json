@@ -9,10 +9,38 @@
     {
       "repository": "czlonkowski/n8n-skills",
       "branch": "main",
+      "skillName": "n8n-skills",
+      "path": "README.md",
+      "url": "https://github.com/czlonkowski/n8n-skills",
+      "description": "n8n skillset for Claude Code to build flawless n8n workflows",
+      "slug": "czlonkowski-n8n-skills-collection",
+      "isCollection": true,
+      "stars": null,
+      "skillPaths": [
+        "skills/n8n-agents/SKILL.md",
+        "skills/n8n-binary-and-data/SKILL.md",
+        "skills/n8n-code-javascript/SKILL.md",
+        "skills/n8n-code-python/SKILL.md",
+        "skills/n8n-code-tool/SKILL.md",
+        "skills/n8n-error-handling/SKILL.md",
+        "skills/n8n-expression-syntax/SKILL.md",
+        "skills/n8n-mcp-tools-expert/SKILL.md",
+        "skills/n8n-multi-instance/SKILL.md",
+        "skills/n8n-node-configuration/SKILL.md",
+        "skills/n8n-self-hosting/SKILL.md",
+        "skills/n8n-subworkflows/SKILL.md",
+        "skills/n8n-validation-expert/SKILL.md",
+        "skills/n8n-workflow-patterns/SKILL.md",
+        "skills/using-n8n-mcp-skills/SKILL.md"
+      ]
+    },
+    {
+      "repository": "czlonkowski/n8n-skills",
+      "branch": "main",
       "skillName": "n8n-agents",
       "path": "skills/n8n-agents/SKILL.md",
       "url": "https://github.com/czlonkowski/n8n-skills/blob/main/skills/n8n-agents/SKILL.md",
-      "description": "Discovered from a public GitHub repository: czlonkowski/n8n-skills",
+      "description": "Design n8n AI agents the right way. Use when building or editing any @n8n/n8n-nodes-langchain.* AI node — an AI Agent, LLM chain, Text Classifier, or Information Extractor — and whenever the user mentions AI agents, LLM with tools, tool calling, $fromAI, system prompts, agent memory, sessionId, structured/JSON output, output parser, RAG, vector store, a chat assistant/bot, or human-in-the-loop review. Covers Agent-vs-chain-vs-classifier choice, the model/memory/tools/outputParser slots, tool names/descriptions as prompt, structured output with autoFix, memory, RAG, human review, and chat topologies.",
       "slug": "czlonkowski-n8n-agents"
     },
     {
@@ -21,7 +49,7 @@
       "skillName": "n8n-binary-and-data",
       "path": "skills/n8n-binary-and-data/SKILL.md",
       "url": "https://github.com/czlonkowski/n8n-skills/blob/main/skills/n8n-binary-and-data/SKILL.md",
-      "description": "Discovered from a public GitHub repository: czlonkowski/n8n-skills",
+      "description": "Handle files and binary data in n8n correctly. Use when working with files, images, PDFs, attachments, uploads or downloads, base64, vision/multimodal input, or when an AI agent needs a file as tool input or output — and whenever the user mentions $binary, binaryPropertyName, \"read the PDF\", \"attach the file\", \"send the image\", Merge losing binary, or a CDN for chat images. Covers the $binary vs $json split, reading/writing binary, keeping binary alive across transforms with Merge, the agent-tool binary boundary, and the CDN/URL requirement for chat surfaces.",
       "slug": "czlonkowski-n8n-binary-and-data"
     },
     {
@@ -30,7 +58,7 @@
       "skillName": "n8n-code-javascript",
       "path": "skills/n8n-code-javascript/SKILL.md",
       "url": "https://github.com/czlonkowski/n8n-skills/blob/main/skills/n8n-code-javascript/SKILL.md",
-      "description": "Discovered from a public GitHub repository: czlonkowski/n8n-skills",
+      "description": "Write JavaScript code in n8n Code nodes. Use when writing JavaScript in n8n, using $input/$json/$node syntax, making HTTP requests with this.helpers / the $helpers global, working with dates using DateTime, troubleshooting Code node errors, choosing between Code node modes, or doing any custom data transformation in n8n. Always use this skill when a workflow needs a Code node — whether for data aggregation, filtering, API calls, format conversion, batch processing logic, or any custom JavaScript. Covers SplitInBatches loop patterns, cross-iteration data, pairedItem, and real-world production patterns. Also use when asked why a Code node or workflow is slow, which execution mode is faster, or how to cut per-item overhead on large datasets. EXCEPTION — for the AI-agent-callable Custom Code Tool (@n8n/n8n-nodes-langchain.toolCode, a tool attached to an AI Agent), use the n8n-code-tool skill",
       "slug": "czlonkowski-n8n-code-javascript"
     },
     {
@@ -39,7 +67,7 @@
       "skillName": "n8n-code-python",
       "path": "skills/n8n-code-python/SKILL.md",
       "url": "https://github.com/czlonkowski/n8n-skills/blob/main/skills/n8n-code-python/SKILL.md",
-      "description": "Discovered from a public GitHub repository: czlonkowski/n8n-skills",
+      "description": "Write Python code in n8n Code nodes. Use when writing Python in n8n, using _input/_json/_node syntax, working with standard library, or need to understand Python limitations in n8n Code nodes. Use this skill when the user specifically requests Python for an n8n Code node. Note — JavaScript is recommended for 95% of use cases — only use Python when the user explicitly prefers it or the task requires Python-specific standard library capabilities (regex, hashlib, statistics). EXCEPTION — for Python in the AI-agent-callable Custom Code Tool (@n8n/n8n-nodes-langchain.toolCode), use the n8n-code-tool skill instead (input is _query, return must be a string).",
       "slug": "czlonkowski-n8n-code-python"
     },
     {
@@ -48,7 +76,7 @@
       "skillName": "n8n-code-tool",
       "path": "skills/n8n-code-tool/SKILL.md",
       "url": "https://github.com/czlonkowski/n8n-skills/blob/main/skills/n8n-code-tool/SKILL.md",
-      "description": "Discovered from a public GitHub repository: czlonkowski/n8n-skills",
+      "description": "Write JavaScript or Python for the n8n Custom Code Tool (@n8n/n8n-nodes-langchain.toolCode) — the AI-agent-callable tool, NOT the workflow Code node. Use when building a Code Tool attached to an AI Agent, writing code that an LLM will invoke, parsing the `query` input, returning a string result, defining an input schema for structured arguments (specifyInputSchema, jsonSchemaExample, DynamicStructuredTool), or troubleshooting errors like \"Wrong output type returned\", \"No execution data available\", \"The response property should be a string, but it is an object\", \"Cannot assign to read only property 'name'\", or an AI agent that refuses to call the tool. Covers the critical differences between Code node and Code Tool: return format (string vs `[{json:{...}}]`), unavailability of `$fromAI`/`$input`/`$helpers` in the Code Tool sandbox, naming rules for AI invocation, and when to use `toolWork",
       "slug": "czlonkowski-n8n-code-tool"
     },
     {
@@ -57,7 +85,7 @@
       "skillName": "n8n-error-handling",
       "path": "skills/n8n-error-handling/SKILL.md",
       "url": "https://github.com/czlonkowski/n8n-skills/blob/main/skills/n8n-error-handling/SKILL.md",
-      "description": "Discovered from a public GitHub repository: czlonkowski/n8n-skills",
+      "description": "Wire n8n error handling so failures are loud, structured, and recoverable. Use when building any webhook/API workflow, a scheduled or unattended workflow, or any path where a silent failure would drop user-visible work — and whenever the user mentions error handling, onError, continueErrorOutput, error branches/outputs, retries, retryOnFail, Respond to Webhook status codes, 4xx/5xx, Error Trigger, or \"my workflow fails silently\". Covers per-node error outputs and wiring, retry/self-healing, error-trigger workflows, and 4xx/5xx response shapes.",
       "slug": "czlonkowski-n8n-error-handling"
     },
     {
@@ -66,7 +94,7 @@
       "skillName": "n8n-expression-syntax",
       "path": "skills/n8n-expression-syntax/SKILL.md",
       "url": "https://github.com/czlonkowski/n8n-skills/blob/main/skills/n8n-expression-syntax/SKILL.md",
-      "description": "Discovered from a public GitHub repository: czlonkowski/n8n-skills",
+      "description": "Validate n8n expression syntax and fix common errors. Use when writing n8n expressions, using {{}} syntax, accessing $json/$node variables, troubleshooting expression errors, mapping data between nodes, or referencing webhook data in workflows. Use this skill whenever configuring node fields that reference data from previous nodes — expressions are how n8n passes data between nodes, and getting the syntax wrong is the most common source of workflow errors. Also use when asked whether a complex expression hurts performance.",
       "slug": "czlonkowski-n8n-expression-syntax"
     },
     {
@@ -75,7 +103,7 @@
       "skillName": "n8n-mcp-tools-expert",
       "path": "skills/n8n-mcp-tools-expert/SKILL.md",
       "url": "https://github.com/czlonkowski/n8n-skills/blob/main/skills/n8n-mcp-tools-expert/SKILL.md",
-      "description": "Discovered from a public GitHub repository: czlonkowski/n8n-skills",
+      "description": "Expert guide for using n8n-mcp MCP tools effectively. Use when searching for nodes, validating configurations, accessing templates, managing workflows, managing credentials, auditing instance security, or using any n8n-mcp tool. Provides tool selection guidance, parameter formats, and common patterns. IMPORTANT — Always consult this skill before calling any n8n-mcp tool — it prevents common mistakes like wrong nodeType formats, incorrect parameter structures, and inefficient tool usage. If the user mentions n8n, workflows, nodes, or automation and you have n8n MCP tools available, use this skill first.",
       "slug": "czlonkowski-n8n-mcp-tools-expert"
     },
     {
@@ -84,7 +112,7 @@
       "skillName": "n8n-multi-instance",
       "path": "skills/n8n-multi-instance/SKILL.md",
       "url": "https://github.com/czlonkowski/n8n-skills/blob/main/skills/n8n-multi-instance/SKILL.md",
-      "description": "Discovered from a public GitHub repository: czlonkowski/n8n-skills",
+      "description": "Use when an n8n-mcp account targets more than one n8n instance — i.e. the `n8n_instances` tool is available, the user mentions multiple n8n instances or environments (prod vs staging, several teams or clients), a workflow / datatable / credential / execution call returns an unexpected NOT_FOUND or reads data you don't recognize, or a credential create/update/delete is refused with an `INSTANCE_AMBIGUOUS` error. Covers choosing and switching which instance this MCP session targets, verifying the target before high-stakes work — credential writes above all — and recovering from misroutes and ambiguous-write fail-closes. Always consult this skill before operating on a specific instance, before any credential create/update/delete on a multi-instance account, or when a call hits the wrong/empty data or an `INSTANCE_AMBIGUOUS` error.",
       "slug": "czlonkowski-n8n-multi-instance"
     },
     {
@@ -93,7 +121,7 @@
       "skillName": "n8n-node-configuration",
       "path": "skills/n8n-node-configuration/SKILL.md",
       "url": "https://github.com/czlonkowski/n8n-skills/blob/main/skills/n8n-node-configuration/SKILL.md",
-      "description": "Discovered from a public GitHub repository: czlonkowski/n8n-skills",
+      "description": "Operation-aware node configuration guidance. Use when configuring nodes, understanding property dependencies, determining required fields, choosing between get_node detail levels, or learning common configuration patterns by node type. Always use this skill when setting up node parameters — it explains which fields are required for each operation, how displayOptions control field visibility, and when to use patchNodeField for surgical edits vs full node updates.",
       "slug": "czlonkowski-n8n-node-configuration"
     },
     {
@@ -102,7 +130,7 @@
       "skillName": "n8n-self-hosting",
       "path": "skills/n8n-self-hosting/SKILL.md",
       "url": "https://github.com/czlonkowski/n8n-skills/blob/main/skills/n8n-self-hosting/SKILL.md",
-      "description": "Discovered from a public GitHub repository: czlonkowski/n8n-skills",
+      "description": "Deploy a production self-hosted n8n end-to-end to a fresh Linux VM over SSH, using Docker Compose behind a Caddy reverse proxy with automatic HTTPS. Use whenever the user wants to self-host, install, set up, provision, or deploy n8n on their own server/VPS/box (Hetzner, DigitalOcean, AWS EC2, bare metal, etc.) — in either single/regular mode or queue mode with workers — or to update, back up, restore, or harden such an instance. This is for SELF-HOSTED n8n (Docker), not n8n Cloud and not building workflows. The skill makes the agent ask single-vs-queue first, collect the domain/SSH/timezone inputs, generate fresh secrets on the box, and bring the stack up with TLS. Trigger on \"deploy n8n\", \"self-host n8n\", \"install n8n on my server\", \"n8n docker compose\", \"n8n queue mode / workers / scaling\", \"n8n reverse proxy / SSL\", or \"back up / update my n8n\".",
       "slug": "czlonkowski-n8n-self-hosting"
     },
     {
@@ -111,7 +139,7 @@
       "skillName": "n8n-subworkflows",
       "path": "skills/n8n-subworkflows/SKILL.md",
       "url": "https://github.com/czlonkowski/n8n-skills/blob/main/skills/n8n-subworkflows/SKILL.md",
-      "description": "Discovered from a public GitHub repository: czlonkowski/n8n-skills",
+      "description": "Build reusable, composable n8n sub-workflows. Use when extracting shared logic, building anything multi-step or reused across workflows, or any workflow over ~10 nodes — and whenever the user mentions sub-workflows, Execute Workflow, reuse, shared/common logic, modular workflows, \"Define Below\" inputs, waitForSubWorkflow, mode each vs all, or exposing a workflow as an agent tool. Covers typed sub-workflow inputs, all-vs-each execution, verb-first naming for discovery, stateless vs stateful design, and splitting by input shape.",
       "slug": "czlonkowski-n8n-subworkflows"
     },
     {
@@ -120,7 +148,7 @@
       "skillName": "n8n-validation-expert",
       "path": "skills/n8n-validation-expert/SKILL.md",
       "url": "https://github.com/czlonkowski/n8n-skills/blob/main/skills/n8n-validation-expert/SKILL.md",
-      "description": "Discovered from a public GitHub repository: czlonkowski/n8n-skills",
+      "description": "Interpret validation errors and guide fixing them. Use when encountering validation errors, validation warnings, false positives, operator structure issues, or need help understanding validation results. Also use when asking about validation profiles, error types, the validation loop process, or auto-fix capabilities. Consult this skill whenever a validate_node or validate_workflow call returns errors or warnings — it knows which warnings are false positives and which errors need real fixes.",
       "slug": "czlonkowski-n8n-validation-expert"
     },
     {
@@ -129,7 +157,7 @@
       "skillName": "n8n-workflow-patterns",
       "path": "skills/n8n-workflow-patterns/SKILL.md",
       "url": "https://github.com/czlonkowski/n8n-skills/blob/main/skills/n8n-workflow-patterns/SKILL.md",
-      "description": "Discovered from a public GitHub repository: czlonkowski/n8n-skills",
+      "description": "Proven workflow architectural patterns from real n8n workflows. Use when building new workflows, designing workflow structure, choosing workflow patterns, planning workflow architecture, or asking about webhook processing, HTTP API integration, database operations, AI agent workflows, batch processing, or scheduled tasks. Always consult this skill when the user asks to create, build, or design an n8n workflow, automate a process, or connect services — even if they don't explicitly mention 'patterns'. Covers webhook, API, database, AI, batch processing, and scheduled automation architectures. Also use when optimizing a slow workflow or speeding up large-item-count processing (node count, batchSize, all-items vs per-item).",
       "slug": "czlonkowski-n8n-workflow-patterns"
     },
     {
@@ -138,10 +166,10 @@
       "skillName": "using-n8n-mcp-skills",
       "path": "skills/using-n8n-mcp-skills/SKILL.md",
       "url": "https://github.com/czlonkowski/n8n-skills/blob/main/skills/using-n8n-mcp-skills/SKILL.md",
-      "description": "Discovered from a public GitHub repository: czlonkowski/n8n-skills",
+      "description": "Use when building, editing, validating, testing, or debugging an n8n workflow through the n8n-mcp MCP server — designing a flow, configuring a node, writing an expression or Code node, wiring credentials, or fixing one that misbehaves. The entry-point skill for the n8n-mcp-skills pack: it routes you to the right specialist skill, gives working knowledge of every n8n-mcp tool from turn one, and states the rules that keep workflows from breaking in production. Always consult it first on any n8n, workflow, node, or automation task — even a quick one-off, and even when the user names no skill — because n8n's surface drifts between versions and the specialist skills prevent silent failures.",
       "slug": "czlonkowski-using-n8n-mcp-skills"
     }
   ],
-  "itemCount": 15,
-  "lastStatus": "reused-unchanged"
+  "itemCount": 16,
+  "lastStatus": "cache-fresh"
 }

@@ -1126,7 +1126,16 @@ export function getFeaturedSkills() {
 }
 
 export function getSkillBySlug(slug: string) {
-  return allSkills.find((skill) => skill.slug === slug);
+  const direct = allSkills.find((skill) => skill.slug === slug);
+  if (direct) {
+    return direct;
+  }
+
+  if (slug.endsWith("-collection")) {
+    return allSkills.find((skill) => skill.slug === slug.replace(/-collection$/, ""));
+  }
+
+  return undefined;
 }
 
 export function getRelatedSkills(

@@ -9,13 +9,27 @@
     {
       "repository": "degausai/wonda",
       "branch": "main",
+      "skillName": "wonda",
+      "path": "README.md",
+      "url": "https://github.com/degausai/wonda",
+      "description": "Discovered from a public GitHub repository: degausai/wonda",
+      "slug": "degausai-wonda-collection",
+      "isCollection": true,
+      "stars": null,
+      "skillPaths": [
+        "skills/wonda-cli/SKILL.md"
+      ]
+    },
+    {
+      "repository": "degausai/wonda",
+      "branch": "main",
       "skillName": "wonda-cli",
       "path": "skills/wonda-cli/SKILL.md",
       "url": "https://github.com/degausai/wonda/blob/main/skills/wonda-cli/SKILL.md",
-      "description": "Discovered from a public GitHub repository: degausai/wonda",
+      "description": "Using the Wonda CLI to generate images, videos, music, and audio from the terminal — plus LinkedIn, Reddit, and X/Twitter research and automation",
       "slug": "degausai-wonda-cli"
     }
   ],
-  "itemCount": 1,
-  "lastStatus": "scanned"
+  "itemCount": 2,
+  "lastStatus": "cache-fresh"
 }

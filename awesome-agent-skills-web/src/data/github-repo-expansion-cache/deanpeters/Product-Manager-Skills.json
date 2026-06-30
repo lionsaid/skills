@@ -9,10 +9,77 @@
     {
       "repository": "deanpeters/Product-Manager-Skills",
       "branch": "main",
+      "skillName": "Product-Manager-Skills",
+      "path": "README.md",
+      "url": "https://github.com/deanpeters/Product-Manager-Skills",
+      "description": "Product Management skills framework built on battle-tested methods for Claude Code, Cowork, Codex, and AI agents.",
+      "slug": "deanpeters-product-manager-skills-collection",
+      "isCollection": true,
+      "stars": null,
+      "skillPaths": [
+        "skills/acquisition-channel-advisor/SKILL.md",
+        "skills/ai-shaped-readiness-advisor/SKILL.md",
+        "skills/altitude-horizon-framework/SKILL.md",
+        "skills/business-health-diagnostic/SKILL.md",
+        "skills/company-intel/SKILL.md",
+        "skills/company-research/SKILL.md",
+        "skills/context-engineering-advisor/SKILL.md",
+        "skills/customer-journey-map/SKILL.md",
+        "skills/customer-journey-mapping-workshop/SKILL.md",
+        "skills/derisk-measurement-advisor/SKILL.md",
+        "skills/director-readiness-advisor/SKILL.md",
+        "skills/discovery-interview-prep/SKILL.md",
+        "skills/discovery-process/SKILL.md",
+        "skills/eol-message/SKILL.md",
+        "skills/epic-breakdown-advisor/SKILL.md",
+        "skills/epic-hypothesis/SKILL.md",
+        "skills/executive-onboarding-playbook/SKILL.md",
+        "skills/feature-investment-advisor/SKILL.md",
+        "skills/finance-based-pricing-advisor/SKILL.md",
+        "skills/finance-metrics-quickref/SKILL.md",
+        "skills/jobs-to-be-done/SKILL.md",
+        "skills/lean-ux-canvas/SKILL.md",
+        "skills/opportunity-solution-tree/SKILL.md",
+        "skills/organic-growth-advisor/SKILL.md",
+        "skills/pestel-analysis/SKILL.md",
+        "skills/pm-skill-creator/SKILL.md",
+        "skills/pol-probe-advisor/SKILL.md",
+        "skills/pol-probe/SKILL.md",
+        "skills/positioning-statement/SKILL.md",
+        "skills/positioning-workshop/SKILL.md",
+        "skills/prd-development/SKILL.md",
+        "skills/press-release/SKILL.md",
+        "skills/prioritization-advisor/SKILL.md",
+        "skills/problem-framing-canvas/SKILL.md",
+        "skills/problem-statement/SKILL.md",
+        "skills/product-sense-interview-answer/SKILL.md",
+        "skills/product-strategy-session/SKILL.md",
+        "skills/proto-persona/SKILL.md",
+        "skills/recommendation-canvas/SKILL.md",
+        "skills/roadmap-planning/SKILL.md",
+        "skills/saas-economics-efficiency-metrics/SKILL.md",
+        "skills/saas-revenue-growth-metrics/SKILL.md",
+        "skills/skill-authoring-workflow/SKILL.md",
+        "skills/stakeholder-engagement-advisor/SKILL.md",
+        "skills/stakeholder-identification/SKILL.md",
+        "skills/stakeholder-mapping/SKILL.md",
+        "skills/storyboard/SKILL.md",
+        "skills/tam-sam-som-calculator/SKILL.md",
+        "skills/user-story-mapping-workshop/SKILL.md",
+        "skills/user-story-mapping/SKILL.md",
+        "skills/user-story-splitting/SKILL.md",
+        "skills/user-story/SKILL.md",
+        "skills/vp-cpo-readiness-advisor/SKILL.md",
+        "skills/workshop-facilitation/SKILL.md"
+      ]
+    },
+    {
+      "repository": "deanpeters/Product-Manager-Skills",
+      "branch": "main",
       "skillName": "acquisition-channel-advisor",
       "path": "skills/acquisition-channel-advisor/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/acquisition-channel-advisor/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Evaluate acquisition channels using unit economics, customer quality, and scalability. Use when deciding whether to scale, test, or kill a growth channel.",
       "slug": "deanpeters-acquisition-channel-advisor"
     },
     {
@@ -21,7 +88,7 @@
       "skillName": "ai-shaped-readiness-advisor",
       "path": "skills/ai-shaped-readiness-advisor/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/ai-shaped-readiness-advisor/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Assess whether your product work is AI-first or AI-shaped. Use when evaluating AI maturity and choosing the next team capability to build.",
       "slug": "deanpeters-ai-shaped-readiness-advisor"
     },
     {
@@ -30,7 +97,7 @@
       "skillName": "altitude-horizon-framework",
       "path": "skills/altitude-horizon-framework/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/altitude-horizon-framework/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Understand the PM-to-Director transition through altitude and horizon thinking. Use when diagnosing scope, time-horizon, or leadership-level gaps.",
       "slug": "deanpeters-altitude-horizon-framework"
     },
     {
@@ -39,7 +106,7 @@
       "skillName": "business-health-diagnostic",
       "path": "skills/business-health-diagnostic/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/business-health-diagnostic/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Diagnose SaaS business health across growth, retention, efficiency, and capital. Use when preparing a business review or prioritizing urgent fixes.",
       "slug": "deanpeters-business-health-diagnostic"
     },
     {
@@ -48,7 +115,7 @@
       "skillName": "company-intel",
       "path": "skills/company-intel/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/company-intel/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Research a company, industry, or competitor set using web search and seven analytical lenses. Use when you need structured intel that feeds downstream PM skills.",
       "slug": "deanpeters-company-intel"
     },
     {
@@ -57,7 +124,7 @@
       "skillName": "company-research",
       "path": "skills/company-research/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/company-research/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Create a company research brief with executive quotes, product strategy, and org context. Use when preparing for interviews, competitive analysis, partnerships, or market-entry work.",
       "slug": "deanpeters-company-research"
     },
     {
@@ -66,7 +133,7 @@
       "skillName": "context-engineering-advisor",
       "path": "skills/context-engineering-advisor/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/context-engineering-advisor/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Diagnose context stuffing vs. context engineering. Use when an AI workflow feels bloated, brittle, or hard to steer reliably.",
       "slug": "deanpeters-context-engineering-advisor"
     },
     {
@@ -75,7 +142,7 @@
       "skillName": "customer-journey-map",
       "path": "skills/customer-journey-map/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/customer-journey-map/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Create a customer journey map across stages, touchpoints, actions, emotions, and metrics. Use when diagnosing a broken experience or aligning a team on the full customer flow.",
       "slug": "deanpeters-customer-journey-map"
     },
     {
@@ -84,7 +151,7 @@
       "skillName": "customer-journey-mapping-workshop",
       "path": "skills/customer-journey-mapping-workshop/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/customer-journey-mapping-workshop/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Run a customer journey mapping workshop with adaptive questions and outputs. Use when you need to map stages, actions, emotions, pain points, and opportunities for a persona and scenario.",
       "slug": "deanpeters-customer-journey-mapping-workshop"
     },
     {
@@ -93,7 +160,7 @@
       "skillName": "derisk-measurement-advisor",
       "path": "skills/derisk-measurement-advisor/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/derisk-measurement-advisor/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Identify what to measure, test, or track to de-risk a product or AI idea. Use when stress-testing an idea across internal (DUFV) and external (PESTEL) dimensions.",
       "slug": "deanpeters-derisk-measurement-advisor"
     },
     {
@@ -102,7 +169,7 @@
       "skillName": "director-readiness-advisor",
       "path": "skills/director-readiness-advisor/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/director-readiness-advisor/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Guide the PM-to-Director transition across preparing, interviewing, landing, and recalibrating. Use when leadership scope is changing and you need practical coaching.",
       "slug": "deanpeters-director-readiness-advisor"
     },
     {
@@ -111,7 +178,7 @@
       "skillName": "discovery-interview-prep",
       "path": "skills/discovery-interview-prep/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/discovery-interview-prep/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Plan customer discovery interviews with the right goal, segment, constraints, and method. Use when preparing interviews for problem validation, churn research, or new product ideas.",
       "slug": "deanpeters-discovery-interview-prep"
     },
     {
@@ -120,7 +187,7 @@
       "skillName": "discovery-process",
       "path": "skills/discovery-process/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/discovery-process/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Run a full discovery cycle from problem hypothesis to validated solution. Use when a team needs a structured path through framing, interviews, synthesis, and experiments.",
       "slug": "deanpeters-discovery-process"
     },
     {
@@ -129,7 +196,7 @@
       "skillName": "eol-message",
       "path": "skills/eol-message/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/eol-message/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Write a clear, empathetic EOL announcement with rationale, customer impact, and next steps. Use when retiring a product, feature, or plan without creating avoidable confusion.",
       "slug": "deanpeters-eol-message"
     },
     {
@@ -138,7 +205,7 @@
       "skillName": "epic-breakdown-advisor",
       "path": "skills/epic-breakdown-advisor/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/epic-breakdown-advisor/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Break down epics into user stories with Humanizing Work split patterns. Use when a backlog item is too large to estimate, sequence, or deliver safely.",
       "slug": "deanpeters-epic-breakdown-advisor"
     },
     {
@@ -147,7 +214,7 @@
       "skillName": "epic-hypothesis",
       "path": "skills/epic-hypothesis/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/epic-hypothesis/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Frame an epic as a testable hypothesis with target user, expected outcome, and validation method. Use when defining a major initiative before roadmap, discovery, or delivery planning.",
       "slug": "deanpeters-epic-hypothesis"
     },
     {
@@ -156,7 +223,7 @@
       "skillName": "executive-onboarding-playbook",
       "path": "skills/executive-onboarding-playbook/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/executive-onboarding-playbook/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Plan a VP or CPO 30-60-90 day diagnostic onboarding path. Use when entering a new executive product role and avoiding premature change.",
       "slug": "deanpeters-executive-onboarding-playbook"
     },
     {
@@ -165,7 +232,7 @@
       "skillName": "feature-investment-advisor",
       "path": "skills/feature-investment-advisor/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/feature-investment-advisor/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Evaluate feature investments using revenue impact, cost structure, ROI, and strategy. Use when deciding whether a feature deserves investment.",
       "slug": "deanpeters-feature-investment-advisor"
     },
     {
@@ -174,7 +241,7 @@
       "skillName": "finance-based-pricing-advisor",
       "path": "skills/finance-based-pricing-advisor/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/finance-based-pricing-advisor/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Evaluate pricing changes using ARPU, conversion, churn risk, NRR, and payback. Use when deciding whether a pricing move should ship.",
       "slug": "deanpeters-finance-based-pricing-advisor"
     },
     {
@@ -183,7 +250,7 @@
       "skillName": "finance-metrics-quickref",
       "path": "skills/finance-metrics-quickref/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/finance-metrics-quickref/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Look up SaaS finance metrics, formulas, and benchmarks fast. Use when you need a quick metric definition, formula, or benchmark during analysis.",
       "slug": "deanpeters-finance-metrics-quickref"
     },
     {
@@ -192,7 +259,7 @@
       "skillName": "jobs-to-be-done",
       "path": "skills/jobs-to-be-done/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/jobs-to-be-done/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Uncover customer jobs, pains, and gains in a structured JTBD format. Use when clarifying unmet needs, repositioning a product, or improving discovery and messaging.",
       "slug": "deanpeters-jobs-to-be-done"
     },
     {
@@ -201,7 +268,7 @@
       "skillName": "lean-ux-canvas",
       "path": "skills/lean-ux-canvas/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/lean-ux-canvas/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Guide teams through Lean UX Canvas v2. Use when framing a business problem, surfacing assumptions, and defining what to learn next.",
       "slug": "deanpeters-lean-ux-canvas"
     },
     {
@@ -210,7 +277,7 @@
       "skillName": "opportunity-solution-tree",
       "path": "skills/opportunity-solution-tree/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/opportunity-solution-tree/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Build an Opportunity Solution Tree from outcomes to opportunities, solutions, and tests. Use when a stakeholder request needs problem framing before you decide what to build.",
       "slug": "deanpeters-opportunity-solution-tree"
     },
     {
@@ -219,7 +286,7 @@
       "skillName": "organic-growth-advisor",
       "path": "skills/organic-growth-advisor/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/organic-growth-advisor/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Identify which organic growth path to pursue — new segments, geographies, channels, or products. Use when diagnosing where a growth constraint lives and which McKinsey growth level to act on next.",
       "slug": "deanpeters-organic-growth-advisor"
     },
     {
@@ -228,7 +295,7 @@
       "skillName": "pestel-analysis",
       "path": "skills/pestel-analysis/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/pestel-analysis/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Analyze political, economic, social, technological, environmental, and legal forces. Use when external market shifts could materially affect a product, roadmap, or strategy.",
       "slug": "deanpeters-pestel-analysis"
     },
     {
@@ -237,7 +304,7 @@
       "skillName": "pm-skill-creator",
       "path": "skills/pm-skill-creator/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/pm-skill-creator/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Design a new PM skill through guided conversation. Use when you have raw content or an idea and want to shape it into a compliant skill.",
       "slug": "deanpeters-pm-skill-creator"
     },
     {
@@ -246,7 +313,7 @@
       "skillName": "pol-probe-advisor",
       "path": "skills/pol-probe-advisor/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/pol-probe-advisor/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Select the right Proof of Life (PoL) probe based on hypothesis, risk, and resources. Use this to match the validation method to the real learning goal, not tooling comfort.",
       "slug": "deanpeters-pol-probe-advisor"
     },
     {
@@ -255,7 +322,7 @@
       "skillName": "pol-probe",
       "path": "skills/pol-probe/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/pol-probe/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Define a Proof of Life probe to test a risky hypothesis cheaply. Use when you need harsh truth before building real product.",
       "slug": "deanpeters-pol-probe"
     },
     {
@@ -264,7 +331,7 @@
       "skillName": "positioning-statement",
       "path": "skills/positioning-statement/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/positioning-statement/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Create a Geoffrey Moore-style positioning statement. Use when clarifying who you serve, what problem you solve, your category, and why you're different from alternatives.",
       "slug": "deanpeters-positioning-statement"
     },
     {
@@ -273,7 +340,7 @@
       "skillName": "positioning-workshop",
       "path": "skills/positioning-workshop/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/positioning-workshop/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Run a positioning workshop that surfaces target customer, unmet need, category, benefits, and differentiation. Use when your product messaging feels fuzzy, generic, or misaligned.",
       "slug": "deanpeters-positioning-workshop"
     },
     {
@@ -282,7 +349,7 @@
       "skillName": "prd-development",
       "path": "skills/prd-development/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/prd-development/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Build a structured PRD that connects problem, users, solution, and success criteria. Use when turning discovery notes into an engineering-ready document for a major initiative.",
       "slug": "deanpeters-prd-development"
     },
     {
@@ -291,7 +358,7 @@
       "skillName": "press-release",
       "path": "skills/press-release/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/press-release/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Write an Amazon-style press release that defines customer value before building. Use when aligning stakeholders on a new product, feature, or strategic bet.",
       "slug": "deanpeters-press-release"
     },
     {
@@ -300,7 +367,7 @@
       "skillName": "prioritization-advisor",
       "path": "skills/prioritization-advisor/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/prioritization-advisor/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Choose a prioritization framework based on stage, team context, and stakeholder needs. Use when deciding between RICE, ICE, value/effort, or another scoring approach.",
       "slug": "deanpeters-prioritization-advisor"
     },
     {
@@ -309,7 +376,7 @@
       "skillName": "problem-framing-canvas",
       "path": "skills/problem-framing-canvas/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/problem-framing-canvas/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Guide teams through MITRE's Problem Framing Canvas. Use when you need a clearer problem statement before jumping to solutions.",
       "slug": "deanpeters-problem-framing-canvas"
     },
     {
@@ -318,7 +385,7 @@
       "skillName": "problem-statement",
       "path": "skills/problem-statement/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/problem-statement/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Write a user-centered problem statement with who is blocked, what they are trying to do, why it matters, and how it feels. Use when framing discovery, prioritization, or a PRD.",
       "slug": "deanpeters-problem-statement"
     },
     {
@@ -327,7 +394,7 @@
       "skillName": "product-sense-interview-answer",
       "path": "skills/product-sense-interview-answer/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/product-sense-interview-answer/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Structure a spoken PM product-sense answer with assumptions, segmentation, pain-point prioritization, and MVP tradeoffs. Use when practicing design, improve, or build-next interview questions.",
       "slug": "deanpeters-product-sense-interview-answer"
     },
     {
@@ -336,7 +403,7 @@
       "skillName": "product-strategy-session",
       "path": "skills/product-strategy-session/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/product-strategy-session/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Run an end-to-end product strategy session across positioning, discovery, and roadmap planning. Use when a team needs validated direction before committing to execution.",
       "slug": "deanpeters-product-strategy-session"
     },
     {
@@ -345,7 +412,7 @@
       "skillName": "proto-persona",
       "path": "skills/proto-persona/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/proto-persona/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Create a proto-persona from current research, market signals, and team knowledge. Use when you need a working customer profile before deeper validation.",
       "slug": "deanpeters-proto-persona"
     },
     {
@@ -354,7 +421,7 @@
       "skillName": "recommendation-canvas",
       "path": "skills/recommendation-canvas/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/recommendation-canvas/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Evaluate an AI product idea across outcomes, hypotheses, risks, and positioning. Use when deciding whether an AI solution deserves investment or recommendation.",
       "slug": "deanpeters-recommendation-canvas"
     },
     {
@@ -363,7 +430,7 @@
       "skillName": "roadmap-planning",
       "path": "skills/roadmap-planning/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/roadmap-planning/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Plan a strategic roadmap across prioritization, epic definition, stakeholder alignment, and sequencing. Use when turning strategy into a release plan that teams can execute.",
       "slug": "deanpeters-roadmap-planning"
     },
     {
@@ -372,7 +439,7 @@
       "skillName": "saas-economics-efficiency-metrics",
       "path": "skills/saas-economics-efficiency-metrics/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/saas-economics-efficiency-metrics/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Evaluate SaaS unit economics and capital efficiency. Use when deciding whether the business can scale efficiently or needs correction.",
       "slug": "deanpeters-saas-economics-efficiency-metrics"
     },
     {
@@ -381,7 +448,7 @@
       "skillName": "saas-revenue-growth-metrics",
       "path": "skills/saas-revenue-growth-metrics/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/saas-revenue-growth-metrics/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Calculate SaaS revenue, retention, and growth metrics. Use when diagnosing momentum, churn, expansion, or product-market-fit signals.",
       "slug": "deanpeters-saas-revenue-growth-metrics"
     },
     {
@@ -390,7 +457,7 @@
       "skillName": "skill-authoring-workflow",
       "path": "skills/skill-authoring-workflow/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/skill-authoring-workflow/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Turn raw PM content into a compliant, publish-ready skill. Use when creating or updating a repo skill without breaking standards.",
       "slug": "deanpeters-skill-authoring-workflow"
     },
     {
@@ -399,7 +466,7 @@
       "skillName": "stakeholder-engagement-advisor",
       "path": "skills/stakeholder-engagement-advisor/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/stakeholder-engagement-advisor/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Plan engagement for a specific stakeholder. Use when preparing an outreach, navigating resistance, or aligning a critical relationship before a key milestone.",
       "slug": "deanpeters-stakeholder-engagement-advisor"
     },
     {
@@ -408,7 +475,7 @@
       "skillName": "stakeholder-identification",
       "path": "skills/stakeholder-identification/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/stakeholder-identification/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Map every stakeholder before engaging anyone. Use when launching an initiative, scoping discovery, or building an engagement plan from scratch.",
       "slug": "deanpeters-stakeholder-identification"
     },
     {
@@ -417,7 +484,7 @@
       "skillName": "stakeholder-mapping",
       "path": "skills/stakeholder-mapping/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/stakeholder-mapping/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Prioritize stakeholders using two complementary grids. Use when setting engagement strategy and surfacing whose voice needs elevating after stakeholder identification.",
       "slug": "deanpeters-stakeholder-mapping"
     },
     {
@@ -426,7 +493,7 @@
       "skillName": "storyboard",
       "path": "skills/storyboard/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/storyboard/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Create a six-frame storyboard that shows a user's journey from problem to solution. Use when you need a fast narrative for alignment, concept reviews, or demos.",
       "slug": "deanpeters-storyboard"
     },
     {
@@ -435,7 +502,7 @@
       "skillName": "tam-sam-som-calculator",
       "path": "skills/tam-sam-som-calculator/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/tam-sam-som-calculator/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Calculate TAM, SAM, and SOM with explicit assumptions, methods, and caveats. Use when sizing a market for a product idea, business case, or executive review.",
       "slug": "deanpeters-tam-sam-som-calculator"
     },
     {
@@ -444,7 +511,7 @@
       "skillName": "user-story-mapping-workshop",
       "path": "skills/user-story-mapping-workshop/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/user-story-mapping-workshop/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Run a user story mapping workshop with adaptive questions and a structured map output. Use when you need backbone activities, tasks, and release slices for a workflow.",
       "slug": "deanpeters-user-story-mapping-workshop"
     },
     {
@@ -453,7 +520,7 @@
       "skillName": "user-story-mapping",
       "path": "skills/user-story-mapping/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/user-story-mapping/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Create a user story map that lays out activities, steps, tasks, and release slices. Use when planning a workflow, backlog, or MVP around the user journey.",
       "slug": "deanpeters-user-story-mapping"
     },
     {
@@ -462,7 +529,7 @@
       "skillName": "user-story-splitting",
       "path": "skills/user-story-splitting/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/user-story-splitting/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Break a large story or epic into smaller deliverable stories using proven split patterns. Use when backlog items are too big for estimation, sequencing, or independent release.",
       "slug": "deanpeters-user-story-splitting"
     },
     {
@@ -471,7 +538,7 @@
       "skillName": "user-story",
       "path": "skills/user-story/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/user-story/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Create user stories with Mike Cohn format and Gherkin acceptance criteria. Use when turning user needs into development-ready work with clear outcomes and testable conditions.",
       "slug": "deanpeters-user-story"
     },
     {
@@ -480,7 +547,7 @@
       "skillName": "vp-cpo-readiness-advisor",
       "path": "skills/vp-cpo-readiness-advisor/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/vp-cpo-readiness-advisor/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Guide the transition to VP or CPO across preparing, interviewing, landing, and recalibrating. Use when executive product scope is changing fast.",
       "slug": "deanpeters-vp-cpo-readiness-advisor"
     },
     {
@@ -489,10 +556,10 @@
       "skillName": "workshop-facilitation",
       "path": "skills/workshop-facilitation/SKILL.md",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/workshop-facilitation/SKILL.md",
-      "description": "Discovered from a public GitHub repository: deanpeters/Product-Manager-Skills",
+      "description": "Facilitate workshop sessions in a one-step, multi-turn flow. Use when an interactive skill needs consistent pacing, options, and progress tracking.",
       "slug": "deanpeters-workshop-facilitation"
     }
   ],
-  "itemCount": 54,
-  "lastStatus": "reused-unchanged"
+  "itemCount": 55,
+  "lastStatus": "cache-fresh"
 }

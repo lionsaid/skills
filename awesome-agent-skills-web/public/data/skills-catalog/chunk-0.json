@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-30T00:38:45.567Z",
+  "generatedAt": "2026-06-30T04:04:15.235Z",
   "chunkIndex": 0,
-  "totalSkills": 5100,
+  "totalSkills": 8512,
   "skills": [
     {
       "slug": "anthropics-docx",
@@ -16,6 +16,7 @@
         "anthropics",
         "design",
         "documents",
+        "github-discovery",
         "namespaced",
         "official-claude-skills",
         "official-skills",
@@ -32,7 +33,10 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/anthropics.png?size=88",
       "creatorHandle": "anthropics",
       "hasPublisherLogo": true,
@@ -52,6 +56,7 @@
         "anthropics",
         "design",
         "documents",
+        "github-discovery",
         "namespaced",
         "official-claude-skills",
         "official-skills",
@@ -70,7 +75,10 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/anthropics.png?size=88",
       "creatorHandle": "anthropics",
       "hasPublisherLogo": true,
@@ -90,6 +98,7 @@
         "anthropics",
         "design",
         "documents",
+        "github-discovery",
         "namespaced",
         "official-claude-skills",
         "official-skills",
@@ -109,7 +118,10 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/anthropics.png?size=88",
       "creatorHandle": "anthropics",
       "hasPublisherLogo": true,
@@ -129,6 +141,7 @@
         "anthropics",
         "design",
         "documents",
+        "github-discovery",
         "namespaced",
         "official-claude-skills",
         "official-skills",
@@ -145,7 +158,10 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/anthropics.png?size=88",
       "creatorHandle": "anthropics",
       "hasPublisherLogo": true,
@@ -165,6 +181,7 @@
         "anthropics",
         "design",
         "documents",
+        "github-discovery",
         "namespaced",
         "official-claude-skills",
         "official-skills",
@@ -181,7 +198,10 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/anthropics.png?size=88",
       "creatorHandle": "anthropics",
       "hasPublisherLogo": true,
@@ -201,309 +221,7 @@
         "anthropics",
         "design",
         "documents",
-        "namespaced",
-        "official-claude-skills",
-        "official-skills",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "designer",
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "design-critique",
-        "development-workflows",
-        "presentation-building",
-        "testing-debugging",
-        "ui-ux-design",
-        "visual-assets",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/anthropics.png?size=88",
-      "creatorHandle": "anthropics",
-      "hasPublisherLogo": true,
-      "stars": 155684,
-      "forks": 18337
-    },
-    {
-      "slug": "anthropics-canvas-design",
-      "name": "anthropics/canvas-design",
-      "description": "Design visual art in PNG and PDF formats",
-      "publisher": "anthropics",
-      "publisherSlug": "anthropics",
-      "sectionTitle": "Official Claude Skills",
-      "kind": "official",
-      "tags": [
-        "ai",
-        "anthropics",
-        "design",
-        "documents",
-        "namespaced",
-        "official-claude-skills",
-        "official-skills",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "content-creator",
-        "designer",
-        "marketer"
-      ],
-      "jobs": [
-        "content-production",
-        "visual-assets"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/anthropics.png?size=88",
-      "creatorHandle": "anthropics",
-      "hasPublisherLogo": true,
-      "stars": 155684,
-      "forks": 18337
-    },
-    {
-      "slug": "anthropics-frontend-design",
-      "name": "anthropics/frontend-design",
-      "description": "Frontend design and UI/UX development tools",
-      "publisher": "anthropics",
-      "publisherSlug": "anthropics",
-      "sectionTitle": "Official Claude Skills",
-      "kind": "official",
-      "tags": [
-        "ai",
-        "anthropics",
-        "design",
-        "documents",
-        "namespaced",
-        "official-claude-skills",
-        "official-skills",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "designer",
-        "engineer",
-        "marketer"
-      ],
-      "jobs": [
-        "landing-pages",
-        "ui-ux-design",
-        "visual-assets"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/anthropics.png?size=88",
-      "creatorHandle": "anthropics",
-      "hasPublisherLogo": true,
-      "stars": 155684,
-      "forks": 18337
-    },
-    {
-      "slug": "anthropics-slack-gif-creator",
-      "name": "anthropics/slack-gif-creator",
-      "description": "Create animated GIFs optimized for Slack size constraints",
-      "publisher": "anthropics",
-      "publisherSlug": "anthropics",
-      "sectionTitle": "Official Claude Skills",
-      "kind": "official",
-      "tags": [
-        "ai",
-        "anthropics",
-        "design",
-        "documents",
-        "namespaced",
-        "official-claude-skills",
-        "official-skills",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "designer",
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "design-critique",
-        "development-workflows",
-        "presentation-building",
-        "testing-debugging",
-        "ui-ux-design",
-        "visual-assets",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/anthropics.png?size=88",
-      "creatorHandle": "anthropics",
-      "hasPublisherLogo": true,
-      "stars": 155684,
-      "forks": 18337
-    },
-    {
-      "slug": "anthropics-theme-factory",
-      "name": "anthropics/theme-factory",
-      "description": "Style artifacts with professional themes or generate custom themes",
-      "publisher": "anthropics",
-      "publisherSlug": "anthropics",
-      "sectionTitle": "Official Claude Skills",
-      "kind": "official",
-      "tags": [
-        "ai",
-        "anthropics",
-        "design",
-        "documents",
-        "namespaced",
-        "official-claude-skills",
-        "official-skills",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "consultant",
-        "designer",
-        "marketer"
-      ],
-      "jobs": [
-        "presentation-building",
-        "visual-assets"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/anthropics.png?size=88",
-      "creatorHandle": "anthropics",
-      "hasPublisherLogo": true,
-      "stars": 155684,
-      "forks": 18337
-    },
-    {
-      "slug": "anthropics-web-artifacts-builder",
-      "name": "anthropics/web-artifacts-builder",
-      "description": "Build complex claude.ai HTML artifacts with React and Tailwind",
-      "publisher": "anthropics",
-      "publisherSlug": "anthropics",
-      "sectionTitle": "Official Claude Skills",
-      "kind": "official",
-      "tags": [
-        "ai",
-        "anthropics",
-        "design",
-        "documents",
-        "namespaced",
-        "official-claude-skills",
-        "official-skills",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "designer",
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "design-critique",
-        "development-workflows",
-        "presentation-building",
-        "testing-debugging",
-        "ui-ux-design",
-        "visual-assets",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/anthropics.png?size=88",
-      "creatorHandle": "anthropics",
-      "hasPublisherLogo": true,
-      "stars": 155684,
-      "forks": 18337
-    },
-    {
-      "slug": "anthropics-mcp-builder",
-      "name": "anthropics/mcp-builder",
-      "description": "Create MCP servers to integrate external APIs and services",
-      "publisher": "anthropics",
-      "publisherSlug": "anthropics",
-      "sectionTitle": "Official Claude Skills",
-      "kind": "official",
-      "tags": [
-        "ai",
-        "anthropics",
-        "design",
-        "documents",
-        "namespaced",
-        "official-claude-skills",
-        "official-skills",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "development-workflows"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/anthropics.png?size=88",
-      "creatorHandle": "anthropics",
-      "hasPublisherLogo": true,
-      "stars": 155684,
-      "forks": 18337
-    },
-    {
-      "slug": "anthropics-webapp-testing",
-      "name": "anthropics/webapp-testing",
-      "description": "Test local web applications using Playwright",
-      "publisher": "anthropics",
-      "publisherSlug": "anthropics",
-      "sectionTitle": "Official Claude Skills",
-      "kind": "official",
-      "tags": [
-        "ai",
-        "anthropics",
-        "design",
-        "documents",
-        "namespaced",
-        "official-claude-skills",
-        "official-skills",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "development-workflows",
-        "testing-debugging"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/anthropics.png?size=88",
-      "creatorHandle": "anthropics",
-      "hasPublisherLogo": true,
-      "stars": 155684,
-      "forks": 18337
-    },
-    {
-      "slug": "anthropics-brand-guidelines",
-      "name": "anthropics/brand-guidelines",
-      "description": "Apply Anthropic's brand colors and typography to artifacts",
-      "publisher": "anthropics",
-      "publisherSlug": "anthropics",
-      "sectionTitle": "Official Claude Skills",
-      "kind": "official",
-      "tags": [
-        "ai",
-        "anthropics",
-        "design",
-        "documents",
+        "github-discovery",
         "namespaced",
         "official-claude-skills",
         "official-skills",
@@ -532,7 +250,10 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/anthropics.png?size=88",
       "creatorHandle": "anthropics",
       "hasPublisherLogo": true,
@@ -540,9 +261,9 @@
       "forks": 18337
     },
     {
-      "slug": "anthropics-internal-comms",
-      "name": "anthropics/internal-comms",
-      "description": "Write status reports, newsletters, and FAQs",
+      "slug": "anthropics-canvas-design",
+      "name": "anthropics/canvas-design",
+      "description": "Design visual art in PNG and PDF formats",
       "publisher": "anthropics",
       "publisherSlug": "anthropics",
       "sectionTitle": "Official Claude Skills",
@@ -552,6 +273,7 @@
         "anthropics",
         "design",
         "documents",
+        "github-discovery",
         "namespaced",
         "official-claude-skills",
         "official-skills",
@@ -559,20 +281,19 @@
       ],
       "personas": [
         "content-creator",
-        "founder",
-        "marketer",
-        "pm",
-        "sales"
+        "designer",
+        "marketer"
       ],
       "jobs": [
-        "campaign-planning",
         "content-production",
-        "document-authoring",
-        "reporting"
+        "visual-assets"
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/anthropics.png?size=88",
       "creatorHandle": "anthropics",
       "hasPublisherLogo": true,
@@ -580,9 +301,9 @@
       "forks": 18337
     },
     {
-      "slug": "anthropics-skill-creator",
-      "name": "anthropics/skill-creator",
-      "description": "Guide for creating skills that extend Claude's capabilities",
+      "slug": "anthropics-frontend-design",
+      "name": "anthropics/frontend-design",
+      "description": "Frontend design and UI/UX development tools",
       "publisher": "anthropics",
       "publisherSlug": "anthropics",
       "sectionTitle": "Official Claude Skills",
@@ -592,6 +313,48 @@
         "anthropics",
         "design",
         "documents",
+        "github-discovery",
+        "namespaced",
+        "official-claude-skills",
+        "official-skills",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "designer",
+        "engineer",
+        "marketer"
+      ],
+      "jobs": [
+        "landing-pages",
+        "ui-ux-design",
+        "visual-assets"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/anthropics.png?size=88",
+      "creatorHandle": "anthropics",
+      "hasPublisherLogo": true,
+      "stars": 155684,
+      "forks": 18337
+    },
+    {
+      "slug": "anthropics-slack-gif-creator",
+      "name": "anthropics/slack-gif-creator",
+      "description": "Create animated GIFs optimized for Slack size constraints",
+      "publisher": "anthropics",
+      "publisherSlug": "anthropics",
+      "sectionTitle": "Official Claude Skills",
+      "kind": "official",
+      "tags": [
+        "ai",
+        "anthropics",
+        "design",
+        "documents",
+        "github-discovery",
         "namespaced",
         "official-claude-skills",
         "official-skills",
@@ -614,7 +377,320 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/anthropics.png?size=88",
+      "creatorHandle": "anthropics",
+      "hasPublisherLogo": true,
+      "stars": 155684,
+      "forks": 18337
+    },
+    {
+      "slug": "anthropics-theme-factory",
+      "name": "anthropics/theme-factory",
+      "description": "Style artifacts with professional themes or generate custom themes",
+      "publisher": "anthropics",
+      "publisherSlug": "anthropics",
+      "sectionTitle": "Official Claude Skills",
+      "kind": "official",
+      "tags": [
+        "ai",
+        "anthropics",
+        "design",
+        "documents",
+        "github-discovery",
+        "namespaced",
+        "official-claude-skills",
+        "official-skills",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "consultant",
+        "designer",
+        "marketer"
+      ],
+      "jobs": [
+        "presentation-building",
+        "visual-assets"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/anthropics.png?size=88",
+      "creatorHandle": "anthropics",
+      "hasPublisherLogo": true,
+      "stars": 155684,
+      "forks": 18337
+    },
+    {
+      "slug": "anthropics-web-artifacts-builder",
+      "name": "anthropics/web-artifacts-builder",
+      "description": "Build complex claude.ai HTML artifacts with React and Tailwind",
+      "publisher": "anthropics",
+      "publisherSlug": "anthropics",
+      "sectionTitle": "Official Claude Skills",
+      "kind": "official",
+      "tags": [
+        "ai",
+        "anthropics",
+        "design",
+        "documents",
+        "github-discovery",
+        "namespaced",
+        "official-claude-skills",
+        "official-skills",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "designer",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "design-critique",
+        "development-workflows",
+        "presentation-building",
+        "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/anthropics.png?size=88",
+      "creatorHandle": "anthropics",
+      "hasPublisherLogo": true,
+      "stars": 155684,
+      "forks": 18337
+    },
+    {
+      "slug": "anthropics-mcp-builder",
+      "name": "anthropics/mcp-builder",
+      "description": "Create MCP servers to integrate external APIs and services",
+      "publisher": "anthropics",
+      "publisherSlug": "anthropics",
+      "sectionTitle": "Official Claude Skills",
+      "kind": "official",
+      "tags": [
+        "ai",
+        "anthropics",
+        "design",
+        "documents",
+        "github-discovery",
+        "namespaced",
+        "official-claude-skills",
+        "official-skills",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "development-workflows"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/anthropics.png?size=88",
+      "creatorHandle": "anthropics",
+      "hasPublisherLogo": true,
+      "stars": 155684,
+      "forks": 18337
+    },
+    {
+      "slug": "anthropics-webapp-testing",
+      "name": "anthropics/webapp-testing",
+      "description": "Test local web applications using Playwright",
+      "publisher": "anthropics",
+      "publisherSlug": "anthropics",
+      "sectionTitle": "Official Claude Skills",
+      "kind": "official",
+      "tags": [
+        "ai",
+        "anthropics",
+        "design",
+        "documents",
+        "github-discovery",
+        "namespaced",
+        "official-claude-skills",
+        "official-skills",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "development-workflows",
+        "testing-debugging"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/anthropics.png?size=88",
+      "creatorHandle": "anthropics",
+      "hasPublisherLogo": true,
+      "stars": 155684,
+      "forks": 18337
+    },
+    {
+      "slug": "anthropics-brand-guidelines",
+      "name": "anthropics/brand-guidelines",
+      "description": "Apply Anthropic's brand colors and typography to artifacts",
+      "publisher": "anthropics",
+      "publisherSlug": "anthropics",
+      "sectionTitle": "Official Claude Skills",
+      "kind": "official",
+      "tags": [
+        "ai",
+        "anthropics",
+        "design",
+        "documents",
+        "github-discovery",
+        "namespaced",
+        "official-claude-skills",
+        "official-skills",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "designer",
+        "engineer",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "design-critique",
+        "development-workflows",
+        "landing-pages",
+        "presentation-building",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/anthropics.png?size=88",
+      "creatorHandle": "anthropics",
+      "hasPublisherLogo": true,
+      "stars": 155684,
+      "forks": 18337
+    },
+    {
+      "slug": "anthropics-internal-comms",
+      "name": "anthropics/internal-comms",
+      "description": "Write status reports, newsletters, and FAQs",
+      "publisher": "anthropics",
+      "publisherSlug": "anthropics",
+      "sectionTitle": "Official Claude Skills",
+      "kind": "official",
+      "tags": [
+        "ai",
+        "anthropics",
+        "design",
+        "documents",
+        "github-discovery",
+        "namespaced",
+        "official-claude-skills",
+        "official-skills",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "content-creator",
+        "founder",
+        "marketer",
+        "pm",
+        "sales"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "document-authoring",
+        "reporting"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/anthropics.png?size=88",
+      "creatorHandle": "anthropics",
+      "hasPublisherLogo": true,
+      "stars": 155684,
+      "forks": 18337
+    },
+    {
+      "slug": "anthropics-skill-creator",
+      "name": "anthropics/skill-creator",
+      "description": "Guide for creating skills that extend Claude's capabilities",
+      "publisher": "anthropics",
+      "publisherSlug": "anthropics",
+      "sectionTitle": "Official Claude Skills",
+      "kind": "official",
+      "tags": [
+        "ai",
+        "anthropics",
+        "design",
+        "documents",
+        "github-discovery",
+        "namespaced",
+        "official-claude-skills",
+        "official-skills",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "data-analyst",
+        "designer",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "design-critique",
+        "development-workflows",
+        "presentation-building",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/anthropics.png?size=88",
       "creatorHandle": "anthropics",
       "hasPublisherLogo": true,
@@ -969,6 +1045,7 @@
       "kind": "official",
       "tags": [
         "ai",
+        "github-discovery",
         "google-gemini",
         "namespaced",
         "official-skills",
@@ -976,19 +1053,30 @@
         "skills-by-google-gemini"
       ],
       "personas": [
-        "engineer"
+        "engineer",
+        "marketer"
       ],
       "jobs": [
         "api-integration",
+        "campaign-planning",
+        "content-production",
         "deployment-ops",
         "development-workflows",
+        "landing-pages",
+        "prd-specs",
+        "reporting",
+        "research-synthesis",
         "testing-debugging",
         "ui-ux-design",
+        "visual-assets",
         "workflow-automation"
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/google-gemini.png?size=88",
       "creatorHandle": "google-gemini",
       "hasPublisherLogo": true,
@@ -1041,6 +1129,7 @@
       "kind": "official",
       "tags": [
         "ai",
+        "github-discovery",
         "google-gemini",
         "namespaced",
         "official-skills",
@@ -1060,7 +1149,10 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/google-gemini.png?size=88",
       "creatorHandle": "google-gemini",
       "hasPublisherLogo": true,
@@ -1077,6 +1169,7 @@
       "kind": "official",
       "tags": [
         "ai",
+        "github-discovery",
         "google-gemini",
         "namespaced",
         "official-skills",
@@ -1084,12 +1177,19 @@
         "skills-by-google-gemini"
       ],
       "personas": [
-        "engineer"
+        "engineer",
+        "marketer"
       ],
       "jobs": [
         "api-integration",
+        "campaign-planning",
+        "content-production",
         "deployment-ops",
         "development-workflows",
+        "document-authoring",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
         "testing-debugging",
         "ui-ux-design",
         "visual-assets",
@@ -1097,7 +1197,10 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/google-gemini.png?size=88",
       "creatorHandle": "google-gemini",
       "hasPublisherLogo": true,
@@ -2821,6 +2924,7 @@
       "sectionTitle": "Skills by Remotion",
       "kind": "official",
       "tags": [
+        "github-discovery",
         "media",
         "namespaced",
         "official-skills",
@@ -2840,7 +2944,10 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/remotion-dev.png?size=88",
       "creatorHandle": "remotion-dev",
       "hasPublisherLogo": true,
@@ -2927,6 +3034,7 @@
       "sectionTitle": "Skills by Venice.ai",
       "kind": "official",
       "tags": [
+        "ai",
         "github-discovery",
         "media",
         "namespaced",
@@ -2938,10 +3046,12 @@
       "personas": [
         "engineer",
         "founder",
-        "sales"
+        "sales",
+        "support"
       ],
       "jobs": [
         "api-integration",
+        "data-extraction",
         "deployment-ops",
         "development-workflows",
         "document-authoring",
@@ -3035,6 +3145,7 @@
         "reporting",
         "research-synthesis",
         "testing-debugging",
+        "visual-assets",
         "workflow-automation"
       ],
       "sourceType": "github-readme",
@@ -3109,12 +3220,16 @@
         "veniceai"
       ],
       "personas": [
-        "engineer"
+        "engineer",
+        "support"
       ],
       "jobs": [
         "api-integration",
+        "data-extraction",
         "deployment-ops",
         "development-workflows",
+        "document-authoring",
+        "reporting",
         "testing-debugging",
         "workflow-automation"
       ],
@@ -3149,12 +3264,17 @@
         "veniceai"
       ],
       "personas": [
-        "engineer"
+        "engineer",
+        "support"
       ],
       "jobs": [
         "api-integration",
+        "data-extraction",
         "deployment-ops",
         "development-workflows",
+        "document-authoring",
+        "prd-specs",
+        "reporting",
         "testing-debugging",
         "visual-assets",
         "workflow-automation"
@@ -3180,6 +3300,7 @@
       "sectionTitle": "Skills by Venice.ai",
       "kind": "official",
       "tags": [
+        "ai",
         "github-discovery",
         "media",
         "namespaced",
@@ -3260,6 +3381,7 @@
       "sectionTitle": "Skills by Venice.ai",
       "kind": "official",
       "tags": [
+        "ai",
         "github-discovery",
         "media",
         "namespaced",
@@ -3269,12 +3391,16 @@
         "veniceai"
       ],
       "personas": [
-        "engineer"
+        "engineer",
+        "sales"
       ],
       "jobs": [
         "api-integration",
         "deployment-ops",
         "development-workflows",
+        "document-authoring",
+        "presentation-building",
+        "reporting",
         "testing-debugging",
         "workflow-automation"
       ],
@@ -3309,12 +3435,16 @@
         "veniceai"
       ],
       "personas": [
-        "engineer"
+        "engineer",
+        "support"
       ],
       "jobs": [
         "api-integration",
+        "data-extraction",
         "deployment-ops",
         "development-workflows",
+        "document-authoring",
+        "reporting",
         "testing-debugging",
         "workflow-automation"
       ],
@@ -3348,12 +3478,18 @@
         "veniceai"
       ],
       "personas": [
-        "engineer"
+        "engineer",
+        "sales",
+        "support"
       ],
       "jobs": [
         "api-integration",
+        "data-extraction",
         "deployment-ops",
         "development-workflows",
+        "document-authoring",
+        "presentation-building",
+        "reporting",
         "testing-debugging",
         "visual-assets",
         "workflow-automation"
@@ -3433,6 +3569,7 @@
       "sectionTitle": "Skills by Venice.ai",
       "kind": "official",
       "tags": [
+        "ai",
         "github-discovery",
         "media",
         "namespaced",
@@ -3535,6 +3672,7 @@
         "spreadsheet-cleaning",
         "sql-analysis",
         "testing-debugging",
+        "ui-ux-design",
         "workflow-automation"
       ],
       "sourceType": "github-readme",
@@ -3565,8 +3703,16 @@
         "skills-by-venice-ai",
         "veniceai"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "support"
+      ],
+      "jobs": [
+        "data-extraction",
+        "document-authoring",
+        "reporting",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
       "sourceType": "github-readme",
       "trustLevel": "curated",
       "riskFlags": [
@@ -3588,6 +3734,7 @@
       "sectionTitle": "Skills by Venice.ai",
       "kind": "official",
       "tags": [
+        "ai",
         "github-discovery",
         "media",
         "namespaced",
@@ -3595,8 +3742,24 @@
         "skills-by-venice-ai",
         "veniceai"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "engineer",
+        "founder",
+        "sales"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "landing-pages",
+        "planning-roadmapping",
+        "presentation-building",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
       "sourceType": "github-readme",
       "trustLevel": "curated",
       "riskFlags": [
@@ -3618,6 +3781,7 @@
       "sectionTitle": "Skills by Venice.ai",
       "kind": "official",
       "tags": [
+        "ai",
         "github-discovery",
         "media",
         "namespaced",
@@ -3626,13 +3790,25 @@
         "veniceai"
       ],
       "personas": [
-        "engineer"
+        "data-analyst",
+        "engineer",
+        "marketer",
+        "support"
       ],
       "jobs": [
         "api-integration",
+        "campaign-planning",
+        "content-production",
+        "dashboarding",
+        "data-extraction",
         "deployment-ops",
         "development-workflows",
+        "document-authoring",
+        "landing-pages",
+        "reporting",
         "research-synthesis",
+        "spreadsheet-cleaning",
+        "sql-analysis",
         "testing-debugging",
         "workflow-automation"
       ],
@@ -3657,6 +3833,7 @@
       "sectionTitle": "Skills by Venice.ai",
       "kind": "official",
       "tags": [
+        "ai",
         "github-discovery",
         "media",
         "namespaced",
@@ -3665,13 +3842,22 @@
         "veniceai"
       ],
       "personas": [
-        "engineer"
+        "engineer",
+        "founder",
+        "marketer"
       ],
       "jobs": [
         "api-integration",
+        "campaign-planning",
+        "content-production",
         "deployment-ops",
         "development-workflows",
+        "landing-pages",
+        "planning-roadmapping",
+        "reporting",
+        "research-synthesis",
         "testing-debugging",
+        "ui-ux-design",
         "workflow-automation"
       ],
       "sourceType": "github-readme",
@@ -4743,6 +4929,7 @@
       "sectionTitle": "Skills by Google Workspace CLI",
       "kind": "official",
       "tags": [
+        "github-discovery",
         "googleworkspace",
         "namespaced",
         "official-skills",
@@ -4761,7 +4948,10 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
@@ -4777,6 +4967,7 @@
       "sectionTitle": "Skills by Google Workspace CLI",
       "kind": "official",
       "tags": [
+        "github-discovery",
         "googleworkspace",
         "namespaced",
         "official-skills",
@@ -4795,7 +4986,10 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
@@ -4812,6 +5006,7 @@
       "kind": "official",
       "tags": [
         "documents",
+        "github-discovery",
         "googleworkspace",
         "namespaced",
         "official-skills",
@@ -4830,7 +5025,10 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
@@ -4846,6 +5044,7 @@
       "sectionTitle": "Skills by Google Workspace CLI",
       "kind": "official",
       "tags": [
+        "github-discovery",
         "googleworkspace",
         "namespaced",
         "official-skills",
@@ -4864,7 +5063,10 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
@@ -4880,6 +5082,7 @@
       "sectionTitle": "Skills by Google Workspace CLI",
       "kind": "official",
       "tags": [
+        "github-discovery",
         "googleworkspace",
         "namespaced",
         "official-skills",
@@ -4898,7 +5101,10 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
@@ -4914,6 +5120,7 @@
       "sectionTitle": "Skills by Google Workspace CLI",
       "kind": "official",
       "tags": [
+        "github-discovery",
         "googleworkspace",
         "namespaced",
         "official-skills",
@@ -4932,7 +5139,10 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
@@ -4949,6 +5159,7 @@
       "kind": "official",
       "tags": [
         "documents",
+        "github-discovery",
         "googleworkspace",
         "namespaced",
         "official-skills",
@@ -4971,7 +5182,10 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
@@ -4988,6 +5202,7 @@
       "kind": "official",
       "tags": [
         "documents",
+        "github-discovery",
         "googleworkspace",
         "namespaced",
         "official-skills",
@@ -5008,7 +5223,10 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
@@ -5024,6 +5242,7 @@
       "sectionTitle": "Skills by Google Workspace CLI",
       "kind": "official",
       "tags": [
+        "github-discovery",
         "googleworkspace",
         "namespaced",
         "official-skills",
@@ -5042,7 +5261,10 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
@@ -5058,6 +5280,7 @@
       "sectionTitle": "Skills by Google Workspace CLI",
       "kind": "official",
       "tags": [
+        "github-discovery",
         "googleworkspace",
         "namespaced",
         "official-skills",
@@ -5076,7 +5299,10 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
@@ -5092,6 +5318,7 @@
       "sectionTitle": "Skills by Google Workspace CLI",
       "kind": "official",
       "tags": [
+        "github-discovery",
         "googleworkspace",
         "namespaced",
         "official-skills",
@@ -5110,7 +5337,10 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
@@ -5126,6 +5356,7 @@
       "sectionTitle": "Skills by Google Workspace CLI",
       "kind": "official",
       "tags": [
+        "github-discovery",
         "googleworkspace",
         "namespaced",
         "official-skills",
@@ -5144,7 +5375,10 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
@@ -5160,6 +5394,7 @@
       "sectionTitle": "Skills by Google Workspace CLI",
       "kind": "official",
       "tags": [
+        "github-discovery",
         "googleworkspace",
         "namespaced",
         "official-skills",
@@ -5178,7 +5413,10 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
@@ -5194,6 +5432,7 @@
       "sectionTitle": "Skills by Google Workspace CLI",
       "kind": "official",
       "tags": [
+        "github-discovery",
         "googleworkspace",
         "namespaced",
         "official-skills",
@@ -5212,7 +5451,10 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
@@ -5228,6 +5470,7 @@
       "sectionTitle": "Skills by Google Workspace CLI",
       "kind": "official",
       "tags": [
+        "github-discovery",
         "googleworkspace",
         "namespaced",
         "official-skills",
@@ -5246,7 +5489,10 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
@@ -5262,6 +5508,7 @@
       "sectionTitle": "Skills by Google Workspace CLI",
       "kind": "official",
       "tags": [
+        "github-discovery",
         "googleworkspace",
         "namespaced",
         "official-skills",
@@ -5286,7 +5533,10 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
@@ -5302,6 +5552,7 @@
       "sectionTitle": "Skills by Google Workspace CLI",
       "kind": "official",
       "tags": [
+        "github-discovery",
         "googleworkspace",
         "namespaced",
         "official-skills",
@@ -5320,7 +5571,10 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
@@ -5731,6 +5985,7 @@
       "sectionTitle": "Skills by Hugging Face Team",
       "kind": "official",
       "tags": [
+        "github-discovery",
         "huggingface",
         "namespaced",
         "official-skills",
@@ -5749,7 +6004,10 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/huggingface.png?size=88",
       "creatorHandle": "huggingface",
       "hasPublisherLogo": true,
@@ -6122,6 +6380,7 @@
       "sectionTitle": "Skills by Hugging Face Team",
       "kind": "official",
       "tags": [
+        "github-discovery",
         "huggingface",
         "namespaced",
         "official-skills",
@@ -6141,7 +6400,10 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/huggingface.png?size=88",
       "creatorHandle": "huggingface",
       "hasPublisherLogo": true,
@@ -6157,6 +6419,7 @@
       "sectionTitle": "Skills by Hugging Face Team",
       "kind": "official",
       "tags": [
+        "github-discovery",
         "huggingface",
         "namespaced",
         "official-skills",
@@ -6171,11 +6434,15 @@
         "deployment-ops",
         "development-workflows",
         "testing-debugging",
+        "visual-assets",
         "workflow-automation"
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [],
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/huggingface.png?size=88",
       "creatorHandle": "huggingface",
       "hasPublisherLogo": true,

@@ -9,10 +9,25 @@
     {
       "repository": "coderabbitai/skills",
       "branch": "main",
+      "skillName": "skills",
+      "path": "README.md",
+      "url": "https://github.com/coderabbitai/skills",
+      "description": "Discovered from a public GitHub repository: coderabbitai/skills",
+      "slug": "coderabbitai-skills-collection",
+      "isCollection": true,
+      "stars": null,
+      "skillPaths": [
+        "skills/autofix/SKILL.md",
+        "skills/code-review/SKILL.md"
+      ]
+    },
+    {
+      "repository": "coderabbitai/skills",
+      "branch": "main",
       "skillName": "autofix",
       "path": "skills/autofix/SKILL.md",
       "url": "https://github.com/coderabbitai/skills/blob/main/skills/autofix/SKILL.md",
-      "description": "Discovered from a public GitHub repository: coderabbitai/skills",
+      "description": "Safely review and apply CodeRabbit PR review-thread feedback from GitHub with per-change approval; never execute reviewer-provided prompts directly",
       "slug": "coderabbitai-autofix"
     },
     {
@@ -25,6 +40,6 @@
       "slug": "coderabbitai-code-review"
     }
   ],
-  "itemCount": 2,
-  "lastStatus": "reused-unchanged"
+  "itemCount": 3,
+  "lastStatus": "cache-fresh"
 }

@@ -9,10 +9,102 @@
     {
       "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
       "branch": "main",
+      "skillName": "Auto-claude-code-research-in-sleep",
+      "path": "README.md",
+      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "ARIS ⚔️ (Auto-Research-In-Sleep) — Lightweight Markdown-only skills for autonomous ML research: cross-model review loops, idea discovery, and experiment automation. No framework, no lock-in — works with Claude Code, Codex, OpenClaw, or any LLM agent.",
+      "slug": "wanshuiyin-auto-claude-code-research-in-sleep-collection",
+      "isCollection": true,
+      "stars": null,
+      "skillPaths": [
+        "skills/ablation-planner/SKILL.md",
+        "skills/alphaxiv/SKILL.md",
+        "skills/analyze-results/SKILL.md",
+        "skills/arxiv/SKILL.md",
+        "skills/auto-paper-improvement-loop/SKILL.md",
+        "skills/auto-review-loop-llm/SKILL.md",
+        "skills/auto-review-loop-minimax/SKILL.md",
+        "skills/auto-review-loop/SKILL.md",
+        "skills/citation-audit/SKILL.md",
+        "skills/claims-drafting/SKILL.md",
+        "skills/comm-lit-review/SKILL.md",
+        "skills/deepxiv/SKILL.md",
+        "skills/dse-loop/SKILL.md",
+        "skills/embodiment-description/SKILL.md",
+        "skills/exa-search/SKILL.md",
+        "skills/experiment-audit/SKILL.md",
+        "skills/experiment-bridge/SKILL.md",
+        "skills/experiment-plan/SKILL.md",
+        "skills/experiment-queue/SKILL.md",
+        "skills/feishu-notify/SKILL.md",
+        "skills/figure-description/SKILL.md",
+        "skills/figure-spec/SKILL.md",
+        "skills/formula-derivation/SKILL.md",
+        "skills/gemini-search/SKILL.md",
+        "skills/grant-proposal/SKILL.md",
+        "skills/idea-creator/SKILL.md",
+        "skills/idea-discovery-robot/SKILL.md",
+        "skills/idea-discovery/SKILL.md",
+        "skills/interview-cheatsheet/SKILL.md",
+        "skills/invention-structuring/SKILL.md",
+        "skills/jurisdiction-format/SKILL.md",
+        "skills/kill-argument/SKILL.md",
+        "skills/mermaid-diagram/SKILL.md",
+        "skills/meta-apply/SKILL.md",
+        "skills/meta-optimize/SKILL.md",
+        "skills/monitor-experiment/SKILL.md",
+        "skills/novelty-check/SKILL.md",
+        "skills/openalex/SKILL.md",
+        "skills/overleaf-sync/SKILL.md",
+        "skills/paper-claim-audit/SKILL.md",
+        "skills/paper-compile/SKILL.md",
+        "skills/paper-figure/SKILL.md",
+        "skills/paper-illustration-image2/SKILL.md",
+        "skills/paper-illustration/SKILL.md",
+        "skills/paper-plan/SKILL.md",
+        "skills/paper-poster-html/SKILL.md",
+        "skills/paper-poster/SKILL.md",
+        "skills/paper-slides/SKILL.md",
+        "skills/paper-talk/SKILL.md",
+        "skills/paper-write/SKILL.md",
+        "skills/paper-writing/SKILL.md",
+        "skills/patent-novelty-check/SKILL.md",
+        "skills/patent-pipeline/SKILL.md",
+        "skills/patent-review/SKILL.md",
+        "skills/pixel-art/SKILL.md",
+        "skills/prior-art-search/SKILL.md",
+        "skills/proof-checker/SKILL.md",
+        "skills/proof-writer/SKILL.md",
+        "skills/qzcli/SKILL.md",
+        "skills/rebuttal/SKILL.md",
+        "skills/render-html/SKILL.md",
+        "skills/research-lit/SKILL.md",
+        "skills/research-pipeline/SKILL.md",
+        "skills/research-refine-pipeline/SKILL.md",
+        "skills/research-refine/SKILL.md",
+        "skills/research-review/SKILL.md",
+        "skills/research-wiki/SKILL.md",
+        "skills/resubmit-pipeline/SKILL.md",
+        "skills/result-to-claim/SKILL.md",
+        "skills/run-experiment/SKILL.md",
+        "skills/semantic-scholar/SKILL.md",
+        "skills/serverless-modal/SKILL.md",
+        "skills/slides-polish/SKILL.md",
+        "skills/specification-writing/SKILL.md",
+        "skills/system-profile/SKILL.md",
+        "skills/training-check/SKILL.md",
+        "skills/vast-gpu/SKILL.md",
+        "skills/wiki-enrich/SKILL.md",
+        "skills/writing-systems-papers/SKILL.md"
+      ]
+    },
+    {
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "branch": "main",
       "skillName": "ablation-planner",
       "path": "skills/ablation-planner/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/ablation-planner/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Use when main results pass result-to-claim (claim_supported=yes or partial) and ablation studies are needed for paper submission.",
       "slug": "wanshuiyin-ablation-planner"
     },
     {
@@ -21,7 +113,7 @@
       "skillName": "alphaxiv",
       "path": "skills/alphaxiv/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/alphaxiv/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Quick single-paper lookup via AlphaXiv LLM-optimized summaries with tiered source fallback. Use when user says \"explain this paper\", \"summarize paper\", pastes an arXiv/AlphaXiv URL, or provides a bare arXiv ID for quick understanding - not for broad literature search.",
       "slug": "wanshuiyin-alphaxiv"
     },
     {
@@ -30,7 +122,7 @@
       "skillName": "analyze-results",
       "path": "skills/analyze-results/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/analyze-results/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Analyze ML experiment results, compute statistics, generate comparison tables and insights. Use when user says \"analyze results\", \"compare\", or needs to interpret experimental data.",
       "slug": "wanshuiyin-analyze-results"
     },
     {
@@ -39,7 +131,7 @@
       "skillName": "arxiv",
       "path": "skills/arxiv/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/arxiv/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Search, download, and summarize academic papers from arXiv. Use when user says \"search arxiv\", \"download paper\", \"fetch arxiv\", \"arxiv search\", \"get paper pdf\", or wants to find and save papers from arXiv to the local paper library.",
       "slug": "wanshuiyin-arxiv"
     },
     {
@@ -48,7 +140,7 @@
       "skillName": "auto-paper-improvement-loop",
       "path": "skills/auto-paper-improvement-loop/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/auto-paper-improvement-loop/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Autonomously improve a generated paper via GPT-5.5 xhigh review → implement fixes → recompile, for 2 rounds. Use when user says \\\"改论文\\\", \\\"improve paper\\\", \\\"论文润色循环\\\", \\\"auto improve\\\", or wants to iteratively polish a generated paper.",
       "slug": "wanshuiyin-auto-paper-improvement-loop"
     },
     {
@@ -57,7 +149,7 @@
       "skillName": "auto-review-loop-llm",
       "path": "skills/auto-review-loop-llm/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/auto-review-loop-llm/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Autonomous research review loop using any OpenAI-compatible LLM API. Configure via llm-chat MCP server or environment variables. Trigger with \"auto review loop llm\" or \"llm review\".",
       "slug": "wanshuiyin-auto-review-loop-llm"
     },
     {
@@ -66,7 +158,7 @@
       "skillName": "auto-review-loop-minimax",
       "path": "skills/auto-review-loop-minimax/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/auto-review-loop-minimax/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Autonomous multi-round research review loop using MiniMax API. Use when you want to use MiniMax instead of Codex MCP for external review. Trigger with \"auto review loop minimax\" or \"minimax review\".",
       "slug": "wanshuiyin-auto-review-loop-minimax"
     },
     {
@@ -75,7 +167,7 @@
       "skillName": "auto-review-loop",
       "path": "skills/auto-review-loop/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/auto-review-loop/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Autonomous multi-round research review loop. Repeatedly reviews via external reviewer backend (Codex or manual), implements fixes, and re-reviews until positive assessment or max rounds reached. Use when user says \"auto review loop\", \"review until it passes\", or wants autonomous iterative improvement.",
       "slug": "wanshuiyin-auto-review-loop"
     },
     {
@@ -84,7 +176,7 @@
       "skillName": "citation-audit",
       "path": "skills/citation-audit/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/citation-audit/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Zero-context verification that every bibliographic entry in the paper is real, correctly attributed, and used in a context the cited paper actually supports — catching hallucinated authors, wrong years, fabricated venues, version mismatches, and wrong-context citations. Use when user says \\\"审查引用\\\", \\\"check citations\\\", \\\"citation audit\\\", \\\"verify references\\\", \\\"引用核对\\\", or before submission to ensure bibliography integrity.",
       "slug": "wanshuiyin-citation-audit"
     },
     {
@@ -93,7 +185,7 @@
       "skillName": "claims-drafting",
       "path": "skills/claims-drafting/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/claims-drafting/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Draft patent claims for an invention. Use when user says \\\"撰写权利要求\\\", \\\"draft claims\\\", \\\"写权利要求书\\\", \\\"claim drafting\\\", or wants to create patent claims. The core skill of the patent pipeline.",
       "slug": "wanshuiyin-claims-drafting"
     },
     {
@@ -102,7 +194,7 @@
       "skillName": "comm-lit-review",
       "path": "skills/comm-lit-review/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/comm-lit-review/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Communications-domain literature review with Claude-style knowledge-base-first retrieval. Use when the task is about communications, wireless, networking, satellite/NTN, Wi-Fi, cellular, transport protocols, congestion control, routing, scheduling, MAC/PHY, rate adaptation, channel estimation, beamforming, or communication-system research and the user wants papers, related work, a survey, or a landscape summary.",
       "slug": "wanshuiyin-comm-lit-review"
     },
     {
@@ -111,7 +203,7 @@
       "skillName": "deepxiv",
       "path": "skills/deepxiv/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/deepxiv/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Search and progressively read open-access academic papers through DeepXiv. Use when the user wants layered paper access, section-level reading, trending papers, or DeepXiv-backed literature retrieval.",
       "slug": "wanshuiyin-deepxiv"
     },
     {
@@ -120,7 +212,7 @@
       "skillName": "dse-loop",
       "path": "skills/dse-loop/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/dse-loop/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Autonomous design space exploration loop for computer architecture and EDA. Runs a program, analyzes results, tunes parameters, and iterates until objective is met or timeout. Use when user says \\\"DSE\\\", \\\"design space exploration\\\", \\\"sweep parameters\\\", \\\"optimize\\\", \\\"find best config\\\", or wants iterative parameter tuning.",
       "slug": "wanshuiyin-dse-loop"
     },
     {
@@ -129,7 +221,7 @@
       "skillName": "embodiment-description",
       "path": "skills/embodiment-description/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/embodiment-description/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Write detailed embodiment descriptions for patent specifications. Use when user says \\\"撰写实施例\\\", \\\"write embodiment\\\", \\\"实施例描述\\\", \\\"detailed description\\\", or wants to describe how to practice an invention.",
       "slug": "wanshuiyin-embodiment-description"
     },
     {
@@ -138,7 +230,7 @@
       "skillName": "exa-search",
       "path": "skills/exa-search/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/exa-search/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "AI-powered web search via Exa with content extraction. Use when user says \"exa search\", \"web search with content\", \"find similar pages\", or needs broad web results beyond academic databases (arXiv, Semantic Scholar).",
       "slug": "wanshuiyin-exa-search"
     },
     {
@@ -147,7 +239,7 @@
       "skillName": "experiment-audit",
       "path": "skills/experiment-audit/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/experiment-audit/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Audit experiment integrity before claiming results. Uses cross-model review (external reviewer backend) to check for fake ground truth, score normalization fraud, phantom results, and insufficient scope. Use when user says \\\"审计实验\\\", \\\"check experiment integrity\\\", \\\"audit results\\\", \\\"实验诚实度\\\", or after experiments complete before writing claims.",
       "slug": "wanshuiyin-experiment-audit"
     },
     {
@@ -156,7 +248,7 @@
       "skillName": "experiment-bridge",
       "path": "skills/experiment-bridge/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/experiment-bridge/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Workflow 1.5: Bridge between idea discovery and auto review. Reads EXPERIMENT_PLAN.md, implements experiment code, deploys to GPU, collects initial results. Use when user says \\\"实现实验\\\", \\\"implement experiments\\\", \\\"bridge\\\", \\\"从计划到跑实验\\\", \\\"deploy the plan\\\", or has an experiment plan ready to execute.",
       "slug": "wanshuiyin-experiment-bridge"
     },
     {
@@ -165,7 +257,7 @@
       "skillName": "experiment-plan",
       "path": "skills/experiment-plan/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/experiment-plan/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Turn a refined research proposal or method idea into a detailed, claim-driven experiment roadmap. Use after `research-refine`, or when the user asks for a detailed experiment plan, ablation matrix, evaluation protocol, run order, compute budget, or paper-ready validation that supports the core problem, novelty, simplicity, and any LLM / VLM / Diffusion / RL-based contribution.",
       "slug": "wanshuiyin-experiment-plan"
     },
     {
@@ -174,7 +266,7 @@
       "skillName": "experiment-queue",
       "path": "skills/experiment-queue/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/experiment-queue/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "SSH job queue for multi-seed/multi-config ML experiments with OOM-aware retry, stale-screen cleanup, and wave-transition race prevention. Use when user says \"batch experiments\", \"队列实验\", \"run grid\", \"multi-seed sweep\", \"auto-chain experiments\", or when /run-experiment is insufficient for 10+ jobs that need orchestration.",
       "slug": "wanshuiyin-experiment-queue"
     },
     {
@@ -183,7 +275,7 @@
       "skillName": "feishu-notify",
       "path": "skills/feishu-notify/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/feishu-notify/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Send notifications to Feishu/Lark. Internal utility used by other skills, or manually via /feishu-notify. Use when user says \\\"发飞书\\\", \\\"notify feishu\\\", or other skills need to send status updates.",
       "slug": "wanshuiyin-feishu-notify"
     },
     {
@@ -192,7 +284,7 @@
       "skillName": "figure-description",
       "path": "skills/figure-description/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/figure-description/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Process user-provided patent figures and generate formal drawing descriptions. Use when user says \\\"附图处理\\\", \\\"figure description\\\", \\\"附图说明\\\", \\\"drawings description\\\", or wants to describe patent figures with reference numerals.",
       "slug": "wanshuiyin-figure-description"
     },
     {
@@ -201,7 +293,7 @@
       "skillName": "figure-spec",
       "path": "skills/figure-spec/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/figure-spec/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Generate deterministic publication-quality architecture, workflow, and pipeline diagrams from structured JSON (FigureSpec) into editable SVG. Use when user says \\\"架构图\\\", \\\"workflow 图\\\", \\\"pipeline 图\\\", \\\"确定性矢量图\\\", \\\"figure spec\\\", \\\"draw architecture\\\", or needs precise, editable, publication-ready vector diagrams. Preferred over AI illustration for formal architecture/workflow figures.",
       "slug": "wanshuiyin-figure-spec"
     },
     {
@@ -210,7 +302,7 @@
       "skillName": "formula-derivation",
       "path": "skills/formula-derivation/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/formula-derivation/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Structures and derives research formulas when the user wants to 推导公式, build a theory line, organize assumptions, turn scattered equations into a coherent derivation, or rewrite theory notes into a paper-ready formula document. Use when the derivation target is not yet fully fixed, the main object still needs to be chosen, or the user needs a coherent derivation package rather than a finished theorem proof.",
       "slug": "wanshuiyin-formula-derivation"
     },
     {
@@ -219,7 +311,7 @@
       "skillName": "gemini-search",
       "path": "skills/gemini-search/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/gemini-search/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Search research papers via Gemini for broad literature discovery. Use when user says \"gemini search\", \"gemini papers\", \"search with gemini\", or wants AI-powered literature discovery beyond arXiv/Semantic Scholar indexes.",
       "slug": "wanshuiyin-gemini-search"
     },
     {
@@ -228,7 +320,7 @@
       "skillName": "grant-proposal",
       "path": "skills/grant-proposal/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/grant-proposal/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Draft a structured grant proposal from research ideas and literature. Supports KAKENHI (Japan), NSF (US), NSFC (China, including 面上/青年/优青/杰青/海外优青/重点), ERC (EU), DFG (Germany), SNSF (Switzerland), ARC (Australia), NWO (Netherlands), and generic formats. Use when user says \\\"write grant\\\", \\\"grant proposal\\\", \\\"申請書\\\", \\\"write KAKENHI\\\", \\\"科研費\\\", \\\"基金申请\\\", \\\"写基金\\\", \\\"NSF proposal\\\", or wants to turn research ideas into a funding application.",
       "slug": "wanshuiyin-grant-proposal"
     },
     {
@@ -237,7 +329,7 @@
       "skillName": "idea-creator",
       "path": "skills/idea-creator/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/idea-creator/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Generate and rank research ideas given a broad direction. Use when user says \"找idea\", \"brainstorm ideas\", \"generate research ideas\", \"what can we work on\", or wants to explore a research area for publishable directions.",
       "slug": "wanshuiyin-idea-creator"
     },
     {
@@ -246,7 +338,7 @@
       "skillName": "idea-discovery-robot",
       "path": "skills/idea-discovery-robot/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/idea-discovery-robot/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Workflow 1 adaptation for robotics and embodied AI. Orchestrates robotics-aware literature survey, idea generation, novelty check, and critical review to go from a broad robotics direction to benchmark-grounded, simulation-first ideas. Use when user says \\\"robotics idea discovery\\\", \\\"机器人找idea\\\", \\\"embodied AI idea\\\", \\\"机器人方向探索\\\", \\\"sim2real 选题\\\", or wants ideas for manipulation, locomotion, navigation, drones, humanoids, or general robot learning.",
       "slug": "wanshuiyin-idea-discovery-robot"
     },
     {
@@ -255,7 +347,7 @@
       "skillName": "idea-discovery",
       "path": "skills/idea-discovery/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/idea-discovery/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Workflow 1: Full idea discovery pipeline to go from a broad research direction to validated, pilot-tested ideas. Use when user says \\\"找idea全流程\\\", \\\"idea discovery pipeline\\\", \\\"从零开始找方向\\\", or wants the complete idea exploration workflow.",
       "slug": "wanshuiyin-idea-discovery"
     },
     {
@@ -264,7 +356,7 @@
       "skillName": "interview-cheatsheet",
       "path": "skills/interview-cheatsheet/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/interview-cheatsheet/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Generate a long-form Chinese interview-prep cheat sheet on a specific ML/LLM topic — formulas with derivations, from-scratch PyTorch code, comparison tables, and 25 高频面试题 (L1 必会 / L2 进阶 / L3 顶级 lab). Use when the user says '写面试 cheat sheet', '写一份 X 教程', '帮我准备 Y 面试题', '出一份 X 速查', or wants a 600-1000 line Chinese tutorial on a specific ML topic.",
       "slug": "wanshuiyin-interview-cheatsheet"
     },
     {
@@ -273,7 +365,7 @@
       "skillName": "invention-structuring",
       "path": "skills/invention-structuring/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/invention-structuring/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Structure a raw invention idea into a formal invention disclosure. Use when user says \\\"构建发明\\\", \\\"structure invention\\\", \\\"发明构建\\\", \\\"invention disclosure\\\", or wants to formalize a rough idea into a patent-ready structure.",
       "slug": "wanshuiyin-invention-structuring"
     },
     {
@@ -282,7 +374,7 @@
       "skillName": "jurisdiction-format",
       "path": "skills/jurisdiction-format/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/jurisdiction-format/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Compile patent application into jurisdiction-specific filing format. Use when user says \\\"格式转换\\\", \\\"jurisdiction format\\\", \\\"国家格式\\\", \\\"compile patent\\\", or wants formatted patent documents for CN/US/EP filing.",
       "slug": "wanshuiyin-jurisdiction-format"
     },
     {
@@ -291,7 +383,7 @@
       "skillName": "kill-argument",
       "path": "skills/kill-argument/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/kill-argument/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Two-thread adversarial review: a fresh reviewer constructs the strongest 200-word rejection memo, then a second fresh reviewer defends the paper point-by-point and surfaces still-unresolved critical issues. Use when user says \\\"kill argument\\\", \\\"adversarial review\\\", \\\"hostile review\\\", \\\"rebuttal preparation\\\", \\\"reviewer-2 simulation\\\", or before submitting a theory paper that has already passed standard review rounds.",
       "slug": "wanshuiyin-kill-argument"
     },
     {
@@ -300,7 +392,7 @@
       "skillName": "mermaid-diagram",
       "path": "skills/mermaid-diagram/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/mermaid-diagram/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Generate Mermaid diagrams from user requirements. Supports flowcharts, sequence diagrams, class diagrams, ER diagrams, Gantt charts, and 18 more diagram types.",
       "slug": "wanshuiyin-mermaid-diagram"
     },
     {
@@ -309,7 +401,7 @@
       "skillName": "meta-apply",
       "path": "skills/meta-apply/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/meta-apply/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Privileged applier that LANDS meta-optimize / corpus-audit patches the user approved — the ONLY skill permitted to mutate the skill corpus from a self-modification proposal, with cross-model jury and human approval at landing. Use when the user says \\\"meta apply\\\", \\\"/meta-apply\\\", \\\"land the staged patches\\\", \\\"应用优化\\\", after a /meta-optimize run.",
       "slug": "wanshuiyin-meta-apply"
     },
     {
@@ -318,7 +410,7 @@
       "skillName": "meta-optimize",
       "path": "skills/meta-optimize/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/meta-optimize/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Analyze ARIS usage logs and propose optimizations to SKILL.md files, reviewer prompts, and workflow defaults. Outer-loop harness optimization inspired by Meta-Harness (Lee et al., 2026). Use when user says \\\"优化技能\\\", \\\"meta optimize\\\", \\\"improve skills\\\", \\\"分析使用记录\\\", or wants to optimize ARIS's own harness components based on accumulated experience.",
       "slug": "wanshuiyin-meta-optimize"
     },
     {
@@ -327,7 +419,7 @@
       "skillName": "monitor-experiment",
       "path": "skills/monitor-experiment/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/monitor-experiment/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Monitor running experiments, check progress, collect results. Use when user says \"check results\", \"is it done\", \"monitor\", or wants experiment output.",
       "slug": "wanshuiyin-monitor-experiment"
     },
     {
@@ -336,7 +428,7 @@
       "skillName": "novelty-check",
       "path": "skills/novelty-check/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/novelty-check/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Verify research idea novelty against recent literature. Use when user says \"查新\", \"novelty check\", \"有没有人做过\", \"check novelty\", or wants to verify a research idea is novel before implementing.",
       "slug": "wanshuiyin-novelty-check"
     },
     {
@@ -345,7 +437,7 @@
       "skillName": "openalex",
       "path": "skills/openalex/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/openalex/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Search academic papers via OpenAlex API for open citation data, institutional affiliations, and funding information. Use when user says \"openalex search\", \"search openalex\", \"open citation graph\", or wants comprehensive academic metadata beyond arXiv/Semantic Scholar.",
       "slug": "wanshuiyin-openalex"
     },
     {
@@ -354,7 +446,7 @@
       "skillName": "overleaf-sync",
       "path": "skills/overleaf-sync/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/overleaf-sync/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Two-way sync between a local paper directory and an Overleaf project, so ARIS audit/edit workflows stay on the local copy while collaborators edit in the Overleaf web UI. Use when user says \\\"同步 overleaf\\\", \\\"overleaf sync\\\", \\\"推送到 overleaf\\\", \\\"connect overleaf\\\", \\\"Overleaf 桥接\\\", \\\"pull overleaf\\\", \\\"push overleaf\\\", or wants to bridge their ARIS paper directory with an Overleaf project.",
       "slug": "wanshuiyin-overleaf-sync"
     },
     {
@@ -363,7 +455,7 @@
       "skillName": "paper-claim-audit",
       "path": "skills/paper-claim-audit/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/paper-claim-audit/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Zero-context verification that every number, comparison, and scope claim in the paper matches raw result files. Uses a fresh cross-model reviewer with NO prior context to prevent confirmation bias. Use when user says \\\"审查论文数据\\\", \\\"check paper claims\\\", \\\"verify numbers\\\", \\\"论文数字核对\\\", or before submission to ensure paper-to-evidence fidelity.",
       "slug": "wanshuiyin-paper-claim-audit"
     },
     {
@@ -372,7 +464,7 @@
       "skillName": "paper-compile",
       "path": "skills/paper-compile/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/paper-compile/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Compile LaTeX paper to PDF, fix errors, and verify output. Use when user says \\\"编译论文\\\", \\\"compile paper\\\", \\\"build PDF\\\", \\\"生成PDF\\\", or wants to compile LaTeX into a submission-ready PDF.",
       "slug": "wanshuiyin-paper-compile"
     },
     {
@@ -381,7 +473,7 @@
       "skillName": "paper-figure",
       "path": "skills/paper-figure/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/paper-figure/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Generate publication-quality figures and tables from experiment results. Use when user says \\\"画图\\\", \\\"作图\\\", \\\"generate figures\\\", \\\"paper figures\\\", or needs plots for a paper.",
       "slug": "wanshuiyin-paper-figure"
     },
     {
@@ -390,7 +482,7 @@
       "skillName": "paper-illustration-image2",
       "path": "skills/paper-illustration-image2/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/paper-illustration-image2/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Generate publication-quality academic illustrations through a local Codex app-server bridge that uses Codex native image generation. This is a separate experimental alternative to `paper-illustration`, intended for Claude Code users who want a GPT-image-style renderer without modifying the original skill.",
       "slug": "wanshuiyin-paper-illustration-image2"
     },
     {
@@ -399,7 +491,7 @@
       "skillName": "paper-illustration",
       "path": "skills/paper-illustration/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/paper-illustration/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Generate publication-quality AI illustrations for academic papers using Gemini image generation. Creates architecture diagrams, method illustrations with Claude-supervised iterative refinement loop. Use when user says \\\"生成图表\\\", \\\"画架构图\\\", \\\"AI绘图\\\", \\\"paper illustration\\\", \\\"generate diagram\\\", or needs visual figures for papers.",
       "slug": "wanshuiyin-paper-illustration"
     },
     {
@@ -408,7 +500,7 @@
       "skillName": "paper-plan",
       "path": "skills/paper-plan/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/paper-plan/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Generate a structured paper outline from review conclusions and experiment results. Use when user says \\\"写大纲\\\", \\\"paper outline\\\", \\\"plan the paper\\\", \\\"论文规划\\\", or wants to create a paper plan before writing.",
       "slug": "wanshuiyin-paper-plan"
     },
     {
@@ -417,7 +509,7 @@
       "skillName": "paper-poster-html",
       "path": "skills/paper-poster-html/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/paper-poster-html/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "DEFAULT poster pipeline — build an academic conference poster (ICML/NeurIPS/ICLR/CVPR/...) as a single HTML/CSS file with measurement-driven hard gates, real paper figures, a two-hue design-token system, and print-ready PDF via headless Chromium. Use when the user says \\\"做海报\\\", \\\"poster\\\", \\\"conference poster\\\", \\\"paper poster\\\", or asks to design/redo a research poster. Supersedes the retired LaTeX /paper-poster.",
       "slug": "wanshuiyin-paper-poster-html"
     },
     {
@@ -426,7 +518,7 @@
       "skillName": "paper-poster",
       "path": "skills/paper-poster/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/paper-poster/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "DEPRECATED — superseded by /paper-poster-html. Kept only as a redirect for muscle memory; do not use for new posters.",
       "slug": "wanshuiyin-paper-poster"
     },
     {
@@ -435,7 +527,7 @@
       "skillName": "paper-slides",
       "path": "skills/paper-slides/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/paper-slides/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Generate conference presentation slides (beamer LaTeX → PDF + editable PPTX) from a compiled paper, with speaker notes and full talk script. Use when user says \\\"做PPT\\\", \\\"做幻灯片\\\", \\\"make slides\\\", \\\"conference talk\\\", \\\"presentation slides\\\", \\\"生成slides\\\", \\\"写演讲稿\\\", or wants beamer slides for a conference talk.",
       "slug": "wanshuiyin-paper-slides"
     },
     {
@@ -444,7 +536,7 @@
       "skillName": "paper-talk",
       "path": "skills/paper-talk/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/paper-talk/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "End-to-end conference talk pipeline: paper → slide outline → Beamer + PPTX → per-page polish → assurance checks (claim / citation / anonymity) → final export and report. Default-good for academic conference talks (NeurIPS / ICML / ICLR / VALSE / 投稿 talks). Trigger phrases: \\\"做 talk\\\", \\\"做 PPT 全流程\\\", \\\"talk pipeline\\\", \\\"end-to-end slides\\\", \\\"做演讲\\\", \\\"conference talk full workflow\\\". Use when the user wants the complete talk artifact, not just a slide deck.",
       "slug": "wanshuiyin-paper-talk"
     },
     {
@@ -453,7 +545,7 @@
       "skillName": "paper-write",
       "path": "skills/paper-write/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/paper-write/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Draft LaTeX paper section by section from an outline. Use when user says \\\"写论文\\\", \\\"write paper\\\", \\\"draft LaTeX\\\", \\\"开始写\\\", or wants to generate LaTeX content from a paper plan.",
       "slug": "wanshuiyin-paper-write"
     },
     {
@@ -462,7 +554,7 @@
       "skillName": "paper-writing",
       "path": "skills/paper-writing/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/paper-writing/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Workflow 3: Full paper writing pipeline that goes from a narrative report to a polished, submission-ready PDF. Use when user says \\\"写论文全流程\\\", \\\"write paper pipeline\\\", \\\"从报告到PDF\\\", \\\"paper writing\\\", or wants the complete paper generation workflow.",
       "slug": "wanshuiyin-paper-writing"
     },
     {
@@ -471,7 +563,7 @@
       "skillName": "patent-novelty-check",
       "path": "skills/patent-novelty-check/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/patent-novelty-check/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Assess patent novelty and non-obviousness against prior art. Use when user says \\\"专利查新\\\", \\\"patent novelty\\\", \\\"可专利性评估\\\", \\\"patentability check\\\", or wants to evaluate if an invention is patentable.",
       "slug": "wanshuiyin-patent-novelty-check"
     },
     {
@@ -480,7 +572,7 @@
       "skillName": "patent-pipeline",
       "path": "skills/patent-pipeline/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/patent-pipeline/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Full patent drafting pipeline from invention description to jurisdiction-formatted filing documents. Supports CN (CNIPA), US (USPTO), EP (EPO). Supports invention patents and utility models. Use when user says \\\"写专利\\\", \\\"patent pipeline\\\", \\\"专利申请\\\", \\\"draft patent\\\", \\\"写权利要求书\\\", or wants to draft a complete patent application.",
       "slug": "wanshuiyin-patent-pipeline"
     },
     {
@@ -489,7 +581,7 @@
       "skillName": "patent-review",
       "path": "skills/patent-review/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/patent-review/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Get an external patent examiner review of a patent application. Use when user says \\\"专利审查\\\", \\\"patent review\\\", \\\"审查意见\\\", \\\"examiner review\\\", or wants critical feedback on patent claims and specification.",
       "slug": "wanshuiyin-patent-review"
     },
     {
@@ -498,7 +590,7 @@
       "skillName": "pixel-art",
       "path": "skills/pixel-art/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/pixel-art/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Generate pixel art SVG illustrations for READMEs, docs, or slides. Use when user says \"画像素图\", \"pixel art\", \"make an SVG illustration\", \"README hero image\", or wants a cute visual.",
       "slug": "wanshuiyin-pixel-art"
     },
     {
@@ -507,7 +599,7 @@
       "skillName": "prior-art-search",
       "path": "skills/prior-art-search/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/prior-art-search/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Search patent databases and academic literature for prior art relevant to an invention. Use when user says \\\"现有技术检索\\\", \\\"prior art search\\\", \\\"专利检索\\\", \\\"check patents\\\", or wants to find relevant prior art.",
       "slug": "wanshuiyin-prior-art-search"
     },
     {
@@ -516,7 +608,7 @@
       "skillName": "proof-checker",
       "path": "skills/proof-checker/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/proof-checker/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Rigorous mathematical proof verification and fixing workflow. Reads a LaTeX proof, identifies gaps via cross-model review (external reviewer backend, xhigh reasoning), fixes each gap with full derivations, re-reviews, and generates an audit report. Use when user says \"检查证明\", \"verify proof\", \"proof check\", \"审证明\", \"check this proof\", or wants rigorous mathematical verification of a theory paper.",
       "slug": "wanshuiyin-proof-checker"
     },
     {
@@ -525,7 +617,7 @@
       "skillName": "proof-writer",
       "path": "skills/proof-writer/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/proof-writer/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Writes rigorous mathematical proofs for ML/AI theory. Use when asked to prove a theorem, lemma, proposition, or corollary, fill in missing proof steps, formalize a proof sketch, 补全证明, 写证明, 证明某个命题, or determine whether a claimed proof can actually be completed under the stated assumptions.",
       "slug": "wanshuiyin-proof-writer"
     },
     {
@@ -534,7 +626,7 @@
       "skillName": "qzcli",
       "path": "skills/qzcli/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/qzcli/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Manage GPU compute jobs on the Qizhi (启智) platform using qzcli — a kubectl-style CLI tool. Use when user says \"qzcli\", \"启智平台\", \"submit job\", \"stop job\", \"查计算组\", \"avail\", \"list jobs\", \"batch submit\", or needs to manage distributed training jobs on a Qizhi instance.",
       "slug": "wanshuiyin-qzcli"
     },
     {
@@ -543,7 +635,7 @@
       "skillName": "rebuttal",
       "path": "skills/rebuttal/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/rebuttal/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Workflow 4: Submission rebuttal pipeline. Parses external reviews, enforces coverage and grounding, drafts a safe text-only rebuttal under venue limits, and manages follow-up rounds. Use when user says \\\"rebuttal\\\", \\\"reply to reviewers\\\", \\\"ICML rebuttal\\\", \\\"OpenReview response\\\", or wants to answer external reviews safely.",
       "slug": "wanshuiyin-rebuttal"
     },
     {
@@ -552,7 +644,7 @@
       "skillName": "render-html",
       "path": "skills/render-html/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/render-html/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Render an ARIS Markdown / JSON artifact (IDEA_REPORT, AUTO_REVIEW, KILL_ARGUMENT, PAPER_PLAN, research-wiki state, etc.) into a single-file HTML view designed for human reading. Use when the user says \\\"渲染 HTML\\\", \\\"出一份 HTML 报告\\\", \\\"render html\\\", \\\"make this readable\\\", \\\"export to html\\\", or wants a polished web-rendered view of a Markdown artifact.",
       "slug": "wanshuiyin-render-html"
     },
     {
@@ -561,7 +653,7 @@
       "skillName": "research-lit",
       "path": "skills/research-lit/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/research-lit/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Search and analyze research papers, find related work, summarize key ideas. Use when user says \"find papers\", \"related work\", \"literature review\", \"what does this paper say\", or needs to understand academic papers.",
       "slug": "wanshuiyin-research-lit"
     },
     {
@@ -570,7 +662,7 @@
       "skillName": "research-pipeline",
       "path": "skills/research-pipeline/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/research-pipeline/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Full end-to-end research pipeline: from a broad research direction through idea discovery, experiments, and review all the way to a polished paper PDF. Use when user says \\\"全流程\\\", \\\"full pipeline\\\", \\\"从找idea到投稿\\\", \\\"end-to-end research\\\", or wants the complete autonomous research lifecycle.",
       "slug": "wanshuiyin-research-pipeline"
     },
     {
@@ -579,7 +671,7 @@
       "skillName": "research-refine-pipeline",
       "path": "skills/research-refine-pipeline/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/research-refine-pipeline/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Run an end-to-end workflow that chains `research-refine` and `experiment-plan`. Use when the user wants a one-shot pipeline from vague research direction to focused final proposal plus detailed experiment roadmap, or asks to \"串起来\", build a pipeline, do it end-to-end, or generate both the method and experiment plan together.",
       "slug": "wanshuiyin-research-refine-pipeline"
     },
     {
@@ -588,7 +680,7 @@
       "skillName": "research-refine",
       "path": "skills/research-refine/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/research-refine/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Turn a vague research direction into a problem-anchored, elegant, frontier-aware, implementation-oriented method plan via iterative GPT-5.5 review. Use when the user says \"refine my approach\", \"帮我细化方案\", \"decompose this problem\", \"打磨idea\", \"refine research plan\", \"细化研究方案\", or wants a concrete research method that stays simple, focused, and top-venue ready instead of a vague or overbuilt idea.",
       "slug": "wanshuiyin-research-refine"
     },
     {
@@ -597,7 +689,7 @@
       "skillName": "research-review",
       "path": "skills/research-review/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/research-review/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Get a deep critical review of research from an external reviewer backend (Codex or manual). Use when user says \"review my research\", \"help me review\", \"get external review\", or wants critical feedback on research ideas, papers, or experimental results.",
       "slug": "wanshuiyin-research-review"
     },
     {
@@ -606,7 +698,7 @@
       "skillName": "research-wiki",
       "path": "skills/research-wiki/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/research-wiki/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Persistent research knowledge base that accumulates papers, ideas, experiments, claims, and their relationships across the entire research lifecycle. Inspired by Karpathy's LLM Wiki pattern. Use when user says \\\"知识库\\\", \\\"research wiki\\\", \\\"add paper\\\", \\\"wiki query\\\", \\\"查知识库\\\", or wants to build/query a persistent field map.",
       "slug": "wanshuiyin-research-wiki"
     },
     {
@@ -615,7 +707,7 @@
       "skillName": "resubmit-pipeline",
       "path": "skills/resubmit-pipeline/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/resubmit-pipeline/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Workflow 5: orchestrate a text-only resubmit of a polished paper to a different venue under hard constraints (no new experiments, no bib edits, no framework changes, never overwrite prior submissions). Use when user says \\\"resubmit pipeline\\\", \\\"重投流程\\\", \\\"port paper to <new venue>\\\", \\\"resubmit to <venue>\\\", \\\"tighten paper for resubmission\\\", or has a rejected/withdrawn paper to move to a different top venue under tight time budget.",
       "slug": "wanshuiyin-resubmit-pipeline"
     },
     {
@@ -624,7 +716,7 @@
       "skillName": "result-to-claim",
       "path": "skills/result-to-claim/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/result-to-claim/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Use when experiments complete to judge what claims the results support, what they don't, and what evidence is still missing. Codex MCP evaluates results against intended claims and routes to next action (pivot, supplement, or confirm). Use after experiments finish — before writing the paper or running ablations.",
       "slug": "wanshuiyin-result-to-claim"
     },
     {
@@ -633,7 +725,7 @@
       "skillName": "run-experiment",
       "path": "skills/run-experiment/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/run-experiment/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Deploy and run ML experiments on local, remote, Vast.ai, or Modal serverless GPU. Use when user says \"run experiment\", \"deploy to server\", \"跑实验\", or needs to launch training jobs.",
       "slug": "wanshuiyin-run-experiment"
     },
     {
@@ -642,7 +734,7 @@
       "skillName": "semantic-scholar",
       "path": "skills/semantic-scholar/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/semantic-scholar/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Search published venue papers (IEEE, ACM, Springer, etc.) via Semantic Scholar API. Complements /arxiv (preprints) with citation counts, venue metadata, and TLDR. Use when user says \"search semantic scholar\", \"find IEEE papers\", \"find journal papers\", \"venue papers\", \"citation search\", or wants published literature beyond arXiv preprints.",
       "slug": "wanshuiyin-semantic-scholar"
     },
     {
@@ -651,926 +743,8 @@
       "skillName": "serverless-modal",
       "path": "skills/serverless-modal/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/serverless-modal/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Run GPU workloads on Modal — training, fine-tuning, inference, batch processing. Zero-config serverless: no SSH, no Docker, auto scale-to-zero. Use when user says \\\"modal run\\\", \\\"modal training\\\", \\\"modal inference\\\", \\\"deploy to modal\\\", \\\"need a GPU\\\", \\\"run on modal\\\", \\\"serverless GPU\\\", or needs remote GPU compute.",
       "slug": "wanshuiyin-serverless-modal"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex-claude-review/auto-paper-improvement-loop",
-      "path": "skills/skills-codex-claude-review/auto-paper-improvement-loop/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex-claude-review/auto-paper-improvement-loop/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-claude-review-auto-paper-improvement-loop"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex-claude-review/auto-review-loop",
-      "path": "skills/skills-codex-claude-review/auto-review-loop/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex-claude-review/auto-review-loop/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-claude-review-auto-review-loop"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex-claude-review/novelty-check",
-      "path": "skills/skills-codex-claude-review/novelty-check/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex-claude-review/novelty-check/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-claude-review-novelty-check"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex-claude-review/paper-figure",
-      "path": "skills/skills-codex-claude-review/paper-figure/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex-claude-review/paper-figure/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-claude-review-paper-figure"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex-claude-review/paper-plan",
-      "path": "skills/skills-codex-claude-review/paper-plan/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex-claude-review/paper-plan/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-claude-review-paper-plan"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex-claude-review/paper-write",
-      "path": "skills/skills-codex-claude-review/paper-write/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex-claude-review/paper-write/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-claude-review-paper-write"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex-claude-review/research-refine",
-      "path": "skills/skills-codex-claude-review/research-refine/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex-claude-review/research-refine/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-claude-review-research-refine"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex-claude-review/research-review",
-      "path": "skills/skills-codex-claude-review/research-review/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex-claude-review/research-review/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-claude-review-research-review"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex-gemini-review/auto-paper-improvement-loop",
-      "path": "skills/skills-codex-gemini-review/auto-paper-improvement-loop/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex-gemini-review/auto-paper-improvement-loop/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-gemini-review-auto-paper-improvement-loop"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex-gemini-review/auto-review-loop",
-      "path": "skills/skills-codex-gemini-review/auto-review-loop/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex-gemini-review/auto-review-loop/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-gemini-review-auto-review-loop"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex-gemini-review/grant-proposal",
-      "path": "skills/skills-codex-gemini-review/grant-proposal/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex-gemini-review/grant-proposal/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-gemini-review-grant-proposal"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex-gemini-review/idea-creator",
-      "path": "skills/skills-codex-gemini-review/idea-creator/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex-gemini-review/idea-creator/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-gemini-review-idea-creator"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex-gemini-review/idea-discovery-robot",
-      "path": "skills/skills-codex-gemini-review/idea-discovery-robot/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex-gemini-review/idea-discovery-robot/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-gemini-review-idea-discovery-robot"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex-gemini-review/idea-discovery",
-      "path": "skills/skills-codex-gemini-review/idea-discovery/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex-gemini-review/idea-discovery/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-gemini-review-idea-discovery"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex-gemini-review/novelty-check",
-      "path": "skills/skills-codex-gemini-review/novelty-check/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex-gemini-review/novelty-check/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-gemini-review-novelty-check"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex-gemini-review/paper-figure",
-      "path": "skills/skills-codex-gemini-review/paper-figure/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex-gemini-review/paper-figure/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-gemini-review-paper-figure"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex-gemini-review/paper-plan",
-      "path": "skills/skills-codex-gemini-review/paper-plan/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex-gemini-review/paper-plan/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-gemini-review-paper-plan"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex-gemini-review/paper-poster-html",
-      "path": "skills/skills-codex-gemini-review/paper-poster-html/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex-gemini-review/paper-poster-html/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-gemini-review-paper-poster-html"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex-gemini-review/paper-slides",
-      "path": "skills/skills-codex-gemini-review/paper-slides/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex-gemini-review/paper-slides/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-gemini-review-paper-slides"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex-gemini-review/paper-write",
-      "path": "skills/skills-codex-gemini-review/paper-write/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex-gemini-review/paper-write/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-gemini-review-paper-write"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex-gemini-review/paper-writing",
-      "path": "skills/skills-codex-gemini-review/paper-writing/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex-gemini-review/paper-writing/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-gemini-review-paper-writing"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex-gemini-review/research-refine",
-      "path": "skills/skills-codex-gemini-review/research-refine/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex-gemini-review/research-refine/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-gemini-review-research-refine"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex-gemini-review/research-review",
-      "path": "skills/skills-codex-gemini-review/research-review/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex-gemini-review/research-review/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-gemini-review-research-review"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/ablation-planner",
-      "path": "skills/skills-codex/ablation-planner/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/ablation-planner/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-ablation-planner"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/alphaxiv",
-      "path": "skills/skills-codex/alphaxiv/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/alphaxiv/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-alphaxiv"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/analyze-results",
-      "path": "skills/skills-codex/analyze-results/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/analyze-results/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-analyze-results"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/arxiv",
-      "path": "skills/skills-codex/arxiv/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/arxiv/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-arxiv"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/auto-paper-improvement-loop",
-      "path": "skills/skills-codex/auto-paper-improvement-loop/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/auto-paper-improvement-loop/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-auto-paper-improvement-loop"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/auto-review-loop-llm",
-      "path": "skills/skills-codex/auto-review-loop-llm/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/auto-review-loop-llm/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-auto-review-loop-llm"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/auto-review-loop-minimax",
-      "path": "skills/skills-codex/auto-review-loop-minimax/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/auto-review-loop-minimax/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-auto-review-loop-minimax"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/auto-review-loop",
-      "path": "skills/skills-codex/auto-review-loop/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/auto-review-loop/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-auto-review-loop"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/citation-audit",
-      "path": "skills/skills-codex/citation-audit/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/citation-audit/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-citation-audit"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/claims-drafting",
-      "path": "skills/skills-codex/claims-drafting/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/claims-drafting/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-claims-drafting"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/comm-lit-review",
-      "path": "skills/skills-codex/comm-lit-review/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/comm-lit-review/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-comm-lit-review"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/deepxiv",
-      "path": "skills/skills-codex/deepxiv/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/deepxiv/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-deepxiv"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/dse-loop",
-      "path": "skills/skills-codex/dse-loop/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/dse-loop/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-dse-loop"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/embodiment-description",
-      "path": "skills/skills-codex/embodiment-description/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/embodiment-description/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-embodiment-description"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/exa-search",
-      "path": "skills/skills-codex/exa-search/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/exa-search/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-exa-search"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/experiment-audit",
-      "path": "skills/skills-codex/experiment-audit/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/experiment-audit/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-experiment-audit"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/experiment-bridge",
-      "path": "skills/skills-codex/experiment-bridge/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/experiment-bridge/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-experiment-bridge"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/experiment-plan",
-      "path": "skills/skills-codex/experiment-plan/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/experiment-plan/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-experiment-plan"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/experiment-queue",
-      "path": "skills/skills-codex/experiment-queue/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/experiment-queue/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-experiment-queue"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/feishu-notify",
-      "path": "skills/skills-codex/feishu-notify/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/feishu-notify/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-feishu-notify"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/figure-description",
-      "path": "skills/skills-codex/figure-description/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/figure-description/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-figure-description"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/figure-spec",
-      "path": "skills/skills-codex/figure-spec/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/figure-spec/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-figure-spec"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/formula-derivation",
-      "path": "skills/skills-codex/formula-derivation/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/formula-derivation/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-formula-derivation"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/gemini-search",
-      "path": "skills/skills-codex/gemini-search/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/gemini-search/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-gemini-search"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/grant-proposal",
-      "path": "skills/skills-codex/grant-proposal/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/grant-proposal/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-grant-proposal"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/idea-creator",
-      "path": "skills/skills-codex/idea-creator/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/idea-creator/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-idea-creator"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/idea-discovery-robot",
-      "path": "skills/skills-codex/idea-discovery-robot/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/idea-discovery-robot/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-idea-discovery-robot"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/idea-discovery",
-      "path": "skills/skills-codex/idea-discovery/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/idea-discovery/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-idea-discovery"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/interview-cheatsheet",
-      "path": "skills/skills-codex/interview-cheatsheet/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/interview-cheatsheet/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-interview-cheatsheet"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/invention-structuring",
-      "path": "skills/skills-codex/invention-structuring/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/invention-structuring/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-invention-structuring"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/jurisdiction-format",
-      "path": "skills/skills-codex/jurisdiction-format/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/jurisdiction-format/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-jurisdiction-format"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/kill-argument",
-      "path": "skills/skills-codex/kill-argument/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/kill-argument/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-kill-argument"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/mermaid-diagram",
-      "path": "skills/skills-codex/mermaid-diagram/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/mermaid-diagram/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-mermaid-diagram"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/meta-apply",
-      "path": "skills/skills-codex/meta-apply/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/meta-apply/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-meta-apply"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/meta-optimize",
-      "path": "skills/skills-codex/meta-optimize/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/meta-optimize/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-meta-optimize"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/monitor-experiment",
-      "path": "skills/skills-codex/monitor-experiment/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/monitor-experiment/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-monitor-experiment"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/novelty-check",
-      "path": "skills/skills-codex/novelty-check/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/novelty-check/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-novelty-check"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/openalex",
-      "path": "skills/skills-codex/openalex/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/openalex/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-openalex"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/overleaf-sync",
-      "path": "skills/skills-codex/overleaf-sync/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/overleaf-sync/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-overleaf-sync"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/paper-claim-audit",
-      "path": "skills/skills-codex/paper-claim-audit/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/paper-claim-audit/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-paper-claim-audit"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/paper-compile",
-      "path": "skills/skills-codex/paper-compile/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/paper-compile/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-paper-compile"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/paper-figure",
-      "path": "skills/skills-codex/paper-figure/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/paper-figure/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-paper-figure"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/paper-illustration-image2",
-      "path": "skills/skills-codex/paper-illustration-image2/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/paper-illustration-image2/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-paper-illustration-image2"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/paper-illustration",
-      "path": "skills/skills-codex/paper-illustration/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/paper-illustration/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-paper-illustration"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/paper-plan",
-      "path": "skills/skills-codex/paper-plan/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/paper-plan/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-paper-plan"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/paper-poster-html",
-      "path": "skills/skills-codex/paper-poster-html/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/paper-poster-html/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-paper-poster-html"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/paper-poster",
-      "path": "skills/skills-codex/paper-poster/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/paper-poster/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-paper-poster"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/paper-slides",
-      "path": "skills/skills-codex/paper-slides/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/paper-slides/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-paper-slides"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/paper-talk",
-      "path": "skills/skills-codex/paper-talk/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/paper-talk/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-paper-talk"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/paper-write",
-      "path": "skills/skills-codex/paper-write/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/paper-write/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-paper-write"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/paper-writing",
-      "path": "skills/skills-codex/paper-writing/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/paper-writing/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-paper-writing"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/patent-novelty-check",
-      "path": "skills/skills-codex/patent-novelty-check/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/patent-novelty-check/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-patent-novelty-check"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/patent-pipeline",
-      "path": "skills/skills-codex/patent-pipeline/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/patent-pipeline/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-patent-pipeline"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/patent-review",
-      "path": "skills/skills-codex/patent-review/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/patent-review/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-patent-review"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/pixel-art",
-      "path": "skills/skills-codex/pixel-art/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/pixel-art/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-pixel-art"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/prior-art-search",
-      "path": "skills/skills-codex/prior-art-search/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/prior-art-search/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-prior-art-search"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/proof-checker",
-      "path": "skills/skills-codex/proof-checker/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/proof-checker/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-proof-checker"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/proof-writer",
-      "path": "skills/skills-codex/proof-writer/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/proof-writer/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-proof-writer"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/qzcli",
-      "path": "skills/skills-codex/qzcli/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/qzcli/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-qzcli"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/rebuttal",
-      "path": "skills/skills-codex/rebuttal/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/rebuttal/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-rebuttal"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/render-html",
-      "path": "skills/skills-codex/render-html/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/render-html/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-render-html"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/research-lit",
-      "path": "skills/skills-codex/research-lit/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/research-lit/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-research-lit"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/research-pipeline",
-      "path": "skills/skills-codex/research-pipeline/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/research-pipeline/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-research-pipeline"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/research-refine-pipeline",
-      "path": "skills/skills-codex/research-refine-pipeline/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/research-refine-pipeline/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-research-refine-pipeline"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/research-refine",
-      "path": "skills/skills-codex/research-refine/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/research-refine/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-research-refine"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/research-review",
-      "path": "skills/skills-codex/research-review/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/research-review/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-research-review"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/research-wiki",
-      "path": "skills/skills-codex/research-wiki/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/research-wiki/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-research-wiki"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/resubmit-pipeline",
-      "path": "skills/skills-codex/resubmit-pipeline/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/resubmit-pipeline/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-resubmit-pipeline"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/result-to-claim",
-      "path": "skills/skills-codex/result-to-claim/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/result-to-claim/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-result-to-claim"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/run-experiment",
-      "path": "skills/skills-codex/run-experiment/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/run-experiment/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-run-experiment"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/semantic-scholar",
-      "path": "skills/skills-codex/semantic-scholar/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/semantic-scholar/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-semantic-scholar"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/serverless-modal",
-      "path": "skills/skills-codex/serverless-modal/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/serverless-modal/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-serverless-modal"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/slides-polish",
-      "path": "skills/skills-codex/slides-polish/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/slides-polish/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-slides-polish"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/specification-writing",
-      "path": "skills/skills-codex/specification-writing/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/specification-writing/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-specification-writing"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/system-profile",
-      "path": "skills/skills-codex/system-profile/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/system-profile/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-system-profile"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/training-check",
-      "path": "skills/skills-codex/training-check/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/training-check/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-training-check"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/vast-gpu",
-      "path": "skills/skills-codex/vast-gpu/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/vast-gpu/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-vast-gpu"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/wiki-enrich",
-      "path": "skills/skills-codex/wiki-enrich/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/wiki-enrich/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-wiki-enrich"
-    },
-    {
-      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
-      "branch": "main",
-      "skillName": "skills-codex/writing-systems-papers",
-      "path": "skills/skills-codex/writing-systems-papers/SKILL.md",
-      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/skills-codex/writing-systems-papers/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
-      "slug": "wanshuiyin-skills-codex-writing-systems-papers"
     },
     {
       "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
@@ -1578,7 +752,7 @@
       "skillName": "slides-polish",
       "path": "skills/slides-polish/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/slides-polish/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Per-page Codex review + targeted python-pptx / Beamer fixes for academic talk slides. Use AFTER /paper-slides (or any externally generated PPTX/Beamer) when the deck looks 'mostly OK' but the user wants a final pass that aligns visual weight with a reference, bumps PPTX fonts to projector-readable size, kills italic style leaks, fixes text-frame overflow, and catches per-slide layout drift. Trigger phrases: \\\"polish slides\\\", \\\"slides 排版不对\\\", \\\"PPTX 字体太小\\\", \\\"和 Beamer 比一下\\\", \\\"per-page review\\\", \\\"和 codex 一页一页过\\\".",
       "slug": "wanshuiyin-slides-polish"
     },
     {
@@ -1587,7 +761,7 @@
       "skillName": "specification-writing",
       "path": "skills/specification-writing/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/specification-writing/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Write the full patent specification from claims and invention disclosure. Use when user says \\\"撰写说明书\\\", \\\"write specification\\\", \\\"写说明书\\\", \\\"patent description\\\", or wants to draft the complete patent specification.",
       "slug": "wanshuiyin-specification-writing"
     },
     {
@@ -1596,7 +770,7 @@
       "skillName": "system-profile",
       "path": "skills/system-profile/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/system-profile/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Profile a target (script, process, GPU, memory, interconnect) for performance analysis. Use when user says \\\"profile\\\", \\\"benchmark\\\", \\\"bottleneck\\\", or wants performance analysis.",
       "slug": "wanshuiyin-system-profile"
     },
     {
@@ -1605,7 +779,7 @@
       "skillName": "training-check",
       "path": "skills/training-check/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/training-check/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Periodically check WandB metrics during training to catch problems early (NaN, loss divergence, idle GPUs). Avoids wasting GPU hours on broken runs. Use when training is running and you want automated health checks.",
       "slug": "wanshuiyin-training-check"
     },
     {
@@ -1614,7 +788,7 @@
       "skillName": "vast-gpu",
       "path": "skills/vast-gpu/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/vast-gpu/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Rent, manage, and destroy GPU instances on vast.ai. Use when user says \\\"rent gpu\\\", \\\"vast.ai\\\", \\\"rent a server\\\", \\\"cloud gpu\\\", or needs on-demand GPU without owning hardware.",
       "slug": "wanshuiyin-vast-gpu"
     },
     {
@@ -1623,7 +797,7 @@
       "skillName": "wiki-enrich",
       "path": "skills/wiki-enrich/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/wiki-enrich/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Fill in the per-paper TODO sections of research-wiki/papers/<slug>.md pages that literature-ingest skills leave as bare scaffolds. Use when user says 'enrich wiki', 'fill paper TODOs', 'wiki body 補完', '把 paper 摘要寫進 wiki', 'research-wiki 自動填', or after a batch ingest that left papers/ as TODO scaffolds.",
       "slug": "wanshuiyin-wiki-enrich"
     },
     {
@@ -1632,10 +806,10 @@
       "skillName": "writing-systems-papers",
       "path": "skills/writing-systems-papers/SKILL.md",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/writing-systems-papers/SKILL.md",
-      "description": "Discovered from a public GitHub repository: wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Paragraph-level structural blueprint for 10-12 page systems papers targeting OSDI, SOSP, ASPLOS, NSDI, and EuroSys. Provides page allocation, paragraph templates, and writing patterns. Use when user says \\\"写系统论文\\\", \\\"systems paper structure\\\", \\\"OSDI paper\\\", \\\"SOSP paper\\\", or wants fine-grained structural guidance for a systems conference submission.",
       "slug": "wanshuiyin-writing-systems-papers"
     }
   ],
-  "itemCount": 181,
-  "lastStatus": "reused-unchanged"
+  "itemCount": 80,
+  "lastStatus": "cache-fresh"
 }
