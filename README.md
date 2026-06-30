@@ -70,6 +70,8 @@ http://localhost:3000
 pnpm dev
 pnpm build
 pnpm lint
+pnpm install                    
+pnpm build
 ```
 
 数据相关：
@@ -81,6 +83,7 @@ pnpm validate:roles
 pnpm refresh:publisher-logos
 pnpm refresh:github-cache
 pnpm refresh:all
+
 ```
 
 说明：

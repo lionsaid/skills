@@ -1,14 +1,8 @@
 {
-  "generatedAt": "2026-06-30T04:04:15.207Z",
+  "generatedAt": "2026-06-30T06:43:31.267Z",
   "totalSkills": 8512,
   "sourceCount": 5,
-  "failures": [
-    {
-      "sourceId": "github-curated-mirror",
-      "label": "GitHub curated mirror",
-      "reason": "fetch failed; using 1168 cached skills from previous generated data"
-    }
-  ],
+  "failures": [],
   "skills": [
     {
       "slug": "anthropics-docx",
@@ -1050,7 +1044,6 @@
       "kind": "official",
       "tags": [
         "angular",
-        "github-discovery",
         "namespaced",
         "official-skills",
         "publisher-namespaced",
@@ -1070,17 +1063,11 @@
       "sourceId": "github-curated-mirror",
       "sourceIds": [
         "github-curated-mirror",
-        "github-repo-expansion",
         "officialskills-home"
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "repository": "angular/skills",
-      "discoveryPath": "angular-developer/SKILL.md",
+      "riskFlags": [],
       "creatorHandle": "angular",
       "creatorAvatarUrl": "https://github.com/angular.png?size=88",
       "hasPublisherLogo": true
@@ -1097,7 +1084,6 @@
       "kind": "official",
       "tags": [
         "angular",
-        "github-discovery",
         "namespaced",
         "official-skills",
         "publisher-namespaced",
@@ -1116,17 +1102,11 @@
       "sourceId": "github-curated-mirror",
       "sourceIds": [
         "github-curated-mirror",
-        "github-repo-expansion",
         "officialskills-home"
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "repository": "angular/skills",
-      "discoveryPath": "angular-new-app/SKILL.md",
+      "riskFlags": [],
       "creatorHandle": "angular",
       "creatorAvatarUrl": "https://github.com/angular.png?size=88",
       "hasPublisherLogo": true
@@ -1512,7 +1492,6 @@
       "sectionSlug": "skills-by-courier",
       "kind": "official",
       "tags": [
-        "github-discovery",
         "namespaced",
         "publisher-namespaced",
         "skills-by-courier",
@@ -1522,19 +1501,13 @@
       "jobs": [],
       "sourceId": "github-curated-mirror",
       "sourceIds": [
-        "github-curated-mirror",
-        "github-repo-expansion"
+        "github-curated-mirror"
       ],
-      "repository": "trycourier/courier-skills",
-      "discoveryPath": "SKILL.md",
-      "creatorHandle": "trycourier",
-      "creatorAvatarUrl": "https://github.com/trycourier.png?size=88",
       "sourceType": "github-readme",
       "trustLevel": "curated",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
+      "riskFlags": [],
+      "creatorHandle": "trycourier",
+      "creatorAvatarUrl": "https://github.com/trycourier.png?size=88",
       "hasPublisherLogo": true
     },
     {
@@ -38037,7 +38010,6 @@
       "sectionSlug": "skills-by-google-cloud",
       "kind": "official",
       "tags": [
-        "github-discovery",
         "google",
         "infra",
         "namespaced",
@@ -38057,19 +38029,13 @@
       ],
       "sourceId": "github-curated-mirror",
       "sourceIds": [
-        "github-curated-mirror",
-        "github-repo-expansion"
+        "github-curated-mirror"
       ],
-      "repository": "google/skills",
-      "discoveryPath": "skills/cloud/agent-platform-skill-registry/SKILL.md",
-      "creatorHandle": "google",
-      "creatorAvatarUrl": "https://github.com/google.png?size=88",
       "sourceType": "github-readme",
       "trustLevel": "curated",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
+      "riskFlags": [],
+      "creatorHandle": "google",
+      "creatorAvatarUrl": "https://github.com/google.png?size=88",
       "hasPublisherLogo": true
     },
     {
@@ -38083,7 +38049,6 @@
       "sectionSlug": "skills-by-google-cloud",
       "kind": "official",
       "tags": [
-        "github-discovery",
         "google",
         "infra",
         "namespaced",
@@ -38102,19 +38067,13 @@
       ],
       "sourceId": "github-curated-mirror",
       "sourceIds": [
-        "github-curated-mirror",
-        "github-repo-expansion"
+        "github-curated-mirror"
       ],
-      "repository": "google/skills",
-      "discoveryPath": "skills/cloud/alloydb-basics/SKILL.md",
-      "creatorHandle": "google",
-      "creatorAvatarUrl": "https://github.com/google.png?size=88",
       "sourceType": "github-readme",
       "trustLevel": "curated",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
+      "riskFlags": [],
+      "creatorHandle": "google",
+      "creatorAvatarUrl": "https://github.com/google.png?size=88",
       "hasPublisherLogo": true
     },
     {
@@ -38128,7 +38087,6 @@
       "sectionSlug": "skills-by-google-cloud",
       "kind": "official",
       "tags": [
-        "github-discovery",
         "google",
         "infra",
         "namespaced",
@@ -38153,19 +38111,13 @@
       ],
       "sourceId": "github-curated-mirror",
       "sourceIds": [
-        "github-curated-mirror",
-        "github-repo-expansion"
+        "github-curated-mirror"
       ],
-      "repository": "google/skills",
-      "discoveryPath": "skills/cloud/bigquery-basics/SKILL.md",
-      "creatorHandle": "google",
-      "creatorAvatarUrl": "https://github.com/google.png?size=88",
       "sourceType": "github-readme",
       "trustLevel": "curated",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
+      "riskFlags": [],
+      "creatorHandle": "google",
+      "creatorAvatarUrl": "https://github.com/google.png?size=88",
       "hasPublisherLogo": true
     },
     {
@@ -38179,7 +38131,6 @@
       "sectionSlug": "skills-by-google-cloud",
       "kind": "official",
       "tags": [
-        "github-discovery",
         "google",
         "infra",
         "namespaced",
@@ -38198,19 +38149,13 @@
       ],
       "sourceId": "github-curated-mirror",
       "sourceIds": [
-        "github-curated-mirror",
-        "github-repo-expansion"
+        "github-curated-mirror"
       ],
-      "repository": "google/skills",
-      "discoveryPath": "skills/cloud/cloud-run-basics/SKILL.md",
-      "creatorHandle": "google",
-      "creatorAvatarUrl": "https://github.com/google.png?size=88",
       "sourceType": "github-readme",
       "trustLevel": "curated",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
+      "riskFlags": [],
+      "creatorHandle": "google",
+      "creatorAvatarUrl": "https://github.com/google.png?size=88",
       "hasPublisherLogo": true
     },
     {
@@ -38224,7 +38169,6 @@
       "sectionSlug": "skills-by-google-cloud",
       "kind": "official",
       "tags": [
-        "github-discovery",
         "google",
         "infra",
         "namespaced",
@@ -38249,19 +38193,13 @@
       ],
       "sourceId": "github-curated-mirror",
       "sourceIds": [
-        "github-curated-mirror",
-        "github-repo-expansion"
+        "github-curated-mirror"
       ],
-      "repository": "google/skills",
-      "discoveryPath": "skills/cloud/cloud-sql-basics/SKILL.md",
-      "creatorHandle": "google",
-      "creatorAvatarUrl": "https://github.com/google.png?size=88",
       "sourceType": "github-readme",
       "trustLevel": "curated",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
+      "riskFlags": [],
+      "creatorHandle": "google",
+      "creatorAvatarUrl": "https://github.com/google.png?size=88",
       "hasPublisherLogo": true
     },
     {
@@ -38275,7 +38213,6 @@
       "sectionSlug": "skills-by-google-cloud",
       "kind": "official",
       "tags": [
-        "github-discovery",
         "google",
         "infra",
         "namespaced",
@@ -38295,19 +38232,13 @@
       ],
       "sourceId": "github-curated-mirror",
       "sourceIds": [
-        "github-curated-mirror",
-        "github-repo-expansion"
+        "github-curated-mirror"
       ],
-      "repository": "google/skills",
-      "discoveryPath": "skills/cloud/firebase-basics/SKILL.md",
-      "creatorHandle": "google",
-      "creatorAvatarUrl": "https://github.com/google.png?size=88",
       "sourceType": "github-readme",
       "trustLevel": "curated",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
+      "riskFlags": [],
+      "creatorHandle": "google",
+      "creatorAvatarUrl": "https://github.com/google.png?size=88",
       "hasPublisherLogo": true
     },
     {
@@ -38321,7 +38252,6 @@
       "sectionSlug": "skills-by-google-cloud",
       "kind": "official",
       "tags": [
-        "github-discovery",
         "google",
         "infra",
         "namespaced",
@@ -38340,19 +38270,13 @@
       ],
       "sourceId": "github-curated-mirror",
       "sourceIds": [
-        "github-curated-mirror",
-        "github-repo-expansion"
+        "github-curated-mirror"
       ],
-      "repository": "google/skills",
-      "discoveryPath": "skills/cloud/gemini-agents-api/SKILL.md",
-      "creatorHandle": "google",
-      "creatorAvatarUrl": "https://github.com/google.png?size=88",
       "sourceType": "github-readme",
       "trustLevel": "curated",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
+      "riskFlags": [],
+      "creatorHandle": "google",
+      "creatorAvatarUrl": "https://github.com/google.png?size=88",
       "hasPublisherLogo": true
     },
     {
@@ -38366,7 +38290,6 @@
       "sectionSlug": "skills-by-google-cloud",
       "kind": "official",
       "tags": [
-        "github-discovery",
         "google",
         "infra",
         "namespaced",
@@ -38386,19 +38309,13 @@
       ],
       "sourceId": "github-curated-mirror",
       "sourceIds": [
-        "github-curated-mirror",
-        "github-repo-expansion"
+        "github-curated-mirror"
       ],
-      "repository": "google/skills",
-      "discoveryPath": "skills/cloud/gemini-api/SKILL.md",
-      "creatorHandle": "google",
-      "creatorAvatarUrl": "https://github.com/google.png?size=88",
       "sourceType": "github-readme",
       "trustLevel": "curated",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
+      "riskFlags": [],
+      "creatorHandle": "google",
+      "creatorAvatarUrl": "https://github.com/google.png?size=88",
       "hasPublisherLogo": true
     },
     {
@@ -38412,7 +38329,6 @@
       "sectionSlug": "skills-by-google-cloud",
       "kind": "official",
       "tags": [
-        "github-discovery",
         "google",
         "infra",
         "namespaced",
@@ -38432,19 +38348,13 @@
       ],
       "sourceId": "github-curated-mirror",
       "sourceIds": [
-        "github-curated-mirror",
-        "github-repo-expansion"
+        "github-curated-mirror"
       ],
-      "repository": "google/skills",
-      "discoveryPath": "skills/cloud/gemini-interactions-api/SKILL.md",
-      "creatorHandle": "google",
-      "creatorAvatarUrl": "https://github.com/google.png?size=88",
       "sourceType": "github-readme",
       "trustLevel": "curated",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
+      "riskFlags": [],
+      "creatorHandle": "google",
+      "creatorAvatarUrl": "https://github.com/google.png?size=88",
       "hasPublisherLogo": true
     },
     {
@@ -38458,7 +38368,6 @@
       "sectionSlug": "skills-by-google-cloud",
       "kind": "official",
       "tags": [
-        "github-discovery",
         "google",
         "infra",
         "namespaced",
@@ -38477,19 +38386,13 @@
       ],
       "sourceId": "github-curated-mirror",
       "sourceIds": [
-        "github-curated-mirror",
-        "github-repo-expansion"
+        "github-curated-mirror"
       ],
-      "repository": "google/skills",
-      "discoveryPath": "skills/cloud/gke-basics/SKILL.md",
-      "creatorHandle": "google",
-      "creatorAvatarUrl": "https://github.com/google.png?size=88",
       "sourceType": "github-readme",
       "trustLevel": "curated",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
+      "riskFlags": [],
+      "creatorHandle": "google",
+      "creatorAvatarUrl": "https://github.com/google.png?size=88",
       "hasPublisherLogo": true
     },
     {
@@ -38503,7 +38406,6 @@
       "sectionSlug": "skills-by-google-cloud",
       "kind": "official",
       "tags": [
-        "github-discovery",
         "google",
         "infra",
         "namespaced",
@@ -38528,19 +38430,13 @@
       ],
       "sourceId": "github-curated-mirror",
       "sourceIds": [
-        "github-curated-mirror",
-        "github-repo-expansion"
+        "github-curated-mirror"
       ],
-      "repository": "google/skills",
-      "discoveryPath": "skills/cloud/google-cloud-networking-observability/SKILL.md",
-      "creatorHandle": "google",
-      "creatorAvatarUrl": "https://github.com/google.png?size=88",
       "sourceType": "github-readme",
       "trustLevel": "curated",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
+      "riskFlags": [],
+      "creatorHandle": "google",
+      "creatorAvatarUrl": "https://github.com/google.png?size=88",
       "hasPublisherLogo": true
     },
     {
@@ -38554,7 +38450,6 @@
       "sectionSlug": "skills-by-google-cloud",
       "kind": "official",
       "tags": [
-        "github-discovery",
         "google",
         "infra",
         "namespaced",
@@ -38574,19 +38469,13 @@
       ],
       "sourceId": "github-curated-mirror",
       "sourceIds": [
-        "github-curated-mirror",
-        "github-repo-expansion"
+        "github-curated-mirror"
       ],
-      "repository": "google/skills",
-      "discoveryPath": "skills/cloud/google-cloud-recipe-auth/SKILL.md",
-      "creatorHandle": "google",
-      "creatorAvatarUrl": "https://github.com/google.png?size=88",
       "sourceType": "github-readme",
       "trustLevel": "curated",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
+      "riskFlags": [],
+      "creatorHandle": "google",
+      "creatorAvatarUrl": "https://github.com/google.png?size=88",
       "hasPublisherLogo": true
     },
     {
@@ -38600,7 +38489,6 @@
       "sectionSlug": "skills-by-google-cloud",
       "kind": "official",
       "tags": [
-        "github-discovery",
         "google",
         "infra",
         "namespaced",
@@ -38620,19 +38508,13 @@
       ],
       "sourceId": "github-curated-mirror",
       "sourceIds": [
-        "github-curated-mirror",
-        "github-repo-expansion"
+        "github-curated-mirror"
       ],
-      "repository": "google/skills",
-      "discoveryPath": "skills/cloud/google-cloud-recipe-onboarding/SKILL.md",
-      "creatorHandle": "google",
-      "creatorAvatarUrl": "https://github.com/google.png?size=88",
       "sourceType": "github-readme",
       "trustLevel": "curated",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
+      "riskFlags": [],
+      "creatorHandle": "google",
+      "creatorAvatarUrl": "https://github.com/google.png?size=88",
       "hasPublisherLogo": true
     },
     {
@@ -38646,7 +38528,6 @@
       "sectionSlug": "skills-by-google-cloud",
       "kind": "official",
       "tags": [
-        "github-discovery",
         "google",
         "infra",
         "namespaced",
@@ -38667,19 +38548,13 @@
       ],
       "sourceId": "github-curated-mirror",
       "sourceIds": [
-        "github-curated-mirror",
-        "github-repo-expansion"
+        "github-curated-mirror"
       ],
-      "repository": "google/skills",
-      "discoveryPath": "skills/cloud/google-cloud-waf-cost-optimization/SKILL.md",
-      "creatorHandle": "google",
-      "creatorAvatarUrl": "https://github.com/google.png?size=88",
       "sourceType": "github-readme",
       "trustLevel": "curated",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
+      "riskFlags": [],
+      "creatorHandle": "google",
+      "creatorAvatarUrl": "https://github.com/google.png?size=88",
       "hasPublisherLogo": true
     },
     {
@@ -38693,7 +38568,6 @@
       "sectionSlug": "skills-by-google-cloud",
       "kind": "official",
       "tags": [
-        "github-discovery",
         "google",
         "infra",
         "namespaced",
@@ -38718,19 +38592,13 @@
       ],
       "sourceId": "github-curated-mirror",
       "sourceIds": [
-        "github-curated-mirror",
-        "github-repo-expansion"
+        "github-curated-mirror"
       ],
-      "repository": "google/skills",
-      "discoveryPath": "skills/cloud/google-cloud-waf-operational-excellence/SKILL.md",
-      "creatorHandle": "google",
-      "creatorAvatarUrl": "https://github.com/google.png?size=88",
       "sourceType": "github-readme",
       "trustLevel": "curated",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
+      "riskFlags": [],
+      "creatorHandle": "google",
+      "creatorAvatarUrl": "https://github.com/google.png?size=88",
       "hasPublisherLogo": true
     },
     {
@@ -38744,7 +38612,6 @@
       "sectionSlug": "skills-by-google-cloud",
       "kind": "official",
       "tags": [
-        "github-discovery",
         "google",
         "infra",
         "namespaced",
@@ -38769,19 +38636,13 @@
       ],
       "sourceId": "github-curated-mirror",
       "sourceIds": [
-        "github-curated-mirror",
-        "github-repo-expansion"
+        "github-curated-mirror"
       ],
-      "repository": "google/skills",
-      "discoveryPath": "skills/cloud/google-cloud-waf-performance-optimization/SKILL.md",
-      "creatorHandle": "google",
-      "creatorAvatarUrl": "https://github.com/google.png?size=88",
       "sourceType": "github-readme",
       "trustLevel": "curated",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
+      "riskFlags": [],
+      "creatorHandle": "google",
+      "creatorAvatarUrl": "https://github.com/google.png?size=88",
       "hasPublisherLogo": true
     },
     {
@@ -38795,7 +38656,6 @@
       "sectionSlug": "skills-by-google-cloud",
       "kind": "official",
       "tags": [
-        "github-discovery",
         "google",
         "infra",
         "namespaced",
@@ -38820,19 +38680,13 @@
       ],
       "sourceId": "github-curated-mirror",
       "sourceIds": [
-        "github-curated-mirror",
-        "github-repo-expansion"
+        "github-curated-mirror"
       ],
-      "repository": "google/skills",
-      "discoveryPath": "skills/cloud/google-cloud-waf-reliability/SKILL.md",
-      "creatorHandle": "google",
-      "creatorAvatarUrl": "https://github.com/google.png?size=88",
       "sourceType": "github-readme",
       "trustLevel": "curated",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
+      "riskFlags": [],
+      "creatorHandle": "google",
+      "creatorAvatarUrl": "https://github.com/google.png?size=88",
       "hasPublisherLogo": true
     },
     {
@@ -38846,7 +38700,6 @@
       "sectionSlug": "skills-by-google-cloud",
       "kind": "official",
       "tags": [
-        "github-discovery",
         "google",
         "infra",
         "namespaced",
@@ -38871,19 +38724,13 @@
       ],
       "sourceId": "github-curated-mirror",
       "sourceIds": [
-        "github-curated-mirror",
-        "github-repo-expansion"
+        "github-curated-mirror"
       ],
-      "repository": "google/skills",
-      "discoveryPath": "skills/cloud/google-cloud-waf-security/SKILL.md",
-      "creatorHandle": "google",
-      "creatorAvatarUrl": "https://github.com/google.png?size=88",
       "sourceType": "github-readme",
       "trustLevel": "curated",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
+      "riskFlags": [],
+      "creatorHandle": "google",
+      "creatorAvatarUrl": "https://github.com/google.png?size=88",
       "hasPublisherLogo": true
     },
     {
@@ -38897,7 +38744,6 @@
       "sectionSlug": "skills-by-google-cloud",
       "kind": "official",
       "tags": [
-        "github-discovery",
         "google",
         "infra",
         "namespaced",
@@ -38922,19 +38768,13 @@
       ],
       "sourceId": "github-curated-mirror",
       "sourceIds": [
-        "github-curated-mirror",
-        "github-repo-expansion"
+        "github-curated-mirror"
       ],
-      "repository": "google/skills",
-      "discoveryPath": "skills/cloud/google-cloud-waf-sustainability/SKILL.md",
-      "creatorHandle": "google",
-      "creatorAvatarUrl": "https://github.com/google.png?size=88",
       "sourceType": "github-readme",
       "trustLevel": "curated",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
+      "riskFlags": [],
+      "creatorHandle": "google",
+      "creatorAvatarUrl": "https://github.com/google.png?size=88",
       "hasPublisherLogo": true
     },
     {
@@ -44772,7 +44612,6 @@
       "tags": [
         "avdlee",
         "development-and-testing",
-        "github-discovery",
         "mobile",
         "namespaced",
         "publisher-namespaced"
@@ -44790,19 +44629,13 @@
       ],
       "sourceId": "github-curated-mirror",
       "sourceIds": [
-        "github-curated-mirror",
-        "github-repo-expansion"
+        "github-curated-mirror"
       ],
-      "repository": "AvdLee/SwiftUI-Agent-Skill",
-      "discoveryPath": "swiftui-expert-skill/SKILL.md",
-      "creatorHandle": "AvdLee",
-      "creatorAvatarUrl": "https://github.com/AvdLee.png?size=88",
       "sourceType": "github-readme",
       "trustLevel": "curated",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
+      "riskFlags": [],
+      "creatorHandle": "avdlee",
+      "creatorAvatarUrl": "https://github.com/avdlee.png?size=88",
       "hasPublisherLogo": true
     },
     {
@@ -46471,11 +46304,16 @@
         "publisher-namespaced"
       ],
       "personas": [
-        "designer"
+        "designer",
+        "engineer"
       ],
       "jobs": [
+        "api-integration",
+        "deployment-ops",
         "design-critique",
+        "development-workflows",
         "presentation-building",
+        "testing-debugging",
         "ui-ux-design",
         "visual-assets",
         "workflow-automation"
@@ -73504,7 +73342,7 @@
       "slug": "tonimelisma-email-to-calendar",
       "name": "tonimelisma/email-to-calendar",
       "url": "https://clawhub.ai/tonimelisma/email-to-calendar",
-      "description": "Extract calendar events and action points from forwarded emails, store them for review, and create calendar events with duplicate detection. Use when the user forwards an email containing meeting invites, events, deadlines, or action items, and wants to extract structured items for calendar creation. Also use when the user asks to review previously extracted items or create calendar events from them.",
+      "description": "Turn emails into Google Calendar events. Scans your Gmail inbox (or only forwarded emails) to extract meetings, appointments, RSVPs, and deadlines, then crea...",
       "publisher": "tonimelisma",
       "publisherSlug": "tonimelisma",
       "sectionTitle": "Community marketplace",
@@ -233552,7 +233390,7 @@
       "slug": "kubesphere-kubesphere-openkruise",
       "name": "kubesphere/kubesphere-openkruise",
       "url": "https://github.com/kubesphere/kubesphere/blob/master/skills/kubesphere-openkruise/SKILL.md",
-      "description": "Discovered from a public GitHub repository: kubesphere/kubesphere",
+      "description": "KubeSphere OpenKruise management Skill. Use when user asks to install or enable OpenKruise, check OpenKruise status, view kruise pods/logs/CRDs, create or update SidecarSet, manage sidecar injection, create or update CloneSet, perform in-place update or batch rollout, uninstall or remove OpenKruise, or troubleshoot Kruise Pod, CRD, and webhook issues in KubeSphere.",
       "publisher": "kubesphere",
       "publisherSlug": "kubesphere",
       "sectionTitle": "GitHub discovery",
@@ -233566,7 +233404,8 @@
       ],
       "personas": [],
       "jobs": [
-        "ui-ux-design"
+        "ui-ux-design",
+        "workflow-automation"
       ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
@@ -244205,7 +244044,7 @@
       "slug": "agricidaniel-seo-images",
       "name": "AgriciDaniel/seo-images",
       "url": "https://github.com/AgriciDaniel/claude-seo/blob/main/skills/seo-images/SKILL.md",
-      "description": "Discovered from a public GitHub repository: AgriciDaniel/claude-seo",
+      "description": ">",
       "publisher": "AgriciDaniel",
       "publisherSlug": "agricidaniel",
       "sectionTitle": "GitHub discovery",
@@ -266241,7 +266080,7 @@
       "slug": "elementalsouls-hunt-laravel",
       "name": "elementalsouls/hunt-laravel",
       "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-laravel/SKILL.md",
-      "description": "Discovered from a public GitHub repository: elementalsouls/Claude-BugHunter",
+      "description": "Hunt Laravel specific vulnerabilities — Debug mode leakage (APP_DEBUG=true exposes full stack trace + env vars), Laravel Telescope/Horizon dashboard unauthorized access, Ignition RCE (CVE-2021-3129), Signed URL manipulation, Queue Worker abuse, mass assignment via Eloquent, deserialization via cookies, .env file exposure. Use when target runs Laravel (PHP) — detected via X-Powered-By, Laravel session cookies, or /storage/ paths.",
       "publisher": "elementalsouls",
       "publisherSlug": "elementalsouls",
       "sectionTitle": "GitHub discovery",
@@ -266253,8 +266092,23 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "prd-specs",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -293295,7 +293149,7 @@
       "slug": "freedomintelligence-gtars",
       "name": "FreedomIntelligence/gtars",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/gtars/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "High-performance toolkit for genomic interval analysis in Rust with Python bindings. Use when working with genomic regions, BED files, coverage tracks, overlap detection, tokenization for ML models, or fragment analysis in computational genomics and machine learning applications.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -293307,8 +293161,17 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "data-analyst"
+      ],
+      "jobs": [
+        "dashboarding",
+        "data-extraction",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -293461,7 +293324,7 @@
       "slug": "freedomintelligence-gwas-prs",
       "name": "FreedomIntelligence/gwas-prs",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/gwas-prs/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Calculate polygenic risk scores from DTC genetic data using the PGS Catalog",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -293582,7 +293445,7 @@
       "slug": "freedomintelligence-hipaa-compliance",
       "name": "FreedomIntelligence/hipaa-compliance",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/hipaa-compliance/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Ensure HIPAA compliance when handling PHI (Protected Health Information). Use when writing code that accesses user health data, check-ins, journal entries, or any sensitive information. Activates",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -293594,8 +293457,17 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "testing-debugging",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -293616,7 +293488,7 @@
       "slug": "freedomintelligence-histolab",
       "name": "FreedomIntelligence/histolab",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/histolab/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Digital pathology image processing toolkit for whole slide images (WSI). Use this skill when working with histopathology slides, processing H&E or IHC stained tissue images, extracting tiles from gigapixel pathology images, detecting tissue regions, segmenting tissue masks, or preparing datasets for computational pathology deep learning pipelines. Applies to WSI formats (SVS, TIFF, NDPI), tile-based analysis, and histological image preprocessing workflows.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -293628,8 +293500,24 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "presentation-building",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "visual-assets",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -293650,7 +293538,7 @@
       "slug": "freedomintelligence-hmdb-database",
       "name": "FreedomIntelligence/hmdb-database",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/hmdb-database/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Access Human Metabolome Database (220K+ metabolites). Search by name/ID/structure, retrieve chemical properties, biomarker data, NMR/MS spectra, pathways, for metabolomics and identification.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -293663,7 +293551,10 @@
         "publisher-namespaced"
       ],
       "personas": [],
-      "jobs": [],
+      "jobs": [
+        "prd-specs",
+        "research-synthesis"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -293684,7 +293575,60 @@
       "slug": "freedomintelligence-hrd-analysis-agent",
       "name": "FreedomIntelligence/hrd-analysis-agent",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/hrd-analysis-agent/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
+      "publisher": "FreedomIntelligence",
+      "publisherSlug": "freedomintelligence",
+      "sectionTitle": "GitHub discovery",
+      "sectionSlug": "github-discovery",
+      "kind": "community",
+      "tags": [
+        "freedomintelligence",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "data-analyst",
+        "engineer",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceId": "github-repo-expansion",
+      "sourceIds": [
+        "github-repo-expansion"
+      ],
+      "repository": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "discoveryPath": "skills/hrd-analysis-agent/SKILL.md",
+      "creatorHandle": "FreedomIntelligence",
+      "creatorAvatarUrl": "https://github.com/FreedomIntelligence.png?size=88",
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "hasPublisherLogo": false
+    },
+    {
+      "slug": "freedomintelligence-hrv-alexithymia-expert",
+      "name": "FreedomIntelligence/hrv-alexithymia-expert",
+      "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/hrv-alexithymia-expert/SKILL.md",
+      "description": "Heart rate variability biometrics and emotional awareness training. Expert in HRV analysis, interoception training, biofeedback, and emotional intelligence. Activate on 'HRV', 'heart rate variability',",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -293712,40 +293656,6 @@
         "github-repo-expansion"
       ],
       "repository": "FreedomIntelligence/OpenClaw-Medical-Skills",
-      "discoveryPath": "skills/hrd-analysis-agent/SKILL.md",
-      "creatorHandle": "FreedomIntelligence",
-      "creatorAvatarUrl": "https://github.com/FreedomIntelligence.png?size=88",
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "hasPublisherLogo": false
-    },
-    {
-      "slug": "freedomintelligence-hrv-alexithymia-expert",
-      "name": "FreedomIntelligence/hrv-alexithymia-expert",
-      "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/hrv-alexithymia-expert/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
-      "publisher": "FreedomIntelligence",
-      "publisherSlug": "freedomintelligence",
-      "sectionTitle": "GitHub discovery",
-      "sectionSlug": "github-discovery",
-      "kind": "community",
-      "tags": [
-        "freedomintelligence",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceId": "github-repo-expansion",
-      "sourceIds": [
-        "github-repo-expansion"
-      ],
-      "repository": "FreedomIntelligence/OpenClaw-Medical-Skills",
       "discoveryPath": "skills/hrv-alexithymia-expert/SKILL.md",
       "creatorHandle": "FreedomIntelligence",
       "creatorAvatarUrl": "https://github.com/FreedomIntelligence.png?size=88",
@@ -293761,7 +293671,7 @@
       "slug": "freedomintelligence-hypogenic",
       "name": "FreedomIntelligence/hypogenic",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/hypogenic/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Automated hypothesis generation and testing using large language models. Use this skill when generating scientific hypotheses from datasets, combining literature insights with empirical data, testing hypotheses against observational data, or conducting systematic hypothesis exploration for research discovery in domains like deception detection, AI content detection, mental health analysis, or other empirical research tasks.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -293773,8 +293683,27 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "data-analyst",
+        "engineer",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -293795,7 +293724,7 @@
       "slug": "freedomintelligence-hypothesis-generation",
       "name": "FreedomIntelligence/hypothesis-generation",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/hypothesis-generation/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Generate testable hypotheses. Formulate from observations, design experiments, explore competing explanations, develop predictions, propose mechanisms, for scientific inquiry across domains.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -293807,8 +293736,21 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "designer",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "design-critique",
+        "development-workflows",
+        "presentation-building",
+        "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -293829,7 +293771,7 @@
       "slug": "freedomintelligence-imaging-data-commons",
       "name": "FreedomIntelligence/imaging-data-commons",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/imaging-data-commons/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Query and download public cancer imaging data from NCI Imaging Data Commons using idc-index. Use for accessing large-scale radiology (CT, MR, PET) and pathology datasets for AI training or research. No authentication required. Query by metadata, visualize in browser, check licenses.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -293841,8 +293783,25 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "reporting",
+        "research-synthesis",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -293863,7 +293822,7 @@
       "slug": "freedomintelligence-immune-checkpoint-combination-agent",
       "name": "FreedomIntelligence/immune-checkpoint-combination-agent",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/immune-checkpoint-combination-agent/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -293875,8 +293834,22 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "engineer",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -293897,7 +293870,7 @@
       "slug": "freedomintelligence-infographics",
       "name": "FreedomIntelligence/infographics",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/infographics/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Create professional infographics using Nano Banana Pro AI with smart iterative refinement. Uses Gemini 3 Pro for quality review. Integrates research-lookup and web search for accurate data. Supports 10 infographic types, 8 industry styles, and colorblind-safe palettes.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -293910,7 +293883,9 @@
         "publisher-namespaced"
       ],
       "personas": [],
-      "jobs": [],
+      "jobs": [
+        "research-synthesis"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -293931,7 +293906,7 @@
       "slug": "freedomintelligence-instrument-data-to-allotrope",
       "name": "FreedomIntelligence/instrument-data-to-allotrope",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/instrument-data-to-allotrope/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Convert laboratory instrument output files (PDF, CSV, Excel, TXT) to Allotrope Simple Model (ASM) JSON format or flattened 2D CSV. Use this skill when scientists need to standardize instrument data for LIMS systems, data lakes, or downstream analysis. Supports auto-detection of instrument types. Outputs include full ASM JSON, flattened CSV for easy import, and exportable Python code for data engineers. Common triggers include converting instrument files, standardizing lab data, preparing data for upload to LIMS/ELN systems, or generating parser code for production pipelines.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -293943,8 +293918,22 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -293965,7 +293954,7 @@
       "slug": "freedomintelligence-interpro-database",
       "name": "FreedomIntelligence/interpro-database",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/interpro-database/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Query InterPro for protein family, domain, and functional site annotations. Integrates Pfam, PANTHER, PRINTS, SMART, SUPERFAMILY, and 11 other member databases. Use for protein function prediction, domain architecture analysis, evolutionary classification, and GO term mapping.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -293977,8 +293966,17 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "data-analyst"
+      ],
+      "jobs": [
+        "dashboarding",
+        "data-extraction",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -293999,7 +293997,7 @@
       "slug": "freedomintelligence-ipsae",
       "name": "FreedomIntelligence/ipsae",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/ipsae/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": ">",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -294033,7 +294031,7 @@
       "slug": "freedomintelligence-iso-13485-certification",
       "name": "FreedomIntelligence/iso-13485-certification",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/iso-13485-certification/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Comprehensive toolkit for preparing ISO 13485 certification documentation for medical device Quality Management Systems. Use when users need help with ISO 13485 QMS documentation, including (1) conducting gap analysis of existing documentation, (2) creating Quality Manuals, (3) developing required procedures and work instructions, (4) preparing Medical Device Files, (5) understanding ISO 13485 requirements, or (6) identifying missing documentation for medical device certification. Also use when users mention medical device regulations, QMS certification, FDA QMSR, EU MDR, or need help with quality system documentation.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -294045,8 +294043,23 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "data-analyst",
+        "pm"
+      ],
+      "jobs": [
+        "dashboarding",
+        "data-extraction",
+        "development-workflows",
+        "planning-roadmapping",
+        "prd-specs",
+        "reporting",
+        "research-synthesis",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -294067,7 +294080,7 @@
       "slug": "freedomintelligence-jaspar-database",
       "name": "FreedomIntelligence/jaspar-database",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/jaspar-database/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Query JASPAR for transcription factor binding site (TFBS) profiles (PWMs/PFMs). Search by TF name, species, or class; scan DNA sequences for TF binding sites; compare matrices; essential for regulatory genomics, motif analysis, and GWAS regulatory variant interpretation.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -294079,8 +294092,24 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "prd-specs",
+        "reporting",
+        "research-synthesis",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -294101,7 +294130,7 @@
       "slug": "freedomintelligence-jungian-psychologist",
       "name": "FreedomIntelligence/jungian-psychologist",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/jungian-psychologist/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Expert in Jungian analytical psychology, depth psychology, shadow work, archetypal analysis, dream interpretation, active imagination, addiction/recovery through Jungian lens, and the individuation",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -294113,8 +294142,17 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "data-analyst"
+      ],
+      "jobs": [
+        "dashboarding",
+        "data-extraction",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -294135,7 +294173,7 @@
       "slug": "freedomintelligence-kegg-database",
       "name": "FreedomIntelligence/kegg-database",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/kegg-database/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Direct REST API access to KEGG (academic use only). Pathway analysis, gene-pathway mapping, metabolic pathways, drug interactions, ID conversion. For Python workflows with multiple databases, prefer bioservices. Use this for direct HTTP/REST work or KEGG-specific control.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -294147,8 +294185,24 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "prd-specs",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -294169,7 +294223,7 @@
       "slug": "freedomintelligence-knowledge-synthesis",
       "name": "FreedomIntelligence/knowledge-synthesis",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/knowledge-synthesis/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -294181,9 +294235,21 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
+      "personas": [
+        "engineer",
+        "marketer"
+      ],
       "jobs": [
-        "research-synthesis"
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
       ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
@@ -294205,7 +294271,7 @@
       "slug": "freedomintelligence-kragen-knowledge-graph",
       "name": "FreedomIntelligence/kragen-knowledge-graph",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/kragen-knowledge-graph/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -294217,8 +294283,22 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "engineer",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -294239,7 +294319,7 @@
       "slug": "freedomintelligence-lab-results",
       "name": "FreedomIntelligence/lab-results",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/lab-results/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -294251,8 +294331,22 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "engineer",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -294273,7 +294367,7 @@
       "slug": "freedomintelligence-labarchive-integration",
       "name": "FreedomIntelligence/labarchive-integration",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/labarchive-integration/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Electronic lab notebook API integration. Access notebooks, manage entries/attachments, backup notebooks, integrate with Protocols.io/Jupyter/REDCap, for programmatic ELN workflows.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -294285,9 +294379,15 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
+      "personas": [
+        "engineer"
+      ],
       "jobs": [
-        "api-integration"
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
       ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
@@ -294309,7 +294409,7 @@
       "slug": "freedomintelligence-labstep",
       "name": "FreedomIntelligence/labstep",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/labstep/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Interact with the Labstep electronic lab notebook API using labstepPy. Query experiments, protocols, resources, inventory, and other lab entities.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -294321,8 +294421,22 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -294343,7 +294457,7 @@
       "slug": "freedomintelligence-lamindb",
       "name": "FreedomIntelligence/lamindb",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/lamindb/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "This skill should be used when working with LaminDB, an open-source data framework for biology that makes data queryable, traceable, reproducible, and FAIR. Use when managing biological datasets (scRNA-seq, spatial, flow cytometry, etc.), tracking computational workflows, curating and validating data with biological ontologies, building data lakehouses, or ensuring data lineage and reproducibility in biological research. Covers data management, annotation, ontologies (genes, cell types, diseases, tissues), schema validation, integrations with workflow managers (Nextflow, Snakemake) and MLOps platforms (W&B, MLflow), and deployment strategies.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -294355,8 +294469,18 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "research-synthesis",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -294377,7 +294501,7 @@
       "slug": "freedomintelligence-latchbio-integration",
       "name": "FreedomIntelligence/latchbio-integration",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/latchbio-integration/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Latch platform for bioinformatics workflows. Build pipelines with Latch SDK, @workflow/@task decorators, deploy serverless workflows, LatchFile/LatchDir, Nextflow/Snakemake integration.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -294389,9 +294513,16 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
+      "personas": [
+        "engineer"
+      ],
       "jobs": [
-        "api-integration"
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
       ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
@@ -294413,7 +294544,7 @@
       "slug": "freedomintelligence-latex-posters",
       "name": "FreedomIntelligence/latex-posters",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/latex-posters/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Create professional research posters in LaTeX using beamerposter, tikzposter, or baposter. Support for conference presentations, academic posters, and scientific communication. Includes layout design, color schemes, multi-column formats, figure integration, and poster-specific best practices for visual communication.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -294425,9 +294556,26 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
+      "personas": [
+        "designer",
+        "engineer",
+        "support"
+      ],
       "jobs": [
-        "visual-assets"
+        "api-integration",
+        "data-extraction",
+        "deployment-ops",
+        "design-critique",
+        "development-workflows",
+        "document-authoring",
+        "prd-specs",
+        "presentation-building",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
       ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
@@ -294449,7 +294597,7 @@
       "slug": "freedomintelligence-leads-literature-mining",
       "name": "FreedomIntelligence/leads-literature-mining",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/leads-literature-mining/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -294461,10 +294609,21 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
+      "personas": [
+        "engineer",
+        "marketer"
+      ],
       "jobs": [
+        "api-integration",
         "campaign-planning",
-        "research-synthesis"
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
       ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
@@ -294486,7 +294645,7 @@
       "slug": "freedomintelligence-ligandmpnn",
       "name": "FreedomIntelligence/ligandmpnn",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/ligandmpnn/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": ">",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -294520,226 +294679,7 @@
       "slug": "freedomintelligence-linear-solvers",
       "name": "FreedomIntelligence/linear-solvers",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/linear-solvers/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
-      "publisher": "FreedomIntelligence",
-      "publisherSlug": "freedomintelligence",
-      "sectionTitle": "GitHub discovery",
-      "sectionSlug": "github-discovery",
-      "kind": "community",
-      "tags": [
-        "freedomintelligence",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceId": "github-repo-expansion",
-      "sourceIds": [
-        "github-repo-expansion"
-      ],
-      "repository": "FreedomIntelligence/OpenClaw-Medical-Skills",
-      "discoveryPath": "skills/linear-solvers/SKILL.md",
-      "creatorHandle": "FreedomIntelligence",
-      "creatorAvatarUrl": "https://github.com/FreedomIntelligence.png?size=88",
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "hasPublisherLogo": false
-    },
-    {
-      "slug": "freedomintelligence-liquid-biopsy-analytics-agent",
-      "name": "FreedomIntelligence/liquid-biopsy-analytics-agent",
-      "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/liquid-biopsy-analytics-agent/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
-      "publisher": "FreedomIntelligence",
-      "publisherSlug": "freedomintelligence",
-      "sectionTitle": "GitHub discovery",
-      "sectionSlug": "github-discovery",
-      "kind": "community",
-      "tags": [
-        "freedomintelligence",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "data-analyst"
-      ],
-      "jobs": [
-        "dashboarding",
-        "data-extraction",
-        "deployment-ops",
-        "reporting",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceId": "github-repo-expansion",
-      "sourceIds": [
-        "github-repo-expansion"
-      ],
-      "repository": "FreedomIntelligence/OpenClaw-Medical-Skills",
-      "discoveryPath": "skills/liquid-biopsy-analytics-agent/SKILL.md",
-      "creatorHandle": "FreedomIntelligence",
-      "creatorAvatarUrl": "https://github.com/FreedomIntelligence.png?size=88",
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "hasPublisherLogo": false
-    },
-    {
-      "slug": "freedomintelligence-lit-synthesizer",
-      "name": "FreedomIntelligence/lit-synthesizer",
-      "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/lit-synthesizer/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
-      "publisher": "FreedomIntelligence",
-      "publisherSlug": "freedomintelligence",
-      "sectionTitle": "GitHub discovery",
-      "sectionSlug": "github-discovery",
-      "kind": "community",
-      "tags": [
-        "freedomintelligence",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceId": "github-repo-expansion",
-      "sourceIds": [
-        "github-repo-expansion"
-      ],
-      "repository": "FreedomIntelligence/OpenClaw-Medical-Skills",
-      "discoveryPath": "skills/lit-synthesizer/SKILL.md",
-      "creatorHandle": "FreedomIntelligence",
-      "creatorAvatarUrl": "https://github.com/FreedomIntelligence.png?size=88",
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "hasPublisherLogo": false
-    },
-    {
-      "slug": "freedomintelligence-literature-review",
-      "name": "FreedomIntelligence/literature-review",
-      "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/literature-review/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
-      "publisher": "FreedomIntelligence",
-      "publisherSlug": "freedomintelligence",
-      "sectionTitle": "GitHub discovery",
-      "sectionSlug": "github-discovery",
-      "kind": "community",
-      "tags": [
-        "freedomintelligence",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [
-        "research-synthesis"
-      ],
-      "sourceId": "github-repo-expansion",
-      "sourceIds": [
-        "github-repo-expansion"
-      ],
-      "repository": "FreedomIntelligence/OpenClaw-Medical-Skills",
-      "discoveryPath": "skills/literature-review/SKILL.md",
-      "creatorHandle": "FreedomIntelligence",
-      "creatorAvatarUrl": "https://github.com/FreedomIntelligence.png?size=88",
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "hasPublisherLogo": false
-    },
-    {
-      "slug": "freedomintelligence-literature-search",
-      "name": "FreedomIntelligence/literature-search",
-      "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/literature-search/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
-      "publisher": "FreedomIntelligence",
-      "publisherSlug": "freedomintelligence",
-      "sectionTitle": "GitHub discovery",
-      "sectionSlug": "github-discovery",
-      "kind": "community",
-      "tags": [
-        "freedomintelligence",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [
-        "research-synthesis"
-      ],
-      "sourceId": "github-repo-expansion",
-      "sourceIds": [
-        "github-repo-expansion"
-      ],
-      "repository": "FreedomIntelligence/OpenClaw-Medical-Skills",
-      "discoveryPath": "skills/literature-search/SKILL.md",
-      "creatorHandle": "FreedomIntelligence",
-      "creatorAvatarUrl": "https://github.com/FreedomIntelligence.png?size=88",
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "hasPublisherLogo": false
-    },
-    {
-      "slug": "freedomintelligence-lobster-bioinformatics",
-      "name": "FreedomIntelligence/lobster-bioinformatics",
-      "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/lobster-bioinformatics/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
-      "publisher": "FreedomIntelligence",
-      "publisherSlug": "freedomintelligence",
-      "sectionTitle": "GitHub discovery",
-      "sectionSlug": "github-discovery",
-      "kind": "community",
-      "tags": [
-        "freedomintelligence",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceId": "github-repo-expansion",
-      "sourceIds": [
-        "github-repo-expansion"
-      ],
-      "repository": "FreedomIntelligence/OpenClaw-Medical-Skills",
-      "discoveryPath": "skills/lobster-bioinformatics/SKILL.md",
-      "creatorHandle": "FreedomIntelligence",
-      "creatorAvatarUrl": "https://github.com/FreedomIntelligence.png?size=88",
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "hasPublisherLogo": false
-    },
-    {
-      "slug": "freedomintelligence-long-read-sequencing-agent",
-      "name": "FreedomIntelligence/long-read-sequencing-agent",
-      "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/long-read-sequencing-agent/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Select and configure linear solvers for systems Ax=b in dense and sparse problems. Use when choosing direct vs iterative methods, diagnosing convergence issues, estimating conditioning, selecting preconditioners, or debugging stagnation in GMRES/CG/BiCGSTAB.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -294766,6 +294706,290 @@
         "github-repo-expansion"
       ],
       "repository": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "discoveryPath": "skills/linear-solvers/SKILL.md",
+      "creatorHandle": "FreedomIntelligence",
+      "creatorAvatarUrl": "https://github.com/FreedomIntelligence.png?size=88",
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "hasPublisherLogo": false
+    },
+    {
+      "slug": "freedomintelligence-liquid-biopsy-analytics-agent",
+      "name": "FreedomIntelligence/liquid-biopsy-analytics-agent",
+      "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/liquid-biopsy-analytics-agent/SKILL.md",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
+      "publisher": "FreedomIntelligence",
+      "publisherSlug": "freedomintelligence",
+      "sectionTitle": "GitHub discovery",
+      "sectionSlug": "github-discovery",
+      "kind": "community",
+      "tags": [
+        "freedomintelligence",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "data-analyst",
+        "engineer",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceId": "github-repo-expansion",
+      "sourceIds": [
+        "github-repo-expansion"
+      ],
+      "repository": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "discoveryPath": "skills/liquid-biopsy-analytics-agent/SKILL.md",
+      "creatorHandle": "FreedomIntelligence",
+      "creatorAvatarUrl": "https://github.com/FreedomIntelligence.png?size=88",
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "hasPublisherLogo": false
+    },
+    {
+      "slug": "freedomintelligence-lit-synthesizer",
+      "name": "FreedomIntelligence/lit-synthesizer",
+      "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/lit-synthesizer/SKILL.md",
+      "description": "Search PubMed and bioRxiv, summarise papers with LLM, build citation graphs, and generate literature review sections.",
+      "publisher": "FreedomIntelligence",
+      "publisherSlug": "freedomintelligence",
+      "sectionTitle": "GitHub discovery",
+      "sectionSlug": "github-discovery",
+      "kind": "community",
+      "tags": [
+        "freedomintelligence",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "research-synthesis",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceId": "github-repo-expansion",
+      "sourceIds": [
+        "github-repo-expansion"
+      ],
+      "repository": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "discoveryPath": "skills/lit-synthesizer/SKILL.md",
+      "creatorHandle": "FreedomIntelligence",
+      "creatorAvatarUrl": "https://github.com/FreedomIntelligence.png?size=88",
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "hasPublisherLogo": false
+    },
+    {
+      "slug": "freedomintelligence-literature-review",
+      "name": "FreedomIntelligence/literature-review",
+      "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/literature-review/SKILL.md",
+      "description": "Conduct comprehensive, systematic literature reviews using multiple academic databases (PubMed, arXiv, bioRxiv, Semantic Scholar, etc.). This skill should be used when conducting systematic literature reviews, meta-analyses, research synthesis, or comprehensive literature searches across biomedical, scientific, and technical domains. Creates professionally formatted markdown documents and PDFs with verified citations in multiple citation styles (APA, Nature, Vancouver, etc.).",
+      "publisher": "FreedomIntelligence",
+      "publisherSlug": "freedomintelligence",
+      "sectionTitle": "GitHub discovery",
+      "sectionSlug": "github-discovery",
+      "kind": "community",
+      "tags": [
+        "freedomintelligence",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceId": "github-repo-expansion",
+      "sourceIds": [
+        "github-repo-expansion"
+      ],
+      "repository": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "discoveryPath": "skills/literature-review/SKILL.md",
+      "creatorHandle": "FreedomIntelligence",
+      "creatorAvatarUrl": "https://github.com/FreedomIntelligence.png?size=88",
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "hasPublisherLogo": false
+    },
+    {
+      "slug": "freedomintelligence-literature-search",
+      "name": "FreedomIntelligence/literature-search",
+      "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/literature-search/SKILL.md",
+      "description": "Comprehensive scientific literature search across PubMed, arXiv, bioRxiv, medRxiv. Natural language queries powered by Valyu semantic search.",
+      "publisher": "FreedomIntelligence",
+      "publisherSlug": "freedomintelligence",
+      "sectionTitle": "GitHub discovery",
+      "sectionSlug": "github-discovery",
+      "kind": "community",
+      "tags": [
+        "freedomintelligence",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "reporting",
+        "research-synthesis",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceId": "github-repo-expansion",
+      "sourceIds": [
+        "github-repo-expansion"
+      ],
+      "repository": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "discoveryPath": "skills/literature-search/SKILL.md",
+      "creatorHandle": "FreedomIntelligence",
+      "creatorAvatarUrl": "https://github.com/FreedomIntelligence.png?size=88",
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "hasPublisherLogo": false
+    },
+    {
+      "slug": "freedomintelligence-lobster-bioinformatics",
+      "name": "FreedomIntelligence/lobster-bioinformatics",
+      "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/lobster-bioinformatics/SKILL.md",
+      "description": "Run bioinformatics analyses using Lobster AI - single-cell RNA-seq, bulk RNA-seq, literature mining, dataset discovery, quality control, and visualization. Use when analyzing genomics data, searching for papers/datasets, or working with H5AD, CSV, GEO/SRA accessions, or biological data. Requires lobster-ai package installed.",
+      "publisher": "FreedomIntelligence",
+      "publisherSlug": "freedomintelligence",
+      "sectionTitle": "GitHub discovery",
+      "sectionSlug": "github-discovery",
+      "kind": "community",
+      "tags": [
+        "freedomintelligence",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "data-analyst"
+      ],
+      "jobs": [
+        "dashboarding",
+        "data-extraction",
+        "reporting",
+        "research-synthesis",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceId": "github-repo-expansion",
+      "sourceIds": [
+        "github-repo-expansion"
+      ],
+      "repository": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "discoveryPath": "skills/lobster-bioinformatics/SKILL.md",
+      "creatorHandle": "FreedomIntelligence",
+      "creatorAvatarUrl": "https://github.com/FreedomIntelligence.png?size=88",
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "hasPublisherLogo": false
+    },
+    {
+      "slug": "freedomintelligence-long-read-sequencing-agent",
+      "name": "FreedomIntelligence/long-read-sequencing-agent",
+      "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/long-read-sequencing-agent/SKILL.md",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
+      "publisher": "FreedomIntelligence",
+      "publisherSlug": "freedomintelligence",
+      "sectionTitle": "GitHub discovery",
+      "sectionSlug": "github-discovery",
+      "kind": "community",
+      "tags": [
+        "freedomintelligence",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceId": "github-repo-expansion",
+      "sourceIds": [
+        "github-repo-expansion"
+      ],
+      "repository": "FreedomIntelligence/OpenClaw-Medical-Skills",
       "discoveryPath": "skills/long-read-sequencing-agent/SKILL.md",
       "creatorHandle": "FreedomIntelligence",
       "creatorAvatarUrl": "https://github.com/FreedomIntelligence.png?size=88",
@@ -294781,7 +295005,7 @@
       "slug": "freedomintelligence-mage-antibody-generator",
       "name": "FreedomIntelligence/mage-antibody-generator",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/mage-antibody-generator/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -294793,8 +295017,22 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "engineer",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -294815,7 +295053,7 @@
       "slug": "freedomintelligence-markdown-mermaid-writing",
       "name": "FreedomIntelligence/markdown-mermaid-writing",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/markdown-mermaid-writing/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Comprehensive markdown and Mermaid diagram writing skill. Use when creating any scientific document, report, analysis, or visualization. Establishes text-based diagrams as the default documentation standard with full style guides (markdown + mermaid), 24 diagram type references, and 9 document templates.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -294827,9 +295065,24 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
       "jobs": [
-        "document-authoring"
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
       ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
@@ -294851,7 +295104,7 @@
       "slug": "freedomintelligence-markitdown",
       "name": "FreedomIntelligence/markitdown",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/markitdown/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Convert files and office documents to Markdown. Supports PDF, DOCX, PPTX, XLSX, images (with OCR), audio (with transcription), HTML, CSV, JSON, XML, ZIP, YouTube URLs, EPubs and more.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -294863,8 +295116,20 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "data-analyst"
+      ],
+      "jobs": [
+        "dashboarding",
+        "data-extraction",
+        "document-authoring",
+        "presentation-building",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "visual-assets",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -294885,7 +295150,7 @@
       "slug": "freedomintelligence-matchms",
       "name": "FreedomIntelligence/matchms",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/matchms/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Mass spectrometry analysis. Process mzML/MGF/MSP, spectral similarity (cosine, modified cosine), metadata harmonization, compound ID, for metabolomics and MS data processing.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -294897,8 +295162,18 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "data-analyst"
+      ],
+      "jobs": [
+        "dashboarding",
+        "data-extraction",
+        "prd-specs",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -294919,7 +295194,7 @@
       "slug": "freedomintelligence-matplotlib",
       "name": "FreedomIntelligence/matplotlib",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/matplotlib/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Low-level plotting library for full customization. Use when you need fine-grained control over every plot element, creating novel plot types, or integrating with specific scientific workflows. Export to PNG/PDF/SVG for publication. For quick statistical plots use seaborn; for interactive plots use plotly; for publication-ready multi-panel figures with journal styling, use scientific-visualization.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -294931,8 +295206,25 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "prd-specs",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -294953,7 +295245,7 @@
       "slug": "freedomintelligence-mcpmed-bioinformatics-server",
       "name": "FreedomIntelligence/mcpmed-bioinformatics-server",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/mcpmed-bioinformatics-server/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Model Context Protocol (MCP) server for bioinformatics web services like GEO, STRING, and UCSC Cell Browser.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -294989,7 +295281,7 @@
       "slug": "freedomintelligence-medchem",
       "name": "FreedomIntelligence/medchem",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/medchem/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Medicinal chemistry filters. Apply drug-likeness rules (Lipinski, Veber), PAINS filters, structural alerts, complexity metrics, for compound prioritization and library filtering.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -295001,8 +295293,22 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -295023,7 +295329,7 @@
       "slug": "freedomintelligence-medea-therapeutic-discovery",
       "name": "FreedomIntelligence/medea-therapeutic-discovery",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/medea-therapeutic-discovery/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "An AI agent for therapeutic discovery that executes transparent, multi-step omics analyses including research planning, code execution, and literature reasoning.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -295035,8 +295341,18 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "planning-roadmapping",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -295057,7 +295373,7 @@
       "slug": "freedomintelligence-medical-entity-extractor",
       "name": "FreedomIntelligence/medical-entity-extractor",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/medical-entity-extractor/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Extract medical entities (symptoms, medications, lab values, diagnoses) from patient messages.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -295070,7 +295386,9 @@
         "publisher-namespaced"
       ],
       "personas": [],
-      "jobs": [],
+      "jobs": [
+        "data-extraction"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -295091,7 +295409,7 @@
       "slug": "freedomintelligence-medical-imaging-review",
       "name": "FreedomIntelligence/medical-imaging-review",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/medical-imaging-review/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": ">",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -295125,7 +295443,7 @@
       "slug": "freedomintelligence-medical-research-toolkit",
       "name": "FreedomIntelligence/medical-research-toolkit",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/medical-research-toolkit/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Query 14+ biomedical databases for drug repurposing, target discovery, clinical trials, and literature research. Access ChEMBL, PubMed, ClinicalTrials.gov, OpenTargets, OpenFDA, OMIM, Reactome, KEGG, UniProt, and more through a unified MCP endpoint. Use when researching disease targets, finding approved/investigational drugs, searching clinical evidence, discovering genetic associations, or analyzing compound bioactivity data.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -295137,9 +295455,22 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
       "jobs": [
-        "research-synthesis"
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "reporting",
+        "research-synthesis",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "workflow-automation"
       ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
@@ -295161,7 +295492,7 @@
       "slug": "freedomintelligence-medical-specialty-briefs",
       "name": "FreedomIntelligence/medical-specialty-briefs",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/medical-specialty-briefs/SKILL.MD",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Generate daily or on-demand medical research briefs for any medical specialty. Searches latest research from top-tier journals, delivers concise summaries with 1-sentence takeaways, images when available, and direct links. Use when user asks for medical news, research updates, journal briefs, or specialty-specific medical updates for specialties like endocrinology, cardiology, oncology, neurology, etc.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -295181,7 +295512,9 @@
         "deployment-ops",
         "development-workflows",
         "prd-specs",
+        "research-synthesis",
         "testing-debugging",
+        "visual-assets",
         "workflow-automation"
       ],
       "sourceId": "github-repo-expansion",
@@ -295204,7 +295537,7 @@
       "slug": "freedomintelligence-medrxiv-search",
       "name": "FreedomIntelligence/medrxiv-search",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/medrxiv-search/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Search medRxiv medical preprints with natural language queries. Powered by Valyu semantic search.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -295216,9 +295549,17 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
+      "personas": [
+        "data-analyst"
+      ],
       "jobs": [
-        "research-synthesis"
+        "dashboarding",
+        "data-extraction",
+        "reporting",
+        "research-synthesis",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "workflow-automation"
       ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
@@ -295240,7 +295581,7 @@
       "slug": "freedomintelligence-mental-health-analyzer",
       "name": "FreedomIntelligence/mental-health-analyzer",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/mental-health-analyzer/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "分析心理健康数据、识别心理模式、评估心理健康状况、提供个性化心理健康建议。支持与睡眠、运动、营养等其他健康数据的关联分析。",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -295274,7 +295615,7 @@
       "slug": "freedomintelligence-mesh-generation",
       "name": "FreedomIntelligence/mesh-generation",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/mesh-generation/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Plan and evaluate mesh generation for numerical simulations. Use when choosing grid resolution, checking aspect ratios/skewness, estimating mesh quality constraints, or planning adaptive mesh refinement for PDE discretization.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -295287,7 +295628,10 @@
         "publisher-namespaced"
       ],
       "personas": [],
-      "jobs": [],
+      "jobs": [
+        "planning-roadmapping",
+        "prd-specs"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -295308,7 +295652,7 @@
       "slug": "freedomintelligence-metabolomics-workbench-database",
       "name": "FreedomIntelligence/metabolomics-workbench-database",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/metabolomics-workbench-database/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Access NIH Metabolomics Workbench via REST API (4,200+ studies). Query metabolites, RefMet nomenclature, MS/NMR data, m/z searches, study metadata, for metabolomics and biomarker discovery.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -295320,8 +295664,22 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -295342,7 +295700,7 @@
       "slug": "freedomintelligence-microbiome-cancer-agent",
       "name": "FreedomIntelligence/microbiome-cancer-agent",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/microbiome-cancer-agent/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -295354,8 +295712,22 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "engineer",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -295376,7 +295748,7 @@
       "slug": "freedomintelligence-modern-drug-rehab-computer",
       "name": "FreedomIntelligence/modern-drug-rehab-computer",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/modern-drug-rehab-computer/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Comprehensive knowledge system for addiction recovery environments, supporting both residential and outpatient (IOP/PHP) patients. Expert in evidence-based treatment modalities (CBT, DBT, MI,",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -295389,7 +295761,9 @@
         "publisher-namespaced"
       ],
       "personas": [],
-      "jobs": [],
+      "jobs": [
+        "research-synthesis"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -295410,7 +295784,7 @@
       "slug": "freedomintelligence-molecular-dynamics",
       "name": "FreedomIntelligence/molecular-dynamics",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/molecular-dynamics/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Run and analyze molecular dynamics simulations with OpenMM and MDAnalysis. Set up protein/small molecule systems, define force fields, run energy minimization and production MD, analyze trajectories (RMSD, RMSF, contact maps, free energy surfaces). For structural biology, drug binding, and biophysics.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -295444,7 +295818,7 @@
       "slug": "freedomintelligence-molecular-glue-discovery-agent",
       "name": "FreedomIntelligence/molecular-glue-discovery-agent",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/molecular-glue-discovery-agent/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -295456,8 +295830,22 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "engineer",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -295478,7 +295866,7 @@
       "slug": "freedomintelligence-molecule-evolution-agent",
       "name": "FreedomIntelligence/molecule-evolution-agent",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/molecule-evolution-agent/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -295490,8 +295878,22 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "engineer",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -295512,7 +295914,7 @@
       "slug": "freedomintelligence-molfeat",
       "name": "FreedomIntelligence/molfeat",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/molfeat/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Molecular featurization for ML (100+ featurizers). ECFP, MACCS, descriptors, pretrained models (ChemBERTa), convert SMILES to features, for QSAR and molecular ML.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -295546,7 +295948,7 @@
       "slug": "freedomintelligence-monarch-database",
       "name": "FreedomIntelligence/monarch-database",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/monarch-database/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Query the Monarch Initiative knowledge graph for disease-gene-phenotype associations across species. Integrates OMIM, ORPHANET, HPO, ClinVar, and model organism databases. Use for rare disease gene discovery, phenotype-to-gene mapping, cross-species disease modeling, and HPO term lookup.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -295558,8 +295960,23 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "prd-specs",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -295580,7 +295997,7 @@
       "slug": "freedomintelligence-mpn-progression-monitor-agent",
       "name": "FreedomIntelligence/mpn-progression-monitor-agent",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/mpn-progression-monitor-agent/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -295592,8 +296009,22 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "engineer",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -295614,7 +296045,7 @@
       "slug": "freedomintelligence-mpn-research-assistant",
       "name": "FreedomIntelligence/mpn-research-assistant",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/mpn-research-assistant/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -295626,9 +296057,21 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
+      "personas": [
+        "engineer",
+        "marketer"
+      ],
       "jobs": [
-        "research-synthesis"
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
       ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
@@ -295650,7 +296093,7 @@
       "slug": "freedomintelligence-mrd-edge-detection-agent",
       "name": "FreedomIntelligence/mrd-edge-detection-agent",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/mrd-edge-detection-agent/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -295662,8 +296105,22 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "engineer",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -295684,7 +296141,7 @@
       "slug": "freedomintelligence-multi-ancestry-prs-agent",
       "name": "FreedomIntelligence/multi-ancestry-prs-agent",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/multi-ancestry-prs-agent/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -295696,8 +296153,22 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "engineer",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -295718,7 +296189,7 @@
       "slug": "freedomintelligence-multi-search-engine",
       "name": "FreedomIntelligence/multi-search-engine",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/multi-search-engine/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Multi search engine integration with 17 engines (8 CN + 9 Global). Supports advanced search operators, time filters, site search, privacy engines, and WolframAlpha knowledge queries. No API keys required.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -295730,9 +296201,23 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
       "jobs": [
-        "research-synthesis"
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "reporting",
+        "research-synthesis",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
       ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
@@ -295754,7 +296239,7 @@
       "slug": "freedomintelligence-multimodal-medical-imaging",
       "name": "FreedomIntelligence/multimodal-medical-imaging",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/multimodal-medical-imaging/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -295766,8 +296251,22 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "engineer",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -295788,7 +296287,7 @@
       "slug": "freedomintelligence-multimodal-radpath-fusion-agent",
       "name": "FreedomIntelligence/multimodal-radpath-fusion-agent",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/multimodal-radpath-fusion-agent/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -295800,8 +296299,22 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "engineer",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -295822,7 +296335,7 @@
       "slug": "freedomintelligence-myeloma-mrd-agent",
       "name": "FreedomIntelligence/myeloma-mrd-agent",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/myeloma-mrd-agent/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -295834,8 +296347,22 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "engineer",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -295856,7 +296383,7 @@
       "slug": "freedomintelligence-networkx",
       "name": "FreedomIntelligence/networkx",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/networkx/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Comprehensive toolkit for creating, analyzing, and visualizing complex networks and graphs in Python. Use when working with network/graph data structures, analyzing relationships between entities, computing graph algorithms (shortest paths, centrality, clustering), detecting communities, generating synthetic networks, or visualizing network topologies. Applicable to social networks, biological networks, transportation systems, citation networks, and any domain involving pairwise relationships.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -295868,8 +296395,18 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "visual-assets",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -295890,7 +296427,7 @@
       "slug": "freedomintelligence-neurokit2",
       "name": "FreedomIntelligence/neurokit2",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/neurokit2/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Comprehensive biosignal processing toolkit for analyzing physiological data including ECG, EEG, EDA, RSP, PPG, EMG, and EOG signals. Use this skill when processing cardiovascular signals, brain activity, electrodermal responses, respiratory patterns, muscle activity, or eye movements. Applicable for heart rate variability analysis, event-related potentials, complexity measures, autonomic nervous system assessment, psychophysiology research, and multi-modal physiological signal integration.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -295902,8 +296439,19 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "data-analyst"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "reporting",
+        "research-synthesis",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -295924,7 +296472,7 @@
       "slug": "freedomintelligence-neuropixels-analysis",
       "name": "FreedomIntelligence/neuropixels-analysis",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/neuropixels-analysis/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Neuropixels neural recording analysis. Load SpikeGLX/OpenEphys data, preprocess, motion correction, Kilosort4 spike sorting, quality metrics, Allen/IBL curation, AI-assisted visual analysis, for Neuropixels 1.0/2.0 extracellular electrophysiology. Use when working with neural recordings, spike sorting, extracellular electrophysiology, or when the user mentions Neuropixels, SpikeGLX, Open Ephys, Kilosort, quality metrics, or unit curation.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -295937,14 +296485,19 @@
         "publisher-namespaced"
       ],
       "personas": [
-        "data-analyst"
+        "data-analyst",
+        "designer"
       ],
       "jobs": [
         "dashboarding",
         "data-extraction",
+        "design-critique",
+        "presentation-building",
         "reporting",
         "spreadsheet-cleaning",
         "sql-analysis",
+        "ui-ux-design",
+        "visual-assets",
         "workflow-automation"
       ],
       "sourceId": "github-repo-expansion",
@@ -295967,7 +296520,7 @@
       "slug": "freedomintelligence-nextflow-development",
       "name": "FreedomIntelligence/nextflow-development",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/nextflow-development/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Run nf-core bioinformatics pipelines (rnaseq, sarek, atacseq) on sequencing data. Use when analyzing RNA-seq, WGS/WES, or ATAC-seq data—either local FASTQs or public datasets from GEO/SRA. Triggers on nf-core, Nextflow, FASTQ analysis, variant calling, gene expression, differential expression, GEO reanalysis, GSE/GSM/SRR accessions, or samplesheet creation.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -295979,9 +296532,21 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
       "jobs": [
-        "development-workflows"
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "workflow-automation"
       ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
@@ -296003,7 +296568,7 @@
       "slug": "freedomintelligence-ngs-analysis",
       "name": "FreedomIntelligence/ngs-analysis",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/ngs-analysis/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -296016,14 +296581,24 @@
         "publisher-namespaced"
       ],
       "personas": [
-        "data-analyst"
+        "data-analyst",
+        "engineer",
+        "marketer"
       ],
       "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
         "dashboarding",
         "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
         "reporting",
+        "research-synthesis",
         "spreadsheet-cleaning",
         "sql-analysis",
+        "testing-debugging",
         "workflow-automation"
       ],
       "sourceId": "github-repo-expansion",
@@ -296046,7 +296621,7 @@
       "slug": "freedomintelligence-nicheformer-spatial-agent",
       "name": "FreedomIntelligence/nicheformer-spatial-agent",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/nicheformer-spatial-agent/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -296058,8 +296633,22 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "engineer",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -296080,7 +296669,7 @@
       "slug": "freedomintelligence-nk-cell-therapy-agent",
       "name": "FreedomIntelligence/nk-cell-therapy-agent",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/nk-cell-therapy-agent/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -296092,8 +296681,22 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "engineer",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -296114,7 +296717,7 @@
       "slug": "freedomintelligence-nonlinear-solvers",
       "name": "FreedomIntelligence/nonlinear-solvers",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/nonlinear-solvers/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Select and configure nonlinear solvers for f(x)=0 or min F(x). Use for Newton methods, quasi-Newton (BFGS, L-BFGS), Broyden, Anderson acceleration, diagnosing convergence issues, choosing line search vs trust region, and analyzing Jacobian quality.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -296127,7 +296730,9 @@
         "publisher-namespaced"
       ],
       "personas": [],
-      "jobs": [],
+      "jobs": [
+        "research-synthesis"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -296148,7 +296753,7 @@
       "slug": "freedomintelligence-numerical-integration",
       "name": "FreedomIntelligence/numerical-integration",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/numerical-integration/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Select and configure time integration methods for ODE/PDE simulations. Use when choosing explicit/implicit schemes, setting error tolerances, adapting time steps, diagnosing integration accuracy, planning IMEX splitting, or handling stiff/non-stiff coupled systems.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -296160,9 +296765,16 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
+      "personas": [
+        "engineer"
+      ],
       "jobs": [
-        "api-integration"
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "planning-roadmapping",
+        "testing-debugging",
+        "workflow-automation"
       ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
@@ -296184,7 +296796,7 @@
       "slug": "freedomintelligence-numerical-stability",
       "name": "FreedomIntelligence/numerical-stability",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/numerical-stability/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Analyze and enforce numerical stability for time-dependent PDE simulations. Use when selecting time steps, choosing explicit/implicit schemes, diagnosing numerical blow-up, checking CFL/Fourier criteria, von Neumann analysis, matrix conditioning, or detecting stiffness in advection/diffusion/reaction problems.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -296196,8 +296808,22 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -296218,7 +296844,7 @@
       "slug": "freedomintelligence-nutrition-analyzer",
       "name": "FreedomIntelligence/nutrition-analyzer",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/nutrition-analyzer/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "分析营养数据、识别营养模式、评估营养状况，并提供个性化营养建议。支持与运动、睡眠、慢性病数据的关联分析。",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -296252,7 +296878,7 @@
       "slug": "freedomintelligence-occupational-health-analyzer",
       "name": "FreedomIntelligence/occupational-health-analyzer",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/occupational-health-analyzer/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "分析职业健康数据、识别工作相关健康风险、评估职业健康状况、提供个性化职业健康建议。支持与睡眠、运动、心理健康等其他健康数据的关联分析。",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -296286,7 +296912,7 @@
       "slug": "freedomintelligence-omero-integration",
       "name": "FreedomIntelligence/omero-integration",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/omero-integration/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Microscopy data management platform. Access images via Python, retrieve datasets, analyze pixels, manage ROIs/annotations, batch processing, for high-content screening and microscopy workflows.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -296298,9 +296924,18 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
+      "personas": [
+        "marketer"
+      ],
       "jobs": [
-        "api-integration"
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "visual-assets",
+        "workflow-automation"
       ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
@@ -296356,7 +296991,7 @@
       "slug": "freedomintelligence-ontology-mapper",
       "name": "FreedomIntelligence/ontology-mapper",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/ontology-mapper/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": ">",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -296390,7 +297025,7 @@
       "slug": "freedomintelligence-ontology-validator",
       "name": "FreedomIntelligence/ontology-validator",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/ontology-validator/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": ">",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -296473,7 +297108,7 @@
       "slug": "freedomintelligence-open-targets-search",
       "name": "FreedomIntelligence/open-targets-search",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/open-targets-search/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Search Open Targets drug-disease associations with natural language queries. Target validation powered by Valyu semantic search.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -296485,9 +297120,22 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
       "jobs": [
-        "research-synthesis"
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "reporting",
+        "research-synthesis",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "workflow-automation"
       ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
@@ -296509,7 +297157,7 @@
       "slug": "freedomintelligence-openalex-database",
       "name": "FreedomIntelligence/openalex-database",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/openalex-database/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Query and analyze scholarly literature using the OpenAlex database. This skill should be used when searching for academic papers, analyzing research trends, finding works by authors or institutions, tracking citations, discovering open access publications, or conducting bibliometric analysis across 240M+ scholarly works. Use for literature searches, research output analysis, citation analysis, and academic database queries.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -296521,8 +297169,23 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "reporting",
+        "research-synthesis",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -296635,7 +297298,7 @@
       "slug": "freedomintelligence-opentrons-protocol-agent",
       "name": "FreedomIntelligence/opentrons-protocol-agent",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/opentrons-protocol-agent/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -296647,8 +297310,22 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "engineer",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -296906,7 +297583,7 @@
       "slug": "freedomintelligence-pathml",
       "name": "FreedomIntelligence/pathml",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/pathml/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Computational pathology toolkit for analyzing whole-slide images (WSI) and multiparametric imaging data. Use this skill when working with histopathology slides, H&E stained images, multiplex immunofluorescence (CODEX, Vectra), spatial proteomics, nucleus detection/segmentation, tissue graph construction, or training ML models on pathology data. Supports 160+ slide formats including Aperio SVS, NDPI, DICOM, OME-TIFF for digital pathology workflows.",
       "publisher": "FreedomIntelligence",
       "publisherSlug": "freedomintelligence",
       "sectionTitle": "GitHub discovery",
@@ -296918,8 +297595,18 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "presentation-building",
+        "testing-debugging",
+        "visual-assets",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -329512,7 +330199,7 @@
       "slug": "huifer-tcm-constitution-analyzer",
       "name": "huifer/tcm-constitution-analyzer",
       "url": "https://github.com/huifer/Claude-Ally-Health/blob/main/skills/tcm-constitution-analyzer/SKILL.md",
-      "description": "Discovered from a public GitHub repository: huifer/Claude-Ally-Health",
+      "description": "分析中医体质数据、识别体质类型、评估体质特征,并提供个性化养生建议。支持与营养、运动、睡眠等健康数据的关联分析。",
       "publisher": "huifer",
       "publisherSlug": "huifer",
       "sectionTitle": "GitHub discovery",
@@ -331196,7 +331883,7 @@
       "slug": "zhanghandong-makepad-2-0-widgets",
       "name": "ZhangHanDong/makepad-2.0-widgets",
       "url": "https://github.com/ZhangHanDong/makepad-skills/blob/main/skills/makepad-2.0-widgets/SKILL.md",
-      "description": "Discovered from a public GitHub repository: ZhangHanDong/makepad-skills",
+      "description": "|",
       "publisher": "ZhangHanDong",
       "publisherSlug": "zhanghandong",
       "sectionTitle": "GitHub discovery",
@@ -331780,7 +332467,7 @@
       "slug": "alinaqi-cloudflare-d1",
       "name": "alinaqi/cloudflare-d1",
       "url": "https://github.com/alinaqi/claude-bootstrap/blob/main/skills/cloudflare-d1/SKILL.md",
-      "description": "Discovered from a public GitHub repository: alinaqi/claude-bootstrap",
+      "description": "Cloudflare D1 SQLite database with Workers, Drizzle ORM, migrations",
       "publisher": "alinaqi",
       "publisherSlug": "alinaqi",
       "sectionTitle": "GitHub discovery",
@@ -332350,7 +333037,7 @@
       "slug": "alinaqi-flutter",
       "name": "alinaqi/flutter",
       "url": "https://github.com/alinaqi/claude-bootstrap/blob/main/skills/flutter/SKILL.md",
-      "description": "Discovered from a public GitHub repository: alinaqi/claude-bootstrap",
+      "description": "Flutter development with Riverpod state management, Freezed, go_router, and mocktail testing",
       "publisher": "alinaqi",
       "publisherSlug": "alinaqi",
       "sectionTitle": "GitHub discovery",
@@ -332362,8 +333049,16 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -339035,7 +339730,7 @@
       "slug": "lawvable-matter-intake-scoping-scott-margetts",
       "name": "lawvable/matter-intake-scoping-scott-margetts",
       "url": "https://github.com/lawvable/awesome-legal-skills/blob/main/skills/matter-intake-scoping-scott-margetts/SKILL.md",
-      "description": "Discovered from a public GitHub repository: lawvable/awesome-legal-skills",
+      "description": "Matter scoping across the full pre-execution arc — organise client data into a structured brief, capture the agreed baseline, or reconstruct scope mid-flight. Use when making sense of client information before a proposal, scoping a new matter, running a kickoff, defining scope, mapping stakeholders, or inheriting a matter mid-flight. Trigger on: 'make sense of this', 'structure this for the proposal', 'scope this matter', 'new matter', 'kickoff', 'what are we doing', 'who are the stakeholders', 'what does success look like', 'matter setup', 'intake', 'I've inherited this matter', 'organise this client data'.",
       "publisher": "lawvable",
       "publisherSlug": "lawvable",
       "sectionTitle": "GitHub discovery",
@@ -339047,8 +339742,15 @@
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [],
-      "jobs": [],
+      "personas": [
+        "sales"
+      ],
+      "jobs": [
+        "document-authoring",
+        "presentation-building",
+        "reporting",
+        "workflow-automation"
+      ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
         "github-repo-expansion"
@@ -342359,7 +343061,7 @@
       "slug": "ehmo-tvos",
       "name": "ehmo/tvos",
       "url": "https://github.com/ehmo/platform-design-skills/blob/main/skills/tvos/SKILL.md",
-      "description": "Discovered from a public GitHub repository: ehmo/platform-design-skills",
+      "description": "Apple Human Interface Guidelines for Apple TV. Use when building tvOS apps with focus-based navigation, Siri Remote input, or living room viewing experiences. Triggers on tasks involving Apple TV, tvOS, 10-foot UI, or media playback.",
       "publisher": "ehmo",
       "publisherSlug": "ehmo",
       "sectionTitle": "GitHub discovery",
@@ -342372,11 +343074,16 @@
         "publisher-namespaced"
       ],
       "personas": [
-        "designer"
+        "designer",
+        "engineer"
       ],
       "jobs": [
+        "api-integration",
+        "deployment-ops",
         "design-critique",
+        "development-workflows",
         "presentation-building",
+        "testing-debugging",
         "ui-ux-design",
         "visual-assets",
         "workflow-automation"
@@ -350048,7 +350755,7 @@
       "slug": "indranilbanerjee-funnel-architect",
       "name": "indranilbanerjee/funnel-architect",
       "url": "https://github.com/indranilbanerjee/digital-marketing-pro/blob/main/skills/funnel-architect/SKILL.md",
-      "description": "Discovered from a public GitHub repository: indranilbanerjee/digital-marketing-pro",
+      "description": "Design marketing funnels. Use when: mapping customer journeys, attribution modeling, or conversion paths.",
       "publisher": "indranilbanerjee",
       "publisherSlug": "indranilbanerjee",
       "sectionTitle": "GitHub discovery",
@@ -350061,14 +350768,20 @@
         "publisher-namespaced"
       ],
       "personas": [
+        "designer",
         "marketer"
       ],
       "jobs": [
         "campaign-planning",
         "content-production",
+        "design-critique",
         "landing-pages",
+        "presentation-building",
         "reporting",
-        "research-synthesis"
+        "research-synthesis",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
       ],
       "sourceId": "github-repo-expansion",
       "sourceIds": [
@@ -352691,7 +353404,7 @@
       "slug": "indranilbanerjee-review-response",
       "name": "indranilbanerjee/review-response",
       "url": "https://github.com/indranilbanerjee/digital-marketing-pro/blob/main/skills/review-response/SKILL.md",
-      "description": "Discovered from a public GitHub repository: indranilbanerjee/digital-marketing-pro",
+      "description": "Respond to online reviews. Use when: drafting replies for Google, Yelp, G2, or building review response templates.",
       "publisher": "indranilbanerjee",
       "publisherSlug": "indranilbanerjee",
       "sectionTitle": "GitHub discovery",
@@ -352704,17 +353417,18 @@
         "publisher-namespaced"
       ],
       "personas": [
-        "marketer",
+        "engineer",
         "support"
       ],
       "jobs": [
-        "campaign-planning",
-        "content-production",
+        "api-integration",
         "data-extraction",
+        "deployment-ops",
+        "development-workflows",
         "document-authoring",
-        "landing-pages",
         "reporting",
-        "research-synthesis",
+        "testing-debugging",
+        "ui-ux-design",
         "workflow-automation"
       ],
       "sourceId": "github-repo-expansion",

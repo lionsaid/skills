@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T04:02:14.722Z",
+  "generatedAt": "2026-06-30T06:43:13.458Z",
   "totalItems": 6694,
   "repositoriesScanned": [
     "obra/superpowers",
@@ -564,7 +564,7 @@
     "video-db/skills"
   ],
   "githubTokenConfigured": true,
-  "fallbackCacheGeneratedAt": "2026-06-30T03:56:53.135Z",
+  "fallbackCacheGeneratedAt": "2026-06-30T04:02:14.722Z",
   "scanInterruptedByRateLimit": false,
   "summary": {
     "totalRepositoriesRequested": 279,
@@ -574,7 +574,9 @@
     "repositoriesRecoveredFromCache": 0,
     "repositoriesMissingCache": 0,
     "repositoriesRateLimited": 0,
-    "repositoriesScannedViaGitFallback": 0
+    "repositoriesScannedViaGitFallback": 0,
+    "skillSummariesUpdated": 0,
+    "skillSummariesFailed": 0
   },
   "metadataCacheTtlHours": 12,
   "repositoryDiagnostics": [
@@ -41794,7 +41796,7 @@
           "skillName": "kubesphere-openkruise",
           "path": "skills/kubesphere-openkruise/SKILL.md",
           "url": "https://github.com/kubesphere/kubesphere/blob/master/skills/kubesphere-openkruise/SKILL.md",
-          "description": "Discovered from a public GitHub repository: kubesphere/kubesphere",
+          "description": "KubeSphere OpenKruise management Skill. Use when user asks to install or enable OpenKruise, check OpenKruise status, view kruise pods/logs/CRDs, create or update SidecarSet, manage sidecar injection, create or update CloneSet, perform in-place update or batch rollout, uninstall or remove OpenKruise, or troubleshoot Kruise Pod, CRD, and webhook issues in KubeSphere.",
           "slug": "kubesphere-kubesphere-openkruise"
         },
         {
@@ -41988,7 +41990,7 @@
           "skillName": "context-compression",
           "path": "skills/context-compression/SKILL.md",
           "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/context-compression/SKILL.md",
-          "description": "Discovered from a public GitHub repository: muratcankoylan/Agent-Skills-for-Context-Engineering",
+          "description": "This skill should be used when long-running agent sessions need context compression, structured summarization, compaction, token-per-task optimization, or durable handoff summaries that preserve decisions, files, risks, and next actions.",
           "slug": "muratcankoylan-context-compression"
         },
         {
@@ -44754,7 +44756,7 @@
           "skillName": "seo-images",
           "path": "skills/seo-images/SKILL.md",
           "url": "https://github.com/AgriciDaniel/claude-seo/blob/main/skills/seo-images/SKILL.md",
-          "description": "Discovered from a public GitHub repository: AgriciDaniel/claude-seo",
+          "description": ">",
           "slug": "agricidaniel-seo-images"
         },
         {
@@ -52229,7 +52231,7 @@
           "skillName": "hunt-laravel",
           "path": "skills/hunt-laravel/SKILL.md",
           "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-laravel/SKILL.md",
-          "description": "Discovered from a public GitHub repository: elementalsouls/Claude-BugHunter",
+          "description": "Hunt Laravel specific vulnerabilities — Debug mode leakage (APP_DEBUG=true exposes full stack trace + env vars), Laravel Telescope/Horizon dashboard unauthorized access, Ignition RCE (CVE-2021-3129), Signed URL manipulation, Queue Worker abuse, mass assignment via Eloquent, deserialization via cookies, .env file exposure. Use when target runs Laravel (PHP) — detected via X-Powered-By, Laravel session cookies, or /storage/ paths.",
           "slug": "elementalsouls-hunt-laravel"
         },
         {
@@ -58505,7 +58507,7 @@
           "skillName": "gtars",
           "path": "skills/gtars/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/gtars/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "High-performance toolkit for genomic interval analysis in Rust with Python bindings. Use when working with genomic regions, BED files, coverage tracks, overlap detection, tokenization for ML models, or fragment analysis in computational genomics and machine learning applications.",
           "slug": "freedomintelligence-gtars"
         },
         {
@@ -58541,7 +58543,7 @@
           "skillName": "gwas-prs",
           "path": "skills/gwas-prs/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/gwas-prs/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Calculate polygenic risk scores from DTC genetic data using the PGS Catalog",
           "slug": "freedomintelligence-gwas-prs"
         },
         {
@@ -58568,7 +58570,7 @@
           "skillName": "hipaa-compliance",
           "path": "skills/hipaa-compliance/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/hipaa-compliance/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Ensure HIPAA compliance when handling PHI (Protected Health Information). Use when writing code that accesses user health data, check-ins, journal entries, or any sensitive information. Activates",
           "slug": "freedomintelligence-hipaa-compliance"
         },
         {
@@ -58577,7 +58579,7 @@
           "skillName": "histolab",
           "path": "skills/histolab/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/histolab/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Digital pathology image processing toolkit for whole slide images (WSI). Use this skill when working with histopathology slides, processing H&E or IHC stained tissue images, extracting tiles from gigapixel pathology images, detecting tissue regions, segmenting tissue masks, or preparing datasets for computational pathology deep learning pipelines. Applies to WSI formats (SVS, TIFF, NDPI), tile-based analysis, and histological image preprocessing workflows.",
           "slug": "freedomintelligence-histolab"
         },
         {
@@ -58586,7 +58588,7 @@
           "skillName": "hmdb-database",
           "path": "skills/hmdb-database/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/hmdb-database/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Access Human Metabolome Database (220K+ metabolites). Search by name/ID/structure, retrieve chemical properties, biomarker data, NMR/MS spectra, pathways, for metabolomics and identification.",
           "slug": "freedomintelligence-hmdb-database"
         },
         {
@@ -58595,7 +58597,7 @@
           "skillName": "hrd-analysis-agent",
           "path": "skills/hrd-analysis-agent/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/hrd-analysis-agent/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
           "slug": "freedomintelligence-hrd-analysis-agent"
         },
         {
@@ -58604,7 +58606,7 @@
           "skillName": "hrv-alexithymia-expert",
           "path": "skills/hrv-alexithymia-expert/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/hrv-alexithymia-expert/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Heart rate variability biometrics and emotional awareness training. Expert in HRV analysis, interoception training, biofeedback, and emotional intelligence. Activate on 'HRV', 'heart rate variability',",
           "slug": "freedomintelligence-hrv-alexithymia-expert"
         },
         {
@@ -58613,7 +58615,7 @@
           "skillName": "hypogenic",
           "path": "skills/hypogenic/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/hypogenic/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Automated hypothesis generation and testing using large language models. Use this skill when generating scientific hypotheses from datasets, combining literature insights with empirical data, testing hypotheses against observational data, or conducting systematic hypothesis exploration for research discovery in domains like deception detection, AI content detection, mental health analysis, or other empirical research tasks.",
           "slug": "freedomintelligence-hypogenic"
         },
         {
@@ -58622,7 +58624,7 @@
           "skillName": "hypothesis-generation",
           "path": "skills/hypothesis-generation/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/hypothesis-generation/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Generate testable hypotheses. Formulate from observations, design experiments, explore competing explanations, develop predictions, propose mechanisms, for scientific inquiry across domains.",
           "slug": "freedomintelligence-hypothesis-generation"
         },
         {
@@ -58631,7 +58633,7 @@
           "skillName": "imaging-data-commons",
           "path": "skills/imaging-data-commons/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/imaging-data-commons/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Query and download public cancer imaging data from NCI Imaging Data Commons using idc-index. Use for accessing large-scale radiology (CT, MR, PET) and pathology datasets for AI training or research. No authentication required. Query by metadata, visualize in browser, check licenses.",
           "slug": "freedomintelligence-imaging-data-commons"
         },
         {
@@ -58640,7 +58642,7 @@
           "skillName": "immune-checkpoint-combination-agent",
           "path": "skills/immune-checkpoint-combination-agent/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/immune-checkpoint-combination-agent/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
           "slug": "freedomintelligence-immune-checkpoint-combination-agent"
         },
         {
@@ -58649,7 +58651,7 @@
           "skillName": "infographics",
           "path": "skills/infographics/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/infographics/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Create professional infographics using Nano Banana Pro AI with smart iterative refinement. Uses Gemini 3 Pro for quality review. Integrates research-lookup and web search for accurate data. Supports 10 infographic types, 8 industry styles, and colorblind-safe palettes.",
           "slug": "freedomintelligence-infographics"
         },
         {
@@ -58658,7 +58660,7 @@
           "skillName": "instrument-data-to-allotrope",
           "path": "skills/instrument-data-to-allotrope/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/instrument-data-to-allotrope/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Convert laboratory instrument output files (PDF, CSV, Excel, TXT) to Allotrope Simple Model (ASM) JSON format or flattened 2D CSV. Use this skill when scientists need to standardize instrument data for LIMS systems, data lakes, or downstream analysis. Supports auto-detection of instrument types. Outputs include full ASM JSON, flattened CSV for easy import, and exportable Python code for data engineers. Common triggers include converting instrument files, standardizing lab data, preparing data for upload to LIMS/ELN systems, or generating parser code for production pipelines.",
           "slug": "freedomintelligence-instrument-data-to-allotrope"
         },
         {
@@ -58667,7 +58669,7 @@
           "skillName": "interpro-database",
           "path": "skills/interpro-database/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/interpro-database/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Query InterPro for protein family, domain, and functional site annotations. Integrates Pfam, PANTHER, PRINTS, SMART, SUPERFAMILY, and 11 other member databases. Use for protein function prediction, domain architecture analysis, evolutionary classification, and GO term mapping.",
           "slug": "freedomintelligence-interpro-database"
         },
         {
@@ -58676,7 +58678,7 @@
           "skillName": "ipsae",
           "path": "skills/ipsae/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/ipsae/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": ">",
           "slug": "freedomintelligence-ipsae"
         },
         {
@@ -58685,7 +58687,7 @@
           "skillName": "iso-13485-certification",
           "path": "skills/iso-13485-certification/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/iso-13485-certification/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Comprehensive toolkit for preparing ISO 13485 certification documentation for medical device Quality Management Systems. Use when users need help with ISO 13485 QMS documentation, including (1) conducting gap analysis of existing documentation, (2) creating Quality Manuals, (3) developing required procedures and work instructions, (4) preparing Medical Device Files, (5) understanding ISO 13485 requirements, or (6) identifying missing documentation for medical device certification. Also use when users mention medical device regulations, QMS certification, FDA QMSR, EU MDR, or need help with quality system documentation.",
           "slug": "freedomintelligence-iso-13485-certification"
         },
         {
@@ -58694,7 +58696,7 @@
           "skillName": "jaspar-database",
           "path": "skills/jaspar-database/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/jaspar-database/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Query JASPAR for transcription factor binding site (TFBS) profiles (PWMs/PFMs). Search by TF name, species, or class; scan DNA sequences for TF binding sites; compare matrices; essential for regulatory genomics, motif analysis, and GWAS regulatory variant interpretation.",
           "slug": "freedomintelligence-jaspar-database"
         },
         {
@@ -58703,7 +58705,7 @@
           "skillName": "jungian-psychologist",
           "path": "skills/jungian-psychologist/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/jungian-psychologist/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Expert in Jungian analytical psychology, depth psychology, shadow work, archetypal analysis, dream interpretation, active imagination, addiction/recovery through Jungian lens, and the individuation",
           "slug": "freedomintelligence-jungian-psychologist"
         },
         {
@@ -58712,7 +58714,7 @@
           "skillName": "kegg-database",
           "path": "skills/kegg-database/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/kegg-database/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Direct REST API access to KEGG (academic use only). Pathway analysis, gene-pathway mapping, metabolic pathways, drug interactions, ID conversion. For Python workflows with multiple databases, prefer bioservices. Use this for direct HTTP/REST work or KEGG-specific control.",
           "slug": "freedomintelligence-kegg-database"
         },
         {
@@ -58721,7 +58723,7 @@
           "skillName": "knowledge-synthesis",
           "path": "skills/knowledge-synthesis/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/knowledge-synthesis/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
           "slug": "freedomintelligence-knowledge-synthesis"
         },
         {
@@ -58730,7 +58732,7 @@
           "skillName": "kragen-knowledge-graph",
           "path": "skills/kragen-knowledge-graph/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/kragen-knowledge-graph/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
           "slug": "freedomintelligence-kragen-knowledge-graph"
         },
         {
@@ -58739,7 +58741,7 @@
           "skillName": "lab-results",
           "path": "skills/lab-results/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/lab-results/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
           "slug": "freedomintelligence-lab-results"
         },
         {
@@ -58748,7 +58750,7 @@
           "skillName": "labarchive-integration",
           "path": "skills/labarchive-integration/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/labarchive-integration/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Electronic lab notebook API integration. Access notebooks, manage entries/attachments, backup notebooks, integrate with Protocols.io/Jupyter/REDCap, for programmatic ELN workflows.",
           "slug": "freedomintelligence-labarchive-integration"
         },
         {
@@ -58757,7 +58759,7 @@
           "skillName": "labstep",
           "path": "skills/labstep/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/labstep/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Interact with the Labstep electronic lab notebook API using labstepPy. Query experiments, protocols, resources, inventory, and other lab entities.",
           "slug": "freedomintelligence-labstep"
         },
         {
@@ -58766,7 +58768,7 @@
           "skillName": "lamindb",
           "path": "skills/lamindb/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/lamindb/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "This skill should be used when working with LaminDB, an open-source data framework for biology that makes data queryable, traceable, reproducible, and FAIR. Use when managing biological datasets (scRNA-seq, spatial, flow cytometry, etc.), tracking computational workflows, curating and validating data with biological ontologies, building data lakehouses, or ensuring data lineage and reproducibility in biological research. Covers data management, annotation, ontologies (genes, cell types, diseases, tissues), schema validation, integrations with workflow managers (Nextflow, Snakemake) and MLOps platforms (W&B, MLflow), and deployment strategies.",
           "slug": "freedomintelligence-lamindb"
         },
         {
@@ -58775,7 +58777,7 @@
           "skillName": "latchbio-integration",
           "path": "skills/latchbio-integration/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/latchbio-integration/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Latch platform for bioinformatics workflows. Build pipelines with Latch SDK, @workflow/@task decorators, deploy serverless workflows, LatchFile/LatchDir, Nextflow/Snakemake integration.",
           "slug": "freedomintelligence-latchbio-integration"
         },
         {
@@ -58784,7 +58786,7 @@
           "skillName": "latex-posters",
           "path": "skills/latex-posters/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/latex-posters/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Create professional research posters in LaTeX using beamerposter, tikzposter, or baposter. Support for conference presentations, academic posters, and scientific communication. Includes layout design, color schemes, multi-column formats, figure integration, and poster-specific best practices for visual communication.",
           "slug": "freedomintelligence-latex-posters"
         },
         {
@@ -58793,7 +58795,7 @@
           "skillName": "leads-literature-mining",
           "path": "skills/leads-literature-mining/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/leads-literature-mining/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
           "slug": "freedomintelligence-leads-literature-mining"
         },
         {
@@ -58802,7 +58804,7 @@
           "skillName": "ligandmpnn",
           "path": "skills/ligandmpnn/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/ligandmpnn/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": ">",
           "slug": "freedomintelligence-ligandmpnn"
         },
         {
@@ -58811,7 +58813,7 @@
           "skillName": "linear-solvers",
           "path": "skills/linear-solvers/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/linear-solvers/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Select and configure linear solvers for systems Ax=b in dense and sparse problems. Use when choosing direct vs iterative methods, diagnosing convergence issues, estimating conditioning, selecting preconditioners, or debugging stagnation in GMRES/CG/BiCGSTAB.",
           "slug": "freedomintelligence-linear-solvers"
         },
         {
@@ -58820,7 +58822,7 @@
           "skillName": "liquid-biopsy-analytics-agent",
           "path": "skills/liquid-biopsy-analytics-agent/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/liquid-biopsy-analytics-agent/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
           "slug": "freedomintelligence-liquid-biopsy-analytics-agent"
         },
         {
@@ -58829,7 +58831,7 @@
           "skillName": "lit-synthesizer",
           "path": "skills/lit-synthesizer/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/lit-synthesizer/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Search PubMed and bioRxiv, summarise papers with LLM, build citation graphs, and generate literature review sections.",
           "slug": "freedomintelligence-lit-synthesizer"
         },
         {
@@ -58838,7 +58840,7 @@
           "skillName": "literature-review",
           "path": "skills/literature-review/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/literature-review/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Conduct comprehensive, systematic literature reviews using multiple academic databases (PubMed, arXiv, bioRxiv, Semantic Scholar, etc.). This skill should be used when conducting systematic literature reviews, meta-analyses, research synthesis, or comprehensive literature searches across biomedical, scientific, and technical domains. Creates professionally formatted markdown documents and PDFs with verified citations in multiple citation styles (APA, Nature, Vancouver, etc.).",
           "slug": "freedomintelligence-literature-review"
         },
         {
@@ -58847,7 +58849,7 @@
           "skillName": "literature-search",
           "path": "skills/literature-search/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/literature-search/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Comprehensive scientific literature search across PubMed, arXiv, bioRxiv, medRxiv. Natural language queries powered by Valyu semantic search.",
           "slug": "freedomintelligence-literature-search"
         },
         {
@@ -58856,7 +58858,7 @@
           "skillName": "lobster-bioinformatics",
           "path": "skills/lobster-bioinformatics/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/lobster-bioinformatics/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Run bioinformatics analyses using Lobster AI - single-cell RNA-seq, bulk RNA-seq, literature mining, dataset discovery, quality control, and visualization. Use when analyzing genomics data, searching for papers/datasets, or working with H5AD, CSV, GEO/SRA accessions, or biological data. Requires lobster-ai package installed.",
           "slug": "freedomintelligence-lobster-bioinformatics"
         },
         {
@@ -58865,7 +58867,7 @@
           "skillName": "long-read-sequencing-agent",
           "path": "skills/long-read-sequencing-agent/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/long-read-sequencing-agent/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
           "slug": "freedomintelligence-long-read-sequencing-agent"
         },
         {
@@ -58874,7 +58876,7 @@
           "skillName": "mage-antibody-generator",
           "path": "skills/mage-antibody-generator/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/mage-antibody-generator/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
           "slug": "freedomintelligence-mage-antibody-generator"
         },
         {
@@ -58883,7 +58885,7 @@
           "skillName": "markdown-mermaid-writing",
           "path": "skills/markdown-mermaid-writing/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/markdown-mermaid-writing/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Comprehensive markdown and Mermaid diagram writing skill. Use when creating any scientific document, report, analysis, or visualization. Establishes text-based diagrams as the default documentation standard with full style guides (markdown + mermaid), 24 diagram type references, and 9 document templates.",
           "slug": "freedomintelligence-markdown-mermaid-writing"
         },
         {
@@ -58892,7 +58894,7 @@
           "skillName": "markitdown",
           "path": "skills/markitdown/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/markitdown/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Convert files and office documents to Markdown. Supports PDF, DOCX, PPTX, XLSX, images (with OCR), audio (with transcription), HTML, CSV, JSON, XML, ZIP, YouTube URLs, EPubs and more.",
           "slug": "freedomintelligence-markitdown"
         },
         {
@@ -58901,7 +58903,7 @@
           "skillName": "matchms",
           "path": "skills/matchms/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/matchms/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Mass spectrometry analysis. Process mzML/MGF/MSP, spectral similarity (cosine, modified cosine), metadata harmonization, compound ID, for metabolomics and MS data processing.",
           "slug": "freedomintelligence-matchms"
         },
         {
@@ -58910,7 +58912,7 @@
           "skillName": "matplotlib",
           "path": "skills/matplotlib/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/matplotlib/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Low-level plotting library for full customization. Use when you need fine-grained control over every plot element, creating novel plot types, or integrating with specific scientific workflows. Export to PNG/PDF/SVG for publication. For quick statistical plots use seaborn; for interactive plots use plotly; for publication-ready multi-panel figures with journal styling, use scientific-visualization.",
           "slug": "freedomintelligence-matplotlib"
         },
         {
@@ -58919,7 +58921,7 @@
           "skillName": "mcpmed-bioinformatics-server",
           "path": "skills/mcpmed-bioinformatics-server/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/mcpmed-bioinformatics-server/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Model Context Protocol (MCP) server for bioinformatics web services like GEO, STRING, and UCSC Cell Browser.",
           "slug": "freedomintelligence-mcpmed-bioinformatics-server"
         },
         {
@@ -58928,7 +58930,7 @@
           "skillName": "medchem",
           "path": "skills/medchem/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/medchem/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Medicinal chemistry filters. Apply drug-likeness rules (Lipinski, Veber), PAINS filters, structural alerts, complexity metrics, for compound prioritization and library filtering.",
           "slug": "freedomintelligence-medchem"
         },
         {
@@ -58937,7 +58939,7 @@
           "skillName": "medea-therapeutic-discovery",
           "path": "skills/medea-therapeutic-discovery/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/medea-therapeutic-discovery/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "An AI agent for therapeutic discovery that executes transparent, multi-step omics analyses including research planning, code execution, and literature reasoning.",
           "slug": "freedomintelligence-medea-therapeutic-discovery"
         },
         {
@@ -58946,7 +58948,7 @@
           "skillName": "medical-entity-extractor",
           "path": "skills/medical-entity-extractor/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/medical-entity-extractor/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Extract medical entities (symptoms, medications, lab values, diagnoses) from patient messages.",
           "slug": "freedomintelligence-medical-entity-extractor"
         },
         {
@@ -58955,7 +58957,7 @@
           "skillName": "medical-imaging-review",
           "path": "skills/medical-imaging-review/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/medical-imaging-review/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": ">",
           "slug": "freedomintelligence-medical-imaging-review"
         },
         {
@@ -58964,7 +58966,7 @@
           "skillName": "medical-research-toolkit",
           "path": "skills/medical-research-toolkit/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/medical-research-toolkit/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Query 14+ biomedical databases for drug repurposing, target discovery, clinical trials, and literature research. Access ChEMBL, PubMed, ClinicalTrials.gov, OpenTargets, OpenFDA, OMIM, Reactome, KEGG, UniProt, and more through a unified MCP endpoint. Use when researching disease targets, finding approved/investigational drugs, searching clinical evidence, discovering genetic associations, or analyzing compound bioactivity data.",
           "slug": "freedomintelligence-medical-research-toolkit"
         },
         {
@@ -58973,7 +58975,7 @@
           "skillName": "medical-specialty-briefs",
           "path": "skills/medical-specialty-briefs/SKILL.MD",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/medical-specialty-briefs/SKILL.MD",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Generate daily or on-demand medical research briefs for any medical specialty. Searches latest research from top-tier journals, delivers concise summaries with 1-sentence takeaways, images when available, and direct links. Use when user asks for medical news, research updates, journal briefs, or specialty-specific medical updates for specialties like endocrinology, cardiology, oncology, neurology, etc.",
           "slug": "freedomintelligence-medical-specialty-briefs"
         },
         {
@@ -58982,7 +58984,7 @@
           "skillName": "medrxiv-search",
           "path": "skills/medrxiv-search/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/medrxiv-search/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Search medRxiv medical preprints with natural language queries. Powered by Valyu semantic search.",
           "slug": "freedomintelligence-medrxiv-search"
         },
         {
@@ -58991,7 +58993,7 @@
           "skillName": "mental-health-analyzer",
           "path": "skills/mental-health-analyzer/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/mental-health-analyzer/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "分析心理健康数据、识别心理模式、评估心理健康状况、提供个性化心理健康建议。支持与睡眠、运动、营养等其他健康数据的关联分析。",
           "slug": "freedomintelligence-mental-health-analyzer"
         },
         {
@@ -59000,7 +59002,7 @@
           "skillName": "mesh-generation",
           "path": "skills/mesh-generation/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/mesh-generation/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Plan and evaluate mesh generation for numerical simulations. Use when choosing grid resolution, checking aspect ratios/skewness, estimating mesh quality constraints, or planning adaptive mesh refinement for PDE discretization.",
           "slug": "freedomintelligence-mesh-generation"
         },
         {
@@ -59009,7 +59011,7 @@
           "skillName": "metabolomics-workbench-database",
           "path": "skills/metabolomics-workbench-database/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/metabolomics-workbench-database/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Access NIH Metabolomics Workbench via REST API (4,200+ studies). Query metabolites, RefMet nomenclature, MS/NMR data, m/z searches, study metadata, for metabolomics and biomarker discovery.",
           "slug": "freedomintelligence-metabolomics-workbench-database"
         },
         {
@@ -59018,7 +59020,7 @@
           "skillName": "microbiome-cancer-agent",
           "path": "skills/microbiome-cancer-agent/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/microbiome-cancer-agent/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
           "slug": "freedomintelligence-microbiome-cancer-agent"
         },
         {
@@ -59027,7 +59029,7 @@
           "skillName": "modern-drug-rehab-computer",
           "path": "skills/modern-drug-rehab-computer/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/modern-drug-rehab-computer/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Comprehensive knowledge system for addiction recovery environments, supporting both residential and outpatient (IOP/PHP) patients. Expert in evidence-based treatment modalities (CBT, DBT, MI,",
           "slug": "freedomintelligence-modern-drug-rehab-computer"
         },
         {
@@ -59036,7 +59038,7 @@
           "skillName": "molecular-dynamics",
           "path": "skills/molecular-dynamics/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/molecular-dynamics/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Run and analyze molecular dynamics simulations with OpenMM and MDAnalysis. Set up protein/small molecule systems, define force fields, run energy minimization and production MD, analyze trajectories (RMSD, RMSF, contact maps, free energy surfaces). For structural biology, drug binding, and biophysics.",
           "slug": "freedomintelligence-molecular-dynamics"
         },
         {
@@ -59045,7 +59047,7 @@
           "skillName": "molecular-glue-discovery-agent",
           "path": "skills/molecular-glue-discovery-agent/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/molecular-glue-discovery-agent/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
           "slug": "freedomintelligence-molecular-glue-discovery-agent"
         },
         {
@@ -59054,7 +59056,7 @@
           "skillName": "molecule-evolution-agent",
           "path": "skills/molecule-evolution-agent/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/molecule-evolution-agent/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
           "slug": "freedomintelligence-molecule-evolution-agent"
         },
         {
@@ -59063,7 +59065,7 @@
           "skillName": "molfeat",
           "path": "skills/molfeat/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/molfeat/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Molecular featurization for ML (100+ featurizers). ECFP, MACCS, descriptors, pretrained models (ChemBERTa), convert SMILES to features, for QSAR and molecular ML.",
           "slug": "freedomintelligence-molfeat"
         },
         {
@@ -59072,7 +59074,7 @@
           "skillName": "monarch-database",
           "path": "skills/monarch-database/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/monarch-database/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Query the Monarch Initiative knowledge graph for disease-gene-phenotype associations across species. Integrates OMIM, ORPHANET, HPO, ClinVar, and model organism databases. Use for rare disease gene discovery, phenotype-to-gene mapping, cross-species disease modeling, and HPO term lookup.",
           "slug": "freedomintelligence-monarch-database"
         },
         {
@@ -59081,7 +59083,7 @@
           "skillName": "mpn-progression-monitor-agent",
           "path": "skills/mpn-progression-monitor-agent/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/mpn-progression-monitor-agent/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
           "slug": "freedomintelligence-mpn-progression-monitor-agent"
         },
         {
@@ -59090,7 +59092,7 @@
           "skillName": "mpn-research-assistant",
           "path": "skills/mpn-research-assistant/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/mpn-research-assistant/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
           "slug": "freedomintelligence-mpn-research-assistant"
         },
         {
@@ -59099,7 +59101,7 @@
           "skillName": "mrd-edge-detection-agent",
           "path": "skills/mrd-edge-detection-agent/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/mrd-edge-detection-agent/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
           "slug": "freedomintelligence-mrd-edge-detection-agent"
         },
         {
@@ -59108,7 +59110,7 @@
           "skillName": "multi-ancestry-prs-agent",
           "path": "skills/multi-ancestry-prs-agent/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/multi-ancestry-prs-agent/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
           "slug": "freedomintelligence-multi-ancestry-prs-agent"
         },
         {
@@ -59117,7 +59119,7 @@
           "skillName": "multi-search-engine",
           "path": "skills/multi-search-engine/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/multi-search-engine/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Multi search engine integration with 17 engines (8 CN + 9 Global). Supports advanced search operators, time filters, site search, privacy engines, and WolframAlpha knowledge queries. No API keys required.",
           "slug": "freedomintelligence-multi-search-engine"
         },
         {
@@ -59126,7 +59128,7 @@
           "skillName": "multimodal-medical-imaging",
           "path": "skills/multimodal-medical-imaging/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/multimodal-medical-imaging/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
           "slug": "freedomintelligence-multimodal-medical-imaging"
         },
         {
@@ -59135,7 +59137,7 @@
           "skillName": "multimodal-radpath-fusion-agent",
           "path": "skills/multimodal-radpath-fusion-agent/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/multimodal-radpath-fusion-agent/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
           "slug": "freedomintelligence-multimodal-radpath-fusion-agent"
         },
         {
@@ -59144,7 +59146,7 @@
           "skillName": "myeloma-mrd-agent",
           "path": "skills/myeloma-mrd-agent/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/myeloma-mrd-agent/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
           "slug": "freedomintelligence-myeloma-mrd-agent"
         },
         {
@@ -59153,7 +59155,7 @@
           "skillName": "networkx",
           "path": "skills/networkx/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/networkx/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Comprehensive toolkit for creating, analyzing, and visualizing complex networks and graphs in Python. Use when working with network/graph data structures, analyzing relationships between entities, computing graph algorithms (shortest paths, centrality, clustering), detecting communities, generating synthetic networks, or visualizing network topologies. Applicable to social networks, biological networks, transportation systems, citation networks, and any domain involving pairwise relationships.",
           "slug": "freedomintelligence-networkx"
         },
         {
@@ -59162,7 +59164,7 @@
           "skillName": "neurokit2",
           "path": "skills/neurokit2/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/neurokit2/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Comprehensive biosignal processing toolkit for analyzing physiological data including ECG, EEG, EDA, RSP, PPG, EMG, and EOG signals. Use this skill when processing cardiovascular signals, brain activity, electrodermal responses, respiratory patterns, muscle activity, or eye movements. Applicable for heart rate variability analysis, event-related potentials, complexity measures, autonomic nervous system assessment, psychophysiology research, and multi-modal physiological signal integration.",
           "slug": "freedomintelligence-neurokit2"
         },
         {
@@ -59171,7 +59173,7 @@
           "skillName": "neuropixels-analysis",
           "path": "skills/neuropixels-analysis/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/neuropixels-analysis/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Neuropixels neural recording analysis. Load SpikeGLX/OpenEphys data, preprocess, motion correction, Kilosort4 spike sorting, quality metrics, Allen/IBL curation, AI-assisted visual analysis, for Neuropixels 1.0/2.0 extracellular electrophysiology. Use when working with neural recordings, spike sorting, extracellular electrophysiology, or when the user mentions Neuropixels, SpikeGLX, Open Ephys, Kilosort, quality metrics, or unit curation.",
           "slug": "freedomintelligence-neuropixels-analysis"
         },
         {
@@ -59180,7 +59182,7 @@
           "skillName": "nextflow-development",
           "path": "skills/nextflow-development/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/nextflow-development/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Run nf-core bioinformatics pipelines (rnaseq, sarek, atacseq) on sequencing data. Use when analyzing RNA-seq, WGS/WES, or ATAC-seq data—either local FASTQs or public datasets from GEO/SRA. Triggers on nf-core, Nextflow, FASTQ analysis, variant calling, gene expression, differential expression, GEO reanalysis, GSE/GSM/SRR accessions, or samplesheet creation.",
           "slug": "freedomintelligence-nextflow-development"
         },
         {
@@ -59189,7 +59191,7 @@
           "skillName": "ngs-analysis",
           "path": "skills/ngs-analysis/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/ngs-analysis/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
           "slug": "freedomintelligence-ngs-analysis"
         },
         {
@@ -59198,7 +59200,7 @@
           "skillName": "nicheformer-spatial-agent",
           "path": "skills/nicheformer-spatial-agent/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/nicheformer-spatial-agent/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
           "slug": "freedomintelligence-nicheformer-spatial-agent"
         },
         {
@@ -59207,7 +59209,7 @@
           "skillName": "nk-cell-therapy-agent",
           "path": "skills/nk-cell-therapy-agent/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/nk-cell-therapy-agent/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
           "slug": "freedomintelligence-nk-cell-therapy-agent"
         },
         {
@@ -59216,7 +59218,7 @@
           "skillName": "nonlinear-solvers",
           "path": "skills/nonlinear-solvers/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/nonlinear-solvers/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Select and configure nonlinear solvers for f(x)=0 or min F(x). Use for Newton methods, quasi-Newton (BFGS, L-BFGS), Broyden, Anderson acceleration, diagnosing convergence issues, choosing line search vs trust region, and analyzing Jacobian quality.",
           "slug": "freedomintelligence-nonlinear-solvers"
         },
         {
@@ -59225,7 +59227,7 @@
           "skillName": "numerical-integration",
           "path": "skills/numerical-integration/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/numerical-integration/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Select and configure time integration methods for ODE/PDE simulations. Use when choosing explicit/implicit schemes, setting error tolerances, adapting time steps, diagnosing integration accuracy, planning IMEX splitting, or handling stiff/non-stiff coupled systems.",
           "slug": "freedomintelligence-numerical-integration"
         },
         {
@@ -59234,7 +59236,7 @@
           "skillName": "numerical-stability",
           "path": "skills/numerical-stability/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/numerical-stability/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Analyze and enforce numerical stability for time-dependent PDE simulations. Use when selecting time steps, choosing explicit/implicit schemes, diagnosing numerical blow-up, checking CFL/Fourier criteria, von Neumann analysis, matrix conditioning, or detecting stiffness in advection/diffusion/reaction problems.",
           "slug": "freedomintelligence-numerical-stability"
         },
         {
@@ -59243,7 +59245,7 @@
           "skillName": "nutrition-analyzer",
           "path": "skills/nutrition-analyzer/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/nutrition-analyzer/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "分析营养数据、识别营养模式、评估营养状况，并提供个性化营养建议。支持与运动、睡眠、慢性病数据的关联分析。",
           "slug": "freedomintelligence-nutrition-analyzer"
         },
         {
@@ -59252,7 +59254,7 @@
           "skillName": "occupational-health-analyzer",
           "path": "skills/occupational-health-analyzer/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/occupational-health-analyzer/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "分析职业健康数据、识别工作相关健康风险、评估职业健康状况、提供个性化职业健康建议。支持与睡眠、运动、心理健康等其他健康数据的关联分析。",
           "slug": "freedomintelligence-occupational-health-analyzer"
         },
         {
@@ -59261,7 +59263,7 @@
           "skillName": "omero-integration",
           "path": "skills/omero-integration/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/omero-integration/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Microscopy data management platform. Access images via Python, retrieve datasets, analyze pixels, manage ROIs/annotations, batch processing, for high-content screening and microscopy workflows.",
           "slug": "freedomintelligence-omero-integration"
         },
         {
@@ -59279,7 +59281,7 @@
           "skillName": "ontology-mapper",
           "path": "skills/ontology-mapper/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/ontology-mapper/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": ">",
           "slug": "freedomintelligence-ontology-mapper"
         },
         {
@@ -59288,7 +59290,7 @@
           "skillName": "ontology-validator",
           "path": "skills/ontology-validator/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/ontology-validator/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": ">",
           "slug": "freedomintelligence-ontology-validator"
         },
         {
@@ -59306,7 +59308,7 @@
           "skillName": "open-targets-search",
           "path": "skills/open-targets-search/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/open-targets-search/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Search Open Targets drug-disease associations with natural language queries. Target validation powered by Valyu semantic search.",
           "slug": "freedomintelligence-open-targets-search"
         },
         {
@@ -59315,7 +59317,7 @@
           "skillName": "openalex-database",
           "path": "skills/openalex-database/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/openalex-database/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Query and analyze scholarly literature using the OpenAlex database. This skill should be used when searching for academic papers, analyzing research trends, finding works by authors or institutions, tracking citations, discovering open access publications, or conducting bibliometric analysis across 240M+ scholarly works. Use for literature searches, research output analysis, citation analysis, and academic database queries.",
           "slug": "freedomintelligence-openalex-database"
         },
         {
@@ -59342,7 +59344,7 @@
           "skillName": "opentrons-protocol-agent",
           "path": "skills/opentrons-protocol-agent/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/opentrons-protocol-agent/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
           "slug": "freedomintelligence-opentrons-protocol-agent"
         },
         {
@@ -59396,7 +59398,7 @@
           "skillName": "pathml",
           "path": "skills/pathml/SKILL.md",
           "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/pathml/SKILL.md",
-          "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+          "description": "Computational pathology toolkit for analyzing whole-slide images (WSI) and multiparametric imaging data. Use this skill when working with histopathology slides, H&E stained images, multiplex immunofluorescence (CODEX, Vectra), spatial proteomics, nucleus detection/segmentation, tissue graph construction, or training ML models on pathology data. Supports 160+ slide formats including Aperio SVS, NDPI, DICOM, OME-TIFF for digital pathology workflows.",
           "slug": "freedomintelligence-pathml"
         },
         {
@@ -67881,7 +67883,7 @@
           "skillName": "tcm-constitution-analyzer",
           "path": "skills/tcm-constitution-analyzer/SKILL.md",
           "url": "https://github.com/huifer/Claude-Ally-Health/blob/main/skills/tcm-constitution-analyzer/SKILL.md",
-          "description": "Discovered from a public GitHub repository: huifer/Claude-Ally-Health",
+          "description": "分析中医体质数据、识别体质类型、评估体质特征,并提供个性化养生建议。支持与营养、运动、睡眠等健康数据的关联分析。",
           "slug": "huifer-tcm-constitution-analyzer"
         },
         {
@@ -68385,7 +68387,7 @@
           "skillName": "makepad-2.0-widgets",
           "path": "skills/makepad-2.0-widgets/SKILL.md",
           "url": "https://github.com/ZhangHanDong/makepad-skills/blob/main/skills/makepad-2.0-widgets/SKILL.md",
-          "description": "Discovered from a public GitHub repository: ZhangHanDong/makepad-skills",
+          "description": "|",
           "slug": "zhanghandong-makepad-2-0-widgets"
         }
       ],
@@ -68595,7 +68597,7 @@
           "skillName": "cloudflare-d1",
           "path": "skills/cloudflare-d1/SKILL.md",
           "url": "https://github.com/alinaqi/claude-bootstrap/blob/main/skills/cloudflare-d1/SKILL.md",
-          "description": "Discovered from a public GitHub repository: alinaqi/claude-bootstrap",
+          "description": "Cloudflare D1 SQLite database with Workers, Drizzle ORM, migrations",
           "slug": "alinaqi-cloudflare-d1"
         },
         {
@@ -68721,7 +68723,7 @@
           "skillName": "flutter",
           "path": "skills/flutter/SKILL.md",
           "url": "https://github.com/alinaqi/claude-bootstrap/blob/main/skills/flutter/SKILL.md",
-          "description": "Discovered from a public GitHub repository: alinaqi/claude-bootstrap",
+          "description": "Flutter development with Riverpod state management, Freezed, go_router, and mocktail testing",
           "slug": "alinaqi-flutter"
         },
         {
@@ -70429,7 +70431,7 @@
           "skillName": "matter-intake-scoping-scott-margetts",
           "path": "skills/matter-intake-scoping-scott-margetts/SKILL.md",
           "url": "https://github.com/lawvable/awesome-legal-skills/blob/main/skills/matter-intake-scoping-scott-margetts/SKILL.md",
-          "description": "Discovered from a public GitHub repository: lawvable/awesome-legal-skills",
+          "description": "Matter scoping across the full pre-execution arc — organise client data into a structured brief, capture the agreed baseline, or reconstruct scope mid-flight. Use when making sense of client information before a proposal, scoping a new matter, running a kickoff, defining scope, mapping stakeholders, or inheriting a matter mid-flight. Trigger on: 'make sense of this', 'structure this for the proposal', 'scope this matter', 'new matter', 'kickoff', 'what are we doing', 'who are the stakeholders', 'what does success look like', 'matter setup', 'intake', 'I've inherited this matter', 'organise this client data'.",
           "slug": "lawvable-matter-intake-scoping-scott-margetts"
         },
         {
@@ -71183,7 +71185,7 @@
           "skillName": "tvos",
           "path": "skills/tvos/SKILL.md",
           "url": "https://github.com/ehmo/platform-design-skills/blob/main/skills/tvos/SKILL.md",
-          "description": "Discovered from a public GitHub repository: ehmo/platform-design-skills",
+          "description": "Apple Human Interface Guidelines for Apple TV. Use when building tvOS apps with focus-based navigation, Siri Remote input, or living room viewing experiences. Triggers on tasks involving Apple TV, tvOS, 10-foot UI, or media playback.",
           "slug": "ehmo-tvos"
         },
         {
@@ -73438,7 +73440,7 @@
           "skillName": "funnel-architect",
           "path": "skills/funnel-architect/SKILL.md",
           "url": "https://github.com/indranilbanerjee/digital-marketing-pro/blob/main/skills/funnel-architect/SKILL.md",
-          "description": "Discovered from a public GitHub repository: indranilbanerjee/digital-marketing-pro",
+          "description": "Design marketing funnels. Use when: mapping customer journeys, attribution modeling, or conversion paths.",
           "slug": "indranilbanerjee-funnel-architect"
         },
         {
@@ -73969,7 +73971,7 @@
           "skillName": "review-response",
           "path": "skills/review-response/SKILL.md",
           "url": "https://github.com/indranilbanerjee/digital-marketing-pro/blob/main/skills/review-response/SKILL.md",
-          "description": "Discovered from a public GitHub repository: indranilbanerjee/digital-marketing-pro",
+          "description": "Respond to online reviews. Use when: drafting replies for Google, Yelp, G2, or building review response templates.",
           "slug": "indranilbanerjee-review-response"
         },
         {
@@ -74598,7 +74600,7 @@
           "skillName": "code-review",
           "path": "skills/code-review/SKILL.md",
           "url": "https://github.com/coderabbitai/skills/blob/main/skills/code-review/SKILL.md",
-          "description": "Discovered from a public GitHub repository: coderabbitai/skills",
+          "description": "AI-powered code review using CodeRabbit. Default code-review skill. Trigger for any explicit review request AND autonomously when the agent thinks a review is needed (code/PR/quality/security).",
           "slug": "coderabbitai-code-review"
         }
       ],
@@ -112171,7 +112173,7 @@
       "skillName": "kubesphere-openkruise",
       "path": "skills/kubesphere-openkruise/SKILL.md",
       "url": "https://github.com/kubesphere/kubesphere/blob/master/skills/kubesphere-openkruise/SKILL.md",
-      "description": "Discovered from a public GitHub repository: kubesphere/kubesphere",
+      "description": "KubeSphere OpenKruise management Skill. Use when user asks to install or enable OpenKruise, check OpenKruise status, view kruise pods/logs/CRDs, create or update SidecarSet, manage sidecar injection, create or update CloneSet, perform in-place update or batch rollout, uninstall or remove OpenKruise, or troubleshoot Kruise Pod, CRD, and webhook issues in KubeSphere.",
       "slug": "kubesphere-kubesphere-openkruise"
     },
     {
@@ -112353,7 +112355,7 @@
       "skillName": "context-compression",
       "path": "skills/context-compression/SKILL.md",
       "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/context-compression/SKILL.md",
-      "description": "Discovered from a public GitHub repository: muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "description": "This skill should be used when long-running agent sessions need context compression, structured summarization, compaction, token-per-task optimization, or durable handoff summaries that preserve decisions, files, risks, and next actions.",
       "slug": "muratcankoylan-context-compression"
     },
     {
@@ -114888,7 +114890,7 @@
       "skillName": "seo-images",
       "path": "skills/seo-images/SKILL.md",
       "url": "https://github.com/AgriciDaniel/claude-seo/blob/main/skills/seo-images/SKILL.md",
-      "description": "Discovered from a public GitHub repository: AgriciDaniel/claude-seo",
+      "description": ">",
       "slug": "agricidaniel-seo-images"
     },
     {
@@ -120961,7 +120963,7 @@
       "skillName": "hunt-laravel",
       "path": "skills/hunt-laravel/SKILL.md",
       "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-laravel/SKILL.md",
-      "description": "Discovered from a public GitHub repository: elementalsouls/Claude-BugHunter",
+      "description": "Hunt Laravel specific vulnerabilities — Debug mode leakage (APP_DEBUG=true exposes full stack trace + env vars), Laravel Telescope/Horizon dashboard unauthorized access, Ignition RCE (CVE-2021-3129), Signed URL manipulation, Queue Worker abuse, mass assignment via Eloquent, deserialization via cookies, .env file exposure. Use when target runs Laravel (PHP) — detected via X-Powered-By, Laravel session cookies, or /storage/ paths.",
       "slug": "elementalsouls-hunt-laravel"
     },
     {
@@ -127225,7 +127227,7 @@
       "skillName": "gtars",
       "path": "skills/gtars/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/gtars/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "High-performance toolkit for genomic interval analysis in Rust with Python bindings. Use when working with genomic regions, BED files, coverage tracks, overlap detection, tokenization for ML models, or fragment analysis in computational genomics and machine learning applications.",
       "slug": "freedomintelligence-gtars"
     },
     {
@@ -127261,7 +127263,7 @@
       "skillName": "gwas-prs",
       "path": "skills/gwas-prs/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/gwas-prs/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Calculate polygenic risk scores from DTC genetic data using the PGS Catalog",
       "slug": "freedomintelligence-gwas-prs"
     },
     {
@@ -127288,7 +127290,7 @@
       "skillName": "hipaa-compliance",
       "path": "skills/hipaa-compliance/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/hipaa-compliance/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Ensure HIPAA compliance when handling PHI (Protected Health Information). Use when writing code that accesses user health data, check-ins, journal entries, or any sensitive information. Activates",
       "slug": "freedomintelligence-hipaa-compliance"
     },
     {
@@ -127297,7 +127299,7 @@
       "skillName": "histolab",
       "path": "skills/histolab/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/histolab/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Digital pathology image processing toolkit for whole slide images (WSI). Use this skill when working with histopathology slides, processing H&E or IHC stained tissue images, extracting tiles from gigapixel pathology images, detecting tissue regions, segmenting tissue masks, or preparing datasets for computational pathology deep learning pipelines. Applies to WSI formats (SVS, TIFF, NDPI), tile-based analysis, and histological image preprocessing workflows.",
       "slug": "freedomintelligence-histolab"
     },
     {
@@ -127306,7 +127308,7 @@
       "skillName": "hmdb-database",
       "path": "skills/hmdb-database/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/hmdb-database/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Access Human Metabolome Database (220K+ metabolites). Search by name/ID/structure, retrieve chemical properties, biomarker data, NMR/MS spectra, pathways, for metabolomics and identification.",
       "slug": "freedomintelligence-hmdb-database"
     },
     {
@@ -127315,7 +127317,7 @@
       "skillName": "hrd-analysis-agent",
       "path": "skills/hrd-analysis-agent/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/hrd-analysis-agent/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
       "slug": "freedomintelligence-hrd-analysis-agent"
     },
     {
@@ -127324,7 +127326,7 @@
       "skillName": "hrv-alexithymia-expert",
       "path": "skills/hrv-alexithymia-expert/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/hrv-alexithymia-expert/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Heart rate variability biometrics and emotional awareness training. Expert in HRV analysis, interoception training, biofeedback, and emotional intelligence. Activate on 'HRV', 'heart rate variability',",
       "slug": "freedomintelligence-hrv-alexithymia-expert"
     },
     {
@@ -127333,7 +127335,7 @@
       "skillName": "hypogenic",
       "path": "skills/hypogenic/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/hypogenic/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Automated hypothesis generation and testing using large language models. Use this skill when generating scientific hypotheses from datasets, combining literature insights with empirical data, testing hypotheses against observational data, or conducting systematic hypothesis exploration for research discovery in domains like deception detection, AI content detection, mental health analysis, or other empirical research tasks.",
       "slug": "freedomintelligence-hypogenic"
     },
     {
@@ -127342,7 +127344,7 @@
       "skillName": "hypothesis-generation",
       "path": "skills/hypothesis-generation/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/hypothesis-generation/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Generate testable hypotheses. Formulate from observations, design experiments, explore competing explanations, develop predictions, propose mechanisms, for scientific inquiry across domains.",
       "slug": "freedomintelligence-hypothesis-generation"
     },
     {
@@ -127351,7 +127353,7 @@
       "skillName": "imaging-data-commons",
       "path": "skills/imaging-data-commons/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/imaging-data-commons/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Query and download public cancer imaging data from NCI Imaging Data Commons using idc-index. Use for accessing large-scale radiology (CT, MR, PET) and pathology datasets for AI training or research. No authentication required. Query by metadata, visualize in browser, check licenses.",
       "slug": "freedomintelligence-imaging-data-commons"
     },
     {
@@ -127360,7 +127362,7 @@
       "skillName": "immune-checkpoint-combination-agent",
       "path": "skills/immune-checkpoint-combination-agent/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/immune-checkpoint-combination-agent/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
       "slug": "freedomintelligence-immune-checkpoint-combination-agent"
     },
     {
@@ -127369,7 +127371,7 @@
       "skillName": "infographics",
       "path": "skills/infographics/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/infographics/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Create professional infographics using Nano Banana Pro AI with smart iterative refinement. Uses Gemini 3 Pro for quality review. Integrates research-lookup and web search for accurate data. Supports 10 infographic types, 8 industry styles, and colorblind-safe palettes.",
       "slug": "freedomintelligence-infographics"
     },
     {
@@ -127378,7 +127380,7 @@
       "skillName": "instrument-data-to-allotrope",
       "path": "skills/instrument-data-to-allotrope/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/instrument-data-to-allotrope/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Convert laboratory instrument output files (PDF, CSV, Excel, TXT) to Allotrope Simple Model (ASM) JSON format or flattened 2D CSV. Use this skill when scientists need to standardize instrument data for LIMS systems, data lakes, or downstream analysis. Supports auto-detection of instrument types. Outputs include full ASM JSON, flattened CSV for easy import, and exportable Python code for data engineers. Common triggers include converting instrument files, standardizing lab data, preparing data for upload to LIMS/ELN systems, or generating parser code for production pipelines.",
       "slug": "freedomintelligence-instrument-data-to-allotrope"
     },
     {
@@ -127387,7 +127389,7 @@
       "skillName": "interpro-database",
       "path": "skills/interpro-database/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/interpro-database/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Query InterPro for protein family, domain, and functional site annotations. Integrates Pfam, PANTHER, PRINTS, SMART, SUPERFAMILY, and 11 other member databases. Use for protein function prediction, domain architecture analysis, evolutionary classification, and GO term mapping.",
       "slug": "freedomintelligence-interpro-database"
     },
     {
@@ -127396,7 +127398,7 @@
       "skillName": "ipsae",
       "path": "skills/ipsae/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/ipsae/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": ">",
       "slug": "freedomintelligence-ipsae"
     },
     {
@@ -127405,7 +127407,7 @@
       "skillName": "iso-13485-certification",
       "path": "skills/iso-13485-certification/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/iso-13485-certification/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Comprehensive toolkit for preparing ISO 13485 certification documentation for medical device Quality Management Systems. Use when users need help with ISO 13485 QMS documentation, including (1) conducting gap analysis of existing documentation, (2) creating Quality Manuals, (3) developing required procedures and work instructions, (4) preparing Medical Device Files, (5) understanding ISO 13485 requirements, or (6) identifying missing documentation for medical device certification. Also use when users mention medical device regulations, QMS certification, FDA QMSR, EU MDR, or need help with quality system documentation.",
       "slug": "freedomintelligence-iso-13485-certification"
     },
     {
@@ -127414,7 +127416,7 @@
       "skillName": "jaspar-database",
       "path": "skills/jaspar-database/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/jaspar-database/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Query JASPAR for transcription factor binding site (TFBS) profiles (PWMs/PFMs). Search by TF name, species, or class; scan DNA sequences for TF binding sites; compare matrices; essential for regulatory genomics, motif analysis, and GWAS regulatory variant interpretation.",
       "slug": "freedomintelligence-jaspar-database"
     },
     {
@@ -127423,7 +127425,7 @@
       "skillName": "jungian-psychologist",
       "path": "skills/jungian-psychologist/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/jungian-psychologist/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Expert in Jungian analytical psychology, depth psychology, shadow work, archetypal analysis, dream interpretation, active imagination, addiction/recovery through Jungian lens, and the individuation",
       "slug": "freedomintelligence-jungian-psychologist"
     },
     {
@@ -127432,7 +127434,7 @@
       "skillName": "kegg-database",
       "path": "skills/kegg-database/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/kegg-database/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Direct REST API access to KEGG (academic use only). Pathway analysis, gene-pathway mapping, metabolic pathways, drug interactions, ID conversion. For Python workflows with multiple databases, prefer bioservices. Use this for direct HTTP/REST work or KEGG-specific control.",
       "slug": "freedomintelligence-kegg-database"
     },
     {
@@ -127441,7 +127443,7 @@
       "skillName": "knowledge-synthesis",
       "path": "skills/knowledge-synthesis/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/knowledge-synthesis/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
       "slug": "freedomintelligence-knowledge-synthesis"
     },
     {
@@ -127450,7 +127452,7 @@
       "skillName": "kragen-knowledge-graph",
       "path": "skills/kragen-knowledge-graph/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/kragen-knowledge-graph/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
       "slug": "freedomintelligence-kragen-knowledge-graph"
     },
     {
@@ -127459,7 +127461,7 @@
       "skillName": "lab-results",
       "path": "skills/lab-results/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/lab-results/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
       "slug": "freedomintelligence-lab-results"
     },
     {
@@ -127468,7 +127470,7 @@
       "skillName": "labarchive-integration",
       "path": "skills/labarchive-integration/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/labarchive-integration/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Electronic lab notebook API integration. Access notebooks, manage entries/attachments, backup notebooks, integrate with Protocols.io/Jupyter/REDCap, for programmatic ELN workflows.",
       "slug": "freedomintelligence-labarchive-integration"
     },
     {
@@ -127477,7 +127479,7 @@
       "skillName": "labstep",
       "path": "skills/labstep/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/labstep/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Interact with the Labstep electronic lab notebook API using labstepPy. Query experiments, protocols, resources, inventory, and other lab entities.",
       "slug": "freedomintelligence-labstep"
     },
     {
@@ -127486,7 +127488,7 @@
       "skillName": "lamindb",
       "path": "skills/lamindb/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/lamindb/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "This skill should be used when working with LaminDB, an open-source data framework for biology that makes data queryable, traceable, reproducible, and FAIR. Use when managing biological datasets (scRNA-seq, spatial, flow cytometry, etc.), tracking computational workflows, curating and validating data with biological ontologies, building data lakehouses, or ensuring data lineage and reproducibility in biological research. Covers data management, annotation, ontologies (genes, cell types, diseases, tissues), schema validation, integrations with workflow managers (Nextflow, Snakemake) and MLOps platforms (W&B, MLflow), and deployment strategies.",
       "slug": "freedomintelligence-lamindb"
     },
     {
@@ -127495,7 +127497,7 @@
       "skillName": "latchbio-integration",
       "path": "skills/latchbio-integration/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/latchbio-integration/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Latch platform for bioinformatics workflows. Build pipelines with Latch SDK, @workflow/@task decorators, deploy serverless workflows, LatchFile/LatchDir, Nextflow/Snakemake integration.",
       "slug": "freedomintelligence-latchbio-integration"
     },
     {
@@ -127504,7 +127506,7 @@
       "skillName": "latex-posters",
       "path": "skills/latex-posters/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/latex-posters/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Create professional research posters in LaTeX using beamerposter, tikzposter, or baposter. Support for conference presentations, academic posters, and scientific communication. Includes layout design, color schemes, multi-column formats, figure integration, and poster-specific best practices for visual communication.",
       "slug": "freedomintelligence-latex-posters"
     },
     {
@@ -127513,7 +127515,7 @@
       "skillName": "leads-literature-mining",
       "path": "skills/leads-literature-mining/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/leads-literature-mining/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
       "slug": "freedomintelligence-leads-literature-mining"
     },
     {
@@ -127522,7 +127524,7 @@
       "skillName": "ligandmpnn",
       "path": "skills/ligandmpnn/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/ligandmpnn/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": ">",
       "slug": "freedomintelligence-ligandmpnn"
     },
     {
@@ -127531,7 +127533,7 @@
       "skillName": "linear-solvers",
       "path": "skills/linear-solvers/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/linear-solvers/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Select and configure linear solvers for systems Ax=b in dense and sparse problems. Use when choosing direct vs iterative methods, diagnosing convergence issues, estimating conditioning, selecting preconditioners, or debugging stagnation in GMRES/CG/BiCGSTAB.",
       "slug": "freedomintelligence-linear-solvers"
     },
     {
@@ -127540,7 +127542,7 @@
       "skillName": "liquid-biopsy-analytics-agent",
       "path": "skills/liquid-biopsy-analytics-agent/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/liquid-biopsy-analytics-agent/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
       "slug": "freedomintelligence-liquid-biopsy-analytics-agent"
     },
     {
@@ -127549,7 +127551,7 @@
       "skillName": "lit-synthesizer",
       "path": "skills/lit-synthesizer/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/lit-synthesizer/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Search PubMed and bioRxiv, summarise papers with LLM, build citation graphs, and generate literature review sections.",
       "slug": "freedomintelligence-lit-synthesizer"
     },
     {
@@ -127558,7 +127560,7 @@
       "skillName": "literature-review",
       "path": "skills/literature-review/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/literature-review/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Conduct comprehensive, systematic literature reviews using multiple academic databases (PubMed, arXiv, bioRxiv, Semantic Scholar, etc.). This skill should be used when conducting systematic literature reviews, meta-analyses, research synthesis, or comprehensive literature searches across biomedical, scientific, and technical domains. Creates professionally formatted markdown documents and PDFs with verified citations in multiple citation styles (APA, Nature, Vancouver, etc.).",
       "slug": "freedomintelligence-literature-review"
     },
     {
@@ -127567,7 +127569,7 @@
       "skillName": "literature-search",
       "path": "skills/literature-search/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/literature-search/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Comprehensive scientific literature search across PubMed, arXiv, bioRxiv, medRxiv. Natural language queries powered by Valyu semantic search.",
       "slug": "freedomintelligence-literature-search"
     },
     {
@@ -127576,7 +127578,7 @@
       "skillName": "lobster-bioinformatics",
       "path": "skills/lobster-bioinformatics/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/lobster-bioinformatics/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Run bioinformatics analyses using Lobster AI - single-cell RNA-seq, bulk RNA-seq, literature mining, dataset discovery, quality control, and visualization. Use when analyzing genomics data, searching for papers/datasets, or working with H5AD, CSV, GEO/SRA accessions, or biological data. Requires lobster-ai package installed.",
       "slug": "freedomintelligence-lobster-bioinformatics"
     },
     {
@@ -127585,7 +127587,7 @@
       "skillName": "long-read-sequencing-agent",
       "path": "skills/long-read-sequencing-agent/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/long-read-sequencing-agent/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
       "slug": "freedomintelligence-long-read-sequencing-agent"
     },
     {
@@ -127594,7 +127596,7 @@
       "skillName": "mage-antibody-generator",
       "path": "skills/mage-antibody-generator/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/mage-antibody-generator/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
       "slug": "freedomintelligence-mage-antibody-generator"
     },
     {
@@ -127603,7 +127605,7 @@
       "skillName": "markdown-mermaid-writing",
       "path": "skills/markdown-mermaid-writing/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/markdown-mermaid-writing/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Comprehensive markdown and Mermaid diagram writing skill. Use when creating any scientific document, report, analysis, or visualization. Establishes text-based diagrams as the default documentation standard with full style guides (markdown + mermaid), 24 diagram type references, and 9 document templates.",
       "slug": "freedomintelligence-markdown-mermaid-writing"
     },
     {
@@ -127612,7 +127614,7 @@
       "skillName": "markitdown",
       "path": "skills/markitdown/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/markitdown/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Convert files and office documents to Markdown. Supports PDF, DOCX, PPTX, XLSX, images (with OCR), audio (with transcription), HTML, CSV, JSON, XML, ZIP, YouTube URLs, EPubs and more.",
       "slug": "freedomintelligence-markitdown"
     },
     {
@@ -127621,7 +127623,7 @@
       "skillName": "matchms",
       "path": "skills/matchms/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/matchms/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Mass spectrometry analysis. Process mzML/MGF/MSP, spectral similarity (cosine, modified cosine), metadata harmonization, compound ID, for metabolomics and MS data processing.",
       "slug": "freedomintelligence-matchms"
     },
     {
@@ -127630,7 +127632,7 @@
       "skillName": "matplotlib",
       "path": "skills/matplotlib/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/matplotlib/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Low-level plotting library for full customization. Use when you need fine-grained control over every plot element, creating novel plot types, or integrating with specific scientific workflows. Export to PNG/PDF/SVG for publication. For quick statistical plots use seaborn; for interactive plots use plotly; for publication-ready multi-panel figures with journal styling, use scientific-visualization.",
       "slug": "freedomintelligence-matplotlib"
     },
     {
@@ -127639,7 +127641,7 @@
       "skillName": "mcpmed-bioinformatics-server",
       "path": "skills/mcpmed-bioinformatics-server/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/mcpmed-bioinformatics-server/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Model Context Protocol (MCP) server for bioinformatics web services like GEO, STRING, and UCSC Cell Browser.",
       "slug": "freedomintelligence-mcpmed-bioinformatics-server"
     },
     {
@@ -127648,7 +127650,7 @@
       "skillName": "medchem",
       "path": "skills/medchem/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/medchem/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Medicinal chemistry filters. Apply drug-likeness rules (Lipinski, Veber), PAINS filters, structural alerts, complexity metrics, for compound prioritization and library filtering.",
       "slug": "freedomintelligence-medchem"
     },
     {
@@ -127657,7 +127659,7 @@
       "skillName": "medea-therapeutic-discovery",
       "path": "skills/medea-therapeutic-discovery/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/medea-therapeutic-discovery/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "An AI agent for therapeutic discovery that executes transparent, multi-step omics analyses including research planning, code execution, and literature reasoning.",
       "slug": "freedomintelligence-medea-therapeutic-discovery"
     },
     {
@@ -127666,7 +127668,7 @@
       "skillName": "medical-entity-extractor",
       "path": "skills/medical-entity-extractor/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/medical-entity-extractor/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Extract medical entities (symptoms, medications, lab values, diagnoses) from patient messages.",
       "slug": "freedomintelligence-medical-entity-extractor"
     },
     {
@@ -127675,7 +127677,7 @@
       "skillName": "medical-imaging-review",
       "path": "skills/medical-imaging-review/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/medical-imaging-review/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": ">",
       "slug": "freedomintelligence-medical-imaging-review"
     },
     {
@@ -127684,7 +127686,7 @@
       "skillName": "medical-research-toolkit",
       "path": "skills/medical-research-toolkit/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/medical-research-toolkit/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Query 14+ biomedical databases for drug repurposing, target discovery, clinical trials, and literature research. Access ChEMBL, PubMed, ClinicalTrials.gov, OpenTargets, OpenFDA, OMIM, Reactome, KEGG, UniProt, and more through a unified MCP endpoint. Use when researching disease targets, finding approved/investigational drugs, searching clinical evidence, discovering genetic associations, or analyzing compound bioactivity data.",
       "slug": "freedomintelligence-medical-research-toolkit"
     },
     {
@@ -127693,7 +127695,7 @@
       "skillName": "medical-specialty-briefs",
       "path": "skills/medical-specialty-briefs/SKILL.MD",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/medical-specialty-briefs/SKILL.MD",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Generate daily or on-demand medical research briefs for any medical specialty. Searches latest research from top-tier journals, delivers concise summaries with 1-sentence takeaways, images when available, and direct links. Use when user asks for medical news, research updates, journal briefs, or specialty-specific medical updates for specialties like endocrinology, cardiology, oncology, neurology, etc.",
       "slug": "freedomintelligence-medical-specialty-briefs"
     },
     {
@@ -127702,7 +127704,7 @@
       "skillName": "medrxiv-search",
       "path": "skills/medrxiv-search/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/medrxiv-search/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Search medRxiv medical preprints with natural language queries. Powered by Valyu semantic search.",
       "slug": "freedomintelligence-medrxiv-search"
     },
     {
@@ -127711,7 +127713,7 @@
       "skillName": "mental-health-analyzer",
       "path": "skills/mental-health-analyzer/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/mental-health-analyzer/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "分析心理健康数据、识别心理模式、评估心理健康状况、提供个性化心理健康建议。支持与睡眠、运动、营养等其他健康数据的关联分析。",
       "slug": "freedomintelligence-mental-health-analyzer"
     },
     {
@@ -127720,7 +127722,7 @@
       "skillName": "mesh-generation",
       "path": "skills/mesh-generation/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/mesh-generation/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Plan and evaluate mesh generation for numerical simulations. Use when choosing grid resolution, checking aspect ratios/skewness, estimating mesh quality constraints, or planning adaptive mesh refinement for PDE discretization.",
       "slug": "freedomintelligence-mesh-generation"
     },
     {
@@ -127729,7 +127731,7 @@
       "skillName": "metabolomics-workbench-database",
       "path": "skills/metabolomics-workbench-database/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/metabolomics-workbench-database/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Access NIH Metabolomics Workbench via REST API (4,200+ studies). Query metabolites, RefMet nomenclature, MS/NMR data, m/z searches, study metadata, for metabolomics and biomarker discovery.",
       "slug": "freedomintelligence-metabolomics-workbench-database"
     },
     {
@@ -127738,7 +127740,7 @@
       "skillName": "microbiome-cancer-agent",
       "path": "skills/microbiome-cancer-agent/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/microbiome-cancer-agent/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
       "slug": "freedomintelligence-microbiome-cancer-agent"
     },
     {
@@ -127747,7 +127749,7 @@
       "skillName": "modern-drug-rehab-computer",
       "path": "skills/modern-drug-rehab-computer/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/modern-drug-rehab-computer/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Comprehensive knowledge system for addiction recovery environments, supporting both residential and outpatient (IOP/PHP) patients. Expert in evidence-based treatment modalities (CBT, DBT, MI,",
       "slug": "freedomintelligence-modern-drug-rehab-computer"
     },
     {
@@ -127756,7 +127758,7 @@
       "skillName": "molecular-dynamics",
       "path": "skills/molecular-dynamics/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/molecular-dynamics/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Run and analyze molecular dynamics simulations with OpenMM and MDAnalysis. Set up protein/small molecule systems, define force fields, run energy minimization and production MD, analyze trajectories (RMSD, RMSF, contact maps, free energy surfaces). For structural biology, drug binding, and biophysics.",
       "slug": "freedomintelligence-molecular-dynamics"
     },
     {
@@ -127765,7 +127767,7 @@
       "skillName": "molecular-glue-discovery-agent",
       "path": "skills/molecular-glue-discovery-agent/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/molecular-glue-discovery-agent/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
       "slug": "freedomintelligence-molecular-glue-discovery-agent"
     },
     {
@@ -127774,7 +127776,7 @@
       "skillName": "molecule-evolution-agent",
       "path": "skills/molecule-evolution-agent/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/molecule-evolution-agent/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
       "slug": "freedomintelligence-molecule-evolution-agent"
     },
     {
@@ -127783,7 +127785,7 @@
       "skillName": "molfeat",
       "path": "skills/molfeat/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/molfeat/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Molecular featurization for ML (100+ featurizers). ECFP, MACCS, descriptors, pretrained models (ChemBERTa), convert SMILES to features, for QSAR and molecular ML.",
       "slug": "freedomintelligence-molfeat"
     },
     {
@@ -127792,7 +127794,7 @@
       "skillName": "monarch-database",
       "path": "skills/monarch-database/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/monarch-database/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Query the Monarch Initiative knowledge graph for disease-gene-phenotype associations across species. Integrates OMIM, ORPHANET, HPO, ClinVar, and model organism databases. Use for rare disease gene discovery, phenotype-to-gene mapping, cross-species disease modeling, and HPO term lookup.",
       "slug": "freedomintelligence-monarch-database"
     },
     {
@@ -127801,7 +127803,7 @@
       "skillName": "mpn-progression-monitor-agent",
       "path": "skills/mpn-progression-monitor-agent/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/mpn-progression-monitor-agent/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
       "slug": "freedomintelligence-mpn-progression-monitor-agent"
     },
     {
@@ -127810,7 +127812,7 @@
       "skillName": "mpn-research-assistant",
       "path": "skills/mpn-research-assistant/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/mpn-research-assistant/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
       "slug": "freedomintelligence-mpn-research-assistant"
     },
     {
@@ -127819,7 +127821,7 @@
       "skillName": "mrd-edge-detection-agent",
       "path": "skills/mrd-edge-detection-agent/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/mrd-edge-detection-agent/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
       "slug": "freedomintelligence-mrd-edge-detection-agent"
     },
     {
@@ -127828,7 +127830,7 @@
       "skillName": "multi-ancestry-prs-agent",
       "path": "skills/multi-ancestry-prs-agent/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/multi-ancestry-prs-agent/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
       "slug": "freedomintelligence-multi-ancestry-prs-agent"
     },
     {
@@ -127837,7 +127839,7 @@
       "skillName": "multi-search-engine",
       "path": "skills/multi-search-engine/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/multi-search-engine/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Multi search engine integration with 17 engines (8 CN + 9 Global). Supports advanced search operators, time filters, site search, privacy engines, and WolframAlpha knowledge queries. No API keys required.",
       "slug": "freedomintelligence-multi-search-engine"
     },
     {
@@ -127846,7 +127848,7 @@
       "skillName": "multimodal-medical-imaging",
       "path": "skills/multimodal-medical-imaging/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/multimodal-medical-imaging/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
       "slug": "freedomintelligence-multimodal-medical-imaging"
     },
     {
@@ -127855,7 +127857,7 @@
       "skillName": "multimodal-radpath-fusion-agent",
       "path": "skills/multimodal-radpath-fusion-agent/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/multimodal-radpath-fusion-agent/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
       "slug": "freedomintelligence-multimodal-radpath-fusion-agent"
     },
     {
@@ -127864,7 +127866,7 @@
       "skillName": "myeloma-mrd-agent",
       "path": "skills/myeloma-mrd-agent/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/myeloma-mrd-agent/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
       "slug": "freedomintelligence-myeloma-mrd-agent"
     },
     {
@@ -127873,7 +127875,7 @@
       "skillName": "networkx",
       "path": "skills/networkx/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/networkx/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Comprehensive toolkit for creating, analyzing, and visualizing complex networks and graphs in Python. Use when working with network/graph data structures, analyzing relationships between entities, computing graph algorithms (shortest paths, centrality, clustering), detecting communities, generating synthetic networks, or visualizing network topologies. Applicable to social networks, biological networks, transportation systems, citation networks, and any domain involving pairwise relationships.",
       "slug": "freedomintelligence-networkx"
     },
     {
@@ -127882,7 +127884,7 @@
       "skillName": "neurokit2",
       "path": "skills/neurokit2/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/neurokit2/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Comprehensive biosignal processing toolkit for analyzing physiological data including ECG, EEG, EDA, RSP, PPG, EMG, and EOG signals. Use this skill when processing cardiovascular signals, brain activity, electrodermal responses, respiratory patterns, muscle activity, or eye movements. Applicable for heart rate variability analysis, event-related potentials, complexity measures, autonomic nervous system assessment, psychophysiology research, and multi-modal physiological signal integration.",
       "slug": "freedomintelligence-neurokit2"
     },
     {
@@ -127891,7 +127893,7 @@
       "skillName": "neuropixels-analysis",
       "path": "skills/neuropixels-analysis/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/neuropixels-analysis/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Neuropixels neural recording analysis. Load SpikeGLX/OpenEphys data, preprocess, motion correction, Kilosort4 spike sorting, quality metrics, Allen/IBL curation, AI-assisted visual analysis, for Neuropixels 1.0/2.0 extracellular electrophysiology. Use when working with neural recordings, spike sorting, extracellular electrophysiology, or when the user mentions Neuropixels, SpikeGLX, Open Ephys, Kilosort, quality metrics, or unit curation.",
       "slug": "freedomintelligence-neuropixels-analysis"
     },
     {
@@ -127900,7 +127902,7 @@
       "skillName": "nextflow-development",
       "path": "skills/nextflow-development/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/nextflow-development/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Run nf-core bioinformatics pipelines (rnaseq, sarek, atacseq) on sequencing data. Use when analyzing RNA-seq, WGS/WES, or ATAC-seq data—either local FASTQs or public datasets from GEO/SRA. Triggers on nf-core, Nextflow, FASTQ analysis, variant calling, gene expression, differential expression, GEO reanalysis, GSE/GSM/SRR accessions, or samplesheet creation.",
       "slug": "freedomintelligence-nextflow-development"
     },
     {
@@ -127909,7 +127911,7 @@
       "skillName": "ngs-analysis",
       "path": "skills/ngs-analysis/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/ngs-analysis/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
       "slug": "freedomintelligence-ngs-analysis"
     },
     {
@@ -127918,7 +127920,7 @@
       "skillName": "nicheformer-spatial-agent",
       "path": "skills/nicheformer-spatial-agent/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/nicheformer-spatial-agent/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
       "slug": "freedomintelligence-nicheformer-spatial-agent"
     },
     {
@@ -127927,7 +127929,7 @@
       "skillName": "nk-cell-therapy-agent",
       "path": "skills/nk-cell-therapy-agent/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/nk-cell-therapy-agent/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
       "slug": "freedomintelligence-nk-cell-therapy-agent"
     },
     {
@@ -127936,7 +127938,7 @@
       "skillName": "nonlinear-solvers",
       "path": "skills/nonlinear-solvers/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/nonlinear-solvers/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Select and configure nonlinear solvers for f(x)=0 or min F(x). Use for Newton methods, quasi-Newton (BFGS, L-BFGS), Broyden, Anderson acceleration, diagnosing convergence issues, choosing line search vs trust region, and analyzing Jacobian quality.",
       "slug": "freedomintelligence-nonlinear-solvers"
     },
     {
@@ -127945,7 +127947,7 @@
       "skillName": "numerical-integration",
       "path": "skills/numerical-integration/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/numerical-integration/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Select and configure time integration methods for ODE/PDE simulations. Use when choosing explicit/implicit schemes, setting error tolerances, adapting time steps, diagnosing integration accuracy, planning IMEX splitting, or handling stiff/non-stiff coupled systems.",
       "slug": "freedomintelligence-numerical-integration"
     },
     {
@@ -127954,7 +127956,7 @@
       "skillName": "numerical-stability",
       "path": "skills/numerical-stability/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/numerical-stability/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Analyze and enforce numerical stability for time-dependent PDE simulations. Use when selecting time steps, choosing explicit/implicit schemes, diagnosing numerical blow-up, checking CFL/Fourier criteria, von Neumann analysis, matrix conditioning, or detecting stiffness in advection/diffusion/reaction problems.",
       "slug": "freedomintelligence-numerical-stability"
     },
     {
@@ -127963,7 +127965,7 @@
       "skillName": "nutrition-analyzer",
       "path": "skills/nutrition-analyzer/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/nutrition-analyzer/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "分析营养数据、识别营养模式、评估营养状况，并提供个性化营养建议。支持与运动、睡眠、慢性病数据的关联分析。",
       "slug": "freedomintelligence-nutrition-analyzer"
     },
     {
@@ -127972,7 +127974,7 @@
       "skillName": "occupational-health-analyzer",
       "path": "skills/occupational-health-analyzer/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/occupational-health-analyzer/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "分析职业健康数据、识别工作相关健康风险、评估职业健康状况、提供个性化职业健康建议。支持与睡眠、运动、心理健康等其他健康数据的关联分析。",
       "slug": "freedomintelligence-occupational-health-analyzer"
     },
     {
@@ -127981,7 +127983,7 @@
       "skillName": "omero-integration",
       "path": "skills/omero-integration/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/omero-integration/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Microscopy data management platform. Access images via Python, retrieve datasets, analyze pixels, manage ROIs/annotations, batch processing, for high-content screening and microscopy workflows.",
       "slug": "freedomintelligence-omero-integration"
     },
     {
@@ -127999,7 +128001,7 @@
       "skillName": "ontology-mapper",
       "path": "skills/ontology-mapper/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/ontology-mapper/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": ">",
       "slug": "freedomintelligence-ontology-mapper"
     },
     {
@@ -128008,7 +128010,7 @@
       "skillName": "ontology-validator",
       "path": "skills/ontology-validator/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/ontology-validator/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": ">",
       "slug": "freedomintelligence-ontology-validator"
     },
     {
@@ -128026,7 +128028,7 @@
       "skillName": "open-targets-search",
       "path": "skills/open-targets-search/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/open-targets-search/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Search Open Targets drug-disease associations with natural language queries. Target validation powered by Valyu semantic search.",
       "slug": "freedomintelligence-open-targets-search"
     },
     {
@@ -128035,7 +128037,7 @@
       "skillName": "openalex-database",
       "path": "skills/openalex-database/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/openalex-database/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Query and analyze scholarly literature using the OpenAlex database. This skill should be used when searching for academic papers, analyzing research trends, finding works by authors or institutions, tracking citations, discovering open access publications, or conducting bibliometric analysis across 240M+ scholarly works. Use for literature searches, research output analysis, citation analysis, and academic database queries.",
       "slug": "freedomintelligence-openalex-database"
     },
     {
@@ -128062,7 +128064,7 @@
       "skillName": "opentrons-protocol-agent",
       "path": "skills/opentrons-protocol-agent/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/opentrons-protocol-agent/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "<!-- COPYRIGHT NOTICE This file is part of the \"Universal Biomedical Skills\" project. Copyright (c) 2026 MD BABU MIA, PhD <md.babu.mia@mssm.edu All Rights Reserved. This code is proprietary and confidential. Unauthorized copying of this file, via any medium is strictly prohibited. Provenance: Authenticated by MD BABU MIA",
       "slug": "freedomintelligence-opentrons-protocol-agent"
     },
     {
@@ -128116,7 +128118,7 @@
       "skillName": "pathml",
       "path": "skills/pathml/SKILL.md",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills/blob/main/skills/pathml/SKILL.md",
-      "description": "Discovered from a public GitHub repository: FreedomIntelligence/OpenClaw-Medical-Skills",
+      "description": "Computational pathology toolkit for analyzing whole-slide images (WSI) and multiparametric imaging data. Use this skill when working with histopathology slides, H&E stained images, multiplex immunofluorescence (CODEX, Vectra), spatial proteomics, nucleus detection/segmentation, tissue graph construction, or training ML models on pathology data. Supports 160+ slide formats including Aperio SVS, NDPI, DICOM, OME-TIFF for digital pathology workflows.",
       "slug": "freedomintelligence-pathml"
     },
     {
@@ -136053,7 +136055,7 @@
       "skillName": "tcm-constitution-analyzer",
       "path": "skills/tcm-constitution-analyzer/SKILL.md",
       "url": "https://github.com/huifer/Claude-Ally-Health/blob/main/skills/tcm-constitution-analyzer/SKILL.md",
-      "description": "Discovered from a public GitHub repository: huifer/Claude-Ally-Health",
+      "description": "分析中医体质数据、识别体质类型、评估体质特征,并提供个性化养生建议。支持与营养、运动、睡眠等健康数据的关联分析。",
       "slug": "huifer-tcm-constitution-analyzer"
     },
     {
@@ -136508,7 +136510,7 @@
       "skillName": "makepad-2.0-widgets",
       "path": "skills/makepad-2.0-widgets/SKILL.md",
       "url": "https://github.com/ZhangHanDong/makepad-skills/blob/main/skills/makepad-2.0-widgets/SKILL.md",
-      "description": "Discovered from a public GitHub repository: ZhangHanDong/makepad-skills",
+      "description": "|",
       "slug": "zhanghandong-makepad-2-0-widgets"
     },
     {
@@ -136706,7 +136708,7 @@
       "skillName": "cloudflare-d1",
       "path": "skills/cloudflare-d1/SKILL.md",
       "url": "https://github.com/alinaqi/claude-bootstrap/blob/main/skills/cloudflare-d1/SKILL.md",
-      "description": "Discovered from a public GitHub repository: alinaqi/claude-bootstrap",
+      "description": "Cloudflare D1 SQLite database with Workers, Drizzle ORM, migrations",
       "slug": "alinaqi-cloudflare-d1"
     },
     {
@@ -136832,7 +136834,7 @@
       "skillName": "flutter",
       "path": "skills/flutter/SKILL.md",
       "url": "https://github.com/alinaqi/claude-bootstrap/blob/main/skills/flutter/SKILL.md",
-      "description": "Discovered from a public GitHub repository: alinaqi/claude-bootstrap",
+      "description": "Flutter development with Riverpod state management, Freezed, go_router, and mocktail testing",
       "slug": "alinaqi-flutter"
     },
     {
@@ -138468,7 +138470,7 @@
       "skillName": "matter-intake-scoping-scott-margetts",
       "path": "skills/matter-intake-scoping-scott-margetts/SKILL.md",
       "url": "https://github.com/lawvable/awesome-legal-skills/blob/main/skills/matter-intake-scoping-scott-margetts/SKILL.md",
-      "description": "Discovered from a public GitHub repository: lawvable/awesome-legal-skills",
+      "description": "Matter scoping across the full pre-execution arc — organise client data into a structured brief, capture the agreed baseline, or reconstruct scope mid-flight. Use when making sense of client information before a proposal, scoping a new matter, running a kickoff, defining scope, mapping stakeholders, or inheriting a matter mid-flight. Trigger on: 'make sense of this', 'structure this for the proposal', 'scope this matter', 'new matter', 'kickoff', 'what are we doing', 'who are the stakeholders', 'what does success look like', 'matter setup', 'intake', 'I've inherited this matter', 'organise this client data'.",
       "slug": "lawvable-matter-intake-scoping-scott-margetts"
     },
     {
@@ -139185,7 +139187,7 @@
       "skillName": "tvos",
       "path": "skills/tvos/SKILL.md",
       "url": "https://github.com/ehmo/platform-design-skills/blob/main/skills/tvos/SKILL.md",
-      "description": "Discovered from a public GitHub repository: ehmo/platform-design-skills",
+      "description": "Apple Human Interface Guidelines for Apple TV. Use when building tvOS apps with focus-based navigation, Siri Remote input, or living room viewing experiences. Triggers on tasks involving Apple TV, tvOS, 10-foot UI, or media playback.",
       "slug": "ehmo-tvos"
     },
     {
@@ -141208,7 +141210,7 @@
       "skillName": "funnel-architect",
       "path": "skills/funnel-architect/SKILL.md",
       "url": "https://github.com/indranilbanerjee/digital-marketing-pro/blob/main/skills/funnel-architect/SKILL.md",
-      "description": "Discovered from a public GitHub repository: indranilbanerjee/digital-marketing-pro",
+      "description": "Design marketing funnels. Use when: mapping customer journeys, attribution modeling, or conversion paths.",
       "slug": "indranilbanerjee-funnel-architect"
     },
     {
@@ -141739,7 +141741,7 @@
       "skillName": "review-response",
       "path": "skills/review-response/SKILL.md",
       "url": "https://github.com/indranilbanerjee/digital-marketing-pro/blob/main/skills/review-response/SKILL.md",
-      "description": "Discovered from a public GitHub repository: indranilbanerjee/digital-marketing-pro",
+      "description": "Respond to online reviews. Use when: drafting replies for Google, Yelp, G2, or building review response templates.",
       "slug": "indranilbanerjee-review-response"
     },
     {
@@ -142274,7 +142276,7 @@
       "skillName": "code-review",
       "path": "skills/code-review/SKILL.md",
       "url": "https://github.com/coderabbitai/skills/blob/main/skills/code-review/SKILL.md",
-      "description": "Discovered from a public GitHub repository: coderabbitai/skills",
+      "description": "AI-powered code review using CodeRabbit. Default code-review skill. Trigger for any explicit review request AND autonomously when the agent thinks a review is needed (code/PR/quality/security).",
       "slug": "coderabbitai-code-review"
     },
     {
