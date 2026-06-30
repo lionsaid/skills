@@ -2,9 +2,9 @@
   "repository": "K-Dense-AI/claude-scientific-skills",
   "branch": "main",
   "defaultBranch": "main",
-  "pushedAt": "2026-06-23T23:48:47Z",
-  "scannedAt": "2026-06-29T01:47:50.847Z",
-  "treeSha": "9c9bd2e92af12311ecd0c1a643e0931643f9ea04",
+  "pushedAt": "2026-06-29T17:45:05Z",
+  "scannedAt": "2026-06-30T00:37:33.570Z",
+  "treeSha": "0807ddbc5ceae9c76162198b6909c63d88a1e38a",
   "items": [
     {
       "repository": "K-Dense-AI/claude-scientific-skills",
@@ -675,6 +675,15 @@
     {
       "repository": "K-Dense-AI/claude-scientific-skills",
       "branch": "main",
+      "skillName": "onekgpd",
+      "path": "skills/onekgpd/SKILL.md",
+      "url": "https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/onekgpd/SKILL.md",
+      "description": "Discovered from a public GitHub repository: K-Dense-AI/claude-scientific-skills",
+      "slug": "k-dense-ai-onekgpd"
+    },
+    {
+      "repository": "K-Dense-AI/claude-scientific-skills",
+      "branch": "main",
       "skillName": "open-notebook",
       "path": "skills/open-notebook/SKILL.md",
       "url": "https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/open-notebook/SKILL.md",
@@ -1215,6 +1224,15 @@
     {
       "repository": "K-Dense-AI/claude-scientific-skills",
       "branch": "main",
+      "skillName": "tamarind",
+      "path": "skills/tamarind/SKILL.md",
+      "url": "https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/tamarind/SKILL.md",
+      "description": "Discovered from a public GitHub repository: K-Dense-AI/claude-scientific-skills",
+      "slug": "k-dense-ai-tamarind"
+    },
+    {
+      "repository": "K-Dense-AI/claude-scientific-skills",
+      "branch": "main",
       "skillName": "tiledbvcf",
       "path": "skills/tiledbvcf/SKILL.md",
       "url": "https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/tiledbvcf/SKILL.md",
@@ -1330,6 +1348,6 @@
       "slug": "k-dense-ai-zarr-python"
     }
   ],
-  "itemCount": 147,
-  "lastStatus": "cache-fresh"
+  "itemCount": 149,
+  "lastStatus": "scanned"
 }

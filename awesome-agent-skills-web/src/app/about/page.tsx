@@ -77,7 +77,7 @@ export function AboutPageContent({ locale }: { locale: Locale }) {
                 : "We keep our contact details here so they are easy to find when you need them."}
             </p>
             <a
-              className="mt-6 inline-flex rounded-full border border-[var(--accent)] px-5 py-3 text-sm font-medium text-[var(--accent)] transition hover:bg-[var(--accent-soft)]"
+              className="action-primary mt-6 inline-flex rounded-full border px-5 py-3 text-sm font-semibold transition"
               href="mailto:lionsaid@aliyun.com"
             >
               lionsaid@aliyun.com

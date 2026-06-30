@@ -134,7 +134,7 @@ export function SkillDetailClient({ locale }: { locale: "en" | "zh-CN" }) {
                 {skill.tags.map((tag) => (
                   <Link
                     key={tag}
-                    className="detail-chip inline-flex min-h-8 max-w-full min-w-0 items-center justify-start rounded-full border px-3 py-1 text-left text-[10px] font-semibold uppercase leading-[1.15] tracking-[0.06em] whitespace-normal break-words transition hover:border-[var(--accent)]/25 hover:bg-[var(--surface-strong)] sm:min-h-10 sm:px-4 sm:py-2 sm:text-xs sm:tracking-[0.12em]"
+                    className="detail-chip inline-flex min-h-8 max-w-full min-w-0 items-center justify-start rounded-full border px-3 py-1 text-left text-[10px] font-semibold uppercase leading-[1.15] tracking-[0.06em] whitespace-normal break-words transition sm:min-h-10 sm:px-4 sm:py-2 sm:text-xs sm:tracking-[0.12em]"
                     href={prefixLocalePath(`/skills?q=${encodeURIComponent(tag)}`, pageLocale)}
                   >
                     {tag}
@@ -144,7 +144,7 @@ export function SkillDetailClient({ locale }: { locale: "en" | "zh-CN" }) {
 
               <div className="mt-5 border-t border-[var(--border-soft)] pt-4 sm:mt-6 sm:pt-5">
                 <div className="flex flex-wrap items-center gap-2.5 text-sm">
-                  <span className="inline-flex min-h-8 items-center rounded-full bg-[var(--accent-soft)] px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.08em] text-[var(--foreground)] sm:min-h-10 sm:px-4 sm:py-2 sm:text-sm sm:tracking-[0.18em]">
+                  <span className="action-chip inline-flex min-h-8 items-center rounded-full border px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.08em] sm:min-h-10 sm:px-4 sm:py-2 sm:text-sm sm:tracking-[0.18em]">
                     {skill.kind}
                   </span>
                   <span className={`inline-flex min-h-8 items-center rounded-full border px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.08em] sm:min-h-10 sm:px-4 sm:py-2 sm:text-sm sm:tracking-[0.18em] ${getTrustBadgeClass(skill.trustLevel)}`}>
@@ -164,20 +164,20 @@ export function SkillDetailClient({ locale }: { locale: "en" | "zh-CN" }) {
                 </div>
                 <div className="mt-4 flex flex-col items-start gap-3 sm:mt-5 sm:flex-row sm:flex-wrap sm:items-center sm:gap-3">
                   <Link
-                    className="detail-chip inline-flex min-h-11 min-w-0 items-center rounded-full border px-4 py-2.5 text-[13px] font-medium leading-5 text-[var(--foreground)] transition hover:bg-[var(--surface-strong)] sm:text-sm sm:leading-6"
+                    className="detail-chip inline-flex min-h-11 min-w-0 items-center rounded-full border px-4 py-2.5 text-[13px] font-semibold leading-5 transition sm:text-sm sm:leading-6"
                     href={prefixLocalePath(getPublisherDetailPath(skill.publisherSlug, pageLocale), pageLocale)}
                     prefetch={false}
                   >
                     {pageLocale === "zh-CN" ? `更多来自 ${skill.publisher}` : `More from ${skill.publisher}`}
                   </Link>
                   <Link
-                    className="detail-chip inline-flex min-h-11 min-w-0 items-center rounded-full border px-4 py-2.5 text-[13px] font-medium leading-5 text-[var(--foreground)] transition hover:bg-[var(--surface-strong)] sm:text-sm sm:leading-6"
+                    className="detail-chip inline-flex min-h-11 min-w-0 items-center rounded-full border px-4 py-2.5 text-[13px] font-semibold leading-5 transition sm:text-sm sm:leading-6"
                     href={prefixLocalePath(`/skills?publisher=${skill.publisherSlug}`, pageLocale)}
                   >
                     {pageLocale === "zh-CN" ? "查看同一发布方的更多 skill" : "See more from this publisher"}
                   </Link>
                   <a
-                    className="detail-chip inline-flex min-h-11 min-w-0 items-center gap-1.5 rounded-full border px-4 py-2.5 text-[13px] font-medium leading-5 text-[var(--foreground)] transition hover:bg-[var(--surface-strong)] hover:text-[var(--accent)] sm:text-sm sm:leading-6"
+                    className="detail-chip inline-flex min-h-11 min-w-0 items-center gap-1.5 rounded-full border px-4 py-2.5 text-[13px] font-semibold leading-5 transition sm:text-sm sm:leading-6"
                     href={installInfo?.sourceUrl ?? skill.url}
                     rel="noreferrer"
                     target="_blank"
@@ -254,7 +254,7 @@ export function SkillDetailClient({ locale }: { locale: "en" | "zh-CN" }) {
 
                   <div className="mt-5 min-w-0 max-w-full pl-1 sm:mt-6 sm:pl-4">
                     <a
-                      className="detail-chip inline-flex max-w-full items-center justify-center gap-2 rounded-full border px-4 py-2 font-medium transition hover:bg-[var(--surface)] sm:w-fit sm:justify-start"
+                      className="detail-chip inline-flex max-w-full items-center justify-center gap-2 rounded-full border px-4 py-2 font-semibold transition sm:w-fit sm:justify-start"
                       href={installInfo.sourceUrl}
                       rel="noreferrer"
                       target="_blank"

@@ -2,9 +2,9 @@
   "repository": "NVIDIA/skills",
   "branch": "main",
   "defaultBranch": "main",
-  "pushedAt": "2026-06-26T20:38:17Z",
-  "scannedAt": "2026-06-29T01:48:07.860Z",
-  "treeSha": "e537b31f9406831a60b28eff393731e84df60168",
+  "pushedAt": "2026-06-29T23:25:47Z",
+  "scannedAt": "2026-06-30T00:37:52.791Z",
+  "treeSha": "2dceed62b9edac32db67a0f0cf7d0fdd88765ce0",
   "items": [
     {
       "repository": "NVIDIA/skills",
@@ -176,6 +176,15 @@
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/cuopt-install/SKILL.md",
       "description": "Discovered from a public GitHub repository: NVIDIA/skills",
       "slug": "nvidia-cuopt-install"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "cuopt-multi-objective-exploration",
+      "path": "skills/cuopt-multi-objective-exploration/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/cuopt-multi-objective-exploration/SKILL.md",
+      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "slug": "nvidia-cuopt-multi-objective-exploration"
     },
     {
       "repository": "NVIDIA/skills",
@@ -2140,6 +2149,6 @@
       "slug": "nvidia-vss-summarize-video"
     }
   ],
-  "itemCount": 237,
-  "lastStatus": "cache-fresh"
+  "itemCount": 238,
+  "lastStatus": "scanned"
 }

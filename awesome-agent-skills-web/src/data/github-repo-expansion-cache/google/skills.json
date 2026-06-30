@@ -2,9 +2,9 @@
   "repository": "google/skills",
   "branch": "main",
   "defaultBranch": "main",
-  "pushedAt": "2026-06-27T13:06:47Z",
-  "scannedAt": "2026-06-29T01:47:54.314Z",
-  "treeSha": "4f2b58c848e15b371ecc5079869a8381d9249fc9",
+  "pushedAt": "2026-06-29T22:12:19Z",
+  "scannedAt": "2026-06-30T00:37:39.639Z",
+  "treeSha": "dae4b19cfd3ad965d6b40eb4dd1d61f9a096be44",
   "items": [
     {
       "repository": "google/skills",
@@ -248,6 +248,15 @@
       "url": "https://github.com/google/skills/blob/main/skills/cloud/bigquery-basics/SKILL.md",
       "description": "Discovered from a public GitHub repository: google/skills",
       "slug": "google-cloud-bigquery-basics"
+    },
+    {
+      "repository": "google/skills",
+      "branch": "main",
+      "skillName": "cloud/bigquery-bigframes",
+      "path": "skills/cloud/bigquery-bigframes/SKILL.md",
+      "url": "https://github.com/google/skills/blob/main/skills/cloud/bigquery-bigframes/SKILL.md",
+      "description": "Discovered from a public GitHub repository: google/skills",
+      "slug": "google-cloud-bigquery-bigframes"
     },
     {
       "repository": "google/skills",
@@ -513,6 +522,15 @@
     {
       "repository": "google/skills",
       "branch": "main",
+      "skillName": "cloud/google-cloud-recipe-foundation-builder",
+      "path": "skills/cloud/google-cloud-recipe-foundation-builder/SKILL.md",
+      "url": "https://github.com/google/skills/blob/main/skills/cloud/google-cloud-recipe-foundation-builder/SKILL.md",
+      "description": "Discovered from a public GitHub repository: google/skills",
+      "slug": "google-cloud-google-cloud-recipe-foundation-builder"
+    },
+    {
+      "repository": "google/skills",
+      "branch": "main",
       "skillName": "cloud/google-cloud-recipe-onboarding",
       "path": "skills/cloud/google-cloud-recipe-onboarding/SKILL.md",
       "url": "https://github.com/google/skills/blob/main/skills/cloud/google-cloud-recipe-onboarding/SKILL.md",
@@ -592,6 +610,6 @@
       "slug": "google-cloud-workload-manager-basics"
     }
   ],
-  "itemCount": 65,
-  "lastStatus": "cache-fresh"
+  "itemCount": 67,
+  "lastStatus": "scanned"
 }

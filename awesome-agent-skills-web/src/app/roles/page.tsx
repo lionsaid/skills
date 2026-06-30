@@ -84,13 +84,13 @@ export async function RolesPageContent({ locale }: PageProps) {
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link
-                className="inline-flex min-w-[10rem] items-center justify-center whitespace-nowrap rounded-full border border-[var(--accent)] bg-[var(--accent)] px-5 py-3 text-sm font-medium text-white shadow-[0_12px_26px_rgba(225,6,0,0.22)] transition hover:opacity-95"
+                className="action-primary inline-flex min-w-[10rem] items-center justify-center whitespace-nowrap rounded-full border px-5 py-3 text-sm font-semibold transition"
                 href={prefixLocalePath("/skills", locale)}
               >
                 {copy.roles.openCatalog}
               </Link>
               <Link
-                className="rounded-full border border-[var(--border-soft)] bg-[var(--surface-strong)] px-5 py-3 text-sm font-medium text-[var(--foreground)] transition hover:bg-[var(--surface)]"
+                className="action-secondary inline-flex min-w-[10rem] items-center justify-center whitespace-nowrap rounded-full border px-5 py-3 text-sm font-semibold transition"
                 href={prefixLocalePath("/skills?kind=official", locale)}
               >
                 {copy.roles.officialOnly}
@@ -108,7 +108,10 @@ export async function RolesPageContent({ locale }: PageProps) {
               {locale === "zh-CN" ? "先看看不同角色最常用的 skill。" : "Start with the skills people in each role use most."}
             </h2>
           </div>
-          <Link className="text-sm font-medium text-[var(--accent)]" href={prefixLocalePath("/skills", locale)}>
+          <Link
+            className="inline-flex min-w-[9.5rem] items-center justify-center whitespace-nowrap rounded-full border border-[var(--foreground)] bg-[var(--foreground)] px-4 py-2 text-sm font-semibold text-[var(--background)] shadow-[0_8px_18px_rgba(0,0,0,0.2)] transition hover:opacity-95"
+            href={prefixLocalePath("/skills", locale)}
+          >
             {copy.roles.viewAllSkills}
           </Link>
         </div>
@@ -142,7 +145,7 @@ export async function RolesPageContent({ locale }: PageProps) {
                   {role.jobs.map((job) => (
                     <Link
                       key={job}
-                      className="rounded-full border border-[var(--border-soft)] bg-[var(--surface-strong)] px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.12em] text-[var(--foreground)] transition hover:bg-[var(--surface)]"
+                      className="action-chip inline-flex items-center rounded-full border px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.12em] transition"
                       href={prefixLocalePath(`/skills?persona=${role.slug}&job=${job}`, locale)}
                     >
                       {copy.taskLabels[job] ?? job}
@@ -164,7 +167,7 @@ export async function RolesPageContent({ locale }: PageProps) {
                           {skill.name}
                         </p>
                       </div>
-                      <span className="shrink-0 text-sm font-medium text-[var(--accent)] transition group-hover:translate-x-0.5">
+                      <span className="action-chip shrink-0 inline-flex items-center rounded-full border px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.12em] transition group-hover:translate-x-0.5">
                         {locale === "zh-CN" ? "查看" : "Open"}
                       </span>
                     </Link>
@@ -173,13 +176,13 @@ export async function RolesPageContent({ locale }: PageProps) {
 
                 <div className="mt-6 flex flex-wrap gap-3">
                   <Link
-                    className="inline-flex min-w-[9.5rem] items-center justify-center whitespace-nowrap rounded-full border border-[var(--accent)] bg-[var(--accent)] px-5 py-3 text-sm font-medium text-white shadow-[0_12px_26px_rgba(225,6,0,0.22)] transition hover:opacity-95"
-                        href={prefixLocalePath(`/roles/${role.slug}`, locale)}
+                    className="action-primary inline-flex min-w-[9.5rem] items-center justify-center whitespace-nowrap rounded-full border px-5 py-3 text-sm font-semibold transition"
+                    href={prefixLocalePath(`/roles/${role.slug}`, locale)}
                   >
                     {locale === "zh-CN" ? `查看 ${roleLabel}推荐` : `View ${roleLabel}`}
                   </Link>
                   <Link
-                    className="rounded-full border border-[var(--border-soft)] bg-[var(--surface-strong)] px-5 py-3 text-sm font-medium text-[var(--foreground)] transition hover:bg-[var(--surface)]"
+                    className="action-secondary inline-flex min-w-[9.5rem] items-center justify-center whitespace-nowrap rounded-full border px-5 py-3 text-sm font-semibold transition"
                     href={prefixLocalePath(`/skills?persona=${role.slug}`, locale)}
                   >
                     {copy.roles.viewAllSkills}

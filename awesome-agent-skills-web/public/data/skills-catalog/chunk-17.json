@@ -1,8 +1,296 @@
 {
-  "generatedAt": "2026-06-29T09:08:38.457Z",
+  "generatedAt": "2026-06-30T00:38:45.567Z",
   "chunkIndex": 17,
-  "totalSkills": 5090,
+  "totalSkills": 5100,
   "skills": [
+    {
+      "slug": "nvidia-nemo-automodel-recipe-development",
+      "name": "NVIDIA/nemo-automodel-recipe-development",
+      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "publisher": "NVIDIA",
+      "publisherSlug": "nvidia",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "nvidia",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
+      "creatorHandle": "NVIDIA",
+      "hasPublisherLogo": true,
+      "stars": 2060,
+      "forks": 228
+    },
+    {
+      "slug": "nvidia-nemo-data-designer-plugin",
+      "name": "NVIDIA/nemo-data-designer-plugin",
+      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "publisher": "NVIDIA",
+      "publisherSlug": "nvidia",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "nvidia",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
+      "creatorHandle": "NVIDIA",
+      "hasPublisherLogo": true,
+      "stars": 2060,
+      "forks": 228
+    },
+    {
+      "slug": "nvidia-nemo-evaluator-plugin",
+      "name": "NVIDIA/nemo-evaluator-plugin",
+      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "publisher": "NVIDIA",
+      "publisherSlug": "nvidia",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "nvidia",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
+      "creatorHandle": "NVIDIA",
+      "hasPublisherLogo": true,
+      "stars": 2060,
+      "forks": 228
+    },
+    {
+      "slug": "nvidia-nemo-mbridge-mlm-bridge-training",
+      "name": "NVIDIA/nemo-mbridge-mlm-bridge-training",
+      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "publisher": "NVIDIA",
+      "publisherSlug": "nvidia",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "nvidia",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
+      "creatorHandle": "NVIDIA",
+      "hasPublisherLogo": true,
+      "stars": 2060,
+      "forks": 228
+    },
+    {
+      "slug": "nvidia-nemo-mbridge-multi-node-slurm",
+      "name": "NVIDIA/nemo-mbridge-multi-node-slurm",
+      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "publisher": "NVIDIA",
+      "publisherSlug": "nvidia",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "nvidia",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
+      "creatorHandle": "NVIDIA",
+      "hasPublisherLogo": true,
+      "stars": 2060,
+      "forks": 228
+    },
+    {
+      "slug": "nvidia-nemo-mbridge-perf-activation-recompute",
+      "name": "NVIDIA/nemo-mbridge-perf-activation-recompute",
+      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "publisher": "NVIDIA",
+      "publisherSlug": "nvidia",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "nvidia",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
+      "creatorHandle": "NVIDIA",
+      "hasPublisherLogo": true,
+      "stars": 2060,
+      "forks": 228
+    },
+    {
+      "slug": "nvidia-nemo-mbridge-perf-cpu-offloading",
+      "name": "NVIDIA/nemo-mbridge-perf-cpu-offloading",
+      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "publisher": "NVIDIA",
+      "publisherSlug": "nvidia",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "nvidia",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
+      "creatorHandle": "NVIDIA",
+      "hasPublisherLogo": true,
+      "stars": 2060,
+      "forks": 228
+    },
+    {
+      "slug": "nvidia-nemo-mbridge-perf-cuda-graphs",
+      "name": "NVIDIA/nemo-mbridge-perf-cuda-graphs",
+      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "publisher": "NVIDIA",
+      "publisherSlug": "nvidia",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "nvidia",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
+      "creatorHandle": "NVIDIA",
+      "hasPublisherLogo": true,
+      "stars": 2060,
+      "forks": 228
+    },
+    {
+      "slug": "nvidia-nemo-mbridge-perf-expert-parallel-overlap",
+      "name": "NVIDIA/nemo-mbridge-perf-expert-parallel-overlap",
+      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "publisher": "NVIDIA",
+      "publisherSlug": "nvidia",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "nvidia",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
+      "creatorHandle": "NVIDIA",
+      "hasPublisherLogo": true,
+      "stars": 2060,
+      "forks": 228
+    },
+    {
+      "slug": "nvidia-nemo-mbridge-perf-hierarchical-context-parallel",
+      "name": "NVIDIA/nemo-mbridge-perf-hierarchical-context-parallel",
+      "description": "Discovered from a public GitHub repository: NVIDIA/skills",
+      "publisher": "NVIDIA",
+      "publisherSlug": "nvidia",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "nvidia",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
+      "creatorHandle": "NVIDIA",
+      "hasPublisherLogo": true,
+      "stars": 2060,
+      "forks": 228
+    },
     {
       "slug": "nvidia-nemo-mbridge-perf-megatron-fsdp",
       "name": "NVIDIA/nemo-mbridge-perf-megatron-fsdp",
@@ -28,8 +316,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-nemo-mbridge-perf-memory-tuning",
@@ -56,8 +344,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-nemo-mbridge-perf-moe-comm-overlap",
@@ -84,8 +372,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-nemo-mbridge-perf-moe-dispatcher-selection",
@@ -112,8 +400,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-nemo-mbridge-perf-moe-hardware-configs",
@@ -140,8 +428,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-nemo-mbridge-perf-moe-long-context",
@@ -168,8 +456,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-nemo-mbridge-perf-moe-optimization-workflow",
@@ -198,8 +486,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-nemo-mbridge-perf-moe-vlm-training",
@@ -226,8 +514,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-nemo-mbridge-perf-parallelism-strategies",
@@ -254,8 +542,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-nemo-mbridge-perf-sequence-packing",
@@ -282,8 +570,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-nemo-mbridge-perf-tp-dp-comm-overlap",
@@ -310,8 +598,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-nemo-mbridge-recipe-recommender",
@@ -346,8 +634,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-nemo-mbridge-resiliency",
@@ -374,8 +662,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-nemo-retriever",
@@ -402,8 +690,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-nemoclaw-user-guide",
@@ -432,8 +720,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-nemotron-customize",
@@ -460,8 +748,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-nemotron-policy-generator",
@@ -488,8 +776,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-nemotron-retrieval-recipes",
@@ -524,8 +812,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-nemotron-speech",
@@ -552,8 +840,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-nv-generate-ct-rflow",
@@ -580,8 +868,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-nv-generate-mr-brain-finetune",
@@ -608,8 +896,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-nv-generate-mr-brain",
@@ -636,8 +924,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-nv-generate-mr",
@@ -664,8 +952,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-nv-generate-vae-finetune",
@@ -692,8 +980,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-nv-reason-cxr",
@@ -720,8 +1008,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-nv-segment-ct-finetune",
@@ -748,8 +1036,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-nv-segment-ct",
@@ -776,8 +1064,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-nv-segment-ctmr",
@@ -804,8 +1092,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-omniverse-cad-to-simready",
@@ -832,8 +1120,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-omniverse-realtime-viewer",
@@ -860,8 +1148,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-omniverse-usd-performance-tuning",
@@ -888,8 +1176,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-physical-ai-defect-image-generation",
@@ -918,8 +1206,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-physical-ai-infrastructure-setup-and-resilient-scaling",
@@ -954,8 +1242,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-physical-ai-neural-reconstruction",
@@ -982,8 +1270,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-physical-ai-video-data-augmentation",
@@ -1010,8 +1298,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-physicsnemo-discover",
@@ -1038,8 +1326,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-rag-blueprint",
@@ -1066,8 +1354,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-rag-eval",
@@ -1094,8 +1382,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-rag-perf",
@@ -1122,8 +1410,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-skill-card-generator",
@@ -1150,8 +1438,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-analyze-changenet-rca",
@@ -1178,8 +1466,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-analyze-gaps-visual-changenet",
@@ -1214,8 +1502,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-analyze-gaps-vlm-bcq",
@@ -1242,8 +1530,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-convert-dataset-format",
@@ -1270,8 +1558,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-finetune-clip",
@@ -1298,8 +1586,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-finetune-cosmos-embed",
@@ -1326,8 +1614,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-finetune-cosmos-reason",
@@ -1354,8 +1642,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-finetune-huggingface-model",
@@ -1382,8 +1670,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-generate-image-grounding",
@@ -1412,8 +1700,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-generate-referring-expressions",
@@ -1440,8 +1728,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-generate-video-reasoning-annotations",
@@ -1468,8 +1756,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-launch-workflow",
@@ -1504,8 +1792,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-list-capabilities",
@@ -1532,8 +1820,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-mine-aoi-images",
@@ -1562,8 +1850,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-port-huggingface-model",
@@ -1590,8 +1878,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-route-visual-changenet-samples",
@@ -1626,8 +1914,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-run-automl-deft-pipeline",
@@ -1661,8 +1949,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-run-automl",
@@ -1689,8 +1977,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-run-deft-aoi",
@@ -1717,8 +2005,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-run-inference-service",
@@ -1747,8 +2035,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-run-on-brev",
@@ -1775,8 +2063,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-run-on-kubernetes",
@@ -1803,8 +2091,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-run-on-lepton",
@@ -1831,8 +2119,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-run-on-local-docker",
@@ -1859,8 +2147,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-run-on-slurm",
@@ -1887,8 +2175,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-run-platform",
@@ -1915,8 +2203,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-setup-nvidia-gpu-host",
@@ -1943,8 +2231,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-train-action-recognition",
@@ -1971,8 +2259,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-train-bevfusion",
@@ -1999,8 +2287,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-train-centerpose",
@@ -2027,8 +2315,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-train-deformable-detr",
@@ -2055,8 +2343,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-train-depth-anything-v2",
@@ -2083,8 +2371,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-train-dino",
@@ -2111,8 +2399,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-train-fast-foundation-stereo",
@@ -2139,8 +2427,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-train-foundation-stereo",
@@ -2167,8 +2455,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-train-grounding-dino",
@@ -2195,8 +2483,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-train-image-classification",
@@ -2225,8 +2513,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-train-mask-auto-encoder",
@@ -2261,8 +2549,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-train-mask-auto-label",
@@ -2289,8 +2577,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-train-mask-grounding-dino",
@@ -2317,8 +2605,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-train-mask2former",
@@ -2345,8 +2633,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-train-metric-learning-recognition",
@@ -2373,8 +2661,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-train-nvdinov2",
@@ -2401,8 +2689,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-train-nvpanoptix3d",
@@ -2429,8 +2717,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-train-ocdnet",
@@ -2457,8 +2745,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-train-ocrnet",
@@ -2485,8 +2773,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-train-oneformer",
@@ -2513,8 +2801,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-train-optical-inspection",
@@ -2543,8 +2831,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-train-pointpillars",
@@ -2571,8 +2859,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-train-pose-classification",
@@ -2599,8 +2887,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-train-reid",
@@ -2627,8 +2915,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-train-rtdetr",
@@ -2655,8 +2943,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-train-segformer",
@@ -2683,8 +2971,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-train-single-step",
@@ -2711,8 +2999,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-train-sparse4d",
@@ -2739,8 +3027,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-train-visual-changenet",
@@ -2775,8 +3063,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-tao-validate-dataset-format",
@@ -2803,8 +3091,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-vss-ask-video",
@@ -2831,8 +3119,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-vss-deploy-dense-captioning",
@@ -2867,8 +3155,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-vss-deploy-detection-tracking-2d",
@@ -2903,8 +3191,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-vss-deploy-detection-tracking-3d",
@@ -2939,8 +3227,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-vss-deploy-profile",
@@ -2975,8 +3263,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-vss-deploy-video-embedding",
@@ -3011,8 +3299,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-vss-generate-video-calibration",
@@ -3039,8 +3327,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-vss-generate-video-report",
@@ -3069,8 +3357,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-vss-manage-alerts",
@@ -3097,8 +3385,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-vss-manage-video-io-storage",
@@ -3125,8 +3413,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-vss-query-analytics",
@@ -3162,8 +3450,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-vss-search-archive",
@@ -3192,8 +3480,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-vss-setup-behavior-analytics",
@@ -3229,8 +3517,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-vss-setup-video-analytics-api",
@@ -3271,8 +3559,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "nvidia-vss-summarize-video",
@@ -3301,8 +3589,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2020,
-      "forks": 226
+      "stars": 2060,
+      "forks": 228
     },
     {
       "slug": "mcollina-documentation",
@@ -3329,7 +3617,7 @@
       "creatorAvatarUrl": "https://github.com/mcollina.png?size=88",
       "creatorHandle": "mcollina",
       "hasPublisherLogo": false,
-      "stars": 1842,
+      "stars": 1845,
       "forks": 149
     },
     {
@@ -3357,7 +3645,7 @@
       "creatorAvatarUrl": "https://github.com/mcollina.png?size=88",
       "creatorHandle": "mcollina",
       "hasPublisherLogo": false,
-      "stars": 1842,
+      "stars": 1845,
       "forks": 149
     },
     {
@@ -3385,7 +3673,7 @@
       "creatorAvatarUrl": "https://github.com/mcollina.png?size=88",
       "creatorHandle": "mcollina",
       "hasPublisherLogo": false,
-      "stars": 1842,
+      "stars": 1845,
       "forks": 149
     },
     {
@@ -3413,7 +3701,7 @@
       "creatorAvatarUrl": "https://github.com/mcollina.png?size=88",
       "creatorHandle": "mcollina",
       "hasPublisherLogo": false,
-      "stars": 1842,
+      "stars": 1845,
       "forks": 149
     },
     {
@@ -3441,7 +3729,7 @@
       "creatorAvatarUrl": "https://github.com/mcollina.png?size=88",
       "creatorHandle": "mcollina",
       "hasPublisherLogo": false,
-      "stars": 1842,
+      "stars": 1845,
       "forks": 149
     },
     {
@@ -3469,7 +3757,7 @@
       "creatorAvatarUrl": "https://github.com/mcollina.png?size=88",
       "creatorHandle": "mcollina",
       "hasPublisherLogo": false,
-      "stars": 1842,
+      "stars": 1845,
       "forks": 149
     },
     {
@@ -3497,7 +3785,7 @@
       "creatorAvatarUrl": "https://github.com/mcollina.png?size=88",
       "creatorHandle": "mcollina",
       "hasPublisherLogo": false,
-      "stars": 1842,
+      "stars": 1845,
       "forks": 149
     },
     {
@@ -3525,7 +3813,7 @@
       "creatorAvatarUrl": "https://github.com/mcollina.png?size=88",
       "creatorHandle": "mcollina",
       "hasPublisherLogo": false,
-      "stars": 1842,
+      "stars": 1845,
       "forks": 149
     },
     {
@@ -3553,7 +3841,7 @@
       "creatorAvatarUrl": "https://github.com/mcollina.png?size=88",
       "creatorHandle": "mcollina",
       "hasPublisherLogo": false,
-      "stars": 1842,
+      "stars": 1845,
       "forks": 149
     },
     {
@@ -3581,7 +3869,7 @@
       "creatorAvatarUrl": "https://github.com/mcollina.png?size=88",
       "creatorHandle": "mcollina",
       "hasPublisherLogo": false,
-      "stars": 1842,
+      "stars": 1845,
       "forks": 149
     },
     {
@@ -3617,7 +3905,7 @@
       "creatorAvatarUrl": "https://github.com/mcollina.png?size=88",
       "creatorHandle": "mcollina",
       "hasPublisherLogo": false,
-      "stars": 1842,
+      "stars": 1845,
       "forks": 149
     },
     {
@@ -3653,7 +3941,7 @@
       "creatorAvatarUrl": "https://github.com/Eronred.png?size=88",
       "creatorHandle": "Eronred",
       "hasPublisherLogo": false,
-      "stars": 1549,
+      "stars": 1558,
       "forks": 100
     },
     {
@@ -3681,7 +3969,7 @@
       "creatorAvatarUrl": "https://github.com/Eronred.png?size=88",
       "creatorHandle": "Eronred",
       "hasPublisherLogo": false,
-      "stars": 1549,
+      "stars": 1558,
       "forks": 100
     },
     {
@@ -3718,7 +4006,7 @@
       "creatorAvatarUrl": "https://github.com/Eronred.png?size=88",
       "creatorHandle": "Eronred",
       "hasPublisherLogo": false,
-      "stars": 1549,
+      "stars": 1558,
       "forks": 100
     },
     {
@@ -3746,7 +4034,7 @@
       "creatorAvatarUrl": "https://github.com/Eronred.png?size=88",
       "creatorHandle": "Eronred",
       "hasPublisherLogo": false,
-      "stars": 1549,
+      "stars": 1558,
       "forks": 100
     },
     {
@@ -3774,7 +4062,7 @@
       "creatorAvatarUrl": "https://github.com/Eronred.png?size=88",
       "creatorHandle": "Eronred",
       "hasPublisherLogo": false,
-      "stars": 1549,
+      "stars": 1558,
       "forks": 100
     },
     {
@@ -3810,7 +4098,7 @@
       "creatorAvatarUrl": "https://github.com/Eronred.png?size=88",
       "creatorHandle": "Eronred",
       "hasPublisherLogo": false,
-      "stars": 1549,
+      "stars": 1558,
       "forks": 100
     },
     {
@@ -3846,7 +4134,7 @@
       "creatorAvatarUrl": "https://github.com/Eronred.png?size=88",
       "creatorHandle": "Eronred",
       "hasPublisherLogo": false,
-      "stars": 1549,
+      "stars": 1558,
       "forks": 100
     },
     {
@@ -3874,7 +4162,7 @@
       "creatorAvatarUrl": "https://github.com/Eronred.png?size=88",
       "creatorHandle": "Eronred",
       "hasPublisherLogo": false,
-      "stars": 1549,
+      "stars": 1558,
       "forks": 100
     },
     {
@@ -3902,7 +4190,7 @@
       "creatorAvatarUrl": "https://github.com/Eronred.png?size=88",
       "creatorHandle": "Eronred",
       "hasPublisherLogo": false,
-      "stars": 1549,
+      "stars": 1558,
       "forks": 100
     },
     {
@@ -3930,7 +4218,7 @@
       "creatorAvatarUrl": "https://github.com/Eronred.png?size=88",
       "creatorHandle": "Eronred",
       "hasPublisherLogo": false,
-      "stars": 1549,
+      "stars": 1558,
       "forks": 100
     },
     {
@@ -3961,7 +4249,7 @@
       "creatorAvatarUrl": "https://github.com/Eronred.png?size=88",
       "creatorHandle": "Eronred",
       "hasPublisherLogo": false,
-      "stars": 1549,
+      "stars": 1558,
       "forks": 100
     },
     {
@@ -3998,7 +4286,7 @@
       "creatorAvatarUrl": "https://github.com/Eronred.png?size=88",
       "creatorHandle": "Eronred",
       "hasPublisherLogo": false,
-      "stars": 1549,
+      "stars": 1558,
       "forks": 100
     },
     {
@@ -4026,7 +4314,7 @@
       "creatorAvatarUrl": "https://github.com/Eronred.png?size=88",
       "creatorHandle": "Eronred",
       "hasPublisherLogo": false,
-      "stars": 1549,
+      "stars": 1558,
       "forks": 100
     },
     {
@@ -4054,7 +4342,7 @@
       "creatorAvatarUrl": "https://github.com/Eronred.png?size=88",
       "creatorHandle": "Eronred",
       "hasPublisherLogo": false,
-      "stars": 1549,
+      "stars": 1558,
       "forks": 100
     },
     {
@@ -4082,7 +4370,7 @@
       "creatorAvatarUrl": "https://github.com/Eronred.png?size=88",
       "creatorHandle": "Eronred",
       "hasPublisherLogo": false,
-      "stars": 1549,
+      "stars": 1558,
       "forks": 100
     },
     {
@@ -4110,7 +4398,7 @@
       "creatorAvatarUrl": "https://github.com/Eronred.png?size=88",
       "creatorHandle": "Eronred",
       "hasPublisherLogo": false,
-      "stars": 1549,
+      "stars": 1558,
       "forks": 100
     },
     {
@@ -4147,7 +4435,7 @@
       "creatorAvatarUrl": "https://github.com/Eronred.png?size=88",
       "creatorHandle": "Eronred",
       "hasPublisherLogo": false,
-      "stars": 1549,
+      "stars": 1558,
       "forks": 100
     },
     {
@@ -4175,7 +4463,7 @@
       "creatorAvatarUrl": "https://github.com/Eronred.png?size=88",
       "creatorHandle": "Eronred",
       "hasPublisherLogo": false,
-      "stars": 1549,
+      "stars": 1558,
       "forks": 100
     },
     {
@@ -4212,7 +4500,7 @@
       "creatorAvatarUrl": "https://github.com/Eronred.png?size=88",
       "creatorHandle": "Eronred",
       "hasPublisherLogo": false,
-      "stars": 1549,
+      "stars": 1558,
       "forks": 100
     },
     {
@@ -4248,7 +4536,7 @@
       "creatorAvatarUrl": "https://github.com/Eronred.png?size=88",
       "creatorHandle": "Eronred",
       "hasPublisherLogo": false,
-      "stars": 1549,
+      "stars": 1558,
       "forks": 100
     },
     {
@@ -4284,7 +4572,7 @@
       "creatorAvatarUrl": "https://github.com/Eronred.png?size=88",
       "creatorHandle": "Eronred",
       "hasPublisherLogo": false,
-      "stars": 1549,
+      "stars": 1558,
       "forks": 100
     },
     {
@@ -4312,7 +4600,7 @@
       "creatorAvatarUrl": "https://github.com/Eronred.png?size=88",
       "creatorHandle": "Eronred",
       "hasPublisherLogo": false,
-      "stars": 1549,
+      "stars": 1558,
       "forks": 100
     },
     {
@@ -4342,7 +4630,7 @@
       "creatorAvatarUrl": "https://github.com/Eronred.png?size=88",
       "creatorHandle": "Eronred",
       "hasPublisherLogo": false,
-      "stars": 1549,
+      "stars": 1558,
       "forks": 100
     },
     {
@@ -4370,7 +4658,7 @@
       "creatorAvatarUrl": "https://github.com/Eronred.png?size=88",
       "creatorHandle": "Eronred",
       "hasPublisherLogo": false,
-      "stars": 1549,
+      "stars": 1558,
       "forks": 100
     },
     {
@@ -4398,7 +4686,7 @@
       "creatorAvatarUrl": "https://github.com/Eronred.png?size=88",
       "creatorHandle": "Eronred",
       "hasPublisherLogo": false,
-      "stars": 1549,
+      "stars": 1558,
       "forks": 100
     },
     {
@@ -4426,7 +4714,7 @@
       "creatorAvatarUrl": "https://github.com/Eronred.png?size=88",
       "creatorHandle": "Eronred",
       "hasPublisherLogo": false,
-      "stars": 1549,
+      "stars": 1558,
       "forks": 100
     },
     {
@@ -4454,7 +4742,7 @@
       "creatorAvatarUrl": "https://github.com/Eronred.png?size=88",
       "creatorHandle": "Eronred",
       "hasPublisherLogo": false,
-      "stars": 1549,
+      "stars": 1558,
       "forks": 100
     },
     {
@@ -4489,7 +4777,7 @@
       "creatorAvatarUrl": "https://github.com/Eronred.png?size=88",
       "creatorHandle": "Eronred",
       "hasPublisherLogo": false,
-      "stars": 1549,
+      "stars": 1558,
       "forks": 100
     },
     {
@@ -4517,7 +4805,7 @@
       "creatorAvatarUrl": "https://github.com/Eronred.png?size=88",
       "creatorHandle": "Eronred",
       "hasPublisherLogo": false,
-      "stars": 1549,
+      "stars": 1558,
       "forks": 100
     },
     {
@@ -4545,7 +4833,7 @@
       "creatorAvatarUrl": "https://github.com/Eronred.png?size=88",
       "creatorHandle": "Eronred",
       "hasPublisherLogo": false,
-      "stars": 1549,
+      "stars": 1558,
       "forks": 100
     },
     {
@@ -4573,7 +4861,7 @@
       "creatorAvatarUrl": "https://github.com/Eronred.png?size=88",
       "creatorHandle": "Eronred",
       "hasPublisherLogo": false,
-      "stars": 1549,
+      "stars": 1558,
       "forks": 100
     },
     {
@@ -4608,7 +4896,7 @@
       "creatorAvatarUrl": "https://github.com/Eronred.png?size=88",
       "creatorHandle": "Eronred",
       "hasPublisherLogo": false,
-      "stars": 1549,
+      "stars": 1558,
       "forks": 100
     },
     {
@@ -4636,7 +4924,7 @@
       "creatorAvatarUrl": "https://github.com/Eronred.png?size=88",
       "creatorHandle": "Eronred",
       "hasPublisherLogo": false,
-      "stars": 1549,
+      "stars": 1558,
       "forks": 100
     },
     {
@@ -4664,7 +4952,7 @@
       "creatorAvatarUrl": "https://github.com/Eronred.png?size=88",
       "creatorHandle": "Eronred",
       "hasPublisherLogo": false,
-      "stars": 1549,
+      "stars": 1558,
       "forks": 100
     },
     {
@@ -4692,7 +4980,7 @@
       "creatorAvatarUrl": "https://github.com/Eronred.png?size=88",
       "creatorHandle": "Eronred",
       "hasPublisherLogo": false,
-      "stars": 1549,
+      "stars": 1558,
       "forks": 100
     },
     {
@@ -4720,7 +5008,7 @@
       "creatorAvatarUrl": "https://github.com/Eronred.png?size=88",
       "creatorHandle": "Eronred",
       "hasPublisherLogo": false,
-      "stars": 1549,
+      "stars": 1558,
       "forks": 100
     },
     {
@@ -4748,7 +5036,7 @@
       "creatorAvatarUrl": "https://github.com/Eronred.png?size=88",
       "creatorHandle": "Eronred",
       "hasPublisherLogo": false,
-      "stars": 1549,
+      "stars": 1558,
       "forks": 100
     },
     {
@@ -4776,7 +5064,7 @@
       "creatorAvatarUrl": "https://github.com/Eronred.png?size=88",
       "creatorHandle": "Eronred",
       "hasPublisherLogo": false,
-      "stars": 1549,
+      "stars": 1558,
       "forks": 100
     },
     {
@@ -4812,7 +5100,7 @@
       "creatorAvatarUrl": "https://github.com/Eronred.png?size=88",
       "creatorHandle": "Eronred",
       "hasPublisherLogo": false,
-      "stars": 1549,
+      "stars": 1558,
       "forks": 100
     },
     {
@@ -4840,7 +5128,7 @@
       "creatorAvatarUrl": "https://github.com/Eronred.png?size=88",
       "creatorHandle": "Eronred",
       "hasPublisherLogo": false,
-      "stars": 1549,
+      "stars": 1558,
       "forks": 100
     },
     {
@@ -4868,7 +5156,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -4896,7 +5184,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -4924,7 +5212,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -4952,7 +5240,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -4980,7 +5268,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -5008,7 +5296,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -5036,7 +5324,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -5064,7 +5352,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -5094,7 +5382,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -5122,7 +5410,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -5158,7 +5446,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -5194,7 +5482,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -5222,7 +5510,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -5250,7 +5538,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -5286,7 +5574,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -5314,7 +5602,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -5342,7 +5630,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -5370,7 +5658,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -5407,7 +5695,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -5435,7 +5723,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -5463,7 +5751,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -5491,7 +5779,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -5519,7 +5807,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -5547,7 +5835,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -5575,7 +5863,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -5603,7 +5891,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -5631,7 +5919,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -5659,7 +5947,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -5687,7 +5975,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -5715,7 +6003,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -5743,7 +6031,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -5771,7 +6059,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -5799,7 +6087,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -5827,7 +6115,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -5855,7 +6143,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -5891,7 +6179,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -5919,7 +6207,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -5956,7 +6244,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -5986,7 +6274,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -6022,7 +6310,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -6052,7 +6340,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -6082,7 +6370,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -6118,7 +6406,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -6146,7 +6434,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -6174,7 +6462,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -6202,7 +6490,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -6230,7 +6518,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -6258,7 +6546,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -6286,7 +6574,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -6314,7 +6602,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -6342,7 +6630,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -6370,7 +6658,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -6398,7 +6686,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -6434,7 +6722,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -6462,7 +6750,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -6492,7 +6780,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -6520,7 +6808,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -6548,7 +6836,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -6576,7 +6864,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -6604,7 +6892,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -6632,7 +6920,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -6660,7 +6948,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -6705,7 +6993,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -6741,7 +7029,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -6777,7 +7065,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -6813,7 +7101,7 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
     },
     {
@@ -6849,307 +7137,8 @@
       "creatorAvatarUrl": "https://github.com/NeoLabHQ.png?size=88",
       "creatorHandle": "NeoLabHQ",
       "hasPublisherLogo": false,
-      "stars": 1185,
+      "stars": 1186,
       "forks": 128
-    },
-    {
-      "slug": "conorluddy-ios-simulator-skill-skills-ios-simulator-skill",
-      "name": "conorluddy/ios-simulator-skill/skills/ios-simulator-skill",
-      "description": "Discovered from a public GitHub repository: conorluddy/ios-simulator-skill",
-      "publisher": "conorluddy",
-      "publisherSlug": "conorluddy",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "conorluddy",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/conorluddy.png?size=88",
-      "creatorHandle": "conorluddy",
-      "hasPublisherLogo": false,
-      "stars": 1116,
-      "forks": 76
-    },
-    {
-      "slug": "prompt-security-claw-release",
-      "name": "prompt-security/claw-release",
-      "description": "Discovered from a public GitHub repository: prompt-security/clawsec",
-      "publisher": "prompt-security",
-      "publisherSlug": "prompt-security",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "prompt-security",
-        "publisher-namespaced",
-        "security"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/prompt-security.png?size=88",
-      "creatorHandle": "prompt-security",
-      "hasPublisherLogo": false,
-      "stars": 1051,
-      "forks": 110
-    },
-    {
-      "slug": "prompt-security-clawsec-clawhub-checker",
-      "name": "prompt-security/clawsec-clawhub-checker",
-      "description": "Discovered from a public GitHub repository: prompt-security/clawsec",
-      "publisher": "prompt-security",
-      "publisherSlug": "prompt-security",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "prompt-security",
-        "publisher-namespaced",
-        "security"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/prompt-security.png?size=88",
-      "creatorHandle": "prompt-security",
-      "hasPublisherLogo": false,
-      "stars": 1051,
-      "forks": 110
-    },
-    {
-      "slug": "prompt-security-clawsec-feed",
-      "name": "prompt-security/clawsec-feed",
-      "description": "Discovered from a public GitHub repository: prompt-security/clawsec",
-      "publisher": "prompt-security",
-      "publisherSlug": "prompt-security",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "prompt-security",
-        "publisher-namespaced",
-        "security"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/prompt-security.png?size=88",
-      "creatorHandle": "prompt-security",
-      "hasPublisherLogo": false,
-      "stars": 1051,
-      "forks": 110
-    },
-    {
-      "slug": "prompt-security-clawsec-nanoclaw",
-      "name": "prompt-security/clawsec-nanoclaw",
-      "description": "Discovered from a public GitHub repository: prompt-security/clawsec",
-      "publisher": "prompt-security",
-      "publisherSlug": "prompt-security",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "prompt-security",
-        "publisher-namespaced",
-        "security"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/prompt-security.png?size=88",
-      "creatorHandle": "prompt-security",
-      "hasPublisherLogo": false,
-      "stars": 1051,
-      "forks": 110
-    },
-    {
-      "slug": "prompt-security-clawsec-scanner",
-      "name": "prompt-security/clawsec-scanner",
-      "description": "Discovered from a public GitHub repository: prompt-security/clawsec",
-      "publisher": "prompt-security",
-      "publisherSlug": "prompt-security",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "prompt-security",
-        "publisher-namespaced",
-        "security"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/prompt-security.png?size=88",
-      "creatorHandle": "prompt-security",
-      "hasPublisherLogo": false,
-      "stars": 1051,
-      "forks": 110
-    },
-    {
-      "slug": "prompt-security-clawsec-suite",
-      "name": "prompt-security/clawsec-suite",
-      "description": "Discovered from a public GitHub repository: prompt-security/clawsec",
-      "publisher": "prompt-security",
-      "publisherSlug": "prompt-security",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "prompt-security",
-        "publisher-namespaced",
-        "security"
-      ],
-      "personas": [],
-      "jobs": [
-        "ui-ux-design"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/prompt-security.png?size=88",
-      "creatorHandle": "prompt-security",
-      "hasPublisherLogo": false,
-      "stars": 1051,
-      "forks": 110
-    },
-    {
-      "slug": "prompt-security-clawtributor",
-      "name": "prompt-security/clawtributor",
-      "description": "Discovered from a public GitHub repository: prompt-security/clawsec",
-      "publisher": "prompt-security",
-      "publisherSlug": "prompt-security",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "prompt-security",
-        "publisher-namespaced",
-        "security"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/prompt-security.png?size=88",
-      "creatorHandle": "prompt-security",
-      "hasPublisherLogo": false,
-      "stars": 1051,
-      "forks": 110
-    },
-    {
-      "slug": "prompt-security-hermes-attestation-guardian",
-      "name": "prompt-security/hermes-attestation-guardian",
-      "description": "Discovered from a public GitHub repository: prompt-security/clawsec",
-      "publisher": "prompt-security",
-      "publisherSlug": "prompt-security",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "prompt-security",
-        "publisher-namespaced",
-        "security"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/prompt-security.png?size=88",
-      "creatorHandle": "prompt-security",
-      "hasPublisherLogo": false,
-      "stars": 1051,
-      "forks": 110
-    },
-    {
-      "slug": "prompt-security-hermes-traffic-guardian",
-      "name": "prompt-security/hermes-traffic-guardian",
-      "description": "Discovered from a public GitHub repository: prompt-security/clawsec",
-      "publisher": "prompt-security",
-      "publisherSlug": "prompt-security",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "prompt-security",
-        "publisher-namespaced",
-        "security"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/prompt-security.png?size=88",
-      "creatorHandle": "prompt-security",
-      "hasPublisherLogo": false,
-      "stars": 1051,
-      "forks": 110
     }
   ]
 }

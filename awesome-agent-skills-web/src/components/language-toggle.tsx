@@ -1,6 +1,6 @@
 "use client";
 
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 import { LOCALE_COOKIE, type Locale, getCopy, getLocaleSwitchUrl } from "@/lib/i18n";
 
 export function LanguageToggle({ locale }: { locale: Locale }) {
@@ -12,7 +12,7 @@ export function LanguageToggle({ locale }: { locale: Locale }) {
   return (
     <button
       aria-label={nextLocale === "zh-CN" ? copy.language.chinese : copy.language.english}
-      className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-[var(--border-soft)] bg-[var(--surface-strong)] p-0 text-sm font-semibold tracking-[0.04em] text-[var(--foreground)] transition hover:bg-[var(--surface)]"
+      className="header-action inline-flex h-11 w-11 items-center justify-center rounded-full border p-0 text-sm font-semibold tracking-[0.04em] text-[var(--foreground)] transition"
       onClick={() => {
         const search = typeof window !== "undefined" ? window.location.search : "";
         const nextUrl = getLocaleSwitchUrl(pathname, search, nextLocale);

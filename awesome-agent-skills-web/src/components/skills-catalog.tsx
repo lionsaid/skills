@@ -146,6 +146,26 @@ function decodeCatalogIndexItem(
   };
 }
 
+function normalizeSearchInput(value: string) {
+  const trimmedLeft = value.replace(/^\s+/, "");
+  const withoutSpaces = trimmedLeft.replace(/\s+/g, "");
+  const characters = Array.from(withoutSpaces.toLocaleLowerCase());
+
+  if (
+    trimmedLeft.includes(" ") &&
+    characters.length > 1 &&
+    characters.every((character) => character === characters[0])
+  ) {
+    return withoutSpaces;
+  }
+
+  if (/^(?:[\p{L}\p{N}]\s+){2,}[\p{L}\p{N}]?\s*$/u.test(trimmedLeft)) {
+    return withoutSpaces;
+  }
+
+  return trimmedLeft.replace(/\s{2,}/g, " ");
+}
+
 function getTrustTone(trustLevel: Skill["trustLevel"]) {
   if (trustLevel === "official") {
     return "border-[#b7ebc6] bg-[#eefcf2] text-[#246a35]";
@@ -887,15 +907,16 @@ export function SkillsCatalog({
                     >
                       <SearchIcon />
                       <input
+                        autoCapitalize="none"
+                        autoCorrect="off"
                         className="h-full w-full bg-transparent text-base text-[var(--foreground)] outline-none placeholder:text-[var(--ink-muted)]"
                         onChange={(event) => {
-                          const nextValue = event.target.value;
-                          startTransition(() => {
-                            setQuery(nextValue);
-                            setPage(1);
-                          });
+                          const nextValue = normalizeSearchInput(event.target.value);
+                          setQuery(nextValue);
+                          setPage(1);
                         }}
                         placeholder={copy.skills.searchPlaceholder}
+                        spellCheck={false}
                         type="search"
                         value={query}
                       />
@@ -916,7 +937,7 @@ export function SkillsCatalog({
                           {locale === "zh-CN" ? "展开筛选" : "Show filters"} {desktopFiltersOpen ? "−" : "+"}
                         </span>
                         {activeFilterCount > 0 ? (
-                          <span className="inline-flex h-6 min-w-6 items-center justify-center rounded-full bg-[var(--accent-soft)] px-1.5 text-[11px] font-semibold text-[var(--accent)]">
+                          <span className="inline-flex h-6 min-w-6 items-center justify-center rounded-full bg-[var(--accent)] px-1.5 text-[11px] font-semibold text-[var(--accent-contrast)]">
                             {activeFilterCount}
                           </span>
                         ) : null}
@@ -939,7 +960,7 @@ export function SkillsCatalog({
                     <span className="flex items-center gap-2">
                       <span>{locale === "zh-CN" ? "筛选" : "Filters"}</span>
                       {activeFilterCount > 0 ? (
-                        <span className="inline-flex h-6 min-w-6 items-center justify-center rounded-full bg-[var(--accent-soft)] px-1.5 text-[11px] font-semibold text-[var(--accent)]">
+                        <span className="inline-flex h-6 min-w-6 items-center justify-center rounded-full bg-[var(--accent)] px-1.5 text-[11px] font-semibold text-[var(--accent-contrast)]">
                           {activeFilterCount}
                         </span>
                       ) : null}
@@ -1193,7 +1214,7 @@ export function SkillsCatalog({
                     </p>
                     <div className="mt-5 flex flex-wrap gap-3">
                       <button
-                        className="rounded-full bg-[var(--accent-soft)] px-4 py-2 text-sm font-semibold text-[var(--accent)]"
+                        className="action-primary rounded-full border px-4 py-2 text-sm font-semibold transition"
                         onClick={() =>
                           startTransition(() => {
                             resetAllFilters();
@@ -1205,7 +1226,7 @@ export function SkillsCatalog({
                       </button>
                       {query ? (
                         <button
-                          className="rounded-full border border-[var(--border-soft)] bg-[var(--surface-strong)] px-4 py-2 text-sm font-medium"
+                          className="action-secondary rounded-full border px-4 py-2 text-sm font-semibold transition"
                           onClick={() =>
                             startTransition(() => {
                               setQuery("");
@@ -1316,7 +1337,7 @@ export function SkillsCatalog({
                     </div>
                     {safePage < totalPages ? (
                       <button
-                        className="inline-flex min-w-[11rem] items-center justify-center rounded-full border border-[var(--accent)] bg-[var(--accent)] px-5 py-3 text-sm font-medium text-white shadow-[0_12px_26px_rgba(225,6,0,0.22)] transition hover:opacity-95"
+                        className="action-primary inline-flex min-w-[11rem] items-center justify-center rounded-full border px-5 py-3 text-sm font-semibold transition"
                         onClick={() => {
                           setPage((current) => Math.min(totalPages, Math.max(current, safePage) + 1));
                         }}
@@ -1364,7 +1385,7 @@ export function SkillsCatalog({
                 </p>
               </div>
               <button
-                className="rounded-full border border-[var(--border-soft)] bg-[var(--surface-strong)] px-4 py-2 text-sm font-medium"
+                className="action-secondary rounded-full border px-4 py-2 text-sm font-semibold transition"
                 onClick={closeMobileFilters}
                 type="button"
               >
@@ -1461,7 +1482,7 @@ export function SkillsCatalog({
 
             <div className="flex items-center gap-3 border-t border-[var(--border-soft)] bg-[var(--surface)] px-5 py-4">
               <button
-                className="h-12 flex-1 rounded-full border border-transparent bg-transparent text-sm font-medium text-[var(--ink-muted)] transition hover:bg-[var(--surface-strong)] hover:text-[var(--foreground)]"
+                className="action-secondary h-12 flex-1 rounded-full border px-4 text-sm font-semibold transition"
                 onClick={() => {
                   setDraftKind("all");
                   setDraftPublisher("all");
@@ -1476,7 +1497,7 @@ export function SkillsCatalog({
                 {locale === "zh-CN" ? "重置" : "Reset"}
               </button>
               <button
-                className="h-12 flex-1 rounded-full border border-[var(--accent)] bg-[var(--accent-soft)] px-4 text-sm font-semibold text-[var(--accent)] shadow-none transition hover:bg-[var(--surface-strong)]"
+                className="action-primary h-12 flex-1 rounded-full border px-4 text-sm font-semibold transition"
                 onClick={applyMobileFilters}
                 type="button"
               >
@@ -1490,7 +1511,7 @@ export function SkillsCatalog({
       {showBackToSearch ? (
         <button
           aria-label={locale === "zh-CN" ? "回到搜索" : "Back to search"}
-          className="fixed bottom-5 right-5 z-[55] inline-flex h-12 w-12 items-center justify-center rounded-full border border-[var(--accent)] bg-[var(--accent)] text-white shadow-[0_16px_34px_rgba(225,6,0,0.28)] transition hover:opacity-95 sm:bottom-6 sm:right-6"
+          className="action-primary fixed bottom-5 right-5 z-[55] inline-flex h-12 w-12 items-center justify-center rounded-full border transition sm:bottom-6 sm:right-6"
           data-testid="back-to-search-button"
           onClick={() => {
             searchBarRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });

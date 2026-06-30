@@ -42,9 +42,11 @@ export function CookieConsent() {
 
   useEffect(() => {
     const current = readConsent();
-    setConsent(current);
-    setOpen(!current);
-    setReady(true);
+    queueMicrotask(() => {
+      setConsent(current);
+      setOpen(!current);
+      setReady(true);
+    });
 
     function handleOpen() {
       setConsent(readConsent());

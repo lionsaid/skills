@@ -33,7 +33,7 @@ export function ThemeToggle({
   return (
     <button
       aria-label={theme === "dark" ? "Switch to light mode" : "Switch to dark mode"}
-      className={`inline-flex items-center justify-center rounded-full border border-[var(--border-soft)] bg-[var(--surface-strong)] p-0 text-[var(--foreground)] transition hover:bg-[var(--surface)] ${
+      className={`header-action inline-flex items-center justify-center rounded-full border p-0 text-[var(--foreground)] transition ${
         compact ? "h-11 w-11" : "h-11 w-11"
       }`}
       onClick={toggleTheme}

@@ -91,14 +91,14 @@ export async function RolePageContent({ params, locale }: RolePageContentProps) 
 
             <div className="mt-8 flex flex-wrap gap-3">
               <Link
-                className="inline-flex min-w-[11rem] items-center justify-center whitespace-nowrap rounded-full border border-[var(--accent)] bg-[var(--accent)] px-5 py-3 text-sm font-medium text-white shadow-[0_12px_26px_rgba(225,6,0,0.22)] transition hover:opacity-95"
+                className="action-primary inline-flex min-w-[11rem] items-center justify-center whitespace-nowrap rounded-full border px-5 py-3 text-sm font-semibold transition"
                 href={prefixLocalePath(`/skills?persona=${role.slug}&enterprise=1&trust=official`, locale)}
               >
                 {copy.roles.startWithOfficial}
               </Link>
               <Link
-                  className="rounded-full border border-[var(--border-soft)] bg-white/75 px-5 py-3 text-sm font-medium transition hover:bg-white"
-                  href={prefixLocalePath(`/skills?persona=${role.slug}`, locale)}
+                className="action-secondary inline-flex min-w-[11rem] items-center justify-center whitespace-nowrap rounded-full border px-5 py-3 text-sm font-semibold transition"
+                href={prefixLocalePath(`/skills?persona=${role.slug}`, locale)}
               >
                 {locale === "zh-CN"
                   ? `查看全部与 ${roleLabel} 相关的 skill`
@@ -110,7 +110,7 @@ export async function RolePageContent({ params, locale }: RolePageContentProps) 
               {role.featuredQueries.map((query) => (
                 <Link
                   key={query}
-                  className="rounded-full border border-[var(--border-soft)] bg-[var(--surface-strong)] px-4 py-2 text-sm font-medium transition hover:bg-white"
+                  className="action-chip inline-flex items-center rounded-full border px-4 py-2 text-sm font-semibold transition"
                   href={prefixLocalePath(`/skills?persona=${role.slug}&q=${encodeURIComponent(query)}`, locale)}
                 >
                   {copy.queryLabels[query] ?? query}
@@ -135,10 +135,10 @@ export async function RolePageContent({ params, locale }: RolePageContentProps) 
                   : "If you do not want to sort through everything yourself, start here."}
               </p>
             </div>
-              <Link
-                className="text-sm font-medium text-[var(--accent)]"
-                href={prefixLocalePath(`/skills?persona=${role.slug}`, locale)}
-              >
+            <Link
+              className="action-secondary inline-flex min-w-[9.5rem] items-center justify-center whitespace-nowrap rounded-full border px-4 py-2 text-sm font-semibold transition"
+              href={prefixLocalePath(`/skills?persona=${role.slug}`, locale)}
+            >
               {copy.roles.viewAllSkills}
             </Link>
           </div>
@@ -167,7 +167,7 @@ export async function RolePageContent({ params, locale }: RolePageContentProps) 
             </h2>
           </div>
           <Link
-            className="text-sm font-medium text-[var(--accent)]"
+            className="action-secondary inline-flex min-w-[9.5rem] items-center justify-center whitespace-nowrap rounded-full border px-4 py-2 text-sm font-semibold transition"
             href={prefixLocalePath(`/skills?persona=${role.slug}`, locale)}
           >
             {copy.roles.viewAllSkills}
@@ -185,7 +185,7 @@ export async function RolePageContent({ params, locale }: RolePageContentProps) 
                   </h3>
                 </div>
                 <Link
-                  className="text-sm font-medium text-[var(--accent)]"
+                  className="action-chip inline-flex items-center rounded-full border px-4 py-2 text-sm font-semibold transition"
                   href={prefixLocalePath(`/skills?persona=${role.slug}&job=${group.job}`, locale)}
                 >
                   {locale === "zh-CN"
@@ -209,7 +209,7 @@ export async function RolePageContent({ params, locale }: RolePageContentProps) 
                       {skill.jobs.slice(0, 2).map((job) => (
                         <span
                           key={job}
-                          className="rounded-full border border-[var(--border-soft)] bg-white/70 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.14em]"
+                          className="action-chip inline-flex items-center rounded-full border px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.14em]"
                         >
                           {copy.taskLabels[job] ?? job}
                         </span>

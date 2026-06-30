@@ -1,8 +1,379 @@
 {
-  "generatedAt": "2026-06-29T09:08:38.457Z",
+  "generatedAt": "2026-06-30T00:38:45.567Z",
   "chunkIndex": 20,
-  "totalSkills": 5090,
+  "totalSkills": 5100,
   "skills": [
+    {
+      "slug": "lambdatest-nunit-skill",
+      "name": "LambdaTest/nunit-skill",
+      "description": "Discovered from a public GitHub repository: LambdaTest/agent-skills",
+      "publisher": "LambdaTest",
+      "publisherSlug": "lambdatest",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "lambdatest",
+        "namespaced",
+        "publisher-namespaced",
+        "testing"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/LambdaTest.png?size=88",
+      "creatorHandle": "LambdaTest",
+      "hasPublisherLogo": false,
+      "stars": 317,
+      "forks": 65
+    },
+    {
+      "slug": "lambdatest-phpunit-skill",
+      "name": "LambdaTest/phpunit-skill",
+      "description": "Discovered from a public GitHub repository: LambdaTest/agent-skills",
+      "publisher": "LambdaTest",
+      "publisherSlug": "lambdatest",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "lambdatest",
+        "namespaced",
+        "publisher-namespaced",
+        "testing"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/LambdaTest.png?size=88",
+      "creatorHandle": "LambdaTest",
+      "hasPublisherLogo": false,
+      "stars": 317,
+      "forks": 65
+    },
+    {
+      "slug": "lambdatest-playwright-skill",
+      "name": "LambdaTest/playwright-skill",
+      "description": "Discovered from a public GitHub repository: LambdaTest/agent-skills",
+      "publisher": "LambdaTest",
+      "publisherSlug": "lambdatest",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "lambdatest",
+        "namespaced",
+        "publisher-namespaced",
+        "testing"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/LambdaTest.png?size=88",
+      "creatorHandle": "LambdaTest",
+      "hasPublisherLogo": false,
+      "stars": 317,
+      "forks": 65
+    },
+    {
+      "slug": "lambdatest-protractor-skill",
+      "name": "LambdaTest/protractor-skill",
+      "description": "Discovered from a public GitHub repository: LambdaTest/agent-skills",
+      "publisher": "LambdaTest",
+      "publisherSlug": "lambdatest",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "lambdatest",
+        "namespaced",
+        "publisher-namespaced",
+        "testing"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/LambdaTest.png?size=88",
+      "creatorHandle": "LambdaTest",
+      "hasPublisherLogo": false,
+      "stars": 317,
+      "forks": 65
+    },
+    {
+      "slug": "lambdatest-puppeteer-skill",
+      "name": "LambdaTest/puppeteer-skill",
+      "description": "Discovered from a public GitHub repository: LambdaTest/agent-skills",
+      "publisher": "LambdaTest",
+      "publisherSlug": "lambdatest",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "lambdatest",
+        "namespaced",
+        "publisher-namespaced",
+        "testing"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/LambdaTest.png?size=88",
+      "creatorHandle": "LambdaTest",
+      "hasPublisherLogo": false,
+      "stars": 317,
+      "forks": 65
+    },
+    {
+      "slug": "lambdatest-pytest-skill",
+      "name": "LambdaTest/pytest-skill",
+      "description": "Discovered from a public GitHub repository: LambdaTest/agent-skills",
+      "publisher": "LambdaTest",
+      "publisherSlug": "lambdatest",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "lambdatest",
+        "namespaced",
+        "publisher-namespaced",
+        "testing"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/LambdaTest.png?size=88",
+      "creatorHandle": "LambdaTest",
+      "hasPublisherLogo": false,
+      "stars": 317,
+      "forks": 65
+    },
+    {
+      "slug": "lambdatest-reqnroll-skill",
+      "name": "LambdaTest/reqnroll-skill",
+      "description": "Discovered from a public GitHub repository: LambdaTest/agent-skills",
+      "publisher": "LambdaTest",
+      "publisherSlug": "lambdatest",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "lambdatest",
+        "namespaced",
+        "publisher-namespaced",
+        "testing"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/LambdaTest.png?size=88",
+      "creatorHandle": "LambdaTest",
+      "hasPublisherLogo": false,
+      "stars": 317,
+      "forks": 65
+    },
+    {
+      "slug": "lambdatest-robot-framework-skill",
+      "name": "LambdaTest/robot-framework-skill",
+      "description": "Discovered from a public GitHub repository: LambdaTest/agent-skills",
+      "publisher": "LambdaTest",
+      "publisherSlug": "lambdatest",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "lambdatest",
+        "namespaced",
+        "publisher-namespaced",
+        "testing"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/LambdaTest.png?size=88",
+      "creatorHandle": "LambdaTest",
+      "hasPublisherLogo": false,
+      "stars": 317,
+      "forks": 65
+    },
+    {
+      "slug": "lambdatest-rspec-skill",
+      "name": "LambdaTest/rspec-skill",
+      "description": "Discovered from a public GitHub repository: LambdaTest/agent-skills",
+      "publisher": "LambdaTest",
+      "publisherSlug": "lambdatest",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "lambdatest",
+        "namespaced",
+        "publisher-namespaced",
+        "testing"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "prd-specs",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/LambdaTest.png?size=88",
+      "creatorHandle": "LambdaTest",
+      "hasPublisherLogo": false,
+      "stars": 317,
+      "forks": 65
+    },
+    {
+      "slug": "lambdatest-selenide-skill",
+      "name": "LambdaTest/selenide-skill",
+      "description": "Discovered from a public GitHub repository: LambdaTest/agent-skills",
+      "publisher": "LambdaTest",
+      "publisherSlug": "lambdatest",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "lambdatest",
+        "namespaced",
+        "publisher-namespaced",
+        "testing"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/LambdaTest.png?size=88",
+      "creatorHandle": "LambdaTest",
+      "hasPublisherLogo": false,
+      "stars": 317,
+      "forks": 65
+    },
     {
       "slug": "lambdatest-selenium-skill",
       "name": "LambdaTest/selenium-skill",
@@ -37,7 +408,7 @@
       "creatorAvatarUrl": "https://github.com/LambdaTest.png?size=88",
       "creatorHandle": "LambdaTest",
       "hasPublisherLogo": false,
-      "stars": 315,
+      "stars": 317,
       "forks": 65
     },
     {
@@ -74,7 +445,7 @@
       "creatorAvatarUrl": "https://github.com/LambdaTest.png?size=88",
       "creatorHandle": "LambdaTest",
       "hasPublisherLogo": false,
-      "stars": 315,
+      "stars": 317,
       "forks": 65
     },
     {
@@ -112,7 +483,7 @@
       "creatorAvatarUrl": "https://github.com/LambdaTest.png?size=88",
       "creatorHandle": "LambdaTest",
       "hasPublisherLogo": false,
-      "stars": 315,
+      "stars": 317,
       "forks": 65
     },
     {
@@ -150,7 +521,7 @@
       "creatorAvatarUrl": "https://github.com/LambdaTest.png?size=88",
       "creatorHandle": "LambdaTest",
       "hasPublisherLogo": false,
-      "stars": 315,
+      "stars": 317,
       "forks": 65
     },
     {
@@ -187,7 +558,7 @@
       "creatorAvatarUrl": "https://github.com/LambdaTest.png?size=88",
       "creatorHandle": "LambdaTest",
       "hasPublisherLogo": false,
-      "stars": 315,
+      "stars": 317,
       "forks": 65
     },
     {
@@ -224,7 +595,7 @@
       "creatorAvatarUrl": "https://github.com/LambdaTest.png?size=88",
       "creatorHandle": "LambdaTest",
       "hasPublisherLogo": false,
-      "stars": 315,
+      "stars": 317,
       "forks": 65
     },
     {
@@ -261,7 +632,7 @@
       "creatorAvatarUrl": "https://github.com/LambdaTest.png?size=88",
       "creatorHandle": "LambdaTest",
       "hasPublisherLogo": false,
-      "stars": 315,
+      "stars": 317,
       "forks": 65
     },
     {
@@ -298,7 +669,7 @@
       "creatorAvatarUrl": "https://github.com/LambdaTest.png?size=88",
       "creatorHandle": "LambdaTest",
       "hasPublisherLogo": false,
-      "stars": 315,
+      "stars": 317,
       "forks": 65
     },
     {
@@ -335,7 +706,7 @@
       "creatorAvatarUrl": "https://github.com/LambdaTest.png?size=88",
       "creatorHandle": "LambdaTest",
       "hasPublisherLogo": false,
-      "stars": 315,
+      "stars": 317,
       "forks": 65
     },
     {
@@ -372,7 +743,7 @@
       "creatorAvatarUrl": "https://github.com/LambdaTest.png?size=88",
       "creatorHandle": "LambdaTest",
       "hasPublisherLogo": false,
-      "stars": 315,
+      "stars": 317,
       "forks": 65
     },
     {
@@ -409,7 +780,7 @@
       "creatorAvatarUrl": "https://github.com/LambdaTest.png?size=88",
       "creatorHandle": "LambdaTest",
       "hasPublisherLogo": false,
-      "stars": 315,
+      "stars": 317,
       "forks": 65
     },
     {
@@ -447,7 +818,7 @@
       "creatorAvatarUrl": "https://github.com/LambdaTest.png?size=88",
       "creatorHandle": "LambdaTest",
       "hasPublisherLogo": false,
-      "stars": 315,
+      "stars": 317,
       "forks": 65
     },
     {
@@ -484,7 +855,7 @@
       "creatorAvatarUrl": "https://github.com/LambdaTest.png?size=88",
       "creatorHandle": "LambdaTest",
       "hasPublisherLogo": false,
-      "stars": 315,
+      "stars": 317,
       "forks": 65
     },
     {
@@ -521,8 +892,8 @@
       "creatorAvatarUrl": "https://github.com/Charlie85270.png?size=88",
       "creatorHandle": "Charlie85270",
       "hasPublisherLogo": false,
-      "stars": 311,
-      "forks": 60
+      "stars": 312,
+      "forks": 61
     },
     {
       "slug": "bitwize-music-studio-about",
@@ -549,7 +920,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -577,7 +948,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -605,7 +976,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -642,7 +1013,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -670,7 +1041,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -698,7 +1069,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -726,7 +1097,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -754,7 +1125,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -784,7 +1155,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -820,7 +1191,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -848,7 +1219,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -876,7 +1247,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -904,7 +1275,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -932,7 +1303,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -960,7 +1331,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -988,7 +1359,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -1016,7 +1387,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -1044,7 +1415,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -1074,7 +1445,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -1102,7 +1473,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -1130,7 +1501,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -1158,7 +1529,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -1186,7 +1557,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -1214,7 +1585,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -1242,7 +1613,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -1270,7 +1641,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -1298,7 +1669,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -1328,7 +1699,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -1356,7 +1727,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -1393,7 +1764,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -1421,7 +1792,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -1449,7 +1820,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -1477,7 +1848,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -1505,7 +1876,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -1541,7 +1912,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -1569,7 +1940,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -1597,7 +1968,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -1625,7 +1996,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -1653,7 +2024,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -1681,7 +2052,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -1709,7 +2080,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -1737,7 +2108,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -1765,7 +2136,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -1793,7 +2164,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -1821,7 +2192,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -1849,7 +2220,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -1877,7 +2248,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -1905,7 +2276,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -1941,7 +2312,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -1969,7 +2340,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -1997,7 +2368,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -2025,7 +2396,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -2053,7 +2424,7 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": false,
-      "stars": 307,
+      "stars": 311,
       "forks": 64
     },
     {
@@ -2294,7 +2665,7 @@
       "creatorAvatarUrl": "https://github.com/openaccountants.png?size=88",
       "creatorHandle": "openaccountants",
       "hasPublisherLogo": false,
-      "stars": 215,
+      "stars": 219,
       "forks": 35
     },
     {
@@ -2324,7 +2695,7 @@
       "creatorAvatarUrl": "https://github.com/openaccountants.png?size=88",
       "creatorHandle": "openaccountants",
       "hasPublisherLogo": false,
-      "stars": 215,
+      "stars": 219,
       "forks": 35
     },
     {
@@ -2367,7 +2738,7 @@
       "creatorHandle": "ognjengt",
       "hasPublisherLogo": false,
       "stars": 208,
-      "forks": 23
+      "forks": 24
     },
     {
       "slug": "ognjengt-competitor-intel",
@@ -2395,7 +2766,7 @@
       "creatorHandle": "ognjengt",
       "hasPublisherLogo": false,
       "stars": 208,
-      "forks": 23
+      "forks": 24
     },
     {
       "slug": "ognjengt-cro-optimization",
@@ -2423,7 +2794,7 @@
       "creatorHandle": "ognjengt",
       "hasPublisherLogo": false,
       "stars": 208,
-      "forks": 23
+      "forks": 24
     },
     {
       "slug": "ognjengt-go-to-market-plan",
@@ -2458,7 +2829,7 @@
       "creatorHandle": "ognjengt",
       "hasPublisherLogo": false,
       "stars": 208,
-      "forks": 23
+      "forks": 24
     },
     {
       "slug": "ognjengt-lead-magnet-generator",
@@ -2486,7 +2857,7 @@
       "creatorHandle": "ognjengt",
       "hasPublisherLogo": false,
       "stars": 208,
-      "forks": 23
+      "forks": 24
     },
     {
       "slug": "ognjengt-linkedin-writer",
@@ -2516,7 +2887,7 @@
       "creatorHandle": "ognjengt",
       "hasPublisherLogo": false,
       "stars": 208,
-      "forks": 23
+      "forks": 24
     },
     {
       "slug": "ognjengt-marketing-ideas",
@@ -2552,7 +2923,7 @@
       "creatorHandle": "ognjengt",
       "hasPublisherLogo": false,
       "stars": 208,
-      "forks": 23
+      "forks": 24
     },
     {
       "slug": "ognjengt-outreach-specialist",
@@ -2593,7 +2964,7 @@
       "creatorHandle": "ognjengt",
       "hasPublisherLogo": false,
       "stars": 208,
-      "forks": 23
+      "forks": 24
     },
     {
       "slug": "ognjengt-prd-generator",
@@ -2629,7 +3000,7 @@
       "creatorHandle": "ognjengt",
       "hasPublisherLogo": false,
       "stars": 208,
-      "forks": 23
+      "forks": 24
     },
     {
       "slug": "ognjengt-pricing-strategist",
@@ -2673,7 +3044,7 @@
       "creatorHandle": "ognjengt",
       "hasPublisherLogo": false,
       "stars": 208,
-      "forks": 23
+      "forks": 24
     },
     {
       "slug": "ognjengt-product-hunt-launch-plan",
@@ -2712,7 +3083,7 @@
       "creatorHandle": "ognjengt",
       "hasPublisherLogo": false,
       "stars": 208,
-      "forks": 23
+      "forks": 24
     },
     {
       "slug": "ognjengt-sop-creator",
@@ -2740,7 +3111,7 @@
       "creatorHandle": "ognjengt",
       "hasPublisherLogo": false,
       "stars": 208,
-      "forks": 23
+      "forks": 24
     },
     {
       "slug": "ognjengt-strategic-planning",
@@ -2770,7 +3141,7 @@
       "creatorHandle": "ognjengt",
       "hasPublisherLogo": false,
       "stars": 208,
-      "forks": 23
+      "forks": 24
     },
     {
       "slug": "ognjengt-viral-hook-creator",
@@ -2798,7 +3169,7 @@
       "creatorHandle": "ognjengt",
       "hasPublisherLogo": false,
       "stars": 208,
-      "forks": 23
+      "forks": 24
     },
     {
       "slug": "ognjengt-x-writer",
@@ -2828,7 +3199,7 @@
       "creatorHandle": "ognjengt",
       "hasPublisherLogo": false,
       "stars": 208,
-      "forks": 23
+      "forks": 24
     },
     {
       "slug": "jthack-ffuf-skill",
@@ -2891,7 +3262,7 @@
       "creatorAvatarUrl": "https://github.com/qdrant.png?size=88",
       "creatorHandle": "qdrant",
       "hasPublisherLogo": false,
-      "stars": 181,
+      "stars": 184,
       "forks": 19
     },
     {
@@ -2927,7 +3298,7 @@
       "creatorAvatarUrl": "https://github.com/qdrant.png?size=88",
       "creatorHandle": "qdrant",
       "hasPublisherLogo": false,
-      "stars": 181,
+      "stars": 184,
       "forks": 19
     },
     {
@@ -2955,7 +3326,7 @@
       "creatorAvatarUrl": "https://github.com/qdrant.png?size=88",
       "creatorHandle": "qdrant",
       "hasPublisherLogo": false,
-      "stars": 181,
+      "stars": 184,
       "forks": 19
     },
     {
@@ -2991,7 +3362,7 @@
       "creatorAvatarUrl": "https://github.com/qdrant.png?size=88",
       "creatorHandle": "qdrant",
       "hasPublisherLogo": false,
-      "stars": 181,
+      "stars": 184,
       "forks": 19
     },
     {
@@ -3019,7 +3390,7 @@
       "creatorAvatarUrl": "https://github.com/qdrant.png?size=88",
       "creatorHandle": "qdrant",
       "hasPublisherLogo": false,
-      "stars": 181,
+      "stars": 184,
       "forks": 19
     },
     {
@@ -3047,7 +3418,7 @@
       "creatorAvatarUrl": "https://github.com/qdrant.png?size=88",
       "creatorHandle": "qdrant",
       "hasPublisherLogo": false,
-      "stars": 181,
+      "stars": 184,
       "forks": 19
     },
     {
@@ -3075,7 +3446,7 @@
       "creatorAvatarUrl": "https://github.com/qdrant.png?size=88",
       "creatorHandle": "qdrant",
       "hasPublisherLogo": false,
-      "stars": 181,
+      "stars": 184,
       "forks": 19
     },
     {
@@ -3103,7 +3474,7 @@
       "creatorAvatarUrl": "https://github.com/qdrant.png?size=88",
       "creatorHandle": "qdrant",
       "hasPublisherLogo": false,
-      "stars": 181,
+      "stars": 184,
       "forks": 19
     },
     {
@@ -3133,7 +3504,7 @@
       "creatorAvatarUrl": "https://github.com/qdrant.png?size=88",
       "creatorHandle": "qdrant",
       "hasPublisherLogo": false,
-      "stars": 181,
+      "stars": 184,
       "forks": 19
     },
     {
@@ -3161,7 +3532,7 @@
       "creatorAvatarUrl": "https://github.com/qdrant.png?size=88",
       "creatorHandle": "qdrant",
       "hasPublisherLogo": false,
-      "stars": 181,
+      "stars": 184,
       "forks": 19
     },
     {
@@ -3189,7 +3560,7 @@
       "creatorAvatarUrl": "https://github.com/qdrant.png?size=88",
       "creatorHandle": "qdrant",
       "hasPublisherLogo": false,
-      "stars": 181,
+      "stars": 184,
       "forks": 19
     },
     {
@@ -3217,7 +3588,7 @@
       "creatorAvatarUrl": "https://github.com/qdrant.png?size=88",
       "creatorHandle": "qdrant",
       "hasPublisherLogo": false,
-      "stars": 181,
+      "stars": 184,
       "forks": 19
     },
     {
@@ -3245,7 +3616,7 @@
       "creatorAvatarUrl": "https://github.com/qdrant.png?size=88",
       "creatorHandle": "qdrant",
       "hasPublisherLogo": false,
-      "stars": 181,
+      "stars": 184,
       "forks": 19
     },
     {
@@ -3273,7 +3644,7 @@
       "creatorAvatarUrl": "https://github.com/qdrant.png?size=88",
       "creatorHandle": "qdrant",
       "hasPublisherLogo": false,
-      "stars": 181,
+      "stars": 184,
       "forks": 19
     },
     {
@@ -3301,7 +3672,7 @@
       "creatorAvatarUrl": "https://github.com/qdrant.png?size=88",
       "creatorHandle": "qdrant",
       "hasPublisherLogo": false,
-      "stars": 181,
+      "stars": 184,
       "forks": 19
     },
     {
@@ -3329,7 +3700,7 @@
       "creatorAvatarUrl": "https://github.com/qdrant.png?size=88",
       "creatorHandle": "qdrant",
       "hasPublisherLogo": false,
-      "stars": 181,
+      "stars": 184,
       "forks": 19
     },
     {
@@ -3357,7 +3728,7 @@
       "creatorAvatarUrl": "https://github.com/qdrant.png?size=88",
       "creatorHandle": "qdrant",
       "hasPublisherLogo": false,
-      "stars": 181,
+      "stars": 184,
       "forks": 19
     },
     {
@@ -3394,7 +3765,7 @@
       "creatorAvatarUrl": "https://github.com/qdrant.png?size=88",
       "creatorHandle": "qdrant",
       "hasPublisherLogo": false,
-      "stars": 181,
+      "stars": 184,
       "forks": 19
     },
     {
@@ -3422,7 +3793,7 @@
       "creatorAvatarUrl": "https://github.com/qdrant.png?size=88",
       "creatorHandle": "qdrant",
       "hasPublisherLogo": false,
-      "stars": 181,
+      "stars": 184,
       "forks": 19
     },
     {
@@ -3452,7 +3823,7 @@
       "creatorAvatarUrl": "https://github.com/qdrant.png?size=88",
       "creatorHandle": "qdrant",
       "hasPublisherLogo": false,
-      "stars": 181,
+      "stars": 184,
       "forks": 19
     },
     {
@@ -3482,7 +3853,7 @@
       "creatorAvatarUrl": "https://github.com/qdrant.png?size=88",
       "creatorHandle": "qdrant",
       "hasPublisherLogo": false,
-      "stars": 181,
+      "stars": 184,
       "forks": 19
     },
     {
@@ -3512,7 +3883,7 @@
       "creatorAvatarUrl": "https://github.com/qdrant.png?size=88",
       "creatorHandle": "qdrant",
       "hasPublisherLogo": false,
-      "stars": 181,
+      "stars": 184,
       "forks": 19
     },
     {
@@ -3542,7 +3913,7 @@
       "creatorAvatarUrl": "https://github.com/qdrant.png?size=88",
       "creatorHandle": "qdrant",
       "hasPublisherLogo": false,
-      "stars": 181,
+      "stars": 184,
       "forks": 19
     },
     {
@@ -3572,7 +3943,7 @@
       "creatorAvatarUrl": "https://github.com/qdrant.png?size=88",
       "creatorHandle": "qdrant",
       "hasPublisherLogo": false,
-      "stars": 181,
+      "stars": 184,
       "forks": 19
     },
     {
@@ -3602,7 +3973,7 @@
       "creatorAvatarUrl": "https://github.com/qdrant.png?size=88",
       "creatorHandle": "qdrant",
       "hasPublisherLogo": false,
-      "stars": 181,
+      "stars": 184,
       "forks": 19
     },
     {
@@ -3632,7 +4003,7 @@
       "creatorAvatarUrl": "https://github.com/qdrant.png?size=88",
       "creatorHandle": "qdrant",
       "hasPublisherLogo": false,
-      "stars": 181,
+      "stars": 184,
       "forks": 19
     },
     {
@@ -3660,7 +4031,7 @@
       "creatorAvatarUrl": "https://github.com/qdrant.png?size=88",
       "creatorHandle": "qdrant",
       "hasPublisherLogo": false,
-      "stars": 181,
+      "stars": 184,
       "forks": 19
     },
     {
@@ -3702,8 +4073,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-ad-creative",
@@ -3738,8 +4109,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-add-integration",
@@ -3775,8 +4146,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-aeo-audit",
@@ -3811,8 +4182,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-aeo-geo",
@@ -3847,8 +4218,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-agency-dashboard",
@@ -3889,8 +4260,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-analytics-insights",
@@ -3931,8 +4302,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-anomaly-scan",
@@ -3968,8 +4339,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-attribution-model",
@@ -4004,8 +4375,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-attribution-report",
@@ -4040,8 +4411,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-audience-intelligence",
@@ -4076,8 +4447,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-audience-profile",
@@ -4112,8 +4483,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-autopilot-status",
@@ -4148,8 +4519,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-backlink-gap",
@@ -4184,8 +4555,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-brand-setup",
@@ -4226,8 +4597,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-budget-optimizer",
@@ -4262,8 +4633,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-budget-tracker",
@@ -4298,8 +4669,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-c2pa-metadata",
@@ -4334,8 +4705,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-campaign-audit",
@@ -4370,8 +4741,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-campaign-orchestrator",
@@ -4406,8 +4777,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-campaign-plan",
@@ -4442,8 +4813,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-campaign-status",
@@ -4478,8 +4849,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-case-study-plan",
@@ -4514,8 +4885,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-check",
@@ -4550,8 +4921,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-churn-risk",
@@ -4586,8 +4957,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-client-onboarding",
@@ -4622,8 +4993,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-client-proposal",
@@ -4662,8 +5033,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-client-report",
@@ -4698,8 +5069,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-client-validation-document",
@@ -4735,8 +5106,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-cohort-analysis",
@@ -4777,8 +5148,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-competitor-alerts",
@@ -4813,8 +5184,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-competitor-analysis",
@@ -4855,8 +5226,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-competitor-monitor",
@@ -4891,8 +5262,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-competitor-pages",
@@ -4927,8 +5298,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-connect",
@@ -4963,8 +5334,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-content-brief",
@@ -4999,8 +5370,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-content-calendar",
@@ -5035,8 +5406,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-content-decay-scan",
@@ -5072,8 +5443,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-content-engine",
@@ -5108,8 +5479,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-content-repurpose",
@@ -5144,8 +5515,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-context-engine",
@@ -5180,8 +5551,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-continuous-improvement-loop",
@@ -5216,8 +5587,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-counter-narrative",
@@ -5252,8 +5623,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-cowork-setup",
@@ -5288,8 +5659,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-creative-health",
@@ -5324,8 +5695,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-creative-testing-framework",
@@ -5366,8 +5737,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-credential-switch",
@@ -5402,8 +5773,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-crisis-response",
@@ -5442,8 +5813,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-crm-sync",
@@ -5482,8 +5853,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-cro",
@@ -5518,8 +5889,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-dark-funnel",
@@ -5554,8 +5925,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-data-export",
@@ -5590,8 +5961,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-data-import",
@@ -5626,8 +5997,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-digital-pr",
@@ -5662,8 +6033,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-email-sequence",
@@ -5698,8 +6069,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-emerging-channels",
@@ -5734,8 +6105,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-engagement-workflow",
@@ -5771,8 +6142,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-entity-audit",
@@ -5807,8 +6178,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-eval-config",
@@ -5843,8 +6214,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-eval-content",
@@ -5879,8 +6250,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-eval-suite",
@@ -5916,8 +6287,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-exec-summary",
@@ -5952,8 +6323,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-executive-dashboard",
@@ -5994,8 +6365,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-focus-group",
@@ -6030,8 +6401,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-four-core-documents",
@@ -6066,8 +6437,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-funnel-architect",
@@ -6102,8 +6473,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-funnel-audit",
@@ -6138,8 +6509,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-geo-monitor",
@@ -6174,8 +6545,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-growth-engineering",
@@ -6210,8 +6581,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-growth-plan",
@@ -6246,8 +6617,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-gsc-ai-performance",
@@ -6282,8 +6653,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-help",
@@ -6318,8 +6689,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-hreflang-check",
@@ -6354,8 +6725,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-image-seo-audit",
@@ -6391,8 +6762,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-import-guidelines",
@@ -6428,8 +6799,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-import-sop",
@@ -6464,8 +6835,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-import-template",
@@ -6500,8 +6871,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-influencer-brief",
@@ -6536,8 +6907,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-influencer-creator",
@@ -6572,8 +6943,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-integrations",
@@ -6609,8 +6980,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-intelligence-report",
@@ -6645,8 +7016,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-journey-design",
@@ -6687,8 +7058,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-keyword-cluster",
@@ -6723,8 +7094,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-keyword-research",
@@ -6759,8 +7130,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-landing-page-audit",
@@ -6795,8 +7166,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-language-audit",
@@ -6831,8 +7202,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-language-config",
@@ -6867,8 +7238,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-launch-ad-campaign",
@@ -6906,8 +7277,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-launch-campaign",
@@ -6945,8 +7316,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-launch-plan",
@@ -6984,8 +7355,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-lead-import",
@@ -7020,8 +7391,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-learn",
@@ -7056,8 +7427,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-live-dashboard",
@@ -7098,8 +7469,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-local-seo-audit",
@@ -7134,8 +7505,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-local-seo",
@@ -7170,8 +7541,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-localize-campaign",
@@ -7206,8 +7577,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-loop-detect",
@@ -7242,8 +7613,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-market-weather",
@@ -7278,8 +7649,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-marketing-automation",
@@ -7315,8 +7686,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-martech-audit",
@@ -7351,8 +7722,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-media-plan",
@@ -7387,8 +7758,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-message-test",
@@ -7429,8 +7800,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-multilingual-score",
@@ -7465,8 +7836,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-narrative-landscape",
@@ -7501,8 +7872,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-narrative-tracker",
@@ -7537,8 +7908,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-page-seo-analysis",
@@ -7579,8 +7950,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-paid-advertising",
@@ -7615,8 +7986,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-pdf-report",
@@ -7652,8 +8023,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-performance-check",
@@ -7688,8 +8059,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-performance-report",
@@ -7724,8 +8095,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-pipeline-update",
@@ -7764,8 +8135,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     },
     {
       "slug": "indranilbanerjee-pr-pitch",
@@ -7806,385 +8177,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
-    },
-    {
-      "slug": "indranilbanerjee-pricing-test",
-      "name": "indranilbanerjee/pricing-test",
-      "description": "Discovered from a public GitHub repository: indranilbanerjee/digital-marketing-pro",
-      "publisher": "indranilbanerjee",
-      "publisherSlug": "indranilbanerjee",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "indranilbanerjee",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer",
-        "founder",
-        "marketer",
-        "sales"
-      ],
-      "jobs": [
-        "api-integration",
-        "campaign-planning",
-        "content-production",
-        "deployment-ops",
-        "development-workflows",
-        "document-authoring",
-        "landing-pages",
-        "planning-roadmapping",
-        "presentation-building",
-        "reporting",
-        "research-synthesis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
-      "creatorHandle": "indranilbanerjee",
-      "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
-    },
-    {
-      "slug": "indranilbanerjee-programmatic-seo",
-      "name": "indranilbanerjee/programmatic-seo",
-      "description": "Discovered from a public GitHub repository: indranilbanerjee/digital-marketing-pro",
-      "publisher": "indranilbanerjee",
-      "publisherSlug": "indranilbanerjee",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "indranilbanerjee",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "marketer"
-      ],
-      "jobs": [
-        "campaign-planning",
-        "content-production",
-        "landing-pages",
-        "reporting",
-        "research-synthesis"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
-      "creatorHandle": "indranilbanerjee",
-      "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
-    },
-    {
-      "slug": "indranilbanerjee-prompt-test",
-      "name": "indranilbanerjee/prompt-test",
-      "description": "Discovered from a public GitHub repository: indranilbanerjee/digital-marketing-pro",
-      "publisher": "indranilbanerjee",
-      "publisherSlug": "indranilbanerjee",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "indranilbanerjee",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer",
-        "marketer"
-      ],
-      "jobs": [
-        "api-integration",
-        "campaign-planning",
-        "content-production",
-        "deployment-ops",
-        "development-workflows",
-        "landing-pages",
-        "reporting",
-        "research-synthesis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
-      "creatorHandle": "indranilbanerjee",
-      "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
-    },
-    {
-      "slug": "indranilbanerjee-publish-blog",
-      "name": "indranilbanerjee/publish-blog",
-      "description": "Discovered from a public GitHub repository: indranilbanerjee/digital-marketing-pro",
-      "publisher": "indranilbanerjee",
-      "publisherSlug": "indranilbanerjee",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "indranilbanerjee",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "marketer"
-      ],
-      "jobs": [
-        "campaign-planning",
-        "content-production",
-        "landing-pages",
-        "reporting",
-        "research-synthesis"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
-      "creatorHandle": "indranilbanerjee",
-      "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
-    },
-    {
-      "slug": "indranilbanerjee-qbr-plan",
-      "name": "indranilbanerjee/qbr-plan",
-      "description": "Discovered from a public GitHub repository: indranilbanerjee/digital-marketing-pro",
-      "publisher": "indranilbanerjee",
-      "publisherSlug": "indranilbanerjee",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "indranilbanerjee",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "marketer"
-      ],
-      "jobs": [
-        "campaign-planning",
-        "content-production",
-        "landing-pages",
-        "reporting",
-        "research-synthesis"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
-      "creatorHandle": "indranilbanerjee",
-      "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
-    },
-    {
-      "slug": "indranilbanerjee-quality-report",
-      "name": "indranilbanerjee/quality-report",
-      "description": "Discovered from a public GitHub repository: indranilbanerjee/digital-marketing-pro",
-      "publisher": "indranilbanerjee",
-      "publisherSlug": "indranilbanerjee",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "indranilbanerjee",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "marketer"
-      ],
-      "jobs": [
-        "campaign-planning",
-        "content-production",
-        "landing-pages",
-        "reporting",
-        "research-synthesis"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
-      "creatorHandle": "indranilbanerjee",
-      "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
-    },
-    {
-      "slug": "indranilbanerjee-rank-monitor",
-      "name": "indranilbanerjee/rank-monitor",
-      "description": "Discovered from a public GitHub repository: indranilbanerjee/digital-marketing-pro",
-      "publisher": "indranilbanerjee",
-      "publisherSlug": "indranilbanerjee",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "indranilbanerjee",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "marketer"
-      ],
-      "jobs": [
-        "campaign-planning",
-        "content-production",
-        "landing-pages",
-        "reporting",
-        "research-synthesis"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
-      "creatorHandle": "indranilbanerjee",
-      "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
-    },
-    {
-      "slug": "indranilbanerjee-recall",
-      "name": "indranilbanerjee/recall",
-      "description": "Discovered from a public GitHub repository: indranilbanerjee/digital-marketing-pro",
-      "publisher": "indranilbanerjee",
-      "publisherSlug": "indranilbanerjee",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "indranilbanerjee",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "marketer"
-      ],
-      "jobs": [
-        "campaign-planning",
-        "content-production",
-        "landing-pages",
-        "reporting",
-        "research-synthesis"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
-      "creatorHandle": "indranilbanerjee",
-      "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
-    },
-    {
-      "slug": "indranilbanerjee-redirect-manager",
-      "name": "indranilbanerjee/redirect-manager",
-      "description": "Discovered from a public GitHub repository: indranilbanerjee/digital-marketing-pro",
-      "publisher": "indranilbanerjee",
-      "publisherSlug": "indranilbanerjee",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "indranilbanerjee",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "marketer"
-      ],
-      "jobs": [
-        "campaign-planning",
-        "content-production",
-        "landing-pages",
-        "reporting",
-        "research-synthesis"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
-      "creatorHandle": "indranilbanerjee",
-      "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
-    },
-    {
-      "slug": "indranilbanerjee-region-config",
-      "name": "indranilbanerjee/region-config",
-      "description": "Discovered from a public GitHub repository: indranilbanerjee/digital-marketing-pro",
-      "publisher": "indranilbanerjee",
-      "publisherSlug": "indranilbanerjee",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "indranilbanerjee",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "marketer"
-      ],
-      "jobs": [
-        "campaign-planning",
-        "content-production",
-        "landing-pages",
-        "reporting",
-        "research-synthesis"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
-      "creatorHandle": "indranilbanerjee",
-      "hasPublisherLogo": false,
-      "stars": 176,
-      "forks": 43
+      "stars": 179,
+      "forks": 44
     }
   ]
 }

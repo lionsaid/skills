@@ -5,7 +5,6 @@ import { PublisherLogo } from "@/components/publisher-logo";
 import { PublisherLogoMarquee } from "@/components/publisher-logo-marquee";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
-import { VortexBackground } from "@/components/vortex-background";
 import { getFeaturedSkills, getPublishers, getRoles, getStats, getTrustLevelLabel } from "@/lib/skills";
 import { getCopy, getSkillDetailPath, prefixLocalePath, type Locale } from "@/lib/i18n";
 import { getRequestLocale } from "@/lib/request-locale";
@@ -137,9 +136,10 @@ export async function HomePage({ locale }: PageProps) {
   ];
   return (
     <main className="grain flex flex-1 flex-col overflow-x-hidden pb-28 sm:pb-0">
-      <section className="hero-vortex relative overflow-hidden py-6">
-        <VortexBackground className="opacity-75 mix-blend-multiply dark:opacity-100 dark:mix-blend-screen" />
-        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_50%_32%,rgba(255,255,255,0.2),transparent_28%)]" />
+      <section className="hero-grid relative overflow-hidden py-6">
+        <div className="pointer-events-none absolute inset-0 overflow-hidden">
+          <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(255,255,255,0.18),rgba(255,255,255,0))]" />
+        </div>
         <SiteHeader currentPath="/" locale={locale} />
 
         <div className="page-shell grid gap-6 py-12 lg:grid-cols-[minmax(0,1.25fr)_minmax(360px,0.75fr)] lg:items-stretch lg:py-16 2xl:gap-8">
@@ -307,7 +307,7 @@ export async function HomePage({ locale }: PageProps) {
               {locale === "zh-CN" ? "先从更容易找到结果的入口开始。" : "Start from the paths that usually get you results faster."}
             </h2>
           </div>
-          <Link className="text-sm font-medium text-[var(--accent)]" href={prefixLocalePath("/skills", locale)}>
+          <Link className="action-secondary inline-flex items-center justify-center rounded-full border px-4 py-2 text-sm font-semibold transition" href={prefixLocalePath("/skills", locale)}>
             {locale === "zh-CN" ? "查看全部" : "See all skills"}
           </Link>
         </div>
@@ -435,7 +435,7 @@ export async function HomePage({ locale }: PageProps) {
             </div>
 
             <div className="mt-5 flex justify-end">
-              <Link className="text-sm font-medium text-[var(--accent)]" href={prefixLocalePath("/roles", locale)}>
+              <Link className="action-secondary inline-flex items-center justify-center rounded-full border px-4 py-2 text-sm font-semibold transition" href={prefixLocalePath("/roles", locale)}>
                 {locale === "zh-CN" ? "查看全部角色" : "See all roles"}
               </Link>
             </div>
@@ -580,7 +580,7 @@ export async function HomePage({ locale }: PageProps) {
                 : "Many people start from the company or platform they already trust."}
             </p>
           </div>
-          <Link className="text-sm font-medium text-[var(--accent)]" href={prefixLocalePath("/skills", locale)}>
+          <Link className="action-secondary inline-flex items-center justify-center rounded-full border px-4 py-2 text-sm font-semibold transition" href={prefixLocalePath("/skills", locale)}>
             {locale === "zh-CN" ? "查看全部" : "See all skills"}
           </Link>
         </div>
