@@ -1,0 +1,105 @@
+{
+  "repository": "ykdojo/claude-code-tips",
+  "branch": "main",
+  "defaultBranch": "main",
+  "pushedAt": "2026-07-06T03:03:59Z",
+  "scannedAt": "2026-07-07T09:04:58.879Z",
+  "treeSha": "c9c7a8689adbd164524acbd15118a0f9a38bb68c",
+  "items": [
+    {
+      "repository": "ykdojo/claude-code-tips",
+      "branch": "main",
+      "skillName": "claude-code-tips",
+      "path": "README.md",
+      "url": "https://github.com/ykdojo/claude-code-tips",
+      "description": "40+ tips for getting the most out of Claude Code, from basics to advanced - includes a custom status line script and Claude Code running itself in a container. Also includes the dx plugin: skills for everyday dev workflows.",
+      "slug": "ykdojo-claude-code-tips-collection",
+      "isCollection": true,
+      "stars": 9017,
+      "skillPaths": [
+        "skills/clone/SKILL.md",
+        "skills/gha/SKILL.md",
+        "skills/half-clone/SKILL.md",
+        "skills/handoff/SKILL.md",
+        "skills/hn-summarize/SKILL.md",
+        "skills/reddit-fetch/SKILL.md",
+        "skills/review-claudemd/SKILL.md",
+        "skills/version-check/SKILL.md"
+      ]
+    },
+    {
+      "repository": "ykdojo/claude-code-tips",
+      "branch": "main",
+      "skillName": "clone",
+      "path": "skills/clone/SKILL.md",
+      "url": "https://github.com/ykdojo/claude-code-tips/blob/main/skills/clone/SKILL.md",
+      "description": "Clone the current conversation so the user can branch off and try a different approach.",
+      "slug": "ykdojo-clone"
+    },
+    {
+      "repository": "ykdojo/claude-code-tips",
+      "branch": "main",
+      "skillName": "gha",
+      "path": "skills/gha/SKILL.md",
+      "url": "https://github.com/ykdojo/claude-code-tips/blob/main/skills/gha/SKILL.md",
+      "description": "Analyze GitHub Actions failures and identify root causes",
+      "slug": "ykdojo-gha"
+    },
+    {
+      "repository": "ykdojo/claude-code-tips",
+      "branch": "main",
+      "skillName": "half-clone",
+      "path": "skills/half-clone/SKILL.md",
+      "url": "https://github.com/ykdojo/claude-code-tips/blob/main/skills/half-clone/SKILL.md",
+      "description": "Clone the later half of the current conversation, discarding earlier context to reduce token usage while preserving recent work.",
+      "slug": "ykdojo-half-clone"
+    },
+    {
+      "repository": "ykdojo/claude-code-tips",
+      "branch": "main",
+      "skillName": "handoff",
+      "path": "skills/handoff/SKILL.md",
+      "url": "https://github.com/ykdojo/claude-code-tips/blob/main/skills/handoff/SKILL.md",
+      "description": "Write or update a handoff document so the next agent with fresh context can continue this work.",
+      "slug": "ykdojo-handoff"
+    },
+    {
+      "repository": "ykdojo/claude-code-tips",
+      "branch": "main",
+      "skillName": "hn-summarize",
+      "path": "skills/hn-summarize/SKILL.md",
+      "url": "https://github.com/ykdojo/claude-code-tips/blob/main/skills/hn-summarize/SKILL.md",
+      "description": "Fetch and summarize Hacker News / hckrnews.com top stories, articles, and their comment threads. Use when asked to summarize HN front-page stories, a specific HN story plus its discussion, or \"the top N from hckrnews\".",
+      "slug": "ykdojo-hn-summarize"
+    },
+    {
+      "repository": "ykdojo/claude-code-tips",
+      "branch": "main",
+      "skillName": "reddit-fetch",
+      "path": "skills/reddit-fetch/SKILL.md",
+      "url": "https://github.com/ykdojo/claude-code-tips/blob/main/skills/reddit-fetch/SKILL.md",
+      "description": "Fetch content from Reddit using the curl JSON API. Use when accessing Reddit URLs, researching topics on Reddit, or when Reddit returns 403/blocked errors.",
+      "slug": "ykdojo-reddit-fetch"
+    },
+    {
+      "repository": "ykdojo/claude-code-tips",
+      "branch": "main",
+      "skillName": "review-claudemd",
+      "path": "skills/review-claudemd/SKILL.md",
+      "url": "https://github.com/ykdojo/claude-code-tips/blob/main/skills/review-claudemd/SKILL.md",
+      "description": "Review recent conversations to find improvements for CLAUDE.md files.",
+      "slug": "ykdojo-review-claudemd"
+    },
+    {
+      "repository": "ykdojo/claude-code-tips",
+      "branch": "main",
+      "skillName": "version-check",
+      "path": "skills/version-check/SKILL.md",
+      "url": "https://github.com/ykdojo/claude-code-tips/blob/main/skills/version-check/SKILL.md",
+      "description": "Recommend which Claude Code version to run, or whether to update. Use when asked which Claude Code version is best/safe, whether to update now, whether a recent release is buggy, or what changed since the installed version.",
+      "slug": "ykdojo-version-check"
+    }
+  ],
+  "itemCount": 9,
+  "lastStatus": "reused-unchanged"
+}

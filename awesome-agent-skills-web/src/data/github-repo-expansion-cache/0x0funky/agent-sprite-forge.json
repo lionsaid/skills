@@ -1,0 +1,45 @@
+{
+  "repository": "0x0funky/agent-sprite-forge",
+  "branch": "main",
+  "defaultBranch": "main",
+  "pushedAt": "2026-05-05T17:53:33Z",
+  "scannedAt": "2026-07-07T09:06:16.504Z",
+  "treeSha": "fff651a89223b044ccfc0b75ed9f3754c6d739b1",
+  "items": [
+    {
+      "repository": "0x0funky/agent-sprite-forge",
+      "branch": "main",
+      "skillName": "agent-sprite-forge",
+      "path": "README.md",
+      "url": "https://github.com/0x0funky/agent-sprite-forge",
+      "description": "Agent Skill for generating 2D sprite sheets and map, transparent PNG frames, and animated GIFs from prompts.",
+      "slug": "0x0funky-agent-sprite-forge-collection",
+      "isCollection": true,
+      "stars": null,
+      "skillPaths": [
+        "skills/generate2dmap/SKILL.md",
+        "skills/generate2dsprite/SKILL.md"
+      ]
+    },
+    {
+      "repository": "0x0funky/agent-sprite-forge",
+      "branch": "main",
+      "skillName": "generate2dmap",
+      "path": "skills/generate2dmap/SKILL.md",
+      "url": "https://github.com/0x0funky/agent-sprite-forge/blob/main/skills/generate2dmap/SKILL.md",
+      "description": "Generate and revise production-oriented 2D game maps with built-in image generation as the default visual asset source, choosing a visual model, runtime object model, collision model, art direction, and engine/export target. Use when Codex needs to create or integrate RPG maps, monster-taming maps, tactical arenas, battle backgrounds, side-scroller/parallax scenes, tilemaps, layered raster maps, clean HD hand-painted maps, pixel-inspired maps, prop packs, collision zones, walkable areas, or map previews.",
+      "slug": "0x0funky-generate2dmap"
+    },
+    {
+      "repository": "0x0funky/agent-sprite-forge",
+      "branch": "main",
+      "skillName": "generate2dsprite",
+      "path": "skills/generate2dsprite/SKILL.md",
+      "url": "https://github.com/0x0funky/agent-sprite-forge/blob/main/skills/generate2dsprite/SKILL.md",
+      "description": "Generate and postprocess general 2D game assets and animation sheets: pixel-art sprites, clean HD map props, creatures, characters, NPCs, spells, projectiles, impacts, props, summons, and transparent GIF exports. Use when Codex should infer the asset plan from a natural-language request, match a reference or map art style, call built-in `image_gen` for solid-magenta raw sheets, and use the local processor only for chroma-key cleanup, frame extraction, alignment, QC, and transparent exports.",
+      "slug": "0x0funky-generate2dsprite"
+    }
+  ],
+  "itemCount": 3,
+  "lastStatus": "reused-unchanged"
+}

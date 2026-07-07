@@ -1,0 +1,735 @@
+{
+  "repository": "elementalsouls/Claude-BugHunter",
+  "branch": "main",
+  "defaultBranch": "main",
+  "pushedAt": "2026-07-01T09:25:27Z",
+  "scannedAt": "2026-07-07T09:06:25.968Z",
+  "treeSha": "05098fc78842ec23fb96be4d07bd9cdc128a443b",
+  "items": [
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "Claude-BugHunter",
+      "path": "README.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "description": "A Claude Code skill bundle for bug hunting and external red-team work — 71 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "slug": "elementalsouls-claude-bughunter-collection",
+      "isCollection": true,
+      "stars": 2816,
+      "skillPaths": [
+        "skills/apk-redteam-pipeline/SKILL.md",
+        "skills/bb-local-toolkit/SKILL.md",
+        "skills/bb-methodology/SKILL.md",
+        "skills/bug-bounty/SKILL.md",
+        "skills/bugcrowd-reporting/SKILL.md",
+        "skills/cloud-iam-deep/SKILL.md",
+        "skills/enterprise-vpn-attack/SKILL.md",
+        "skills/evidence-hygiene/SKILL.md",
+        "skills/hunt-api-misconfig/SKILL.md",
+        "skills/hunt-aspnet/SKILL.md",
+        "skills/hunt-ato/SKILL.md",
+        "skills/hunt-auth-bypass/SKILL.md",
+        "skills/hunt-brute-force/SKILL.md",
+        "skills/hunt-business-logic/SKILL.md",
+        "skills/hunt-cache-poison/SKILL.md",
+        "skills/hunt-cicd/SKILL.md",
+        "skills/hunt-cloud-misconfig/SKILL.md",
+        "skills/hunt-cors/SKILL.md",
+        "skills/hunt-csrf/SKILL.md",
+        "skills/hunt-deserialization/SKILL.md",
+        "skills/hunt-dispatch/SKILL.md",
+        "skills/hunt-dom/SKILL.md",
+        "skills/hunt-file-upload/SKILL.md",
+        "skills/hunt-graphql/SKILL.md",
+        "skills/hunt-grpc/SKILL.md",
+        "skills/hunt-host-header/SKILL.md",
+        "skills/hunt-http-smuggling/SKILL.md",
+        "skills/hunt-idor/SKILL.md",
+        "skills/hunt-k8s/SKILL.md",
+        "skills/hunt-laravel/SKILL.md",
+        "skills/hunt-ldap/SKILL.md",
+        "skills/hunt-lfi/SKILL.md",
+        "skills/hunt-llm-ai/SKILL.md",
+        "skills/hunt-mfa-bypass/SKILL.md",
+        "skills/hunt-misc/SKILL.md",
+        "skills/hunt-nextjs/SKILL.md",
+        "skills/hunt-nodejs/SKILL.md",
+        "skills/hunt-nosqli/SKILL.md",
+        "skills/hunt-ntlm-info/SKILL.md",
+        "skills/hunt-oauth/SKILL.md",
+        "skills/hunt-open-redirect/SKILL.md",
+        "skills/hunt-race-condition/SKILL.md",
+        "skills/hunt-rce/SKILL.md",
+        "skills/hunt-saml/SKILL.md",
+        "skills/hunt-session/SKILL.md",
+        "skills/hunt-sharepoint/SKILL.md",
+        "skills/hunt-source-leak/SKILL.md",
+        "skills/hunt-springboot/SKILL.md",
+        "skills/hunt-sqli/SKILL.md",
+        "skills/hunt-ssrf/SKILL.md",
+        "skills/hunt-ssti/SKILL.md",
+        "skills/hunt-subdomain/SKILL.md",
+        "skills/hunt-tls-network/SKILL.md",
+        "skills/hunt-websocket/SKILL.md",
+        "skills/hunt-xss/SKILL.md",
+        "skills/hunt-xxe/SKILL.md",
+        "skills/m365-entra-attack/SKILL.md",
+        "skills/meme-coin-audit/SKILL.md",
+        "skills/mid-engagement-ir-detection/SKILL.md",
+        "skills/offensive-osint/SKILL.md",
+        "skills/okta-attack/SKILL.md",
+        "skills/osint-methodology/SKILL.md",
+        "skills/redteam-mindset/SKILL.md",
+        "skills/redteam-report-template/SKILL.md",
+        "skills/report-writing/SKILL.md",
+        "skills/security-arsenal/SKILL.md",
+        "skills/supply-chain-attack-recon/SKILL.md",
+        "skills/triage-validation/SKILL.md",
+        "skills/vmware-vcenter-attack/SKILL.md",
+        "skills/web2-recon/SKILL.md",
+        "skills/web3-audit/SKILL.md"
+      ]
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "apk-redteam-pipeline",
+      "path": "skills/apk-redteam-pipeline/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/apk-redteam-pipeline/SKILL.md",
+      "description": "End-to-end Android APK red-team pipeline — automated APK acquisition (Play Store + apkpure + apkmirror fallback), jadx decompilation, secret/URL/JWT/Firebase grep, pinned-cert extraction, exported-component enumeration, Frida runtime instrumentation templates, intent-injection probes. Built from an authorized external red-team engagement where 7 APKs were pulled manually, 4 download attempts truncated, and a hardcoded JWT + 30 internal API endpoints were recovered from one of the apps. Use when target has a mobile app catalogue (Play Store developer page), when you find an APK URL hosted on a web server, or when post-recon mentions \"mobile app\" in scope.",
+      "slug": "elementalsouls-apk-redteam-pipeline"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "bb-local-toolkit",
+      "path": "skills/bb-local-toolkit/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/bb-local-toolkit/SKILL.md",
+      "description": "Complete bug bounty workflow — recon (subdomain enumeration, asset discovery, fingerprinting, HackerOne scope, source code audit), pre-hunt learning (disclosed reports, tech stack research, mind maps, threat modeling), vulnerability hunting (IDOR, SSRF, XSS, auth bypass, CSRF, race conditions, SQLi, XXE, file upload, business logic, GraphQL, HTTP smuggling, cache poisoning, OAuth, timing side-channels, OIDC, SSTI, subdomain takeover, cloud misconfig, ATO chains, agentic AI), LLM/AI security testing (chatbot IDOR, prompt injection, indirect injection, ASCII smuggling, exfil channels, RCE via code tools, system prompt extraction, ASI01-ASI10), A-to-B bug chaining (IDOR→auth bypass, SSRF→cloud metadata, XSS→ATO, open redirect→OAuth theft, S3→bundle→secret→OAuth), bypass tables (SSRF IP bypass, open redirect bypass, file upload bypass), language-specific grep (JS prototype pollution, Python ",
+      "slug": "elementalsouls-bb-local-toolkit"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "bb-methodology",
+      "path": "skills/bb-methodology/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/bb-methodology/SKILL.md",
+      "description": "Use at the START of any bug bounty hunting session, when switching targets, or when feeling lost about what to do next. Master orchestrator that combines the 5-phase non-linear hunting workflow with the critical thinking framework (developer psychology, anomaly detection, What-If experiments). Routes to all other skills based on current hunting phase. Also use when asking \"what should I do next\" or \"where am I in the process.",
+      "slug": "elementalsouls-bb-methodology"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "bug-bounty",
+      "path": "skills/bug-bounty/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/bug-bounty/SKILL.md",
+      "description": "Complete bug bounty workflow — recon (subdomain enumeration, asset discovery, fingerprinting, HackerOne scope, source code audit), pre-hunt learning (disclosed reports, tech stack research, mind maps, threat modeling), vulnerability hunting (IDOR, SSRF, XSS, auth bypass, CSRF, race conditions, SQLi, XXE, file upload, business logic, GraphQL, HTTP smuggling, cache poisoning, OAuth, timing side-channels, OIDC, SSTI, subdomain takeover, cloud misconfig, ATO chains, agentic AI), LLM/AI security testing (chatbot IDOR, prompt injection, indirect injection, ASCII smuggling, exfil channels, RCE via code tools, system prompt extraction, ASI01-ASI10), A-to-B bug chaining (IDOR→auth bypass, SSRF→cloud metadata, XSS→ATO, open redirect→OAuth theft, S3→bundle→secret→OAuth), bypass tables (SSRF IP bypass, open redirect bypass, file upload bypass), language-specific grep (JS prototype pollution, Python ",
+      "slug": "elementalsouls-bug-bounty"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "bugcrowd-reporting",
+      "path": "skills/bugcrowd-reporting/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/bugcrowd-reporting/SKILL.md",
+      "description": "Bugcrowd-specific reporting tactics complementing report-writing: VRT category search-and-fallback strategy when no exact match exists, manual severity override when VRT defaults underrate impact, severity-request paragraph as first body section, OOS-clause rebuttal templates (rate limiting on auth-flow endpoints, debug-info framing, user-enumeration with sensitive PII, theoretical-issue counter), chained-finding cross-reference patterns, target selection for QA-vs-prod programs, researcher-side hygiene (Bugcrowdninja email alias, account state restoration, friendly-tester posture). Use when filing a Bugcrowd submission, when VRT default seems wrong, when triager closes as OOS or downgrades severity, when chaining linked submissions, or when scope distinguishes production from QA. Pairs with report-writing and triage-validation.",
+      "slug": "elementalsouls-bugcrowd-reporting"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "cloud-iam-deep",
+      "path": "skills/cloud-iam-deep/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/cloud-iam-deep/SKILL.md",
+      "description": "Cloud IAM red-team attack chain across AWS, Azure, GCP — focused on EXTERNAL exploitation paths and post-credential-discovery privilege analysis. Covers IAM enumeration (aws iam, az role, gcloud iam), STS/AssumeRole chaining, Azure Managed Identity abuse (via SSRF/leak), GCP service account JSON abuse, IMDSv1/v2 attacks via SSRF, K8s ServiceAccount token privilege analysis once held (token discovery / cluster exposure is owned by hunt-k8s), role-trust-policy confused-deputy, cross-account assume-role enumeration, IAM privilege escalation patterns (24+ AWS, 8+ Azure, 6+ GCP), and AWS Cognito Identity Pool unauthenticated-role attack chain (GetId → GetCredentialsForIdentity → IAM role abuse). Built for the case where recon yields a credential (key, JSON, token) and you need to know what it grants and how to escalate. Use when an AWS key / Azure secret / GCP service account JSON / K8s SA to",
+      "slug": "elementalsouls-cloud-iam-deep"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "enterprise-vpn-attack",
+      "path": "skills/enterprise-vpn-attack/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/enterprise-vpn-attack/SKILL.md",
+      "description": "External SSL VPN / remote-access appliance attack matrix — Cisco ASA/AnyConnect, Fortinet FortiGate/FortiOS, Citrix NetScaler/ADC, Palo Alto GlobalProtect, Pulse Secure / Ivanti Connect Secure, SonicWall, F5 Big-IP. Covers version fingerprinting, CVE matrix (2018-2026), AAA backend identification, default credentials, configuration-disclosure paths, pre-auth RCE/SSRF/path-traversal exploits where applicable. Built from authorized-engagement Cisco ASA testing plus 2024-2026 enterprise VPN CVE landscape. Use whenever the target's perimeter exposes any SSL VPN appliance or remote-access gateway — these are the most common initial-access points in 2024-2026 actor TTPs.",
+      "slug": "elementalsouls-enterprise-vpn-attack"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "evidence-hygiene",
+      "path": "skills/evidence-hygiene/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/evidence-hygiene/SKILL.md",
+      "description": "Evidence-capture and PoC-redaction discipline for bug-bounty submissions: cookie redaction protocol (which fields to mask, Preview annotation / Burp panel hiding / DevTools workflow), PII black-bar discipline (what to mask in other-user data — names, emails, phones, faces — vs what is safe to leave — usernames, trace IDs, request bodies), HAR file sanitization (jq filters for Cookie/Set-Cookie/Authorization headers), Burp Repeater/Intruder screenshot hygiene (hide request body, show only Results table for rate-limit attacks), Chrome DevTools Console PoC patterns (credentials include so cookies are not echoed, labeled console.log), screenshot capture order, filename conventions, post-submission rotation hygiene. Use BEFORE any PoC screenshot, BEFORE attaching a HAR, or whenever preparing evidence with session cookies or other-user PII. Pairs with bugcrowd-reporting and report-writing.",
+      "slug": "elementalsouls-evidence-hygiene"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-api-misconfig",
+      "path": "skills/hunt-api-misconfig/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-api-misconfig/SKILL.md",
+      "description": "Hunt API security misconfiguration — mass assignment, JWT attacks, prototype pollution, HTTP verb tampering. Mass assignment: send {is_admin:true, role:admin, verified:true} on profile/account/reset endpoints — server blindly applies. JWT: alg=none, weak HMAC bruteforce, kid path traversal, JWK injection, token confusion. Prototype pollution: __proto__ injection in JSON merge / Object.assign / lodash _.merge → polluted prototype reaches sink (RCE in Node, XSS in browser). HTTP verb: GET-bypass-CSRF, X-HTTP-Method-Override, TRACE enabled. Detection: API responses with extra fields, JWTs in headers (decode at jwt.io). CORS misconfiguration (reflect-any-origin, null origin, subdomain-regex bypass, postMessage) is owned by hunt-cors. Use when hunting API misconfigs, JWT flaws, mass-assignment, prototype pollution.",
+      "slug": "elementalsouls-hunt-api-misconfig"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-aspnet",
+      "path": "skills/hunt-aspnet/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-aspnet/SKILL.md",
+      "description": "Hunt ASP.NET-specific surface — ViewState deserialization (signed-only vs encrypted), machineKey recovery, dual-parser MAC-bypass anti-pattern, request-validator bypass, trace.axd/elmah.axd disclosure, load-balanced ViewState cross-node failures, SafeControl enumeration via reflection, customErrors mode=Off stack-trace leaks, classic Webforms .aspx/.asmx/.svc surface. Built for ASP.NET Webforms + WCF + SharePoint farms.",
+      "slug": "elementalsouls-hunt-aspnet"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-ato",
+      "path": "skills/hunt-ato/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-ato/SKILL.md",
+      "description": "Hunt account takeover taxonomy — 9 distinct paths to ATO, plus chains. Paths: (1) password reset flaws (host-header injection redirects token, predictable/numeric token, Referer leak, no-expiry/reuse), (2) email change without re-auth, (3) OAuth account-link CSRF, (4) MFA bypass (per hunt-mfa-bypass), (5) session fixation, (6) JWT manipulation (alg:none, RS256→HS256 key confusion, weak HMAC secret, kid injection), (7) password change without step-up (chain with login timing/length oracle), (8) social-recovery / security-question brute-force, (9) SSO subdomain takeover at OAuth redirect_uri. Chains: cookie theft + password oracle + no step-up = persistent ATO; lax redirect_uri = auth-code theft; dangling-CNAME takeover at redirect_uri = ATO. Validate: demonstrate real takeover of test account B from attacker A's session; OOB/Collaborator confirm blind token-leak steps. Use when hunting AT",
+      "slug": "elementalsouls-hunt-ato"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-auth-bypass",
+      "path": "skills/hunt-auth-bypass/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-auth-bypass/SKILL.md",
+      "description": "Hunting skill for auth bypass vulnerabilities. Built from 12 public bug bounty reports across SAML XSW / parser-differential (GitHub Enterprise CVE-2025-25291/25292), SAML signature stripping (Uber, Rocket.Chat, samlify CVE-2025-47949), SAML domain enforcement bypass via control characters (HackerOne 2024), partner-portal cross-IdP assertion reuse (Slack), WordPress XMLRPC bypassing SSO (Uber), JWT alg-confusion HS256/RS256 (Jitsi), JWT signature-validation skip (Linktree, Newspack), and token-audience confusion (Argo CD CVE-2023-22482). Use when hunting auth bypass — see the Legacy-Protocol Matrix for branded-UI vs legacy-endpoint patterns.",
+      "slug": "elementalsouls-hunt-auth-bypass"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-brute-force",
+      "path": "skills/hunt-brute-force/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-brute-force/SKILL.md",
+      "description": "Hunt Missing/Weak Rate Limiting — login brute force, OTP/2FA brute force (10^6 keyspace), password-reset-token brute, credential stuffing, username/email enumeration via error-string / status-code / timing differences, weak password policy, missing CAPTCHA, IP-based rate-limit bypass via X-Forwarded-For and friends, ReDoS. Distinguishes hard lockout vs soft IP-throttle vs CAPTCHA-injection vs silent shadow-throttling (avoids false-negative 'no rate limit' conclusions). Medium to Critical depending on what the brute reaches (OTP→ATO = Critical).",
+      "slug": "elementalsouls-hunt-brute-force"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-business-logic",
+      "path": "skills/hunt-business-logic/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-business-logic/SKILL.md",
+      "description": "Hunting skill for business logic vulnerabilities. Built from 12 public bug bounty reports. Covers coupon-race-stacking (Instacart, Stripe, Reverb), negative-quantity-in-cart price tampering (Upserve, Eternal/Zomato), decimal/fraction price-field overflow (Shipt), client-side checkout amount trust on PayPal redirect (WordPress.org), price-per-unit mass-assignment (Krisp), and archived-price swap / cart-TOCTOU (Stripe). Use when hunting business logic — heavy emphasis on financial-impact-demonstrated cases.",
+      "slug": "elementalsouls-hunt-business-logic"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-cache-poison",
+      "path": "skills/hunt-cache-poison/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-cache-poison/SKILL.md",
+      "description": "Hunting skill for cache poison vulnerabilities. Built from 10 public bug bounty reports including X-Forwarded-Host poisoning, X-HTTP-Method-Override / GCS cache, reflected→stored XSS via cache, classic Omer-Gil Web Cache Deception, Cloudflare Cache Deception Armor bypass, session-token cache deception, Akamai hop-by-hop smuggling → server-side edge poisoning, and Kettle's 2024 path-normalization WCD against Cloudflare/Fastly/GCP. Use when hunting cache poisoning, Web Cache Deception, CDN-fronted apps.",
+      "slug": "elementalsouls-hunt-cache-poison"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-cicd",
+      "path": "skills/hunt-cicd/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-cicd/SKILL.md",
+      "description": "Hunt CI/CD pipeline vulnerabilities — GitHub Actions workflow injection (pull_request_target Pwnrequest + ${{ }}-into-shell), self-hosted runner poisoning, OIDC trust-policy abuse, Jenkins script-console RCE and CVE-2024-23897 file read, GitLab CI runner-token registration, Terraform state file leakage, artifact/log secret leakage, pipeline env-var disclosure. Use when target has a public GitHub/GitLab org, exposed CI dashboards (Jenkins/TeamCity/Drone/Argo), or build artifacts/images are reachable.",
+      "slug": "elementalsouls-hunt-cicd"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-cloud-misconfig",
+      "path": "skills/hunt-cloud-misconfig/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-cloud-misconfig/SKILL.md",
+      "description": "Hunt cloud / infrastructure misconfigurations. AWS: public S3 buckets (s3:GetObject anonymous), permissive bucket policies (PutObjectAcl public-write), exposed CloudFront origin, public Lambda function URL, public RDS snapshot, IAM credentials in JS bundles, AWS metadata accessible via SSRF. GCP: public GCS buckets, exposed Cloud Run services, leaked service account JSON. Azure: public blob containers, exposed Function App. (Kubernetes/Docker exposure is owned by hunt-k8s; CI/CD pipeline attacks by hunt-cicd; post-credential IAM escalation by cloud-iam-deep.) Detection: targeted dorking, certificate transparency, JS bundle secret extraction, port scan for known service ports. Validate: actual data read / write / RCE. Use when hunting cloud-native storage and compute misconfig (S3/GCS/Blob, IMDS-via-SSRF, serverless, public managed services).",
+      "slug": "elementalsouls-hunt-cloud-misconfig"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-cors",
+      "path": "skills/hunt-cors/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-cors/SKILL.md",
+      "description": "Hunt CORS Misconfiguration — origin-reflection with credentials, null-origin trust, subdomain-regex bypass (unanchored vs unescaped-dot vs prefix-only), pre-flight (OPTIONS) gating bypass, postMessage origin checks. High only when an attacker-controlled origin can perform a CREDENTIALED cross-origin read of sensitive data and you have proven it in a browser. Use when testing API endpoints, SPAs, or any app emitting Access-Control-* headers.",
+      "slug": "elementalsouls-hunt-cors"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-csrf",
+      "path": "skills/hunt-csrf/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-csrf/SKILL.md",
+      "description": "Hunting skill for csrf vulnerabilities. Built from 15 public bug bounty reports including modern variants — SameSite=Lax sibling-subdomain bypass (Argo CD CVE-2024-22424), GraphQL mutations-via-GET (GitLab $3,370), framework-wide CSRF middleware disabled (Stripe Dashboard $5,000), path-traversal CSRF-token bypass (GitHub Enterprise CVE-2022-23732 $10k), Origin-omission bypass (TikTok $2,500), OAuth-state null-byte (Streamlabs), WebSocket CSRF / CSWSH (Coda), default-SameSite email-change → ATO (YoYo Games $400), social-account-link CSRF (HackerOne), JSON-CSRF via text/plain on email-change (TikTok $500). Use when hunting modern CSRF — heavy emphasis on chain-to-ATO patterns.",
+      "slug": "elementalsouls-hunt-csrf"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-deserialization",
+      "path": "skills/hunt-deserialization/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-deserialization/SKILL.md",
+      "description": "Hunt Insecure Deserialization — Java gadget chains (ysoserial), PHP object injection (phpggc), Python pickle RCE, .NET BinaryFormatter, Ruby Marshal.load, JNDI/Log4Shell. RCE via deserialization is almost always Critical. Use when target runs Java, PHP serialization, Python pickle, .NET, or Ruby on Rails.",
+      "slug": "elementalsouls-hunt-deserialization"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-dispatch",
+      "path": "skills/hunt-dispatch/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-dispatch/SKILL.md",
+      "description": "Skill-set loader for /hunt orchestrator. Fingerprints the target, picks the right platform attack skills, and loads the Red Team or WAPT skill set. Use when /hunt has just received a mode answer (redteam or wapt + blackbox|greybox) and needs to load the appropriate skills and print the taxonomy. Not for direct user invocation.",
+      "slug": "elementalsouls-hunt-dispatch"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-dom",
+      "path": "skills/hunt-dom/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-dom/SKILL.md",
+      "description": "Hunt client-side DOM vulnerabilities — DOM Clobbering (overwrite JS globals via HTML injection), PostMessage hijacking (missing origin check), Service Worker abuse (intercept requests from same-origin script), CSS Injection/Exfiltration (attribute selectors → token char-by-char via OOB), client-side template injection, dangerouslySetInnerHTML. Grounded in named public research: Gareth Heyes / PortSwigger DOM-clobbering + DOM-Invader, Michał Bentkowski DOMPurify clobbering bypasses, jQuery htmlPrefilter XSS (CVE-2020-11022 / CVE-2020-11023), d0nut CSS-exfil research. Use when hunting DOM-XSS, client-side auth bypass, or token exfiltration without server-side interaction.",
+      "slug": "elementalsouls-hunt-dom"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-file-upload",
+      "path": "skills/hunt-file-upload/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-file-upload/SKILL.md",
+      "description": "Hunt file upload bugs — RCE via webshell, XSS via SVG/HTML, SSRF via XXE in DOCX, path traversal via filename. Bypass tables (10 techniques): double extension (shell.php.jpg if server checks last ext only), magic bytes spoofing (PNG header on PHP), null byte (shell.php\\0.jpg), case (PHP, .Php, .pHP), .htaccess upload to enable execution, SVG with <script>, HTML/SVG XSS, DOCX with embedded XXE, ZIP slip (../../../etc/passwd in archive), polyglot files. Detection: any /upload, /avatar, /profile-picture, /attachment, /import endpoint. Test: upload PHP/JSP/ASPX shells, request via direct URL, check response. Validate: actual code execution (whoami output) for RCE; reflected XSS in profile-photo URL. Use when testing file upload features, avatar/attachment endpoints, import/export functions, XML/DOCX/ZIP processors. Real paid examples.",
+      "slug": "elementalsouls-hunt-file-upload"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-graphql",
+      "path": "skills/hunt-graphql/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-graphql/SKILL.md",
+      "description": "Hunting skill for graphql vulnerabilities. Built from 12 public bug bounty reports across IDOR via node() / GID, mutation IDOR including AI/LLM features, cross-tenant IDOR, SSRF via argument, batching-DoS, query-cost-bypass, SQLi via argument, broken-object-level-authz, auth-bypass via unscoped mutations, and PII exposure from missing field-level authz. Use when hunting graphql on any target.",
+      "slug": "elementalsouls-hunt-graphql"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-grpc",
+      "path": "skills/hunt-grpc/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-grpc/SKILL.md",
+      "description": "Hunt gRPC vulnerabilities — server reflection enabled (enumerate all services/methods), missing authentication / metadata-stripping on internal endpoints, plaintext gRPC over HTTP/2, internal endpoint disclosure, proto file leakage, gRPC-Web/grpc-gateway transcoding injection, and HTTP/2 Rapid Reset DoS (CVE-2023-44487). Use when target exposes port 50051 / 443 / 8443 / 9090 with HTTP/2, when grpcurl/grpcui detects reflection, when an Envoy or grpc-gateway proxy is fronting a microservice, or when recon reveals a microservice architecture.",
+      "slug": "elementalsouls-hunt-grpc"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-host-header",
+      "path": "skills/hunt-host-header/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-host-header/SKILL.md",
+      "description": "Hunt Host Header Injection — password reset poisoning → ATO, web cache poisoning via unkeyed Host/X-Forwarded-Host, routing-based SSRF (Host picks upstream → cloud metadata/internal services), path-override SSRF/ACL-bypass (X-Original-URL/X-Rewrite-URL), OAuth redirect_uri/issuer poisoning, and absolute-URL link poisoning in emails. High to Critical when it reaches ATO or mass cache poisoning. Built on public Host-header research (PortSwigger 'Practical web cache poisoning' + James Kettle, and the classic password-reset-poisoning class). Use on any forgot-password flow, CDN/reverse-proxy-fronted app, OAuth/OIDC endpoint, or absolute-URL-in-email feature.",
+      "slug": "elementalsouls-hunt-host-header"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-http-smuggling",
+      "path": "skills/hunt-http-smuggling/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-http-smuggling/SKILL.md",
+      "description": "Hunt HTTP request smuggling (CL.TE, TE.CL, H2.CL, H2.TE). Cause: front-end proxy and back-end server disagree on where one request ends and the next begins (Content-Length vs Transfer-Encoding header parsing inconsistency). CL.TE: front-end uses CL, back uses TE → smuggle by sending TE: chunked but with body that fits CL count. TE.CL: opposite. H2.CL: HTTP/2 downgrade, smuggle CL into HTTP/1.1 back-end. Detection tools: Burp HTTP Request Smuggler extension, smuggler.py, h2csmuggler. Confirm: time-delay technique (smuggled GET with 30s timeout) — if front-end returns slow on next victim request, smuggling works. Validate: cache poisoning chain (smuggle request that gets cached for victim), credential theft (smuggle X-Forwarded-For override that captures next user's cookies), bypass auth (smuggled internal-path request). Real paid examples from major CDN deployments. Use when hunting H1 pa",
+      "slug": "elementalsouls-hunt-http-smuggling"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-idor",
+      "path": "skills/hunt-idor/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-idor/SKILL.md",
+      "description": "Hunting skill for idor vulnerabilities. Built from 26 public bug bounty reports. Use when hunting idor on any target.",
+      "slug": "elementalsouls-hunt-idor"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-k8s",
+      "path": "skills/hunt-k8s/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-k8s/SKILL.md",
+      "description": "Hunt Kubernetes & Docker — API anonymous access, kubelet 10250 exec (SPDY/WebSocket, NOT plain POST) and the simpler /run primitive, etcd 2379 unauth, dashboard skip-login, RBAC misconfig, secret/SA-token abuse, docker.sock host escape, runc/container-escape (Leaky Vessels CVE-2024-21626), API-server-mediated nodes/proxy RCE, EphemeralContainers node-shell, bound/projected SA-token audience+expiry abuse, admission-controller bypass, Helm/Tiller remnants. Use when target runs containerized infra, exposes K8s ports (6443/10250/10255/2379/8443), or cloud metadata reveals K8s service accounts.",
+      "slug": "elementalsouls-hunt-k8s"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-laravel",
+      "path": "skills/hunt-laravel/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-laravel/SKILL.md",
+      "description": "Hunt Laravel specific vulnerabilities — Debug mode leakage (APP_DEBUG=true exposes full stack trace + env vars), Laravel Telescope/Horizon dashboard unauthorized access, Ignition RCE (CVE-2021-3129), Signed URL manipulation, Queue Worker abuse, mass assignment via Eloquent, deserialization via cookies, .env file exposure. Use when target runs Laravel (PHP) — detected via X-Powered-By, Laravel session cookies, or /storage/ paths.",
+      "slug": "elementalsouls-hunt-laravel"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-ldap",
+      "path": "skills/hunt-ldap/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-ldap/SKILL.md",
+      "description": "Hunt LDAP Injection and XPath Injection — authentication bypass, blind char-by-char attribute exfiltration, AD user/group enumeration, XML-store XPath bypass. Covers the LDAP special-character set (* ( ) \\\\ NUL /), search-filter-context vs DN-injection, parenthesis-balancing, AND/OR filter logic, and {SSHA}/{CRYPT} userPassword exfil on non-AD directories. Use when target uses LDAP/AD authentication, corporate SSO with a directory backend, an address-book/people-search API, or XML-based data stores queried with XPath.",
+      "slug": "elementalsouls-hunt-ldap"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-lfi",
+      "path": "skills/hunt-lfi/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-lfi/SKILL.md",
+      "description": "Hunt Local File Inclusion (LFI), Remote File Inclusion (RFI), and Path Traversal — /etc/passwd read, log poisoning → RCE, PHP filter-chain RCE (no upload needed), php:// / data:// / zip:// / phar:// wrappers, RFI via allow_url_include, directory traversal read/write/delete. Covers OOB/blind LFI confirmation and false-positive discipline. Use when hunting file-include or path-traversal bugs on any target.",
+      "slug": "elementalsouls-hunt-lfi"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-llm-ai",
+      "path": "skills/hunt-llm-ai/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-llm-ai/SKILL.md",
+      "description": "Hunt LLM/AI feature bugs — prompt injection, indirect injection, exfiltration via tool-use/markdown, ASCII smuggling, agentic AI security (OWASP Agentic Apps 2026, ASI01-ASI10). Patterns: direct injection ('ignore previous instructions'), indirect injection via documents/web pages/email the model reads, ASCII smuggling (Unicode Tags block U+E0000-U+E007F, invisible to humans, decoded by the model), tool-use exfiltration (model has fetch/browse tool, attacker injects OOB URL, model exfils chat history/secrets), markdown-image zero-click exfil, system-prompt extraction, IDOR-via-AI (cross-tenant data). Targets: chatbots, RAG, summarizers, agentic copilots, MCP tools. Detection: any LLM-backed endpoint, doc upload triggering AI processing, autonomous agent with tools. Validate: OOB/Collaborator callback for exfil, verbatim-reproducible system-prompt leak (run twice), verifiable cross-tenant",
+      "slug": "elementalsouls-hunt-llm-ai"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-mfa-bypass",
+      "path": "skills/hunt-mfa-bypass/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-mfa-bypass/SKILL.md",
+      "description": "Hunt MFA / 2FA bypass — 7 distinct patterns. (1) MFA not enforced on sensitive endpoints (password change, email change accept without MFA challenge), (2) MFA-step skip via direct navigation to post-login URL, (3) MFA-token replay (same code accepted twice), (4) brute-force the 6-digit OTP without rate limit (10^6 attempts at server speed), (5) race condition on OTP validation, (6) recovery-code dump via /api/me, (7) backup factor downgrade (SMS factor with no rate limit). Plus the chain: cookie theft + password oracle + no step-up = ATO without MFA challenge. Detection: trace auth flow in Burp, find every state transition, check if MFA is middleware-gated vs per-endpoint, check OTP entropy and rate limit on OTP-validate. Validate: attacker session reaching post-MFA state. Use when hunting auth bypass, MFA flows, chaining primitives toward ATO.",
+      "slug": "elementalsouls-hunt-mfa-bypass"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-misc",
+      "path": "skills/hunt-misc/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-misc/SKILL.md",
+      "description": "Hunting skill for misc vulnerabilities. Built from 225 public bug bounty reports. Use when hunting misc on any target.",
+      "slug": "elementalsouls-hunt-misc"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-nextjs",
+      "path": "skills/hunt-nextjs/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-nextjs/SKILL.md",
+      "description": "Hunt Next.js specific vulnerabilities — Server Actions arbitrary function execution, Middleware auth bypass via static asset paths, ISR cache poisoning, Image Optimization SSRF (/_next/image), RSC payload leakage, getServerSideProps injection, source map exposure, debug endpoint leakage. Use when target runs Next.js 13/14/15 or any React SSR framework.",
+      "slug": "elementalsouls-hunt-nextjs"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-nodejs",
+      "path": "skills/hunt-nodejs/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-nodejs/SKILL.md",
+      "description": "Hunt Node.js specific vulnerabilities — Prototype Pollution → RCE chains (lodash/merge/assign), Express trust proxy misconfiguration, child_process/eval injection, template engine SSTI (EJS/Pug/Handlebars), path traversal in file servers, require() injection, environment variable exfil via /proc/self/environ. Use when target runs Node.js/Express/Fastify/NestJS/Koa.",
+      "slug": "elementalsouls-hunt-nodejs"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-nosqli",
+      "path": "skills/hunt-nosqli/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-nosqli/SKILL.md",
+      "description": "Hunt NoSQL Injection — MongoDB operator injection ($where, $regex, $gt, $ne), CouchDB, Redis command injection, auth bypass via NoSQLi, data dump. Use when target uses MongoDB/Mongoose, CouchDB, Redis, or shows NoSQL error messages.",
+      "slug": "elementalsouls-hunt-nosqli"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-ntlm-info",
+      "path": "skills/hunt-ntlm-info/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-ntlm-info/SKILL.md",
+      "description": "Hunt NTLM/Negotiate information disclosure on internet-reachable IIS/SharePoint/Exchange. Anonymous NTLM Type-2 challenge capture leaks NetBIOS domain, internal DNS forest, computer name, AD timestamp via AV_PAIRS structure. Default Windows-installer hostnames (WIN-XXXXXXXXXXX pattern) signal lazy provisioning. Use when target advertises `WWW-Authenticate: NTLM` or `Negotiate` headers anonymously.",
+      "slug": "elementalsouls-hunt-ntlm-info"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-oauth",
+      "path": "skills/hunt-oauth/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-oauth/SKILL.md",
+      "description": "Hunting skill for oauth vulnerabilities. Built from 19 public bug bounty reports. Use when hunting oauth on any target.",
+      "slug": "elementalsouls-hunt-oauth"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-open-redirect",
+      "path": "skills/hunt-open-redirect/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-open-redirect/SKILL.md",
+      "description": "Hunt Open Redirect — all types including low-impact, chained to OAuth token theft → ATO, phishing chains. URL parameter manipulation, JavaScript redirect, meta refresh, header injection. Use when hunting redirect bugs or building ATO chains.",
+      "slug": "elementalsouls-hunt-open-redirect"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-race-condition",
+      "path": "skills/hunt-race-condition/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-race-condition/SKILL.md",
+      "description": "Hunting skill for race condition vulnerabilities. Built from 12 public bug bounty reports including modern HTTP/2 single-packet attack cases (James Kettle DEF CON 2023 \"Smashing the State Machine\"; RyotaK / Flatt Security 10,000-request first-sequence-sync expansion 2024). Covers coupon double-redemption, gift-card double-spend, MFA-OTP-validate race, account-create race, faucet/crypto token double-mint, email-activation race, vote/upvote inflation, password-reset token race, rate-limit bypass via concurrent requests. Use when hunting race conditions, TOCTOU bugs, MFA-bypass-via-timing.",
+      "slug": "elementalsouls-hunt-race-condition"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-rce",
+      "path": "skills/hunt-rce/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-rce/SKILL.md",
+      "description": "Hunting skill for rce vulnerabilities. Built from 67 public bug bounty reports. Use when hunting rce on any target.",
+      "slug": "elementalsouls-hunt-rce"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-saml",
+      "path": "skills/hunt-saml/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-saml/SKILL.md",
+      "description": "Hunt SAML / SSO attacks. Patterns: XML Signature Wrapping (XSW) — modify Assertion while keeping Signature valid by relocating signed element, comment injection in NameID (admin@target.com<!--evil-->@attacker.com → some parsers see admin@target.com), signature stripping (remove Signature element entirely, server should reject but doesn't), key confusion (signed by attacker's IdP, accepted by SP), audience-restriction not validated, replay attack (same Assertion accepted twice within validity window). Tools: SAML Raider Burp extension, samlmagic, manual XML manipulation. Detection: any /saml endpoint, /Shibboleth.sso, /sso/saml/, Microsoft ADFS endpoints. Validate: account takeover via altered NameID, admin role injection via altered AttributeStatement. Use when hunting SSO flows, when SAML AssertionConsumerService is reachable, when chaining IdP-trust to SP-impersonation.",
+      "slug": "elementalsouls-hunt-saml"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-session",
+      "path": "skills/hunt-session/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-session/SKILL.md",
+      "description": "Hunt Session Management vulnerabilities — session fixation (no regeneration on login), insufficient invalidation on logout / password-change / email-change, predictable or low-entropy session IDs, JWT-as-session with no exp/revocation, refresh-token rotation/reuse-detection gaps, OAuth/SSO session linkage, device-bound-session (DBSC) downgrade, and cookie attribute issues (Secure/HttpOnly/SameSite/__Host-). Validate with TWO real sessions (attacker A + victim B), body-diff every 200, and OOB confirmation for theft chains. Medium to Critical (fixation→admin hijack, no-invalidation→persistent ATO).",
+      "slug": "elementalsouls-hunt-session"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-sharepoint",
+      "path": "skills/hunt-sharepoint/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-sharepoint/SKILL.md",
+      "description": "Hunt Microsoft SharePoint Server (2013/2016/2019/Subscription Edition) on-prem farms — anonymous endpoint enumeration, version disclosure, legacy SOAP login bypass (Authentication.asmx), ToolShell precondition chain (CVE-2025-53770), SafeControl reflection enumeration via Picker.aspx, NTLM Type-2 AD topology disclosure, custom-branding module discovery, EoL farm permanent-CVE-window exploitation, FormDigest anonymous issuance, file-extension blocklist NOT-an-oracle pattern, custom-zone Forms auth bridging on-prem AD. Use when target has SharePoint headers (SPRequestGuid, X-MS-InvokeApp, X-SharePointHealthScore, MicrosoftSharePointTeamServices) or paths (/_layouts/15/, /_vti_bin/, /_api/, /_catalogs/).",
+      "slug": "elementalsouls-hunt-sharepoint"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-source-leak",
+      "path": "skills/hunt-source-leak/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-source-leak/SKILL.md",
+      "description": "Hunt source code and build artifact leakage — JavaScript source maps (.js.map) reconstructing TypeScript/ES6 source, Swagger/OpenAPI JSON endpoint discovery, .env/.git exposure, webpack chunks with hardcoded secrets, robots.txt/security.txt recon, build-info files, asset-manifest.json API route discovery, .DS_Store file listing. Use at the START of every recon session — these findings often unlock the entire attack surface.",
+      "slug": "elementalsouls-hunt-source-leak"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-springboot",
+      "path": "skills/hunt-springboot/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-springboot/SKILL.md",
+      "description": "Hunt Spring Boot specific vulnerabilities — Actuator endpoints (heapdump, env, loggers, mappings, shutdown), Spring Expression Language (SpEL) injection → RCE, H2 console RCE, Jolokia JMX exposure, Spring4Shell (CVE-2022-22965), Spring Cloud Function SPEL (CVE-2022-22963), heap dump credential extraction. Use when target runs Spring Boot — detected via X-Application-Context header, /actuator, Whitelabel Error Page, or Java stack traces.",
+      "slug": "elementalsouls-hunt-springboot"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-sqli",
+      "path": "skills/hunt-sqli/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-sqli/SKILL.md",
+      "description": "Hunting skill for sqli vulnerabilities. Built from 12 public bug bounty reports including modern NoSQL injection (Rocket.Chat CVE-2021-22911 MongoDB $regex, Mongoose ORM CVE-2024-53900 $where bypass), modern ORM raw-fragment SQLi (Django CVE-2024-42005, Sequelize GHSA-wrh9-cjv3-2hpw), second-order SOQL injection (HackerOne Salesforce), time-based blind SQLi in GraphQL resolvers, and SQLi on OIDC-proxy backends. Use when hunting SQLi / NoSQLi on any target.",
+      "slug": "elementalsouls-hunt-sqli"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-ssrf",
+      "path": "skills/hunt-ssrf/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-ssrf/SKILL.md",
+      "description": "Hunting skill for ssrf vulnerabilities. Built from 15 public bug bounty reports including AWS metadata SSRF (HackerOne $25k Analytics PDF, Shopify Exchange $25k, Capital One 106M-record breach, Dropbox/HelloSign $4,913), GCP metadata SSRF (Snapchat $4k), Azure IMDS SSRF (Azure DevOps $15k chain, ChatGPT Custom Actions MSRC), DNS rebinding SSRF (Concrete CMS, GitLab UrlBlocker), gopher-protocol-to-Redis-RCE (Yahoo Mail $15k), link-preview SSRF (Reddit Matrix $6k), and headless-browser PDF-generator SSRF chains. Use when hunting SSRF on any target — OOB Collaborator confirmation mandatory for blind cases.",
+      "slug": "elementalsouls-hunt-ssrf"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-ssti",
+      "path": "skills/hunt-ssti/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-ssti/SKILL.md",
+      "description": "Hunt server-side template injection (SSTI) across Jinja2 (Flask/Django), Twig (Symfony), Freemarker (Java), ERB (Rails), Spring, Velocity, Mako, Thymeleaf, Smarty. Detection probes use double-curly and dollar-curly math expressions evaluated server-side. Once an engine is fingerprinted, escalate to RCE via the engine-specific class-walker, callback-registrar, or Execute-utility patterns documented in disclosed reports. Detection patterns: error messages reveal engine, blank or numeric eval reveals expression mode. Targets: email templates, PDF/report generators, CMS preview features, error pages with user input. Use when hunting RCE via template rendering, when content shows engine fingerprints, when finding endpoints that compose strings with user input before render.",
+      "slug": "elementalsouls-hunt-ssti"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-subdomain",
+      "path": "skills/hunt-subdomain/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-subdomain/SKILL.md",
+      "description": "Hunting skill for subdomain takeover vulnerabilities. Includes modern provider fingerprints — Microsoft Azure DevOps `cloudapp.azure.com` regional-pool re-issue (1-click OAuth ATO via wildcard `reply_to`, Binary Security), Zendesk help-desk takeover → email interception → password reset chain (0xprial writeup), Vercel `cname.vercel-dns.com` deleted-project takeover, plus general Fastly CDN service re-attach and S3 dangling-bucket cookie-scope techniques. Use when hunting subdomain takeover — emphasis on ATO-chain primitives (OAuth `redirect_uri`, cookie-domain, email DNS).",
+      "slug": "elementalsouls-hunt-subdomain"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-tls-network",
+      "path": "skills/hunt-tls-network/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-tls-network/SKILL.md",
+      "description": "Hunt TLS/SSL and DNS misconfigurations — missing HSTS (downgrade attack), weak cipher suites, expired/invalid certificates, mTLS bypass, missing SPF/DKIM/DMARC (email spoofing), DNS Zone Transfer (AXFR), dangling CNAME subdomain takeover, CAA records. Most of these are Info/Low on their own — this skill is opinionated about which findings actually pay (spoofable DMARC with delivered-to-inbox proof, AXFR returning internal hosts, dangling-CNAME takeover) versus which get rejected as best-practice noise (missing CAA, missing HSTS with no MitM position). Use during recon to find infrastructure weaknesses, and to TRIAGE them honestly before reporting.",
+      "slug": "elementalsouls-hunt-tls-network"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-websocket",
+      "path": "skills/hunt-websocket/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-websocket/SKILL.md",
+      "description": "Hunt WebSocket vulnerabilities — Cross-Site WebSocket Hijacking (CSWSH), missing/weak Origin validation on the WS handshake, no per-message authentication, message tampering, socket.io namespace/room authorization bypass, and handshake-layer Upgrade smuggling. Use when target has WebSocket endpoints (ws:// or wss://), socket.io / SignalR / Phoenix Channels, real-time features, chat, live dashboards, notifications, or trading platforms.",
+      "slug": "elementalsouls-hunt-websocket"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-xss",
+      "path": "skills/hunt-xss/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-xss/SKILL.md",
+      "description": "Hunting skill for xss vulnerabilities. Built from 174 public bug bounty reports. Use when hunting xss on any target.",
+      "slug": "elementalsouls-hunt-xss"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "hunt-xxe",
+      "path": "skills/hunt-xxe/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/hunt-xxe/SKILL.md",
+      "description": "Hunting skill for xxe vulnerabilities. Built from 10 public bug bounty reports including SVG-upload XXE, Office-doc (PPTX/DOCX) XXE, SOAP XXE, SAML AssertionConsumer XXE, blind OOB XXE via DTD callback, parameter-entity XXE, XXE-to-LFI, XXE-to-SSRF, and XXE-to-RCE chains (Adobe Commerce CosmicSting CVE-2024-34102). Use when hunting XXE on any target — emphasis on OOB-Or-It-Didn't-Happen Gate for blind cases.",
+      "slug": "elementalsouls-hunt-xxe"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "m365-entra-attack",
+      "path": "skills/m365-entra-attack/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/m365-entra-attack/SKILL.md",
+      "description": "Microsoft 365 / Entra ID red-team attack chain — current 2026 reality. AADSTS code reference, user enumeration vectors (with hardening status), Smart Lockout math, Conditional Access bypass options, ROPC + SAML SSO browser flow, Burp/Playwright templates. Built from authorized red-team work where ROPC spray surfaced pre-existing lockouts and CA-blocked credentials, plus real-time external attacker activity correlation. Use for any M365/Entra credential attack, password spray, user enumeration, CA-bypass exploration, or active-attacker-detection scenario.",
+      "slug": "elementalsouls-m365-entra-attack"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "meme-coin-audit",
+      "path": "skills/meme-coin-audit/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/meme-coin-audit/SKILL.md",
+      "description": "Meme coin and token security audit — rug pull detection (honeypot, hidden mint, fee manipulation, LP lock bypass), Solana SPL token analysis (freeze authority, mint authority, metadata mutability), Token-2022 extension risks (transfer hooks, permanent delegate), DEX liquidity pool attacks (sandwich amplification, LP drain, bonding curve exploits), pump.fun/Raydium/Jupiter integration risks, and real exploit examples from 2024-2025. Use for any token audit, rug pull assessment, meme coin security review, or pre-investment due diligence.",
+      "slug": "elementalsouls-meme-coin-audit"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "mid-engagement-ir-detection",
+      "path": "skills/mid-engagement-ir-detection/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/mid-engagement-ir-detection/SKILL.md",
+      "description": "Methodology for detecting client SOC patches, attacker activity, and security-state changes that occur DURING a red-team engagement — and converting those observations into deliverable findings. Built from authorized red-team work where the client patched a confirmed SQLi within 30 minutes of detection AND an external attacker locked multiple new accounts during a single test session. Use when (a) running ANY active engagement against a monitored target, (b) a previously-confirmed finding stops reproducing, (c) baseline timing shifts unexpectedly, or (d) you notice response patterns changing during testing.",
+      "slug": "elementalsouls-mid-engagement-ir-detection"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "offensive-osint",
+      "path": "skills/offensive-osint/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/offensive-osint/SKILL.md",
+      "description": "Operational arsenal for authorized external red-team and bug-bounty recon. Concrete probes, wordlists, regexes, dorks, curl one-liners for: subdomain enum, GraphQL/Swagger/REST discovery, identity fabric (Entra/Okta/ADFS/Google/SAML/M365 deep — Teams/SharePoint/OneDrive), cloud bucket enum (S3/GCS/Azure), CDN/WAF bypass, origin discovery, vendor fingerprinting (Citrix/F5/Pulse/Fortinet/PaloAlto/Cisco/VMware), CI/CD exposure, 48-pattern secret-scan catalog (AWS/GCP/GitHub/Stripe/Slack/Anthropic/OpenAI/Atlassian/DataDog/npm/PyPI), Postman workspaces, breach correlation (HudsonRock/HIBP/DeHashed/IntelX), TLS/JA3 audit, certificate transparency, JS endpoint extraction, package registry leaks, mobile/APK recon, sat imagery, sector-specific recon (healthcare DICOM, finance SWIFT, ICS/SCADA Modbus/BACnet). Detail content in 15 modular reference files, loaded on demand. Use for any authorized re",
+      "slug": "elementalsouls-offensive-osint"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "okta-attack",
+      "path": "skills/okta-attack/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/okta-attack/SKILL.md",
+      "description": "Okta-as-IdP red-team attack chain — tenant discovery, user enumeration (multiple vectors), authentication flow analysis (factors enumeration, push-notification fatigue, SMS bypass), password spray with lockout discipline, Okta-specific phishing primitives (kits, FastPass abuse, OIDC redirect_uri tampering), MFA enumeration, post-compromise admin API surface. Many enterprise orgs use Okta instead of (or alongside) Entra ID. Distinct endpoints, distinct rate-limiting, distinct factor flows. Use when recon shows `<tenant>.okta.com`, `<tenant>.okta-emea.com`, `<tenant>.oktapreview.com`, or autodiscover-style records pointing at Okta IdP.",
+      "slug": "elementalsouls-okta-attack"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "osint-methodology",
+      "path": "skills/osint-methodology/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/osint-methodology/SKILL.md",
+      "description": "Comprehensive OSINT methodology for external red-team operations and authorized attack-surface assessments. Covers the 5-stage recon pipeline (seed discovery, asset expansion, enrichment, exposure analysis, reporting), asset-graph discipline with 29 asset types, severity rubric (CRITICAL/HIGH/MEDIUM/LOW/INFO), confidence upgrade workflows, time budgeting, asset-level triage rules, scale-based tactics, identity-fabric mapping (Entra/Okta/ADFS/Google/SAML/M365 Teams+SharePoint+OAuth), API and auth-map methodology, JavaScript deep analysis, mobile attack surface, cloud attack surface, breach×identity correlation, detectability tagging, detection-aware probing (back-off, persona rotation), read-only validator discipline, WAF/CDN bypass + origin discovery, vulnerability prioritization (CVE/EPSS/KEV), phishing infrastructure planning + pretext development, bug bounty submission templates, clie",
+      "slug": "elementalsouls-osint-methodology"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "redteam-mindset",
+      "path": "skills/redteam-mindset/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/redteam-mindset/SKILL.md",
+      "description": "Red-team operator discipline — the mindset corrections that separate offensive testing from defensive WAPT. Built from authorized red-team work where conservative defaults caused multiple findings to be missed and one to be incorrectly retracted. Use at the START of any red-team engagement and again whenever feeling stuck or considering \"stopping\" on a defended target. The single most important skill to load when scope is \"external red team\" not \"bug bounty / WAPT\".",
+      "slug": "elementalsouls-redteam-mindset"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "redteam-report-template",
+      "path": "skills/redteam-report-template/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/redteam-report-template/SKILL.md",
+      "description": "Client-facing red-team deliverable format — codifies the Subject / Observations / Description / Impact / Recommendation / PoC structure used for external red-team engagements (not bug-bounty platform reports). Different audience, different tone, different cadence. Built from an authorized engagement deliverable where 14 findings were packaged into a 52KB MD + 2.2MB DOCX with 16 embedded screenshots. Use when the engagement is \"external red team for an enterprise client\" (not H1/Bugcrowd/Intigriti), when generating the final report, when the client has specified a custom report format, or when packaging findings into DOCX/PDF.",
+      "slug": "elementalsouls-redteam-report-template"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "report-writing",
+      "path": "skills/report-writing/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/report-writing/SKILL.md",
+      "description": "Bug bounty report writing for H1/Bugcrowd/Intigriti/Immunefi — report templates, human tone guidelines, impact-first writing, CVSS 3.1 scoring, title formula, impact statement formula, severity decision guide, downgrade counters, pre-submit checklist. Use after validating a finding and before submitting. Never use \"could potentially\" — prove it or don't report.",
+      "slug": "elementalsouls-report-writing"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "security-arsenal",
+      "path": "skills/security-arsenal/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/security-arsenal/SKILL.md",
+      "description": "Security payloads, bypass tables, wordlists, gf pattern names, always-rejected bug list, and conditionally-valid-with-chain table. Use when you need specific payloads for XSS/SSRF/SQLi/XXE/NoSQLi/command injection/SSTI/IDOR/path-traversal/HTTP smuggling/WebSocket/MFA bypass, bypass techniques, or to check if a finding is submittable. Also use when asked about what NOT to submit.",
+      "slug": "elementalsouls-security-arsenal"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "supply-chain-attack-recon",
+      "path": "skills/supply-chain-attack-recon/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/supply-chain-attack-recon/SKILL.md",
+      "description": "External recon for software supply-chain attack surface — package-namespace squatting candidates, dependency-confusion vulnerabilities, GitHub Actions injection openings, container image registry exposure, SBOM mining, internal-package-name leakage, and CI/CD configuration exposure. Reconnaissance and identification ONLY — actual package publishing / typosquat attacks are EXTERNAL-OFFENSIVE and require explicit written sign-off because they can affect the entire npm/PyPI ecosystem. Use when the target has a public GitHub org, when their build artifacts/SBOMs are reachable, when their docker images are on Docker Hub/GHCR, or when you find internal package names in their JS bundles.",
+      "slug": "elementalsouls-supply-chain-attack-recon"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "triage-validation",
+      "path": "skills/triage-validation/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/triage-validation/SKILL.md",
+      "description": "Finding validation before writing any report — 7-Question Gate (all 7 questions), 4 pre-submission gates, always-rejected list, conditionally valid with chain table, CVSS 3.1 quick reference, severity decision guide, report title formula, 60-second pre-submit checklist. Use BEFORE writing any report. One wrong answer = kill the finding and move on. Saves N/A ratio.",
+      "slug": "elementalsouls-triage-validation"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "vmware-vcenter-attack",
+      "path": "skills/vmware-vcenter-attack/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/vmware-vcenter-attack/SKILL.md",
+      "description": "VMware vSphere / vCenter Server external attack matrix — version fingerprinting, the high-impact CVE chain (CVE-2021-21972 vRealize unauth file upload, CVE-2021-21985 vSAN plugin RCE, CVE-2022-22954 Workspace ONE SSTI, CVE-2023-20887 Aria RCE, CVE-2024-37085 ESXi AD bypass, CVE-2023-34048 vCenter DCERPC OOB write APT-exploited), default credentials, SSO configuration disclosure, vmdir LDAP enumeration, ESXi Open SLP RCE history. ONLY for vCenter / Workspace ONE / Aria instances exposed to the internet — internal-network vCenter is out of scope per the external-only boundary. Use when recon shows port 443 with vCenter banner, `/ui` redirect, `/websso/SAML2/Metadata`, or VMware product fingerprints.",
+      "slug": "elementalsouls-vmware-vcenter-attack"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "web2-recon",
+      "path": "skills/web2-recon/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/web2-recon/SKILL.md",
+      "description": "Web2 recon pipeline — subdomain enumeration (subfinder, Chaos API, assetfinder), live host discovery (dnsx, httpx), URL crawling (katana, waybackurls, gau), directory fuzzing (ffuf), JS analysis (LinkFinder, SecretFinder), continuous monitoring (new subdomain alerts, JS change detection, GitHub commit watch). Use when starting recon on any web2 target or when asked about asset discovery, subdomain enum, or attack surface mapping.",
+      "slug": "elementalsouls-web2-recon"
+    },
+    {
+      "repository": "elementalsouls/Claude-BugHunter",
+      "branch": "main",
+      "skillName": "web3-audit",
+      "path": "skills/web3-audit/SKILL.md",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/skills/web3-audit/SKILL.md",
+      "description": "Smart contract security audit — 10 DeFi bug classes (accounting desync, access control, incomplete path, off-by-one, oracle, ERC4626, reentrancy, flash loan, signature replay, proxy), pre-dive kill signals (TVL < $500K etc), Foundry PoC template, grep patterns for each class, and real Immunefi paid examples. Use for any Solidity/Rust contract audit or when deciding whether a DeFi target is worth hunting.",
+      "slug": "elementalsouls-web3-audit"
+    }
+  ],
+  "itemCount": 72,
+  "lastStatus": "reused-unchanged"
+}

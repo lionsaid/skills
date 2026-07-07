@@ -1,0 +1,225 @@
+{
+  "repository": "jnMetaCode/superpowers-zh",
+  "branch": "main",
+  "defaultBranch": "main",
+  "pushedAt": "2026-07-06T05:22:16Z",
+  "scannedAt": "2026-07-07T09:05:15.548Z",
+  "treeSha": "b72378bb1d7153cbfa31ae7316300d353866d62e",
+  "items": [
+    {
+      "repository": "jnMetaCode/superpowers-zh",
+      "branch": "main",
+      "skillName": "superpowers-zh",
+      "path": "README.md",
+      "url": "https://github.com/jnMetaCode/superpowers-zh",
+      "description": "🦸 AI 编程超能力 · 中文增强版 — superpowers（116k+ ⭐）完整汉化 + 6 个中国原创 skills，让 Claude Code / Copilot CLI / Hermes Agent / Cursor / Windsurf / Kiro / Gemini CLI 等 16 款 AI 编程工具真正会干活",
+      "slug": "jnmetacode-superpowers-zh-collection",
+      "isCollection": true,
+      "stars": 6418,
+      "skillPaths": [
+        "skills/brainstorming/SKILL.md",
+        "skills/chinese-code-review/SKILL.md",
+        "skills/chinese-commit-conventions/SKILL.md",
+        "skills/chinese-documentation/SKILL.md",
+        "skills/chinese-git-workflow/SKILL.md",
+        "skills/dispatching-parallel-agents/SKILL.md",
+        "skills/executing-plans/SKILL.md",
+        "skills/finishing-a-development-branch/SKILL.md",
+        "skills/mcp-builder/SKILL.md",
+        "skills/receiving-code-review/SKILL.md",
+        "skills/requesting-code-review/SKILL.md",
+        "skills/subagent-driven-development/SKILL.md",
+        "skills/systematic-debugging/SKILL.md",
+        "skills/test-driven-development/SKILL.md",
+        "skills/using-git-worktrees/SKILL.md",
+        "skills/using-superpowers/SKILL.md",
+        "skills/verification-before-completion/SKILL.md",
+        "skills/workflow-runner/SKILL.md",
+        "skills/writing-plans/SKILL.md",
+        "skills/writing-skills/SKILL.md"
+      ]
+    },
+    {
+      "repository": "jnMetaCode/superpowers-zh",
+      "branch": "main",
+      "skillName": "brainstorming",
+      "path": "skills/brainstorming/SKILL.md",
+      "url": "https://github.com/jnMetaCode/superpowers-zh/blob/main/skills/brainstorming/SKILL.md",
+      "description": "在任何创造性工作之前必须使用此技能——创建功能、构建组件、添加功能或修改行为。在实现之前先探索用户意图、需求和设计。",
+      "slug": "jnmetacode-brainstorming"
+    },
+    {
+      "repository": "jnMetaCode/superpowers-zh",
+      "branch": "main",
+      "skillName": "chinese-code-review",
+      "path": "skills/chinese-code-review/SKILL.md",
+      "url": "https://github.com/jnMetaCode/superpowers-zh/blob/main/skills/chinese-code-review/SKILL.md",
+      "description": "中文 review 沟通参考——话术模板、分级标注（必须修复/建议修改/仅供参考）、国内团队常见反模式应对。仅在用户显式 /chinese-code-review 时调用，不要根据上下文自动触发。",
+      "slug": "jnmetacode-chinese-code-review"
+    },
+    {
+      "repository": "jnMetaCode/superpowers-zh",
+      "branch": "main",
+      "skillName": "chinese-commit-conventions",
+      "path": "skills/chinese-commit-conventions/SKILL.md",
+      "url": "https://github.com/jnMetaCode/superpowers-zh/blob/main/skills/chinese-commit-conventions/SKILL.md",
+      "description": "中文 commit 与 changelog 配置参考——Conventional Commits 中文适配、commitlint/husky/commitizen 中文模板、conventional-changelog 中文配置。仅在用户显式 /chinese-commit-conventions 时调用，不要根据上下文自动触发。",
+      "slug": "jnmetacode-chinese-commit-conventions"
+    },
+    {
+      "repository": "jnMetaCode/superpowers-zh",
+      "branch": "main",
+      "skillName": "chinese-documentation",
+      "path": "skills/chinese-documentation/SKILL.md",
+      "url": "https://github.com/jnMetaCode/superpowers-zh/blob/main/skills/chinese-documentation/SKILL.md",
+      "description": "中文文档排版参考——中英文空格、全半角标点、术语保留、链接格式、中文文案排版指北约定。仅在用户显式 /chinese-documentation 时调用，不要根据上下文自动触发。",
+      "slug": "jnmetacode-chinese-documentation"
+    },
+    {
+      "repository": "jnMetaCode/superpowers-zh",
+      "branch": "main",
+      "skillName": "chinese-git-workflow",
+      "path": "skills/chinese-git-workflow/SKILL.md",
+      "url": "https://github.com/jnMetaCode/superpowers-zh/blob/main/skills/chinese-git-workflow/SKILL.md",
+      "description": "国内 Git 平台配置参考——Gitee、Coding.net、极狐 GitLab、CNB 的 SSH/HTTPS/凭据/CI 接入差异与镜像同步配置。仅在用户显式 /chinese-git-workflow 时调用，不要根据上下文自动触发。",
+      "slug": "jnmetacode-chinese-git-workflow"
+    },
+    {
+      "repository": "jnMetaCode/superpowers-zh",
+      "branch": "main",
+      "skillName": "dispatching-parallel-agents",
+      "path": "skills/dispatching-parallel-agents/SKILL.md",
+      "url": "https://github.com/jnMetaCode/superpowers-zh/blob/main/skills/dispatching-parallel-agents/SKILL.md",
+      "description": "当面对 2 个以上可以独立进行、无共享状态或顺序依赖的任务时使用",
+      "slug": "jnmetacode-dispatching-parallel-agents"
+    },
+    {
+      "repository": "jnMetaCode/superpowers-zh",
+      "branch": "main",
+      "skillName": "executing-plans",
+      "path": "skills/executing-plans/SKILL.md",
+      "url": "https://github.com/jnMetaCode/superpowers-zh/blob/main/skills/executing-plans/SKILL.md",
+      "description": "当你有一份书面实现计划需要在单独的会话中执行，并设有审查检查点时使用",
+      "slug": "jnmetacode-executing-plans"
+    },
+    {
+      "repository": "jnMetaCode/superpowers-zh",
+      "branch": "main",
+      "skillName": "finishing-a-development-branch",
+      "path": "skills/finishing-a-development-branch/SKILL.md",
+      "url": "https://github.com/jnMetaCode/superpowers-zh/blob/main/skills/finishing-a-development-branch/SKILL.md",
+      "description": "当实现完成、所有测试通过、需要决定如何集成工作时使用——通过提供合并、PR 或清理等结构化选项来引导开发工作的收尾",
+      "slug": "jnmetacode-finishing-a-development-branch"
+    },
+    {
+      "repository": "jnMetaCode/superpowers-zh",
+      "branch": "main",
+      "skillName": "mcp-builder",
+      "path": "skills/mcp-builder/SKILL.md",
+      "url": "https://github.com/jnMetaCode/superpowers-zh/blob/main/skills/mcp-builder/SKILL.md",
+      "description": "MCP 服务器构建方法论 — 系统化构建生产级 MCP 工具，让 AI 助手连接外部能力",
+      "slug": "jnmetacode-mcp-builder"
+    },
+    {
+      "repository": "jnMetaCode/superpowers-zh",
+      "branch": "main",
+      "skillName": "receiving-code-review",
+      "path": "skills/receiving-code-review/SKILL.md",
+      "url": "https://github.com/jnMetaCode/superpowers-zh/blob/main/skills/receiving-code-review/SKILL.md",
+      "description": "收到代码审查反馈后、实施建议之前使用，尤其当反馈不明确或技术上有疑问时——需要技术严谨性和验证，而非敷衍附和或盲目执行",
+      "slug": "jnmetacode-receiving-code-review"
+    },
+    {
+      "repository": "jnMetaCode/superpowers-zh",
+      "branch": "main",
+      "skillName": "requesting-code-review",
+      "path": "skills/requesting-code-review/SKILL.md",
+      "url": "https://github.com/jnMetaCode/superpowers-zh/blob/main/skills/requesting-code-review/SKILL.md",
+      "description": "完成任务、实现重要功能或合并前使用，用于验证工作成果是否符合要求",
+      "slug": "jnmetacode-requesting-code-review"
+    },
+    {
+      "repository": "jnMetaCode/superpowers-zh",
+      "branch": "main",
+      "skillName": "subagent-driven-development",
+      "path": "skills/subagent-driven-development/SKILL.md",
+      "url": "https://github.com/jnMetaCode/superpowers-zh/blob/main/skills/subagent-driven-development/SKILL.md",
+      "description": "当在当前会话中执行包含独立任务的实现计划时使用",
+      "slug": "jnmetacode-subagent-driven-development"
+    },
+    {
+      "repository": "jnMetaCode/superpowers-zh",
+      "branch": "main",
+      "skillName": "systematic-debugging",
+      "path": "skills/systematic-debugging/SKILL.md",
+      "url": "https://github.com/jnMetaCode/superpowers-zh/blob/main/skills/systematic-debugging/SKILL.md",
+      "description": "遇到任何 bug、测试失败或异常行为时使用，在提出修复方案之前执行",
+      "slug": "jnmetacode-systematic-debugging"
+    },
+    {
+      "repository": "jnMetaCode/superpowers-zh",
+      "branch": "main",
+      "skillName": "test-driven-development",
+      "path": "skills/test-driven-development/SKILL.md",
+      "url": "https://github.com/jnMetaCode/superpowers-zh/blob/main/skills/test-driven-development/SKILL.md",
+      "description": "在实现任何功能或修复 bug 时使用，在编写实现代码之前",
+      "slug": "jnmetacode-test-driven-development"
+    },
+    {
+      "repository": "jnMetaCode/superpowers-zh",
+      "branch": "main",
+      "skillName": "using-git-worktrees",
+      "path": "skills/using-git-worktrees/SKILL.md",
+      "url": "https://github.com/jnMetaCode/superpowers-zh/blob/main/skills/using-git-worktrees/SKILL.md",
+      "description": "当需要开始与当前工作区隔离的功能开发，或在执行实现计划之前使用——通过原生工具或 git worktree 回退机制确保隔离工作区存在",
+      "slug": "jnmetacode-using-git-worktrees"
+    },
+    {
+      "repository": "jnMetaCode/superpowers-zh",
+      "branch": "main",
+      "skillName": "using-superpowers",
+      "path": "skills/using-superpowers/SKILL.md",
+      "url": "https://github.com/jnMetaCode/superpowers-zh/blob/main/skills/using-superpowers/SKILL.md",
+      "description": "在开始任何对话时使用——确立如何查找和使用技能，要求在任何响应（包括澄清性问题）之前调用 Skill 工具",
+      "slug": "jnmetacode-using-superpowers"
+    },
+    {
+      "repository": "jnMetaCode/superpowers-zh",
+      "branch": "main",
+      "skillName": "verification-before-completion",
+      "path": "skills/verification-before-completion/SKILL.md",
+      "url": "https://github.com/jnMetaCode/superpowers-zh/blob/main/skills/verification-before-completion/SKILL.md",
+      "description": "在宣称工作完成、已修复或测试通过之前使用，在提交或创建 PR 之前——必须运行验证命令并确认输出后才能声称成功；始终用证据支撑断言",
+      "slug": "jnmetacode-verification-before-completion"
+    },
+    {
+      "repository": "jnMetaCode/superpowers-zh",
+      "branch": "main",
+      "skillName": "workflow-runner",
+      "path": "skills/workflow-runner/SKILL.md",
+      "url": "https://github.com/jnMetaCode/superpowers-zh/blob/main/skills/workflow-runner/SKILL.md",
+      "description": "在 Claude Code / OpenClaw / Cursor 中直接运行 agency-orchestrator YAML 工作流——无需 API key，使用当前会话的 LLM 作为执行引擎。当用户提供 .yaml 工作流文件或要求多角色协作完成任务时触发。",
+      "slug": "jnmetacode-workflow-runner"
+    },
+    {
+      "repository": "jnMetaCode/superpowers-zh",
+      "branch": "main",
+      "skillName": "writing-plans",
+      "path": "skills/writing-plans/SKILL.md",
+      "url": "https://github.com/jnMetaCode/superpowers-zh/blob/main/skills/writing-plans/SKILL.md",
+      "description": "当你有规格说明或需求用于多步骤任务时使用，在动手写代码之前",
+      "slug": "jnmetacode-writing-plans"
+    },
+    {
+      "repository": "jnMetaCode/superpowers-zh",
+      "branch": "main",
+      "skillName": "writing-skills",
+      "path": "skills/writing-skills/SKILL.md",
+      "url": "https://github.com/jnMetaCode/superpowers-zh/blob/main/skills/writing-skills/SKILL.md",
+      "description": "当创建新技能、编辑现有技能或在部署前验证技能是否有效时使用",
+      "slug": "jnmetacode-writing-skills"
+    }
+  ],
+  "itemCount": 21,
+  "lastStatus": "reused-unchanged"
+}

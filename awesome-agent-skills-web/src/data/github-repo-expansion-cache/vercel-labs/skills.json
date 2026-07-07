@@ -1,0 +1,36 @@
+{
+  "repository": "vercel-labs/skills",
+  "branch": "main",
+  "defaultBranch": "main",
+  "pushedAt": "2026-07-07T03:32:51Z",
+  "scannedAt": "2026-07-07T09:04:22.813Z",
+  "treeSha": "4ce6d48ac44c8b637db87b2102fea3baca719df1",
+  "items": [
+    {
+      "repository": "vercel-labs/skills",
+      "branch": "main",
+      "skillName": "skills",
+      "path": "README.md",
+      "url": "https://github.com/vercel-labs/skills",
+      "description": "The open agent skills tool - npx skills",
+      "slug": "vercel-labs-skills-collection",
+      "isCollection": true,
+      "stars": 25311,
+      "skillPaths": [
+        "skills/find-skills/SKILL.md"
+      ]
+    },
+    {
+      "repository": "vercel-labs/skills",
+      "branch": "main",
+      "skillName": "find-skills",
+      "path": "skills/find-skills/SKILL.md",
+      "url": "https://github.com/vercel-labs/skills/blob/main/skills/find-skills/SKILL.md",
+      "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.",
+      "slug": "vercel-labs-find-skills"
+    }
+  ],
+  "itemCount": 2,
+  "publicSkillCount": 1,
+  "lastStatus": "scanned"
+}

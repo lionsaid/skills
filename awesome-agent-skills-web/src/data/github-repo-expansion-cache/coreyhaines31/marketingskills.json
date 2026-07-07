@@ -2,9 +2,9 @@
   "repository": "coreyhaines31/marketingskills",
   "branch": "main",
   "defaultBranch": "main",
-  "pushedAt": "2026-06-28T22:30:39Z",
-  "scannedAt": "2026-06-30T00:37:30.901Z",
-  "treeSha": "8bfcdffb655f16e713940cd04fb08891899c47db",
+  "pushedAt": "2026-07-06T22:49:02Z",
+  "scannedAt": "2026-07-07T09:04:02.105Z",
+  "treeSha": "6c6017451dcd340f3aaab3e354e28eed8aa782aa",
   "items": [
     {
       "repository": "coreyhaines31/marketingskills",
@@ -15,7 +15,7 @@
       "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
       "slug": "coreyhaines31-marketingskills-collection",
       "isCollection": true,
-      "stars": null,
+      "stars": 36933,
       "skillPaths": [
         "skills/ab-testing/SKILL.md",
         "skills/ad-creative/SKILL.md",
@@ -40,7 +40,9 @@
         "skills/image/SKILL.md",
         "skills/launch/SKILL.md",
         "skills/lead-magnets/SKILL.md",
+        "skills/marketing-council/SKILL.md",
         "skills/marketing-ideas/SKILL.md",
+        "skills/marketing-loops/SKILL.md",
         "skills/marketing-plan/SKILL.md",
         "skills/marketing-psychology/SKILL.md",
         "skills/offers/SKILL.md",
@@ -274,11 +276,29 @@
     {
       "repository": "coreyhaines31/marketingskills",
       "branch": "main",
+      "skillName": "marketing-council",
+      "path": "skills/marketing-council/SKILL.md",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/marketing-council/SKILL.md",
+      "description": "When the user wants multiple expert perspectives on a marketing question — a simulated board of advisors staffed by legendary marketers (Seth Godin, David Ogilvy, Eugene Schwartz, April Dunford, Rory Sutherland, Alex Hormozi, Byron Sharp, and more). Also use when the user mentions 'marketing council,' 'board of advisors,' 'advisory board,' 'what would Seth Godin say,' 'what would Ogilvy think,' 'channel Hormozi,' 'get multiple perspectives,' 'debate this,' 'have the council review,' 'marketing mentors,' or asks how a famous marketer would approach their problem. The council gives each advisor's take through their documented frameworks, surfaces where they disagree, and synthesizes a recommendation. For executing the winning direction, hand off to positioning, offers, copywriting, ads, or the relevant skill.",
+      "slug": "coreyhaines31-marketing-council"
+    },
+    {
+      "repository": "coreyhaines31/marketingskills",
+      "branch": "main",
       "skillName": "marketing-ideas",
       "path": "skills/marketing-ideas/SKILL.md",
       "url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/marketing-ideas/SKILL.md",
       "description": "When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the user asks for 'marketing ideas,' 'growth ideas,' 'how to market,' 'marketing strategies,' 'marketing tactics,' 'ways to promote,' 'ideas to grow,' 'what else can I try,' 'I don't know how to market this,' 'brainstorm marketing,' or 'what marketing should I do.' Use this as a starting point whenever someone is stuck or looking for inspiration on how to grow. For specific channel execution, see the relevant skill (ads, social, emails, etc.).",
       "slug": "coreyhaines31-marketing-ideas"
+    },
+    {
+      "repository": "coreyhaines31/marketingskills",
+      "branch": "main",
+      "skillName": "marketing-loops",
+      "path": "skills/marketing-loops/SKILL.md",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/marketing-loops/SKILL.md",
+      "description": "When the user wants to set up a recurring, self-running marketing workflow — a repeatable loop an AI agent runs on a cadence (weekly, daily, on a trigger) rather than a one-off task. Also use when the user mentions 'marketing loop,' 'recurring marketing workflow,' 'automate my marketing,' 'marketing on autopilot,' 'weekly marketing review,' 'ad fatigue check,' 'content refresh loop,' 'churn watch,' 'ranking drop alert,' 'always-on marketing,' 'marketing automation workflow,' or 'run this every week.' Use this to pick, adapt, and schedule an ongoing marketing loop that orchestrates the other marketing skills. For one-off marketing ideas, see marketing-ideas. For the experimentation loop specifically, see ab-testing.",
+      "slug": "coreyhaines31-marketing-loops"
     },
     {
       "repository": "coreyhaines31/marketingskills",
@@ -470,6 +490,7 @@
       "slug": "coreyhaines31-video"
     }
   ],
-  "itemCount": 46,
-  "lastStatus": "cache-fresh"
+  "itemCount": 48,
+  "publicSkillCount": 47,
+  "lastStatus": "scanned"
 }

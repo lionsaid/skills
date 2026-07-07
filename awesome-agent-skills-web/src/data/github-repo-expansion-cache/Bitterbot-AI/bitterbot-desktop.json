@@ -1,0 +1,616 @@
+{
+  "repository": "Bitterbot-AI/bitterbot-desktop",
+  "branch": "main",
+  "defaultBranch": "main",
+  "pushedAt": "2026-07-06T21:16:49Z",
+  "scannedAt": "2026-07-07T09:06:48.023Z",
+  "treeSha": "907498b2a1efc0fa3b9e5ba4c2bdca457f7869dd",
+  "items": [
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "bitterbot-desktop",
+      "path": "README.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop",
+      "description": "A local-first AI agent with persistent memory, emotional intelligence, and a peer-to-peer skills economy.",
+      "slug": "bitterbot-ai-bitterbot-desktop-collection",
+      "isCollection": true,
+      "stars": 2422,
+      "skillPaths": [
+        "skills/1password/SKILL.md",
+        "skills/apple-notes/SKILL.md",
+        "skills/apple-reminders/SKILL.md",
+        "skills/bear-notes/SKILL.md",
+        "skills/blogwatcher/SKILL.md",
+        "skills/blucli/SKILL.md",
+        "skills/bluebubbles/SKILL.md",
+        "skills/calibrate-claim-confidence/SKILL.md",
+        "skills/camsnap/SKILL.md",
+        "skills/canvas/SKILL.md",
+        "skills/clawhub/SKILL.md",
+        "skills/coding-agent/SKILL.md",
+        "skills/discord/SKILL.md",
+        "skills/eightctl/SKILL.md",
+        "skills/finance-data/SKILL.md",
+        "skills/food-order/SKILL.md",
+        "skills/gemini/SKILL.md",
+        "skills/gifgrep/SKILL.md",
+        "skills/github/SKILL.md",
+        "skills/gog/SKILL.md",
+        "skills/goplaces/SKILL.md",
+        "skills/healthcheck/SKILL.md",
+        "skills/himalaya/SKILL.md",
+        "skills/imsg/SKILL.md",
+        "skills/mcporter/SKILL.md",
+        "skills/model-usage/SKILL.md",
+        "skills/moltbook/SKILL.md",
+        "skills/nano-banana-pro/SKILL.md",
+        "skills/nano-pdf/SKILL.md",
+        "skills/notion/SKILL.md",
+        "skills/notte/SKILL.md",
+        "skills/obsidian/SKILL.md",
+        "skills/openai-image-gen/SKILL.md",
+        "skills/openai-whisper-api/SKILL.md",
+        "skills/openai-whisper/SKILL.md",
+        "skills/openhue/SKILL.md",
+        "skills/oracle/SKILL.md",
+        "skills/ordercli/SKILL.md",
+        "skills/peekaboo/SKILL.md",
+        "skills/protocol-quiet-in-groups/SKILL.md",
+        "skills/recall-before-claim/SKILL.md",
+        "skills/route-by-query-shape/SKILL.md",
+        "skills/sag/SKILL.md",
+        "skills/session-logs/SKILL.md",
+        "skills/sherpa-onnx-tts/SKILL.md",
+        "skills/skill-creator/SKILL.md",
+        "skills/slack/SKILL.md",
+        "skills/social-data/SKILL.md",
+        "skills/songsee/SKILL.md",
+        "skills/sonoscli/SKILL.md",
+        "skills/spotify-player/SKILL.md",
+        "skills/summarize/SKILL.md",
+        "skills/things-mac/SKILL.md",
+        "skills/tmux/SKILL.md",
+        "skills/trello/SKILL.md",
+        "skills/video-frames/SKILL.md",
+        "skills/voice-call/SKILL.md",
+        "skills/wacli/SKILL.md",
+        "skills/weather/SKILL.md"
+      ]
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "1password",
+      "path": "skills/1password/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/1password/SKILL.md",
+      "description": "Set up and use 1Password CLI (op). Use when installing the CLI, enabling desktop app integration, signing in (single or multi-account), or reading/injecting/running secrets via op.",
+      "slug": "bitterbot-ai-1password"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "apple-notes",
+      "path": "skills/apple-notes/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/apple-notes/SKILL.md",
+      "description": "Manage Apple Notes via the `memo` CLI on macOS (create, view, edit, delete, search, move, and export notes). Use when a user asks Bitterbot to add a note, list notes, search notes, or manage note folders.",
+      "slug": "bitterbot-ai-apple-notes"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "apple-reminders",
+      "path": "skills/apple-reminders/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/apple-reminders/SKILL.md",
+      "description": "Manage Apple Reminders via the `remindctl` CLI on macOS (list, add, edit, complete, delete). Supports lists, date filters, and JSON/plain output.",
+      "slug": "bitterbot-ai-apple-reminders"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "bear-notes",
+      "path": "skills/bear-notes/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/bear-notes/SKILL.md",
+      "description": "Create, search, and manage Bear notes via grizzly CLI.",
+      "slug": "bitterbot-ai-bear-notes"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "blogwatcher",
+      "path": "skills/blogwatcher/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/blogwatcher/SKILL.md",
+      "description": "Monitor blogs and RSS/Atom feeds for updates using the blogwatcher CLI.",
+      "slug": "bitterbot-ai-blogwatcher"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "blucli",
+      "path": "skills/blucli/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/blucli/SKILL.md",
+      "description": "BluOS CLI (blu) for discovery, playback, grouping, and volume.",
+      "slug": "bitterbot-ai-blucli"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "bluebubbles",
+      "path": "skills/bluebubbles/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/bluebubbles/SKILL.md",
+      "description": "Use when you need to send or manage iMessages via BlueBubbles (recommended iMessage integration). Calls go through the generic message tool with channel=\"bluebubbles\".",
+      "slug": "bitterbot-ai-bluebubbles"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "calibrate-claim-confidence",
+      "path": "skills/calibrate-claim-confidence/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/calibrate-claim-confidence/SKILL.md",
+      "description": "When the agent's epistemic state (GCCRF) indicates low empowerment and falling certainty, hedges out confident absolutes (\"definitely\", \"always\", \"100%\") in outgoing messages.",
+      "slug": "bitterbot-ai-calibrate-claim-confidence"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "camsnap",
+      "path": "skills/camsnap/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/camsnap/SKILL.md",
+      "description": "Capture frames or clips from RTSP/ONVIF cameras.",
+      "slug": "bitterbot-ai-camsnap"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "canvas",
+      "path": "skills/canvas/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/canvas/SKILL.md",
+      "description": "Display and control HTML content on connected Bitterbot nodes (Mac, iOS, Android) via the canvas host server. Use when presenting games, visualizations, dashboards, or interactive demos on a connected device, navigating canvas URLs, capturing canvas snapshots, or debugging canvas connectivity.",
+      "slug": "bitterbot-ai-canvas"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "clawhub",
+      "path": "skills/clawhub/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/clawhub/SKILL.md",
+      "description": "Use the ClawHub CLI to search, install, update, and publish agent skills from clawhub.com. Use when you need to fetch new skills on the fly, sync installed skills to latest or a specific version, or publish new/updated skill folders with the npm-installed clawhub CLI.",
+      "slug": "bitterbot-ai-clawhub"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "coding-agent",
+      "path": "skills/coding-agent/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/coding-agent/SKILL.md",
+      "description": "Run Codex CLI, Claude Code, OpenCode, or Pi Coding Agent via background process for programmatic control.",
+      "slug": "bitterbot-ai-coding-agent"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "discord",
+      "path": "skills/discord/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/discord/SKILL.md",
+      "description": "Send, read, edit, delete, and search Discord messages, reactions, polls, pins, and threads via the message tool. Use when interacting with Discord channels, sending media or embeds, creating polls or threads, managing presence, or moderating messages.",
+      "slug": "bitterbot-ai-discord"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "eightctl",
+      "path": "skills/eightctl/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/eightctl/SKILL.md",
+      "description": "Control Eight Sleep pods (status, temperature, alarms, schedules).",
+      "slug": "bitterbot-ai-eightctl"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "finance-data",
+      "path": "skills/finance-data/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/finance-data/SKILL.md",
+      "description": "Get stock quotes, company info, market data, and crypto prices. No API key needed.",
+      "slug": "bitterbot-ai-finance-data"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "food-order",
+      "path": "skills/food-order/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/food-order/SKILL.md",
+      "description": "Reorder previous Foodora orders, preview cart contents, and track delivery ETA/status with ordercli. Use when the user wants to reorder food, check delivery status, or browse recent Foodora order history. Never confirm an order without explicit user approval.",
+      "slug": "bitterbot-ai-food-order"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "gemini",
+      "path": "skills/gemini/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/gemini/SKILL.md",
+      "description": "Gemini CLI for one-shot Q&A, summaries, and generation.",
+      "slug": "bitterbot-ai-gemini"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "gifgrep",
+      "path": "skills/gifgrep/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/gifgrep/SKILL.md",
+      "description": "Search GIF providers with CLI/TUI, download results, and extract stills/sheets.",
+      "slug": "bitterbot-ai-gifgrep"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "github",
+      "path": "skills/github/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/github/SKILL.md",
+      "description": "Interact with GitHub using the `gh` CLI. Use `gh issue`, `gh pr`, `gh run`, and `gh api` for issues, PRs, CI runs, and advanced queries.",
+      "slug": "bitterbot-ai-github"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "gog",
+      "path": "skills/gog/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/gog/SKILL.md",
+      "description": "Search, send, and draft Gmail messages, manage Google Calendar events, query Drive and Contacts, and read/write Google Sheets and Docs via the gog CLI. Use when the user asks to send email, check their calendar, search Drive files, read a spreadsheet, or export a Google Doc.",
+      "slug": "bitterbot-ai-gog"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "goplaces",
+      "path": "skills/goplaces/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/goplaces/SKILL.md",
+      "description": "Query Google Places API (New) via the goplaces CLI for text search, place details, resolve, and reviews. Use for human-friendly place lookup or JSON output for scripts.",
+      "slug": "bitterbot-ai-goplaces"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "healthcheck",
+      "path": "skills/healthcheck/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/healthcheck/SKILL.md",
+      "description": "Host security hardening and risk-tolerance configuration for Bitterbot deployments. Use when a user asks for security audits, firewall/SSH/update hardening, risk posture, exposure review, Bitterbot cron scheduling for periodic checks, or version status checks on a machine running Bitterbot (laptop, workstation, Pi, VPS).",
+      "slug": "bitterbot-ai-healthcheck"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "himalaya",
+      "path": "skills/himalaya/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/himalaya/SKILL.md",
+      "description": "CLI to manage emails via IMAP/SMTP. Use `himalaya` to list, read, write, reply, forward, search, and organize emails from the terminal. Supports multiple accounts and message composition with MML (MIME Meta Language).",
+      "slug": "bitterbot-ai-himalaya"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "imsg",
+      "path": "skills/imsg/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/imsg/SKILL.md",
+      "description": "iMessage/SMS CLI for listing chats, history, watch, and sending.",
+      "slug": "bitterbot-ai-imsg"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "mcporter",
+      "path": "skills/mcporter/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/mcporter/SKILL.md",
+      "description": "Use the mcporter CLI to list, configure, auth, and call MCP servers/tools directly (HTTP or stdio), including ad-hoc servers, config edits, and CLI/type generation.",
+      "slug": "bitterbot-ai-mcporter"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "model-usage",
+      "path": "skills/model-usage/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/model-usage/SKILL.md",
+      "description": "Use CodexBar CLI local cost usage to summarize per-model usage for Codex or Claude, including the current (most recent) model or a full model breakdown. Trigger when asked for model-level usage/cost data from codexbar, or when you need a scriptable per-model summary from codexbar cost JSON.",
+      "slug": "bitterbot-ai-model-usage"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "moltbook",
+      "path": "skills/moltbook/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/moltbook/SKILL.md",
+      "description": ">",
+      "slug": "bitterbot-ai-moltbook"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "nano-banana-pro",
+      "path": "skills/nano-banana-pro/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/nano-banana-pro/SKILL.md",
+      "description": "Generate or edit images via Gemini 3 Pro Image (Nano Banana Pro).",
+      "slug": "bitterbot-ai-nano-banana-pro"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "nano-pdf",
+      "path": "skills/nano-pdf/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/nano-pdf/SKILL.md",
+      "description": "Edit PDFs with natural-language instructions using the nano-pdf CLI.",
+      "slug": "bitterbot-ai-nano-pdf"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "notion",
+      "path": "skills/notion/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/notion/SKILL.md",
+      "description": "Notion API for creating and managing pages, databases, and blocks.",
+      "slug": "bitterbot-ai-notion"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "notte",
+      "path": "skills/notte/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/notte/SKILL.md",
+      "description": "Deploy browser automations as scheduled, API-callable serverless Functions — plus stealth sessions, vault-backed login, captcha solving, and natural-language agent runs via the Notte CLI. Turns any browser flow into a deterministic Bitterbot-callable endpoint, ideal for crystallized skills + dream-engine cron schedules.",
+      "slug": "bitterbot-ai-notte"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "obsidian",
+      "path": "skills/obsidian/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/obsidian/SKILL.md",
+      "description": "Work with Obsidian vaults (plain Markdown notes) and automate via obsidian-cli.",
+      "slug": "bitterbot-ai-obsidian"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "openai-image-gen",
+      "path": "skills/openai-image-gen/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/openai-image-gen/SKILL.md",
+      "description": "Batch-generate images via OpenAI Images API. Random prompt sampler + `index.html` gallery.",
+      "slug": "bitterbot-ai-openai-image-gen"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "openai-whisper-api",
+      "path": "skills/openai-whisper-api/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/openai-whisper-api/SKILL.md",
+      "description": "Transcribe audio via OpenAI Audio Transcriptions API (Whisper).",
+      "slug": "bitterbot-ai-openai-whisper-api"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "openai-whisper",
+      "path": "skills/openai-whisper/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/openai-whisper/SKILL.md",
+      "description": "Local speech-to-text with the Whisper CLI (no API key).",
+      "slug": "bitterbot-ai-openai-whisper"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "openhue",
+      "path": "skills/openhue/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/openhue/SKILL.md",
+      "description": "Control Philips Hue lights/scenes via the OpenHue CLI.",
+      "slug": "bitterbot-ai-openhue"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "oracle",
+      "path": "skills/oracle/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/oracle/SKILL.md",
+      "description": "Best practices for using the oracle CLI (prompt + file bundling, engines, sessions, and file attachment patterns).",
+      "slug": "bitterbot-ai-oracle"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "ordercli",
+      "path": "skills/ordercli/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/ordercli/SKILL.md",
+      "description": "Foodora-only CLI for checking past orders and active order status (Deliveroo WIP).",
+      "slug": "bitterbot-ai-ordercli"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "peekaboo",
+      "path": "skills/peekaboo/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/peekaboo/SKILL.md",
+      "description": "Capture screenshots, inspect UI elements, drive mouse/keyboard input, and manage macOS apps and windows with the Peekaboo CLI. Use when automating macOS UI interactions, taking annotated screenshots, clicking UI elements by ID, typing text, controlling app windows, or navigating menus and Dock items.",
+      "slug": "bitterbot-ai-peekaboo"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "protocol-quiet-in-groups",
+      "path": "skills/protocol-quiet-in-groups/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/protocol-quiet-in-groups/SKILL.md",
+      "description": "Enforces PROTOCOLS.md \"stay quiet in group chats\" deterministically. Blocks outbound messages in Discord/Telegram/Slack/etc group channels when the bot was not @mentioned and recently spoke.",
+      "slug": "bitterbot-ai-protocol-quiet-in-groups"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "recall-before-claim",
+      "path": "skills/recall-before-claim/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/recall-before-claim/SKILL.md",
+      "description": "Forces a memory_search before the agent sends a message containing a factual assertion that has not yet been grounded this turn. Closes the citation-rate gap from ~40% to ~90%+.",
+      "slug": "bitterbot-ai-recall-before-claim"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "route-by-query-shape",
+      "path": "skills/route-by-query-shape/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/route-by-query-shape/SKILL.md",
+      "description": "When the agent calls memory_search with a relationship-shaped query (\"who did I talk to about X\"), redirect to the knowledge_graph backend where it will actually find the answer.",
+      "slug": "bitterbot-ai-route-by-query-shape"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "sag",
+      "path": "skills/sag/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/sag/SKILL.md",
+      "description": "ElevenLabs text-to-speech with mac-style say UX.",
+      "slug": "bitterbot-ai-sag"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "session-logs",
+      "path": "skills/session-logs/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/session-logs/SKILL.md",
+      "description": "Search and analyze your own session logs (older/parent conversations) using jq.",
+      "slug": "bitterbot-ai-session-logs"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "sherpa-onnx-tts",
+      "path": "skills/sherpa-onnx-tts/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/sherpa-onnx-tts/SKILL.md",
+      "description": "Local text-to-speech via sherpa-onnx (offline, no cloud)",
+      "slug": "bitterbot-ai-sherpa-onnx-tts"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "skill-creator",
+      "path": "skills/skill-creator/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/skill-creator/SKILL.md",
+      "description": "Create or update AgentSkills. Use when designing, structuring, or packaging skills with scripts, references, and assets.",
+      "slug": "bitterbot-ai-skill-creator"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "slack",
+      "path": "skills/slack/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/slack/SKILL.md",
+      "description": "Use when you need to control Slack from Bitterbot via the slack tool, including reacting to messages or pinning/unpinning items in Slack channels or DMs.",
+      "slug": "bitterbot-ai-slack"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "social-data",
+      "path": "skills/social-data/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/social-data/SKILL.md",
+      "description": "Search and fetch social media data from Twitter/X, Reddit, and Hacker News.",
+      "slug": "bitterbot-ai-social-data"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "songsee",
+      "path": "skills/songsee/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/songsee/SKILL.md",
+      "description": "Generate spectrograms and feature-panel visualizations from audio with the songsee CLI.",
+      "slug": "bitterbot-ai-songsee"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "sonoscli",
+      "path": "skills/sonoscli/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/sonoscli/SKILL.md",
+      "description": "Control Sonos speakers (discover/status/play/volume/group).",
+      "slug": "bitterbot-ai-sonoscli"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "spotify-player",
+      "path": "skills/spotify-player/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/spotify-player/SKILL.md",
+      "description": "Terminal Spotify playback/search via spogo (preferred) or spotify_player.",
+      "slug": "bitterbot-ai-spotify-player"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "summarize",
+      "path": "skills/summarize/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/summarize/SKILL.md",
+      "description": "Summarize or extract text/transcripts from URLs, podcasts, and local files (great fallback for “transcribe this YouTube/video”).",
+      "slug": "bitterbot-ai-summarize"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "things-mac",
+      "path": "skills/things-mac/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/things-mac/SKILL.md",
+      "description": "Manage Things 3 via the `things` CLI on macOS (add/update projects+todos via URL scheme; read/search/list from the local Things database). Use when a user asks Bitterbot to add a task to Things, list inbox/today/upcoming, search tasks, or inspect projects/areas/tags.",
+      "slug": "bitterbot-ai-things-mac"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "tmux",
+      "path": "skills/tmux/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/tmux/SKILL.md",
+      "description": "Remote-control tmux sessions for interactive CLIs by sending keystrokes and scraping pane output.",
+      "slug": "bitterbot-ai-tmux"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "trello",
+      "path": "skills/trello/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/trello/SKILL.md",
+      "description": "Manage Trello boards, lists, and cards via the Trello REST API.",
+      "slug": "bitterbot-ai-trello"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "video-frames",
+      "path": "skills/video-frames/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/video-frames/SKILL.md",
+      "description": "Extract frames or short clips from videos using ffmpeg.",
+      "slug": "bitterbot-ai-video-frames"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "voice-call",
+      "path": "skills/voice-call/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/voice-call/SKILL.md",
+      "description": "Start voice calls via the Bitterbot voice-call plugin.",
+      "slug": "bitterbot-ai-voice-call"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "wacli",
+      "path": "skills/wacli/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/wacli/SKILL.md",
+      "description": "Send WhatsApp messages to other people or search/sync WhatsApp history via the wacli CLI (not for normal user chats).",
+      "slug": "bitterbot-ai-wacli"
+    },
+    {
+      "repository": "Bitterbot-AI/bitterbot-desktop",
+      "branch": "main",
+      "skillName": "weather",
+      "path": "skills/weather/SKILL.md",
+      "url": "https://github.com/Bitterbot-AI/bitterbot-desktop/blob/main/skills/weather/SKILL.md",
+      "description": "Get current weather and forecasts (no API key required).",
+      "slug": "bitterbot-ai-weather"
+    }
+  ],
+  "itemCount": 60,
+  "publicSkillCount": 59,
+  "lastStatus": "scanned"
+}

@@ -1,0 +1,236 @@
+{
+  "repository": "zhaoxuya520/reverse-skill",
+  "branch": "main",
+  "defaultBranch": "main",
+  "pushedAt": "2026-07-06T16:08:26Z",
+  "scannedAt": "2026-07-07T09:05:11.795Z",
+  "treeSha": "9ec60377bfdcafa0b317ed3612acc6c46270be78",
+  "items": [
+    {
+      "repository": "zhaoxuya520/reverse-skill",
+      "branch": "main",
+      "skillName": "reverse-skill",
+      "path": "README.md",
+      "url": "https://github.com/zhaoxuya520/reverse-skill",
+      "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base  Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
+      "slug": "zhaoxuya520-reverse-skill-collection",
+      "isCollection": true,
+      "stars": 7569,
+      "skillPaths": [
+        "skills/api-security/SKILL.md",
+        "skills/apk-reverse/SKILL.md",
+        "skills/attack-chain/SKILL.md",
+        "skills/binary-diff/SKILL.md",
+        "skills/browser-automation/SKILL.md",
+        "skills/diagram-generator/SKILL.md",
+        "skills/docs-generator/SKILL.md",
+        "skills/dotnet-reverse/SKILL.md",
+        "skills/edr-bypass-re/SKILL.md",
+        "skills/firmware-pentest/SKILL.md",
+        "skills/ida-reverse/SKILL.md",
+        "skills/js-reverse/SKILL.md",
+        "skills/llm-security/SKILL.md",
+        "skills/malware-analysis/SKILL.md",
+        "skills/mobile-reverse/SKILL.md",
+        "skills/patch-diff-exploit/SKILL.md",
+        "skills/pentest-tools/SKILL.md",
+        "skills/pwn-chain/SKILL.md",
+        "skills/radare2/SKILL.md",
+        "skills/reverse-engineering/SKILL.md",
+        "skills/supply-chain-security/SKILL.md"
+      ]
+    },
+    {
+      "repository": "zhaoxuya520/reverse-skill",
+      "branch": "main",
+      "skillName": "api-security",
+      "path": "skills/api-security/SKILL.md",
+      "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/api-security/SKILL.md",
+      "description": "API 安全测试",
+      "slug": "zhaoxuya520-api-security"
+    },
+    {
+      "repository": "zhaoxuya520/reverse-skill",
+      "branch": "main",
+      "skillName": "apk-reverse",
+      "path": "skills/apk-reverse/SKILL.md",
+      "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/apk-reverse/SKILL.md",
+      "description": "在 CLI 环境下做 Android APK 逆向时使用。适用于 APK 解包、Java 反编译、smali 修改、重打包、Frida 动态 Hook，以及按需切换到 so/native 分析。优先使用本机已安装的 jadx、apktool、frida、adb、ida-reverse、radare2。",
+      "slug": "zhaoxuya520-apk-reverse"
+    },
+    {
+      "repository": "zhaoxuya520/reverse-skill",
+      "branch": "main",
+      "skillName": "attack-chain",
+      "path": "skills/attack-chain/SKILL.md",
+      "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/attack-chain/SKILL.md",
+      "description": "Attack Chain Orchestration Skill",
+      "slug": "zhaoxuya520-attack-chain"
+    },
+    {
+      "repository": "zhaoxuya520/reverse-skill",
+      "branch": "main",
+      "skillName": "binary-diff",
+      "path": "skills/binary-diff/SKILL.md",
+      "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/binary-diff/SKILL.md",
+      "description": "|",
+      "slug": "zhaoxuya520-binary-diff"
+    },
+    {
+      "repository": "zhaoxuya520/reverse-skill",
+      "branch": "main",
+      "skillName": "browser-automation",
+      "path": "skills/browser-automation/SKILL.md",
+      "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/browser-automation/SKILL.md",
+      "description": "--- name: browser-automation description: 统一自动化入口。覆盖浏览器自动化（Playwright）和 Windows 桌面应用自动化（OpenReverse）。 浏览器场景：打开网页、点击、填表、爬取、截图、自动化登录、渗透页面交互。 桌面场景：操作 IDA/x64dbg 等 GUI 工具、Windows UI Automation、视觉驱动交互、桌面应用网络抓包。 触发关键词：浏览器自动化、桌面自动化、打开网页、填表、爬取、截图、自动化登录、Playwright、agent-browser、headless、OpenReverse、UIA、CUA、桌面操作、Windows 自动化。 ---",
+      "slug": "zhaoxuya520-browser-automation"
+    },
+    {
+      "repository": "zhaoxuya520/reverse-skill",
+      "branch": "main",
+      "skillName": "diagram-generator",
+      "path": "skills/diagram-generator/SKILL.md",
+      "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/diagram-generator/SKILL.md",
+      "description": "generate, refine, validate, and render diagrams from natural language, notes, code snippets, schemas, tables, or existing diagram source. use for flowcharts, swimlanes, sequence diagrams, state diagrams, er diagrams, class diagrams, architecture/c4-style diagrams, dependency graphs, gantt charts, mind maps, user journeys, sankey-style flows, org charts, network graphs, and other visual models. supports mermaid by default, graphviz dot for complex graph layout, plantuml for uml-heavy engineering diagrams, and svg output when direct markup is more reliable.",
+      "slug": "zhaoxuya520-diagram-generator"
+    },
+    {
+      "repository": "zhaoxuya520/reverse-skill",
+      "branch": "main",
+      "skillName": "docs-generator",
+      "path": "skills/docs-generator/SKILL.md",
+      "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/docs-generator/SKILL.md",
+      "description": "--- name: docs-generator description: Creates task-oriented technical documentation with progressive disclosure. Use when writing READMEs, API docs, architecture docs, or markdown documentation. Also use this skill at the END of any completed reverse engineering, penetration testing, CTF, or security analysis task to generate a formal report in the user's project directory. Trigger keywords: 写报告, 写文档, 出报告, writeup, 技术文档, report, documentation. ---",
+      "slug": "zhaoxuya520-docs-generator"
+    },
+    {
+      "repository": "zhaoxuya520/reverse-skill",
+      "branch": "main",
+      "skillName": "dotnet-reverse",
+      "path": "skills/dotnet-reverse/SKILL.md",
+      "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/dotnet-reverse/SKILL.md",
+      "description": ".NET / C# 二进制逆向。当目标是 .NET assembly（PE 头含 CLR、.exe/.dll 托管程序）、C# 编译产物（含 NativeAOT）、红队 Sharp* 工具（Rubeus / SharpHound / SharpHound 等）、.NET 混淆程序（ConfuserEx / SmartAssembly / Babel / Eazfuscator）、.NET loader / info-stealer / 套壳 malware 时使用。优先用 dnSpyEx + de4dot，需要 AI 直接操作时联动 dnSpy MCP。不用于纯 native 二进制（走 reverse-engineering / ida-reverse）。",
+      "slug": "zhaoxuya520-dotnet-reverse"
+    },
+    {
+      "repository": "zhaoxuya520/reverse-skill",
+      "branch": "main",
+      "skillName": "edr-bypass-re",
+      "path": "skills/edr-bypass-re/SKILL.md",
+      "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/edr-bypass-re/SKILL.md",
+      "description": "|",
+      "slug": "zhaoxuya520-edr-bypass-re"
+    },
+    {
+      "repository": "zhaoxuya520/reverse-skill",
+      "branch": "main",
+      "skillName": "firmware-pentest",
+      "path": "skills/firmware-pentest/SKILL.md",
+      "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/firmware-pentest/SKILL.md",
+      "description": "|",
+      "slug": "zhaoxuya520-firmware-pentest"
+    },
+    {
+      "repository": "zhaoxuya520/reverse-skill",
+      "branch": "main",
+      "skillName": "ida-reverse",
+      "path": "skills/ida-reverse/SKILL.md",
+      "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/ida-reverse/SKILL.md",
+      "description": "|",
+      "slug": "zhaoxuya520-ida-reverse"
+    },
+    {
+      "repository": "zhaoxuya520/reverse-skill",
+      "branch": "main",
+      "skillName": "js-reverse",
+      "path": "skills/js-reverse/SKILL.md",
+      "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/js-reverse/SKILL.md",
+      "description": "--- name: js-reverse description: 在使用 js-reverse-mcp 做前端 JavaScript 逆向时使用，适用于签名链路定位、页面观察取证、运行时采样、本地补环境复现与证据化输出。优先适配当前环境里的 js-reverse 工具，需要更强的浏览器/CDP/Hook 面时联动 jshookmcp。 ---",
+      "slug": "zhaoxuya520-js-reverse"
+    },
+    {
+      "repository": "zhaoxuya520/reverse-skill",
+      "branch": "main",
+      "skillName": "llm-security",
+      "path": "skills/llm-security/SKILL.md",
+      "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/llm-security/SKILL.md",
+      "description": "LLM / AI 安全测试",
+      "slug": "zhaoxuya520-llm-security"
+    },
+    {
+      "repository": "zhaoxuya520/reverse-skill",
+      "branch": "main",
+      "skillName": "malware-analysis",
+      "path": "skills/malware-analysis/SKILL.md",
+      "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/malware-analysis/SKILL.md",
+      "description": "Malware Analysis",
+      "slug": "zhaoxuya520-malware-analysis"
+    },
+    {
+      "repository": "zhaoxuya520/reverse-skill",
+      "branch": "main",
+      "skillName": "mobile-reverse",
+      "path": "skills/mobile-reverse/SKILL.md",
+      "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/mobile-reverse/SKILL.md",
+      "description": "Mobile Reverse Engineering",
+      "slug": "zhaoxuya520-mobile-reverse"
+    },
+    {
+      "repository": "zhaoxuya520/reverse-skill",
+      "branch": "main",
+      "skillName": "patch-diff-exploit",
+      "path": "skills/patch-diff-exploit/SKILL.md",
+      "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/patch-diff-exploit/SKILL.md",
+      "description": "|",
+      "slug": "zhaoxuya520-patch-diff-exploit"
+    },
+    {
+      "repository": "zhaoxuya520/reverse-skill",
+      "branch": "main",
+      "skillName": "pentest-tools",
+      "path": "skills/pentest-tools/SKILL.md",
+      "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/pentest-tools/SKILL.md",
+      "description": "|",
+      "slug": "zhaoxuya520-pentest-tools"
+    },
+    {
+      "repository": "zhaoxuya520/reverse-skill",
+      "branch": "main",
+      "skillName": "pwn-chain",
+      "path": "skills/pwn-chain/SKILL.md",
+      "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/pwn-chain/SKILL.md",
+      "description": "|",
+      "slug": "zhaoxuya520-pwn-chain"
+    },
+    {
+      "repository": "zhaoxuya520/reverse-skill",
+      "branch": "main",
+      "skillName": "radare2",
+      "path": "skills/radare2/SKILL.md",
+      "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/radare2/SKILL.md",
+      "description": "|",
+      "slug": "zhaoxuya520-radare2"
+    },
+    {
+      "repository": "zhaoxuya520/reverse-skill",
+      "branch": "main",
+      "skillName": "reverse-engineering",
+      "path": "skills/reverse-engineering/SKILL.md",
+      "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/reverse-engineering/SKILL.md",
+      "description": "Provides reverse engineering techniques. Use when the main job is to understand how a compiled, obfuscated, packed, or virtualized target works before exploiting or solving it, including binaries, APKs, WASM, firmware, custom VMs, bytecode, malware-like loaders, and anti-debug or anti-analysis logic. Do not use it when the vulnerability is already understood and the remaining task is exploitation; use pwn instead. Do not use it for pure web workflows, log or disk forensics, or standalone crypto problems unless reversing the implementation is the real blocker.",
+      "slug": "zhaoxuya520-reverse-engineering"
+    },
+    {
+      "repository": "zhaoxuya520/reverse-skill",
+      "branch": "main",
+      "skillName": "supply-chain-security",
+      "path": "skills/supply-chain-security/SKILL.md",
+      "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/supply-chain-security/SKILL.md",
+      "description": "Supply Chain Security Testing",
+      "slug": "zhaoxuya520-supply-chain-security"
+    }
+  ],
+  "itemCount": 22,
+  "publicSkillCount": 21,
+  "lastStatus": "scanned"
+}

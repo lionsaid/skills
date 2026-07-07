@@ -1,14 +1,15 @@
 "use client";
 
-import Link from "next/link";
 import { useEffect, useState } from "react";
 import type { ReactNode } from "react";
+import Link from "next/link";
+import { DelayedRouteLink } from "@/components/delayed-skill-link";
 import { LanguageToggle } from "@/components/language-toggle";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { getCopy, prefixLocalePath, type Locale } from "@/lib/i18n";
 
 type SiteHeaderProps = {
-  currentPath?: "/" | "/skills" | "/roles";
+  currentPath?: "/" | "/skills" | "/roles" | null;
   locale: Locale;
 };
 
@@ -98,24 +99,39 @@ function NavButton({
   href: string;
   iconOnly?: boolean;
 }) {
+  const sharedClassName = `inline-flex h-11 justify-self-center items-center justify-center whitespace-nowrap rounded-full text-sm font-medium transition ${
+    iconOnly ? "w-11 p-0" : "w-fit gap-2 px-4"
+  } ${
+    active
+      ? "header-pill-active shadow-sm ring-1 ring-[var(--border-soft)]"
+      : "header-pill hover:bg-[var(--surface-strong)]"
+  }`;
+
+  if (active) {
+    return (
+      <span
+        aria-current="page"
+        aria-label={iconOnly ? "Home" : undefined}
+        className={sharedClassName}
+      >
+        {children}
+      </span>
+    );
+  }
+
   return (
-    <Link
-      aria-label={iconOnly ? "Home" : undefined}
-      className={`inline-flex h-11 justify-self-center items-center justify-center whitespace-nowrap rounded-full text-sm font-medium transition ${
-        iconOnly ? "w-11 p-0" : "w-fit gap-2 px-4"
-      } ${
-        active
-          ? "header-pill-active shadow-sm ring-1 ring-[var(--border-soft)]"
-          : "header-pill hover:bg-[var(--surface-strong)]"
-      }`}
+    <DelayedRouteLink
+      className={sharedClassName}
       href={href}
     >
+      <span aria-label={iconOnly ? "Home" : undefined} className="contents">
       {children}
-    </Link>
+      </span>
+    </DelayedRouteLink>
   );
 }
 
-export function SiteHeader({ currentPath = "/", locale }: SiteHeaderProps) {
+export function SiteHeader({ currentPath = null, locale }: SiteHeaderProps) {
   const [compact, setCompact] = useState(false);
   const copy = getCopy(locale);
 

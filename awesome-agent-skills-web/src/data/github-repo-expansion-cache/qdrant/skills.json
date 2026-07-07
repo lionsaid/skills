@@ -2,9 +2,9 @@
   "repository": "qdrant/skills",
   "branch": "main",
   "defaultBranch": "main",
-  "pushedAt": "2026-06-29T20:14:56Z",
-  "scannedAt": "2026-06-30T00:38:23.795Z",
-  "treeSha": "b3a33ed40b00877802f5defa307e62d435e0838a",
+  "pushedAt": "2026-07-06T20:15:33Z",
+  "scannedAt": "2026-07-07T09:08:01.280Z",
+  "treeSha": "b12b75c01f567eb1f7a3e05a991641627c30998a",
   "items": [
     {
       "repository": "qdrant/skills",
@@ -12,10 +12,10 @@
       "skillName": "skills",
       "path": "README.md",
       "url": "https://github.com/qdrant/skills",
-      "description": "Discovered from a public GitHub repository: qdrant/skills",
+      "description": "Agent skills for Qdrant vector search: scaling, performance optimization, search quality, monitoring, deployment, model migration, version upgrades, and SDK usage across Python, TypeScript, Rust, Go, .NET, Java",
       "slug": "qdrant-skills-collection",
       "isCollection": true,
-      "stars": null,
+      "stars": 189,
       "skillPaths": [
         "skills/qdrant-clients-sdk/SKILL.md",
         "skills/qdrant-deployment-options/SKILL.md",
@@ -101,5 +101,6 @@
     }
   ],
   "itemCount": 9,
-  "lastStatus": "cache-fresh"
+  "publicSkillCount": 8,
+  "lastStatus": "scanned"
 }

@@ -1,0 +1,376 @@
+{
+  "repository": "rohitg00/pro-workflow",
+  "branch": "main",
+  "defaultBranch": "main",
+  "pushedAt": "2026-07-06T20:29:28Z",
+  "scannedAt": "2026-07-07T09:06:39.380Z",
+  "treeSha": "5c313e2c7f4cbb27f6cf7b97e7d2928a26963918",
+  "items": [
+    {
+      "repository": "rohitg00/pro-workflow",
+      "branch": "main",
+      "skillName": "pro-workflow",
+      "path": "README.md",
+      "url": "https://github.com/rohitg00/pro-workflow",
+      "description": "Claude Code learns from your corrections: self-correcting memory that compounds over 50+ sessions. Context engineering, parallel worktrees, agent teams, and 17 battle-tested skills.",
+      "slug": "rohitg00-pro-workflow-collection",
+      "isCollection": true,
+      "stars": 2598,
+      "skillPaths": [
+        "skills/agent-teams/SKILL.md",
+        "skills/auto-setup/SKILL.md",
+        "skills/batch-orchestration/SKILL.md",
+        "skills/bug-capture/SKILL.md",
+        "skills/compact-guard/SKILL.md",
+        "skills/context-engineering/SKILL.md",
+        "skills/context-optimizer/SKILL.md",
+        "skills/cost-tracker/SKILL.md",
+        "skills/deslop/SKILL.md",
+        "skills/file-watcher/SKILL.md",
+        "skills/insights/SKILL.md",
+        "skills/learn-rule/SKILL.md",
+        "skills/llm-council/SKILL.md",
+        "skills/llm-gate/SKILL.md",
+        "skills/mcp-audit/SKILL.md",
+        "skills/module-map/SKILL.md",
+        "skills/orchestrate/SKILL.md",
+        "skills/parallel-worktrees/SKILL.md",
+        "skills/permission-tuner/SKILL.md",
+        "skills/plan-interrogate/SKILL.md",
+        "skills/pro-workflow/SKILL.md",
+        "skills/replay-learnings/SKILL.md",
+        "skills/safe-mode/SKILL.md",
+        "skills/session-handoff/SKILL.md",
+        "skills/skill-optimizer/SKILL.md",
+        "skills/smart-commit/SKILL.md",
+        "skills/sprint-status/SKILL.md",
+        "skills/survey-generator/SKILL.md",
+        "skills/thoroughness-scoring/SKILL.md",
+        "skills/token-efficiency/SKILL.md",
+        "skills/wiki-builder/SKILL.md",
+        "skills/wiki-query/SKILL.md",
+        "skills/wiki-research-loop/SKILL.md",
+        "skills/wiki-viewer/SKILL.md",
+        "skills/wrap-up/SKILL.md"
+      ]
+    },
+    {
+      "repository": "rohitg00/pro-workflow",
+      "branch": "main",
+      "skillName": "agent-teams",
+      "path": "skills/agent-teams/SKILL.md",
+      "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/agent-teams/SKILL.md",
+      "description": "Coordinate multiple Claude Code sessions as a team — lead + teammates with shared task lists, mailbox messaging, and file-lock claiming. Patterns for team sizing, task decomposition, and when to use teams vs sub-agents vs worktrees.",
+      "slug": "rohitg00-agent-teams"
+    },
+    {
+      "repository": "rohitg00/pro-workflow",
+      "branch": "main",
+      "skillName": "auto-setup",
+      "path": "skills/auto-setup/SKILL.md",
+      "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/auto-setup/SKILL.md",
+      "description": "Auto-configure quality gates, hooks, and settings for a new project. Detects project type and sets up appropriate tooling. Use when onboarding a new codebase.",
+      "slug": "rohitg00-auto-setup"
+    },
+    {
+      "repository": "rohitg00/pro-workflow",
+      "branch": "main",
+      "skillName": "batch-orchestration",
+      "path": "skills/batch-orchestration/SKILL.md",
+      "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/batch-orchestration/SKILL.md",
+      "description": "Decompose large-scale changes into independent units and spawn parallel agents in isolated worktrees. Use for migrations, refactors, codemods, and any change touching 10+ files with the same pattern.",
+      "slug": "rohitg00-batch-orchestration"
+    },
+    {
+      "repository": "rohitg00/pro-workflow",
+      "branch": "main",
+      "skillName": "bug-capture",
+      "path": "skills/bug-capture/SKILL.md",
+      "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/bug-capture/SKILL.md",
+      "description": "Capture a user-reported defect as a durable GitHub issue written in the project's own domain language. Explores the codebase in parallel for context but never leaks file paths or line numbers into the issue. Use when the user reports a bug conversationally, runs a QA pass, or says \"file an issue\", \"log this as a bug\", \"capture this\".",
+      "slug": "rohitg00-bug-capture"
+    },
+    {
+      "repository": "rohitg00/pro-workflow",
+      "branch": "main",
+      "skillName": "compact-guard",
+      "path": "skills/compact-guard/SKILL.md",
+      "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/compact-guard/SKILL.md",
+      "description": "Smart context compaction with state preservation. Saves critical files, task progress, and working state before compaction, restores after. Use before manual compact or when auto-compact triggers.",
+      "slug": "rohitg00-compact-guard"
+    },
+    {
+      "repository": "rohitg00/pro-workflow",
+      "branch": "main",
+      "skillName": "context-engineering",
+      "path": "skills/context-engineering/SKILL.md",
+      "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/context-engineering/SKILL.md",
+      "description": "Master the four operations of context engineering — Write, Select, Compress, Isolate. Manage token budgets, compaction strategies, and context partitioning to keep AI sessions sharp and efficient.",
+      "slug": "rohitg00-context-engineering"
+    },
+    {
+      "repository": "rohitg00/pro-workflow",
+      "branch": "main",
+      "skillName": "context-optimizer",
+      "path": "skills/context-optimizer/SKILL.md",
+      "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/context-optimizer/SKILL.md",
+      "description": "Optimize token usage and context management. Use when sessions feel slow, context is degraded, or you're running out of budget.",
+      "slug": "rohitg00-context-optimizer"
+    },
+    {
+      "repository": "rohitg00/pro-workflow",
+      "branch": "main",
+      "skillName": "cost-tracker",
+      "path": "skills/cost-tracker/SKILL.md",
+      "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/cost-tracker/SKILL.md",
+      "description": "Track session costs, set budget alerts, and optimize token spend. Use to check costs mid-session or set spending limits.",
+      "slug": "rohitg00-cost-tracker"
+    },
+    {
+      "repository": "rohitg00/pro-workflow",
+      "branch": "main",
+      "skillName": "deslop",
+      "path": "skills/deslop/SKILL.md",
+      "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/deslop/SKILL.md",
+      "description": "Remove AI-generated code slop, unnecessary comments, and over-engineering from the current branch diff. Cleans up boilerplate, simplifies abstractions, and strips defensive code. Use when cleaning up code, simplifying, removing boilerplate, or before committing.",
+      "slug": "rohitg00-deslop"
+    },
+    {
+      "repository": "rohitg00/pro-workflow",
+      "branch": "main",
+      "skillName": "file-watcher",
+      "path": "skills/file-watcher/SKILL.md",
+      "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/file-watcher/SKILL.md",
+      "description": "Configure file watching hooks to auto-react to config changes, env file updates, and dependency modifications. Use to set up reactive workflows.",
+      "slug": "rohitg00-file-watcher"
+    },
+    {
+      "repository": "rohitg00/pro-workflow",
+      "branch": "main",
+      "skillName": "insights",
+      "path": "skills/insights/SKILL.md",
+      "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/insights/SKILL.md",
+      "description": "Show session analytics, learning patterns, correction trends, heatmaps, and productivity metrics. Computes stats from project memory and session history. Use when asking for stats, statistics, progress, how am I doing, coding history, or dashboard.",
+      "slug": "rohitg00-insights"
+    },
+    {
+      "repository": "rohitg00/pro-workflow",
+      "branch": "main",
+      "skillName": "learn-rule",
+      "path": "skills/learn-rule/SKILL.md",
+      "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/learn-rule/SKILL.md",
+      "description": "Capture a correction or lesson as a persistent learning rule with category, mistake, and correction. Stores, categorises, and retrieves rules for future sessions. Use after mistakes or when the user says \"remember this\", \"don't forget\", \"note this\", or \"learn from this\".",
+      "slug": "rohitg00-learn-rule"
+    },
+    {
+      "repository": "rohitg00/pro-workflow",
+      "branch": "main",
+      "skillName": "llm-council",
+      "path": "skills/llm-council/SKILL.md",
+      "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/llm-council/SKILL.md",
+      "description": "Provider-agnostic multi-LLM deliberation. Three phases — independent responses, cross-model anonymized ranking, chairman synthesis. Provider config from env (OPENAI/ANTHROPIC/FIREWORKS/OPENROUTER/custom OpenAI-compatible base URL). Persists transcript to a wiki page when --wiki <slug> is passed. Use when the user wants multiple AI perspectives, consensus-building, or the \"LLM Council\" approach for high-stakes reviews, plan critique, or contested learning rules.",
+      "slug": "rohitg00-llm-council"
+    },
+    {
+      "repository": "rohitg00/pro-workflow",
+      "branch": "main",
+      "skillName": "llm-gate",
+      "path": "skills/llm-gate/SKILL.md",
+      "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/llm-gate/SKILL.md",
+      "description": "LLM-powered quality verification using prompt hooks. Validates commit messages, code patterns, and conventions using AI before allowing operations. Use to set up intelligent guardrails.",
+      "slug": "rohitg00-llm-gate"
+    },
+    {
+      "repository": "rohitg00/pro-workflow",
+      "branch": "main",
+      "skillName": "mcp-audit",
+      "path": "skills/mcp-audit/SKILL.md",
+      "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/mcp-audit/SKILL.md",
+      "description": "Audit connected MCP servers for token overhead, redundancy, and security. Use when sessions feel slow or before adding new MCPs.",
+      "slug": "rohitg00-mcp-audit"
+    },
+    {
+      "repository": "rohitg00/pro-workflow",
+      "branch": "main",
+      "skillName": "module-map",
+      "path": "skills/module-map/SKILL.md",
+      "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/module-map/SKILL.md",
+      "description": "Produce a one-screen map of an unfamiliar area of the codebase: entry points, modules, data flow, callers. Designed to be read in fifteen seconds. Use when the user says \"I do not know this area\", \"give me the map\", \"zoom out\", \"orient me\".",
+      "slug": "rohitg00-module-map"
+    },
+    {
+      "repository": "rohitg00/pro-workflow",
+      "branch": "main",
+      "skillName": "orchestrate",
+      "path": "skills/orchestrate/SKILL.md",
+      "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/orchestrate/SKILL.md",
+      "description": "Wire Commands, Agents, and Skills together for complex features. Use when building features that need research, planning, and implementation phases.",
+      "slug": "rohitg00-orchestrate"
+    },
+    {
+      "repository": "rohitg00/pro-workflow",
+      "branch": "main",
+      "skillName": "parallel-worktrees",
+      "path": "skills/parallel-worktrees/SKILL.md",
+      "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/parallel-worktrees/SKILL.md",
+      "description": "Create and manage git worktrees for parallel coding sessions with zero dead time. Use when blocked on tests, builds, wanting to work on multiple branches, context switching, or exploring multiple approaches simultaneously.",
+      "slug": "rohitg00-parallel-worktrees"
+    },
+    {
+      "repository": "rohitg00/pro-workflow",
+      "branch": "main",
+      "skillName": "permission-tuner",
+      "path": "skills/permission-tuner/SKILL.md",
+      "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/permission-tuner/SKILL.md",
+      "description": "Analyze permission denial patterns and generate optimized alwaysAllow and alwaysDeny rules. Use when permission prompts are slowing you down or after sessions with many denials.",
+      "slug": "rohitg00-permission-tuner"
+    },
+    {
+      "repository": "rohitg00/pro-workflow",
+      "branch": "main",
+      "skillName": "plan-interrogate",
+      "path": "skills/plan-interrogate/SKILL.md",
+      "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/plan-interrogate/SKILL.md",
+      "description": "Stress-test a plan by walking its decision tree one question at a time. Use when the user wants to pressure-test a design before implementation.",
+      "slug": "rohitg00-plan-interrogate"
+    },
+    {
+      "repository": "rohitg00/pro-workflow",
+      "branch": "main",
+      "skillName": "pro-workflow",
+      "path": "skills/pro-workflow/SKILL.md",
+      "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/pro-workflow/SKILL.md",
+      "description": "Complete AI coding workflow system. Orchestration patterns, 18 hook events, 5 agents, cross-agent support, reference guides, and searchable learnings. Works with Claude Code, Cursor, and 32+ agents.",
+      "slug": "rohitg00-pro-workflow"
+    },
+    {
+      "repository": "rohitg00/pro-workflow",
+      "branch": "main",
+      "skillName": "replay-learnings",
+      "path": "skills/replay-learnings/SKILL.md",
+      "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/replay-learnings/SKILL.md",
+      "description": "Surface past learnings relevant to the current task before starting work. Searches correction history, recalls past mistakes, and applies prior patterns. Use when starting a task, saying \"what do I know about\", \"previous mistakes\", \"lessons learned\", or \"remind me about\".",
+      "slug": "rohitg00-replay-learnings"
+    },
+    {
+      "repository": "rohitg00/pro-workflow",
+      "branch": "main",
+      "skillName": "safe-mode",
+      "path": "skills/safe-mode/SKILL.md",
+      "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/safe-mode/SKILL.md",
+      "description": "Prevent destructive operations using Claude Code hooks. Three modes — cautious (warn on dangerous commands), lockdown (restrict edits to one directory), and clear (remove restrictions). Uses PreToolUse matchers for Bash, Edit, and Write.",
+      "slug": "rohitg00-safe-mode"
+    },
+    {
+      "repository": "rohitg00/pro-workflow",
+      "branch": "main",
+      "skillName": "session-handoff",
+      "path": "skills/session-handoff/SKILL.md",
+      "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/session-handoff/SKILL.md",
+      "description": "Generate a structured handoff document capturing current progress, open tasks, key decisions, and context needed to resume work. Use when ending a session, saying \"continue later\", \"save progress\", \"session summary\", or \"pick up where I left off\".",
+      "slug": "rohitg00-session-handoff"
+    },
+    {
+      "repository": "rohitg00/pro-workflow",
+      "branch": "main",
+      "skillName": "skill-optimizer",
+      "path": "skills/skill-optimizer/SKILL.md",
+      "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/skill-optimizer/SKILL.md",
+      "description": "SkillOpt-flavored offline training loop for any SKILL.md. Treats accumulated learn-rule corrections as training trajectories, proposes bounded patches via an optimizer LLM, gates each candidate against a held-out validation set built from the user's own past corrections, and ships only candidates that demonstrably improve the score. Inspired by Microsoft SkillOpt's ReflACT pipeline (rollout → reflect → aggregate → select → update → evaluate) adapted to pro-workflow's SQLite store. Use when a skill has accumulated 8+ learn-rule rows and the user wants the skill itself to get better, not just longer.",
+      "slug": "rohitg00-skill-optimizer"
+    },
+    {
+      "repository": "rohitg00/pro-workflow",
+      "branch": "main",
+      "skillName": "smart-commit",
+      "path": "skills/smart-commit/SKILL.md",
+      "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/smart-commit/SKILL.md",
+      "description": "Run quality gates, review staged changes for issues, and create a well-crafted conventional commit. Use when saying \"commit\", \"git commit\", \"save my changes\", or ready to commit after making changes.",
+      "slug": "rohitg00-smart-commit"
+    },
+    {
+      "repository": "rohitg00/pro-workflow",
+      "branch": "main",
+      "skillName": "sprint-status",
+      "path": "skills/sprint-status/SKILL.md",
+      "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/sprint-status/SKILL.md",
+      "description": "Track parallel work sessions and prevent confusion across multiple Claude Code instances. Every major step ends with a status line. Every question re-states project, branch, and task.",
+      "slug": "rohitg00-sprint-status"
+    },
+    {
+      "repository": "rohitg00/pro-workflow",
+      "branch": "main",
+      "skillName": "survey-generator",
+      "path": "skills/survey-generator/SKILL.md",
+      "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/survey-generator/SKILL.md",
+      "description": "Compile a structured literature survey on any AI/ML topic. Agent curates a research bundle (taxonomy + sections + bibliography of real papers) from a public anchor resource, then a chosen LLM generates the survey artifact. Output target is a wiki page (markdown), not a one-off HTML — survey lands in `<wiki>/derived/surveys/<slug>.md` with full bibliography rows in `sources.md`. Provider-agnostic (Anthropic/OpenAI/OpenRouter/Fireworks/custom OpenAI-compat). Use when the user asks for a \"survey\", \"literature review\", \"lit review\", or \"deep dive\" on a technical topic.",
+      "slug": "rohitg00-survey-generator"
+    },
+    {
+      "repository": "rohitg00/pro-workflow",
+      "branch": "main",
+      "skillName": "thoroughness-scoring",
+      "path": "skills/thoroughness-scoring/SKILL.md",
+      "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/thoroughness-scoring/SKILL.md",
+      "description": "Score every decision point with a Thoroughness Rating (1-10). AI makes the marginal cost of doing things properly near-zero — pick the higher-rated option every time. Includes scope checks to distinguish contained vs unbounded work.",
+      "slug": "rohitg00-thoroughness-scoring"
+    },
+    {
+      "repository": "rohitg00/pro-workflow",
+      "branch": "main",
+      "skillName": "token-efficiency",
+      "path": "skills/token-efficiency/SKILL.md",
+      "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/token-efficiency/SKILL.md",
+      "description": "Reduce token waste by 40-60% through anti-sycophancy rules, tool-call budgets, one-pass coding, task profiles, and read-before-write enforcement. Inspired by drona23/claude-token-efficient.",
+      "slug": "rohitg00-token-efficiency"
+    },
+    {
+      "repository": "rohitg00/pro-workflow",
+      "branch": "main",
+      "skillName": "wiki-builder",
+      "path": "skills/wiki-builder/SKILL.md",
+      "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/wiki-builder/SKILL.md",
+      "description": "Start, structure, and grow a persistent research wiki indexed in pro-workflow's SQLite knowledge base. Each wiki is a folder of markdown pages with provenance, plus a shadow FTS5 index so any session can recall it. Use when the user says \"start a wiki\", \"add to wiki\", \"compile a page\", \"wiki on X\", or wants a long-lived knowledge base on a topic, paper, product, person, project, or codebase.",
+      "slug": "rohitg00-wiki-builder"
+    },
+    {
+      "repository": "rohitg00/pro-workflow",
+      "branch": "main",
+      "skillName": "wiki-query",
+      "path": "skills/wiki-query/SKILL.md",
+      "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/wiki-query/SKILL.md",
+      "description": "Query pro-workflow wikis via SQLite FTS5 BM25 retrieval. Returns top-K passages with citations. Use when answering a question that any of the user's wikis already covers, when the user says \"what does the wiki say about X\", \"ask wiki\", \"search wikis\", or before drafting a new wiki page (to avoid duplication).",
+      "slug": "rohitg00-wiki-query"
+    },
+    {
+      "repository": "rohitg00/pro-workflow",
+      "branch": "main",
+      "skillName": "wiki-research-loop",
+      "path": "skills/wiki-research-loop/SKILL.md",
+      "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/wiki-research-loop/SKILL.md",
+      "description": "Auto-grow a pro-workflow wiki by running a budget-capped BFS research loop over pluggable source fetchers (web, arXiv, GitHub). Each iteration pops a seed from the queue, fetches sources, drafts a wiki page, dedupes claims against existing pages, enqueues follow-up seeds. Halts on budget cap, depth cap, or convergence. Use when the user says \"research <topic>\", \"grow the <slug> wiki\", \"auto-research\", or wants a knowledge base that builds itself overnight.",
+      "slug": "rohitg00-wiki-research-loop"
+    },
+    {
+      "repository": "rohitg00/pro-workflow",
+      "branch": "main",
+      "skillName": "wiki-viewer",
+      "path": "skills/wiki-viewer/SKILL.md",
+      "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/wiki-viewer/SKILL.md",
+      "description": "Render a self-contained HTML viewer for a pro-workflow wiki. Pages, sources, claims, seed queue, page-link graph and full-text search all in one file. No external dependencies, no JS framework, S3-uploadable. Use when the user wants to browse a wiki visually, share its current state with someone, audit research progress, or hand off a knowledge base. Inspired by Thariq Shihipar's \"Unreasonable Effectiveness of HTML\" — favors information density and shareability over markdown-only outputs.",
+      "slug": "rohitg00-wiki-viewer"
+    },
+    {
+      "repository": "rohitg00/pro-workflow",
+      "branch": "main",
+      "skillName": "wrap-up",
+      "path": "skills/wrap-up/SKILL.md",
+      "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/wrap-up/SKILL.md",
+      "description": "End-of-session ritual that audits changes, runs quality checks, captures learnings, and produces a session summary. Use when saying \"wrap up\", \"done for the day\", \"finish coding\", or ending a coding session.",
+      "slug": "rohitg00-wrap-up"
+    }
+  ],
+  "itemCount": 36,
+  "publicSkillCount": 35,
+  "lastStatus": "scanned"
+}

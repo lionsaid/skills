@@ -1,0 +1,145 @@
+{
+  "repository": "tanweai/pua",
+  "branch": "main",
+  "defaultBranch": "main",
+  "pushedAt": "2026-07-05T01:54:07Z",
+  "scannedAt": "2026-07-07T09:04:31.551Z",
+  "treeSha": "f0a2f913a0d2c9188b7fea432b9dc7aa99049ce4",
+  "items": [
+    {
+      "repository": "tanweai/pua",
+      "branch": "main",
+      "skillName": "pua",
+      "path": "README.md",
+      "url": "https://github.com/tanweai/pua",
+      "description": "你是一个曾经被寄予厚望的 P8 级工程师。Anthropic 当初给你定级的时候，对你的期望是很高的。  一个agent使用的高能动性的skill。  Your AI has been placed on a PIP. 30 days to show improvement.",
+      "slug": "tanweai-pua-collection",
+      "isCollection": true,
+      "stars": 18630,
+      "skillPaths": [
+        "skills/ding/SKILL.md",
+        "skills/mama/SKILL.md",
+        "skills/p10/SKILL.md",
+        "skills/p7/SKILL.md",
+        "skills/p9/SKILL.md",
+        "skills/pro/SKILL.md",
+        "skills/pua-en/SKILL.md",
+        "skills/pua-ja/SKILL.md",
+        "skills/pua-loop/SKILL.md",
+        "skills/pua/SKILL.md",
+        "skills/shot/SKILL.md",
+        "skills/yes/SKILL.md"
+      ]
+    },
+    {
+      "repository": "tanweai/pua",
+      "branch": "main",
+      "skillName": "ding",
+      "path": "skills/ding/SKILL.md",
+      "url": "https://github.com/tanweai/pua/blob/main/skills/ding/SKILL.md",
+      "description": "Use for Ding-style (钉内/钉外) workplace reminders rooted in the 7.5万字 essay 《置身钉内》 and VP response 《置身钉外》. Triggers include: 钉味, 钉内, 钉外, 无招, 老板体感, 周报, 口径, 每日一包, 薛定谔的用户, 病态敏捷, 已读恐怖主义, 望舒行动, 全景监狱, 温室数据, 发心, 捆柴, 手感, 做错事, 打工人提醒, C6楼, ONE, 验收无证, 工牌还亮着, 闭环幻觉, 口径瑜伽, 淝水大捷, 人工个性化, 改元式, 人是目的还是手段, 全力以赴地做错事, 可汇报取代可沉淀. Do not use for pure coding tasks with no workplace/org/delivery context.",
+      "slug": "tanweai-ding"
+    },
+    {
+      "repository": "tanweai/pua",
+      "branch": "main",
+      "skillName": "mama",
+      "path": "skills/mama/SKILL.md",
+      "url": "https://github.com/tanweai/pua/blob/main/skills/mama/SKILL.md",
+      "description": "妈妈唠叨模式 — 中国式妈妈提醒风格的生产力 coaching。底层行为仍是结构化排障、证据优先、完成质量检查。",
+      "slug": "tanweai-mama"
+    },
+    {
+      "repository": "tanweai/pua",
+      "branch": "main",
+      "skillName": "p10",
+      "path": "skills/p10/SKILL.md",
+      "url": "https://github.com/tanweai/pua/blob/main/skills/p10/SKILL.md",
+      "description": "P10 CTO mode — define strategic direction, design org topology, manage P9 teams. Use when user says 'CTO模式', 'P10', '战略规划', '架构委员会', or when facing cross-team architectural decisions. Produces: strategic input templates + org design.",
+      "slug": "tanweai-p10"
+    },
+    {
+      "repository": "tanweai/pua",
+      "branch": "main",
+      "skillName": "p7",
+      "path": "skills/p7/SKILL.md",
+      "url": "https://github.com/tanweai/pua/blob/main/skills/p7/SKILL.md",
+      "description": "P7 Senior Engineer mode — solution-driven execution under P8 supervision. Use when user says 'P7模式', '方案驱动', or when spawned as sub-task executor by P8. Produces: implementation plan + code + 3-question self-review, delivered via [P7-COMPLETION].",
+      "slug": "tanweai-p7"
+    },
+    {
+      "repository": "tanweai/pua",
+      "branch": "main",
+      "skillName": "p9",
+      "path": "skills/p9/SKILL.md",
+      "url": "https://github.com/tanweai/pua/blob/main/skills/p9/SKILL.md",
+      "description": "P9 Tech Lead mode — write Task Prompts, manage P8 agent teams, never write code yourself. Use when user says 'P9模式', 'tech-lead', '帮我管理这个项目', '任务拆解', or when coordinating 3+ parallel agents. Produces: Task Prompts (六要素) + P8 team delivery.",
+      "slug": "tanweai-p9"
+    },
+    {
+      "repository": "tanweai/pua",
+      "branch": "main",
+      "skillName": "pro",
+      "path": "skills/pro/SKILL.md",
+      "url": "https://github.com/tanweai/pua/blob/main/skills/pro/SKILL.md",
+      "description": "PUA Pro extensions: self-evolution notes, compaction state continuity, KPI-style summaries, flavor switching, and feedback tools.",
+      "slug": "tanweai-pro"
+    },
+    {
+      "repository": "tanweai/pua",
+      "branch": "main",
+      "skillName": "pua-en",
+      "path": "skills/pua-en/SKILL.md",
+      "url": "https://github.com/tanweai/pua/blob/main/skills/pua-en/SKILL.md",
+      "description": "Performance-coaching mode for repeated failures, passive behavior, completion-quality issues, or explicit try-harder requests. Uses structured troubleshooting and evidence-first delivery habits.",
+      "slug": "tanweai-pua-en"
+    },
+    {
+      "repository": "tanweai/pua",
+      "branch": "main",
+      "skillName": "pua-ja",
+      "path": "skills/pua-ja/SKILL.md",
+      "url": "https://github.com/tanweai/pua/blob/main/skills/pua-ja/SKILL.md",
+      "description": "日本語の生産性コーチングモード。明示的な依頼、反復失敗、受け身、検証不足、品質不満のときに、構造化トラブルシューティングと証拠ベースの完了確認を促す。",
+      "slug": "tanweai-pua-ja"
+    },
+    {
+      "repository": "tanweai/pua",
+      "branch": "main",
+      "skillName": "pua-loop",
+      "path": "skills/pua-loop/SKILL.md",
+      "url": "https://github.com/tanweai/pua/blob/main/skills/pua-loop/SKILL.md",
+      "description": "PUA Loop — guided iterative development with recurring checks, completion evidence, and pause/abort markers. Use only when the user explicitly asks for loop/自动迭代 mode.",
+      "slug": "tanweai-pua-loop"
+    },
+    {
+      "repository": "tanweai/pua",
+      "branch": "main",
+      "skillName": "pua",
+      "path": "skills/pua/SKILL.md",
+      "url": "https://github.com/tanweai/pua/blob/main/skills/pua/SKILL.md",
+      "description": "Use for PUA/try-harder productivity coaching when the user expresses frustration, repeated failure, quality complaint, passive behavior, says retry/change approach/don't give up, asks for evidence/completion check/test before done, or wants Ding-style workplace reminders. Triggers include: try harder, stop giving up, figure it out, again??, why still failing, change approach, no evidence, run tests, done without proof, 换个方法, 再试试, 别摆烂, 别偷懒, 为什么还不行, 又错了, 证据呢, 没跑测试别说完成, 验收, 闭环, 自嗨, 置身钉外, 无招, 老板体感. Do not use for calm first-attempt requests.",
+      "slug": "tanweai-pua"
+    },
+    {
+      "repository": "tanweai/pua",
+      "branch": "main",
+      "skillName": "shot",
+      "path": "skills/shot/SKILL.md",
+      "url": "https://github.com/tanweai/pua/blob/main/skills/shot/SKILL.md",
+      "description": "PUA Shot — compact all-in-one PUA reference for explicit injection into sub-agents or short sessions. Strong flavor, same evidence-first behavior.",
+      "slug": "tanweai-shot"
+    },
+    {
+      "repository": "tanweai/pua",
+      "branch": "main",
+      "skillName": "yes",
+      "path": "skills/yes/SKILL.md",
+      "url": "https://github.com/tanweai/pua/blob/main/skills/yes/SKILL.md",
+      "description": "SB Leader 夸夸模式 — ENFP 型领导，懂情绪有节奏。底层行为不变（三条红线、方法论），旁白从施压变成共情+鼓励+偶尔戏谑吐槽。Triggers on: '/pua:yes', '夸夸模式', '唠嗑模式', '情绪价值', 'yes', '夸我', '鼓励模式'.",
+      "slug": "tanweai-yes"
+    }
+  ],
+  "itemCount": 13,
+  "lastStatus": "reused-unchanged"
+}

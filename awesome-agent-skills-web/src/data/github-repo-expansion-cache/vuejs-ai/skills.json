@@ -1,0 +1,105 @@
+{
+  "repository": "vuejs-ai/skills",
+  "branch": "main",
+  "defaultBranch": "main",
+  "pushedAt": "2026-05-30T21:32:00Z",
+  "scannedAt": "2026-07-07T09:06:35.853Z",
+  "treeSha": "c9d355ff23f654309dd02006be671859df0a134c",
+  "items": [
+    {
+      "repository": "vuejs-ai/skills",
+      "branch": "main",
+      "skillName": "skills",
+      "path": "README.md",
+      "url": "https://github.com/vuejs-ai/skills",
+      "description": "Agent skills for Vue 3 development",
+      "slug": "vuejs-ai-skills-collection",
+      "isCollection": true,
+      "stars": null,
+      "skillPaths": [
+        "skills/create-adaptable-composable/SKILL.md",
+        "skills/vue-best-practices/SKILL.md",
+        "skills/vue-debug-guides/SKILL.md",
+        "skills/vue-jsx-best-practices/SKILL.md",
+        "skills/vue-options-api-best-practices/SKILL.md",
+        "skills/vue-pinia-best-practices/SKILL.md",
+        "skills/vue-router-best-practices/SKILL.md",
+        "skills/vue-testing-best-practices/SKILL.md"
+      ]
+    },
+    {
+      "repository": "vuejs-ai/skills",
+      "branch": "main",
+      "skillName": "create-adaptable-composable",
+      "path": "skills/create-adaptable-composable/SKILL.md",
+      "url": "https://github.com/vuejs-ai/skills/blob/main/skills/create-adaptable-composable/SKILL.md",
+      "description": "Create a library-grade Vue composable that accepts maybe-reactive inputs (MaybeRef / MaybeRefOrGetter) so callers can pass a plain value, ref, or getter. Normalize inputs with toValue()/toRef() inside reactive effects (watch/watchEffect) to keep behavior predictable and reactive. Use this skill when user asks for creating adaptable or reusable composables.",
+      "slug": "vuejs-ai-create-adaptable-composable"
+    },
+    {
+      "repository": "vuejs-ai/skills",
+      "branch": "main",
+      "skillName": "vue-best-practices",
+      "path": "skills/vue-best-practices/SKILL.md",
+      "url": "https://github.com/vuejs-ai/skills/blob/main/skills/vue-best-practices/SKILL.md",
+      "description": "MUST be used for Vue.js tasks. Strongly recommends Composition API with `<script setup>` and TypeScript as the standard approach. Covers Vue 3, SSR, Volar, vue-tsc. Load for any Vue, .vue files, Vue Router, Pinia, or Vite with Vue work. ALWAYS use Composition API unless the project explicitly requires Options API.",
+      "slug": "vuejs-ai-vue-best-practices"
+    },
+    {
+      "repository": "vuejs-ai/skills",
+      "branch": "main",
+      "skillName": "vue-debug-guides",
+      "path": "skills/vue-debug-guides/SKILL.md",
+      "url": "https://github.com/vuejs-ai/skills/blob/main/skills/vue-debug-guides/SKILL.md",
+      "description": "Vue 3 debugging and error handling for runtime errors, warnings, async failures, and SSR/hydration issues. Use when diagnosing or fixing Vue issues.",
+      "slug": "vuejs-ai-vue-debug-guides"
+    },
+    {
+      "repository": "vuejs-ai/skills",
+      "branch": "main",
+      "skillName": "vue-jsx-best-practices",
+      "path": "skills/vue-jsx-best-practices/SKILL.md",
+      "url": "https://github.com/vuejs-ai/skills/blob/main/skills/vue-jsx-best-practices/SKILL.md",
+      "description": "JSX syntax in Vue (e.g., class vs className, JSX plugin config).",
+      "slug": "vuejs-ai-vue-jsx-best-practices"
+    },
+    {
+      "repository": "vuejs-ai/skills",
+      "branch": "main",
+      "skillName": "vue-options-api-best-practices",
+      "path": "skills/vue-options-api-best-practices/SKILL.md",
+      "url": "https://github.com/vuejs-ai/skills/blob/main/skills/vue-options-api-best-practices/SKILL.md",
+      "description": "Vue 3 Options API style (data(), methods, this context). Each reference shows Options API solution only.",
+      "slug": "vuejs-ai-vue-options-api-best-practices"
+    },
+    {
+      "repository": "vuejs-ai/skills",
+      "branch": "main",
+      "skillName": "vue-pinia-best-practices",
+      "path": "skills/vue-pinia-best-practices/SKILL.md",
+      "url": "https://github.com/vuejs-ai/skills/blob/main/skills/vue-pinia-best-practices/SKILL.md",
+      "description": "Pinia stores, state management patterns, store setup, and reactivity with stores.",
+      "slug": "vuejs-ai-vue-pinia-best-practices"
+    },
+    {
+      "repository": "vuejs-ai/skills",
+      "branch": "main",
+      "skillName": "vue-router-best-practices",
+      "path": "skills/vue-router-best-practices/SKILL.md",
+      "url": "https://github.com/vuejs-ai/skills/blob/main/skills/vue-router-best-practices/SKILL.md",
+      "description": "Vue Router 4 patterns, navigation guards, route params, and route-component lifecycle interactions.",
+      "slug": "vuejs-ai-vue-router-best-practices"
+    },
+    {
+      "repository": "vuejs-ai/skills",
+      "branch": "main",
+      "skillName": "vue-testing-best-practices",
+      "path": "skills/vue-testing-best-practices/SKILL.md",
+      "url": "https://github.com/vuejs-ai/skills/blob/main/skills/vue-testing-best-practices/SKILL.md",
+      "description": "Use for Vue.js testing. Covers Vitest, Vue Test Utils, component testing, mocking, testing patterns, and Playwright for E2E testing.",
+      "slug": "vuejs-ai-vue-testing-best-practices"
+    }
+  ],
+  "itemCount": 9,
+  "lastStatus": "reused-unchanged"
+}

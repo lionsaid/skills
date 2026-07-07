@@ -1,0 +1,35 @@
+{
+  "repository": "qiye45/wechatDownload",
+  "branch": "main",
+  "defaultBranch": "main",
+  "pushedAt": "2026-06-21T07:08:02Z",
+  "scannedAt": "2026-07-07T09:05:04.082Z",
+  "treeSha": "9a324ca342e2fdb1436bef82fb30cee51b51417a",
+  "items": [
+    {
+      "repository": "qiye45/wechatDownload",
+      "branch": "main",
+      "skillName": "wechatDownload",
+      "path": "README.md",
+      "url": "https://github.com/qiye45/wechatDownload",
+      "description": "微信公众号文章批量下载工具，支持评论、合集下载，支持保存html/mhtml/md/pdf/docx/csv文件，保存文章内图片、视频、音频文件，支持MCP/Skill调用",
+      "slug": "qiye45-wechatdownload-collection",
+      "isCollection": true,
+      "stars": null,
+      "skillPaths": [
+        "skills/wechat-article-downloader/SKILL.md"
+      ]
+    },
+    {
+      "repository": "qiye45/wechatDownload",
+      "branch": "main",
+      "skillName": "wechat-article-downloader",
+      "path": "skills/wechat-article-downloader/SKILL.md",
+      "url": "https://github.com/qiye45/wechatDownload/blob/main/skills/wechat-article-downloader/SKILL.md",
+      "description": "Download WeChat official account articles in multiple formats (HTML, PDF, Word, Markdown, TXT, MHTML), including single article download, collection (appmsgalbum) download, local bulk workflows, and metadata export. Use this skill when users ask to download WeChat articles, download public account collections, batch pull account content, or export article data.",
+      "slug": "qiye45-wechat-article-downloader"
+    }
+  ],
+  "itemCount": 2,
+  "lastStatus": "reused-unchanged"
+}

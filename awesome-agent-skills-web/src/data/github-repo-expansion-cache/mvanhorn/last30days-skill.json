@@ -1,35 +1,36 @@
 {
   "repository": "mvanhorn/last30days-skill",
-  "branch": "main",
-  "defaultBranch": "main",
-  "pushedAt": "2026-06-28T18:42:49Z",
-  "scannedAt": "2026-06-30T00:37:29.400Z",
-  "treeSha": "3f7c8c5022a082784c800bcd7ddd392bb18c9943",
+  "branch": "fix/hermes-scan-safe-verdict",
+  "defaultBranch": "fix/hermes-scan-safe-verdict",
+  "pushedAt": "2026-07-06T19:36:17Z",
+  "scannedAt": "2026-07-07T09:03:47.803Z",
+  "treeSha": "86f87070767df307c046e6b97df4dcd583723840",
   "items": [
     {
       "repository": "mvanhorn/last30days-skill",
-      "branch": "main",
+      "branch": "fix/hermes-scan-safe-verdict",
       "skillName": "last30days-skill",
       "path": "README.md",
       "url": "https://github.com/mvanhorn/last30days-skill",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "slug": "mvanhorn-last30days-skill-collection",
       "isCollection": true,
-      "stars": null,
+      "stars": 50063,
       "skillPaths": [
         "skills/last30days/SKILL.md"
       ]
     },
     {
       "repository": "mvanhorn/last30days-skill",
-      "branch": "main",
+      "branch": "fix/hermes-scan-safe-verdict",
       "skillName": "last30days",
       "path": "skills/last30days/SKILL.md",
-      "url": "https://github.com/mvanhorn/last30days-skill/blob/main/skills/last30days/SKILL.md",
+      "url": "https://github.com/mvanhorn/last30days-skill/blob/fix/hermes-scan-safe-verdict/skills/last30days/SKILL.md",
       "description": "Research what people actually say about any topic in the last 30 days. Pulls posts and engagement from Reddit, X, YouTube, TikTok, Hacker News, Polymarket, GitHub, and the web.",
       "slug": "mvanhorn-last30days"
     }
   ],
   "itemCount": 2,
-  "lastStatus": "cache-fresh"
+  "publicSkillCount": 1,
+  "lastStatus": "scanned"
 }

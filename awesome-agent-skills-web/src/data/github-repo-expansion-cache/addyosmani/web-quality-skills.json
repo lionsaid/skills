@@ -1,0 +1,85 @@
+{
+  "repository": "addyosmani/web-quality-skills",
+  "branch": "main",
+  "defaultBranch": "main",
+  "pushedAt": "2026-06-14T09:08:35Z",
+  "scannedAt": "2026-07-07T09:06:46.520Z",
+  "treeSha": "95d6e255afe1596b557d7a8498517884438f5b3a",
+  "items": [
+    {
+      "repository": "addyosmani/web-quality-skills",
+      "branch": "main",
+      "skillName": "web-quality-skills",
+      "path": "README.md",
+      "url": "https://github.com/addyosmani/web-quality-skills",
+      "description": "Agent Skills for optimizing web quality based on Lighthouse and Core Web Vitals.",
+      "slug": "addyosmani-web-quality-skills-collection",
+      "isCollection": true,
+      "stars": null,
+      "skillPaths": [
+        "skills/accessibility/SKILL.md",
+        "skills/best-practices/SKILL.md",
+        "skills/core-web-vitals/SKILL.md",
+        "skills/performance/SKILL.md",
+        "skills/seo/SKILL.md",
+        "skills/web-quality-audit/SKILL.md"
+      ]
+    },
+    {
+      "repository": "addyosmani/web-quality-skills",
+      "branch": "main",
+      "skillName": "accessibility",
+      "path": "skills/accessibility/SKILL.md",
+      "url": "https://github.com/addyosmani/web-quality-skills/blob/main/skills/accessibility/SKILL.md",
+      "description": "Audit and improve web accessibility following WCAG 2.2 guidelines. Use when asked to \"improve accessibility\", \"a11y audit\", \"WCAG compliance\", \"screen reader support\", \"keyboard navigation\", or \"make accessible\".",
+      "slug": "addyosmani-accessibility"
+    },
+    {
+      "repository": "addyosmani/web-quality-skills",
+      "branch": "main",
+      "skillName": "best-practices",
+      "path": "skills/best-practices/SKILL.md",
+      "url": "https://github.com/addyosmani/web-quality-skills/blob/main/skills/best-practices/SKILL.md",
+      "description": "Apply modern web development best practices for security, compatibility, and code quality. Use when asked to \"apply best practices\", \"security audit\", \"modernize code\", \"code quality review\", or \"check for vulnerabilities\".",
+      "slug": "addyosmani-best-practices"
+    },
+    {
+      "repository": "addyosmani/web-quality-skills",
+      "branch": "main",
+      "skillName": "core-web-vitals",
+      "path": "skills/core-web-vitals/SKILL.md",
+      "url": "https://github.com/addyosmani/web-quality-skills/blob/main/skills/core-web-vitals/SKILL.md",
+      "description": "Optimize Core Web Vitals (LCP, INP, CLS) for better page experience and search ranking. Use when asked to \"improve Core Web Vitals\", \"fix LCP\", \"reduce CLS\", \"optimize INP\", \"page experience optimization\", or \"fix layout shifts\".",
+      "slug": "addyosmani-core-web-vitals"
+    },
+    {
+      "repository": "addyosmani/web-quality-skills",
+      "branch": "main",
+      "skillName": "performance",
+      "path": "skills/performance/SKILL.md",
+      "url": "https://github.com/addyosmani/web-quality-skills/blob/main/skills/performance/SKILL.md",
+      "description": "Optimize web performance for faster loading and better user experience. Use when asked to \"speed up my site\", \"optimize performance\", \"reduce load time\", \"fix slow loading\", \"improve page speed\", or \"performance audit\".",
+      "slug": "addyosmani-performance"
+    },
+    {
+      "repository": "addyosmani/web-quality-skills",
+      "branch": "main",
+      "skillName": "seo",
+      "path": "skills/seo/SKILL.md",
+      "url": "https://github.com/addyosmani/web-quality-skills/blob/main/skills/seo/SKILL.md",
+      "description": "Optimize for search engine visibility and ranking. Use when asked to \"improve SEO\", \"optimize for search\", \"fix meta tags\", \"add structured data\", \"sitemap optimization\", or \"search engine optimization\".",
+      "slug": "addyosmani-seo"
+    },
+    {
+      "repository": "addyosmani/web-quality-skills",
+      "branch": "main",
+      "skillName": "web-quality-audit",
+      "path": "skills/web-quality-audit/SKILL.md",
+      "url": "https://github.com/addyosmani/web-quality-skills/blob/main/skills/web-quality-audit/SKILL.md",
+      "description": "Comprehensive web quality audit covering performance, accessibility, SEO, and best practices. Use when asked to \"audit my site\", \"review web quality\", \"run lighthouse audit\", \"check page quality\", or \"optimize my website\".",
+      "slug": "addyosmani-web-quality-audit"
+    }
+  ],
+  "itemCount": 7,
+  "lastStatus": "reused-unchanged"
+}

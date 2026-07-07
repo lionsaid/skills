@@ -1,0 +1,2795 @@
+{
+  "repository": "affaan-m/ECC",
+  "branch": "main",
+  "defaultBranch": "main",
+  "pushedAt": "2026-07-06T04:55:16Z",
+  "scannedAt": "2026-07-07T09:03:20.428Z",
+  "treeSha": "4130457d674d2180c5af2c5f634f3cae4cbc6c4f",
+  "items": [
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "ECC",
+      "path": "README.md",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "slug": "affaan-m-ecc-collection",
+      "isCollection": true,
+      "stars": 226393,
+      "skillPaths": [
+        "skills/accessibility/SKILL.md",
+        "skills/agent-architecture-audit/SKILL.md",
+        "skills/agent-eval/SKILL.md",
+        "skills/agent-harness-construction/SKILL.md",
+        "skills/agent-introspection-debugging/SKILL.md",
+        "skills/agent-payment-x402/SKILL.md",
+        "skills/agent-self-evaluation/SKILL.md",
+        "skills/agent-sort/SKILL.md",
+        "skills/agentic-engineering/SKILL.md",
+        "skills/agentic-os/SKILL.md",
+        "skills/ai-first-engineering/SKILL.md",
+        "skills/ai-regression-testing/SKILL.md",
+        "skills/android-clean-architecture/SKILL.md",
+        "skills/angular-developer/SKILL.md",
+        "skills/api-connector-builder/SKILL.md",
+        "skills/api-design/SKILL.md",
+        "skills/architecture-decision-records/SKILL.md",
+        "skills/article-writing/SKILL.md",
+        "skills/automation-audit-ops/SKILL.md",
+        "skills/autonomous-agent-harness/SKILL.md",
+        "skills/autonomous-loops/SKILL.md",
+        "skills/backend-patterns/SKILL.md",
+        "skills/benchmark-methodology/SKILL.md",
+        "skills/benchmark-optimization-loop/SKILL.md",
+        "skills/benchmark/SKILL.md",
+        "skills/blender-motion-state-inspection/SKILL.md",
+        "skills/blueprint/SKILL.md",
+        "skills/brand-discovery/SKILL.md",
+        "skills/brand-voice/SKILL.md",
+        "skills/browser-qa/SKILL.md",
+        "skills/bun-runtime/SKILL.md",
+        "skills/canary-watch/SKILL.md",
+        "skills/carrier-relationship-management/SKILL.md",
+        "skills/cisco-ios-patterns/SKILL.md",
+        "skills/ck/SKILL.md",
+        "skills/claude-devfleet/SKILL.md",
+        "skills/click-path-audit/SKILL.md",
+        "skills/clickhouse-io/SKILL.md",
+        "skills/code-tour/SKILL.md",
+        "skills/codebase-onboarding/SKILL.md",
+        "skills/codehealth-mcp/SKILL.md",
+        "skills/coding-standards/SKILL.md",
+        "skills/competitive-platform-analysis/SKILL.md",
+        "skills/competitive-report-structure/SKILL.md",
+        "skills/compose-multiplatform-patterns/SKILL.md",
+        "skills/config-gc/SKILL.md",
+        "skills/configure-ecc/SKILL.md",
+        "skills/connections-optimizer/SKILL.md",
+        "skills/content-engine/SKILL.md",
+        "skills/content-hash-cache-pattern/SKILL.md",
+        "skills/context-budget/SKILL.md",
+        "skills/continuous-agent-loop/SKILL.md",
+        "skills/continuous-learning-v2/SKILL.md",
+        "skills/continuous-learning/SKILL.md",
+        "skills/cost-aware-llm-pipeline/SKILL.md",
+        "skills/cost-tracking/SKILL.md",
+        "skills/council/SKILL.md",
+        "skills/cpp-coding-standards/SKILL.md",
+        "skills/cpp-testing/SKILL.md",
+        "skills/crosspost/SKILL.md",
+        "skills/csharp-testing/SKILL.md",
+        "skills/customer-billing-ops/SKILL.md",
+        "skills/customs-trade-compliance/SKILL.md",
+        "skills/dart-flutter-patterns/SKILL.md",
+        "skills/dashboard-builder/SKILL.md",
+        "skills/data-scraper-agent/SKILL.md",
+        "skills/data-throughput-accelerator/SKILL.md",
+        "skills/database-migrations/SKILL.md",
+        "skills/deep-research/SKILL.md",
+        "skills/defi-amm-security/SKILL.md",
+        "skills/delivery-gate/SKILL.md",
+        "skills/deployment-patterns/SKILL.md",
+        "skills/design-system/SKILL.md",
+        "skills/django-celery/SKILL.md",
+        "skills/django-patterns/SKILL.md",
+        "skills/django-security/SKILL.md",
+        "skills/django-tdd/SKILL.md",
+        "skills/django-verification/SKILL.md",
+        "skills/dmux-workflows/SKILL.md",
+        "skills/docker-patterns/SKILL.md",
+        "skills/documentation-lookup/SKILL.md",
+        "skills/dotnet-patterns/SKILL.md",
+        "skills/dynamic-workflow-mode/SKILL.md",
+        "skills/e2e-testing/SKILL.md",
+        "skills/ecc-guide/SKILL.md",
+        "skills/ecc-recipes/SKILL.md",
+        "skills/ecc-tools-cost-audit/SKILL.md",
+        "skills/email-ops/SKILL.md",
+        "skills/energy-procurement/SKILL.md",
+        "skills/enterprise-agent-ops/SKILL.md",
+        "skills/error-handling/SKILL.md",
+        "skills/eval-harness/SKILL.md",
+        "skills/evm-token-decimals/SKILL.md",
+        "skills/exa-search/SKILL.md",
+        "skills/fal-ai-media/SKILL.md",
+        "skills/fastapi-patterns/SKILL.md",
+        "skills/finance-billing-ops/SKILL.md",
+        "skills/flox-environments/SKILL.md",
+        "skills/flutter-dart-code-review/SKILL.md",
+        "skills/foundation-models-on-device/SKILL.md",
+        "skills/frontend-a11y/SKILL.md",
+        "skills/frontend-design-direction/SKILL.md",
+        "skills/frontend-patterns/SKILL.md",
+        "skills/frontend-slides/SKILL.md",
+        "skills/fsharp-testing/SKILL.md",
+        "skills/gan-style-harness/SKILL.md",
+        "skills/gateguard/SKILL.md",
+        "skills/generating-python-installer/SKILL.md",
+        "skills/git-workflow/SKILL.md",
+        "skills/github-ops/SKILL.md",
+        "skills/golang-patterns/SKILL.md",
+        "skills/golang-testing/SKILL.md",
+        "skills/google-workspace-ops/SKILL.md",
+        "skills/growth-log/SKILL.md",
+        "skills/healthcare-cdss-patterns/SKILL.md",
+        "skills/healthcare-emr-patterns/SKILL.md",
+        "skills/healthcare-eval-harness/SKILL.md",
+        "skills/healthcare-phi-compliance/SKILL.md",
+        "skills/hermes-imports/SKILL.md",
+        "skills/hexagonal-architecture/SKILL.md",
+        "skills/hipaa-compliance/SKILL.md",
+        "skills/homelab-network-readiness/SKILL.md",
+        "skills/homelab-network-setup/SKILL.md",
+        "skills/homelab-pihole-dns/SKILL.md",
+        "skills/homelab-vlan-segmentation/SKILL.md",
+        "skills/homelab-wireguard-vpn/SKILL.md",
+        "skills/hookify-rules/SKILL.md",
+        "skills/inherit-legacy-style/SKILL.md",
+        "skills/intent-driven-development/SKILL.md",
+        "skills/inventory-demand-planning/SKILL.md",
+        "skills/investor-materials/SKILL.md",
+        "skills/investor-outreach/SKILL.md",
+        "skills/ios-icon-gen/SKILL.md",
+        "skills/iterative-retrieval/SKILL.md",
+        "skills/ito-basket-compare/SKILL.md",
+        "skills/ito-data-atlas-agent/SKILL.md",
+        "skills/ito-market-intelligence/SKILL.md",
+        "skills/ito-trade-planner/SKILL.md",
+        "skills/java-coding-standards/SKILL.md",
+        "skills/jira-integration/SKILL.md",
+        "skills/jpa-patterns/SKILL.md",
+        "skills/knowledge-ops/SKILL.md",
+        "skills/kotlin-coroutines-flows/SKILL.md",
+        "skills/kotlin-exposed-patterns/SKILL.md",
+        "skills/kotlin-ktor-patterns/SKILL.md",
+        "skills/kotlin-patterns/SKILL.md",
+        "skills/kotlin-testing/SKILL.md",
+        "skills/kubernetes-patterns/SKILL.md",
+        "skills/laravel-patterns/SKILL.md",
+        "skills/laravel-plugin-discovery/SKILL.md",
+        "skills/laravel-security/SKILL.md",
+        "skills/laravel-tdd/SKILL.md",
+        "skills/laravel-verification/SKILL.md",
+        "skills/latency-critical-systems/SKILL.md",
+        "skills/lead-intelligence/SKILL.md",
+        "skills/liquid-glass-design/SKILL.md",
+        "skills/llm-trading-agent-security/SKILL.md",
+        "skills/logistics-exception-management/SKILL.md",
+        "skills/loop-design-check/SKILL.md",
+        "skills/mailtrap-email-integration/SKILL.md",
+        "skills/make-interfaces-feel-better/SKILL.md",
+        "skills/manim-video/SKILL.md",
+        "skills/market-research/SKILL.md",
+        "skills/marketing-campaign/SKILL.md",
+        "skills/mcp-server-patterns/SKILL.md",
+        "skills/messages-ops/SKILL.md",
+        "skills/ml-adoption-playbook/SKILL.md",
+        "skills/mle-workflow/SKILL.md",
+        "skills/motion-advanced/SKILL.md",
+        "skills/motion-foundations/SKILL.md",
+        "skills/motion-patterns/SKILL.md",
+        "skills/motion-ui/SKILL.md",
+        "skills/mysql-patterns/SKILL.md",
+        "skills/nanoclaw-repl/SKILL.md",
+        "skills/nestjs-patterns/SKILL.md",
+        "skills/netmiko-ssh-automation/SKILL.md",
+        "skills/network-bgp-diagnostics/SKILL.md",
+        "skills/network-config-validation/SKILL.md",
+        "skills/network-interface-health/SKILL.md",
+        "skills/nextjs-turbopack/SKILL.md",
+        "skills/nodejs-keccak256/SKILL.md",
+        "skills/nutrient-document-processing/SKILL.md",
+        "skills/nuxt4-patterns/SKILL.md",
+        "skills/openclaw-persona-forge/SKILL.md",
+        "skills/opensource-pipeline/SKILL.md",
+        "skills/orch-add-feature/SKILL.md",
+        "skills/orch-build-mvp/SKILL.md",
+        "skills/orch-change-feature/SKILL.md",
+        "skills/orch-fix-defect/SKILL.md",
+        "skills/orch-pipeline/SKILL.md",
+        "skills/orch-refine-code/SKILL.md",
+        "skills/parallel-execution-optimizer/SKILL.md",
+        "skills/perl-patterns/SKILL.md",
+        "skills/perl-security/SKILL.md",
+        "skills/perl-testing/SKILL.md",
+        "skills/plan-orchestrate/SKILL.md",
+        "skills/plankton-code-quality/SKILL.md",
+        "skills/postgres-patterns/SKILL.md",
+        "skills/prediction-market-oracle-research/SKILL.md",
+        "skills/prediction-market-risk-review/SKILL.md",
+        "skills/prisma-patterns/SKILL.md",
+        "skills/product-capability/SKILL.md",
+        "skills/product-lens/SKILL.md",
+        "skills/production-audit/SKILL.md",
+        "skills/production-scheduling/SKILL.md",
+        "skills/project-flow-ops/SKILL.md",
+        "skills/prompt-optimizer/SKILL.md",
+        "skills/python-patterns/SKILL.md",
+        "skills/python-testing/SKILL.md",
+        "skills/pytorch-patterns/SKILL.md",
+        "skills/quality-nonconformance/SKILL.md",
+        "skills/quarkus-patterns/SKILL.md",
+        "skills/quarkus-security/SKILL.md",
+        "skills/quarkus-tdd/SKILL.md",
+        "skills/quarkus-verification/SKILL.md",
+        "skills/ralphinho-rfc-pipeline/SKILL.md",
+        "skills/react-native-patterns/SKILL.md",
+        "skills/react-patterns/SKILL.md",
+        "skills/react-performance/SKILL.md",
+        "skills/react-testing/SKILL.md",
+        "skills/recsys-pipeline-architect/SKILL.md",
+        "skills/recursive-decision-ledger/SKILL.md",
+        "skills/redis-patterns/SKILL.md",
+        "skills/regex-vs-llm-structured-text/SKILL.md",
+        "skills/remotion-video-creation/SKILL.md",
+        "skills/repo-scan/SKILL.md",
+        "skills/research-ops/SKILL.md",
+        "skills/returns-reverse-logistics/SKILL.md",
+        "skills/rules-distill/SKILL.md",
+        "skills/rust-patterns/SKILL.md",
+        "skills/rust-testing/SKILL.md",
+        "skills/safety-guard/SKILL.md",
+        "skills/santa-method/SKILL.md",
+        "skills/scientific-db-pubmed-database/SKILL.md",
+        "skills/scientific-db-uspto-database/SKILL.md",
+        "skills/scientific-pkg-gget/SKILL.md",
+        "skills/scientific-thinking-literature-review/SKILL.md",
+        "skills/scientific-thinking-scholar-evaluation/SKILL.md",
+        "skills/search-first/SKILL.md",
+        "skills/security-bounty-hunter/SKILL.md",
+        "skills/security-review/SKILL.md",
+        "skills/security-scan/SKILL.md",
+        "skills/seo/SKILL.md",
+        "skills/skill-comply/SKILL.md",
+        "skills/skill-scout/SKILL.md",
+        "skills/skill-stocktake/SKILL.md",
+        "skills/social-graph-ranker/SKILL.md",
+        "skills/social-publisher/SKILL.md",
+        "skills/springboot-patterns/SKILL.md",
+        "skills/springboot-security/SKILL.md",
+        "skills/springboot-tdd/SKILL.md",
+        "skills/springboot-verification/SKILL.md",
+        "skills/strategic-compact/SKILL.md",
+        "skills/swift-actor-persistence/SKILL.md",
+        "skills/swift-concurrency-6-2/SKILL.md",
+        "skills/swift-protocol-di-testing/SKILL.md",
+        "skills/swiftui-patterns/SKILL.md",
+        "skills/taste/SKILL.md",
+        "skills/tdd-workflow/SKILL.md",
+        "skills/team-agent-orchestration/SKILL.md",
+        "skills/team-builder/SKILL.md",
+        "skills/terminal-ops/SKILL.md",
+        "skills/tinystruct-patterns/SKILL.md",
+        "skills/token-budget-advisor/SKILL.md",
+        "skills/ui-demo/SKILL.md",
+        "skills/ui-to-vue/SKILL.md",
+        "skills/uncloud/SKILL.md",
+        "skills/unified-notifications-ops/SKILL.md",
+        "skills/verification-loop/SKILL.md",
+        "skills/video-editing/SKILL.md",
+        "skills/videodb/SKILL.md",
+        "skills/visa-doc-translate/SKILL.md",
+        "skills/vite-patterns/SKILL.md",
+        "skills/vue-patterns/SKILL.md",
+        "skills/windows-desktop-e2e/SKILL.md",
+        "skills/workspace-surface-audit/SKILL.md",
+        "skills/x-api/SKILL.md"
+      ]
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "accessibility",
+      "path": "skills/accessibility/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/accessibility/SKILL.md",
+      "description": "Design, implement, and audit inclusive digital products using WCAG 2.2 Level AA",
+      "slug": "affaan-m-accessibility"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "agent-architecture-audit",
+      "path": "skills/agent-architecture-audit/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/agent-architecture-audit/SKILL.md",
+      "description": "Full-stack diagnostic for agent and LLM applications. Audits the 12-layer agent stack for wrapper regression, memory pollution, tool discipline failures, hidden repair loops, and rendering corruption. Produces severity-ranked findings with code-first fixes. Essential for developers building agent applications, autonomous loops, or any LLM-powered feature.",
+      "slug": "affaan-m-agent-architecture-audit"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "agent-eval",
+      "path": "skills/agent-eval/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/agent-eval/SKILL.md",
+      "description": "Head-to-head comparison of coding agents (Claude Code, Aider, Codex, etc.) on custom tasks with pass rate, cost, time, and consistency metrics",
+      "slug": "affaan-m-agent-eval"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "agent-harness-construction",
+      "path": "skills/agent-harness-construction/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/agent-harness-construction/SKILL.md",
+      "description": "Design and optimize AI agent action spaces, tool definitions, and observation formatting for higher completion rates.",
+      "slug": "affaan-m-agent-harness-construction"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "agent-introspection-debugging",
+      "path": "skills/agent-introspection-debugging/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/agent-introspection-debugging/SKILL.md",
+      "description": "Structured self-debugging workflow for AI agent failures using capture, diagnosis, contained recovery, and introspection reports.",
+      "slug": "affaan-m-agent-introspection-debugging"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "agent-payment-x402",
+      "path": "skills/agent-payment-x402/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/agent-payment-x402/SKILL.md",
+      "description": "Add x402 payment execution to AI agents with per-task budgets, spending controls, and non-custodial wallets. Supports Base through agentwallet-sdk and X Layer through OKX Payments / OKX Agent Payments Protocol.",
+      "slug": "affaan-m-agent-payment-x402"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "agent-self-evaluation",
+      "path": "skills/agent-self-evaluation/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/agent-self-evaluation/SKILL.md",
+      "description": "Use after completing any non-trivial task. The agent self-rates its output on 5 axes — accuracy, completeness, clarity, actionability, conciseness — with concrete evidence per criterion. Produces a structured 1-5 scorecard with specific improvement suggestions.",
+      "slug": "affaan-m-agent-self-evaluation"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "agent-sort",
+      "path": "skills/agent-sort/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/agent-sort/SKILL.md",
+      "description": "Build an evidence-backed ECC install plan for a specific repo by sorting skills, commands, rules, hooks, and extras into DAILY vs LIBRARY buckets using parallel repo-aware review passes. Use when ECC should be trimmed to what a project actually needs instead of loading the full bundle.",
+      "slug": "affaan-m-agent-sort"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "agentic-engineering",
+      "path": "skills/agentic-engineering/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/agentic-engineering/SKILL.md",
+      "description": "Operate as an agentic engineer using eval-first execution, decomposition, and cost-aware model routing.",
+      "slug": "affaan-m-agentic-engineering"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "agentic-os",
+      "path": "skills/agentic-os/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/agentic-os/SKILL.md",
+      "description": "Build persistent multi-agent operating systems on Claude Code. Covers kernel architecture, specialist agents, slash commands, file-based memory, scheduled automation, and state management without external databases.",
+      "slug": "affaan-m-agentic-os"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "ai-first-engineering",
+      "path": "skills/ai-first-engineering/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/ai-first-engineering/SKILL.md",
+      "description": "Engineering operating model for teams where AI agents generate a large share of implementation output.",
+      "slug": "affaan-m-ai-first-engineering"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "ai-regression-testing",
+      "path": "skills/ai-regression-testing/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/ai-regression-testing/SKILL.md",
+      "description": "Regression testing strategies for AI-assisted development. Sandbox-mode API testing without database dependencies, automated bug-check workflows, and patterns to catch AI blind spots where the same model writes and reviews code.",
+      "slug": "affaan-m-ai-regression-testing"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "android-clean-architecture",
+      "path": "skills/android-clean-architecture/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/android-clean-architecture/SKILL.md",
+      "description": "Clean Architecture patterns for Android and Kotlin Multiplatform projects — module structure, dependency rules, UseCases, Repositories, and data layer patterns.",
+      "slug": "affaan-m-android-clean-architecture"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "angular-developer",
+      "path": "skills/angular-developer/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/angular-developer/SKILL.md",
+      "description": "Generates Angular code and provides architectural guidance. Trigger when creating projects, components, or services, or for best practices on reactivity (signals, linkedSignal, resource), forms, dependency injection, routing, SSR, accessibility (ARIA), animations, styling (component styles, Tailwind CSS), testing, or CLI tooling.",
+      "slug": "affaan-m-angular-developer"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "api-connector-builder",
+      "path": "skills/api-connector-builder/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/api-connector-builder/SKILL.md",
+      "description": "Build a new API connector or provider by matching the target repo's existing integration pattern exactly. Use when adding one more integration without inventing a second architecture.",
+      "slug": "affaan-m-api-connector-builder"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "api-design",
+      "path": "skills/api-design/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/api-design/SKILL.md",
+      "description": "REST API design patterns including resource naming, status codes, pagination, filtering, error responses, versioning, and rate limiting for production APIs.",
+      "slug": "affaan-m-api-design"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "architecture-decision-records",
+      "path": "skills/architecture-decision-records/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/architecture-decision-records/SKILL.md",
+      "description": "Capture architectural decisions made during Claude Code sessions as structured ADRs. Auto-detects decision moments, records context, alternatives considered, and rationale. Maintains an ADR log so future developers understand why the codebase is shaped the way it is.",
+      "slug": "affaan-m-architecture-decision-records"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "article-writing",
+      "path": "skills/article-writing/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/article-writing/SKILL.md",
+      "description": "Write articles, guides, blog posts, tutorials, newsletter issues, and other long-form content in a distinctive voice derived from supplied examples or brand guidance. Use when the user wants polished written content longer than a paragraph, especially when voice consistency, structure, and credibility matter.",
+      "slug": "affaan-m-article-writing"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "automation-audit-ops",
+      "path": "skills/automation-audit-ops/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/automation-audit-ops/SKILL.md",
+      "description": "Evidence-first automation inventory and overlap audit workflow for ECC. Use when the user wants to know which jobs, hooks, connectors, MCP servers, or wrappers are live, broken, redundant, or missing before fixing anything.",
+      "slug": "affaan-m-automation-audit-ops"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "autonomous-agent-harness",
+      "path": "skills/autonomous-agent-harness/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/autonomous-agent-harness/SKILL.md",
+      "description": "Transform Claude Code into a fully autonomous agent system with persistent memory, scheduled operations, computer use, and task queuing. Replaces standalone agent frameworks (Hermes, AutoGPT) by leveraging Claude Code's native crons, dispatch, MCP tools, and memory. Use when the user wants continuous autonomous operation, scheduled tasks, or a self-directing agent loop.",
+      "slug": "affaan-m-autonomous-agent-harness"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "autonomous-loops",
+      "path": "skills/autonomous-loops/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/autonomous-loops/SKILL.md",
+      "description": "Patterns and architectures for autonomous Claude Code loops — from simple sequential pipelines to RFC-driven multi-agent DAG systems.",
+      "slug": "affaan-m-autonomous-loops"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "backend-patterns",
+      "path": "skills/backend-patterns/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/backend-patterns/SKILL.md",
+      "description": "Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes.",
+      "slug": "affaan-m-backend-patterns"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "benchmark-methodology",
+      "path": "skills/benchmark-methodology/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/benchmark-methodology/SKILL.md",
+      "description": ">-",
+      "slug": "affaan-m-benchmark-methodology"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "benchmark-optimization-loop",
+      "path": "skills/benchmark-optimization-loop/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/benchmark-optimization-loop/SKILL.md",
+      "description": "Use when the user asks to make something faster, try many variants, run recursive optimization, benchmark latency/throughput/cost, or choose the best implementation by repeated measured tests.",
+      "slug": "affaan-m-benchmark-optimization-loop"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "benchmark",
+      "path": "skills/benchmark/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/benchmark/SKILL.md",
+      "description": "Use this skill to measure performance baselines, detect regressions before/after PRs, and compare stack alternatives.",
+      "slug": "affaan-m-benchmark"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "blender-motion-state-inspection",
+      "path": "skills/blender-motion-state-inspection/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/blender-motion-state-inspection/SKILL.md",
+      "description": "Use this skill when inspecting Blender characters, rigs, poses, animation retargeting, ground contact, facing direction, or model-vs-motion alignment where screenshots alone are not enough.",
+      "slug": "affaan-m-blender-motion-state-inspection"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "blueprint",
+      "path": "skills/blueprint/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/blueprint/SKILL.md",
+      "description": ">-",
+      "slug": "affaan-m-blueprint"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "brand-discovery",
+      "path": "skills/brand-discovery/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/brand-discovery/SKILL.md",
+      "description": ">-",
+      "slug": "affaan-m-brand-discovery"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "brand-voice",
+      "path": "skills/brand-voice/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/brand-voice/SKILL.md",
+      "description": "Build a source-derived writing style profile from real posts, essays, launch notes, docs, or site copy, then reuse that profile across content, outreach, and social workflows. Use when the user wants voice consistency without generic AI writing tropes.",
+      "slug": "affaan-m-brand-voice"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "browser-qa",
+      "path": "skills/browser-qa/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/browser-qa/SKILL.md",
+      "description": "Use this skill to automate visual testing and UI interaction verification using browser automation after deploying features.",
+      "slug": "affaan-m-browser-qa"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "bun-runtime",
+      "path": "skills/bun-runtime/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/bun-runtime/SKILL.md",
+      "description": "Bun as runtime, package manager, bundler, and test runner. When to choose Bun vs Node, migration notes, and Vercel support.",
+      "slug": "affaan-m-bun-runtime"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "canary-watch",
+      "path": "skills/canary-watch/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/canary-watch/SKILL.md",
+      "description": "Use this skill to monitor and verify a deployed URL after releases — checks HTTP endpoints, SSE streams, static assets, console errors, and performance regressions after deploys, merges, or dependency upgrades. Smoke / canary / post-deploy verification.",
+      "slug": "affaan-m-canary-watch"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "carrier-relationship-management",
+      "path": "skills/carrier-relationship-management/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/carrier-relationship-management/SKILL.md",
+      "description": ">",
+      "slug": "affaan-m-carrier-relationship-management"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "cisco-ios-patterns",
+      "path": "skills/cisco-ios-patterns/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/cisco-ios-patterns/SKILL.md",
+      "description": "Cisco IOS and IOS-XE review patterns for show commands, config hierarchy, wildcard masks, ACL placement, interface hygiene, and safe change-window verification.",
+      "slug": "affaan-m-cisco-ios-patterns"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "ck",
+      "path": "skills/ck/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/ck/SKILL.md",
+      "description": "Persistent per-project memory for Claude Code. Auto-loads project context on session start, tracks sessions with git activity, and writes to native memory. Commands run deterministic Node.js scripts — behavior is consistent across model versions.",
+      "slug": "affaan-m-ck"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "claude-devfleet",
+      "path": "skills/claude-devfleet/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/claude-devfleet/SKILL.md",
+      "description": "Orchestrate multi-agent coding tasks via Claude DevFleet — plan projects, dispatch parallel agents in isolated worktrees, monitor progress, and read structured reports.",
+      "slug": "affaan-m-claude-devfleet"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "click-path-audit",
+      "path": "skills/click-path-audit/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/click-path-audit/SKILL.md",
+      "description": "Trace every user-facing button/touchpoint through its full state change sequence to find bugs where functions individually work but cancel each other out, produce wrong final state, or leave the UI in an inconsistent state. Use when: systematic debugging found no bugs but users report broken buttons, or after any major refactor touching shared state stores.",
+      "slug": "affaan-m-click-path-audit"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "clickhouse-io",
+      "path": "skills/clickhouse-io/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/clickhouse-io/SKILL.md",
+      "description": "ClickHouse database patterns, query optimization, analytics, and data engineering best practices for high-performance analytical workloads.",
+      "slug": "affaan-m-clickhouse-io"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "code-tour",
+      "path": "skills/code-tour/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/code-tour/SKILL.md",
+      "description": "Create CodeTour `.tour` files — persona-targeted, step-by-step walkthroughs with real file and line anchors. Use for onboarding tours, architecture walkthroughs, PR tours, RCA tours, and structured \"explain how this works\" requests.",
+      "slug": "affaan-m-code-tour"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "codebase-onboarding",
+      "path": "skills/codebase-onboarding/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/codebase-onboarding/SKILL.md",
+      "description": "Analyze an unfamiliar codebase and generate a structured onboarding guide with architecture map, key entry points, conventions, and a starter CLAUDE.md. Use when joining a new project or setting up Claude Code for the first time in a repo.",
+      "slug": "affaan-m-codebase-onboarding"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "codehealth-mcp",
+      "path": "skills/codehealth-mcp/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/codehealth-mcp/SKILL.md",
+      "description": "Real-time structural Code Health via CodeScene MCP — review before edits, verify score deltas after changes, gate commits and PRs. Use when reviewing code quality, refactoring, checking if AI changes degraded a file, or before commit/PR.",
+      "slug": "affaan-m-codehealth-mcp"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "coding-standards",
+      "path": "skills/coding-standards/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/coding-standards/SKILL.md",
+      "description": "Baseline cross-project coding conventions for naming, readability, immutability, and code-quality review. Use detailed frontend or backend skills for framework-specific patterns.",
+      "slug": "affaan-m-coding-standards"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "competitive-platform-analysis",
+      "path": "skills/competitive-platform-analysis/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/competitive-platform-analysis/SKILL.md",
+      "description": ">-",
+      "slug": "affaan-m-competitive-platform-analysis"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "competitive-report-structure",
+      "path": "skills/competitive-report-structure/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/competitive-report-structure/SKILL.md",
+      "description": ">-",
+      "slug": "affaan-m-competitive-report-structure"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "compose-multiplatform-patterns",
+      "path": "skills/compose-multiplatform-patterns/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/compose-multiplatform-patterns/SKILL.md",
+      "description": "Compose Multiplatform and Jetpack Compose patterns for KMP projects — state management, navigation, theming, performance, and platform-specific UI.",
+      "slug": "affaan-m-compose-multiplatform-patterns"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "config-gc",
+      "path": "skills/config-gc/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/config-gc/SKILL.md",
+      "description": "Garbage collection for your Claude Code configuration. Periodically scans ~/.claude (skills, memory, hooks, permissions, MCP servers, caches) for redundant, stale, orphaned, or low-value items, then walks the user through a confirm-each-deletion cleanup. Use when the user says \"clean up my config\", \"config GC\", \"too many skills\", \"audit my setup\", \"my .claude is bloated\", or asks for a periodic config review.",
+      "slug": "affaan-m-config-gc"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "configure-ecc",
+      "path": "skills/configure-ecc/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/configure-ecc/SKILL.md",
+      "description": "Interactive installer for Everything Claude Code — guides users through selecting and installing skills and rules to user-level or project-level directories, verifies paths, and optionally optimizes installed files.",
+      "slug": "affaan-m-configure-ecc"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "connections-optimizer",
+      "path": "skills/connections-optimizer/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/connections-optimizer/SKILL.md",
+      "description": "Reorganize the user's X and LinkedIn network with review-first pruning, add/follow recommendations, and channel-specific warm outreach drafted in the user's real voice. Use when the user wants to clean up following lists, grow toward current priorities, or rebalance a social graph around higher-signal relationships.",
+      "slug": "affaan-m-connections-optimizer"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "content-engine",
+      "path": "skills/content-engine/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/content-engine/SKILL.md",
+      "description": "Create platform-native content systems for X, LinkedIn, TikTok, YouTube, newsletters, and repurposed multi-platform campaigns. Use when the user wants social posts, threads, scripts, content calendars, or one source asset adapted cleanly across platforms.",
+      "slug": "affaan-m-content-engine"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "content-hash-cache-pattern",
+      "path": "skills/content-hash-cache-pattern/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/content-hash-cache-pattern/SKILL.md",
+      "description": "Cache expensive file processing results using SHA-256 content hashes — path-independent, auto-invalidating, with service layer separation.",
+      "slug": "affaan-m-content-hash-cache-pattern"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "context-budget",
+      "path": "skills/context-budget/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/context-budget/SKILL.md",
+      "description": "Audits Claude Code context window consumption across agents, skills, MCP servers, and rules. Identifies bloat, redundant components, and produces prioritized token-savings recommendations.",
+      "slug": "affaan-m-context-budget"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "continuous-agent-loop",
+      "path": "skills/continuous-agent-loop/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/continuous-agent-loop/SKILL.md",
+      "description": "Patterns for continuous autonomous agent loops with quality gates, evals, and recovery controls.",
+      "slug": "affaan-m-continuous-agent-loop"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "continuous-learning-v2",
+      "path": "skills/continuous-learning-v2/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/continuous-learning-v2/SKILL.md",
+      "description": "Instinct-based learning system that observes sessions via hooks, creates atomic instincts with confidence scoring, and evolves them into skills/commands/agents. v2.1 adds project-scoped instincts to prevent cross-project contamination.",
+      "slug": "affaan-m-continuous-learning-v2"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "continuous-learning",
+      "path": "skills/continuous-learning/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/continuous-learning/SKILL.md",
+      "description": "[DEPRECATED - use continuous-learning-v2] Legacy v1 stop-hook skill extractor. v2 is a strict superset with instinct-based, project-scoped, hook-reliable learning. Do not invoke v1; route continuous learning, session learning, and pattern extraction requests to continuous-learning-v2.",
+      "slug": "affaan-m-continuous-learning"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "cost-aware-llm-pipeline",
+      "path": "skills/cost-aware-llm-pipeline/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/cost-aware-llm-pipeline/SKILL.md",
+      "description": "Cost optimization patterns for LLM API usage — model routing by task complexity, budget tracking, retry logic, and prompt caching.",
+      "slug": "affaan-m-cost-aware-llm-pipeline"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "cost-tracking",
+      "path": "skills/cost-tracking/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/cost-tracking/SKILL.md",
+      "description": "Track and report Claude Code token usage, spending, and budgets from the local ECC cost-tracker metrics log. Use when the user asks about costs, spending, usage, tokens, budgets, or cost breakdowns by model, session, or date.",
+      "slug": "affaan-m-cost-tracking"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "council",
+      "path": "skills/council/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/council/SKILL.md",
+      "description": "Convene a four-voice council for ambiguous decisions, tradeoffs, and go/no-go calls. Use when multiple valid paths exist and you need structured disagreement before choosing.",
+      "slug": "affaan-m-council"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "cpp-coding-standards",
+      "path": "skills/cpp-coding-standards/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/cpp-coding-standards/SKILL.md",
+      "description": "C++ coding standards based on the C++ Core Guidelines (isocpp.github.io). Use when writing, reviewing, or refactoring C++ code to enforce modern, safe, and idiomatic practices.",
+      "slug": "affaan-m-cpp-coding-standards"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "cpp-testing",
+      "path": "skills/cpp-testing/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/cpp-testing/SKILL.md",
+      "description": "Use only when writing/updating/fixing C++ tests, configuring GoogleTest/CTest, diagnosing failing or flaky tests, or adding coverage/sanitizers.",
+      "slug": "affaan-m-cpp-testing"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "crosspost",
+      "path": "skills/crosspost/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/crosspost/SKILL.md",
+      "description": "Multi-platform content distribution across X, LinkedIn, Threads, and Bluesky. Adapts content per platform using content-engine patterns. Never posts identical content cross-platform. Use when the user wants to distribute content across social platforms.",
+      "slug": "affaan-m-crosspost"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "csharp-testing",
+      "path": "skills/csharp-testing/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/csharp-testing/SKILL.md",
+      "description": "C# and .NET testing patterns with xUnit, FluentAssertions, mocking, integration tests, and test organization best practices.",
+      "slug": "affaan-m-csharp-testing"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "customer-billing-ops",
+      "path": "skills/customer-billing-ops/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/customer-billing-ops/SKILL.md",
+      "description": "Operate customer billing workflows such as subscriptions, refunds, churn triage, billing-portal recovery, and plan analysis using connected billing tools like Stripe. Use when the user needs to help a customer, inspect subscription state, or manage revenue-impacting billing operations.",
+      "slug": "affaan-m-customer-billing-ops"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "customs-trade-compliance",
+      "path": "skills/customs-trade-compliance/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/customs-trade-compliance/SKILL.md",
+      "description": ">",
+      "slug": "affaan-m-customs-trade-compliance"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "dart-flutter-patterns",
+      "path": "skills/dart-flutter-patterns/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/dart-flutter-patterns/SKILL.md",
+      "description": "Production-ready Dart and Flutter patterns covering null safety, immutable state, async composition, widget architecture, popular state management frameworks (BLoC, Riverpod, Provider), GoRouter navigation, Dio networking, Freezed code generation, and clean architecture.",
+      "slug": "affaan-m-dart-flutter-patterns"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "dashboard-builder",
+      "path": "skills/dashboard-builder/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/dashboard-builder/SKILL.md",
+      "description": "Build monitoring dashboards that answer real operator questions for Grafana, SigNoz, and similar platforms. Use when turning metrics into a working dashboard instead of a vanity board.",
+      "slug": "affaan-m-dashboard-builder"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "data-scraper-agent",
+      "path": "skills/data-scraper-agent/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/data-scraper-agent/SKILL.md",
+      "description": "Build a fully automated AI-powered data collection agent for any public source — job boards, prices, news, GitHub, sports, anything. Scrapes on a schedule, enriches data with a free LLM (Gemini Flash), stores results in Notion/Sheets/Supabase, and learns from user feedback. Runs 100% free on GitHub Actions. Use when the user wants to monitor, collect, or track any public data automatically.",
+      "slug": "affaan-m-data-scraper-agent"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "data-throughput-accelerator",
+      "path": "skills/data-throughput-accelerator/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/data-throughput-accelerator/SKILL.md",
+      "description": "Use when large data ingestion, backfill, export, ETL, warehouse loading, manifest catch-up, or table synchronization needs to become much faster while preserving data correctness.",
+      "slug": "affaan-m-data-throughput-accelerator"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "database-migrations",
+      "path": "skills/database-migrations/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/database-migrations/SKILL.md",
+      "description": "Database migration best practices for schema changes, data migrations, rollbacks, and zero-downtime deployments across PostgreSQL, MySQL, and common ORMs (Prisma, Drizzle, Kysely, Django, TypeORM, golang-migrate).",
+      "slug": "affaan-m-database-migrations"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "deep-research",
+      "path": "skills/deep-research/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/deep-research/SKILL.md",
+      "description": "Multi-source deep research using firecrawl and exa MCPs. Searches the web, synthesizes findings, and delivers cited reports with source attribution. Use when the user wants thorough research on any topic with evidence and citations.",
+      "slug": "affaan-m-deep-research"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "defi-amm-security",
+      "path": "skills/defi-amm-security/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/defi-amm-security/SKILL.md",
+      "description": "Security checklist for Solidity AMM contracts, liquidity pools, and swap flows. Covers reentrancy, CEI ordering, donation or inflation attacks, oracle manipulation, slippage, admin controls, and integer math.",
+      "slug": "affaan-m-defi-amm-security"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "delivery-gate",
+      "path": "skills/delivery-gate/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/delivery-gate/SKILL.md",
+      "description": "Stop hook that blocks Claude from finishing until quality checks pass. Detects rationalization patterns (surface text heuristics), stale learning logs (filesystem mtime), and low disk space. Complements self-audit by mechanically enforcing learning capture habits.",
+      "slug": "affaan-m-delivery-gate"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "deployment-patterns",
+      "path": "skills/deployment-patterns/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/deployment-patterns/SKILL.md",
+      "description": "Deployment workflows, CI/CD pipeline patterns, Docker containerization, health checks, rollback strategies, and production readiness checklists for web applications.",
+      "slug": "affaan-m-deployment-patterns"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "design-system",
+      "path": "skills/design-system/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/design-system/SKILL.md",
+      "description": "Use this skill to generate or audit design systems, check visual consistency, and review PRs that touch styling.",
+      "slug": "affaan-m-design-system"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "django-celery",
+      "path": "skills/django-celery/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/django-celery/SKILL.md",
+      "description": "Django + Celery async task patterns — configuration, task design, beat scheduling, retries, canvas workflows, monitoring, and testing. Use when adding background jobs, scheduled tasks, or async processing to a Django app.",
+      "slug": "affaan-m-django-celery"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "django-patterns",
+      "path": "skills/django-patterns/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/django-patterns/SKILL.md",
+      "description": "Django architecture patterns, REST API design with DRF, ORM best practices, caching, signals, middleware, and production-grade Django apps.",
+      "slug": "affaan-m-django-patterns"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "django-security",
+      "path": "skills/django-security/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/django-security/SKILL.md",
+      "description": "Django security best practices, authentication, authorization, CSRF protection, SQL injection prevention, XSS prevention, and secure deployment configurations.",
+      "slug": "affaan-m-django-security"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "django-tdd",
+      "path": "skills/django-tdd/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/django-tdd/SKILL.md",
+      "description": "Django testing strategies with pytest-django, TDD methodology, factory_boy, mocking, coverage, and testing Django REST Framework APIs.",
+      "slug": "affaan-m-django-tdd"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "django-verification",
+      "path": "skills/django-verification/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/django-verification/SKILL.md",
+      "description": "Verification loop for Django projects: migrations, linting, tests with coverage, security scans, and deployment readiness checks before release or PR.",
+      "slug": "affaan-m-django-verification"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "dmux-workflows",
+      "path": "skills/dmux-workflows/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/dmux-workflows/SKILL.md",
+      "description": "Multi-agent orchestration using dmux (tmux pane manager for AI agents). Patterns for parallel agent workflows across Claude Code, Codex, OpenCode, and other harnesses. Use when running multiple agent sessions in parallel or coordinating multi-agent development workflows.",
+      "slug": "affaan-m-dmux-workflows"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "docker-patterns",
+      "path": "skills/docker-patterns/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/docker-patterns/SKILL.md",
+      "description": "Docker and Docker Compose patterns for local development, container security, networking, volume strategies, and multi-service orchestration.",
+      "slug": "affaan-m-docker-patterns"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "documentation-lookup",
+      "path": "skills/documentation-lookup/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/documentation-lookup/SKILL.md",
+      "description": "Use up-to-date library and framework docs via Context7 MCP instead of training data. Activates for setup questions, API references, code examples, or when the user names a framework (e.g. React, Next.js, Prisma).",
+      "slug": "affaan-m-documentation-lookup"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "dotnet-patterns",
+      "path": "skills/dotnet-patterns/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/dotnet-patterns/SKILL.md",
+      "description": "Idiomatic C# and .NET patterns, conventions, dependency injection, async/await, and best practices for building robust, maintainable .NET applications.",
+      "slug": "affaan-m-dotnet-patterns"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "dynamic-workflow-mode",
+      "path": "skills/dynamic-workflow-mode/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/dynamic-workflow-mode/SKILL.md",
+      "description": "Design task-local harnesses, eval gates, and reusable skill extraction for Claude dynamic workflow mode and other adaptive agent harnesses.",
+      "slug": "affaan-m-dynamic-workflow-mode"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "e2e-testing",
+      "path": "skills/e2e-testing/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/e2e-testing/SKILL.md",
+      "description": "Playwright E2E testing patterns, Page Object Model, configuration, CI/CD integration, artifact management, and flaky test strategies.",
+      "slug": "affaan-m-e2e-testing"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "ecc-guide",
+      "path": "skills/ecc-guide/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/ecc-guide/SKILL.md",
+      "description": "Guide users through ECC's current agents, skills, commands, hooks, rules, install profiles, and project onboarding by reading the live repository surface before answering.",
+      "slug": "affaan-m-ecc-guide"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "ecc-recipes",
+      "path": "skills/ecc-recipes/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/ecc-recipes/SKILL.md",
+      "description": "Map a described workflow to the right ECC command-GROUP with run-order and stop condition, and browse all command-group recipe families. Adds a family-grouping + run-order + when-to-stop layer on top of the flat command catalog. Advisory only. TRIGGER when the user says which commands for X, what command group runs X, show ECC recipes, list ECC pipelines, or how do I run a workflow with ECC. DO NOT TRIGGER when the user wants the task executed directly, wants a single-command deep doc (use ecc-guide), or wants a draft prompt rewritten (use prompt-optimizer).",
+      "slug": "affaan-m-ecc-recipes"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "ecc-tools-cost-audit",
+      "path": "skills/ecc-tools-cost-audit/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/ecc-tools-cost-audit/SKILL.md",
+      "description": "Evidence-first ECC Tools burn and billing audit workflow. Use when investigating runaway PR creation, quota bypass, premium-model leakage, duplicate jobs, or GitHub App cost spikes in the ECC Tools repo.",
+      "slug": "affaan-m-ecc-tools-cost-audit"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "email-ops",
+      "path": "skills/email-ops/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/email-ops/SKILL.md",
+      "description": "Evidence-first mailbox triage, drafting, send verification, and sent-mail-safe follow-up workflow for ECC. Use when the user wants to organize email, draft or send through the real mail surface, or prove what landed in Sent.",
+      "slug": "affaan-m-email-ops"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "energy-procurement",
+      "path": "skills/energy-procurement/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/energy-procurement/SKILL.md",
+      "description": ">",
+      "slug": "affaan-m-energy-procurement"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "enterprise-agent-ops",
+      "path": "skills/enterprise-agent-ops/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/enterprise-agent-ops/SKILL.md",
+      "description": "Operate long-lived agent workloads with observability, security boundaries, and lifecycle management.",
+      "slug": "affaan-m-enterprise-agent-ops"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "error-handling",
+      "path": "skills/error-handling/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/error-handling/SKILL.md",
+      "description": "Patterns for robust error handling across TypeScript, Python, and Go. Covers typed errors, error boundaries, retries, circuit breakers, and user-facing error messages.",
+      "slug": "affaan-m-error-handling"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "eval-harness",
+      "path": "skills/eval-harness/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/eval-harness/SKILL.md",
+      "description": "Formal evaluation framework for Claude Code sessions implementing eval-driven development (EDD) principles",
+      "slug": "affaan-m-eval-harness"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "evm-token-decimals",
+      "path": "skills/evm-token-decimals/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/evm-token-decimals/SKILL.md",
+      "description": "Prevent silent decimal mismatch bugs across EVM chains. Covers runtime decimal lookup, chain-aware caching, bridged-token precision drift, and safe normalization for bots, dashboards, and DeFi tools.",
+      "slug": "affaan-m-evm-token-decimals"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "exa-search",
+      "path": "skills/exa-search/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/exa-search/SKILL.md",
+      "description": "Neural search via Exa MCP for web, code, and company research. Use when the user needs web search, code examples, company intel, people lookup, or AI-powered deep research with Exa's neural search engine.",
+      "slug": "affaan-m-exa-search"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "fal-ai-media",
+      "path": "skills/fal-ai-media/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/fal-ai-media/SKILL.md",
+      "description": "Unified media generation via fal.ai MCP — image, video, and audio. Covers text-to-image (Nano Banana), text/image-to-video (Seedance, Kling, Veo 3), text-to-speech (CSM-1B), and video-to-audio (ThinkSound). Use when the user wants to generate images, videos, or audio with AI.",
+      "slug": "affaan-m-fal-ai-media"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "fastapi-patterns",
+      "path": "skills/fastapi-patterns/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/fastapi-patterns/SKILL.md",
+      "description": "FastAPI best practices covering project structure, Pydantic v2 schemas, dependency injection, async handlers, authentication, authorization, transactional service layers, and testing with httpx and pytest.",
+      "slug": "affaan-m-fastapi-patterns"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "finance-billing-ops",
+      "path": "skills/finance-billing-ops/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/finance-billing-ops/SKILL.md",
+      "description": "Evidence-first revenue, pricing, refunds, team-billing, and billing-model truth workflow for ECC. Use when the user wants a sales snapshot, pricing comparison, duplicate-charge diagnosis, or code-backed billing reality instead of generic payments advice.",
+      "slug": "affaan-m-finance-billing-ops"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "flox-environments",
+      "path": "skills/flox-environments/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/flox-environments/SKILL.md",
+      "description": "Create reproducible, cross-platform (macOS/Linux) development environments with Flox, a declarative Nix-based environment manager. Use when setting up project toolchains for any language, installing system-level dependencies (compilers, databases, native libs like openssl/BLAS), pinning exact package versions for a team, running local services (PostgreSQL, Redis, Kafka), onboarding developers with one command, or solving 'works on my machine' problems — including agent/vibe-coding setups that need project-scoped tools without sudo. Also use when the user mentions .flox/, manifest.toml, flox activate, or FloxHub.",
+      "slug": "affaan-m-flox-environments"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "flutter-dart-code-review",
+      "path": "skills/flutter-dart-code-review/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/flutter-dart-code-review/SKILL.md",
+      "description": "Library-agnostic Flutter/Dart code review checklist covering widget best practices, state management patterns (BLoC, Riverpod, Provider, GetX, MobX, Signals), Dart idioms, performance, accessibility, security, and clean architecture.",
+      "slug": "affaan-m-flutter-dart-code-review"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "foundation-models-on-device",
+      "path": "skills/foundation-models-on-device/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/foundation-models-on-device/SKILL.md",
+      "description": "Apple FoundationModels framework for on-device LLM — text generation, guided generation with @Generable, tool calling, and snapshot streaming in iOS 26+.",
+      "slug": "affaan-m-foundation-models-on-device"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "frontend-a11y",
+      "path": "skills/frontend-a11y/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/frontend-a11y/SKILL.md",
+      "description": ">",
+      "slug": "affaan-m-frontend-a11y"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "frontend-design-direction",
+      "path": "skills/frontend-design-direction/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/frontend-design-direction/SKILL.md",
+      "description": "Set an ECC-specific frontend design direction for production UI work. Use when building or improving websites, dashboards, applications, components, landing pages, visual tools, or any web UI that needs stronger product-specific design judgment.",
+      "slug": "affaan-m-frontend-design-direction"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "frontend-patterns",
+      "path": "skills/frontend-patterns/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/frontend-patterns/SKILL.md",
+      "description": "Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices.",
+      "slug": "affaan-m-frontend-patterns"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "frontend-slides",
+      "path": "skills/frontend-slides/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/frontend-slides/SKILL.md",
+      "description": "Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, convert a PPT/PPTX to web, or create slides for a talk/pitch. Helps non-designers discover their aesthetic through visual exploration rather than abstract choices.",
+      "slug": "affaan-m-frontend-slides"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "fsharp-testing",
+      "path": "skills/fsharp-testing/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/fsharp-testing/SKILL.md",
+      "description": "F# testing patterns with xUnit, FsUnit, Unquote, FsCheck property-based testing, integration tests, and test organization best practices.",
+      "slug": "affaan-m-fsharp-testing"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "gan-style-harness",
+      "path": "skills/gan-style-harness/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/gan-style-harness/SKILL.md",
+      "description": "GAN-inspired Generator-Evaluator agent harness for building high-quality applications autonomously. Based on Anthropic's March 2026 harness design paper.",
+      "slug": "affaan-m-gan-style-harness"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "gateguard",
+      "path": "skills/gateguard/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/gateguard/SKILL.md",
+      "description": "Fact-forcing gate that blocks Edit/Write/Bash (including MultiEdit) and demands concrete investigation (importers, data schemas, user instruction) before allowing the action. Measurably improves output quality by +2.25 points vs ungated agents.",
+      "slug": "affaan-m-gateguard"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "generating-python-installer",
+      "path": "skills/generating-python-installer/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/generating-python-installer/SKILL.md",
+      "description": "Commercial-grade Python installer expert for Windows: Nuitka extreme compilation, dist slimming, DLL footprint analysis, and Inno Setup packaging to ship the smallest, fastest installers. Use only for advanced packaging/optimization (minimal size, fast startup), not basic script-to-exe conversion. 中文触发：Nuitka 极限优化、Python 商业打包、极限编译 Python、dist 瘦身、DLL 分析、最小安装包、最快启动、商业级打包风格",
+      "slug": "affaan-m-generating-python-installer"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "git-workflow",
+      "path": "skills/git-workflow/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/git-workflow/SKILL.md",
+      "description": "Git workflow patterns including branching strategies, commit conventions, merge vs rebase, conflict resolution, and collaborative development best practices for teams of all sizes.",
+      "slug": "affaan-m-git-workflow"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "github-ops",
+      "path": "skills/github-ops/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/github-ops/SKILL.md",
+      "description": "GitHub repository operations, automation, and management. Issue triage, PR management, CI/CD operations, release management, and security monitoring using the gh CLI. Use when the user wants to manage GitHub issues, PRs, CI status, releases, contributors, stale items, or any GitHub operational task beyond simple git commands.",
+      "slug": "affaan-m-github-ops"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "golang-patterns",
+      "path": "skills/golang-patterns/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/golang-patterns/SKILL.md",
+      "description": "Idiomatic Go patterns, best practices, and conventions for building robust, efficient, and maintainable Go applications.",
+      "slug": "affaan-m-golang-patterns"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "golang-testing",
+      "path": "skills/golang-testing/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/golang-testing/SKILL.md",
+      "description": "Go testing patterns including table-driven tests, subtests, benchmarks, fuzzing, and test coverage. Follows TDD methodology with idiomatic Go practices.",
+      "slug": "affaan-m-golang-testing"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "google-workspace-ops",
+      "path": "skills/google-workspace-ops/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/google-workspace-ops/SKILL.md",
+      "description": "Operate across Google Drive, Docs, Sheets, and Slides as one workflow surface for plans, trackers, decks, and shared documents. Use when the user needs to find, summarize, edit, migrate, or clean up Google Workspace assets without dropping to raw tool calls.",
+      "slug": "affaan-m-google-workspace-ops"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "growth-log",
+      "path": "skills/growth-log/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/growth-log/SKILL.md",
+      "description": "Use after a complex task, failure, or when reviewing what was learned. Teaches how to write growth logs that extract reusable patterns — not diary entries.",
+      "slug": "affaan-m-growth-log"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "healthcare-cdss-patterns",
+      "path": "skills/healthcare-cdss-patterns/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/healthcare-cdss-patterns/SKILL.md",
+      "description": "Clinical Decision Support System (CDSS) development patterns. Drug interaction checking, dose validation, clinical scoring (NEWS2, qSOFA), alert severity classification, and integration into EMR workflows.",
+      "slug": "affaan-m-healthcare-cdss-patterns"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "healthcare-emr-patterns",
+      "path": "skills/healthcare-emr-patterns/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/healthcare-emr-patterns/SKILL.md",
+      "description": "EMR/EHR development patterns for healthcare applications. Clinical safety, encounter workflows, prescription generation, clinical decision support integration, and accessibility-first UI for medical data entry.",
+      "slug": "affaan-m-healthcare-emr-patterns"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "healthcare-eval-harness",
+      "path": "skills/healthcare-eval-harness/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/healthcare-eval-harness/SKILL.md",
+      "description": "Patient safety evaluation harness for healthcare application deployments. Automated test suites for CDSS accuracy, PHI exposure, clinical workflow integrity, and integration compliance. Blocks deployments on safety failures.",
+      "slug": "affaan-m-healthcare-eval-harness"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "healthcare-phi-compliance",
+      "path": "skills/healthcare-phi-compliance/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/healthcare-phi-compliance/SKILL.md",
+      "description": "Protected Health Information (PHI) and Personally Identifiable Information (PII) compliance patterns for healthcare applications. Covers data classification, access control, audit trails, encryption, and common leak vectors.",
+      "slug": "affaan-m-healthcare-phi-compliance"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "hermes-imports",
+      "path": "skills/hermes-imports/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/hermes-imports/SKILL.md",
+      "description": "Convert local Hermes operator workflows into sanitized ECC skills and release-pack artifacts. Use when preparing a Hermes workflow for public ECC reuse without leaking private workspace state, credentials, or local-only paths.",
+      "slug": "affaan-m-hermes-imports"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "hexagonal-architecture",
+      "path": "skills/hexagonal-architecture/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/hexagonal-architecture/SKILL.md",
+      "description": "Design, implement, and refactor Ports & Adapters systems with clear domain boundaries, dependency inversion, and testable use-case orchestration across TypeScript, Java, Kotlin, and Go services.",
+      "slug": "affaan-m-hexagonal-architecture"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "hipaa-compliance",
+      "path": "skills/hipaa-compliance/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/hipaa-compliance/SKILL.md",
+      "description": "HIPAA-specific entrypoint for healthcare privacy and security work. Use when a task is explicitly framed around HIPAA, PHI handling, covered entities, BAAs, breach posture, or US healthcare compliance requirements.",
+      "slug": "affaan-m-hipaa-compliance"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "homelab-network-readiness",
+      "path": "skills/homelab-network-readiness/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/homelab-network-readiness/SKILL.md",
+      "description": "Readiness checklist for homelab VLAN segmentation, local DNS filtering, and WireGuard-style remote access before changing router, firewall, DHCP, or VPN configuration.",
+      "slug": "affaan-m-homelab-network-readiness"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "homelab-network-setup",
+      "path": "skills/homelab-network-setup/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/homelab-network-setup/SKILL.md",
+      "description": "Practical home and homelab network planning for gateways, switches, access points, IP ranges, DHCP reservations, DNS, cabling, and common beginner mistakes.",
+      "slug": "affaan-m-homelab-network-setup"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "homelab-pihole-dns",
+      "path": "skills/homelab-pihole-dns/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/homelab-pihole-dns/SKILL.md",
+      "description": "Pi-hole installation, blocklist management, DNS-over-HTTPS setup, DHCP integration, local DNS records, and troubleshooting broken DNS resolution on a home network.",
+      "slug": "affaan-m-homelab-pihole-dns"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "homelab-vlan-segmentation",
+      "path": "skills/homelab-vlan-segmentation/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/homelab-vlan-segmentation/SKILL.md",
+      "description": "Segmenting home networks into VLANs for IoT, guest, trusted, and server traffic using UniFi, pfSense/OPNsense, and MikroTik — including switch trunk config, firewall rules, and wireless SSID mapping.",
+      "slug": "affaan-m-homelab-vlan-segmentation"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "homelab-wireguard-vpn",
+      "path": "skills/homelab-wireguard-vpn/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/homelab-wireguard-vpn/SKILL.md",
+      "description": "WireGuard VPN server setup, peer configuration, key generation, split tunneling vs full tunnel routing, and remote access to a home network from mobile and laptop clients.",
+      "slug": "affaan-m-homelab-wireguard-vpn"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "hookify-rules",
+      "path": "skills/hookify-rules/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/hookify-rules/SKILL.md",
+      "description": "This skill should be used when the user asks to create a hookify rule, write a hook rule, configure hookify, add a hookify rule, or needs guidance on hookify rule syntax and patterns.",
+      "slug": "affaan-m-hookify-rules"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "inherit-legacy-style",
+      "path": "skills/inherit-legacy-style/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/inherit-legacy-style/SKILL.md",
+      "description": "Legacy-project style inheritance skill. Use when the user types /inherit-legacy-style, or when onboarding an AI coding agent onto a hand-written legacy project and you need to prevent \"style drift\" (the model imposing its pretrained mainstream idioms onto the project). Language- and framework-agnostic — it aligns meta-architecture only, not syntax. Once run, it becomes a behavioral constraint on all subsequent coding tasks. Do NOT use for pure research or one-off questions unrelated to code-style alignment.",
+      "slug": "affaan-m-inherit-legacy-style"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "intent-driven-development",
+      "path": "skills/intent-driven-development/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/intent-driven-development/SKILL.md",
+      "description": "Turn ambiguous or high-impact product and engineering changes into scoped, verifiable acceptance criteria before or alongside implementation. Use when a user asks to clarify a feature, define acceptance criteria, de-risk a security/data/migration/integration change, prepare implementation requirements for another agent, or make a complex request testable. Do not trigger for trivial edits, straightforward fixes, active debugging, code review, or implementation requests whose acceptance conditions are already clear unless the user explicitly invokes this skill.",
+      "slug": "affaan-m-intent-driven-development"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "inventory-demand-planning",
+      "path": "skills/inventory-demand-planning/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/inventory-demand-planning/SKILL.md",
+      "description": ">",
+      "slug": "affaan-m-inventory-demand-planning"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "investor-materials",
+      "path": "skills/investor-materials/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/investor-materials/SKILL.md",
+      "description": "Create and update pitch decks, one-pagers, investor memos, accelerator applications, financial models, and fundraising materials. Use when the user needs investor-facing documents, projections, use-of-funds tables, milestone plans, or materials that must stay internally consistent across multiple fundraising assets.",
+      "slug": "affaan-m-investor-materials"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "investor-outreach",
+      "path": "skills/investor-outreach/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/investor-outreach/SKILL.md",
+      "description": "Draft cold emails, warm intro blurbs, follow-ups, update emails, and investor communications for fundraising. Use when the user wants outreach to angels, VCs, strategic investors, or accelerators and needs concise, personalized, investor-facing messaging.",
+      "slug": "affaan-m-investor-outreach"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "ios-icon-gen",
+      "path": "skills/ios-icon-gen/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/ios-icon-gen/SKILL.md",
+      "description": "Generate iOS app icons as PNG imagesets for Xcode asset catalogs from SF Symbols (5000+ Apple-native) or Iconify API (275k+ open source icons from 200+ collections). Use when generating icons, creating icon assets, adding icons to asset catalog, or searching for icons for iOS projects.",
+      "slug": "affaan-m-ios-icon-gen"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "iterative-retrieval",
+      "path": "skills/iterative-retrieval/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/iterative-retrieval/SKILL.md",
+      "description": "Pattern for progressively refining context retrieval to solve the subagent context problem",
+      "slug": "affaan-m-iterative-retrieval"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "ito-basket-compare",
+      "path": "skills/ito-basket-compare/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/ito-basket-compare/SKILL.md",
+      "description": "Compare Itô prediction-market baskets against a user's knowledge base, portfolio notes, financial context, watchlist, or research thesis. Use for read-only basket comparison and gap analysis without investment advice or live trading.",
+      "slug": "affaan-m-ito-basket-compare"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "ito-data-atlas-agent",
+      "path": "skills/ito-data-atlas-agent/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/ito-data-atlas-agent/SKILL.md",
+      "description": "Design background Data Atlas style agents for Itô basket research, market discovery, parameter drafting, and human-in-the-loop editing. Use for architecture and workflow planning, not live order execution.",
+      "slug": "affaan-m-ito-data-atlas-agent"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "ito-market-intelligence",
+      "path": "skills/ito-market-intelligence/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/ito-market-intelligence/SKILL.md",
+      "description": "Research prediction-market events, venues, underliers, liquidity, and news context for Itô basket workflows. Use for read-only market intelligence, API-gated Itô exploration, and source-grounded prediction-market briefings without investment advice or live trading.",
+      "slug": "affaan-m-ito-market-intelligence"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "ito-trade-planner",
+      "path": "skills/ito-trade-planner/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/ito-trade-planner/SKILL.md",
+      "description": "Build a non-advisory prediction-market trade planning worksheet for Itô or venue workflows. Use to inspect venues, underliers, constraints, order prerequisites, and manual execution steps without placing trades or recommending positions.",
+      "slug": "affaan-m-ito-trade-planner"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "java-coding-standards",
+      "path": "skills/java-coding-standards/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/java-coding-standards/SKILL.md",
+      "description": "Java coding standards for Spring Boot and Quarkus services: naming, immutability, Optional usage, streams, exceptions, generics, CDI, reactive patterns, and project layout. Automatically applies framework-specific conventions.",
+      "slug": "affaan-m-java-coding-standards"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "jira-integration",
+      "path": "skills/jira-integration/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/jira-integration/SKILL.md",
+      "description": "Use this skill when retrieving Jira tickets, analyzing requirements, updating ticket status, adding comments, or transitioning issues. Provides Jira API patterns via MCP or direct REST calls.",
+      "slug": "affaan-m-jira-integration"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "jpa-patterns",
+      "path": "skills/jpa-patterns/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/jpa-patterns/SKILL.md",
+      "description": "JPA/Hibernate patterns for entity design, relationships, query optimization, transactions, auditing, indexing, pagination, and pooling in Spring Boot.",
+      "slug": "affaan-m-jpa-patterns"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "knowledge-ops",
+      "path": "skills/knowledge-ops/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/knowledge-ops/SKILL.md",
+      "description": "Knowledge base management, ingestion, sync, and retrieval across multiple storage layers (local files, MCP memory, vector stores, Git repos). Use when the user wants to save, organize, sync, deduplicate, or search across their knowledge systems.",
+      "slug": "affaan-m-knowledge-ops"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "kotlin-coroutines-flows",
+      "path": "skills/kotlin-coroutines-flows/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/kotlin-coroutines-flows/SKILL.md",
+      "description": "Kotlin Coroutines and Flow patterns for Android and KMP — structured concurrency, Flow operators, StateFlow, error handling, and testing.",
+      "slug": "affaan-m-kotlin-coroutines-flows"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "kotlin-exposed-patterns",
+      "path": "skills/kotlin-exposed-patterns/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/kotlin-exposed-patterns/SKILL.md",
+      "description": "JetBrains Exposed ORM patterns including DSL queries, DAO pattern, transactions, HikariCP connection pooling, Flyway migrations, and repository pattern.",
+      "slug": "affaan-m-kotlin-exposed-patterns"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "kotlin-ktor-patterns",
+      "path": "skills/kotlin-ktor-patterns/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/kotlin-ktor-patterns/SKILL.md",
+      "description": "Ktor server patterns including routing DSL, plugins, authentication, Koin DI, kotlinx.serialization, WebSockets, and testApplication testing.",
+      "slug": "affaan-m-kotlin-ktor-patterns"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "kotlin-patterns",
+      "path": "skills/kotlin-patterns/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/kotlin-patterns/SKILL.md",
+      "description": "Idiomatic Kotlin patterns, best practices, and conventions for building robust, efficient, and maintainable Kotlin applications with coroutines, null safety, and DSL builders.",
+      "slug": "affaan-m-kotlin-patterns"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "kotlin-testing",
+      "path": "skills/kotlin-testing/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/kotlin-testing/SKILL.md",
+      "description": "Kotlin testing patterns with Kotest, MockK, coroutine testing, property-based testing, and Kover coverage. Follows TDD methodology with idiomatic Kotlin practices.",
+      "slug": "affaan-m-kotlin-testing"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "kubernetes-patterns",
+      "path": "skills/kubernetes-patterns/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/kubernetes-patterns/SKILL.md",
+      "description": "Kubernetes workload patterns, resource management, RBAC, probes, autoscaling, ConfigMap/Secret handling, and kubectl debugging for production-grade deployments.",
+      "slug": "affaan-m-kubernetes-patterns"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "laravel-patterns",
+      "path": "skills/laravel-patterns/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/laravel-patterns/SKILL.md",
+      "description": "Laravel architecture patterns, routing/controllers, Eloquent ORM, service layers, queues, events, caching, and API resources for production apps.",
+      "slug": "affaan-m-laravel-patterns"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "laravel-plugin-discovery",
+      "path": "skills/laravel-plugin-discovery/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/laravel-plugin-discovery/SKILL.md",
+      "description": "Discover and evaluate Laravel packages via LaraPlugins.io MCP. Use when the user wants to find plugins, check package health, or assess Laravel/PHP compatibility.",
+      "slug": "affaan-m-laravel-plugin-discovery"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "laravel-security",
+      "path": "skills/laravel-security/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/laravel-security/SKILL.md",
+      "description": "Laravel security best practices — authentication, authorization, Eloquent safety, CSRF, XSS prevention, API security, and secure deployment configurations.",
+      "slug": "affaan-m-laravel-security"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "laravel-tdd",
+      "path": "skills/laravel-tdd/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/laravel-tdd/SKILL.md",
+      "description": "Laravel testing strategies with PHPUnit, Pest, model factories, HTTP tests, Sanctum authentication testing, mocking, and coverage.",
+      "slug": "affaan-m-laravel-tdd"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "laravel-verification",
+      "path": "skills/laravel-verification/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/laravel-verification/SKILL.md",
+      "description": "Verification loop for Laravel projects: env checks, linting, static analysis, tests with coverage, security scans, and deployment readiness.",
+      "slug": "affaan-m-laravel-verification"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "latency-critical-systems",
+      "path": "skills/latency-critical-systems/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/latency-critical-systems/SKILL.md",
+      "description": "Use for latency-sensitive systems such as realtime dashboards, market data, streaming agents, execution gateways, queues, caches, or HFT-like infrastructure where freshness and p95 latency matter.",
+      "slug": "affaan-m-latency-critical-systems"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "lead-intelligence",
+      "path": "skills/lead-intelligence/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/lead-intelligence/SKILL.md",
+      "description": "AI-native lead intelligence and outreach pipeline. Replaces Apollo, Clay, and ZoomInfo with agent-powered signal scoring, mutual ranking, warm path discovery, source-derived voice modeling, and channel-specific outreach across email, LinkedIn, and X. Use when the user wants to find, qualify, and reach high-value contacts.",
+      "slug": "affaan-m-lead-intelligence"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "liquid-glass-design",
+      "path": "skills/liquid-glass-design/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/liquid-glass-design/SKILL.md",
+      "description": "iOS 26 Liquid Glass design system — dynamic glass material with blur, reflection, and interactive morphing for SwiftUI, UIKit, and WidgetKit.",
+      "slug": "affaan-m-liquid-glass-design"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "llm-trading-agent-security",
+      "path": "skills/llm-trading-agent-security/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/llm-trading-agent-security/SKILL.md",
+      "description": "Security patterns for autonomous trading agents with wallet or transaction authority. Covers prompt injection, spend limits, pre-send simulation, circuit breakers, MEV protection, and key handling.",
+      "slug": "affaan-m-llm-trading-agent-security"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "logistics-exception-management",
+      "path": "skills/logistics-exception-management/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/logistics-exception-management/SKILL.md",
+      "description": ">",
+      "slug": "affaan-m-logistics-exception-management"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "loop-design-check",
+      "path": "skills/loop-design-check/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/loop-design-check/SKILL.md",
+      "description": "Design a goal-oriented agent loop, and review it for the ways loops go wrong — spinning and burning tokens, Goodhart-gaming the verifier, or running a wrong answer to completion. Two actions: (1) WRITE a loop — gate whether to build it, define a machine-decidable goal, pick the loop type, pick a skeleton; (2) REVIEW a loop — run it past five failure modes plus decidability, boundaries, fallback, judge independence, and keep-judgment-with-the-human red lines. Use when designing an autonomous agent loop, or when you already have one and worry it will spin, cheat, or run a wrong answer to the end. Complements the mechanism-layer loop skills (autonomous-loops, continuous-agent-loop) by covering the judgment layer they don't. 中文触发：写 loop、设计 loop、做一个 loop、检查 loop 对不对、loop 体检、loop 会不会跑飞、可判定目标、五个崩法、plan build judge。English triggers: design an agent loop, write a loop, check a loop, loop review, ",
+      "slug": "affaan-m-loop-design-check"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "mailtrap-email-integration",
+      "path": "skills/mailtrap-email-integration/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/mailtrap-email-integration/SKILL.md",
+      "description": "Guides agents through integrating transactional email sending via Mailtrap's Email API, including sandbox testing, domain verification, and API authentication. Use when implementing email-sending features, debugging delivery issues, or setting up safe dev/staging email testing.",
+      "slug": "affaan-m-mailtrap-email-integration"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "make-interfaces-feel-better",
+      "path": "skills/make-interfaces-feel-better/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/make-interfaces-feel-better/SKILL.md",
+      "description": "Apply concrete design-engineering details that make interfaces feel polished. Use when reviewing or improving UI spacing, typography, borders, shadows, motion, hit areas, icons, text wrapping, and interaction states.",
+      "slug": "affaan-m-make-interfaces-feel-better"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "manim-video",
+      "path": "skills/manim-video/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/manim-video/SKILL.md",
+      "description": "Build reusable Manim explainers for technical concepts, graphs, system diagrams, and product walkthroughs, then hand off to the wider ECC video stack if needed. Use when the user wants a clean animated explainer rather than a generic talking-head script.",
+      "slug": "affaan-m-manim-video"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "market-research",
+      "path": "skills/market-research/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/market-research/SKILL.md",
+      "description": "Conduct market research, competitive analysis, investor due diligence, and industry intelligence with source attribution and decision-oriented summaries. Use when the user wants market sizing, competitor comparisons, fund research, technology scans, or research that informs business decisions.",
+      "slug": "affaan-m-market-research"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "marketing-campaign",
+      "path": "skills/marketing-campaign/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/marketing-campaign/SKILL.md",
+      "description": "End-to-end marketing campaign planning and execution. Covers audience research, positioning, campaign angle definition, landing page copy, email sequences, social posts, ad copy, short-form video scripts, and content calendars. Use as the orchestration layer for multi-channel product launches.",
+      "slug": "affaan-m-marketing-campaign"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "mcp-server-patterns",
+      "path": "skills/mcp-server-patterns/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/mcp-server-patterns/SKILL.md",
+      "description": "Build MCP servers with Node/TypeScript SDK — tools, resources, prompts, Zod validation, stdio vs Streamable HTTP. Use Context7 or official MCP docs for latest API.",
+      "slug": "affaan-m-mcp-server-patterns"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "messages-ops",
+      "path": "skills/messages-ops/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/messages-ops/SKILL.md",
+      "description": "Evidence-first live messaging workflow for ECC. Use when the user wants to read texts or DMs, recover a recent one-time code, inspect a thread before replying, or prove which message source was actually checked.",
+      "slug": "affaan-m-messages-ops"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "ml-adoption-playbook",
+      "path": "skills/ml-adoption-playbook/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/ml-adoption-playbook/SKILL.md",
+      "description": "End-to-end methodology for AI agents and software engineers to add machine learning algorithms to existing non-ML codebases. Covers problem framing, data readiness, architectural decoupling, and baseline model integration.",
+      "slug": "affaan-m-ml-adoption-playbook"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "mle-workflow",
+      "path": "skills/mle-workflow/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/mle-workflow/SKILL.md",
+      "description": "Production machine-learning engineering workflow for data contracts, reproducible training, model evaluation, deployment, monitoring, and rollback. Use when building, reviewing, or hardening ML systems beyond one-off notebooks.",
+      "slug": "affaan-m-mle-workflow"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "motion-advanced",
+      "path": "skills/motion-advanced/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/motion-advanced/SKILL.md",
+      "description": "Advanced motion patterns for React / Next.js — drag & drop, gestures, text animations, SVG path drawing, custom hooks, imperative sequences (useAnimate), loaders, and the full API decision tree. Requires motion-foundations.",
+      "slug": "affaan-m-motion-advanced"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "motion-foundations",
+      "path": "skills/motion-foundations/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/motion-foundations/SKILL.md",
+      "description": "Motion tokens, spring presets, performance rules, device adaptation, accessibility enforcement, and SSR safety for React / Next.js using motion/react. Foundation layer — all other motion skills depend on this.",
+      "slug": "affaan-m-motion-foundations"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "motion-patterns",
+      "path": "skills/motion-patterns/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/motion-patterns/SKILL.md",
+      "description": "Production-ready animation patterns for React / Next.js — button, modal, toast, stagger, page transitions, exit animations, scroll, and layout — built on motion-foundations tokens and springs.",
+      "slug": "affaan-m-motion-patterns"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "motion-ui",
+      "path": "skills/motion-ui/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/motion-ui/SKILL.md",
+      "description": "Production-ready UI motion system for React/Next.js. Use when implementing animations, transitions, or motion patterns.",
+      "slug": "affaan-m-motion-ui"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "mysql-patterns",
+      "path": "skills/mysql-patterns/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/mysql-patterns/SKILL.md",
+      "description": "MySQL and MariaDB schema, query, indexing, transaction, replication, and connection-pool patterns for production backends.",
+      "slug": "affaan-m-mysql-patterns"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "nanoclaw-repl",
+      "path": "skills/nanoclaw-repl/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/nanoclaw-repl/SKILL.md",
+      "description": "Operate and extend NanoClaw v2, ECC's zero-dependency session-aware REPL built on claude -p.",
+      "slug": "affaan-m-nanoclaw-repl"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "nestjs-patterns",
+      "path": "skills/nestjs-patterns/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/nestjs-patterns/SKILL.md",
+      "description": "NestJS architecture patterns for modules, controllers, providers, DTO validation, guards, interceptors, config, and production-grade TypeScript backends.",
+      "slug": "affaan-m-nestjs-patterns"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "netmiko-ssh-automation",
+      "path": "skills/netmiko-ssh-automation/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/netmiko-ssh-automation/SKILL.md",
+      "description": "Safe Python Netmiko patterns for read-only collection, bounded batch SSH, TextFSM parsing, guarded config changes, timeouts, and network automation error handling.",
+      "slug": "affaan-m-netmiko-ssh-automation"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "network-bgp-diagnostics",
+      "path": "skills/network-bgp-diagnostics/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/network-bgp-diagnostics/SKILL.md",
+      "description": "Diagnostics-only BGP troubleshooting patterns for neighbor state, route exchange, prefix policy, AS path inspection, and safe evidence collection.",
+      "slug": "affaan-m-network-bgp-diagnostics"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "network-config-validation",
+      "path": "skills/network-config-validation/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/network-config-validation/SKILL.md",
+      "description": "Pre-deployment checks for router and switch configuration, including dangerous commands, duplicate addresses, subnet overlaps, stale references, management-plane risk, and IOS-style security hygiene.",
+      "slug": "affaan-m-network-config-validation"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "network-interface-health",
+      "path": "skills/network-interface-health/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/network-interface-health/SKILL.md",
+      "description": "Diagnose interface errors, drops, CRCs, duplex mismatches, flapping, speed negotiation issues, and counter trends on routers, switches, and Linux hosts.",
+      "slug": "affaan-m-network-interface-health"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "nextjs-turbopack",
+      "path": "skills/nextjs-turbopack/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/nextjs-turbopack/SKILL.md",
+      "description": "Next.js 16+ and Turbopack — incremental bundling, FS caching, dev speed, and when to use Turbopack vs webpack.",
+      "slug": "affaan-m-nextjs-turbopack"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "nodejs-keccak256",
+      "path": "skills/nodejs-keccak256/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/nodejs-keccak256/SKILL.md",
+      "description": "Prevent Ethereum hashing bugs in JavaScript and TypeScript. Node's sha3-256 is NIST SHA3, not Ethereum Keccak-256, and silently breaks selectors, signatures, storage slots, and address derivation.",
+      "slug": "affaan-m-nodejs-keccak256"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "nutrient-document-processing",
+      "path": "skills/nutrient-document-processing/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/nutrient-document-processing/SKILL.md",
+      "description": "Process, convert, OCR, extract, redact, sign, and fill documents using the Nutrient DWS API. Works with PDFs, DOCX, XLSX, PPTX, HTML, and images.",
+      "slug": "affaan-m-nutrient-document-processing"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "nuxt4-patterns",
+      "path": "skills/nuxt4-patterns/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/nuxt4-patterns/SKILL.md",
+      "description": "Nuxt 4 app patterns for hydration safety, performance, route rules, lazy loading, and SSR-safe data fetching with useFetch and useAsyncData.",
+      "slug": "affaan-m-nuxt4-patterns"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "openclaw-persona-forge",
+      "path": "skills/openclaw-persona-forge/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/openclaw-persona-forge/SKILL.md",
+      "description": "为 OpenClaw AI Agent 锻造完整的龙虾灵魂方案。根据用户偏好或随机抽卡， 输出身份定位、灵魂描述(SOUL.md)、角色化底线规则、名字和头像生图提示词。 如当前环境提供已审核的生图 skill，可自动生成统一风格头像图片。 当用户需要创建、设计或定制 OpenClaw 龙虾灵魂时使用。 不适用于：微调已有 SOUL.md、非 OpenClaw 平台的角色设计、纯工具型无性格 Agent。 触发词：龙虾灵魂、虾魂、OpenClaw 灵魂、养虾灵魂、龙虾角色、龙虾定位、 龙虾剧本杀角色、龙虾游戏角色、龙虾 NPC、龙虾性格、龙虾背景故事、 lobster soul、lobster character、抽卡、随机龙虾、龙虾 SOUL、gacha。",
+      "slug": "affaan-m-openclaw-persona-forge"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "opensource-pipeline",
+      "path": "skills/opensource-pipeline/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/opensource-pipeline/SKILL.md",
+      "description": "Open-source pipeline: fork, sanitize, and package private projects for safe public release. Chains 3 agents (forker, sanitizer, packager). Triggers: '/opensource', 'open source this', 'make this public', 'prepare for open source'.",
+      "slug": "affaan-m-opensource-pipeline"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "orch-add-feature",
+      "path": "skills/orch-add-feature/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/orch-add-feature/SKILL.md",
+      "description": "Orchestrate building a brand-new feature end to end — research, plan, TDD implementation, review, and gated commit — by delegating each phase to the matching ECC agent. Use when adding a capability that does not exist yet.",
+      "slug": "affaan-m-orch-add-feature"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "orch-build-mvp",
+      "path": "skills/orch-build-mvp/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/orch-build-mvp/SKILL.md",
+      "description": "Orchestrate bootstrapping a working MVP from a design or spec document — ingest the doc, plan thin vertical slices, scaffold the first end-to-end slice, then TDD-implement, review, and gated commit. Use to turn an SDD/PRD into a running starting point.",
+      "slug": "affaan-m-orch-build-mvp"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "orch-change-feature",
+      "path": "skills/orch-change-feature/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/orch-change-feature/SKILL.md",
+      "description": "Orchestrate altering an existing, working feature to new desired behavior — update its tests to the new spec, change the implementation to match, review, and gated commit. Use when behavior is not broken but should be different.",
+      "slug": "affaan-m-orch-change-feature"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "orch-fix-defect",
+      "path": "skills/orch-fix-defect/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/orch-fix-defect/SKILL.md",
+      "description": "Orchestrate fixing a bug — reproduce it as a failing regression test, fix to green, review, and gated commit — by delegating each phase to the matching ECC agent. Use when existing behavior is broken or wrong.",
+      "slug": "affaan-m-orch-fix-defect"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "orch-pipeline",
+      "path": "skills/orch-pipeline/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/orch-pipeline/SKILL.md",
+      "description": "Shared orchestration engine for the orch-* skill family. Defines the gated Research-Plan-TDD-Review-Commit pipeline, the size classifier, the agent map, and the two human gates that the orch-* operation skills delegate to. Not usually invoked directly.",
+      "slug": "affaan-m-orch-pipeline"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "orch-refine-code",
+      "path": "skills/orch-refine-code/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/orch-refine-code/SKILL.md",
+      "description": "Orchestrate a behavior-preserving refactor — confirm tests are green, restructure without changing behavior, keep tests green, review, and gated commit. Use when the structure should improve but behavior must not change.",
+      "slug": "affaan-m-orch-refine-code"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "parallel-execution-optimizer",
+      "path": "skills/parallel-execution-optimizer/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/parallel-execution-optimizer/SKILL.md",
+      "description": "Use when the user wants a task done much faster through parallel work, concurrent agents, batched tool calls, isolated worktrees, or many independent verification lanes without losing correctness.",
+      "slug": "affaan-m-parallel-execution-optimizer"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "perl-patterns",
+      "path": "skills/perl-patterns/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/perl-patterns/SKILL.md",
+      "description": "Modern Perl 5.36+ idioms, best practices, and conventions for building robust, maintainable Perl applications.",
+      "slug": "affaan-m-perl-patterns"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "perl-security",
+      "path": "skills/perl-security/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/perl-security/SKILL.md",
+      "description": "Comprehensive Perl security covering taint mode, input validation, safe process execution, DBI parameterized queries, web security (XSS/SQLi/CSRF), and perlcritic security policies.",
+      "slug": "affaan-m-perl-security"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "perl-testing",
+      "path": "skills/perl-testing/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/perl-testing/SKILL.md",
+      "description": "Perl testing patterns using Test2::V0, Test::More, prove runner, mocking, coverage with Devel::Cover, and TDD methodology.",
+      "slug": "affaan-m-perl-testing"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "plan-orchestrate",
+      "path": "skills/plan-orchestrate/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/plan-orchestrate/SKILL.md",
+      "description": "Read a plan document, decompose it into steps, design a per-step agent chain from the ECC catalogue, and emit ready-to-paste /orchestrate custom prompts. Generative only — never invokes /orchestrate itself. Use when the user has a multi-step plan and wants to drive it through orchestrate without composing chains by hand.",
+      "slug": "affaan-m-plan-orchestrate"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "plankton-code-quality",
+      "path": "skills/plankton-code-quality/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/plankton-code-quality/SKILL.md",
+      "description": "Write-time code quality enforcement using Plankton — auto-formatting, linting, and Claude-powered fixes on every file edit via hooks.",
+      "slug": "affaan-m-plankton-code-quality"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "postgres-patterns",
+      "path": "skills/postgres-patterns/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/postgres-patterns/SKILL.md",
+      "description": "PostgreSQL database patterns for query optimization, schema design, indexing, and security. Based on Supabase best practices.",
+      "slug": "affaan-m-postgres-patterns"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "prediction-market-oracle-research",
+      "path": "skills/prediction-market-oracle-research/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/prediction-market-oracle-research/SKILL.md",
+      "description": "Research prediction markets as data sources or oracle signals for products, agents, dashboards, and corporate decision intelligence. Use for source-grounded analysis of market-implied probabilities, caveats, and integration patterns without investment advice.",
+      "slug": "affaan-m-prediction-market-oracle-research"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "prediction-market-risk-review",
+      "path": "skills/prediction-market-risk-review/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/prediction-market-risk-review/SKILL.md",
+      "description": "Review prediction-market, basket, oracle, and trading-agent workflows for compliance, safety, data-quality, privacy, and execution risk. Use before any workflow handles venue auth, user portfolio data, API keys, or trade planning.",
+      "slug": "affaan-m-prediction-market-risk-review"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "prisma-patterns",
+      "path": "skills/prisma-patterns/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/prisma-patterns/SKILL.md",
+      "description": "Prisma ORM patterns for TypeScript backends — schema design, query optimization, transactions, pagination, and critical traps like updateMany returning count not records, $transaction timeouts, migrate dev resetting the DB, @updatedAt skipped on bulk writes, and serverless connection exhaustion.",
+      "slug": "affaan-m-prisma-patterns"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "product-capability",
+      "path": "skills/product-capability/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/product-capability/SKILL.md",
+      "description": "Translate PRD intent, roadmap asks, or product discussions into an implementation-ready capability plan that exposes constraints, invariants, interfaces, and unresolved decisions before multi-service work starts. Use when the user needs an ECC-native PRD-to-SRS lane instead of vague planning prose.",
+      "slug": "affaan-m-product-capability"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "product-lens",
+      "path": "skills/product-lens/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/product-lens/SKILL.md",
+      "description": "Use this skill to validate the \"why\" before building, run product diagnostics, and pressure-test product direction before the request becomes an implementation contract.",
+      "slug": "affaan-m-product-lens"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "production-audit",
+      "path": "skills/production-audit/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/production-audit/SKILL.md",
+      "description": "Local-evidence production readiness audit for shipped apps, pre-launch reviews, post-merge checks, and \"what breaks in prod?\" questions without sending repo data to an external audit service.",
+      "slug": "affaan-m-production-audit"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "production-scheduling",
+      "path": "skills/production-scheduling/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/production-scheduling/SKILL.md",
+      "description": ">",
+      "slug": "affaan-m-production-scheduling"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "project-flow-ops",
+      "path": "skills/project-flow-ops/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/project-flow-ops/SKILL.md",
+      "description": "Operate execution flow across GitHub and Linear by triaging issues and pull requests, linking active work, and keeping GitHub public-facing while Linear remains the internal execution layer. Use when the user wants backlog control, PR triage, or GitHub-to-Linear coordination.",
+      "slug": "affaan-m-project-flow-ops"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "prompt-optimizer",
+      "path": "skills/prompt-optimizer/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/prompt-optimizer/SKILL.md",
+      "description": ">-",
+      "slug": "affaan-m-prompt-optimizer"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "python-patterns",
+      "path": "skills/python-patterns/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/python-patterns/SKILL.md",
+      "description": "Pythonic idioms, PEP 8 standards, type hints, and best practices for building robust, efficient, and maintainable Python applications.",
+      "slug": "affaan-m-python-patterns"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "python-testing",
+      "path": "skills/python-testing/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/python-testing/SKILL.md",
+      "description": "Python testing strategies using pytest, TDD methodology, fixtures, mocking, parametrization, and coverage requirements.",
+      "slug": "affaan-m-python-testing"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "pytorch-patterns",
+      "path": "skills/pytorch-patterns/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/pytorch-patterns/SKILL.md",
+      "description": "PyTorch deep learning patterns and best practices for building robust, efficient, and reproducible training pipelines, model architectures, and data loading.",
+      "slug": "affaan-m-pytorch-patterns"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "quality-nonconformance",
+      "path": "skills/quality-nonconformance/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/quality-nonconformance/SKILL.md",
+      "description": ">",
+      "slug": "affaan-m-quality-nonconformance"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "quarkus-patterns",
+      "path": "skills/quarkus-patterns/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/quarkus-patterns/SKILL.md",
+      "description": "Quarkus 3.x LTS architecture patterns with Camel for messaging, RESTful API design, CDI services, data access with Panache, and async processing. Use for Java Quarkus backend work with event-driven architectures.",
+      "slug": "affaan-m-quarkus-patterns"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "quarkus-security",
+      "path": "skills/quarkus-security/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/quarkus-security/SKILL.md",
+      "description": "Quarkus Security best practices for authentication, authorization, JWT/OIDC, RBAC, input validation, CSRF, secrets management, and dependency security.",
+      "slug": "affaan-m-quarkus-security"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "quarkus-tdd",
+      "path": "skills/quarkus-tdd/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/quarkus-tdd/SKILL.md",
+      "description": "Test-driven development for Quarkus 3.x LTS using JUnit 5, Mockito, REST Assured, Camel testing, and JaCoCo. Use when adding features, fixing bugs, or refactoring event-driven services.",
+      "slug": "affaan-m-quarkus-tdd"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "quarkus-verification",
+      "path": "skills/quarkus-verification/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/quarkus-verification/SKILL.md",
+      "description": "Verification loop for Quarkus projects: build, static analysis, tests with coverage, security scans, native compilation, and diff review before release or PR.",
+      "slug": "affaan-m-quarkus-verification"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "ralphinho-rfc-pipeline",
+      "path": "skills/ralphinho-rfc-pipeline/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/ralphinho-rfc-pipeline/SKILL.md",
+      "description": "RFC-driven multi-agent DAG execution pattern with quality gates, merge queues, and work unit orchestration.",
+      "slug": "affaan-m-ralphinho-rfc-pipeline"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "react-native-patterns",
+      "path": "skills/react-native-patterns/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/react-native-patterns/SKILL.md",
+      "description": "React Native and Expo app patterns — Expo Router navigation, state separation (server/client/route/form), TanStack Query data fetching with Zod, performant lists, NativeWind/StyleSheet styling, native APIs, and secure storage. Use when building or editing React Native / Expo screens, components, navigation, or data layers.",
+      "slug": "affaan-m-react-native-patterns"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "react-patterns",
+      "path": "skills/react-patterns/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/react-patterns/SKILL.md",
+      "description": "React 18/19 patterns including hooks discipline, server/client component boundaries, Suspense + error boundaries, form actions, data fetching, state management decision trees, and accessibility-first composition. Use when writing or reviewing React components.",
+      "slug": "affaan-m-react-patterns"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "react-performance",
+      "path": "skills/react-performance/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/react-performance/SKILL.md",
+      "description": "React and Next.js performance optimization patterns adapted from Vercel Engineering's React Best Practices (https://github.com/vercel-labs/agent-skills). Organizes 70+ rules across 8 priority categories — waterfalls, bundle size, server-side, client fetching, re-render, rendering, JS micro-perf, advanced. Use when writing, reviewing, or refactoring React/Next.js code for performance.",
+      "slug": "affaan-m-react-performance"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "react-testing",
+      "path": "skills/react-testing/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/react-testing/SKILL.md",
+      "description": "React component testing with React Testing Library, Vitest/Jest, MSW for network mocking, accessibility assertions with axe, and the decision boundary between component tests and Playwright/Cypress end-to-end runs. Use when writing or fixing tests for React components, hooks, or pages.",
+      "slug": "affaan-m-react-testing"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "recsys-pipeline-architect",
+      "path": "skills/recsys-pipeline-architect/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/recsys-pipeline-architect/SKILL.md",
+      "description": "Design composable recommendation, ranking, and feed pipelines using the six-stage Source→Hydrator→Filter→Scorer→Selector→SideEffect framework popularized by xAI's open-sourced For You algorithm. Use this skill whenever the user is building any system that picks \"the top K items for a (user, context)\" — social feeds, content CMSs, RAG rerankers, task prioritizers, notification triage, search reranking, ad ranking.",
+      "slug": "affaan-m-recsys-pipeline-architect"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "recursive-decision-ledger",
+      "path": "skills/recursive-decision-ledger/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/recursive-decision-ledger/SKILL.md",
+      "description": "Use when the user asks for repeated rollouts, marked decision processes, high-dimensional search, stochastic optimization, local-optima exploration, ensemble comparison, or recursive reasoning with a visible evidence trail.",
+      "slug": "affaan-m-recursive-decision-ledger"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "redis-patterns",
+      "path": "skills/redis-patterns/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/redis-patterns/SKILL.md",
+      "description": "Redis data structure patterns, caching strategies, distributed locks, rate limiting, pub/sub, and connection management for production applications.",
+      "slug": "affaan-m-redis-patterns"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "regex-vs-llm-structured-text",
+      "path": "skills/regex-vs-llm-structured-text/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/regex-vs-llm-structured-text/SKILL.md",
+      "description": "Decision framework for choosing between regex and LLM when parsing structured text — start with regex, add LLM only for low-confidence edge cases.",
+      "slug": "affaan-m-regex-vs-llm-structured-text"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "remotion-video-creation",
+      "path": "skills/remotion-video-creation/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/remotion-video-creation/SKILL.md",
+      "description": "Best practices for Remotion - Video creation in React. 29 domain-specific rules covering 3D, animations, audio, captions, charts, transitions, and more.",
+      "slug": "affaan-m-remotion-video-creation"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "repo-scan",
+      "path": "skills/repo-scan/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/repo-scan/SKILL.md",
+      "description": "Cross-stack source code asset audit — classifies every file, detects embedded third-party libraries, and delivers actionable four-level verdicts per module with interactive HTML reports.",
+      "slug": "affaan-m-repo-scan"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "research-ops",
+      "path": "skills/research-ops/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/research-ops/SKILL.md",
+      "description": "Evidence-first current-state research workflow for ECC. Use when the user wants fresh facts, comparisons, enrichment, or a recommendation built from current public evidence and any supplied local context.",
+      "slug": "affaan-m-research-ops"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "returns-reverse-logistics",
+      "path": "skills/returns-reverse-logistics/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/returns-reverse-logistics/SKILL.md",
+      "description": ">",
+      "slug": "affaan-m-returns-reverse-logistics"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "rules-distill",
+      "path": "skills/rules-distill/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/rules-distill/SKILL.md",
+      "description": "Scan skills to extract cross-cutting principles and distill them into rules — append, revise, or create new rule files",
+      "slug": "affaan-m-rules-distill"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "rust-patterns",
+      "path": "skills/rust-patterns/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/rust-patterns/SKILL.md",
+      "description": "Idiomatic Rust patterns, ownership, error handling, traits, concurrency, and best practices for building safe, performant applications.",
+      "slug": "affaan-m-rust-patterns"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "rust-testing",
+      "path": "skills/rust-testing/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/rust-testing/SKILL.md",
+      "description": "Rust testing patterns including unit tests, integration tests, async testing, property-based testing, mocking, and coverage. Follows TDD methodology.",
+      "slug": "affaan-m-rust-testing"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "safety-guard",
+      "path": "skills/safety-guard/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/safety-guard/SKILL.md",
+      "description": "Use this skill to prevent destructive operations when working on production systems or running agents autonomously.",
+      "slug": "affaan-m-safety-guard"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "santa-method",
+      "path": "skills/santa-method/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/santa-method/SKILL.md",
+      "description": "Multi-agent adversarial verification with convergence loop. Two independent review agents must both pass before output ships.",
+      "slug": "affaan-m-santa-method"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "scientific-db-pubmed-database",
+      "path": "skills/scientific-db-pubmed-database/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/scientific-db-pubmed-database/SKILL.md",
+      "description": "Direct PubMed and NCBI E-utilities search workflows for biomedical literature, MeSH queries, PMID lookup, citation retrieval, and API-backed literature monitoring.",
+      "slug": "affaan-m-scientific-db-pubmed-database"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "scientific-db-uspto-database",
+      "path": "skills/scientific-db-uspto-database/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/scientific-db-uspto-database/SKILL.md",
+      "description": "USPTO patent and trademark data workflow for official record lookup, PatentSearch queries, TSDR checks, assignment data, and reproducible IP research logs.",
+      "slug": "affaan-m-scientific-db-uspto-database"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "scientific-pkg-gget",
+      "path": "skills/scientific-pkg-gget/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/scientific-pkg-gget/SKILL.md",
+      "description": "gget CLI and Python workflow for quick genomic database queries, sequence lookup, BLAST-style searches, enrichment checks, and reproducible bioinformatics evidence logs.",
+      "slug": "affaan-m-scientific-pkg-gget"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "scientific-thinking-literature-review",
+      "path": "skills/scientific-thinking-literature-review/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/scientific-thinking-literature-review/SKILL.md",
+      "description": "Systematic literature-review workflow for academic, biomedical, technical, and scientific topics, including search planning, source screening, synthesis, citation checks, and evidence logging.",
+      "slug": "affaan-m-scientific-thinking-literature-review"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "scientific-thinking-scholar-evaluation",
+      "path": "skills/scientific-thinking-scholar-evaluation/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/scientific-thinking-scholar-evaluation/SKILL.md",
+      "description": "Structured scholarly-work evaluation for papers, proposals, literature reviews, methods sections, evidence quality, citation support, and research-writing feedback.",
+      "slug": "affaan-m-scientific-thinking-scholar-evaluation"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "search-first",
+      "path": "skills/search-first/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/search-first/SKILL.md",
+      "description": "Research-before-coding workflow. Search for existing tools, libraries, and patterns before writing custom code. Invokes the researcher agent.",
+      "slug": "affaan-m-search-first"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "security-bounty-hunter",
+      "path": "skills/security-bounty-hunter/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/security-bounty-hunter/SKILL.md",
+      "description": "Hunt for exploitable, bounty-worthy security issues in repositories. Focuses on remotely reachable vulnerabilities that qualify for real reports instead of noisy local-only findings.",
+      "slug": "affaan-m-security-bounty-hunter"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "security-review",
+      "path": "skills/security-review/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/security-review/SKILL.md",
+      "description": "Use this skill when adding authentication, handling user input, working with secrets, creating API endpoints, or implementing payment/sensitive features. Provides comprehensive security checklist and patterns.",
+      "slug": "affaan-m-security-review"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "security-scan",
+      "path": "skills/security-scan/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/security-scan/SKILL.md",
+      "description": "Scan your Claude Code configuration (.claude/ directory) for security vulnerabilities, misconfigurations, and injection risks using AgentShield. Checks CLAUDE.md, settings.json, MCP servers, hooks, and agent definitions.",
+      "slug": "affaan-m-security-scan"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "seo",
+      "path": "skills/seo/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/seo/SKILL.md",
+      "description": "Audit, plan, and implement SEO improvements across technical SEO, on-page optimization, structured data, Core Web Vitals, and content strategy. Use when the user wants better search visibility, SEO remediation, schema markup, sitemap/robots work, or keyword mapping.",
+      "slug": "affaan-m-seo"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "skill-comply",
+      "path": "skills/skill-comply/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/skill-comply/SKILL.md",
+      "description": "Visualize whether skills, rules, and agent definitions are actually followed — auto-generates scenarios at 3 prompt strictness levels, runs agents, classifies behavioral sequences, and reports compliance rates with full tool call timelines",
+      "slug": "affaan-m-skill-comply"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "skill-scout",
+      "path": "skills/skill-scout/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/skill-scout/SKILL.md",
+      "description": "Search existing local, marketplace, GitHub, and web skill sources before creating a new skill. Use when the user wants to create, build, fork, or find a skill for a workflow.",
+      "slug": "affaan-m-skill-scout"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "skill-stocktake",
+      "path": "skills/skill-stocktake/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/skill-stocktake/SKILL.md",
+      "description": "Use when auditing Claude skills and commands for quality. Supports Quick Scan (changed skills only) and Full Stocktake modes with sequential subagent batch evaluation.",
+      "slug": "affaan-m-skill-stocktake"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "social-graph-ranker",
+      "path": "skills/social-graph-ranker/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/social-graph-ranker/SKILL.md",
+      "description": "Weighted social-graph ranking for warm intro discovery, bridge scoring, and network gap analysis across X and LinkedIn. Use when the user wants the reusable graph-ranking engine itself, not the broader outreach or network-maintenance workflow layered on top of it.",
+      "slug": "affaan-m-social-graph-ranker"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "social-publisher",
+      "path": "skills/social-publisher/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/social-publisher/SKILL.md",
+      "description": "Agent-driven scheduling and publishing of social media posts across 13 platforms via SocialClaw. Use when the user wants to publish to X, LinkedIn, Instagram, Facebook Pages, TikTok, Discord, Telegram, YouTube, Reddit, WordPress, or Pinterest — or when managing campaigns, uploading media, or monitoring post delivery status.",
+      "slug": "affaan-m-social-publisher"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "springboot-patterns",
+      "path": "skills/springboot-patterns/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/springboot-patterns/SKILL.md",
+      "description": "Spring Boot architecture patterns, REST API design, layered services, data access, caching, async processing, and logging. Use for Java Spring Boot backend work.",
+      "slug": "affaan-m-springboot-patterns"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "springboot-security",
+      "path": "skills/springboot-security/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/springboot-security/SKILL.md",
+      "description": "Spring Security best practices for authn/authz, validation, CSRF, secrets, headers, rate limiting, and dependency security in Java Spring Boot services.",
+      "slug": "affaan-m-springboot-security"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "springboot-tdd",
+      "path": "skills/springboot-tdd/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/springboot-tdd/SKILL.md",
+      "description": "Test-driven development for Spring Boot using JUnit 5, Mockito, MockMvc, Testcontainers, and JaCoCo. Use when adding features, fixing bugs, or refactoring.",
+      "slug": "affaan-m-springboot-tdd"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "springboot-verification",
+      "path": "skills/springboot-verification/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/springboot-verification/SKILL.md",
+      "description": "Verification loop for Spring Boot projects: build, static analysis, tests with coverage, security scans, and diff review before release or PR.",
+      "slug": "affaan-m-springboot-verification"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "strategic-compact",
+      "path": "skills/strategic-compact/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/strategic-compact/SKILL.md",
+      "description": "Suggests manual context compaction at logical intervals to preserve context through task phases rather than arbitrary auto-compaction.",
+      "slug": "affaan-m-strategic-compact"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "swift-actor-persistence",
+      "path": "skills/swift-actor-persistence/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/swift-actor-persistence/SKILL.md",
+      "description": "Thread-safe data persistence in Swift using actors — in-memory cache with file-backed storage, eliminating data races by design.",
+      "slug": "affaan-m-swift-actor-persistence"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "swift-concurrency-6-2",
+      "path": "skills/swift-concurrency-6-2/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/swift-concurrency-6-2/SKILL.md",
+      "description": "Swift 6.2 Approachable Concurrency — single-threaded by default, @concurrent for explicit background offloading, isolated conformances for main actor types.",
+      "slug": "affaan-m-swift-concurrency-6-2"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "swift-protocol-di-testing",
+      "path": "skills/swift-protocol-di-testing/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/swift-protocol-di-testing/SKILL.md",
+      "description": "Protocol-based dependency injection for testable Swift code — mock file system, network, and external APIs using focused protocols and Swift Testing.",
+      "slug": "affaan-m-swift-protocol-di-testing"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "swiftui-patterns",
+      "path": "skills/swiftui-patterns/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/swiftui-patterns/SKILL.md",
+      "description": "SwiftUI architecture patterns, state management with @Observable, view composition, navigation, performance optimization, and modern iOS/macOS UI best practices.",
+      "slug": "affaan-m-swiftui-patterns"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "taste",
+      "path": "skills/taste/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/taste/SKILL.md",
+      "description": "A creative-direction (taste) layer for music videos and short-form edits in the angelcore / cloud-trance / hyperpop visual family. Distills a named-genre aesthetic vocabulary, a mood + color + light system, and a beat-synced editing grammar, then chains ECC's video skills (video-editing, fal-ai-media, remotion-video-creation, motion-*, content-engine) into one production pipeline. Use when the work is not just making a video function but making it feel intentional, when building a music video, a fancam/edit, a moodboard-driven reel, or when choosing a coherent visual direction for AI-generated b-roll.",
+      "slug": "affaan-m-taste"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "tdd-workflow",
+      "path": "skills/tdd-workflow/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/tdd-workflow/SKILL.md",
+      "description": "Use this skill when writing new features, fixing bugs, or refactoring code. Enforces test-driven development with 80%+ coverage including unit, integration, and E2E tests.",
+      "slug": "affaan-m-tdd-workflow"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "team-agent-orchestration",
+      "path": "skills/team-agent-orchestration/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/team-agent-orchestration/SKILL.md",
+      "description": "Run team-based orchestration for agent squads using work items, ownership, agent Kanban, merge gates, and control pane handoffs.",
+      "slug": "affaan-m-team-agent-orchestration"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "team-builder",
+      "path": "skills/team-builder/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/team-builder/SKILL.md",
+      "description": "Interactive agent picker for composing and dispatching parallel teams",
+      "slug": "affaan-m-team-builder"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "terminal-ops",
+      "path": "skills/terminal-ops/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/terminal-ops/SKILL.md",
+      "description": "Evidence-first repo execution workflow for ECC. Use when the user wants a command run, a repo checked, a CI failure debugged, or a narrow fix pushed with exact proof of what was executed and verified.",
+      "slug": "affaan-m-terminal-ops"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "tinystruct-patterns",
+      "path": "skills/tinystruct-patterns/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/tinystruct-patterns/SKILL.md",
+      "description": "Expert guidance for developing with the tinystruct Java framework. Use when working on the tinystruct codebase or any project built on tinystruct — including creating Application classes, @Action-mapped routes, unit tests, ActionRegistry, HTTP/CLI dual-mode handling, the built-in HTTP server, the event system, JSON with Builder/Builders, database persistence with AbstractData, POJO generation, Server-Sent Events (SSE), file uploads, and outbound HTTP networking.",
+      "slug": "affaan-m-tinystruct-patterns"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "token-budget-advisor",
+      "path": "skills/token-budget-advisor/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/token-budget-advisor/SKILL.md",
+      "description": ">-",
+      "slug": "affaan-m-token-budget-advisor"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "ui-demo",
+      "path": "skills/ui-demo/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/ui-demo/SKILL.md",
+      "description": "Record polished UI demo videos using Playwright. Use when the user asks to create a demo, walkthrough, screen recording, or tutorial video of a web application. Produces WebM videos with visible cursor, natural pacing, and professional feel.",
+      "slug": "affaan-m-ui-demo"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "ui-to-vue",
+      "path": "skills/ui-to-vue/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/ui-to-vue/SKILL.md",
+      "description": "Use when the user has UI screenshots or design exports that need batch conversion into Vue 3 components, especially with Vant, Element Plus, or Ant Design Vue.",
+      "slug": "affaan-m-ui-to-vue"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "uncloud",
+      "path": "skills/uncloud/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/uncloud/SKILL.md",
+      "description": "Use when managing an Uncloud cluster — deploying services, configuring Caddy ingress, adding static proxy routes for non-cluster devices, publishing ports, scaling, inspecting logs, or managing machines and volumes with the `uc` CLI.",
+      "slug": "affaan-m-uncloud"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "unified-notifications-ops",
+      "path": "skills/unified-notifications-ops/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/unified-notifications-ops/SKILL.md",
+      "description": "Operate notifications as one ECC-native workflow across GitHub, Linear, desktop alerts, hooks, and connected communication surfaces. Use when the real problem is alert routing, deduplication, escalation, or inbox collapse.",
+      "slug": "affaan-m-unified-notifications-ops"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "verification-loop",
+      "path": "skills/verification-loop/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/verification-loop/SKILL.md",
+      "description": "A comprehensive verification system for Claude Code sessions.",
+      "slug": "affaan-m-verification-loop"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "video-editing",
+      "path": "skills/video-editing/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/video-editing/SKILL.md",
+      "description": "AI-assisted video editing workflows for cutting, structuring, and augmenting real footage. Covers the full pipeline from raw capture through FFmpeg, Remotion, ElevenLabs, fal.ai, and final polish in Descript or CapCut. Use when the user wants to edit video, cut footage, create vlogs, or build video content.",
+      "slug": "affaan-m-video-editing"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "videodb",
+      "path": "skills/videodb/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/videodb/SKILL.md",
+      "description": "See, Understand, Act on video and audio. See- ingest from local files, URLs, RTSP/live feeds, or live record desktop; return realtime context and playable stream links. Understand- extract frames, build visual/semantic/temporal indexes, and search moments with timestamps and auto-clips. Act- transcode and normalize (codec, fps, resolution, aspect ratio), perform timeline edits (subtitles, text/image overlays, branding, audio overlays, dubbing, translation), generate media assets (image, audio, video), and create real time alerts for events from live streams or desktop capture.",
+      "slug": "affaan-m-videodb"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "visa-doc-translate",
+      "path": "skills/visa-doc-translate/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/visa-doc-translate/SKILL.md",
+      "description": "Translate visa application documents (images) to English and create a bilingual PDF with original and translation",
+      "slug": "affaan-m-visa-doc-translate"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "vite-patterns",
+      "path": "skills/vite-patterns/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/vite-patterns/SKILL.md",
+      "description": "Vite build tool patterns including config, plugins, HMR, env variables, proxy setup, SSR, library mode, dependency pre-bundling, and build optimization. Activate when working with vite.config.ts, Vite plugins, or Vite-based projects.",
+      "slug": "affaan-m-vite-patterns"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "vue-patterns",
+      "path": "skills/vue-patterns/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/vue-patterns/SKILL.md",
+      "description": "Vue.js 3 Composition API patterns, component architecture, reactivity best practices, Pinia state management, Vue Router navigation, and Nuxt SSR patterns. Activates for Vue, Nuxt, Vite, or Pinia projects.",
+      "slug": "affaan-m-vue-patterns"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "windows-desktop-e2e",
+      "path": "skills/windows-desktop-e2e/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/windows-desktop-e2e/SKILL.md",
+      "description": "E2E testing for Windows native desktop apps (WPF, WinForms, Win32/MFC, Qt) using pywinauto and Windows UI Automation.",
+      "slug": "affaan-m-windows-desktop-e2e"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "workspace-surface-audit",
+      "path": "skills/workspace-surface-audit/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/workspace-surface-audit/SKILL.md",
+      "description": "Audit the active repo, MCP servers, plugins, connectors, env surfaces, and harness setup, then recommend the highest-value ECC-native skills, hooks, agents, and operator workflows. Use when the user wants help setting up Claude Code or understanding what capabilities are actually available in their environment.",
+      "slug": "affaan-m-workspace-surface-audit"
+    },
+    {
+      "repository": "affaan-m/ECC",
+      "branch": "main",
+      "skillName": "x-api",
+      "path": "skills/x-api/SKILL.md",
+      "url": "https://github.com/affaan-m/ECC/blob/main/skills/x-api/SKILL.md",
+      "description": "X/Twitter API integration for posting tweets, threads, reading timelines, search, and analytics. Covers OAuth auth patterns, rate limits, and platform-native content posting. Use when the user wants to interact with X programmatically.",
+      "slug": "affaan-m-x-api"
+    }
+  ],
+  "itemCount": 278,
+  "lastStatus": "reused-unchanged"
+}

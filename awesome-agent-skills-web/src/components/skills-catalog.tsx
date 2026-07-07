@@ -1,12 +1,13 @@
 "use client";
 
 import Link from "next/link";
+import { DelayedSkillLink } from "@/components/delayed-skill-link";
 import { PublisherLogo } from "@/components/publisher-logo";
 import { SkillAvatar } from "@/components/skill-avatar";
 import { useEffect, useMemo, useRef, useState, useTransition } from "react";
 import type { PublisherSummary, SkillCatalogIndexItem, SkillCatalogItem, Skill } from "@/lib/skill-types";
 import { getRoles, getSourceTypeLabel, getTrustLevelLabel, isPriorityPublisher, matchesSearchQuery, parseSearchQuery } from "@/lib/skills-common";
-import { getCopy, getSkillDetailPath, prefixLocalePath, type Locale } from "@/lib/i18n";
+import { getCopy, type Locale } from "@/lib/i18n";
 import { expandQueryAliases as expandQueryAliasesLight, type SkillFilterKind, type SkillSort, type SkillTrustFilter } from "@/lib/skills-common";
 
 const PAGE_SIZE = 36;
@@ -1242,11 +1243,11 @@ export function SkillsCatalog({
                   </div>
                 ) : (
                   visibleSkills.map((skill) => (
-                    <Link
+                    <DelayedSkillLink
                       key={skill.slug}
-                      className="glass skill-card grid min-w-0 gap-4 rounded-[1.5rem] p-4 sm:rounded-[1.75rem] sm:p-5 lg:grid-cols-[220px_minmax(0,1fr)_auto] lg:items-center"
-                      href={prefixLocalePath(getSkillDetailPath(skill.slug, locale), locale)}
-                      prefetch={false}
+                      className="glass skill-card grid min-w-0 gap-4 rounded-[1.5rem] p-4 text-left sm:rounded-[1.75rem] sm:p-5 lg:grid-cols-[220px_minmax(0,1fr)_auto] lg:items-center"
+                      locale={locale}
+                      skillSlug={skill.slug}
                     >
                       <div className="min-w-0">
                         <p className="eyebrow muted">{skill.kind}</p>
@@ -1325,7 +1326,7 @@ export function SkillsCatalog({
                           </span>
                         </div>
                       </div>
-                    </Link>
+                    </DelayedSkillLink>
                   ))
                 )}
                 {filteredIndexSkills.length > 0 ? (

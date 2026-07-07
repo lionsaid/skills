@@ -1,0 +1,35 @@
+{
+  "repository": "pasky/chrome-cdp-skill",
+  "branch": "main",
+  "defaultBranch": "main",
+  "pushedAt": "2026-06-28T13:22:13Z",
+  "scannedAt": "2026-07-07T09:06:13.717Z",
+  "treeSha": "ffea76a24b0471663ddd9d9f24335bbc442b6266",
+  "items": [
+    {
+      "repository": "pasky/chrome-cdp-skill",
+      "branch": "main",
+      "skillName": "chrome-cdp-skill",
+      "path": "README.md",
+      "url": "https://github.com/pasky/chrome-cdp-skill",
+      "description": "Give your AI agent access to your live Chrome session — works out of the box, connects to tabs you already have open",
+      "slug": "pasky-chrome-cdp-skill-collection",
+      "isCollection": true,
+      "stars": null,
+      "skillPaths": [
+        "skills/chrome-cdp/SKILL.md"
+      ]
+    },
+    {
+      "repository": "pasky/chrome-cdp-skill",
+      "branch": "main",
+      "skillName": "chrome-cdp",
+      "path": "skills/chrome-cdp/SKILL.md",
+      "url": "https://github.com/pasky/chrome-cdp-skill/blob/main/skills/chrome-cdp/SKILL.md",
+      "description": "Interact with local Chrome browser session (only on explicit user approval after being asked to inspect, debug, or interact with a page open in Chrome)",
+      "slug": "pasky-chrome-cdp"
+    }
+  ],
+  "itemCount": 2,
+  "lastStatus": "reused-unchanged"
+}

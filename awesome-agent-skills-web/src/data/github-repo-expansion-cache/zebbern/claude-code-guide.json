@@ -1,0 +1,766 @@
+{
+  "repository": "zebbern/claude-code-guide",
+  "branch": "main",
+  "defaultBranch": "main",
+  "pushedAt": "2026-07-07T01:02:56Z",
+  "scannedAt": "2026-07-07T09:05:44.805Z",
+  "treeSha": "82a1370363fb50d35ded966ffaa3bea6ec74cf50",
+  "items": [
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "claude-code-guide",
+      "path": "README.md",
+      "url": "https://github.com/zebbern/claude-code-guide",
+      "description": "Claude Code Guide - Setup, Commands, workflows, agents, skills & tips-n-tricks go from beginner to power user!",
+      "slug": "zebbern-claude-code-guide-collection",
+      "isCollection": true,
+      "stars": 4368,
+      "skillPaths": [
+        "skills/academic-paper-reviewer/SKILL.md",
+        "skills/active-directory-attacks/SKILL.md",
+        "skills/api-fuzzing-bug-bounty/SKILL.md",
+        "skills/api-shape-explorer/SKILL.md",
+        "skills/audit-flow/SKILL.md",
+        "skills/authentication-patterns/SKILL.md",
+        "skills/aws-penetration-testing/SKILL.md",
+        "skills/broken-authentication/SKILL.md",
+        "skills/burp-suite-testing/SKILL.md",
+        "skills/caching/SKILL.md",
+        "skills/chart-image/SKILL.md",
+        "skills/cloud-penetration-testing/SKILL.md",
+        "skills/code-documenter/SKILL.md",
+        "skills/code-to-diagram/SKILL.md",
+        "skills/code-vuln-audit/SKILL.md",
+        "skills/composition-patterns/SKILL.md",
+        "skills/cross-examine/SKILL.md",
+        "skills/cv-tailor/SKILL.md",
+        "skills/data-viz-renderer/SKILL.md",
+        "skills/database-optimizer/SKILL.md",
+        "skills/database-scout/SKILL.md",
+        "skills/dataset-quality-audit/SKILL.md",
+        "skills/deep-module-refactor/SKILL.md",
+        "skills/design-system-builder/SKILL.md",
+        "skills/dev-guide-generator/SKILL.md",
+        "skills/ethical-hacking-methodology/SKILL.md",
+        "skills/file-path-traversal/SKILL.md",
+        "skills/html-injection-testing/SKILL.md",
+        "skills/http-load-profiler/SKILL.md",
+        "skills/idor-testing/SKILL.md",
+        "skills/linux-privilege-escalation/SKILL.md",
+        "skills/linux-shell-scripting/SKILL.md",
+        "skills/localization-toolkit/SKILL.md",
+        "skills/log-error-digest/SKILL.md",
+        "skills/metasploit-framework/SKILL.md",
+        "skills/network-101/SKILL.md",
+        "skills/nextjs-developer/SKILL.md",
+        "skills/pdf/SKILL.md",
+        "skills/pentest-checklist/SKILL.md",
+        "skills/pentest-commands/SKILL.md",
+        "skills/pipeline-blueprint/SKILL.md",
+        "skills/playwright/SKILL.md",
+        "skills/privilege-escalation-methods/SKILL.md",
+        "skills/project-sizing-guide/SKILL.md",
+        "skills/r2-upload/SKILL.md",
+        "skills/r3f-animation/SKILL.md",
+        "skills/r3f-best-practices/SKILL.md",
+        "skills/react-best-practices/SKILL.md",
+        "skills/red-team-tools/SKILL.md",
+        "skills/regression-modeler/SKILL.md",
+        "skills/regulatory-audit-generator/SKILL.md",
+        "skills/repo-audit/SKILL.md",
+        "skills/route-to-openapi/SKILL.md",
+        "skills/scanning-tools/SKILL.md",
+        "skills/scholarly-writing-refiner/SKILL.md",
+        "skills/secure-code-review/SKILL.md",
+        "skills/shodan-reconnaissance/SKILL.md",
+        "skills/smtp-penetration-testing/SKILL.md",
+        "skills/sql-injection-testing/SKILL.md",
+        "skills/sql-insight/SKILL.md",
+        "skills/sqlmap-database-pentesting/SKILL.md",
+        "skills/ssh-penetration-testing/SKILL.md",
+        "skills/test-driven-dev/SKILL.md",
+        "skills/test-suite-architect/SKILL.md",
+        "skills/three-best-practices/SKILL.md",
+        "skills/timeline-builder/SKILL.md",
+        "skills/top-web-vulnerabilities/SKILL.md",
+        "skills/tos-clause-scanner/SKILL.md",
+        "skills/typescript-pro/SKILL.md",
+        "skills/vc-industry-research/SKILL.md",
+        "skills/windows-privilege-escalation/SKILL.md",
+        "skills/wireshark-analysis/SKILL.md",
+        "skills/wordpress-penetration-testing/SKILL.md",
+        "skills/xss-html-injection/SKILL.md"
+      ]
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "academic-paper-reviewer",
+      "path": "skills/academic-paper-reviewer/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/academic-paper-reviewer/SKILL.md",
+      "description": "Simulates academic peer review, evaluating papers across Originality, Methodology, Results, and Writing to provide Major/Minor Revision recommendations with actionable feedback. Triggers when a user asks to \\\"review my paper,\\\" \\\"simulate peer review,\\\" or \\\"give my paper a peer review.",
+      "slug": "zebbern-academic-paper-reviewer"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "active-directory-attacks",
+      "path": "skills/active-directory-attacks/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/active-directory-attacks/SKILL.md",
+      "description": "This skill should be used when the user asks to \"attack Active Directory\", \"exploit AD\", \"Kerberoasting\", \"DCSync\", \"pass-the-hash\", \"BloodHound enumeration\", \"Golden Ticket\", \"Silver Ticket\", \"AS-REP roasting\", \"NTLM relay\", or needs guidance on Windows domain penetration testing.",
+      "slug": "zebbern-active-directory-attacks"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "api-fuzzing-bug-bounty",
+      "path": "skills/api-fuzzing-bug-bounty/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/api-fuzzing-bug-bounty/SKILL.md",
+      "description": "This skill should be used when the user asks to \"test API security\", \"fuzz APIs\", \"find IDOR vulnerabilities\", \"test REST API\", \"test GraphQL\", \"API penetration testing\", \"bug bounty API testing\", or needs guidance on API security assessment techniques.",
+      "slug": "zebbern-api-fuzzing-bug-bounty"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "api-shape-explorer",
+      "path": "skills/api-shape-explorer/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/api-shape-explorer/SKILL.md",
+      "description": "Generate multiple radically different interface designs for a module using parallel sub-agents. Use when user wants to design an API, explore interface options, compare module shapes, or mentions \"design it twice\".",
+      "slug": "zebbern-api-shape-explorer"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "audit-flow",
+      "path": "skills/audit-flow/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/audit-flow/SKILL.md",
+      "description": "Interactive system flow tracing across CODE, API, AUTH, DATA, NETWORK layers with SQLite persistence and Mermaid export. Use for security audits, compliance documentation, flow tracing, feature ideation, brainstorming, debugging, architecture reviews, or incident post-mortems. Triggers on audit, trace flow, document flow, security review, debug flow, brainstorm, architecture review, post-mortem, incident review.",
+      "slug": "zebbern-audit-flow"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "authentication-patterns",
+      "path": "skills/authentication-patterns/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/authentication-patterns/SKILL.md",
+      "description": "Authentication patterns: session vs JWT vs OAuth comparison, provider selection (NextAuth, Clerk, Supabase Auth), security checklist, and common mistakes. Use when implementing auth, reviewing auth flows, or choosing auth providers.",
+      "slug": "zebbern-authentication-patterns"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "aws-penetration-testing",
+      "path": "skills/aws-penetration-testing/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/aws-penetration-testing/SKILL.md",
+      "description": "This skill should be used when the user asks to \"pentest AWS\", \"test AWS security\", \"enumerate IAM\", \"exploit cloud infrastructure\", \"AWS privilege escalation\", \"S3 bucket testing\", \"metadata SSRF\", \"Lambda exploitation\", or needs guidance on Amazon Web Services security assessment.",
+      "slug": "zebbern-aws-penetration-testing"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "broken-authentication",
+      "path": "skills/broken-authentication/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/broken-authentication/SKILL.md",
+      "description": "This skill should be used when the user asks to \"test for broken authentication vulnerabilities\", \"assess session management security\", \"perform credential stuffing tests\", \"evaluate password policies\", \"test for session fixation\", or \"identify authentication bypass flaws\". It provides comprehensive techniques for identifying authentication and session management weaknesses in web applications.",
+      "slug": "zebbern-broken-authentication"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "burp-suite-testing",
+      "path": "skills/burp-suite-testing/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/burp-suite-testing/SKILL.md",
+      "description": "This skill should be used when the user asks to \"intercept HTTP traffic\", \"modify web requests\", \"use Burp Suite for testing\", \"perform web vulnerability scanning\", \"test with Burp Repeater\", \"analyze HTTP history\", or \"configure proxy for web testing\". It provides comprehensive guidance for using Burp Suite's core features for web application security testing.",
+      "slug": "zebbern-burp-suite-testing"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "caching",
+      "path": "skills/caching/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/caching/SKILL.md",
+      "description": "Caching strategies — invalidation, TTL guidelines, cache keys, cache layers, and when not to cache. Use when implementing or reviewing caching logic.",
+      "slug": "zebbern-caching"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "chart-image",
+      "path": "skills/chart-image/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/chart-image/SKILL.md",
+      "description": "Generate publication-quality PNG chart images from data, supporting line, bar, area, candlestick, pie, and heatmap charts. Triggers when the user asks to visualize data, create a graph, plot a time series, or generate a chart for a report, alert, or dashboard. Runs as a lightweight, headless Node.js process without a browser.",
+      "slug": "zebbern-chart-image"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "cloud-penetration-testing",
+      "path": "skills/cloud-penetration-testing/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/cloud-penetration-testing/SKILL.md",
+      "description": "This skill should be used when the user asks to \"perform cloud penetration testing\", \"assess Azure or AWS or GCP security\", \"enumerate cloud resources\", \"exploit cloud misconfigurations\", \"test O365 security\", \"extract secrets from cloud environments\", or \"audit cloud infrastructure\". It provides comprehensive techniques for security assessment across major cloud platforms.",
+      "slug": "zebbern-cloud-penetration-testing"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "code-documenter",
+      "path": "skills/code-documenter/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/code-documenter/SKILL.md",
+      "description": "Use when adding docstrings, creating API documentation, or building documentation sites. Invoke for OpenAPI/Swagger specs, JSDoc, doc portals, tutorials, user guides.",
+      "slug": "zebbern-code-documenter"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "code-to-diagram",
+      "path": "skills/code-to-diagram/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/code-to-diagram/SKILL.md",
+      "description": "Analyze codebases and automatically generate architecture diagrams, flowcharts, and org charts. Uses AST parsing to map import dependencies for Python, JS/TS, Go, and Java, outputting Mermaid or SVG files. Triggered when users ask to visualize code architecture, understand dependencies, draw a flowchart, or create a module diagram from source code.",
+      "slug": "zebbern-code-to-diagram"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "code-vuln-audit",
+      "path": "skills/code-vuln-audit/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/code-vuln-audit/SKILL.md",
+      "description": "Scan code for security issues: dependency vulnerabilities (npm/pip audit), secret leaks (regex and entropy analysis), and OWASP anti-patterns like SQL injection, XSS, or command injection. Use when the user mentions security scans, vulnerability detection, secret leaks, API keys, OWASP, npm audit, pip-audit, hardcoded passwords, or code security checks.",
+      "slug": "zebbern-code-vuln-audit"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "composition-patterns",
+      "path": "skills/composition-patterns/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/composition-patterns/SKILL.md",
+      "description": "React composition patterns that scale. Use when refactoring components with",
+      "slug": "zebbern-composition-patterns"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "cross-examine",
+      "path": "skills/cross-examine/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/cross-examine/SKILL.md",
+      "description": "Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree. Use when user wants to stress-test a plan, get grilled on their design, or mentions \"grill me\".",
+      "slug": "zebbern-cross-examine"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "cv-tailor",
+      "path": "skills/cv-tailor/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/cv-tailor/SKILL.md",
+      "description": "Optimize resumes by matching keywords to the job description, rewriting experience with the quantified STAR method, and checking ATS compatibility. Triggered when users ask for resume help, review, or polishing, mention JD matching, STAR method, ATS, or want to tailor their resume for a specific role.",
+      "slug": "zebbern-cv-tailor"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "data-viz-renderer",
+      "path": "skills/data-viz-renderer/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/data-viz-renderer/SKILL.md",
+      "description": "Generate self-contained HTML/SVG infographics from JSON data, including stat cards, bar charts, flow diagrams, and mixed dashboards. Offers 8 color palettes and built-in icons with no external dependencies. Triggered when users request data visualization, infographics, charts, or dashboards.",
+      "slug": "zebbern-data-viz-renderer"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "database-optimizer",
+      "path": "skills/database-optimizer/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/database-optimizer/SKILL.md",
+      "description": "Use when investigating slow queries, analyzing execution plans, or optimizing database performance. Invoke for index design, query rewrites, configuration tuning, partitioning strategies, lock contention resolution.",
+      "slug": "zebbern-database-optimizer"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "database-scout",
+      "path": "skills/database-scout/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/database-scout/SKILL.md",
+      "description": "Explore SQLite and PostgreSQL databases: list tables, inspect schemas (columns/types/constraints), preview data, generate Mermaid ER diagrams, and run safe read-only queries. Triggered by requests to explore a database, view table structures, describe tables, generate diagrams, or query data, and by keywords like database exploration, schema, ER diagram, or SQL query.",
+      "slug": "zebbern-database-scout"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "dataset-quality-audit",
+      "path": "skills/dataset-quality-audit/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/dataset-quality-audit/SKILL.md",
+      "description": "Run comprehensive quality checks on tabular data (CSV/Excel/TSV/JSON), detecting missing values, duplicates, outliers, format issues, and type inconsistencies to produce an overall score, grade, and actionable suggestions. Triggered when users ask to check data quality, find missing or duplicate values, detect outliers, validate formats, profile data, or clean data.",
+      "slug": "zebbern-dataset-quality-audit"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "deep-module-refactor",
+      "path": "skills/deep-module-refactor/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/deep-module-refactor/SKILL.md",
+      "description": "Explore a codebase to find opportunities for architectural improvement, focusing on making the codebase more testable by deepening shallow modules. Use when user wants to improve architecture, find refactoring opportunities, consolidate tightly-coupled modules, or make a codebase more AI-navigable.",
+      "slug": "zebbern-deep-module-refactor"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "design-system-builder",
+      "path": "skills/design-system-builder/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/design-system-builder/SKILL.md",
+      "description": "Extract design systems from reference UI images and generate implementation-ready UI design prompts. Use when users provide UI screenshots/mockups and want to create consistent designs, generate design systems, or build MVP UIs matching reference aesthetics.",
+      "slug": "zebbern-design-system-builder"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "dev-guide-generator",
+      "path": "skills/dev-guide-generator/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/dev-guide-generator/SKILL.md",
+      "description": "Generates complete technical tutorials from prerequisites and environment setup to core steps, troubleshooting, and a final cheatsheet. Trigger on requests to write a tutorial, create a setup guide, organize steps for beginners, or keywords like step-by-step, quickstart, or how-to guide.",
+      "slug": "zebbern-dev-guide-generator"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "ethical-hacking-methodology",
+      "path": "skills/ethical-hacking-methodology/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/ethical-hacking-methodology/SKILL.md",
+      "description": "This skill should be used when the user asks to \"learn ethical hacking\", \"understand penetration testing lifecycle\", \"perform reconnaissance\", \"conduct security scanning\", \"exploit vulnerabilities\", or \"write penetration test reports\". It provides comprehensive ethical hacking methodology and techniques.",
+      "slug": "zebbern-ethical-hacking-methodology"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "file-path-traversal",
+      "path": "skills/file-path-traversal/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/file-path-traversal/SKILL.md",
+      "description": "This skill should be used when the user asks to \"test for directory traversal\", \"exploit path traversal vulnerabilities\", \"read arbitrary files through web applications\", \"find LFI vulnerabilities\", or \"access files outside web root\". It provides comprehensive file path traversal attack and testing methodologies.",
+      "slug": "zebbern-file-path-traversal"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "html-injection-testing",
+      "path": "skills/html-injection-testing/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/html-injection-testing/SKILL.md",
+      "description": "This skill should be used when the user asks to \"test for HTML injection\", \"inject HTML into web pages\", \"perform HTML injection attacks\", \"deface web applications\", or \"test content injection vulnerabilities\". It provides comprehensive HTML injection attack techniques and testing methodologies.",
+      "slug": "zebbern-html-injection-testing"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "http-load-profiler",
+      "path": "skills/http-load-profiler/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/http-load-profiler/SKILL.md",
+      "description": "Run stepped HTTP load tests with ab/wrk, ramping concurrency levels to collect p50/p90/p99 latency, detect performance inflection points, and recommend optimal concurrency. Triggered by requests like 'load test this URL', 'benchmark my API', 'find the max concurrency', or mentions of p99 latency, throughput saturation, or capacity planning.",
+      "slug": "zebbern-http-load-profiler"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "idor-testing",
+      "path": "skills/idor-testing/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/idor-testing/SKILL.md",
+      "description": "This skill should be used when the user asks to \"test for insecure direct object references,\" \"find IDOR vulnerabilities,\" \"exploit broken access control,\" \"enumerate user IDs or object references,\" or \"bypass authorization to access other users' data.\" It provides comprehensive guidance for detecting, exploiting, and remediating IDOR vulnerabilities in web applications.",
+      "slug": "zebbern-idor-testing"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "linux-privilege-escalation",
+      "path": "skills/linux-privilege-escalation/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/linux-privilege-escalation/SKILL.md",
+      "description": "This skill should be used when the user asks to \"escalate privileges on Linux\", \"find privesc vectors on Linux systems\", \"exploit sudo misconfigurations\", \"abuse SUID binaries\", \"exploit cron jobs for root access\", \"enumerate Linux systems for privilege escalation\", or \"gain root access from low-privilege shell\". It provides comprehensive techniques for identifying and exploiting privilege escalation paths on Linux systems.",
+      "slug": "zebbern-linux-privilege-escalation"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "linux-shell-scripting",
+      "path": "skills/linux-shell-scripting/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/linux-shell-scripting/SKILL.md",
+      "description": "This skill should be used when the user asks to \"create bash scripts\", \"automate Linux tasks\", \"monitor system resources\", \"backup files\", \"manage users\", or \"write production shell scripts\". It provides ready-to-use shell script templates for system administration.",
+      "slug": "zebbern-linux-shell-scripting"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "localization-toolkit",
+      "path": "skills/localization-toolkit/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/localization-toolkit/SKILL.md",
+      "description": "This skill should be used when setting up, auditing, or enforcing internationalization/localization in UI codebases (React/TS, i18next or similar, JSON locales), including installing/configuring the i18n framework, replacing hard-coded strings, ensuring en-US/zh-CN coverage, mapping error codes to localized messages, and validating key parity, pluralization, and formatting.",
+      "slug": "zebbern-localization-toolkit"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "log-error-digest",
+      "path": "skills/log-error-digest/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/log-error-digest/SKILL.md",
+      "description": "Analyze log files to troubleshoot errors, identify peak error periods, and produce error clustering, frequency statistics, and time distribution reports. Supports JSON, syslog, and Nginx formats with automatic detection. Use when a user uploads a .log file and asks to analyze errors, find patterns, debug issues, or get distribution stats.",
+      "slug": "zebbern-log-error-digest"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "metasploit-framework",
+      "path": "skills/metasploit-framework/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/metasploit-framework/SKILL.md",
+      "description": "This skill should be used when the user asks to \"use Metasploit for penetration testing\", \"exploit vulnerabilities with msfconsole\", \"create payloads with msfvenom\", \"perform post-exploitation\", \"use auxiliary modules for scanning\", or \"develop custom exploits\". It provides comprehensive guidance for leveraging the Metasploit Framework in security assessments.",
+      "slug": "zebbern-metasploit-framework"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "network-101",
+      "path": "skills/network-101/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/network-101/SKILL.md",
+      "description": "This skill should be used when the user asks to \"set up a web server\", \"configure HTTP or HTTPS\", \"perform SNMP enumeration\", \"configure SMB shares\", \"test network services\", or needs guidance on configuring and testing network services for penetration testing labs.",
+      "slug": "zebbern-network-101"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "nextjs-developer",
+      "path": "skills/nextjs-developer/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/nextjs-developer/SKILL.md",
+      "description": "Use when building Next.js 14+ applications with App Router, server components, or server actions. Invoke for full-stack features, performance optimization, SEO implementation, production deployment.",
+      "slug": "zebbern-nextjs-developer"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "pdf",
+      "path": "skills/pdf/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/pdf/SKILL.md",
+      "description": "Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating new PDFs, filling PDF forms, encrypting/decrypting PDFs, extracting images, and OCR on scanned PDFs to make them searchable. If the user mentions a .pdf file or asks to produce one, use this skill.",
+      "slug": "zebbern-pdf"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "pentest-checklist",
+      "path": "skills/pentest-checklist/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/pentest-checklist/SKILL.md",
+      "description": "This skill should be used when the user asks to \"plan a penetration test\", \"create a security assessment checklist\", \"prepare for penetration testing\", \"define pentest scope\", \"follow security testing best practices\", or needs a structured methodology for penetration testing engagements.",
+      "slug": "zebbern-pentest-checklist"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "pentest-commands",
+      "path": "skills/pentest-commands/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/pentest-commands/SKILL.md",
+      "description": "This skill should be used when the user asks to \"run pentest commands\", \"scan with nmap\", \"use metasploit exploits\", \"crack passwords with hydra or john\", \"scan web vulnerabilities with nikto\", \"enumerate networks\", or needs essential penetration testing command references.",
+      "slug": "zebbern-pentest-commands"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "pipeline-blueprint",
+      "path": "skills/pipeline-blueprint/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/pipeline-blueprint/SKILL.md",
+      "description": "Provide CI/CD best practices and pipeline templates for GitHub Actions and GitLab CI, recommending configurations based on project type (frontend, backend, fullstack, library, monorepo, mobile). Trigger when users ask about setting up CI/CD, automating builds, improving pipelines, or mention keywords like GitHub Actions, GitLab CI, pipeline templates, or deployment automation.",
+      "slug": "zebbern-pipeline-blueprint"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "playwright",
+      "path": "skills/playwright/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/playwright/SKILL.md",
+      "description": "Battle-tested Playwright patterns for E2E, API, component, visual, accessibility, and security testing. Covers locators, fixtures, POM, network mocking, auth flows, debugging, CI/CD (GitHub Actions, GitLab, CircleCI, Azure, Jenkins), framework recipes (React, Next.js, Vue, Angular), and migration guides from Cypress/Selenium. TypeScript and JavaScript.",
+      "slug": "zebbern-playwright"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "privilege-escalation-methods",
+      "path": "skills/privilege-escalation-methods/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/privilege-escalation-methods/SKILL.md",
+      "description": "This skill should be used when the user asks to \"escalate privileges\", \"get root access\", \"become administrator\", \"privesc techniques\", \"abuse sudo\", \"exploit SUID binaries\", \"Kerberoasting\", \"pass-the-ticket\", \"token impersonation\", or needs guidance on post-exploitation privilege escalation for Linux or Windows systems.",
+      "slug": "zebbern-privilege-escalation-methods"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "project-sizing-guide",
+      "path": "skills/project-sizing-guide/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/project-sizing-guide/SKILL.md",
+      "description": "Software project effort estimation assistant. Outputs three-point estimates (optimistic/most-likely/pessimistic values with confidence intervals), T-shirt sizes, or Function Point Analysis (FPA) counts. Triggered when users ask 'how long will this feature take,' need to assess project workload, perform PERT estimation, T-shirt sizing, FPA, sprint planning, or quote-based effort breakdowns.",
+      "slug": "zebbern-project-sizing-guide"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "r2-upload",
+      "path": "skills/r2-upload/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/r2-upload/SKILL.md",
+      "description": "Upload files to Cloudflare R2, AWS S3, or any S3-compatible storage (like MinIO) and generate secure, time-limited presigned download links with configurable expiration, typically set to 5 minutes. Use when the user needs to upload a file to cloud storage and get a shareable link, or mentions R2, S3, presigned URLs, temporary links, or file uploads with expiration.",
+      "slug": "zebbern-r2-upload"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "r3f-animation",
+      "path": "skills/r3f-animation/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/r3f-animation/SKILL.md",
+      "description": "React Three Fiber animation - useFrame, useAnimations, spring physics, keyframes. Use when animating objects, playing GLTF animations, creating procedural motion, or implementing physics-based movement.",
+      "slug": "zebbern-r3f-animation"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "r3f-best-practices",
+      "path": "skills/r3f-best-practices/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/r3f-best-practices/SKILL.md",
+      "description": "React Three Fiber (R3F) and Poimandres ecosystem best practices. Use when writing, reviewing, or optimizing R3F code. Triggers on tasks involving @react-three/fiber, @react-three/drei, zustand, @react-three/postprocessing, @react-three/rapier, or leva.",
+      "slug": "zebbern-r3f-best-practices"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "react-best-practices",
+      "path": "skills/react-best-practices/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/react-best-practices/SKILL.md",
+      "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.",
+      "slug": "zebbern-react-best-practices"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "red-team-tools",
+      "path": "skills/red-team-tools/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/red-team-tools/SKILL.md",
+      "description": "This skill should be used when the user asks to \"follow red team methodology\", \"perform bug bounty hunting\", \"automate reconnaissance\", \"hunt for XSS vulnerabilities\", \"enumerate subdomains\", or needs security researcher techniques and tool configurations from top bug bounty hunters.",
+      "slug": "zebbern-red-team-tools"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "regression-modeler",
+      "path": "skills/regression-modeler/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/regression-modeler/SKILL.md",
+      "description": "Run regression analysis (OLS or logistic) on uploaded CSV/Excel data, generating coefficients, R², p-values, VIF, and plain-language interpretation. Triggered by requests for regression modeling, fitting data, testing significance, checking multicollinearity, or keywords like OLS, logit, coefficient, p-value, or R-squared.",
+      "slug": "zebbern-regression-modeler"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "regulatory-audit-generator",
+      "path": "skills/regulatory-audit-generator/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/regulatory-audit-generator/SKILL.md",
+      "description": "Builds compliance checklists for business scenarios involving GDPR, PIPL, or advertising/data laws. Outputs a structured checklist with check items, legal basis, risk levels, and actionable recommendations. Triggered by requests like \\\"run a compliance check,\\\" \\\"GDPR/PIPL compliance,\\\" \\\"pre-launch review,\\\" \\\"privacy impact assessment (PIA/DPIA),\\\" or asking if a feature is compliant.",
+      "slug": "zebbern-regulatory-audit-generator"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "repo-audit",
+      "path": "skills/repo-audit/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/repo-audit/SKILL.md",
+      "description": "Deep analysis of Git history: identify frequently changed hotspot files, analyze code ownership by contributor, and scan for leaked secrets. Triggered when users ask about Git analysis, code hotspots, who owns what code, secret scanning, security audits of commit history, or optimizing code review assignments.",
+      "slug": "zebbern-repo-audit"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "route-to-openapi",
+      "path": "skills/route-to-openapi/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/route-to-openapi/SKILL.md",
+      "description": "Generates RESTful API documentation (OpenAPI 3.0 / Swagger spec) by scanning route definitions in code for Flask, FastAPI, Express, Gin, and other frameworks. Trigger when users ask about API documentation, OpenAPI, Swagger, endpoint docs, generating docs from code, or extracting endpoints.",
+      "slug": "zebbern-route-to-openapi"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "scanning-tools",
+      "path": "skills/scanning-tools/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/scanning-tools/SKILL.md",
+      "description": "This skill should be used when the user asks to \"perform vulnerability scanning\", \"scan networks for open ports\", \"assess web application security\", \"scan wireless networks\", \"detect malware\", \"check cloud security\", or \"evaluate system compliance\". It provides comprehensive guidance on security scanning tools and methodologies.",
+      "slug": "zebbern-scanning-tools"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "scholarly-writing-refiner",
+      "path": "skills/scholarly-writing-refiner/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/scholarly-writing-refiner/SKILL.md",
+      "description": "Polishes academic English paragraph by paragraph, reviewing grammar, word choice, voice, coherence, and sentence structure. Outputs revision suggestions alongside polished text. Triggered by phrases like 'polish this paragraph,' 'check the grammar,' 'rewrite in academic English,' or keywords like manuscript editing, SCI polishing, and journal submission editing.",
+      "slug": "zebbern-scholarly-writing-refiner"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "secure-code-review",
+      "path": "skills/secure-code-review/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/secure-code-review/SKILL.md",
+      "description": "Systematically reviews code for SQL injection, XSS, SSRF, broken access control, cryptographic failures, and other common OWASP Top 10 vulnerabilities, providing vulnerable code examples and ready-to-use remediation guidance. Trigger this skill when users ask for a security review, vulnerability scan, or penetration testing assistance, or mention keywords like OWASP, SQL injection, XSS, code audit, or security checklist.",
+      "slug": "zebbern-secure-code-review"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "shodan-reconnaissance",
+      "path": "skills/shodan-reconnaissance/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/shodan-reconnaissance/SKILL.md",
+      "description": "This skill should be used when the user asks to \"search for exposed devices on the internet,\" \"perform Shodan reconnaissance,\" \"find vulnerable services using Shodan,\" \"scan IP ranges with Shodan,\" or \"discover IoT devices and open ports.\" It provides comprehensive guidance for using Shodan's search engine, CLI, and API for penetration testing reconnaissance.",
+      "slug": "zebbern-shodan-reconnaissance"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "smtp-penetration-testing",
+      "path": "skills/smtp-penetration-testing/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/smtp-penetration-testing/SKILL.md",
+      "description": "This skill should be used when the user asks to \"perform SMTP penetration testing\", \"enumerate email users\", \"test for open mail relays\", \"grab SMTP banners\", \"brute force email credentials\", or \"assess mail server security\". It provides comprehensive techniques for testing SMTP server security.",
+      "slug": "zebbern-smtp-penetration-testing"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "sql-injection-testing",
+      "path": "skills/sql-injection-testing/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/sql-injection-testing/SKILL.md",
+      "description": "This skill should be used when the user asks to \"test for SQL injection vulnerabilities\", \"perform SQLi attacks\", \"bypass authentication using SQL injection\", \"extract database information through injection\", \"detect SQL injection flaws\", or \"exploit database query vulnerabilities\". It provides comprehensive techniques for identifying, exploiting, and understanding SQL injection attack vectors across different database systems.",
+      "slug": "zebbern-sql-injection-testing"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "sql-insight",
+      "path": "skills/sql-insight/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/sql-insight/SKILL.md",
+      "description": "Translate natural language to SQL, optimize query performance, and interpret EXPLAIN plans for SQLite and PostgreSQL. Triggered when users ask to convert questions into SQL, improve slow queries, tune indexes, analyze execution plans, or mention keywords like NL2SQL, query tuning, or full table scan.",
+      "slug": "zebbern-sql-insight"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "sqlmap-database-pentesting",
+      "path": "skills/sqlmap-database-pentesting/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/sqlmap-database-pentesting/SKILL.md",
+      "description": "This skill should be used when the user asks to \"automate SQL injection testing,\" \"enumerate database structure,\" \"extract database credentials using sqlmap,\" \"dump tables and columns from a vulnerable database,\" or \"perform automated database penetration testing.\" It provides comprehensive guidance for using SQLMap to detect and exploit SQL injection vulnerabilities.",
+      "slug": "zebbern-sqlmap-database-pentesting"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "ssh-penetration-testing",
+      "path": "skills/ssh-penetration-testing/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/ssh-penetration-testing/SKILL.md",
+      "description": "This skill should be used when the user asks to \"pentest SSH services\", \"enumerate SSH configurations\", \"brute force SSH credentials\", \"exploit SSH vulnerabilities\", \"perform SSH tunneling\", or \"audit SSH security\". It provides comprehensive SSH penetration testing methodologies and techniques.",
+      "slug": "zebbern-ssh-penetration-testing"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "test-driven-dev",
+      "path": "skills/test-driven-dev/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/test-driven-dev/SKILL.md",
+      "description": "Test-driven development with red-green-refactor loop. Use when user wants to build features or fix bugs using TDD, mentions \"red-green-refactor\", wants integration tests, or asks for test-first development.",
+      "slug": "zebbern-test-driven-dev"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "test-suite-architect",
+      "path": "skills/test-suite-architect/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/test-suite-architect/SKILL.md",
+      "description": "This skill should be used when establishing comprehensive QA testing processes for any software project. Use when creating test strategies, writing test cases following Google Testing Standards, executing test plans, tracking bugs with P0-P4 classification, calculating quality metrics, or generating progress reports. Includes autonomous execution capability via master prompts and complete documentation templates for third-party QA team handoffs. Implements OWASP security testing and achieves 90% coverage targets.",
+      "slug": "zebbern-test-suite-architect"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "three-best-practices",
+      "path": "skills/three-best-practices/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/three-best-practices/SKILL.md",
+      "description": "Three.js performance optimization and best practices guidelines. Use when writing, reviewing, or optimizing Three.js code. Triggers on tasks involving 3D scenes, WebGL/WebGPU rendering, geometries, materials, textures, lighting, shaders, or TSL.",
+      "slug": "zebbern-three-best-practices"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "timeline-builder",
+      "path": "skills/timeline-builder/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/timeline-builder/SKILL.md",
+      "description": "Generate beautiful interactive timeline HTML pages from JSON data, with vertical, horizontal, or dual-side layouts, collapsible details, and custom colors. Ideal for project milestones, company histories, or resumes. Triggered when a user mentions 'timeline', 'history of events', 'project milestones', 'release log', or asks to visualize a chronological sequence of data.",
+      "slug": "zebbern-timeline-builder"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "top-web-vulnerabilities",
+      "path": "skills/top-web-vulnerabilities/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/top-web-vulnerabilities/SKILL.md",
+      "description": "This skill should be used when the user asks to \"identify web application vulnerabilities\", \"explain common security flaws\", \"understand vulnerability categories\", \"learn about injection attacks\", \"review access control weaknesses\", \"analyze API security issues\", \"assess security misconfigurations\", \"understand client-side vulnerabilities\", \"examine mobile and IoT security flaws\", or \"reference the OWASP-aligned vulnerability taxonomy\". Use this skill to provide comprehensive vulnerability definitions, root causes, impacts, and mitigation strategies across all major web security categories.",
+      "slug": "zebbern-top-web-vulnerabilities"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "tos-clause-scanner",
+      "path": "skills/tos-clause-scanner/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/tos-clause-scanner/SKILL.md",
+      "description": "Audit Terms of Service, user agreements, and privacy policies for consumer risks, producing a structured report that flags unfair clauses, data traps, and liability issues. Trigger when a user asks to review, audit, or analyze a ToS, privacy policy, or user agreement, or mentions specific concerns like auto-renewal or data authorization.",
+      "slug": "zebbern-tos-clause-scanner"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "typescript-pro",
+      "path": "skills/typescript-pro/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/typescript-pro/SKILL.md",
+      "description": "Use when building TypeScript applications requiring advanced type systems, generics, or full-stack type safety. Invoke for type guards, utility types, tRPC integration, monorepo setup.",
+      "slug": "zebbern-typescript-pro"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "vc-industry-research",
+      "path": "skills/vc-industry-research/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/vc-industry-research/SKILL.md",
+      "description": "Generate professional primary market / venture capital industry research reports, including sector deep-dives, investment memos, and market analysis. Produces detailed PDF reports covering TMT, consumer, healthcare, and industrials. Triggered by requests to analyze an industry, create a market report, write a sector deep-dive, or generate any PE/VC-style research document in Chinese or English.",
+      "slug": "zebbern-vc-industry-research"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "windows-privilege-escalation",
+      "path": "skills/windows-privilege-escalation/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/windows-privilege-escalation/SKILL.md",
+      "description": "This skill should be used when the user asks to \"escalate privileges on Windows,\" \"find Windows privesc vectors,\" \"enumerate Windows for privilege escalation,\" \"exploit Windows misconfigurations,\" or \"perform post-exploitation privilege escalation.\" It provides comprehensive guidance for discovering and exploiting privilege escalation vulnerabilities in Windows environments.",
+      "slug": "zebbern-windows-privilege-escalation"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "wireshark-analysis",
+      "path": "skills/wireshark-analysis/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/wireshark-analysis/SKILL.md",
+      "description": "This skill should be used when the user asks to \"analyze network traffic with Wireshark\", \"capture packets for troubleshooting\", \"filter PCAP files\", \"follow TCP/UDP streams\", \"detect network anomalies\", \"investigate suspicious traffic\", or \"perform protocol analysis\". It provides comprehensive techniques for network packet capture, filtering, and analysis using Wireshark.",
+      "slug": "zebbern-wireshark-analysis"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "wordpress-penetration-testing",
+      "path": "skills/wordpress-penetration-testing/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/wordpress-penetration-testing/SKILL.md",
+      "description": "This skill should be used when the user asks to \"pentest WordPress sites\", \"scan WordPress for vulnerabilities\", \"enumerate WordPress users, themes, or plugins\", \"exploit WordPress vulnerabilities\", or \"use WPScan\". It provides comprehensive WordPress security assessment methodologies.",
+      "slug": "zebbern-wordpress-penetration-testing"
+    },
+    {
+      "repository": "zebbern/claude-code-guide",
+      "branch": "main",
+      "skillName": "xss-html-injection",
+      "path": "skills/xss-html-injection/SKILL.md",
+      "url": "https://github.com/zebbern/claude-code-guide/blob/main/skills/xss-html-injection/SKILL.md",
+      "description": "This skill should be used when the user asks to \"test for XSS vulnerabilities\", \"perform cross-site scripting attacks\", \"identify HTML injection flaws\", \"exploit client-side injection vulnerabilities\", \"steal cookies via XSS\", or \"bypass content security policies\". It provides comprehensive techniques for detecting, exploiting, and understanding XSS and HTML injection attack vectors in web applications.",
+      "slug": "zebbern-xss-html-injection"
+    }
+  ],
+  "itemCount": 75,
+  "publicSkillCount": 74,
+  "lastStatus": "scanned"
+}

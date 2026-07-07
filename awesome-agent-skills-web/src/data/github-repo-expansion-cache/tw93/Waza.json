@@ -1,0 +1,105 @@
+{
+  "repository": "tw93/Waza",
+  "branch": "main",
+  "defaultBranch": "main",
+  "pushedAt": "2026-07-05T07:40:08Z",
+  "scannedAt": "2026-07-07T09:05:18.297Z",
+  "treeSha": "ff037c6cfd2e7f043e4ccdf582c40fbffd256e28",
+  "items": [
+    {
+      "repository": "tw93/Waza",
+      "branch": "main",
+      "skillName": "Waza",
+      "path": "README.md",
+      "url": "https://github.com/tw93/Waza",
+      "description": "🥷 Engineering habits you already know, turned into skills Claude can run.",
+      "slug": "tw93-waza-collection",
+      "isCollection": true,
+      "stars": 6208,
+      "skillPaths": [
+        "skills/check/SKILL.md",
+        "skills/health/SKILL.md",
+        "skills/hunt/SKILL.md",
+        "skills/learn/SKILL.md",
+        "skills/read/SKILL.md",
+        "skills/think/SKILL.md",
+        "skills/ui/SKILL.md",
+        "skills/write/SKILL.md"
+      ]
+    },
+    {
+      "repository": "tw93/Waza",
+      "branch": "main",
+      "skillName": "check",
+      "path": "skills/check/SKILL.md",
+      "url": "https://github.com/tw93/Waza/blob/main/skills/check/SKILL.md",
+      "description": "Reviews code diffs, PRs, issue queues, release readiness, commits, pushes, publishing, and project audits. Use when users ask in any language for code review, issue or PR triage, release gates, publishing follow-through, or project audits. Not for debugging root causes or prose review.",
+      "slug": "tw93-check"
+    },
+    {
+      "repository": "tw93/Waza",
+      "branch": "main",
+      "skillName": "health",
+      "path": "skills/health/SKILL.md",
+      "url": "https://github.com/tw93/Waza/blob/main/skills/health/SKILL.md",
+      "description": "Runs a budget-aware agent-assisted engineering health audit for instruction/config drift, hooks/MCP, verifier surfaces, and AI maintainability. Use when users ask in any language to audit Claude, Codex, Pi, agent instructions, MCP or hooks, verifier coverage, or AI-maintainability drift. Not for debugging application code or reviewing PRs.",
+      "slug": "tw93-health"
+    },
+    {
+      "repository": "tw93/Waza",
+      "branch": "main",
+      "skillName": "hunt",
+      "path": "skills/hunt/SKILL.md",
+      "url": "https://github.com/tw93/Waza/blob/main/skills/hunt/SKILL.md",
+      "description": "Finds root cause before applying fixes for errors, crashes, regressions, failing tests, broken behavior, and screenshot-reported defects. Use when users report in any language errors, crashes, broken behavior, regressions, failing tests, screenshot evidence, or something that used to work and now fails. Not for code review or new features.",
+      "slug": "tw93-hunt"
+    },
+    {
+      "repository": "tw93/Waza",
+      "branch": "main",
+      "skillName": "learn",
+      "path": "skills/learn/SKILL.md",
+      "url": "https://github.com/tw93/Waza/blob/main/skills/learn/SKILL.md",
+      "description": "Runs a six-phase research workflow that turns unfamiliar domains, source bundles, or collected material into publish-ready output. Use when users ask in any language to research, study, deep-dive, compile sources, synthesize unfamiliar material, or turn a source bundle into a coherent reference. Not for quick lookups or single-file reads.",
+      "slug": "tw93-learn"
+    },
+    {
+      "repository": "tw93/Waza",
+      "branch": "main",
+      "skillName": "read",
+      "path": "skills/read/SKILL.md",
+      "url": "https://github.com/tw93/Waza/blob/main/skills/read/SKILL.md",
+      "description": "Reads URLs and PDFs by fetching source content, defaulting to concise summaries for plain read requests and clean Markdown when asked to convert, save, quote, cite, or feed downstream work. Use when users ask in any language to read, fetch, check, summarize, quote, cite, convert, or save a URL or PDF. Not for local text files already in the repo.",
+      "slug": "tw93-read"
+    },
+    {
+      "repository": "tw93/Waza",
+      "branch": "main",
+      "skillName": "think",
+      "path": "skills/think/SKILL.md",
+      "url": "https://github.com/tw93/Waza/blob/main/skills/think/SKILL.md",
+      "description": "Turns rough ideas into approved, decision-complete plans with validated structure before coding. Use when users ask in any language for planning, architecture, design direction, feasibility, value judgment, or whether a feature is worth doing before implementation. Not for bug fixes or small edits.",
+      "slug": "tw93-think"
+    },
+    {
+      "repository": "tw93/Waza",
+      "branch": "main",
+      "skillName": "ui",
+      "path": "skills/ui/SKILL.md",
+      "url": "https://github.com/tw93/Waza/blob/main/skills/ui/SKILL.md",
+      "description": "Produces distinctive, production-grade UI for pages, components, visual interfaces, typography, and screenshot-driven polish. Use when users ask in any language for UI, page, component, frontend, typography, screenshot-grounded visual polish, or complaints that a screen looks unclear, ugly, inconsistent, or visually wrong. Not for backend logic or data pipelines.",
+      "slug": "tw93-ui"
+    },
+    {
+      "repository": "tw93/Waza",
+      "branch": "main",
+      "skillName": "write",
+      "path": "skills/write/SKILL.md",
+      "url": "https://github.com/tw93/Waza/blob/main/skills/write/SKILL.md",
+      "description": "Rewrites and polishes prose in Chinese or English, removes AI-like wording, and reviews product localization copy while preserving intent for drafts, docs, release notes, launch copy, and social posts. Use when users ask in any language to draft, rewrite, proofread, localize, polish release notes, remove AI-like wording, or prepare launch and social copy. Not for code comments, commit messages, or inline docs.",
+      "slug": "tw93-write"
+    }
+  ],
+  "itemCount": 9,
+  "lastStatus": "reused-unchanged"
+}

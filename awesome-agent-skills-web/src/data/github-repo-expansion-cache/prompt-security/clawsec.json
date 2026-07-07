@@ -2,9 +2,9 @@
   "repository": "prompt-security/clawsec",
   "branch": "main",
   "defaultBranch": "main",
-  "pushedAt": "2026-06-29T21:34:33Z",
-  "scannedAt": "2026-06-30T00:37:58.440Z",
-  "treeSha": "44219f1856e6e8861575f2a26840eda83f3545ad",
+  "pushedAt": "2026-07-07T07:09:24Z",
+  "scannedAt": "2026-07-07T09:07:22.642Z",
+  "treeSha": "bc85af7203a20b369c470e6aeb5faf02d197e529",
   "items": [
     {
       "repository": "prompt-security/clawsec",
@@ -12,10 +12,10 @@
       "skillName": "clawsec",
       "path": "README.md",
       "url": "https://github.com/prompt-security/clawsec",
-      "description": "Discovered from a public GitHub repository: prompt-security/clawsec",
+      "description": "A complete security skill suite for OpenClaw, Hermes, PicoClaw and NanoClaw agents (and variants). Protect your SOUL.md (etc') with drift detection, live security recommendations, automated audits, and skill integrity verification. All from one installable suite.",
       "slug": "prompt-security-clawsec-collection",
       "isCollection": true,
-      "stars": null,
+      "stars": 1059,
       "skillPaths": [
         "skills/claw-release/SKILL.md",
         "skills/clawsec-clawhub-checker/SKILL.md",
@@ -181,5 +181,6 @@
     }
   ],
   "itemCount": 17,
-  "lastStatus": "cache-fresh"
+  "publicSkillCount": 16,
+  "lastStatus": "scanned"
 }

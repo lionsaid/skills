@@ -1,0 +1,75 @@
+{
+  "repository": "kepano/obsidian-skills",
+  "branch": "main",
+  "defaultBranch": "main",
+  "pushedAt": "2026-06-08T16:12:01Z",
+  "scannedAt": "2026-07-07T09:03:58.955Z",
+  "treeSha": "a1dc48e68138490d522c04cbf5822214c6eb1202",
+  "items": [
+    {
+      "repository": "kepano/obsidian-skills",
+      "branch": "main",
+      "skillName": "obsidian-skills",
+      "path": "README.md",
+      "url": "https://github.com/kepano/obsidian-skills",
+      "description": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.",
+      "slug": "kepano-obsidian-skills-collection",
+      "isCollection": true,
+      "stars": null,
+      "skillPaths": [
+        "skills/defuddle/SKILL.md",
+        "skills/json-canvas/SKILL.md",
+        "skills/obsidian-bases/SKILL.md",
+        "skills/obsidian-cli/SKILL.md",
+        "skills/obsidian-markdown/SKILL.md"
+      ]
+    },
+    {
+      "repository": "kepano/obsidian-skills",
+      "branch": "main",
+      "skillName": "defuddle",
+      "path": "skills/defuddle/SKILL.md",
+      "url": "https://github.com/kepano/obsidian-skills/blob/main/skills/defuddle/SKILL.md",
+      "description": "Extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens. Use instead of WebFetch when the user provides a URL to read or analyze, for online documentation, articles, blog posts, or any standard web page. Do NOT use for URLs ending in .md — those are already markdown, use WebFetch directly.",
+      "slug": "kepano-defuddle"
+    },
+    {
+      "repository": "kepano/obsidian-skills",
+      "branch": "main",
+      "skillName": "json-canvas",
+      "path": "skills/json-canvas/SKILL.md",
+      "url": "https://github.com/kepano/obsidian-skills/blob/main/skills/json-canvas/SKILL.md",
+      "description": "Create and edit JSON Canvas files (.canvas) with nodes, edges, groups, and connections. Use when working with .canvas files, creating visual canvases, mind maps, flowcharts, or when the user mentions Canvas files in Obsidian.",
+      "slug": "kepano-json-canvas"
+    },
+    {
+      "repository": "kepano/obsidian-skills",
+      "branch": "main",
+      "skillName": "obsidian-bases",
+      "path": "skills/obsidian-bases/SKILL.md",
+      "url": "https://github.com/kepano/obsidian-skills/blob/main/skills/obsidian-bases/SKILL.md",
+      "description": "Create and edit Obsidian Bases (.base files) with views, filters, formulas, and summaries. Use when working with .base files, creating database-like views of notes, or when the user mentions Bases, table views, card views, filters, or formulas in Obsidian.",
+      "slug": "kepano-obsidian-bases"
+    },
+    {
+      "repository": "kepano/obsidian-skills",
+      "branch": "main",
+      "skillName": "obsidian-cli",
+      "path": "skills/obsidian-cli/SKILL.md",
+      "url": "https://github.com/kepano/obsidian-skills/blob/main/skills/obsidian-cli/SKILL.md",
+      "description": "Interact with Obsidian vaults using the Obsidian CLI to read, create, search, and manage notes, tasks, properties, and more. Also supports plugin and theme development with commands to reload plugins, run JavaScript, capture errors, take screenshots, and inspect the DOM. Use when the user asks to interact with their Obsidian vault, manage notes, search vault content, perform vault operations from the command line, or develop and debug Obsidian plugins and themes.",
+      "slug": "kepano-obsidian-cli"
+    },
+    {
+      "repository": "kepano/obsidian-skills",
+      "branch": "main",
+      "skillName": "obsidian-markdown",
+      "path": "skills/obsidian-markdown/SKILL.md",
+      "url": "https://github.com/kepano/obsidian-skills/blob/main/skills/obsidian-markdown/SKILL.md",
+      "description": "Create and edit Obsidian Flavored Markdown with wikilinks, embeds, callouts, properties, and other Obsidian-specific syntax. Use when working with .md files in Obsidian, or when the user mentions wikilinks, callouts, frontmatter, tags, embeds, or Obsidian notes.",
+      "slug": "kepano-obsidian-markdown"
+    }
+  ],
+  "itemCount": 6,
+  "lastStatus": "reused-unchanged"
+}

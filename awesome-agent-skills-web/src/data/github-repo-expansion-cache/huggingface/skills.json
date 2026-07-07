@@ -1,0 +1,216 @@
+{
+  "repository": "huggingface/skills",
+  "branch": "main",
+  "defaultBranch": "main",
+  "pushedAt": "2026-07-06T17:58:20Z",
+  "scannedAt": "2026-07-07T09:04:48.434Z",
+  "treeSha": "2aad4f7a8d2d8360cf65364291489e65370caad8",
+  "items": [
+    {
+      "repository": "huggingface/skills",
+      "branch": "main",
+      "skillName": "skills",
+      "path": "README.md",
+      "url": "https://github.com/huggingface/skills",
+      "description": "Give your agents the power of the Hugging Face ecosystem",
+      "slug": "huggingface-skills-collection",
+      "isCollection": true,
+      "stars": 10781,
+      "skillPaths": [
+        "skills/hf-cli/SKILL.md",
+        "skills/hf-mem/SKILL.md",
+        "skills/huggingface-best/SKILL.md",
+        "skills/huggingface-community-evals/SKILL.md",
+        "skills/huggingface-datasets/SKILL.md",
+        "skills/huggingface-gradio/SKILL.md",
+        "skills/huggingface-llm-trainer/SKILL.md",
+        "skills/huggingface-local-models/SKILL.md",
+        "skills/huggingface-lora-space-builder/SKILL.md",
+        "skills/huggingface-paper-publisher/SKILL.md",
+        "skills/huggingface-papers/SKILL.md",
+        "skills/huggingface-spaces/SKILL.md",
+        "skills/huggingface-tool-builder/SKILL.md",
+        "skills/huggingface-trackio/SKILL.md",
+        "skills/huggingface-vision-trainer/SKILL.md",
+        "skills/huggingface-zerogpu/SKILL.md",
+        "skills/train-sentence-transformers/SKILL.md",
+        "skills/transformers-js/SKILL.md",
+        "skills/trl-training/SKILL.md"
+      ]
+    },
+    {
+      "repository": "huggingface/skills",
+      "branch": "main",
+      "skillName": "hf-cli",
+      "path": "skills/hf-cli/SKILL.md",
+      "url": "https://github.com/huggingface/skills/blob/main/skills/hf-cli/SKILL.md",
+      "description": "Hugging Face Hub CLI (`hf`) for downloading, uploading, and managing models, datasets, spaces, buckets, repos, papers, jobs, and more on the Hugging Face Hub. Use when: handling authentication; managing local cache; managing Hugging Face Buckets; running or scheduling jobs on Hugging Face infrastructure; managing Hugging Face repos; discussions and pull requests; browsing models, datasets and spaces; reading, searching, or browsing academic papers; managing collections; querying datasets; configuring spaces; setting up webhooks; or deploying and managing HF Inference Endpoints. Make sure to use this skill whenever the user mentions 'hf', 'huggingface', 'Hugging Face', 'huggingface-cli', or 'hugging face cli', or wants to do anything related to the Hugging Face ecosystem and to AI and ML in general. Also use for cloud storage needs like training checkpoints, data pipelines, or agent trace",
+      "slug": "huggingface-hf-cli"
+    },
+    {
+      "repository": "huggingface/skills",
+      "branch": "main",
+      "skillName": "hf-mem",
+      "path": "skills/hf-mem/SKILL.md",
+      "url": "https://github.com/huggingface/skills/blob/main/skills/hf-mem/SKILL.md",
+      "description": "Hugging Face CLI to estimate the required memory to load Safetensors or GGUF model weights for inference from the Hugging Face Hub",
+      "slug": "huggingface-hf-mem"
+    },
+    {
+      "repository": "huggingface/skills",
+      "branch": "main",
+      "skillName": "huggingface-best",
+      "path": "skills/huggingface-best/SKILL.md",
+      "url": "https://github.com/huggingface/skills/blob/main/skills/huggingface-best/SKILL.md",
+      "description": ">",
+      "slug": "huggingface-huggingface-best"
+    },
+    {
+      "repository": "huggingface/skills",
+      "branch": "main",
+      "skillName": "huggingface-community-evals",
+      "path": "skills/huggingface-community-evals/SKILL.md",
+      "url": "https://github.com/huggingface/skills/blob/main/skills/huggingface-community-evals/SKILL.md",
+      "description": "Run evaluations for Hugging Face Hub models using inspect-ai and lighteval on local hardware. Use for backend selection, local GPU evals, and choosing between vLLM / Transformers / accelerate. Not for HF Jobs orchestration, model-card PRs, .eval_results publication, or community-evals automation.",
+      "slug": "huggingface-huggingface-community-evals"
+    },
+    {
+      "repository": "huggingface/skills",
+      "branch": "main",
+      "skillName": "huggingface-datasets",
+      "path": "skills/huggingface-datasets/SKILL.md",
+      "url": "https://github.com/huggingface/skills/blob/main/skills/huggingface-datasets/SKILL.md",
+      "description": "Use this skill for Hugging Face Dataset Viewer API workflows that fetch subset/split metadata, paginate rows, search text, apply filters, download parquet URLs, and read size or statistics.",
+      "slug": "huggingface-huggingface-datasets"
+    },
+    {
+      "repository": "huggingface/skills",
+      "branch": "main",
+      "skillName": "huggingface-gradio",
+      "path": "skills/huggingface-gradio/SKILL.md",
+      "url": "https://github.com/huggingface/skills/blob/main/skills/huggingface-gradio/SKILL.md",
+      "description": "Build Gradio web UIs and demos in Python. Use when creating or editing Gradio apps, components, event listeners, layouts, or chatbots.",
+      "slug": "huggingface-huggingface-gradio"
+    },
+    {
+      "repository": "huggingface/skills",
+      "branch": "main",
+      "skillName": "huggingface-llm-trainer",
+      "path": "skills/huggingface-llm-trainer/SKILL.md",
+      "url": "https://github.com/huggingface/skills/blob/main/skills/huggingface-llm-trainer/SKILL.md",
+      "description": "Train or fine-tune language and vision models using TRL (Transformer Reinforcement Learning) or Unsloth with Hugging Face Jobs infrastructure. Covers SFT, DPO, GRPO and reward modeling training methods, plus GGUF conversion for local deployment. Includes guidance on the TRL Jobs package, UV scripts with PEP 723 format, dataset preparation and validation, hardware selection, cost estimation, Trackio monitoring, Hub authentication, model selection/leaderboards and model persistence. Use for tasks involving cloud GPU training, GGUF conversion, or when users mention training on Hugging Face Jobs without local GPU setup.",
+      "slug": "huggingface-huggingface-llm-trainer"
+    },
+    {
+      "repository": "huggingface/skills",
+      "branch": "main",
+      "skillName": "huggingface-local-models",
+      "path": "skills/huggingface-local-models/SKILL.md",
+      "url": "https://github.com/huggingface/skills/blob/main/skills/huggingface-local-models/SKILL.md",
+      "description": "Use to select models to run locally with llama.cpp and GGUF on CPU, Mac Metal, CUDA, or ROCm. Covers finding GGUFs, quant selection, running servers, exact GGUF file lookup, conversion, and OpenAI-compatible local serving.",
+      "slug": "huggingface-huggingface-local-models"
+    },
+    {
+      "repository": "huggingface/skills",
+      "branch": "main",
+      "skillName": "huggingface-lora-space-builder",
+      "path": "skills/huggingface-lora-space-builder/SKILL.md",
+      "url": "https://github.com/huggingface/skills/blob/main/skills/huggingface-lora-space-builder/SKILL.md",
+      "description": "Build and publish a Gradio demo on Hugging Face Spaces for a user-provided LoRA. Use when someone asks to create, generate, ship, or publish a Space, demo, Gradio app, or playground for a LoRA — including LoRAs for Qwen-Image, Qwen-Image-Edit, LTX-Video, Wan, FLUX, SDXL, or other diffusion base models. Also triggers when someone describes a LoRA they trained or hosts on the Hub and wants to share it. Covers picking the right base pipeline and `diffusers` inference recipe, designing a UI tailored to the LoRA's task and inputs (Union/multi-task control, edit, video, image, etc.), respecting model-card recommendations (trigger words, steps, guidance, LoRA scale, example inputs), and shipping to ZeroGPU hardware as a private Space by default.",
+      "slug": "huggingface-huggingface-lora-space-builder"
+    },
+    {
+      "repository": "huggingface/skills",
+      "branch": "main",
+      "skillName": "huggingface-paper-publisher",
+      "path": "skills/huggingface-paper-publisher/SKILL.md",
+      "url": "https://github.com/huggingface/skills/blob/main/skills/huggingface-paper-publisher/SKILL.md",
+      "description": "Publish and manage research papers on Hugging Face Hub. Supports creating paper pages, linking papers to models/datasets, claiming authorship, and generating professional markdown-based research articles.",
+      "slug": "huggingface-huggingface-paper-publisher"
+    },
+    {
+      "repository": "huggingface/skills",
+      "branch": "main",
+      "skillName": "huggingface-papers",
+      "path": "skills/huggingface-papers/SKILL.md",
+      "url": "https://github.com/huggingface/skills/blob/main/skills/huggingface-papers/SKILL.md",
+      "description": "Look up and read Hugging Face paper pages in markdown, and use the papers API for structured metadata such as authors, linked models/datasets/spaces, Github repo and project page. Use when the user shares a Hugging Face paper page URL, an arXiv URL or ID, or asks to summarize, explain, or analyze an AI research paper.",
+      "slug": "huggingface-huggingface-papers"
+    },
+    {
+      "repository": "huggingface/skills",
+      "branch": "main",
+      "skillName": "huggingface-spaces",
+      "path": "skills/huggingface-spaces/SKILL.md",
+      "url": "https://github.com/huggingface/skills/blob/main/skills/huggingface-spaces/SKILL.md",
+      "description": "Build, deploy, and maintain applications on Hugging Face Spaces — Gradio / Docker / Static SDKs, ZeroGPU and dedicated hardware, model loading, debugging, buckets, inference providers, community grants. Use whenever the user asks to create or host an app on Hugging Face, port code onto ZeroGPU, fix a Space that won't build or run, or otherwise work with `hf spaces …`, `@spaces.GPU`, Space README frontmatter, or the `spaces` Python package.",
+      "slug": "huggingface-huggingface-spaces"
+    },
+    {
+      "repository": "huggingface/skills",
+      "branch": "main",
+      "skillName": "huggingface-tool-builder",
+      "path": "skills/huggingface-tool-builder/SKILL.md",
+      "url": "https://github.com/huggingface/skills/blob/main/skills/huggingface-tool-builder/SKILL.md",
+      "description": "Use this skill when the user wants to build tool/scripts or achieve a task where using data from the Hugging Face API would help. This is especially useful when chaining or combining API calls or the task will be repeated/automated. This Skill creates a reusable script to fetch, enrich or process data.",
+      "slug": "huggingface-huggingface-tool-builder"
+    },
+    {
+      "repository": "huggingface/skills",
+      "branch": "main",
+      "skillName": "huggingface-trackio",
+      "path": "skills/huggingface-trackio/SKILL.md",
+      "url": "https://github.com/huggingface/skills/blob/main/skills/huggingface-trackio/SKILL.md",
+      "description": "Track and visualize ML training experiments with Trackio. Use when logging metrics during training (Python API), firing alerts for training diagnostics, or retrieving/analyzing logged metrics (CLI). Supports real-time dashboard visualization, alerts with webhooks, HF Space syncing, and JSON output for automation.",
+      "slug": "huggingface-huggingface-trackio"
+    },
+    {
+      "repository": "huggingface/skills",
+      "branch": "main",
+      "skillName": "huggingface-vision-trainer",
+      "path": "skills/huggingface-vision-trainer/SKILL.md",
+      "url": "https://github.com/huggingface/skills/blob/main/skills/huggingface-vision-trainer/SKILL.md",
+      "description": "Trains and fine-tunes vision models for object detection (D-FINE, RT-DETR v2, DETR, YOLOS), image classification (timm models — MobileNetV3, MobileViT, ResNet, ViT/DINOv3 — plus any Transformers classifier), and SAM/SAM2 segmentation using Hugging Face Transformers on Hugging Face Jobs cloud GPUs. Covers COCO-format dataset preparation, Albumentations augmentation, mAP/mAR evaluation, accuracy metrics, SAM segmentation with bbox/point prompts, DiceCE loss, hardware selection, cost estimation, Trackio monitoring, and Hub persistence. Use when users mention training object detection, image classification, SAM, SAM2, segmentation, image matting, DETR, D-FINE, RT-DETR, ViT, timm, MobileNet, ResNet, bounding box models, or fine-tuning vision models on Hugging Face Jobs.",
+      "slug": "huggingface-huggingface-vision-trainer"
+    },
+    {
+      "repository": "huggingface/skills",
+      "branch": "main",
+      "skillName": "huggingface-zerogpu",
+      "path": "skills/huggingface-zerogpu/SKILL.md",
+      "url": "https://github.com/huggingface/skills/blob/main/skills/huggingface-zerogpu/SKILL.md",
+      "description": "AI demos and GPU compute with Gradio Spaces and Hugging Face Spaces ZeroGPU. Use when writing or reviewing code that uses `@spaces.GPU`, configuring `python_version` or `requirements.txt` for a ZeroGPU Space, or handling ZeroGPU-specific code constraints — pickle-based process isolation, `gr.State` semantics across the worker boundary, no `torch.compile` (use AoTI instead), CUDA wheel-only builds (no `nvcc` at build or runtime), large vs xlarge sizing, and dynamic duration callables. Make sure to use this skill whenever the user mentions ZeroGPU, `@spaces.GPU`, or the `spaces` Python package, or hits ZeroGPU-specific code errors like `PicklingError` across the worker boundary, `illegal duration`, or `flash-attn` wheel-build failures — even when the user does not explicitly ask for ZeroGPU coding guidance. Trigger on `import spaces` or `@spaces.GPU` in code.",
+      "slug": "huggingface-huggingface-zerogpu"
+    },
+    {
+      "repository": "huggingface/skills",
+      "branch": "main",
+      "skillName": "train-sentence-transformers",
+      "path": "skills/train-sentence-transformers/SKILL.md",
+      "url": "https://github.com/huggingface/skills/blob/main/skills/train-sentence-transformers/SKILL.md",
+      "description": "Train or fine-tune sentence-transformers models across `SentenceTransformer` (bi-encoder; dense or static embedding model; for retrieval, similarity, clustering, classification, paraphrase mining, dedup, multimodal), `CrossEncoder` (reranker; pair scoring for two-stage retrieval / pair classification), and `SparseEncoder` (SPLADE, sparse embedding model; for learned-sparse retrieval). Covers loss selection, hard-negative mining, evaluators, distillation, LoRA, Matryoshka, and Hugging Face Hub publishing. Use for any sentence-transformers training task.",
+      "slug": "huggingface-train-sentence-transformers"
+    },
+    {
+      "repository": "huggingface/skills",
+      "branch": "main",
+      "skillName": "transformers-js",
+      "path": "skills/transformers-js/SKILL.md",
+      "url": "https://github.com/huggingface/skills/blob/main/skills/transformers-js/SKILL.md",
+      "description": "Use Transformers.js to run state-of-the-art machine learning models directly in JavaScript/TypeScript. Supports NLP (text classification, translation, summarization), computer vision (image classification, object detection), audio (speech recognition, audio classification), and multimodal tasks. Works in browsers and server-side runtimes (Node.js, Bun, Deno) with WebGPU/WASM using pre-trained models from Hugging Face Hub.",
+      "slug": "huggingface-transformers-js"
+    },
+    {
+      "repository": "huggingface/skills",
+      "branch": "main",
+      "skillName": "trl-training",
+      "path": "skills/trl-training/SKILL.md",
+      "url": "https://github.com/huggingface/skills/blob/main/skills/trl-training/SKILL.md",
+      "description": "Train and fine-tune transformer language models using TRL (Transformers Reinforcement Learning). Supports SFT, DPO, GRPO, KTO, RLOO and Reward Model training via CLI commands.",
+      "slug": "huggingface-trl-training"
+    }
+  ],
+  "itemCount": 20,
+  "publicSkillCount": 19,
+  "lastStatus": "scanned"
+}

@@ -2,9 +2,9 @@
   "repository": "sanjay3290/ai-skills",
   "branch": "main",
   "defaultBranch": "main",
-  "pushedAt": "2026-05-07T15:54:46Z",
-  "scannedAt": "2026-06-30T00:38:16.355Z",
-  "treeSha": "cde1c8385ead64df501c9b214e63d7ba9b283ff9",
+  "pushedAt": "2026-07-06T20:59:51Z",
+  "scannedAt": "2026-07-07T09:07:40.851Z",
+  "treeSha": "9731c774240126a924be44058148bd7a353e20d7",
   "items": [
     {
       "repository": "sanjay3290/ai-skills",
@@ -12,11 +12,12 @@
       "skillName": "ai-skills",
       "path": "README.md",
       "url": "https://github.com/sanjay3290/ai-skills",
-      "description": "Discovered from a public GitHub repository: sanjay3290/ai-skills",
+      "description": "Collection of agent skills for AI coding assistants",
       "slug": "sanjay3290-ai-skills-collection",
       "isCollection": true,
-      "stars": null,
+      "stars": 334,
       "skillPaths": [
+        "skills/apple-container/SKILL.md",
         "skills/atlassian/SKILL.md",
         "skills/azure-devops/SKILL.md",
         "skills/deep-research/SKILL.md",
@@ -36,8 +37,18 @@
         "skills/mysql/SKILL.md",
         "skills/notebooklm/SKILL.md",
         "skills/outline/SKILL.md",
-        "skills/postgres/SKILL.md"
+        "skills/postgres/SKILL.md",
+        "skills/telegram/SKILL.md"
       ]
+    },
+    {
+      "repository": "sanjay3290/ai-skills",
+      "branch": "main",
+      "skillName": "apple-container",
+      "path": "skills/apple-container/SKILL.md",
+      "url": "https://github.com/sanjay3290/ai-skills/blob/main/skills/apple-container/SKILL.md",
+      "description": "|",
+      "slug": "sanjay3290-apple-container"
     },
     {
       "repository": "sanjay3290/ai-skills",
@@ -218,8 +229,18 @@
       "url": "https://github.com/sanjay3290/ai-skills/blob/main/skills/postgres/SKILL.md",
       "description": "Execute read-only SQL queries against multiple PostgreSQL databases. Use when: (1) querying PostgreSQL databases, (2) exploring database schemas/tables, (3) running SELECT queries for data analysis, (4) checking database contents. Supports multiple database connections with descriptions for intelligent auto-selection. Blocks all write operations (INSERT, UPDATE, DELETE, DROP, etc.) for safety.",
       "slug": "sanjay3290-postgres"
+    },
+    {
+      "repository": "sanjay3290/ai-skills",
+      "branch": "main",
+      "skillName": "telegram",
+      "path": "skills/telegram/SKILL.md",
+      "url": "https://github.com/sanjay3290/ai-skills/blob/main/skills/telegram/SKILL.md",
+      "description": "Send Telegram messages, files, and alerts via bot API; read replies; ask questions with inline buttons and wait for the answer (approve-from-phone). Supports multiple bots and named chat targets. Use when the user wants to send a Telegram message or alert, get notified on Telegram when a task finishes or needs input, ask for approval via Telegram, or wire Telegram notifications into hooks, cron jobs, or CI. Triggers: 'telegram', 'send me a telegram', 'alert me on telegram', 'ask me on telegram', 'notify me when done'.",
+      "slug": "sanjay3290-telegram"
     }
   ],
-  "itemCount": 21,
-  "lastStatus": "cache-fresh"
+  "itemCount": 23,
+  "publicSkillCount": 22,
+  "lastStatus": "scanned"
 }

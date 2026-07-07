@@ -1,0 +1,115 @@
+{
+  "repository": "fantastic-admin/basic",
+  "branch": "main",
+  "defaultBranch": "main",
+  "pushedAt": "2026-07-04T17:32:51Z",
+  "scannedAt": "2026-07-07T09:06:09.120Z",
+  "treeSha": "11dbd2baaf4dc963fbed52df9e15430332e3463c",
+  "items": [
+    {
+      "repository": "fantastic-admin/basic",
+      "branch": "main",
+      "skillName": "basic",
+      "path": "README.md",
+      "url": "https://github.com/fantastic-admin/basic",
+      "description": "⭐⭐⭐⭐⭐ 面向 AI 编程的管理系统框架，兼容PC、移动端。AI-oriented management system framework, compatible with PC and mobile device.",
+      "slug": "fantastic-admin-basic-collection",
+      "isCollection": true,
+      "stars": 3319,
+      "skillPaths": [
+        "skills/fa-crud-page-generator/SKILL.md",
+        "skills/fa-feedback/SKILL.md",
+        "skills/fa-form-builder/SKILL.md",
+        "skills/fa-framework-settings/SKILL.md",
+        "skills/fa-page-optimizer/SKILL.md",
+        "skills/fa-route-generator/SKILL.md",
+        "skills/fa-slot-creator/SKILL.md",
+        "skills/fa-store-generator/SKILL.md",
+        "skills/fa-theme-customizer/SKILL.md"
+      ]
+    },
+    {
+      "repository": "fantastic-admin/basic",
+      "branch": "main",
+      "skillName": "fa-crud-page-generator",
+      "path": "skills/fa-crud-page-generator/SKILL.md",
+      "url": "https://github.com/fantastic-admin/basic/blob/main/skills/fa-crud-page-generator/SKILL.md",
+      "description": "为 Fantastic-admin 框架生成完整的 CRUD 业务模块，遵循框架标准模块结构和内建 Fa* 组件体系，使用 FaForm/FaFormItem 生成新增/编辑表单，产出列表页、详情/编辑页、DetailForm 表单组件、API 模块、fake mock 数据、可选路由。用户说：'帮我做一个商品管理页面'、'搭一个用户列表，能搜索分页新增编辑删除'、'生成订单模块'、'新建 XX 管理模块'、'快速搭一个标准模块/CRUD 页面' 时，即使没有明确说 CRUD，也应触发此技能。",
+      "slug": "fantastic-admin-fa-crud-page-generator"
+    },
+    {
+      "repository": "fantastic-admin/basic",
+      "branch": "main",
+      "skillName": "fa-feedback",
+      "path": "skills/fa-feedback/SKILL.md",
+      "url": "https://github.com/fantastic-admin/basic/blob/main/skills/fa-feedback/SKILL.md",
+      "description": "当用户在使用 fa-* 系列技能（如 fa-framework-settings、fa-slot-creator、fa-form-builder、fa-route-generator、fa-store-generator、fa-page-optimizer、fa-theme-customizer 等）时，在同一个目标上经历了 3 次及以上的修改仍未达到预期效果，必须触发此技能。触发信号包括：用户反复要求调整同一处配置或代码、连续说\"不对\"/\"再改改\"/\"还是不行\"、对同一个功能点多次提出修正意见。即使用户没有明确表示\"上报\"或\"反馈\"，只要检测到反复沟通修改的模式，就应主动触发。",
+      "slug": "fantastic-admin-fa-feedback"
+    },
+    {
+      "repository": "fantastic-admin/basic",
+      "branch": "main",
+      "skillName": "fa-form-builder",
+      "path": "skills/fa-form-builder/SKILL.md",
+      "url": "https://github.com/fantastic-admin/basic/blob/main/skills/fa-form-builder/SKILL.md",
+      "description": "为 Fantastic-admin 框架生成独立的表单页面，使用 FaForm/FaFormItem + vee-validate + zod 验证，表单 model 使用 ref，全部使用框架内建 Fa* 组件。当用户说：'帮我做一个用户信息填写页'、'我只需要一个提交表单，不需要列表'、'做个设置页面，有几个输入框和保存按钮'、'生成一个注册/编辑/配置表单页'、'只要表单页，不需要增删改查'，即使用户只是说'做个表单页面'也应触发此技能。",
+      "slug": "fantastic-admin-fa-form-builder"
+    },
+    {
+      "repository": "fantastic-admin/basic",
+      "branch": "main",
+      "skillName": "fa-framework-settings",
+      "path": "skills/fa-framework-settings/SKILL.md",
+      "url": "https://github.com/fantastic-admin/basic/blob/main/skills/fa-framework-settings/SKILL.md",
+      "description": "管理和配置 Fantastic-admin 框架设置。当用户提到以下任何需求时必须使用此技能：开启/关闭水印、锁屏、错误日志、更新检查、哀悼模式、移动端访问；切换暗色/亮色/跟随系统主题；修改菜单模式（侧边栏/顶部/精简/面板）；配置标签栏风格（fashion/card/square）；启用/禁用工具栏功能（收藏夹、面包屑、搜索、通知、国际化、全屏、刷新）；设置版权信息；配置认证/权限/登录过期；调整页面切换动画；配置居中布局；修改路由模式；以及任何涉及 src/settings/index.ts 的修改。",
+      "slug": "fantastic-admin-fa-framework-settings"
+    },
+    {
+      "repository": "fantastic-admin/basic",
+      "branch": "main",
+      "skillName": "fa-page-optimizer",
+      "path": "skills/fa-page-optimizer/SKILL.md",
+      "url": "https://github.com/fantastic-admin/basic/blob/main/skills/fa-page-optimizer/SKILL.md",
+      "description": "优化 Vue 页面，用 Fantastic-admin 框架内建组件（packages/components/）替换自定义实现和原生 HTML。当用户说：'帮我优化这个页面'、'把这些原生 HTML 换成框架组件'、'用 FaCard/FaModal/FaButton 重构一下'、'这个页面太乱了'、'统一一下 UI 风格'、'用内建组件替换自定义弹窗/分页/加载'，即使用户只是说'看看这个页面能不能改进'也应触发此技能。",
+      "slug": "fantastic-admin-fa-page-optimizer"
+    },
+    {
+      "repository": "fantastic-admin/basic",
+      "branch": "main",
+      "skillName": "fa-route-generator",
+      "path": "skills/fa-route-generator/SKILL.md",
+      "url": "https://github.com/fantastic-admin/basic/blob/main/skills/fa-route-generator/SKILL.md",
+      "description": "管理 Vue Router 路由配置，用于 Fantastic-admin 框架。当用户提到以下任何需求时必须使用此技能：新建页面需要加路由、详情页不想显示在菜单里、新增页和编辑页老是开两个标签、从列表跳详情返回后状态丢失、给菜单项加 NEW 标签或红点、路由需要权限控制、配置页面保活、修改路由 meta、添加面包屑配置。即使用户只是说\"加个路由\"或\"新建了一个页面\"，也应触发此技能。",
+      "slug": "fantastic-admin-fa-route-generator"
+    },
+    {
+      "repository": "fantastic-admin/basic",
+      "branch": "main",
+      "skillName": "fa-slot-creator",
+      "path": "skills/fa-slot-creator/SKILL.md",
+      "url": "https://github.com/fantastic-admin/basic/blob/main/skills/fa-slot-creator/SKILL.md",
+      "description": "在 Fantastic-admin 框架中创建插槽，向布局的任意位置注入自定义内容。当用户提到以下任何需求时必须使用此技能：在头部/侧边栏/工具栏/标签栏加东西、logo 旁边加内容、侧边栏底部加用户信息、加个悬浮按钮、在导航菜单右侧加自定义组件、想在框架布局某个区域插入内容、在页面顶部或底部插入全局横幅/公告/版权栏。即使用户只是说\"在顶部加个 XX\"或\"侧边栏加点东西\"，也应触发此技能。支持 19 个插槽位置。",
+      "slug": "fantastic-admin-fa-slot-creator"
+    },
+    {
+      "repository": "fantastic-admin/basic",
+      "branch": "main",
+      "skillName": "fa-store-generator",
+      "path": "skills/fa-store-generator/SKILL.md",
+      "url": "https://github.com/fantastic-admin/basic/blob/main/skills/fa-store-generator/SKILL.md",
+      "description": "为 Fantastic-admin 框架生成 Pinia Store 模块。当用户提到以下任何需求时必须使用此技能：多个页面需要共享数据、全局状态管理、数据需要持久化（刷新后还在）、登录状态/用户信息需要缓存、购物车/通知/权限等全局数据、需要在组件外访问状态。即使用户只是说\"这个数据要全局共享\"或\"刷新后数据不能丢\"，也应触发此技能。触发关键词：创建 store、全局状态、状态管理、pinia、持久化、共享数据。",
+      "slug": "fantastic-admin-fa-store-generator"
+    },
+    {
+      "repository": "fantastic-admin/basic",
+      "branch": "main",
+      "skillName": "fa-theme-customizer",
+      "path": "skills/fa-theme-customizer/SKILL.md",
+      "url": "https://github.com/fantastic-admin/basic/blob/main/skills/fa-theme-customizer/SKILL.md",
+      "description": "为 Fantastic-admin 框架创建和定制主题配色方案，始终同时生成明色（light）和暗色（dark）两套主题。当用户提到以下任何需求时必须使用此技能：换主题颜色、换配色、做一个 XX 风格的主题、主题太单调了、品牌色是 XXX 帮我生成主题、把 tweakcn 配色转成框架主题、想要暗色/冷色/暖色调、根据设计稿颜色生成主题。即使用户只是描述一种感觉（\"清新\"、\"沉稳\"、\"科技感\"）或提供一个颜色值（\"#2563EB\"），也应触发此技能。支持\"吉卜力\"、\"赛博朋克\"、\"莫兰迪\"、\"北欧极简\"等专业设计风格关键词。",
+      "slug": "fantastic-admin-fa-theme-customizer"
+    }
+  ],
+  "itemCount": 10,
+  "lastStatus": "reused-unchanged"
+}

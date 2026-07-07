@@ -1,0 +1,126 @@
+{
+  "repository": "BuilderIO/skills",
+  "branch": "main",
+  "defaultBranch": "main",
+  "pushedAt": "2026-07-06T14:42:49Z",
+  "scannedAt": "2026-07-07T09:06:06.412Z",
+  "treeSha": "3a7b1d98901fc8fabfaa1a387d9be4dea36e37b3",
+  "items": [
+    {
+      "repository": "BuilderIO/skills",
+      "branch": "main",
+      "skillName": "skills",
+      "path": "README.md",
+      "url": "https://github.com/BuilderIO/skills",
+      "description": "Skills for coding agents",
+      "slug": "builderio-skills-collection",
+      "isCollection": true,
+      "stars": 3498,
+      "skillPaths": [
+        "skills/agent-watchdog/SKILL.md",
+        "skills/efficient-fable/SKILL.md",
+        "skills/efficient-frontier/SKILL.md",
+        "skills/plan-arbiter/SKILL.md",
+        "skills/plow-ahead/SKILL.md",
+        "skills/quick-recap/SKILL.md",
+        "skills/read-the-damn-docs/SKILL.md",
+        "skills/stay-within-limits/SKILL.md",
+        "skills/visual-plan/SKILL.md",
+        "skills/visual-recap/SKILL.md"
+      ]
+    },
+    {
+      "repository": "BuilderIO/skills",
+      "branch": "main",
+      "skillName": "agent-watchdog",
+      "path": "skills/agent-watchdog/SKILL.md",
+      "url": "https://github.com/BuilderIO/skills/blob/main/skills/agent-watchdog/SKILL.md",
+      "description": "Use when asked to watch, babysit, audit, review, compare, or fix another agent's work from a Codex session ID, Claude Code session/transcript, chat/thread link, PR, branch, log, or pasted run summary. Monitor until the other agent is done or blocked, reconstruct what the user asked, inspect what the agent actually changed and verified, report gaps, and optionally make scoped fixes when the user authorizes repair.",
+      "slug": "builderio-agent-watchdog"
+    },
+    {
+      "repository": "BuilderIO/skills",
+      "branch": "main",
+      "skillName": "efficient-fable",
+      "path": "skills/efficient-fable/SKILL.md",
+      "url": "https://github.com/BuilderIO/skills/blob/main/skills/efficient-fable/SKILL.md",
+      "description": "Use when running Claude Fable on codebase-heavy or token-heavy work and the user wants Fable to orchestrate research, coding, and testing while cheaper subagents do bounded heavy lifting.",
+      "slug": "builderio-efficient-fable"
+    },
+    {
+      "repository": "BuilderIO/skills",
+      "branch": "main",
+      "skillName": "efficient-frontier",
+      "path": "skills/efficient-frontier/SKILL.md",
+      "url": "https://github.com/BuilderIO/skills/blob/main/skills/efficient-frontier/SKILL.md",
+      "description": "Apply the same orchestration as `/efficient-fable` to any high-cost frontier model: delegate research, coding, and testing to cheaper subagents while keeping planning, synthesis, and final review with the expensive model.",
+      "slug": "builderio-efficient-frontier"
+    },
+    {
+      "repository": "BuilderIO/skills",
+      "branch": "main",
+      "skillName": "plan-arbiter",
+      "path": "skills/plan-arbiter/SKILL.md",
+      "url": "https://github.com/BuilderIO/skills/blob/main/skills/plan-arbiter/SKILL.md",
+      "description": "Use when asked to compare, cross-review, merge, judge, choose, or arbitrate competing plans from multiple agents such as Codex and Claude Code; when given two or more proposed plans, session IDs, transcripts, plan documents, PR descriptions, or pasted strategies; or when the user wants one recommended execution plan after agents review each other's proposals.",
+      "slug": "builderio-plan-arbiter"
+    },
+    {
+      "repository": "BuilderIO/skills",
+      "branch": "main",
+      "skillName": "plow-ahead",
+      "path": "skills/plow-ahead/SKILL.md",
+      "url": "https://github.com/BuilderIO/skills/blob/main/skills/plow-ahead/SKILL.md",
+      "description": ">-",
+      "slug": "builderio-plow-ahead"
+    },
+    {
+      "repository": "BuilderIO/skills",
+      "branch": "main",
+      "skillName": "quick-recap",
+      "path": "skills/quick-recap/SKILL.md",
+      "url": "https://github.com/BuilderIO/skills/blob/main/skills/quick-recap/SKILL.md",
+      "description": "Use when adding or following the red/yellow/green final status block convention for agent responses, especially by installing managed AGENTS.md or CLAUDE.md instructions.",
+      "slug": "builderio-quick-recap"
+    },
+    {
+      "repository": "BuilderIO/skills",
+      "branch": "main",
+      "skillName": "read-the-damn-docs",
+      "path": "skills/read-the-damn-docs/SKILL.md",
+      "url": "https://github.com/BuilderIO/skills/blob/main/skills/read-the-damn-docs/SKILL.md",
+      "description": ">-",
+      "slug": "builderio-read-the-damn-docs"
+    },
+    {
+      "repository": "BuilderIO/skills",
+      "branch": "main",
+      "skillName": "stay-within-limits",
+      "path": "skills/stay-within-limits/SKILL.md",
+      "url": "https://github.com/BuilderIO/skills/blob/main/skills/stay-within-limits/SKILL.md",
+      "description": "Use when long-running or parallel agent work must respect 5-hour and weekly usage limits by checking usage between waves, pausing near the cap, and resuming only when the window is clear.",
+      "slug": "builderio-stay-within-limits"
+    },
+    {
+      "repository": "BuilderIO/skills",
+      "branch": "main",
+      "skillName": "visual-plan",
+      "path": "skills/visual-plan/SKILL.md",
+      "url": "https://github.com/BuilderIO/skills/blob/main/skills/visual-plan/SKILL.md",
+      "description": ">-",
+      "slug": "builderio-visual-plan"
+    },
+    {
+      "repository": "BuilderIO/skills",
+      "branch": "main",
+      "skillName": "visual-recap",
+      "path": "skills/visual-recap/SKILL.md",
+      "url": "https://github.com/BuilderIO/skills/blob/main/skills/visual-recap/SKILL.md",
+      "description": ">-",
+      "slug": "builderio-visual-recap"
+    }
+  ],
+  "itemCount": 11,
+  "publicSkillCount": 10,
+  "lastStatus": "scanned"
+}

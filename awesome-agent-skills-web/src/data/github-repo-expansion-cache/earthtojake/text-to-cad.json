@@ -1,0 +1,136 @@
+{
+  "repository": "earthtojake/text-to-cad",
+  "branch": "main",
+  "defaultBranch": "main",
+  "pushedAt": "2026-07-07T00:27:10Z",
+  "scannedAt": "2026-07-07T09:05:10.218Z",
+  "treeSha": "622c258fbdea64614056bfe33f3d3f183021a374",
+  "items": [
+    {
+      "repository": "earthtojake/text-to-cad",
+      "branch": "main",
+      "skillName": "text-to-cad",
+      "path": "README.md",
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "description": "A collection of agent skills for CAD, robotics and hardware design",
+      "slug": "earthtojake-text-to-cad-collection",
+      "isCollection": true,
+      "stars": 7753,
+      "skillPaths": [
+        "skills/bambu-labs/SKILL.md",
+        "skills/cad-viewer/SKILL.md",
+        "skills/cad/SKILL.md",
+        "skills/dxf/SKILL.md",
+        "skills/gcode/SKILL.md",
+        "skills/implicit-cad/SKILL.md",
+        "skills/sdf/SKILL.md",
+        "skills/sendcutsend/SKILL.md",
+        "skills/srdf/SKILL.md",
+        "skills/step-parts/SKILL.md",
+        "skills/urdf/SKILL.md"
+      ]
+    },
+    {
+      "repository": "earthtojake/text-to-cad",
+      "branch": "main",
+      "skillName": "bambu-labs",
+      "path": "skills/bambu-labs/SKILL.md",
+      "url": "https://github.com/earthtojake/text-to-cad/blob/main/skills/bambu-labs/SKILL.md",
+      "description": "Dry-run, upload, and cautiously initiate local Bambu Lab print jobs from validated plain `.gcode`, using Bambu LAN FTPS/MQTT handoffs.",
+      "slug": "earthtojake-bambu-labs"
+    },
+    {
+      "repository": "earthtojake/text-to-cad",
+      "branch": "main",
+      "skillName": "cad-viewer",
+      "path": "skills/cad-viewer/SKILL.md",
+      "url": "https://github.com/earthtojake/text-to-cad/blob/main/skills/cad-viewer/SKILL.md",
+      "description": "Start or reuse CAD Viewer and return review links for explicit CAD, implicit CAD, robot-description, and G-code files. Use when visually reviewing `.step`, `.stp`, `.implicit.js`, `.implicit.mjs`, `.glb`, `.stl`, `.3mf`, `.gcode`, `.dxf`, `.urdf`, `.srdf`, or `.sdf` files, especially when handed off from CAD, implicit-cad, G-code, URDF, SRDF, or SDF generation skills.",
+      "slug": "earthtojake-cad-viewer"
+    },
+    {
+      "repository": "earthtojake/text-to-cad",
+      "branch": "main",
+      "skillName": "cad",
+      "path": "skills/cad/SKILL.md",
+      "url": "https://github.com/earthtojake/text-to-cad/blob/main/skills/cad/SKILL.md",
+      "description": "Create, modify, inspect, and validate STEP-first parametric CAD parts and assemblies. Use for natural-language CAD specs, reference images, 2D technical drawings, STEP/STP generation or direct inspection, Python CAD source, source-level joints, selector references, geometry facts, measurements, mating deltas, snapshots, and secondary STL/3MF/native GLB outputs from CAD geometry.",
+      "slug": "earthtojake-cad"
+    },
+    {
+      "repository": "earthtojake/text-to-cad",
+      "branch": "main",
+      "skillName": "dxf",
+      "path": "skills/dxf/SKILL.md",
+      "url": "https://github.com/earthtojake/text-to-cad/blob/main/skills/dxf/SKILL.md",
+      "description": "Generate, regenerate, and validate 2D DXF drawings from Python ezdxf sources. Use for DXF files, gen_dxf() sources, 2D profiles, outlines, templates, gaskets, panels, flat patterns, laser/plasma/waterjet cut layouts, and 2D drawing exports of CAD geometry.",
+      "slug": "earthtojake-dxf"
+    },
+    {
+      "repository": "earthtojake/text-to-cad",
+      "branch": "main",
+      "skillName": "gcode",
+      "path": "skills/gcode/SKILL.md",
+      "url": "https://github.com/earthtojake/text-to-cad/blob/main/skills/gcode/SKILL.md",
+      "description": "Generate, inspect, dry-run, and statically validate plain FDM `.gcode` from 3D mesh files by orchestrating real slicer CLIs. Use when Codex needs to slice `.stl`, `.obj`, unsliced `.3mf`, `.ply`, `.glb`, or `.gltf` into printer-profiled G-code, discover local slicer backends, inspect whether a mesh is slice-ready, or validate generated G-code before any printer-specific handoff.",
+      "slug": "earthtojake-gcode"
+    },
+    {
+      "repository": "earthtojake/text-to-cad",
+      "branch": "main",
+      "skillName": "implicit-cad",
+      "path": "skills/implicit-cad/SKILL.md",
+      "url": "https://github.com/earthtojake/text-to-cad/blob/main/skills/implicit-cad/SKILL.md",
+      "description": "Create, edit, render, and snapshot browser-native implicit CAD `.implicit.js` and `.implicit.mjs` files using GLSL signed-distance fields, shader primitives, smooth booleans, TPMS fields, and direct CAD Viewer raymarch rendering. Experimental.",
+      "slug": "earthtojake-implicit-cad"
+    },
+    {
+      "repository": "earthtojake/text-to-cad",
+      "branch": "main",
+      "skillName": "sdf",
+      "path": "skills/sdf/SKILL.md",
+      "url": "https://github.com/earthtojake/text-to-cad/blob/main/skills/sdf/SKILL.md",
+      "description": "SDFormat/SDF model and world generation, validation, and simulator handoff. Use for `.sdf` files, SDFormat XML, Python `gen_sdf()` sources, models, worlds, links, joints, poses, frames, inertials, visual/collision geometry, mesh URIs, sensors, lights, physics, plugins, includes, Gazebo, static SDF review, or simulator-specific metadata. Do not use for signed-distance-field geometry.",
+      "slug": "earthtojake-sdf"
+    },
+    {
+      "repository": "earthtojake/text-to-cad",
+      "branch": "main",
+      "skillName": "sendcutsend",
+      "path": "skills/sendcutsend/SKILL.md",
+      "url": "https://github.com/earthtojake/text-to-cad/blob/main/skills/sendcutsend/SKILL.md",
+      "description": "Review DXF and STEP/STP uploads for SendCutSend.com orders using its ordering guide, catalog, and specs. Use only for SendCutSend.com preflight reports covering upload readiness, selected material/SKU/thickness/service availability, and service-specific checks for laser cutting, CNC routing, bending, tapping, countersinking, hardware insertion, and finishing.",
+      "slug": "earthtojake-sendcutsend"
+    },
+    {
+      "repository": "earthtojake/text-to-cad",
+      "branch": "main",
+      "skillName": "srdf",
+      "path": "skills/srdf/SKILL.md",
+      "url": "https://github.com/earthtojake/text-to-cad/blob/main/skills/srdf/SKILL.md",
+      "description": "MoveIt2 SRDF generation, validation, and planning-semantics workflow. Use when creating, editing, regenerating, inspecting, or validating `.srdf` files, `gen_srdf()` sources, MoveIt planning groups, virtual joints, passive joints, end effectors, group states, disabled collisions, URDF-linked planning semantics, or SRDF handoff for live review. Use the URDF skill for robot structure, the SDF skill for simulator descriptions, and the cad-viewer skill for rendering, live review links, and optional MoveIt2 controls.",
+      "slug": "earthtojake-srdf"
+    },
+    {
+      "repository": "earthtojake/text-to-cad",
+      "branch": "main",
+      "skillName": "step-parts",
+      "path": "skills/step-parts/SKILL.md",
+      "url": "https://github.com/earthtojake/text-to-cad/blob/main/skills/step-parts/SKILL.md",
+      "description": "Find, evaluate, and download common purchasable CAD parts from step.parts, including named off-the-shelf actuators, servos, motors, electronics boards, connectors, screws, bolts, nuts, washers, bearings, standoffs, and other catalog components. Use when Codex needs to search the hosted step.parts catalog before creating simplified placeholder geometry, resolve fuzzy part names, standards, aliases, or dimensions, choose a matching part, fetch a canonical .step file, verify checksums, or use the step.parts API/OpenAPI/catalog endpoints for standard part discovery.",
+      "slug": "earthtojake-step-parts"
+    },
+    {
+      "repository": "earthtojake/text-to-cad",
+      "branch": "main",
+      "skillName": "urdf",
+      "path": "skills/urdf/SKILL.md",
+      "url": "https://github.com/earthtojake/text-to-cad/blob/main/skills/urdf/SKILL.md",
+      "description": "URDF robot description generation and default generation-time validation. Use when creating, editing, regenerating, inspecting, or debugging `.urdf` files, Python `gen_urdf()` sources, robot links, joints, limits, inertials, visual/collision geometry, mesh references, frame conventions, or generated robot-description artifacts. Use the SRDF skill for MoveIt2 semantic groups and IK/path-planning semantics; use the cad-viewer skill for local MoveIt2 server controls; use the CAD skill for STEP/STL/3MF/DXF/GLB outputs.",
+      "slug": "earthtojake-urdf"
+    }
+  ],
+  "itemCount": 12,
+  "publicSkillCount": 11,
+  "lastStatus": "scanned"
+}

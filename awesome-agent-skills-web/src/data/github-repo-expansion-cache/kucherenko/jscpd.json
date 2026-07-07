@@ -1,0 +1,45 @@
+{
+  "repository": "kucherenko/jscpd",
+  "branch": "master",
+  "defaultBranch": "master",
+  "pushedAt": "2026-07-06T03:03:32Z",
+  "scannedAt": "2026-07-07T09:05:22.497Z",
+  "treeSha": "0d4af2abb126d23eb2bd33a8065319eaae165651",
+  "items": [
+    {
+      "repository": "kucherenko/jscpd",
+      "branch": "master",
+      "skillName": "jscpd",
+      "path": "README.md",
+      "url": "https://github.com/kucherenko/jscpd",
+      "description": "Copy/paste detector for programming source code, supports 223 formats. AI-ready with token-efficient reporter, skill and MCP server.",
+      "slug": "kucherenko-jscpd-collection",
+      "isCollection": true,
+      "stars": 5841,
+      "skillPaths": [
+        "skills/dry-refactoring/SKILL.md",
+        "skills/jscpd/SKILL.md"
+      ]
+    },
+    {
+      "repository": "kucherenko/jscpd",
+      "branch": "master",
+      "skillName": "dry-refactoring",
+      "path": "skills/dry-refactoring/SKILL.md",
+      "url": "https://github.com/kucherenko/jscpd/blob/master/skills/dry-refactoring/SKILL.md",
+      "description": "Guided workflow to eliminate copy-paste duplication detected by jscpd. Refactor clones using extract function, module, constant, or base class strategies.",
+      "slug": "kucherenko-dry-refactoring"
+    },
+    {
+      "repository": "kucherenko/jscpd",
+      "branch": "master",
+      "skillName": "jscpd",
+      "path": "skills/jscpd/SKILL.md",
+      "url": "https://github.com/kucherenko/jscpd/blob/master/skills/jscpd/SKILL.md",
+      "description": "Copy-paste detector for 220+ languages. Detect duplicated code and measure duplication percentages.",
+      "slug": "kucherenko-jscpd"
+    }
+  ],
+  "itemCount": 3,
+  "lastStatus": "reused-unchanged"
+}

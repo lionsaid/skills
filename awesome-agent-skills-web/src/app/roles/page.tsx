@@ -1,10 +1,10 @@
-import Link from "next/link";
 import type { Metadata } from "next";
+import { DelayedRouteLink, DelayedSkillLink } from "@/components/delayed-skill-link";
 import { GlareCard } from "@/components/glare-card";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { getRolePrioritySkills, getRoles, getSkillBySlug, getSkillsByJob, getStarterSkillsForRole } from "@/lib/skills";
-import { getCopy, getSkillDetailPath, prefixLocalePath, type Locale } from "@/lib/i18n";
+import { getCopy, prefixLocalePath, type Locale } from "@/lib/i18n";
 import { getRequestLocale } from "@/lib/request-locale";
 import { buildMetadata, getLocalizedDescription } from "@/lib/seo";
 import type { Skill } from "@/lib/skills";
@@ -83,18 +83,18 @@ export async function RolesPageContent({ locale }: PageProps) {
               {copy.roles.subtitle}
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
-              <Link
+              <DelayedRouteLink
                 className="action-primary inline-flex min-w-[10rem] items-center justify-center whitespace-nowrap rounded-full border px-5 py-3 text-sm font-semibold transition"
                 href={prefixLocalePath("/skills", locale)}
               >
                 {copy.roles.openCatalog}
-              </Link>
-              <Link
+              </DelayedRouteLink>
+              <DelayedRouteLink
                 className="action-secondary inline-flex min-w-[10rem] items-center justify-center whitespace-nowrap rounded-full border px-5 py-3 text-sm font-semibold transition"
                 href={prefixLocalePath("/skills?kind=official", locale)}
               >
                 {copy.roles.officialOnly}
-              </Link>
+              </DelayedRouteLink>
             </div>
           </div>
         </div>
@@ -108,12 +108,12 @@ export async function RolesPageContent({ locale }: PageProps) {
               {locale === "zh-CN" ? "先看看不同角色最常用的 skill。" : "Start with the skills people in each role use most."}
             </h2>
           </div>
-          <Link
-            className="inline-flex min-w-[9.5rem] items-center justify-center whitespace-nowrap rounded-full border border-[var(--foreground)] bg-[var(--foreground)] px-4 py-2 text-sm font-semibold text-[var(--background)] shadow-[0_8px_18px_rgba(0,0,0,0.2)] transition hover:opacity-95"
+          <DelayedRouteLink
+            className="inline-flex min-w-[9.5rem] items-center justify-center whitespace-nowrap rounded-full border border-[var(--foreground)] bg-[var(--foreground)] px-4 py-2 text-sm font-semibold !text-[var(--background)] shadow-[0_8px_18px_rgba(0,0,0,0.2)] transition hover:opacity-95"
             href={prefixLocalePath("/skills", locale)}
           >
             {copy.roles.viewAllSkills}
-          </Link>
+          </DelayedRouteLink>
         </div>
 
         <div className="mt-8 grid gap-6 xl:grid-cols-2">
@@ -143,23 +143,23 @@ export async function RolesPageContent({ locale }: PageProps) {
 
                 <div className="mt-6 flex flex-wrap gap-2">
                   {role.jobs.map((job) => (
-                    <Link
+                    <DelayedRouteLink
                       key={job}
                       className="action-chip inline-flex items-center rounded-full border px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.12em] transition"
                       href={prefixLocalePath(`/skills?persona=${role.slug}&job=${job}`, locale)}
                     >
                       {copy.taskLabels[job] ?? job}
-                    </Link>
+                    </DelayedRouteLink>
                   ))}
                 </div>
 
                 <div className="mt-6 overflow-hidden rounded-[1.45rem] border border-[var(--panel-outline)] bg-[var(--surface-strong)]">
                   {starters.map((skill) => (
-                    <Link
+                    <DelayedSkillLink
                       key={skill.slug}
                       className="role-skill-spotlight group flex min-h-[5.75rem] items-center justify-between gap-4 border-b border-[var(--panel-outline)] px-5 py-4 transition last:border-b-0"
-                      href={prefixLocalePath(getSkillDetailPath(skill.slug, locale), locale)}
-                      prefetch={false}
+                      locale={locale}
+                      skillSlug={skill.slug}
                     >
                       <div className="min-w-0">
                         <p className="eyebrow surface-muted">{skill.publisher}</p>
@@ -170,23 +170,23 @@ export async function RolesPageContent({ locale }: PageProps) {
                       <span className="action-chip shrink-0 inline-flex items-center rounded-full border px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.12em] transition group-hover:translate-x-0.5">
                         {locale === "zh-CN" ? "查看" : "Open"}
                       </span>
-                    </Link>
+                    </DelayedSkillLink>
                   ))}
                 </div>
 
                 <div className="mt-6 flex flex-wrap gap-3">
-                  <Link
+                  <DelayedRouteLink
                     className="action-primary inline-flex min-w-[9.5rem] items-center justify-center whitespace-nowrap rounded-full border px-5 py-3 text-sm font-semibold transition"
                     href={prefixLocalePath(`/roles/${role.slug}`, locale)}
                   >
                     {locale === "zh-CN" ? `查看 ${roleLabel}推荐` : `View ${roleLabel}`}
-                  </Link>
-                  <Link
-                    className="action-secondary inline-flex min-w-[9.5rem] items-center justify-center whitespace-nowrap rounded-full border px-5 py-3 text-sm font-semibold transition"
+                  </DelayedRouteLink>
+                  <DelayedRouteLink
+                    className="action-secondary inline-flex min-w-[9.5rem] items-center justify-center whitespace-nowrap rounded-full border px-5 py-3 text-sm font-semibold !text-[var(--action-solid-fg)] transition"
                     href={prefixLocalePath(`/skills?persona=${role.slug}`, locale)}
                   >
                     {copy.roles.viewAllSkills}
-                  </Link>
+                  </DelayedRouteLink>
                 </div>
               </section>
             );
@@ -211,7 +211,7 @@ export async function RolesPageContent({ locale }: PageProps) {
               })),
             ).slice(0, 8).map((item) => (
               <GlareCard key={item.key} className="glare-card-flat rounded-[1.5rem]">
-                <Link
+                <DelayedRouteLink
                   className="block bg-[var(--panel-soft)] p-5 transition hover:bg-[var(--panel-soft-hover)]"
                   href={prefixLocalePath(`/skills?persona=${item.roleSlug}&job=${item.job}`, locale)}
                 >
@@ -222,7 +222,7 @@ export async function RolesPageContent({ locale }: PageProps) {
                       ? `${item.count} 个相关 skill`
                       : `${item.count} related skills`}
                   </p>
-                </Link>
+                </DelayedRouteLink>
               </GlareCard>
             ))}
           </div>

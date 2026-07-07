@@ -1,0 +1,115 @@
+{
+  "repository": "vercel-labs/agent-skills",
+  "branch": "main",
+  "defaultBranch": "main",
+  "pushedAt": "2026-06-10T21:21:47Z",
+  "scannedAt": "2026-07-07T09:04:18.864Z",
+  "treeSha": "f8a72b9603728bb92a217a879b7e62e43ad76c81",
+  "items": [
+    {
+      "repository": "vercel-labs/agent-skills",
+      "branch": "main",
+      "skillName": "agent-skills",
+      "path": "README.md",
+      "url": "https://github.com/vercel-labs/agent-skills",
+      "description": "Vercel's official collection of agent skills",
+      "slug": "vercel-labs-agent-skills-collection",
+      "isCollection": true,
+      "stars": null,
+      "skillPaths": [
+        "skills/composition-patterns/SKILL.md",
+        "skills/deploy-to-vercel/SKILL.md",
+        "skills/react-best-practices/SKILL.md",
+        "skills/react-native-skills/SKILL.md",
+        "skills/react-view-transitions/SKILL.md",
+        "skills/vercel-cli-with-tokens/SKILL.md",
+        "skills/vercel-optimize/SKILL.md",
+        "skills/web-design-guidelines/SKILL.md",
+        "skills/writing-guidelines/SKILL.md"
+      ]
+    },
+    {
+      "repository": "vercel-labs/agent-skills",
+      "branch": "main",
+      "skillName": "composition-patterns",
+      "path": "skills/composition-patterns/SKILL.md",
+      "url": "https://github.com/vercel-labs/agent-skills/blob/main/skills/composition-patterns/SKILL.md",
+      "description": "React composition patterns that scale. Use when refactoring components with",
+      "slug": "vercel-labs-composition-patterns"
+    },
+    {
+      "repository": "vercel-labs/agent-skills",
+      "branch": "main",
+      "skillName": "deploy-to-vercel",
+      "path": "skills/deploy-to-vercel/SKILL.md",
+      "url": "https://github.com/vercel-labs/agent-skills/blob/main/skills/deploy-to-vercel/SKILL.md",
+      "description": "Deploy applications and websites to Vercel. Use when the user requests deployment actions like \"deploy my app\", \"deploy and give me the link\", \"push this live\", or \"create a preview deployment\".",
+      "slug": "vercel-labs-deploy-to-vercel"
+    },
+    {
+      "repository": "vercel-labs/agent-skills",
+      "branch": "main",
+      "skillName": "react-best-practices",
+      "path": "skills/react-best-practices/SKILL.md",
+      "url": "https://github.com/vercel-labs/agent-skills/blob/main/skills/react-best-practices/SKILL.md",
+      "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.",
+      "slug": "vercel-labs-react-best-practices"
+    },
+    {
+      "repository": "vercel-labs/agent-skills",
+      "branch": "main",
+      "skillName": "react-native-skills",
+      "path": "skills/react-native-skills/SKILL.md",
+      "url": "https://github.com/vercel-labs/agent-skills/blob/main/skills/react-native-skills/SKILL.md",
+      "description": "React Native and Expo best practices for building performant mobile apps. Use",
+      "slug": "vercel-labs-react-native-skills"
+    },
+    {
+      "repository": "vercel-labs/agent-skills",
+      "branch": "main",
+      "skillName": "react-view-transitions",
+      "path": "skills/react-view-transitions/SKILL.md",
+      "url": "https://github.com/vercel-labs/agent-skills/blob/main/skills/react-view-transitions/SKILL.md",
+      "description": "Guide for implementing smooth, native-feeling animations using React's View Transition API (`<ViewTransition>` component, `addTransitionType`, and CSS view transition pseudo-elements). Use this skill whenever the user wants to add page transitions, animate route changes, create shared element animations, animate enter/exit of components, animate list reorder, implement directional (forward/back) navigation animations, or integrate view transitions in Next.js. Also use when the user mentions view transitions, `startViewTransition`, `ViewTransition`, transition types, or asks about animating between UI states in React without third-party animation libraries.",
+      "slug": "vercel-labs-react-view-transitions"
+    },
+    {
+      "repository": "vercel-labs/agent-skills",
+      "branch": "main",
+      "skillName": "vercel-cli-with-tokens",
+      "path": "skills/vercel-cli-with-tokens/SKILL.md",
+      "url": "https://github.com/vercel-labs/agent-skills/blob/main/skills/vercel-cli-with-tokens/SKILL.md",
+      "description": "Deploy and manage projects on Vercel using token-based authentication. Use when working with Vercel CLI using access tokens rather than interactive login — e.g. \"deploy to vercel\", \"set up vercel\", \"add environment variables to vercel\".",
+      "slug": "vercel-labs-vercel-cli-with-tokens"
+    },
+    {
+      "repository": "vercel-labs/agent-skills",
+      "branch": "main",
+      "skillName": "vercel-optimize",
+      "path": "skills/vercel-optimize/SKILL.md",
+      "url": "https://github.com/vercel-labs/agent-skills/blob/main/skills/vercel-optimize/SKILL.md",
+      "description": "Use for Vercel cost and performance optimization on deployed projects, especially Next.js, SvelteKit, Nuxt, and limited Astro apps. Collect Vercel metrics, usage, project config, and code scan results first; investigate only metric-backed candidates; produce ranked recommendations grounded in verified files and version-aware Vercel/framework docs. Trigger for Vercel bill reduction, slow or expensive routes, caching opportunities, Function Invocations, Build Minutes, Fast Data Transfer, Core Web Vitals, Bot Management, Fluid compute, or cost breakdown requests.",
+      "slug": "vercel-labs-vercel-optimize"
+    },
+    {
+      "repository": "vercel-labs/agent-skills",
+      "branch": "main",
+      "skillName": "web-design-guidelines",
+      "path": "skills/web-design-guidelines/SKILL.md",
+      "url": "https://github.com/vercel-labs/agent-skills/blob/main/skills/web-design-guidelines/SKILL.md",
+      "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\".",
+      "slug": "vercel-labs-web-design-guidelines"
+    },
+    {
+      "repository": "vercel-labs/agent-skills",
+      "branch": "main",
+      "skillName": "writing-guidelines",
+      "path": "skills/writing-guidelines/SKILL.md",
+      "url": "https://github.com/vercel-labs/agent-skills/blob/main/skills/writing-guidelines/SKILL.md",
+      "description": "Review docs/prose for Writing Guidelines compliance. Use when asked to \"review my docs\", \"check writing style\", \"audit prose\", \"review docs voice and tone\", or \"check this page against the writing handbook\".",
+      "slug": "vercel-labs-writing-guidelines"
+    }
+  ],
+  "itemCount": 10,
+  "lastStatus": "reused-unchanged"
+}

@@ -1,0 +1,35 @@
+{
+  "repository": "wuyoscar/GPT-Image2-Skill",
+  "branch": "main",
+  "defaultBranch": "main",
+  "pushedAt": "2026-07-01T07:31:37Z",
+  "scannedAt": "2026-07-07T09:06:04.886Z",
+  "treeSha": "e48b023f38769b6377fe38f1de97197d5e12e6d4",
+  "items": [
+    {
+      "repository": "wuyoscar/GPT-Image2-Skill",
+      "branch": "main",
+      "skillName": "GPT-Image2-Skill",
+      "path": "README.md",
+      "url": "https://github.com/wuyoscar/GPT-Image2-Skill",
+      "description": "GPT Image 2 prompt gallery, image prompt library, agentic skill, and CLI for OpenAI image generation/editing",
+      "slug": "wuyoscar-gpt-image2-skill-collection",
+      "isCollection": true,
+      "stars": 3423,
+      "skillPaths": [
+        "skills/gpt-image/SKILL.md"
+      ]
+    },
+    {
+      "repository": "wuyoscar/GPT-Image2-Skill",
+      "branch": "main",
+      "skillName": "gpt-image",
+      "path": "skills/gpt-image/SKILL.md",
+      "url": "https://github.com/wuyoscar/GPT-Image2-Skill/blob/main/skills/gpt-image/SKILL.md",
+      "description": "Use this skill whenever a user asks to generate, create, draw, render, or edit images with GPT Image 2 / gpt-image-2, text-to-image, reference-image editing, inpainting, posters, typography, Chinese text, UI mockups, diagrams, or gallery prompts. Analyze the user's prompt, search the bundled Reference Gallery/craft files for matching design patterns, confer on direction when useful, then call the packaged `gpt-image` CLI or bundled `scripts/generate.py`. Do not write new image-generation code unless explicitly asked to modify this repo.",
+      "slug": "wuyoscar-gpt-image"
+    }
+  ],
+  "itemCount": 2,
+  "lastStatus": "reused-unchanged"
+}

@@ -1,0 +1,45 @@
+{
+  "repository": "supabase/agent-skills",
+  "branch": "main",
+  "defaultBranch": "main",
+  "pushedAt": "2026-07-03T08:44:28Z",
+  "scannedAt": "2026-07-07T09:07:02.216Z",
+  "treeSha": "1356046015476711a769601079262b5635929427",
+  "items": [
+    {
+      "repository": "supabase/agent-skills",
+      "branch": "main",
+      "skillName": "agent-skills",
+      "path": "README.md",
+      "url": "https://github.com/supabase/agent-skills",
+      "description": "Agent Skills to help developers using AI agents with Supabase",
+      "slug": "supabase-agent-skills-collection",
+      "isCollection": true,
+      "stars": 2308,
+      "skillPaths": [
+        "skills/supabase-postgres-best-practices/SKILL.md",
+        "skills/supabase/SKILL.md"
+      ]
+    },
+    {
+      "repository": "supabase/agent-skills",
+      "branch": "main",
+      "skillName": "supabase-postgres-best-practices",
+      "path": "skills/supabase-postgres-best-practices/SKILL.md",
+      "url": "https://github.com/supabase/agent-skills/blob/main/skills/supabase-postgres-best-practices/SKILL.md",
+      "description": "Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimizing Postgres queries, schema designs, or database configurations.",
+      "slug": "supabase-supabase-postgres-best-practices"
+    },
+    {
+      "repository": "supabase/agent-skills",
+      "branch": "main",
+      "skillName": "supabase",
+      "path": "skills/supabase/SKILL.md",
+      "url": "https://github.com/supabase/agent-skills/blob/main/skills/supabase/SKILL.md",
+      "description": "Use when doing ANY task involving Supabase. Triggers: Supabase products (Database, Auth, Edge Functions, Realtime, Storage, Vectors, Cron, Queues); client libraries and SSR integrations (supabase-js, @supabase/ssr) in Next.js, React, SvelteKit, Astro, Remix; auth issues (login, logout, sessions, JWT, cookies, getSession, getUser, getClaims, RLS); Supabase CLI or MCP server; schema changes, migrations, security audits, Postgres extensions (pg_graphql, pg_cron, pg_vector).",
+      "slug": "supabase-supabase"
+    }
+  ],
+  "itemCount": 3,
+  "lastStatus": "reused-unchanged"
+}

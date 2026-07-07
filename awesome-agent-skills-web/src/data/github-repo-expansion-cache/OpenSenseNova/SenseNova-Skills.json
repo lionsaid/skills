@@ -1,0 +1,305 @@
+{
+  "repository": "OpenSenseNova/SenseNova-Skills",
+  "branch": "main",
+  "defaultBranch": "main",
+  "pushedAt": "2026-07-01T07:35:14Z",
+  "scannedAt": "2026-07-07T09:05:42.009Z",
+  "treeSha": "c44b2616e274dbaac88d64b34c6c282233cd8293",
+  "items": [
+    {
+      "repository": "OpenSenseNova/SenseNova-Skills",
+      "branch": "main",
+      "skillName": "SenseNova-Skills",
+      "path": "README.md",
+      "url": "https://github.com/OpenSenseNova/SenseNova-Skills",
+      "description": "Modular SenseNova skills for building AI-powered office assistants and productivity workflows",
+      "slug": "opensensenova-sensenova-skills-collection",
+      "isCollection": true,
+      "stars": 4633,
+      "skillPaths": [
+        "skills/sn-da-excel-workflow/SKILL.md",
+        "skills/sn-da-image-caption/SKILL.md",
+        "skills/sn-da-large-file-analysis/SKILL.md",
+        "skills/sn-da-non-spreadsheet-analysis/SKILL.md",
+        "skills/sn-deep-research/SKILL.md",
+        "skills/sn-image-base/SKILL.md",
+        "skills/sn-image-doctor/SKILL.md",
+        "skills/sn-image-imitate/SKILL.md",
+        "skills/sn-image-resume/SKILL.md",
+        "skills/sn-infographic/SKILL.md",
+        "skills/sn-md-to-html-report/SKILL.md",
+        "skills/sn-ppt-creative/SKILL.md",
+        "skills/sn-ppt-doctor/SKILL.md",
+        "skills/sn-ppt-entry/SKILL.md",
+        "skills/sn-ppt-standard/SKILL.md",
+        "skills/sn-prepare-citations/SKILL.md",
+        "skills/sn-report-format-discovery/SKILL.md",
+        "skills/sn-research-report/SKILL.md",
+        "skills/sn-search-academic/SKILL.md",
+        "skills/sn-search-code/SKILL.md",
+        "skills/sn-search-finance/SKILL.md",
+        "skills/sn-search-image/SKILL.md",
+        "skills/sn-search-market-cn/SKILL.md",
+        "skills/sn-search-social-cn/SKILL.md",
+        "skills/sn-search-social-en/SKILL.md",
+        "skills/sn-search-social-media/SKILL.md",
+        "skills/sn-search-year-report/SKILL.md",
+        "skills/sn-update/SKILL.md"
+      ]
+    },
+    {
+      "repository": "OpenSenseNova/SenseNova-Skills",
+      "branch": "main",
+      "skillName": "sn-da-excel-workflow",
+      "path": "skills/sn-da-excel-workflow/SKILL.md",
+      "url": "https://github.com/OpenSenseNova/SenseNova-Skills/blob/main/skills/sn-da-excel-workflow/SKILL.md",
+      "description": "Excel 数据分析多步编排器。覆盖：(1) 读取多 Sheet Excel 文件并统计行数，(2) 大文件检测（≥10k 行自动 Parquet 优化），(3) 数据清洗（缺失值、文本标准化、无效字符），(4) 条件筛选与分类提取，(5) 跨 Sheet 统计聚合，(6) 导出 Excel/CSV 并提供下载链接。覆盖从数据读取到报告生成全流程，按步骤编排 capability 子 skill。**遇到以下任一情况就主动使用本 skill，不要自行写几行 pandas 就回答**：①用户出现触发词：Excel 分析 / 表格分析 / 数据分析 / 数据清洗 / 数据统计 / 数据筛选 / 数据可视化 / 数据导出 / 汇总统计 / 透视表 / 分组统计 / 交叉分析 / 趋势分析 / 对比分析 / 异常值检测 / 去重 / 缺失值处理 / Excel 报告 / 生成报表 / analyze Excel / data analysis / data cleaning / pivot table；②用户上传或指定了 .xlsx / .xls / .csv 文件并要求分析、清洗、统计或可视化；③任务涉及多 Sheet 读取、条件筛选、分类汇总、图表生成中的任意一项；④用户要求导出带格式的 Excel 报告或下载链接。仅不用于：不涉及表格数据的纯文本处理、图片分析（使用 sn-da-image-caption）、单个公式计算的简单问答。",
+      "slug": "opensensenova-sn-da-excel-workflow"
+    },
+    {
+      "repository": "OpenSenseNova/SenseNova-Skills",
+      "branch": "main",
+      "skillName": "sn-da-image-caption",
+      "path": "skills/sn-da-image-caption/SKILL.md",
+      "url": "https://github.com/OpenSenseNova/SenseNova-Skills/blob/main/skills/sn-da-image-caption/SKILL.md",
+      "description": "图片理解与数据提取 skill。当图片文件（.png/.jpg/.jpeg/.gif/.webp/.bmp）是主要输入且用户需要理解、提取数据或分析图片内容时使用。提供预配置的 caption 脚本（scripts/caption.py），通过 vision 模型将图片转为文本描述，无需额外配置 API Key。覆盖：(1) 通过 scripts/caption.py 对图表/表格/截图/流程图进行 caption，(2) 将 caption 文本解析为结构化 DataFrame，(3) 基于提取数据重新生成可视化图表，(4) 导出为 Excel/CSV。**遇到以下任一情况就主动使用本 skill，不要自行猜测图片内容**：①用户出现触发词：图片分析 / 图表提取 / 表格识别 / OCR / 图片描述 / 截图分析 / 图表数据 / 提取图片中的数据 / 图片转表格 / 识别图片 / image caption / extract data from image / chart analysis / table OCR；②用户上传或指定了图片文件（.png / .jpg / .jpeg / .gif / .webp / .bmp）并要求理解、提取数据或分析内容；③任务需要从图表截图、表格截图、UI 截图、流程图中提取结构化信息；④用户要求将图片中的数据转为 Excel/CSV 或重新生成可视化图表。仅不用于：图片编辑（裁剪、滤镜、缩放）、图片生成、不含数据的风景/人物照片描述。",
+      "slug": "opensensenova-sn-da-image-caption"
+    },
+    {
+      "repository": "OpenSenseNova/SenseNova-Skills",
+      "branch": "main",
+      "skillName": "sn-da-large-file-analysis",
+      "path": "skills/sn-da-large-file-analysis/SKILL.md",
+      "url": "https://github.com/OpenSenseNova/SenseNova-Skills/blob/main/skills/sn-da-large-file-analysis/SKILL.md",
+      "description": "万行以上 Excel 数据集的高性能分析引擎。提供 openpyxl read_only 流式读取（iter_rows 支持 10 万行以上）、Parquet 转换加速、内存优化、分块处理和大文件写入模式。**遇到以下任一情况就主动使用本 skill**：①数据行数 ≥ 10k（由 sn-da-excel-workflow 的行数评估步骤触发）；②用户出现触发词：大文件 / 大数据量 / 性能优化 / 内存不足 / OOM / 百万行 / 十万行 / 流式读取 / Parquet / 分块处理 / large file / big data / streaming read / chunked processing；③直接使用 pd.read_excel() 导致超时或内存溢出；④用户明确要求对大规模数据集进行高性能处理。仅不用于：小于 10k 行的常规 Excel 分析（使用 sn-da-excel-workflow 即可）。",
+      "slug": "opensensenova-sn-da-large-file-analysis"
+    },
+    {
+      "repository": "OpenSenseNova/SenseNova-Skills",
+      "branch": "main",
+      "skillName": "sn-da-non-spreadsheet-analysis",
+      "path": "skills/sn-da-non-spreadsheet-analysis/SKILL.md",
+      "url": "https://github.com/OpenSenseNova/SenseNova-Skills/blob/main/skills/sn-da-non-spreadsheet-analysis/SKILL.md",
+      "description": "Word / PDF / PPT 文档解析与数据分析引擎。覆盖三类文件格式的全量提取、表格数值化、图表理解与跨文档汇总分析。**遇到以下任一情况就主动使用本 skill**：①用户上传或指定了 .docx / .doc / .pdf / .pptx / .ppt 文件并要求分析、提取或统计其中内容；②用户出现触发词：Word分析 / PDF解析 / PPT提取 / 文档分析 / 报告解析 / 幻灯片分析 / 发票提取 / 合同分析 / 文档统计 / 错别字 / 语病 / 字号检查 / 简历分析 / 多文档对比；③任务涉及从文档中提取表格、数值、图表、格式（颜色/高亮/字号）、组织架构、时间线等结构化信息。仅不用于：Excel/CSV 数据分析（使用 sn-da-excel-workflow）、纯图片分析（使用 sn-da-image-caption）。",
+      "slug": "opensensenova-sn-da-non-spreadsheet-analysis"
+    },
+    {
+      "repository": "OpenSenseNova/SenseNova-Skills",
+      "branch": "main",
+      "skillName": "sn-deep-research",
+      "path": "skills/sn-deep-research/SKILL.md",
+      "url": "https://github.com/OpenSenseNova/SenseNova-Skills/blob/main/skills/sn-deep-research/SKILL.md",
+      "description": "深度调研编排器，覆盖 规划→分维度取证→综合→成稿（report.md）全流程，产物落盘到 report_dir，支持断点续跑；启动前必须用一次极小的通用 web_search 探测确认当前会话搜索能力可用，探测失败或无法确认时停止并提示用户配置。**遇到以下任一情况就主动使用本 skill，不要自行搜几条就回答**：①用户出现触发词：深度研究 / 深度调研 / 深入研究 / 全面研究 / 系统研究 / 调研 / 调查 / 尽调 / 行业研究 / 市场研究 / 竞品分析 / 政策研究 / 技术研究 / 趋势研究 / 事实核查 / 写一份研究报告 / 调研报告 / 深度报告 / research / deep research；②请求需要跨多来源取证、多维度对比、交叉验证才能给出可靠结论；③用户要求产出报告、白皮书、行业分析或尽调文档；④话题涉及最新政策/市场/产品/价格/法规，需要系统核查。模糊或宽泛的\"研究/了解一下 X\"也优先触发。仅不用于：单点事实问答（\"X 是什么\"）、一句话摘要、已给定单一来源的整理、纯文字润色改写。",
+      "slug": "opensensenova-sn-deep-research"
+    },
+    {
+      "repository": "OpenSenseNova/SenseNova-Skills",
+      "branch": "main",
+      "skillName": "sn-image-base",
+      "path": "skills/sn-image-base/SKILL.md",
+      "url": "https://github.com/OpenSenseNova/SenseNova-Skills/blob/main/skills/sn-image-base/SKILL.md",
+      "description": "|",
+      "slug": "opensensenova-sn-image-base"
+    },
+    {
+      "repository": "OpenSenseNova/SenseNova-Skills",
+      "branch": "main",
+      "skillName": "sn-image-doctor",
+      "path": "skills/sn-image-doctor/SKILL.md",
+      "url": "https://github.com/OpenSenseNova/SenseNova-Skills/blob/main/skills/sn-image-doctor/SKILL.md",
+      "description": "|",
+      "slug": "opensensenova-sn-image-doctor"
+    },
+    {
+      "repository": "OpenSenseNova/SenseNova-Skills",
+      "branch": "main",
+      "skillName": "sn-image-imitate",
+      "path": "skills/sn-image-imitate/SKILL.md",
+      "url": "https://github.com/OpenSenseNova/SenseNova-Skills/blob/main/skills/sn-image-imitate/SKILL.md",
+      "description": "|",
+      "slug": "opensensenova-sn-image-imitate"
+    },
+    {
+      "repository": "OpenSenseNova/SenseNova-Skills",
+      "branch": "main",
+      "skillName": "sn-image-resume",
+      "path": "skills/sn-image-resume/SKILL.md",
+      "url": "https://github.com/OpenSenseNova/SenseNova-Skills/blob/main/skills/sn-image-resume/SKILL.md",
+      "description": "|",
+      "slug": "opensensenova-sn-image-resume"
+    },
+    {
+      "repository": "OpenSenseNova/SenseNova-Skills",
+      "branch": "main",
+      "skillName": "sn-infographic",
+      "path": "skills/sn-infographic/SKILL.md",
+      "url": "https://github.com/OpenSenseNova/SenseNova-Skills/blob/main/skills/sn-infographic/SKILL.md",
+      "description": "|",
+      "slug": "opensensenova-sn-infographic"
+    },
+    {
+      "repository": "OpenSenseNova/SenseNova-Skills",
+      "branch": "main",
+      "skillName": "sn-md-to-html-report",
+      "path": "skills/sn-md-to-html-report/SKILL.md",
+      "url": "https://github.com/OpenSenseNova/SenseNova-Skills/blob/main/skills/sn-md-to-html-report/SKILL.md",
+      "description": "将 Markdown 文档转换为美观、舒适、结构清晰、可直接打开的 HTML 长篇报告。适用于把 .md 文件转成 HTML、统一研究报告/行业报告/调研文档版式、生成可离线分享的单文件网页报告、嵌入或校验本地图片、修复 Markdown 表格分隔符导致的错列问题，或优化已有 HTML 报告的阅读留白、图片呈现、目录导航、表格响应式和打印样式。",
+      "slug": "opensensenova-sn-md-to-html-report"
+    },
+    {
+      "repository": "OpenSenseNova/SenseNova-Skills",
+      "branch": "main",
+      "skillName": "sn-ppt-creative",
+      "path": "skills/sn-ppt-creative/SKILL.md",
+      "url": "https://github.com/OpenSenseNova/SenseNova-Skills/blob/main/skills/sn-ppt-creative/SKILL.md",
+      "description": "|",
+      "slug": "opensensenova-sn-ppt-creative"
+    },
+    {
+      "repository": "OpenSenseNova/SenseNova-Skills",
+      "branch": "main",
+      "skillName": "sn-ppt-doctor",
+      "path": "skills/sn-ppt-doctor/SKILL.md",
+      "url": "https://github.com/OpenSenseNova/SenseNova-Skills/blob/main/skills/sn-ppt-doctor/SKILL.md",
+      "description": "|",
+      "slug": "opensensenova-sn-ppt-doctor"
+    },
+    {
+      "repository": "OpenSenseNova/SenseNova-Skills",
+      "branch": "main",
+      "skillName": "sn-ppt-entry",
+      "path": "skills/sn-ppt-entry/SKILL.md",
+      "url": "https://github.com/OpenSenseNova/SenseNova-Skills/blob/main/skills/sn-ppt-entry/SKILL.md",
+      "description": "|",
+      "slug": "opensensenova-sn-ppt-entry"
+    },
+    {
+      "repository": "OpenSenseNova/SenseNova-Skills",
+      "branch": "main",
+      "skillName": "sn-ppt-standard",
+      "path": "skills/sn-ppt-standard/SKILL.md",
+      "url": "https://github.com/OpenSenseNova/SenseNova-Skills/blob/main/skills/sn-ppt-standard/SKILL.md",
+      "description": "|",
+      "slug": "opensensenova-sn-ppt-standard"
+    },
+    {
+      "repository": "OpenSenseNova/SenseNova-Skills",
+      "branch": "main",
+      "skillName": "sn-prepare-citations",
+      "path": "skills/sn-prepare-citations/SKILL.md",
+      "url": "https://github.com/OpenSenseNova/SenseNova-Skills/blob/main/skills/sn-prepare-citations/SKILL.md",
+      "description": "用于终稿完成且脚注需要后处理时：去重 [^key] 引用，转换为 [N] 编号，并追加参考文献。",
+      "slug": "opensensenova-sn-prepare-citations"
+    },
+    {
+      "repository": "OpenSenseNova/SenseNova-Skills",
+      "branch": "main",
+      "skillName": "sn-report-format-discovery",
+      "path": "skills/sn-report-format-discovery/SKILL.md",
+      "url": "https://github.com/OpenSenseNova/SenseNova-Skills/blob/main/skills/sn-report-format-discovery/SKILL.md",
+      "description": "发现特定报告类型的结构规范与写作约束；当需要判断“这类报告应该长什么样”、为报告生成章节结构/必备元素/风格约束，或为 deep research 的 `report_shape` 提供依据时使用。适用于行业/市场/竞品分析、技术选型、政策/法律/公共事务、学术/医学综述、尽职调查、事件追踪与事实核查等场景，也可单独用于报告格式研究。",
+      "slug": "opensensenova-sn-report-format-discovery"
+    },
+    {
+      "repository": "OpenSenseNova/SenseNova-Skills",
+      "branch": "main",
+      "skillName": "sn-research-report",
+      "path": "skills/sn-research-report/SKILL.md",
+      "url": "https://github.com/OpenSenseNova/SenseNova-Skills/blob/main/skills/sn-research-report/SKILL.md",
+      "description": "基于已有研究材料或草稿生成/修改最终 Markdown 研究报告的成稿 skill。遇到以下情况使用：①已有 deep research 产物 `synthesis.md`、`plan.json`、`sub_reports/*.md`，需要写成最终 `report.md`；②已有报告、草稿或文稿路径，需要重写、改写、润色、压缩、扩写、重组结构、增强摘要或补充表格/图示；③需要在报告成稿阶段主动规划并插入 Markdown 表格、Mermaid 图、AI 概念配图等视觉元素。仅用于终稿生成和文稿定向编辑；不用于从零调研、研究规划、联网取证、分维度研究或生成 `synthesis.md`。如果用户只是要求“深度研究/调研/写一份研究报告”且没有现成材料，应优先使用 `sn-deep-research`。",
+      "slug": "opensensenova-sn-research-report"
+    },
+    {
+      "repository": "OpenSenseNova/SenseNova-Skills",
+      "branch": "main",
+      "skillName": "sn-search-academic",
+      "path": "skills/sn-search-academic/SKILL.md",
+      "url": "https://github.com/OpenSenseNova/SenseNova-Skills/blob/main/skills/sn-search-academic/SKILL.md",
+      "description": "搜索学术论文和百科知识：ArXiv 预印本、Semantic Scholar（含引用数）、PubMed 生医文献、Wikipedia 百科。支持按章节读取 ArXiv HTML 全文和 PMC 开放获取全文，适合学术调研和深度阅读。",
+      "slug": "opensensenova-sn-search-academic"
+    },
+    {
+      "repository": "OpenSenseNova/SenseNova-Skills",
+      "branch": "main",
+      "skillName": "sn-search-code",
+      "path": "skills/sn-search-code/SKILL.md",
+      "url": "https://github.com/OpenSenseNova/SenseNova-Skills/blob/main/skills/sn-search-code/SKILL.md",
+      "description": "搜索开发者资源：GitHub 仓库/代码/Issue、Stack Overflow 问答、Hacker News 讨论、HuggingFace 模型/数据集/Space。用于查找代码示例、开源项目、技术问答、预训练模型。",
+      "slug": "opensensenova-sn-search-code"
+    },
+    {
+      "repository": "OpenSenseNova/SenseNova-Skills",
+      "branch": "main",
+      "skillName": "sn-search-finance",
+      "path": "skills/sn-search-finance/SKILL.md",
+      "url": "https://github.com/OpenSenseNova/SenseNova-Skills/blob/main/skills/sn-search-finance/SKILL.md",
+      "description": "用于搜索金融市场、证券、上市公司基本面、价格、K 线、披露文件、财经新闻、A 股数据、港股或全球 ticker，可使用 yfinance、mootdx、API 脚本或 browser-use。",
+      "slug": "opensensenova-sn-search-finance"
+    },
+    {
+      "repository": "OpenSenseNova/SenseNova-Skills",
+      "branch": "main",
+      "skillName": "sn-search-image",
+      "path": "skills/sn-search-image/SKILL.md",
+      "url": "https://github.com/OpenSenseNova/SenseNova-Skills/blob/main/skills/sn-search-image/SKILL.md",
+      "description": "USE FOR Google-backed image discovery via Serper.dev. Returns image URLs, page URLs, titles, and source domains.",
+      "slug": "opensensenova-sn-search-image"
+    },
+    {
+      "repository": "OpenSenseNova/SenseNova-Skills",
+      "branch": "main",
+      "skillName": "sn-search-market-cn",
+      "path": "skills/sn-search-market-cn/SKILL.md",
+      "url": "https://github.com/OpenSenseNova/SenseNova-Skills/blob/main/skills/sn-search-market-cn/SKILL.md",
+      "description": "Use when researching China market, industry, macro, trade, procurement, listed-company disclosure, regulation, IP, healthcare, logistics, energy, environment, or industrial-operation information using free official sources with no registration, no API key, and no cryptocurrency data.",
+      "slug": "opensensenova-sn-search-market-cn"
+    },
+    {
+      "repository": "OpenSenseNova/SenseNova-Skills",
+      "branch": "main",
+      "skillName": "sn-search-social-cn",
+      "path": "skills/sn-search-social-cn/SKILL.md",
+      "url": "https://github.com/OpenSenseNova/SenseNova-Skills/blob/main/skills/sn-search-social-cn/SKILL.md",
+      "description": "搜索中文社交平台：B站视频、知乎问答、抖音视频。部分平台需要 cookie 认证，稳定性因平台而异。",
+      "slug": "opensensenova-sn-search-social-cn"
+    },
+    {
+      "repository": "OpenSenseNova/SenseNova-Skills",
+      "branch": "main",
+      "skillName": "sn-search-social-en",
+      "path": "skills/sn-search-social-en/SKILL.md",
+      "url": "https://github.com/OpenSenseNova/SenseNova-Skills/blob/main/skills/sn-search-social-en/SKILL.md",
+      "description": "搜索英文社交平台：Reddit 帖子、Twitter/X 推文、YouTube 视频。用于获取英文社区讨论和视频内容。",
+      "slug": "opensensenova-sn-search-social-en"
+    },
+    {
+      "repository": "OpenSenseNova/SenseNova-Skills",
+      "branch": "main",
+      "skillName": "sn-search-social-media",
+      "path": "skills/sn-search-social-media/SKILL.md",
+      "url": "https://github.com/OpenSenseNova/SenseNova-Skills/blob/main/skills/sn-search-social-media/SKILL.md",
+      "description": "搜索社区、社媒、新闻热点、百科趋势、开发者生态和技术讨论时使用。",
+      "slug": "opensensenova-sn-search-social-media"
+    },
+    {
+      "repository": "OpenSenseNova/SenseNova-Skills",
+      "branch": "main",
+      "skillName": "sn-search-year-report",
+      "path": "skills/sn-search-year-report/SKILL.md",
+      "url": "https://github.com/OpenSenseNova/SenseNova-Skills/blob/main/skills/sn-search-year-report/SKILL.md",
+      "description": "用于搜索免费官方年报、年度报告、定期报告、上市公司披露文件、债券发行人报告和海外公司年度账目。",
+      "slug": "opensensenova-sn-search-year-report"
+    },
+    {
+      "repository": "OpenSenseNova/SenseNova-Skills",
+      "branch": "main",
+      "skillName": "sn-update",
+      "path": "skills/sn-update/SKILL.md",
+      "url": "https://github.com/OpenSenseNova/SenseNova-Skills/blob/main/skills/sn-update/SKILL.md",
+      "description": "|",
+      "slug": "opensensenova-sn-update"
+    }
+  ],
+  "itemCount": 29,
+  "lastStatus": "reused-unchanged"
+}

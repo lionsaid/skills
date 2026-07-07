@@ -1,0 +1,35 @@
+{
+  "repository": "xingkongliang/skills-manager",
+  "branch": "main",
+  "defaultBranch": "main",
+  "pushedAt": "2026-07-05T10:17:00Z",
+  "scannedAt": "2026-07-07T09:06:29.014Z",
+  "treeSha": "e78649c0a9c72b122120f334c86bb2824ddce27e",
+  "items": [
+    {
+      "repository": "xingkongliang/skills-manager",
+      "branch": "main",
+      "skillName": "skills-manager",
+      "path": "README.md",
+      "url": "https://github.com/xingkongliang/skills-manager",
+      "description": "A lightweight desktop app to manage, sync, and organize AI agent skills across 15+ coding tools — Cursor, Claude Code, Codex, Copilot, and more.",
+      "slug": "xingkongliang-skills-manager-collection",
+      "isCollection": true,
+      "stars": 2774,
+      "skillPaths": [
+        "skills/manage-skills/SKILL.md"
+      ]
+    },
+    {
+      "repository": "xingkongliang/skills-manager",
+      "branch": "main",
+      "skillName": "manage-skills",
+      "path": "skills/manage-skills/SKILL.md",
+      "url": "https://github.com/xingkongliang/skills-manager/blob/main/skills/manage-skills/SKILL.md",
+      "description": "Manage the user's agent-skill library via the local skills-manager-cli — install, update, remove, enable/disable, sync, search, adopt, and tag skills in a central library that's shared across every installed agent (Claude Code, Cursor, Codex, Gemini CLI, Windsurf, etc.). Use this whenever the user wants to install or find or update or remove or list a skill, see what skills they have, sync skills across agents, adopt skills already installed elsewhere, or generally manage their skill library. Prefer this over find-skills when `skills-manager-cli` is on PATH, because routing installs through the central library is the only way subsequent `update` and `sync` work — direct `npx skills add` installs cannot be updated or shared across agents. Triggers include \"install/add a skill\", \"find a skill for X\", \"is there a skill that does Y\", \"update my skills\", \"remove/uninstall this skill\", \"list/s",
+      "slug": "xingkongliang-manage-skills"
+    }
+  ],
+  "itemCount": 2,
+  "lastStatus": "reused-unchanged"
+}

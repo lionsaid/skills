@@ -1,0 +1,35 @@
+{
+  "repository": "multica-ai/andrej-karpathy-skills",
+  "branch": "main",
+  "defaultBranch": "main",
+  "pushedAt": "2026-04-20T10:05:04Z",
+  "scannedAt": "2026-07-07T09:03:20.986Z",
+  "treeSha": "2c606141936f1eeef17fa3043a72095b4765b9c2",
+  "items": [
+    {
+      "repository": "multica-ai/andrej-karpathy-skills",
+      "branch": "main",
+      "skillName": "andrej-karpathy-skills",
+      "path": "README.md",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "slug": "multica-ai-andrej-karpathy-skills-collection",
+      "isCollection": true,
+      "stars": null,
+      "skillPaths": [
+        "skills/karpathy-guidelines/SKILL.md"
+      ]
+    },
+    {
+      "repository": "multica-ai/andrej-karpathy-skills",
+      "branch": "main",
+      "skillName": "karpathy-guidelines",
+      "path": "skills/karpathy-guidelines/SKILL.md",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills/blob/main/skills/karpathy-guidelines/SKILL.md",
+      "description": "Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.",
+      "slug": "multica-ai-karpathy-guidelines"
+    }
+  ],
+  "itemCount": 2,
+  "lastStatus": "reused-unchanged"
+}

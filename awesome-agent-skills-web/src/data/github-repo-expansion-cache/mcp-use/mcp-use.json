@@ -1,0 +1,66 @@
+{
+  "repository": "mcp-use/mcp-use",
+  "branch": "main",
+  "defaultBranch": "main",
+  "pushedAt": "2026-07-07T03:24:01Z",
+  "scannedAt": "2026-07-07T09:04:55.651Z",
+  "treeSha": "3b06a6896f61eb1f0578e45b962d90fa2f571cf8",
+  "items": [
+    {
+      "repository": "mcp-use/mcp-use",
+      "branch": "main",
+      "skillName": "mcp-use",
+      "path": "README.md",
+      "url": "https://github.com/mcp-use/mcp-use",
+      "description": "The fullstack MCP framework to develop MCP Apps for ChatGPT / Claude & MCP Servers for AI Agents.",
+      "slug": "mcp-use-mcp-use-collection",
+      "isCollection": true,
+      "stars": 10264,
+      "skillPaths": [
+        "skills/chatgpt-app-builder/SKILL.md",
+        "skills/mcp-apps-builder/SKILL.md",
+        "skills/mcp-builder/SKILL.md",
+        "skills/openapi-to-mcp/SKILL.md"
+      ]
+    },
+    {
+      "repository": "mcp-use/mcp-use",
+      "branch": "main",
+      "skillName": "chatgpt-app-builder",
+      "path": "skills/chatgpt-app-builder/SKILL.md",
+      "url": "https://github.com/mcp-use/mcp-use/blob/main/skills/chatgpt-app-builder/SKILL.md",
+      "description": "|",
+      "slug": "mcp-use-chatgpt-app-builder"
+    },
+    {
+      "repository": "mcp-use/mcp-use",
+      "branch": "main",
+      "skillName": "mcp-apps-builder",
+      "path": "skills/mcp-apps-builder/SKILL.md",
+      "url": "https://github.com/mcp-use/mcp-use/blob/main/skills/mcp-apps-builder/SKILL.md",
+      "description": "|",
+      "slug": "mcp-use-mcp-apps-builder"
+    },
+    {
+      "repository": "mcp-use/mcp-use",
+      "branch": "main",
+      "skillName": "mcp-builder",
+      "path": "skills/mcp-builder/SKILL.md",
+      "url": "https://github.com/mcp-use/mcp-use/blob/main/skills/mcp-builder/SKILL.md",
+      "description": "|",
+      "slug": "mcp-use-mcp-builder"
+    },
+    {
+      "repository": "mcp-use/mcp-use",
+      "branch": "main",
+      "skillName": "openapi-to-mcp",
+      "path": "skills/openapi-to-mcp/SKILL.md",
+      "url": "https://github.com/mcp-use/mcp-use/blob/main/skills/openapi-to-mcp/SKILL.md",
+      "description": "Build and deploy an MCP server from an OpenAPI / Swagger spec using the mcp-use TypeScript SDK. Use this skill whenever the user wants to \"turn this OpenAPI spec into an MCP server\", \"make this API usable from Claude/ChatGPT\", \"wrap this Swagger doc as MCP tools\", \"expose this REST API to an LLM\", \"generate MCP tools from a spec\", or pastes/attaches an `openapi.yaml`, `openapi.json`, or `swagger.json` and asks for a Claude-compatible version. Trigger even if the user doesn't say \"MCP\" — if they describe an existing HTTP API (REST endpoints, an internal service, a third-party API they have a key for) and want an LLM to call it, this is the right skill. Covers spec ingestion (file path, URL, or pasted), operation-to-tool mapping, auth wiring (apiKey, bearer, basic, OAuth bearer), scaffolding with `create-mcp-use-app`, tool generation with proper zod schemas, live testing in the mcp-use ins",
+      "slug": "mcp-use-openapi-to-mcp"
+    }
+  ],
+  "itemCount": 5,
+  "publicSkillCount": 4,
+  "lastStatus": "scanned"
+}

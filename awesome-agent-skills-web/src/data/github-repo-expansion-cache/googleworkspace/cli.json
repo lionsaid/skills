@@ -1,0 +1,975 @@
+{
+  "repository": "googleworkspace/cli",
+  "branch": "main",
+  "defaultBranch": "main",
+  "pushedAt": "2026-07-01T03:10:20Z",
+  "scannedAt": "2026-07-07T09:04:16.475Z",
+  "treeSha": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd",
+  "items": [
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "cli",
+      "path": "README.md",
+      "url": "https://github.com/googleworkspace/cli",
+      "description": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
+      "slug": "googleworkspace-cli-collection",
+      "isCollection": true,
+      "stars": 29255,
+      "skillPaths": [
+        "skills/gws-admin-reports/SKILL.md",
+        "skills/gws-calendar-agenda/SKILL.md",
+        "skills/gws-calendar-insert/SKILL.md",
+        "skills/gws-calendar/SKILL.md",
+        "skills/gws-chat-send/SKILL.md",
+        "skills/gws-chat/SKILL.md",
+        "skills/gws-classroom/SKILL.md",
+        "skills/gws-docs-write/SKILL.md",
+        "skills/gws-docs/SKILL.md",
+        "skills/gws-drive-upload/SKILL.md",
+        "skills/gws-drive/SKILL.md",
+        "skills/gws-events-renew/SKILL.md",
+        "skills/gws-events-subscribe/SKILL.md",
+        "skills/gws-events/SKILL.md",
+        "skills/gws-forms/SKILL.md",
+        "skills/gws-gmail-forward/SKILL.md",
+        "skills/gws-gmail-read/SKILL.md",
+        "skills/gws-gmail-reply-all/SKILL.md",
+        "skills/gws-gmail-reply/SKILL.md",
+        "skills/gws-gmail-send/SKILL.md",
+        "skills/gws-gmail-triage/SKILL.md",
+        "skills/gws-gmail-watch/SKILL.md",
+        "skills/gws-gmail/SKILL.md",
+        "skills/gws-keep/SKILL.md",
+        "skills/gws-meet/SKILL.md",
+        "skills/gws-modelarmor-create-template/SKILL.md",
+        "skills/gws-modelarmor-sanitize-prompt/SKILL.md",
+        "skills/gws-modelarmor-sanitize-response/SKILL.md",
+        "skills/gws-modelarmor/SKILL.md",
+        "skills/gws-people/SKILL.md",
+        "skills/gws-script-push/SKILL.md",
+        "skills/gws-script/SKILL.md",
+        "skills/gws-shared/SKILL.md",
+        "skills/gws-sheets-append/SKILL.md",
+        "skills/gws-sheets-read/SKILL.md",
+        "skills/gws-sheets/SKILL.md",
+        "skills/gws-slides/SKILL.md",
+        "skills/gws-tasks/SKILL.md",
+        "skills/gws-workflow-email-to-task/SKILL.md",
+        "skills/gws-workflow-file-announce/SKILL.md",
+        "skills/gws-workflow-meeting-prep/SKILL.md",
+        "skills/gws-workflow-standup-report/SKILL.md",
+        "skills/gws-workflow-weekly-digest/SKILL.md",
+        "skills/gws-workflow/SKILL.md",
+        "skills/persona-content-creator/SKILL.md",
+        "skills/persona-customer-support/SKILL.md",
+        "skills/persona-event-coordinator/SKILL.md",
+        "skills/persona-exec-assistant/SKILL.md",
+        "skills/persona-hr-coordinator/SKILL.md",
+        "skills/persona-it-admin/SKILL.md",
+        "skills/persona-project-manager/SKILL.md",
+        "skills/persona-researcher/SKILL.md",
+        "skills/persona-sales-ops/SKILL.md",
+        "skills/persona-team-lead/SKILL.md",
+        "skills/recipe-backup-sheet-as-csv/SKILL.md",
+        "skills/recipe-batch-invite-to-event/SKILL.md",
+        "skills/recipe-block-focus-time/SKILL.md",
+        "skills/recipe-bulk-download-folder/SKILL.md",
+        "skills/recipe-collect-form-responses/SKILL.md",
+        "skills/recipe-compare-sheet-tabs/SKILL.md",
+        "skills/recipe-copy-sheet-for-new-month/SKILL.md",
+        "skills/recipe-create-classroom-course/SKILL.md",
+        "skills/recipe-create-doc-from-template/SKILL.md",
+        "skills/recipe-create-events-from-sheet/SKILL.md",
+        "skills/recipe-create-expense-tracker/SKILL.md",
+        "skills/recipe-create-feedback-form/SKILL.md",
+        "skills/recipe-create-gmail-filter/SKILL.md",
+        "skills/recipe-create-meet-space/SKILL.md",
+        "skills/recipe-create-presentation/SKILL.md",
+        "skills/recipe-create-shared-drive/SKILL.md",
+        "skills/recipe-create-task-list/SKILL.md",
+        "skills/recipe-create-vacation-responder/SKILL.md",
+        "skills/recipe-draft-email-from-doc/SKILL.md",
+        "skills/recipe-email-drive-link/SKILL.md",
+        "skills/recipe-find-free-time/SKILL.md",
+        "skills/recipe-find-large-files/SKILL.md",
+        "skills/recipe-forward-labeled-emails/SKILL.md",
+        "skills/recipe-generate-report-from-sheet/SKILL.md",
+        "skills/recipe-label-and-archive-emails/SKILL.md",
+        "skills/recipe-log-deal-update/SKILL.md",
+        "skills/recipe-organize-drive-folder/SKILL.md",
+        "skills/recipe-plan-weekly-schedule/SKILL.md",
+        "skills/recipe-post-mortem-setup/SKILL.md",
+        "skills/recipe-reschedule-meeting/SKILL.md",
+        "skills/recipe-review-meet-participants/SKILL.md",
+        "skills/recipe-review-overdue-tasks/SKILL.md",
+        "skills/recipe-save-email-attachments/SKILL.md",
+        "skills/recipe-save-email-to-doc/SKILL.md",
+        "skills/recipe-schedule-recurring-event/SKILL.md",
+        "skills/recipe-send-team-announcement/SKILL.md",
+        "skills/recipe-share-doc-and-notify/SKILL.md",
+        "skills/recipe-share-event-materials/SKILL.md",
+        "skills/recipe-share-folder-with-team/SKILL.md",
+        "skills/recipe-sync-contacts-to-sheet/SKILL.md",
+        "skills/recipe-watch-drive-changes/SKILL.md"
+      ]
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-admin-reports",
+      "path": "skills/gws-admin-reports/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-admin-reports/SKILL.md",
+      "description": "Google Workspace Admin SDK: Audit logs and usage reports.",
+      "slug": "googleworkspace-gws-admin-reports"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-calendar-agenda",
+      "path": "skills/gws-calendar-agenda/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-calendar-agenda/SKILL.md",
+      "description": "Google Calendar: Show upcoming events across all calendars.",
+      "slug": "googleworkspace-gws-calendar-agenda"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-calendar-insert",
+      "path": "skills/gws-calendar-insert/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-calendar-insert/SKILL.md",
+      "description": "Google Calendar: Create a new event.",
+      "slug": "googleworkspace-gws-calendar-insert"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-calendar",
+      "path": "skills/gws-calendar/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-calendar/SKILL.md",
+      "description": "Google Calendar: Manage calendars and events.",
+      "slug": "googleworkspace-gws-calendar"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-chat-send",
+      "path": "skills/gws-chat-send/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-chat-send/SKILL.md",
+      "description": "Google Chat: Send a message to a space.",
+      "slug": "googleworkspace-gws-chat-send"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-chat",
+      "path": "skills/gws-chat/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-chat/SKILL.md",
+      "description": "Google Chat: Manage Chat spaces and messages.",
+      "slug": "googleworkspace-gws-chat"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-classroom",
+      "path": "skills/gws-classroom/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-classroom/SKILL.md",
+      "description": "Google Classroom: Manage classes, rosters, and coursework.",
+      "slug": "googleworkspace-gws-classroom"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-docs-write",
+      "path": "skills/gws-docs-write/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-docs-write/SKILL.md",
+      "description": "Google Docs: Append text to a document.",
+      "slug": "googleworkspace-gws-docs-write"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-docs",
+      "path": "skills/gws-docs/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-docs/SKILL.md",
+      "description": "Read and write Google Docs.",
+      "slug": "googleworkspace-gws-docs"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-drive-upload",
+      "path": "skills/gws-drive-upload/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-drive-upload/SKILL.md",
+      "description": "Google Drive: Upload a file with automatic metadata.",
+      "slug": "googleworkspace-gws-drive-upload"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-drive",
+      "path": "skills/gws-drive/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-drive/SKILL.md",
+      "description": "Google Drive: Manage files, folders, and shared drives.",
+      "slug": "googleworkspace-gws-drive"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-events-renew",
+      "path": "skills/gws-events-renew/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-events-renew/SKILL.md",
+      "description": "Google Workspace Events: Renew/reactivate Workspace Events subscriptions.",
+      "slug": "googleworkspace-gws-events-renew"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-events-subscribe",
+      "path": "skills/gws-events-subscribe/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-events-subscribe/SKILL.md",
+      "description": "Google Workspace Events: Subscribe to Workspace events and stream them as NDJSON.",
+      "slug": "googleworkspace-gws-events-subscribe"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-events",
+      "path": "skills/gws-events/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-events/SKILL.md",
+      "description": "Subscribe to Google Workspace events.",
+      "slug": "googleworkspace-gws-events"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-forms",
+      "path": "skills/gws-forms/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-forms/SKILL.md",
+      "description": "Read and write Google Forms.",
+      "slug": "googleworkspace-gws-forms"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-gmail-forward",
+      "path": "skills/gws-gmail-forward/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-gmail-forward/SKILL.md",
+      "description": "Gmail: Forward a message to new recipients.",
+      "slug": "googleworkspace-gws-gmail-forward"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-gmail-read",
+      "path": "skills/gws-gmail-read/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-gmail-read/SKILL.md",
+      "description": "Gmail: Read a message and extract its body or headers.",
+      "slug": "googleworkspace-gws-gmail-read"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-gmail-reply-all",
+      "path": "skills/gws-gmail-reply-all/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-gmail-reply-all/SKILL.md",
+      "description": "Gmail: Reply-all to a message (handles threading automatically).",
+      "slug": "googleworkspace-gws-gmail-reply-all"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-gmail-reply",
+      "path": "skills/gws-gmail-reply/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-gmail-reply/SKILL.md",
+      "description": "Gmail: Reply to a message (handles threading automatically).",
+      "slug": "googleworkspace-gws-gmail-reply"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-gmail-send",
+      "path": "skills/gws-gmail-send/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-gmail-send/SKILL.md",
+      "description": "Gmail: Send an email.",
+      "slug": "googleworkspace-gws-gmail-send"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-gmail-triage",
+      "path": "skills/gws-gmail-triage/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-gmail-triage/SKILL.md",
+      "description": "Gmail: Show unread inbox summary (sender, subject, date).",
+      "slug": "googleworkspace-gws-gmail-triage"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-gmail-watch",
+      "path": "skills/gws-gmail-watch/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-gmail-watch/SKILL.md",
+      "description": "Gmail: Watch for new emails and stream them as NDJSON.",
+      "slug": "googleworkspace-gws-gmail-watch"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-gmail",
+      "path": "skills/gws-gmail/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-gmail/SKILL.md",
+      "description": "Gmail: Send, read, and manage email.",
+      "slug": "googleworkspace-gws-gmail"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-keep",
+      "path": "skills/gws-keep/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-keep/SKILL.md",
+      "description": "Manage Google Keep notes.",
+      "slug": "googleworkspace-gws-keep"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-meet",
+      "path": "skills/gws-meet/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-meet/SKILL.md",
+      "description": "Manage Google Meet conferences.",
+      "slug": "googleworkspace-gws-meet"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-modelarmor-create-template",
+      "path": "skills/gws-modelarmor-create-template/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-modelarmor-create-template/SKILL.md",
+      "description": "Google Model Armor: Create a new Model Armor template.",
+      "slug": "googleworkspace-gws-modelarmor-create-template"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-modelarmor-sanitize-prompt",
+      "path": "skills/gws-modelarmor-sanitize-prompt/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-modelarmor-sanitize-prompt/SKILL.md",
+      "description": "Google Model Armor: Sanitize a user prompt through a Model Armor template.",
+      "slug": "googleworkspace-gws-modelarmor-sanitize-prompt"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-modelarmor-sanitize-response",
+      "path": "skills/gws-modelarmor-sanitize-response/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-modelarmor-sanitize-response/SKILL.md",
+      "description": "Google Model Armor: Sanitize a model response through a Model Armor template.",
+      "slug": "googleworkspace-gws-modelarmor-sanitize-response"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-modelarmor",
+      "path": "skills/gws-modelarmor/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-modelarmor/SKILL.md",
+      "description": "Google Model Armor: Filter user-generated content for safety.",
+      "slug": "googleworkspace-gws-modelarmor"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-people",
+      "path": "skills/gws-people/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-people/SKILL.md",
+      "description": "Google People: Manage contacts and profiles.",
+      "slug": "googleworkspace-gws-people"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-script-push",
+      "path": "skills/gws-script-push/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-script-push/SKILL.md",
+      "description": "Google Apps Script: Upload local files to an Apps Script project.",
+      "slug": "googleworkspace-gws-script-push"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-script",
+      "path": "skills/gws-script/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-script/SKILL.md",
+      "description": "Manage Google Apps Script projects.",
+      "slug": "googleworkspace-gws-script"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-shared",
+      "path": "skills/gws-shared/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-shared/SKILL.md",
+      "description": "gws CLI: Shared patterns for authentication, global flags, and output formatting.",
+      "slug": "googleworkspace-gws-shared"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-sheets-append",
+      "path": "skills/gws-sheets-append/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-sheets-append/SKILL.md",
+      "description": "Google Sheets: Append a row to a spreadsheet.",
+      "slug": "googleworkspace-gws-sheets-append"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-sheets-read",
+      "path": "skills/gws-sheets-read/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-sheets-read/SKILL.md",
+      "description": "Google Sheets: Read values from a spreadsheet.",
+      "slug": "googleworkspace-gws-sheets-read"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-sheets",
+      "path": "skills/gws-sheets/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-sheets/SKILL.md",
+      "description": "Google Sheets: Read and write spreadsheets.",
+      "slug": "googleworkspace-gws-sheets"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-slides",
+      "path": "skills/gws-slides/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-slides/SKILL.md",
+      "description": "Google Slides: Read and write presentations.",
+      "slug": "googleworkspace-gws-slides"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-tasks",
+      "path": "skills/gws-tasks/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-tasks/SKILL.md",
+      "description": "Google Tasks: Manage task lists and tasks.",
+      "slug": "googleworkspace-gws-tasks"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-workflow-email-to-task",
+      "path": "skills/gws-workflow-email-to-task/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-workflow-email-to-task/SKILL.md",
+      "description": "Google Workflow: Convert a Gmail message into a Google Tasks entry.",
+      "slug": "googleworkspace-gws-workflow-email-to-task"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-workflow-file-announce",
+      "path": "skills/gws-workflow-file-announce/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-workflow-file-announce/SKILL.md",
+      "description": "Google Workflow: Announce a Drive file in a Chat space.",
+      "slug": "googleworkspace-gws-workflow-file-announce"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-workflow-meeting-prep",
+      "path": "skills/gws-workflow-meeting-prep/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-workflow-meeting-prep/SKILL.md",
+      "description": "Google Workflow: Prepare for your next meeting: agenda, attendees, and linked docs.",
+      "slug": "googleworkspace-gws-workflow-meeting-prep"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-workflow-standup-report",
+      "path": "skills/gws-workflow-standup-report/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-workflow-standup-report/SKILL.md",
+      "description": "Google Workflow: Today's meetings + open tasks as a standup summary.",
+      "slug": "googleworkspace-gws-workflow-standup-report"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-workflow-weekly-digest",
+      "path": "skills/gws-workflow-weekly-digest/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-workflow-weekly-digest/SKILL.md",
+      "description": "Google Workflow: Weekly summary: this week's meetings + unread email count.",
+      "slug": "googleworkspace-gws-workflow-weekly-digest"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "gws-workflow",
+      "path": "skills/gws-workflow/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/gws-workflow/SKILL.md",
+      "description": "Google Workflow: Cross-service productivity workflows.",
+      "slug": "googleworkspace-gws-workflow"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "persona-content-creator",
+      "path": "skills/persona-content-creator/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/persona-content-creator/SKILL.md",
+      "description": "Create, organize, and distribute content across Workspace.",
+      "slug": "googleworkspace-persona-content-creator"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "persona-customer-support",
+      "path": "skills/persona-customer-support/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/persona-customer-support/SKILL.md",
+      "description": "Manage customer support — track tickets, respond, escalate issues.",
+      "slug": "googleworkspace-persona-customer-support"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "persona-event-coordinator",
+      "path": "skills/persona-event-coordinator/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/persona-event-coordinator/SKILL.md",
+      "description": "Plan and manage events — scheduling, invitations, and logistics.",
+      "slug": "googleworkspace-persona-event-coordinator"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "persona-exec-assistant",
+      "path": "skills/persona-exec-assistant/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/persona-exec-assistant/SKILL.md",
+      "description": "Manage an executive's schedule, inbox, and communications.",
+      "slug": "googleworkspace-persona-exec-assistant"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "persona-hr-coordinator",
+      "path": "skills/persona-hr-coordinator/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/persona-hr-coordinator/SKILL.md",
+      "description": "Handle HR workflows — onboarding, announcements, and employee comms.",
+      "slug": "googleworkspace-persona-hr-coordinator"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "persona-it-admin",
+      "path": "skills/persona-it-admin/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/persona-it-admin/SKILL.md",
+      "description": "Administer IT — monitor security and configure Workspace.",
+      "slug": "googleworkspace-persona-it-admin"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "persona-project-manager",
+      "path": "skills/persona-project-manager/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/persona-project-manager/SKILL.md",
+      "description": "Coordinate projects — track tasks, schedule meetings, and share docs.",
+      "slug": "googleworkspace-persona-project-manager"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "persona-researcher",
+      "path": "skills/persona-researcher/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/persona-researcher/SKILL.md",
+      "description": "Organize research — manage references, notes, and collaboration.",
+      "slug": "googleworkspace-persona-researcher"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "persona-sales-ops",
+      "path": "skills/persona-sales-ops/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/persona-sales-ops/SKILL.md",
+      "description": "Manage sales workflows — track deals, schedule calls, client comms.",
+      "slug": "googleworkspace-persona-sales-ops"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "persona-team-lead",
+      "path": "skills/persona-team-lead/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/persona-team-lead/SKILL.md",
+      "description": "Lead a team — run standups, coordinate tasks, and communicate.",
+      "slug": "googleworkspace-persona-team-lead"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "recipe-backup-sheet-as-csv",
+      "path": "skills/recipe-backup-sheet-as-csv/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/recipe-backup-sheet-as-csv/SKILL.md",
+      "description": "Export a Google Sheets spreadsheet as a CSV file for local backup or processing.",
+      "slug": "googleworkspace-recipe-backup-sheet-as-csv"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "recipe-batch-invite-to-event",
+      "path": "skills/recipe-batch-invite-to-event/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/recipe-batch-invite-to-event/SKILL.md",
+      "description": "Add a list of attendees to an existing Google Calendar event and send notifications.",
+      "slug": "googleworkspace-recipe-batch-invite-to-event"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "recipe-block-focus-time",
+      "path": "skills/recipe-block-focus-time/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/recipe-block-focus-time/SKILL.md",
+      "description": "Create recurring focus time blocks on Google Calendar to protect deep work hours.",
+      "slug": "googleworkspace-recipe-block-focus-time"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "recipe-bulk-download-folder",
+      "path": "skills/recipe-bulk-download-folder/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/recipe-bulk-download-folder/SKILL.md",
+      "description": "List and download all files from a Google Drive folder.",
+      "slug": "googleworkspace-recipe-bulk-download-folder"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "recipe-collect-form-responses",
+      "path": "skills/recipe-collect-form-responses/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/recipe-collect-form-responses/SKILL.md",
+      "description": "Retrieve and review responses from a Google Form.",
+      "slug": "googleworkspace-recipe-collect-form-responses"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "recipe-compare-sheet-tabs",
+      "path": "skills/recipe-compare-sheet-tabs/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/recipe-compare-sheet-tabs/SKILL.md",
+      "description": "Read data from two tabs in a Google Sheet to compare and identify differences.",
+      "slug": "googleworkspace-recipe-compare-sheet-tabs"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "recipe-copy-sheet-for-new-month",
+      "path": "skills/recipe-copy-sheet-for-new-month/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/recipe-copy-sheet-for-new-month/SKILL.md",
+      "description": "Duplicate a Google Sheets template tab for a new month of tracking.",
+      "slug": "googleworkspace-recipe-copy-sheet-for-new-month"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "recipe-create-classroom-course",
+      "path": "skills/recipe-create-classroom-course/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/recipe-create-classroom-course/SKILL.md",
+      "description": "Create a Google Classroom course and invite students.",
+      "slug": "googleworkspace-recipe-create-classroom-course"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "recipe-create-doc-from-template",
+      "path": "skills/recipe-create-doc-from-template/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/recipe-create-doc-from-template/SKILL.md",
+      "description": "Copy a Google Docs template, fill in content, and share with collaborators.",
+      "slug": "googleworkspace-recipe-create-doc-from-template"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "recipe-create-events-from-sheet",
+      "path": "skills/recipe-create-events-from-sheet/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/recipe-create-events-from-sheet/SKILL.md",
+      "description": "Read event data from a Google Sheets spreadsheet and create Google Calendar entries for each row.",
+      "slug": "googleworkspace-recipe-create-events-from-sheet"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "recipe-create-expense-tracker",
+      "path": "skills/recipe-create-expense-tracker/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/recipe-create-expense-tracker/SKILL.md",
+      "description": "Set up a Google Sheets spreadsheet for tracking expenses with headers and initial entries.",
+      "slug": "googleworkspace-recipe-create-expense-tracker"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "recipe-create-feedback-form",
+      "path": "skills/recipe-create-feedback-form/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/recipe-create-feedback-form/SKILL.md",
+      "description": "Create a Google Form for feedback and share it via Gmail.",
+      "slug": "googleworkspace-recipe-create-feedback-form"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "recipe-create-gmail-filter",
+      "path": "skills/recipe-create-gmail-filter/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/recipe-create-gmail-filter/SKILL.md",
+      "description": "Create a Gmail filter to automatically label, star, or categorize incoming messages.",
+      "slug": "googleworkspace-recipe-create-gmail-filter"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "recipe-create-meet-space",
+      "path": "skills/recipe-create-meet-space/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/recipe-create-meet-space/SKILL.md",
+      "description": "Create a Google Meet meeting space and share the join link.",
+      "slug": "googleworkspace-recipe-create-meet-space"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "recipe-create-presentation",
+      "path": "skills/recipe-create-presentation/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/recipe-create-presentation/SKILL.md",
+      "description": "Create a new Google Slides presentation and add initial slides.",
+      "slug": "googleworkspace-recipe-create-presentation"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "recipe-create-shared-drive",
+      "path": "skills/recipe-create-shared-drive/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/recipe-create-shared-drive/SKILL.md",
+      "description": "Create a Google Shared Drive and add members with appropriate roles.",
+      "slug": "googleworkspace-recipe-create-shared-drive"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "recipe-create-task-list",
+      "path": "skills/recipe-create-task-list/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/recipe-create-task-list/SKILL.md",
+      "description": "Set up a new Google Tasks list with initial tasks.",
+      "slug": "googleworkspace-recipe-create-task-list"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "recipe-create-vacation-responder",
+      "path": "skills/recipe-create-vacation-responder/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/recipe-create-vacation-responder/SKILL.md",
+      "description": "Enable a Gmail out-of-office auto-reply with a custom message and date range.",
+      "slug": "googleworkspace-recipe-create-vacation-responder"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "recipe-draft-email-from-doc",
+      "path": "skills/recipe-draft-email-from-doc/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/recipe-draft-email-from-doc/SKILL.md",
+      "description": "Read content from a Google Doc and use it as the body of a Gmail message.",
+      "slug": "googleworkspace-recipe-draft-email-from-doc"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "recipe-email-drive-link",
+      "path": "skills/recipe-email-drive-link/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/recipe-email-drive-link/SKILL.md",
+      "description": "Share a Google Drive file and email the link with a message to recipients.",
+      "slug": "googleworkspace-recipe-email-drive-link"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "recipe-find-free-time",
+      "path": "skills/recipe-find-free-time/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/recipe-find-free-time/SKILL.md",
+      "description": "Query Google Calendar free/busy status for multiple users to find a meeting slot.",
+      "slug": "googleworkspace-recipe-find-free-time"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "recipe-find-large-files",
+      "path": "skills/recipe-find-large-files/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/recipe-find-large-files/SKILL.md",
+      "description": "Identify large Google Drive files consuming storage quota.",
+      "slug": "googleworkspace-recipe-find-large-files"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "recipe-forward-labeled-emails",
+      "path": "skills/recipe-forward-labeled-emails/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/recipe-forward-labeled-emails/SKILL.md",
+      "description": "Find Gmail messages with a specific label and forward them to another address.",
+      "slug": "googleworkspace-recipe-forward-labeled-emails"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "recipe-generate-report-from-sheet",
+      "path": "skills/recipe-generate-report-from-sheet/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/recipe-generate-report-from-sheet/SKILL.md",
+      "description": "Read data from a Google Sheet and create a formatted Google Docs report.",
+      "slug": "googleworkspace-recipe-generate-report-from-sheet"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "recipe-label-and-archive-emails",
+      "path": "skills/recipe-label-and-archive-emails/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/recipe-label-and-archive-emails/SKILL.md",
+      "description": "Apply Gmail labels to matching messages and archive them to keep your inbox clean.",
+      "slug": "googleworkspace-recipe-label-and-archive-emails"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "recipe-log-deal-update",
+      "path": "skills/recipe-log-deal-update/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/recipe-log-deal-update/SKILL.md",
+      "description": "Append a deal status update to a Google Sheets sales tracking spreadsheet.",
+      "slug": "googleworkspace-recipe-log-deal-update"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "recipe-organize-drive-folder",
+      "path": "skills/recipe-organize-drive-folder/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/recipe-organize-drive-folder/SKILL.md",
+      "description": "Create a Google Drive folder structure and move files into the right locations.",
+      "slug": "googleworkspace-recipe-organize-drive-folder"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "recipe-plan-weekly-schedule",
+      "path": "skills/recipe-plan-weekly-schedule/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/recipe-plan-weekly-schedule/SKILL.md",
+      "description": "Review your Google Calendar week, identify gaps, and add events to fill them.",
+      "slug": "googleworkspace-recipe-plan-weekly-schedule"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "recipe-post-mortem-setup",
+      "path": "skills/recipe-post-mortem-setup/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/recipe-post-mortem-setup/SKILL.md",
+      "description": "Create a Google Docs post-mortem, schedule a Google Calendar review, and notify via Chat.",
+      "slug": "googleworkspace-recipe-post-mortem-setup"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "recipe-reschedule-meeting",
+      "path": "skills/recipe-reschedule-meeting/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/recipe-reschedule-meeting/SKILL.md",
+      "description": "Move a Google Calendar event to a new time and automatically notify all attendees.",
+      "slug": "googleworkspace-recipe-reschedule-meeting"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "recipe-review-meet-participants",
+      "path": "skills/recipe-review-meet-participants/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/recipe-review-meet-participants/SKILL.md",
+      "description": "Review who attended a Google Meet conference and for how long.",
+      "slug": "googleworkspace-recipe-review-meet-participants"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "recipe-review-overdue-tasks",
+      "path": "skills/recipe-review-overdue-tasks/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/recipe-review-overdue-tasks/SKILL.md",
+      "description": "Find Google Tasks that are past due and need attention.",
+      "slug": "googleworkspace-recipe-review-overdue-tasks"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "recipe-save-email-attachments",
+      "path": "skills/recipe-save-email-attachments/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/recipe-save-email-attachments/SKILL.md",
+      "description": "Find Gmail messages with attachments and save them to a Google Drive folder.",
+      "slug": "googleworkspace-recipe-save-email-attachments"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "recipe-save-email-to-doc",
+      "path": "skills/recipe-save-email-to-doc/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/recipe-save-email-to-doc/SKILL.md",
+      "description": "Save a Gmail message body into a Google Doc for archival or reference.",
+      "slug": "googleworkspace-recipe-save-email-to-doc"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "recipe-schedule-recurring-event",
+      "path": "skills/recipe-schedule-recurring-event/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/recipe-schedule-recurring-event/SKILL.md",
+      "description": "Create a recurring Google Calendar event with attendees.",
+      "slug": "googleworkspace-recipe-schedule-recurring-event"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "recipe-send-team-announcement",
+      "path": "skills/recipe-send-team-announcement/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/recipe-send-team-announcement/SKILL.md",
+      "description": "Send a team announcement via both Gmail and a Google Chat space.",
+      "slug": "googleworkspace-recipe-send-team-announcement"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "recipe-share-doc-and-notify",
+      "path": "skills/recipe-share-doc-and-notify/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/recipe-share-doc-and-notify/SKILL.md",
+      "description": "Share a Google Docs document with edit access and email collaborators the link.",
+      "slug": "googleworkspace-recipe-share-doc-and-notify"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "recipe-share-event-materials",
+      "path": "skills/recipe-share-event-materials/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/recipe-share-event-materials/SKILL.md",
+      "description": "Share Google Drive files with all attendees of a Google Calendar event.",
+      "slug": "googleworkspace-recipe-share-event-materials"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "recipe-share-folder-with-team",
+      "path": "skills/recipe-share-folder-with-team/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/recipe-share-folder-with-team/SKILL.md",
+      "description": "Share a Google Drive folder and all its contents with a list of collaborators.",
+      "slug": "googleworkspace-recipe-share-folder-with-team"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "recipe-sync-contacts-to-sheet",
+      "path": "skills/recipe-sync-contacts-to-sheet/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/recipe-sync-contacts-to-sheet/SKILL.md",
+      "description": "Export Google Contacts directory to a Google Sheets spreadsheet.",
+      "slug": "googleworkspace-recipe-sync-contacts-to-sheet"
+    },
+    {
+      "repository": "googleworkspace/cli",
+      "branch": "main",
+      "skillName": "recipe-watch-drive-changes",
+      "path": "skills/recipe-watch-drive-changes/SKILL.md",
+      "url": "https://github.com/googleworkspace/cli/blob/main/skills/recipe-watch-drive-changes/SKILL.md",
+      "description": "Subscribe to change notifications on a Google Drive file or folder.",
+      "slug": "googleworkspace-recipe-watch-drive-changes"
+    }
+  ],
+  "itemCount": 96,
+  "lastStatus": "reused-unchanged"
+}

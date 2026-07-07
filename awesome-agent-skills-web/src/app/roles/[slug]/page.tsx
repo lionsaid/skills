@@ -1,10 +1,10 @@
-import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { DelayedRouteLink, DelayedSkillLink } from "@/components/delayed-skill-link";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { getRolePrioritySkills, getStarterSkillsForRole, getRoleBySlug, getSkillsForRole } from "@/lib/skills";
-import { getCopy, getSkillDetailPath, prefixLocalePath } from "@/lib/i18n";
+import { getCopy, prefixLocalePath } from "@/lib/i18n";
 import { getRequestLocale } from "@/lib/request-locale";
 import { getRoles } from "@/lib/skills";
 import { buildMetadata, getLocalizedDescription } from "@/lib/seo";
@@ -90,31 +90,31 @@ export async function RolePageContent({ params, locale }: RolePageContentProps) 
             </p>
 
             <div className="mt-8 flex flex-wrap gap-3">
-              <Link
+              <DelayedRouteLink
                 className="action-primary inline-flex min-w-[11rem] items-center justify-center whitespace-nowrap rounded-full border px-5 py-3 text-sm font-semibold transition"
                 href={prefixLocalePath(`/skills?persona=${role.slug}&enterprise=1&trust=official`, locale)}
               >
                 {copy.roles.startWithOfficial}
-              </Link>
-              <Link
+              </DelayedRouteLink>
+              <DelayedRouteLink
                 className="action-secondary inline-flex min-w-[11rem] items-center justify-center whitespace-nowrap rounded-full border px-5 py-3 text-sm font-semibold transition"
                 href={prefixLocalePath(`/skills?persona=${role.slug}`, locale)}
               >
                 {locale === "zh-CN"
                   ? `查看全部与 ${roleLabel} 相关的 skill`
                   : `See all ${roleLabel} skills`}
-              </Link>
+              </DelayedRouteLink>
             </div>
 
             <div className="mt-8 flex flex-wrap gap-2">
               {role.featuredQueries.map((query) => (
-                <Link
+                <DelayedRouteLink
                   key={query}
                   className="action-chip inline-flex items-center rounded-full border px-4 py-2 text-sm font-semibold transition"
                   href={prefixLocalePath(`/skills?persona=${role.slug}&q=${encodeURIComponent(query)}`, locale)}
                 >
                   {copy.queryLabels[query] ?? query}
-                </Link>
+                </DelayedRouteLink>
               ))}
             </div>
           </div>
@@ -135,26 +135,26 @@ export async function RolePageContent({ params, locale }: RolePageContentProps) 
                   : "If you do not want to sort through everything yourself, start here."}
               </p>
             </div>
-            <Link
+            <DelayedRouteLink
               className="action-secondary inline-flex min-w-[9.5rem] items-center justify-center whitespace-nowrap rounded-full border px-4 py-2 text-sm font-semibold transition"
               href={prefixLocalePath(`/skills?persona=${role.slug}`, locale)}
             >
               {copy.roles.viewAllSkills}
-            </Link>
+            </DelayedRouteLink>
           </div>
 
               <div className="mt-6 grid gap-4 lg:grid-cols-2 xl:grid-cols-5">
             {prioritySkills.map((skill, index) => (
-                <Link
+                <DelayedSkillLink
                   key={skill.slug}
                   className="surface-panel-soft rounded-[1.5rem] p-5 transition hover:bg-[var(--panel-soft-hover)]"
-                  href={prefixLocalePath(getSkillDetailPath(skill.slug, locale), locale)}
-                  prefetch={false}
+                  locale={locale}
+                  skillSlug={skill.slug}
                 >
                   <p className="eyebrow surface-muted">{String(index + 1).padStart(2, "0")} · {skill.publisher}</p>
                   <h3 className="mt-3 text-lg font-semibold leading-6">{skill.name}</h3>
                   <p className="muted mt-3 text-sm leading-6">{skill.description}</p>
-                </Link>
+                </DelayedSkillLink>
               ))}
           </div>
         </section>
@@ -166,12 +166,12 @@ export async function RolePageContent({ params, locale }: RolePageContentProps) 
               {locale === "zh-CN" ? "再按任务继续往下找。" : "Keep going by task."}
             </h2>
           </div>
-          <Link
+          <DelayedRouteLink
             className="action-secondary inline-flex min-w-[9.5rem] items-center justify-center whitespace-nowrap rounded-full border px-4 py-2 text-sm font-semibold transition"
             href={prefixLocalePath(`/skills?persona=${role.slug}`, locale)}
           >
             {copy.roles.viewAllSkills}
-          </Link>
+          </DelayedRouteLink>
         </div>
 
         <div className="mt-8 grid gap-6">
@@ -184,23 +184,23 @@ export async function RolePageContent({ params, locale }: RolePageContentProps) 
                     {locale === "zh-CN" ? (copy.taskLabels[group.job] ?? group.label) : group.label}
                   </h3>
                 </div>
-                <Link
+                <DelayedRouteLink
                   className="action-chip inline-flex items-center rounded-full border px-4 py-2 text-sm font-semibold transition"
                   href={prefixLocalePath(`/skills?persona=${role.slug}&job=${group.job}`, locale)}
                 >
                   {locale === "zh-CN"
                     ? `查看全部 ${copy.taskLabels[group.job] ?? group.label}`
                     : `View all in ${group.label}`}
-                </Link>
+                </DelayedRouteLink>
               </div>
 
               <div className="mt-6 grid gap-4 lg:grid-cols-2 xl:grid-cols-4">
                 {group.skills.map((skill) => (
-                  <Link
+                  <DelayedSkillLink
                     key={skill.slug}
                     className="surface-panel-soft rounded-[1.5rem] p-5 transition hover:bg-[var(--panel-soft-hover)]"
-                    href={prefixLocalePath(getSkillDetailPath(skill.slug, locale), locale)}
-                    prefetch={false}
+                    locale={locale}
+                    skillSlug={skill.slug}
                   >
                     <p className="eyebrow surface-muted">{skill.publisher}</p>
                     <h4 className="mt-3 text-xl font-semibold">{skill.name}</h4>
@@ -215,7 +215,7 @@ export async function RolePageContent({ params, locale }: RolePageContentProps) 
                         </span>
                       ))}
                     </div>
-                  </Link>
+                  </DelayedSkillLink>
                 ))}
               </div>
             </section>

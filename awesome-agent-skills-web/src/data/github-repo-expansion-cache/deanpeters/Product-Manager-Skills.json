@@ -2,9 +2,9 @@
   "repository": "deanpeters/Product-Manager-Skills",
   "branch": "main",
   "defaultBranch": "main",
-  "pushedAt": "2026-06-25T18:23:06Z",
-  "scannedAt": "2026-06-30T00:37:46.687Z",
-  "treeSha": "23ede8ccc44a097c4a6a6fcfcdf3df8415e3aa16",
+  "pushedAt": "2026-07-04T19:43:47Z",
+  "scannedAt": "2026-07-07T09:05:24.573Z",
+  "treeSha": "39986078003cb8621635828a8d6e7342270b0257",
   "items": [
     {
       "repository": "deanpeters/Product-Manager-Skills",
@@ -15,9 +15,10 @@
       "description": "Product Management skills framework built on battle-tested methods for Claude Code, Cowork, Codex, and AI agents.",
       "slug": "deanpeters-product-manager-skills-collection",
       "isCollection": true,
-      "stars": null,
+      "stars": 5576,
       "skillPaths": [
         "skills/acquisition-channel-advisor/SKILL.md",
+        "skills/agent-orchestration-advisor/SKILL.md",
         "skills/ai-shaped-readiness-advisor/SKILL.md",
         "skills/altitude-horizon-framework/SKILL.md",
         "skills/business-health-diagnostic/SKILL.md",
@@ -81,6 +82,15 @@
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/acquisition-channel-advisor/SKILL.md",
       "description": "Evaluate acquisition channels using unit economics, customer quality, and scalability. Use when deciding whether to scale, test, or kill a growth channel.",
       "slug": "deanpeters-acquisition-channel-advisor"
+    },
+    {
+      "repository": "deanpeters/Product-Manager-Skills",
+      "branch": "main",
+      "skillName": "agent-orchestration-advisor",
+      "path": "skills/agent-orchestration-advisor/SKILL.md",
+      "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/agent-orchestration-advisor/SKILL.md",
+      "description": "Design multi-agent AI workflows with clear boundaries, handoffs, and monitoring. Use when a complex PM task should run as parallel specialized agents instead of one linear process.",
+      "slug": "deanpeters-agent-orchestration-advisor"
     },
     {
       "repository": "deanpeters/Product-Manager-Skills",
@@ -560,6 +570,6 @@
       "slug": "deanpeters-workshop-facilitation"
     }
   ],
-  "itemCount": 55,
-  "lastStatus": "cache-fresh"
+  "itemCount": 56,
+  "lastStatus": "reused-unchanged"
 }

@@ -1,0 +1,125 @@
+{
+  "repository": "jihe520/MathModelAgent",
+  "branch": "main",
+  "defaultBranch": "main",
+  "pushedAt": "2026-06-30T03:02:39Z",
+  "scannedAt": "2026-07-07T09:06:42.345Z",
+  "treeSha": "be9c59c1aaa13c3dcb74452ea5cae11dada27589",
+  "items": [
+    {
+      "repository": "jihe520/MathModelAgent",
+      "branch": "main",
+      "skillName": "MathModelAgent",
+      "path": "README.md",
+      "url": "https://github.com/jihe520/MathModelAgent",
+      "description": "🤖📐专为数学建模设计的 Agent & skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatically complete mathmodel and generate a complete paper ready for submission.",
+      "slug": "jihe520-mathmodelagent-collection",
+      "isCollection": true,
+      "stars": 2503,
+      "skillPaths": [
+        "skills/_references/SKILL.md",
+        "skills/1start-mathmodel/SKILL.md",
+        "skills/2analysis-modeling/SKILL.md",
+        "skills/3coding-visual/SKILL.md",
+        "skills/4drawio/SKILL.md",
+        "skills/5writing/SKILL.md",
+        "skills/6verity/SKILL.md",
+        "skills/doctor/SKILL.md",
+        "skills/mathmodel-figure-templates/SKILL.md",
+        "skills/typst-author/SKILL.md"
+      ]
+    },
+    {
+      "repository": "jihe520/MathModelAgent",
+      "branch": "main",
+      "skillName": "_references",
+      "path": "skills/_references/SKILL.md",
+      "url": "https://github.com/jihe520/MathModelAgent/blob/main/skills/_references/SKILL.md",
+      "description": "共享规范知识库。包含数学建模竞赛的写作规范、题型防错速查、图表规范等参考内容。其他 skills 在执行过程中按需读取，无需单独触发。",
+      "slug": "jihe520-references"
+    },
+    {
+      "repository": "jihe520/MathModelAgent",
+      "branch": "main",
+      "skillName": "1start-mathmodel",
+      "path": "skills/1start-mathmodel/SKILL.md",
+      "url": "https://github.com/jihe520/MathModelAgent/blob/main/skills/1start-mathmodel/SKILL.md",
+      "description": "数学建模竞赛工作流入口。用于启动完整建模流程：询问用户偏好，生成 plan.md 和 todo.md，并按阶段调用赛题分析、建模、代码与图表、流程图、论文撰写、验证验收等 skills。",
+      "slug": "jihe520-1start-mathmodel"
+    },
+    {
+      "repository": "jihe520/MathModelAgent",
+      "branch": "main",
+      "skillName": "2analysis-modeling",
+      "path": "skills/2analysis-modeling/SKILL.md",
+      "url": "https://github.com/jihe520/MathModelAgent/blob/main/skills/2analysis-modeling/SKILL.md",
+      "description": "数学建模赛题分析与建模设计合并阶段。用于读取题面和附件，完成子问题拆解、数据理解、假设预检、变量定义、模型公式、目标函数、约束条件、求解策略和可交给代码实现的建模报告。",
+      "slug": "jihe520-2analysis-modeling"
+    },
+    {
+      "repository": "jihe520/MathModelAgent",
+      "branch": "main",
+      "skillName": "3coding-visual",
+      "path": "skills/3coding-visual/SKILL.md",
+      "url": "https://github.com/jihe520/MathModelAgent/blob/main/skills/3coding-visual/SKILL.md",
+      "description": "数学建模编程实现与数据图表生成阶段。根据 ANALYSIS_MODELING_REPORT.md 编写可复现代码、运行求解、验证约束、输出 RESULTS_REPORT.md 并生成论文可用的数据驱动图表 PDF。",
+      "slug": "jihe520-3coding-visual"
+    },
+    {
+      "repository": "jihe520/MathModelAgent",
+      "branch": "main",
+      "skillName": "4drawio",
+      "path": "skills/4drawio/SKILL.md",
+      "url": "https://github.com/jihe520/MathModelAgent/blob/main/skills/4drawio/SKILL.md",
+      "description": "数学建模非数据型图示绘制阶段。根据 ANALYSIS_MODELING_REPORT.md、RESULTS_REPORT.md 和已有 figures/ 生成技术路线图、子问题求解流程图、模型结构图、数据处理流程图等 DrawIO 图，并导出论文可引用 PDF。",
+      "slug": "jihe520-4drawio"
+    },
+    {
+      "repository": "jihe520/MathModelAgent",
+      "branch": "main",
+      "skillName": "5writing",
+      "path": "skills/5writing/SKILL.md",
+      "url": "https://github.com/jihe520/MathModelAgent/blob/main/skills/5writing/SKILL.md",
+      "description": "数学建模竞赛论文撰写阶段，支持 Typst 和 LaTeX 双引擎。根据 ANALYSIS_MODELING_REPORT.md、RESULTS_REPORT.md 和 figures/*.pdf 选择比赛模板、排版引擎、组织章节，并在论文正文中按章节直接插入图表。",
+      "slug": "jihe520-5writing"
+    },
+    {
+      "repository": "jihe520/MathModelAgent",
+      "branch": "main",
+      "skillName": "6verity",
+      "path": "skills/6verity/SKILL.md",
+      "url": "https://github.com/jihe520/MathModelAgent/blob/main/skills/6verity/SKILL.md",
+      "description": "数学建模竞赛最终验证和验收阶段，支持 Typst 和 LaTeX 双引擎。用于论文写完后检查章节数量、标题顺序、图表引用、数值一致性、占位符、内部文件泄露、参考文献、代码可复现性、编译和提交就绪状态。",
+      "slug": "jihe520-6verity"
+    },
+    {
+      "repository": "jihe520/MathModelAgent",
+      "branch": "main",
+      "skillName": "doctor",
+      "path": "skills/doctor/SKILL.md",
+      "url": "https://github.com/jihe520/MathModelAgent/blob/main/skills/doctor/SKILL.md",
+      "description": "环境检查与安装向导。检查数学建模工作流所需的全部依赖是否已安装，对缺失项提供安装命令，并在用户确认后执行安装。手动触发。",
+      "slug": "jihe520-doctor"
+    },
+    {
+      "repository": "jihe520/MathModelAgent",
+      "branch": "main",
+      "skillName": "mathmodel-figure-templates",
+      "path": "skills/mathmodel-figure-templates/SKILL.md",
+      "url": "https://github.com/jihe520/MathModelAgent/blob/main/skills/mathmodel-figure-templates/SKILL.md",
+      "description": "Use this skill in the MathModel LaTeX sandbox when the user asks to reproduce built-in scientific visualization templates, especially prompts from the Improve tab mentioning $mathmodel-figure-templates, 科研绘图模板, SHAP蜂群柱状图, 配对云雨图, 交叉验证ROC, 泰勒图, 相关矩阵组合图, 预测真实值边缘分布图, TPE调参3D曲面, 下三角相关矩阵半边小提琴图, 分组环形热图, 城市公园降温组合图, or Nature和弦图. It provides ready-to-run Python scripts bundled inside the skill.",
+      "slug": "jihe520-mathmodel-figure-templates"
+    },
+    {
+      "repository": "jihe520/MathModelAgent",
+      "branch": "main",
+      "skillName": "typst-author",
+      "path": "skills/typst-author/SKILL.md",
+      "url": "https://github.com/jihe520/MathModelAgent/blob/main/skills/typst-author/SKILL.md",
+      "description": "Generate idiomatic Typst (.typ) code, edit and troubleshoot Typst documents and projects, and answer Typst syntax/reference questions. Use when working with .typ files or when the user explicitly asks for Typst document creation, editing, debugging, compilation, formatting, template work, or package usage.",
+      "slug": "jihe520-typst-author"
+    }
+  ],
+  "itemCount": 11,
+  "lastStatus": "reused-unchanged"
+}

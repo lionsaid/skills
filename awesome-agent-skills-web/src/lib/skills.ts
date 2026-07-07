@@ -11,6 +11,7 @@ export type Skill = {
   url: string;
   description: string;
   repository?: string;
+  discoveryPath?: string;
   publisher: string;
   publisherSlug: string;
   sectionTitle: string;

@@ -14,6 +14,13 @@ type TimelineEntry = {
   body: string[];
 };
 
+type TimelineDay = {
+  date: string;
+  entries: TimelineEntry[];
+};
+
+const LOCAL_TIMELINE_DATE = "2026-07-07";
+
 const UPDATE_TRANSLATIONS: Record<
   string,
   {
@@ -164,6 +171,89 @@ function getUpdateTimeline(locale: Locale): TimelineEntry[] {
   ];
 }
 
+function getLocalTimelineEntries(locale: Locale): TimelineEntry[] {
+  if (locale === "zh-CN") {
+    return [
+      {
+        hash: "local-nav",
+        date: LOCAL_TIMELINE_DATE,
+        subject: "统一页面跳转体验",
+        body: [
+          "首页、roles、publisher、skill 详情页和相关卡片统一使用同一套 650ms 延迟跳转和顶部进度条。",
+          "移除了局部 loading 的分叉表现，避免页面切换时出现不一致的跳转反馈。",
+        ],
+      },
+      {
+        hash: "local-preview",
+        date: LOCAL_TIMELINE_DATE,
+        subject: "Skill 原文自动预览",
+        body: [
+          "详情页会自动从 GitHub 加载 SKILL.md，不需要用户先点按钮。",
+          "预览支持 repository + discoveryPath 解析，并加了会话缓存和请求去重。",
+        ],
+      },
+      {
+        hash: "local-compliance",
+        date: LOCAL_TIMELINE_DATE,
+        subject: "来源、作者、许可与联系说明",
+        body: [
+          "详情页增加来源、作者、仓库、许可状态和下架 / 纠错联系方式。",
+          "许可状态明确标记为本站索引未单独记录，避免误导用户。",
+        ],
+      },
+    ];
+  }
+
+  return [
+    {
+      hash: "local-nav",
+      date: LOCAL_TIMELINE_DATE,
+      subject: "Unified page transitions",
+      body: [
+        "Home, roles, publisher, skill detail, and related cards now share the same 650ms delayed transition with a single top progress bar.",
+        "Removed the split local loading behavior so page switches feel consistent everywhere.",
+      ],
+    },
+    {
+      hash: "local-preview",
+      date: LOCAL_TIMELINE_DATE,
+      subject: "Auto skill source preview",
+      body: [
+        "Skill detail pages now load SKILL.md from GitHub automatically, without requiring a manual click first.",
+        "The preview now supports repository + discoveryPath resolution, with session caching and request deduping.",
+      ],
+    },
+    {
+      hash: "local-compliance",
+      date: LOCAL_TIMELINE_DATE,
+      subject: "Source, author, license, and contact notes",
+      body: [
+        "Skill detail pages now show source, author, repository, license status, and takedown / correction contact details.",
+        "License status is explicitly marked as not separately recorded in this index to avoid implying certainty.",
+      ],
+    },
+  ];
+}
+
+function groupTimelineByDate(entries: TimelineEntry[]): TimelineDay[] {
+  const grouped = new Map<string, TimelineEntry[]>();
+  const order: string[] = [];
+
+  for (const entry of entries) {
+    if (!grouped.has(entry.date)) {
+      grouped.set(entry.date, []);
+      order.push(entry.date);
+    }
+
+    grouped.get(entry.date)?.push(entry);
+  }
+
+  return order.map((date) => ({
+    date,
+    entries: grouped.get(date) ?? [],
+  }));
+}
+
 export function generateMetadata(): Metadata {
   return buildMetadata({
     title: "Updates",
@@ -173,7 +263,8 @@ export function generateMetadata(): Metadata {
 }
 
 export async function UpdatesPageContent({ locale }: { locale: Locale }) {
-  const timelineEntries = getUpdateTimeline(locale);
+  const timelineEntries = [...getLocalTimelineEntries(locale), ...getUpdateTimeline(locale)];
+  const timelineDays = groupTimelineByDate(timelineEntries);
 
   return (
     <InfoPageShell
@@ -187,6 +278,14 @@ export async function UpdatesPageContent({ locale }: { locale: Locale }) {
       }
     >
       <section className="page-shell py-8 pb-18">
+        <div className="mb-8 rounded-[2rem] border border-[var(--border-soft)] bg-[var(--surface-strong)] px-6 py-5 sm:px-7">
+          <p className="text-sm leading-7 text-[var(--ink-muted)]">
+            {locale === "zh-CN"
+              ? "今天的功能更新已经放在最前面，下面的时间线继续按日期展开，保留最近一次真实提交和对应的改动明细。"
+              : "Today's functional updates are listed first, and the timeline below continues by date with the latest real commits and their details."}
+          </p>
+        </div>
+
         <div className="surface-panel relative overflow-hidden rounded-[2rem] p-6 sm:p-7 lg:p-9">
           <div className="pointer-events-none absolute inset-0">
             <div className="absolute left-[-3rem] top-10 h-40 w-40 rounded-full bg-[rgba(225,6,0,0.08)] blur-3xl" />
@@ -194,98 +293,103 @@ export async function UpdatesPageContent({ locale }: { locale: Locale }) {
           </div>
 
           <div className="relative space-y-8">
-            {timelineEntries.map((rawEntry) => {
-              const entry = localizeTimelineEntry(rawEntry, locale);
-              const notes = cleanTimelineNotes(entry.body);
-              const lead =
-                notes[0] ??
-                (locale === "zh-CN"
-                  ? "这个版本主要完成了一轮内部整理与体验修正。"
-                  : "This update focused on a round of internal cleanup and experience improvements.");
-              const details = notes.slice(1);
-
-              return (
-                <article
-                  key={`${entry.hash}-${entry.subject}`}
-                  className="grid gap-5 border-t border-[rgba(225,6,0,0.08)] pt-8 first:border-t-0 first:pt-0 lg:grid-cols-[220px_minmax(0,1fr)]"
-                >
-                  <div className="relative">
-                    <div className="sticky top-28">
-                      <div className="inline-flex items-center gap-3 rounded-full border border-[rgba(225,6,0,0.14)] bg-[rgba(255,255,255,0.78)] px-3 py-2 shadow-[0_8px_24px_rgba(56,49,36,0.06)] dark:bg-[rgba(18,18,18,0.78)]">
-                        <span className="inline-flex h-3 w-3 rounded-full bg-[var(--accent)] shadow-[0_0_0_5px_rgba(225,6,0,0.12)]" />
-                        <span className="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--ink-muted)]">
-                          {entry.date}
-                        </span>
-                      </div>
+            {timelineDays.map((day, dayIndex) => (
+              <article
+                key={day.date}
+                className="grid gap-5 border-t border-[rgba(225,6,0,0.08)] pt-8 first:border-t-0 first:pt-0 lg:grid-cols-[220px_minmax(0,1fr)]"
+              >
+                <div className="relative">
+                  <div className="sticky top-28">
+                    <div className="inline-flex items-center gap-3 rounded-full border border-[rgba(225,6,0,0.14)] bg-[rgba(255,255,255,0.78)] px-3 py-2 shadow-[0_8px_24px_rgba(56,49,36,0.06)] dark:bg-[rgba(18,18,18,0.78)]">
+                      <span className="inline-flex h-3 w-3 rounded-full bg-[var(--accent)] shadow-[0_0_0_5px_rgba(225,6,0,0.12)]" />
+                      <span className="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--ink-muted)]">
+                        {day.date}
+                      </span>
                     </div>
                   </div>
+                </div>
 
-                  <div className="relative pl-6 sm:pl-8">
-                    <div className="absolute left-0 top-1 h-full w-px bg-[linear-gradient(180deg,rgba(225,6,0,0.42),rgba(225,6,0,0.1)_70%,transparent)]" />
-                    <div className="absolute left-[-0.34rem] top-1 h-3 w-3 rounded-full border border-[rgba(225,6,0,0.24)] bg-[var(--surface)] shadow-[0_0_0_6px_rgba(225,6,0,0.08)]" />
+                <div className="relative pl-6 sm:pl-8">
+                  <div className="absolute left-0 top-1 h-full w-px bg-[linear-gradient(180deg,rgba(225,6,0,0.42),rgba(225,6,0,0.1)_70%,transparent)]" />
+                  <div className="absolute left-[-0.34rem] top-1 h-3 w-3 rounded-full border border-[rgba(225,6,0,0.24)] bg-[var(--surface)] shadow-[0_0_0_6px_rgba(225,6,0,0.08)]" />
 
-                    <div className="glass rounded-[1.7rem] border border-[rgba(225,6,0,0.08)] p-5 sm:p-6 lg:p-7">
-                      <div className="min-w-0">
-                        <div className="min-w-0">
-                          <div className="flex flex-wrap items-center gap-3">
-                            <span className="rounded-full border border-[rgba(225,6,0,0.14)] bg-[rgba(225,6,0,0.06)] px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--accent)]">
-                              {locale === "zh-CN" ? "最近更新" : "Latest"}
-                            </span>
-                            <span className="rounded-full border border-[var(--border-soft)] bg-[var(--surface-strong)] px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--ink-muted)]">
-                              #{entry.hash}
-                            </span>
-                            <span className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--ink-muted)]">
-                              {locale === "zh-CN" ? "日期" : "Date"} {entry.date}
-                            </span>
+                  <div className="space-y-5">
+                    {day.entries.map((rawEntry) => {
+                      const entry = localizeTimelineEntry(rawEntry, locale);
+                      const notes = cleanTimelineNotes(entry.body);
+                      const lead =
+                        notes[0] ??
+                        (locale === "zh-CN"
+                          ? "这个版本主要完成了一轮内部整理与体验修正。"
+                          : "This update focused on a round of internal cleanup and experience improvements.");
+                      const details = notes.slice(1);
+
+                      return (
+                        <div
+                          key={`${entry.hash}-${entry.subject}`}
+                          className="glass rounded-[1.7rem] border border-[rgba(225,6,0,0.08)] p-5 sm:p-6 lg:p-7"
+                        >
+                          <div className="min-w-0">
+                            <div className="flex flex-wrap items-center gap-3">
+                              <span className="rounded-full border border-[rgba(225,6,0,0.14)] bg-[rgba(225,6,0,0.06)] px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--accent)]">
+                                {locale === "zh-CN" ? "最近更新" : "Latest"}
+                              </span>
+                              <span className="rounded-full border border-[var(--border-soft)] bg-[var(--surface-strong)] px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--ink-muted)]">
+                                #{entry.hash}
+                              </span>
+                              <span className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--ink-muted)]">
+                                {locale === "zh-CN" ? "日期" : "Date"} {entry.date}
+                              </span>
+                            </div>
+
+                            <h2 className="mt-4 max-w-3xl text-2xl font-semibold tracking-[-0.03em] sm:text-[2rem]">
+                              {entry.subject}
+                            </h2>
+
+                            <p className="mt-4 max-w-3xl text-base leading-7 text-[var(--foreground)] sm:text-[1.05rem]">
+                              {lead}
+                            </p>
                           </div>
 
-                          <h2 className="mt-4 max-w-3xl text-2xl font-semibold tracking-[-0.03em] sm:text-[2rem]">
-                            {entry.subject}
-                          </h2>
+                          <div className="mt-6 rounded-[1.45rem] border border-[var(--border-soft)] bg-[rgba(255,255,255,0.58)] p-4 dark:bg-[rgba(18,18,18,0.5)] sm:p-5">
+                            <div className="flex items-center gap-2">
+                              <span className="inline-flex h-2.5 w-2.5 rounded-full bg-[var(--accent)]" />
+                              <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--ink-muted)]">
+                                {locale === "zh-CN" ? "这次有什么变化" : "What changed"}
+                              </p>
+                            </div>
 
-                          <p className="mt-4 max-w-3xl text-base leading-7 text-[var(--foreground)] sm:text-[1.05rem]">
-                            {lead}
-                          </p>
+                            {details.length > 0 ? (
+                              <ul className="mt-4 space-y-3">
+                                {details.map((bullet, index) => (
+                                  <li
+                                    key={`${entry.hash}-${index}`}
+                                    className="grid grid-cols-[auto_minmax(0,1fr)] items-start gap-3 rounded-[1rem] border border-[rgba(225,6,0,0.08)] bg-[var(--surface)] px-4 py-3"
+                                  >
+                                    <span className="mt-1 inline-flex h-6 w-6 items-center justify-center rounded-full bg-[rgba(225,6,0,0.08)] text-[11px] font-semibold text-[var(--accent)]">
+                                      {String(index + 1).padStart(2, "0")}
+                                    </span>
+                                    <span className="text-sm leading-6 text-[var(--foreground)]">
+                                      {bullet}
+                                    </span>
+                                  </li>
+                                ))}
+                              </ul>
+                            ) : (
+                              <p className="mt-4 text-sm leading-6 text-[var(--ink-muted)]">
+                                {locale === "zh-CN"
+                                  ? "这一条提交没有更多拆分说明。"
+                                  : "This entry did not include a longer breakdown."}
+                              </p>
+                            )}
+                          </div>
                         </div>
-                      </div>
-
-                      <div className="mt-6 rounded-[1.45rem] border border-[var(--border-soft)] bg-[rgba(255,255,255,0.58)] p-4 dark:bg-[rgba(18,18,18,0.5)] sm:p-5">
-                        <div className="flex items-center gap-2">
-                          <span className="inline-flex h-2.5 w-2.5 rounded-full bg-[var(--accent)]" />
-                          <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--ink-muted)]">
-                            {locale === "zh-CN" ? "这次有什么变化" : "What changed"}
-                          </p>
-                        </div>
-
-                        {details.length > 0 ? (
-                          <ul className="mt-4 space-y-3">
-                            {details.map((bullet, index) => (
-                              <li
-                                key={`${entry.hash}-${index}`}
-                                className="grid grid-cols-[auto_minmax(0,1fr)] items-start gap-3 rounded-[1rem] border border-[rgba(225,6,0,0.08)] bg-[var(--surface)] px-4 py-3"
-                              >
-                                <span className="mt-1 inline-flex h-6 w-6 items-center justify-center rounded-full bg-[rgba(225,6,0,0.08)] text-[11px] font-semibold text-[var(--accent)]">
-                                  {String(index + 1).padStart(2, "0")}
-                                </span>
-                                <span className="text-sm leading-6 text-[var(--foreground)]">
-                                  {bullet}
-                                </span>
-                              </li>
-                            ))}
-                          </ul>
-                        ) : (
-                          <p className="mt-4 text-sm leading-6 text-[var(--ink-muted)]">
-                            {locale === "zh-CN"
-                              ? "这一条提交没有更多拆分说明。"
-                              : "This entry did not include a longer breakdown."}
-                          </p>
-                        )}
-                      </div>
-                    </div>
+                      );
+                    })}
                   </div>
-                </article>
-              );
-            })}
+                </div>
+              </article>
+            ))}
           </div>
         </div>
       </section>

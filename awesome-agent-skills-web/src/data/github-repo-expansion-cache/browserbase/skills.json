@@ -1,0 +1,196 @@
+{
+  "repository": "browserbase/skills",
+  "branch": "main",
+  "defaultBranch": "main",
+  "pushedAt": "2026-07-07T05:49:56Z",
+  "scannedAt": "2026-07-07T09:06:01.698Z",
+  "treeSha": "d919e311d6ce8d8b3daa5f33853e67e43a545b9a",
+  "items": [
+    {
+      "repository": "browserbase/skills",
+      "branch": "main",
+      "skillName": "skills",
+      "path": "README.md",
+      "url": "https://github.com/browserbase/skills",
+      "description": "Browserbase's official collection of agent skills to access the web.",
+      "slug": "browserbase-skills-collection",
+      "isCollection": true,
+      "stars": 3630,
+      "skillPaths": [
+        "skills/agent-experience/SKILL.md",
+        "skills/autobrowse/SKILL.md",
+        "skills/browser-to-api/SKILL.md",
+        "skills/browser-trace/SKILL.md",
+        "skills/browser-use-to-stagehand/SKILL.md",
+        "skills/browser/SKILL.md",
+        "skills/browserbase-cli/SKILL.md",
+        "skills/company-research/SKILL.md",
+        "skills/competitor-analysis/SKILL.md",
+        "skills/cookie-sync/SKILL.md",
+        "skills/event-prospecting/SKILL.md",
+        "skills/fetch/SKILL.md",
+        "skills/functions/SKILL.md",
+        "skills/safe-browser/SKILL.md",
+        "skills/search/SKILL.md",
+        "skills/ui-test/SKILL.md",
+        "skills/webmcp-gen/SKILL.md"
+      ]
+    },
+    {
+      "repository": "browserbase/skills",
+      "branch": "main",
+      "skillName": "agent-experience",
+      "path": "skills/agent-experience/SKILL.md",
+      "url": "https://github.com/browserbase/skills/blob/main/skills/agent-experience/SKILL.md",
+      "description": "Audit the developer experience of a product, SDK, docs site, or SKILL.md by dropping multiple Claude subagents at it with only a tiny task prompt and real tools (WebFetch, Bash, Write). Agents must discover the docs themselves, install deps, ask for credentials if needed, and attempt real execution. The skill captures each agent's trace — tool calls, retries, wall time, errors — and scores on Setup Friction, Speed, Efficiency, Error Recovery, and Doc Quality, then emits an HTML report with an A–F grade and concrete fixes. Use when the user asks to audit agent experience, test a skill, audit docs for agents, check if a SDK is agent-friendly, validate a SKILL.md, measure agent DX, or benchmark how painful onboarding is for an AI agent. Triggers: 'audit agent experience', 'test this skill', 'audit docs for agents', 'is my SDK agent-friendly', 'run a DX audit', 'agent experience test', 'test",
+      "slug": "browserbase-agent-experience"
+    },
+    {
+      "repository": "browserbase/skills",
+      "branch": "main",
+      "skillName": "autobrowse",
+      "path": "skills/autobrowse/SKILL.md",
+      "url": "https://github.com/browserbase/skills/blob/main/skills/autobrowse/SKILL.md",
+      "description": "Self-improving browser automation via the auto-research loop. Iteratively runs a browsing task, reads the trace, and improves the navigation skill (strategy.md) until it reliably passes. Supports parallel runs across multiple tasks using sub-agents. Use when you want to build or improve browser automation skills for specific website tasks.",
+      "slug": "browserbase-autobrowse"
+    },
+    {
+      "repository": "browserbase/skills",
+      "branch": "main",
+      "skillName": "browser-to-api",
+      "path": "skills/browser-to-api/SKILL.md",
+      "url": "https://github.com/browserbase/skills/blob/main/skills/browser-to-api/SKILL.md",
+      "description": "Turn a website's observable HTTP traffic into a best-effort OpenAPI 3.1 spec by analyzing a `browser-trace` capture. Use when the user wants to discover/extract API endpoints from a browser session, build an OpenAPI doc from network traffic, or document a third-party site's XHR/fetch surface for client integration.",
+      "slug": "browserbase-browser-to-api"
+    },
+    {
+      "repository": "browserbase/skills",
+      "branch": "main",
+      "skillName": "browser-trace",
+      "path": "skills/browser-trace/SKILL.md",
+      "url": "https://github.com/browserbase/skills/blob/main/skills/browser-trace/SKILL.md",
+      "description": "Capture a full DevTools-protocol trace of any browser automation — CDP firehose, screenshots, and DOM dumps — then bisect the stream into per-page searchable buckets. Use when the user wants to debug a failed run, audit network/console/DOM activity, attach a trace to an in-progress session, or feed structured per-page summaries back into an agent loop so its next iteration learns from the last one.",
+      "slug": "browserbase-browser-trace"
+    },
+    {
+      "repository": "browserbase/skills",
+      "branch": "main",
+      "skillName": "browser-use-to-stagehand",
+      "path": "skills/browser-use-to-stagehand/SKILL.md",
+      "url": "https://github.com/browserbase/skills/blob/main/skills/browser-use-to-stagehand/SKILL.md",
+      "description": "Migrate browser-use (Python) browser-automation scripts to Stagehand v3 (TypeScript) on Browserbase. Use when the user wants to convert, port, rewrite, or migrate a browser-use Agent script to Stagehand, map browser-use features/APIs to Stagehand primitives (act/extract/observe/agent), or move agentic browser automation onto Browserbase with more determinism. Triggers on \"browser-use\", \"browser_use\", or \"Agent(task=...)\".",
+      "slug": "browserbase-browser-use-to-stagehand"
+    },
+    {
+      "repository": "browserbase/skills",
+      "branch": "main",
+      "skillName": "browser",
+      "path": "skills/browser/SKILL.md",
+      "url": "https://github.com/browserbase/skills/blob/main/skills/browser/SKILL.md",
+      "description": "Automate web browser interactions using natural language via CLI commands. Use when the user asks to browse websites, navigate web pages, extract data from websites, take screenshots, fill forms, click buttons, or interact with web applications. Supports remote Browserbase sessions with Browserbase Identity, Verified browsers, automatic CAPTCHA solving, and residential proxies — ideal for protected websites and JavaScript-heavy pages.",
+      "slug": "browserbase-browser"
+    },
+    {
+      "repository": "browserbase/skills",
+      "branch": "main",
+      "skillName": "browserbase-cli",
+      "path": "skills/browserbase-cli/SKILL.md",
+      "url": "https://github.com/browserbase/skills/blob/main/skills/browserbase-cli/SKILL.md",
+      "description": "Use the Browserbase CLI (`browse`) for Browserbase Functions and platform API workflows. Use when the user asks to run `browse`, deploy or invoke functions, manage sessions, projects, contexts, or extensions, fetch a page through the Browserbase Fetch API, search the web through the Browserbase Search API, or scaffold starter templates. Prefer the Browser skill for interactive browsing; use the top-level `browse` driver commands (`browse open`, `browse get`, etc.) only when the user explicitly wants the CLI path.",
+      "slug": "browserbase-browserbase-cli"
+    },
+    {
+      "repository": "browserbase/skills",
+      "branch": "main",
+      "skillName": "company-research",
+      "path": "skills/company-research/SKILL.md",
+      "url": "https://github.com/browserbase/skills/blob/main/skills/company-research/SKILL.md",
+      "description": "|",
+      "slug": "browserbase-company-research"
+    },
+    {
+      "repository": "browserbase/skills",
+      "branch": "main",
+      "skillName": "competitor-analysis",
+      "path": "skills/competitor-analysis/SKILL.md",
+      "url": "https://github.com/browserbase/skills/blob/main/skills/competitor-analysis/SKILL.md",
+      "description": "|",
+      "slug": "browserbase-competitor-analysis"
+    },
+    {
+      "repository": "browserbase/skills",
+      "branch": "main",
+      "skillName": "cookie-sync",
+      "path": "skills/cookie-sync/SKILL.md",
+      "url": "https://github.com/browserbase/skills/blob/main/skills/cookie-sync/SKILL.md",
+      "description": "Sync cookies from local Chrome to a Browserbase persistent context so the browse CLI can access authenticated sites. Use when the user wants to browse as themselves, sync cookies, or log into sites via Browserbase.",
+      "slug": "browserbase-cookie-sync"
+    },
+    {
+      "repository": "browserbase/skills",
+      "branch": "main",
+      "skillName": "event-prospecting",
+      "path": "skills/event-prospecting/SKILL.md",
+      "url": "https://github.com/browserbase/skills/blob/main/skills/event-prospecting/SKILL.md",
+      "description": "|",
+      "slug": "browserbase-event-prospecting"
+    },
+    {
+      "repository": "browserbase/skills",
+      "branch": "main",
+      "skillName": "fetch",
+      "path": "skills/fetch/SKILL.md",
+      "url": "https://github.com/browserbase/skills/blob/main/skills/fetch/SKILL.md",
+      "description": "Use this skill when the user wants to retrieve a URL without a full browser session: fetch HTML or JSON from static pages, inspect status codes or headers, follow redirects, or get page source for simple scraping. Prefer it over a browser when JavaScript rendering and page interaction are not needed. Supports proxies and redirect control.",
+      "slug": "browserbase-fetch"
+    },
+    {
+      "repository": "browserbase/skills",
+      "branch": "main",
+      "skillName": "functions",
+      "path": "skills/functions/SKILL.md",
+      "url": "https://github.com/browserbase/skills/blob/main/skills/functions/SKILL.md",
+      "description": "Deploy serverless browser automation as cloud functions using Browserbase. Use when the user wants to deploy browser automation to run on a schedule or cron, create a webhook endpoint for browser tasks, run automation in the cloud instead of locally, or asks about Browserbase Functions.",
+      "slug": "browserbase-functions"
+    },
+    {
+      "repository": "browserbase/skills",
+      "branch": "main",
+      "skillName": "safe-browser",
+      "path": "skills/safe-browser/SKILL.md",
+      "url": "https://github.com/browserbase/skills/blob/main/skills/safe-browser/SKILL.md",
+      "description": "Build local constrained-browser agents with a safe_browser tool that owns CDP, enforces a domain allowlist with Fetch interception, and lets a runtime Claude Agent SDK agent complete browsing tasks without raw browser, shell, or CDP access. Use when the user wants an agent to browse or scrape while staying on approved domains, demo blocked off-domain navigation, or generate a safe browser client.",
+      "slug": "browserbase-safe-browser"
+    },
+    {
+      "repository": "browserbase/skills",
+      "branch": "main",
+      "skillName": "search",
+      "path": "skills/search/SKILL.md",
+      "url": "https://github.com/browserbase/skills/blob/main/skills/search/SKILL.md",
+      "description": "Use this skill when the user wants to search the web without a full browser session: find URLs, titles, and metadata for a query. Prefer it over a browser when you just need search results, not page content. Returns structured results with titles, URLs, authors, and dates.",
+      "slug": "browserbase-search"
+    },
+    {
+      "repository": "browserbase/skills",
+      "branch": "main",
+      "skillName": "ui-test",
+      "path": "skills/ui-test/SKILL.md",
+      "url": "https://github.com/browserbase/skills/blob/main/skills/ui-test/SKILL.md",
+      "description": "AI-powered adversarial UI testing via the browse CLI. Analyzes git diffs to test only what changed, or explores the full app to find bugs. Tests functional correctness, accessibility, responsive layout, and UX heuristics. Use when the user asks to test UI changes, QA a pull request, audit accessibility, or run exploratory testing. Supports local browser (localhost) and remote Browserbase (deployed sites).",
+      "slug": "browserbase-ui-test"
+    },
+    {
+      "repository": "browserbase/skills",
+      "branch": "main",
+      "skillName": "webmcp-gen",
+      "path": "skills/webmcp-gen/SKILL.md",
+      "url": "https://github.com/browserbase/skills/blob/main/skills/webmcp-gen/SKILL.md",
+      "description": "Create, compile, and validate site-specific WebMCP init scripts from a target URL and desired tool capability. Use when the user wants to author WebMCP tools for a website, produce a webmcp.init.js artifact, or test WebMCP registration and invocation through Stagehand.",
+      "slug": "browserbase-webmcp-gen"
+    }
+  ],
+  "itemCount": 18,
+  "publicSkillCount": 17,
+  "lastStatus": "scanned"
+}

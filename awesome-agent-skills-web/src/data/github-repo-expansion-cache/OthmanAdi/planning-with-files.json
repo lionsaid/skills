@@ -1,0 +1,86 @@
+{
+  "repository": "OthmanAdi/planning-with-files",
+  "branch": "master",
+  "defaultBranch": "master",
+  "pushedAt": "2026-07-07T05:32:36Z",
+  "scannedAt": "2026-07-07T09:04:23.881Z",
+  "treeSha": "fbc562f5f4da68a36aca06c667a69229e2740665",
+  "items": [
+    {
+      "repository": "OthmanAdi/planning-with-files",
+      "branch": "master",
+      "skillName": "planning-with-files",
+      "path": "README.md",
+      "url": "https://github.com/OthmanAdi/planning-with-files",
+      "description": "Persistent file-based planning for AI coding agents and long-running agentic tasks. Crash-proof markdown plans that survive context loss and /clear, plus a deterministic completion gate and multi-agent shared state on disk. Manus-style. Works with Claude Code, Codex CLI, Cursor, Kiro, OpenCode and 60+ agents via the SKILL.md standard.",
+      "slug": "othmanadi-planning-with-files-collection",
+      "isCollection": true,
+      "stars": 24965,
+      "skillPaths": [
+        "skills/planning-with-files-ar/SKILL.md",
+        "skills/planning-with-files-de/SKILL.md",
+        "skills/planning-with-files-es/SKILL.md",
+        "skills/planning-with-files-zh/SKILL.md",
+        "skills/planning-with-files-zht/SKILL.md",
+        "skills/planning-with-files/SKILL.md"
+      ]
+    },
+    {
+      "repository": "OthmanAdi/planning-with-files",
+      "branch": "master",
+      "skillName": "planning-with-files-ar",
+      "path": "skills/planning-with-files-ar/SKILL.md",
+      "url": "https://github.com/OthmanAdi/planning-with-files/blob/master/skills/planning-with-files-ar/SKILL.md",
+      "description": "نظام تخطيط الملفات بنمط Manus لتنظيم وتتبع تقدم المهام المعقدة. ينشئ ملفات task_plan.md و findings.md و progress.md. يُستخدم عند طلب التخطيط أو تحليل المهام أو تنظيم المشاريع أو تتبع التقدم أو الخطط متعددة الخطوات. يدعم الاستعادة التلقائية للجلسة بعد /clear. كلمات التشغيل: تخطيط المهام، إدارة المشاريع، خطة العمل، تحليل المهام، تنظيم المشروع، تتبع التقدم، خطة متعددة الخطوات، ساعدني في التخطيط، تحليل المشروع",
+      "slug": "othmanadi-planning-with-files-ar"
+    },
+    {
+      "repository": "OthmanAdi/planning-with-files",
+      "branch": "master",
+      "skillName": "planning-with-files-de",
+      "path": "skills/planning-with-files-de/SKILL.md",
+      "url": "https://github.com/OthmanAdi/planning-with-files/blob/master/skills/planning-with-files-de/SKILL.md",
+      "description": "Manus-artiges Dateiplanungssystem zur Organisation und Verfolgung des Fortschritts komplexer Aufgaben. Erstellt task_plan.md, findings.md und progress.md. Wird verwendet, wenn der Benutzer plant, zerlegt oder organisiert: mehrstufige Projekte, Forschungsaufgaben oder Arbeiten mit über 5 Tool-Aufrufen. Unterstützt automatische Sitzungswiederherstellung nach /clear. Auslöser: Aufgabenplanung, Projektplanung, Arbeitsplan erstellen, Aufgaben analysieren, Projekt organisieren, Fortschritt verfolgen, Mehrstufige Planung, Hilf mir bei der Planung, Projekt zerlegen",
+      "slug": "othmanadi-planning-with-files-de"
+    },
+    {
+      "repository": "OthmanAdi/planning-with-files",
+      "branch": "master",
+      "skillName": "planning-with-files-es",
+      "path": "skills/planning-with-files-es/SKILL.md",
+      "url": "https://github.com/OthmanAdi/planning-with-files/blob/master/skills/planning-with-files-es/SKILL.md",
+      "description": "Sistema de planificación basado en archivos estilo Manus para organizar y rastrear el progreso de tareas complejas. Crea task_plan.md, findings.md y progress.md. Cuando el usuario solicita planificación, desglose u organización de proyectos multipaso, tareas de investigación o trabajos que requieren más de 5 llamadas a herramientas. Soporta recuperación automática de sesión tras /clear. Palabras clave: planificación de tareas, planificación de proyecto, crear plan de trabajo, analizar tareas, organizar proyecto, seguimiento de progreso, planificación multipaso, ayúdame a planificar, desglosar proyecto",
+      "slug": "othmanadi-planning-with-files-es"
+    },
+    {
+      "repository": "OthmanAdi/planning-with-files",
+      "branch": "master",
+      "skillName": "planning-with-files-zh",
+      "path": "skills/planning-with-files-zh/SKILL.md",
+      "url": "https://github.com/OthmanAdi/planning-with-files/blob/master/skills/planning-with-files-zh/SKILL.md",
+      "description": "基于 Manus 风格的文件规划系统，用于组织和跟踪复杂任务的进度。创建 task_plan.md、findings.md 和 progress.md 三个文件。当用户要求规划、拆解或组织多步骤项目、研究任务或需要超过5次工具调用的工作时使用。支持 /clear 后的自动会话恢复。触发词：任务规划、项目计划、制定计划、分解任务、多步骤规划、进度跟踪、文件规划、帮我规划、拆解项目",
+      "slug": "othmanadi-planning-with-files-zh"
+    },
+    {
+      "repository": "OthmanAdi/planning-with-files",
+      "branch": "master",
+      "skillName": "planning-with-files-zht",
+      "path": "skills/planning-with-files-zht/SKILL.md",
+      "url": "https://github.com/OthmanAdi/planning-with-files/blob/master/skills/planning-with-files-zht/SKILL.md",
+      "description": "基於 Manus 風格的檔案規劃系統，用於組織和追蹤複雜任務的進度。建立 task_plan.md、findings.md 和 progress.md 三個檔案。當使用者要求規劃、拆解或組織多步驟專案、研究任務或需要超過5次工具呼叫的工作時使用。支援 /clear 後的自動會話恢復。觸發詞：任務規劃、專案計畫、制定計畫、分解任務、多步驟規劃、進度追蹤、檔案規劃、幫我規劃、拆解專案",
+      "slug": "othmanadi-planning-with-files-zht"
+    },
+    {
+      "repository": "OthmanAdi/planning-with-files",
+      "branch": "master",
+      "skillName": "planning-with-files",
+      "path": "skills/planning-with-files/SKILL.md",
+      "url": "https://github.com/OthmanAdi/planning-with-files/blob/master/skills/planning-with-files/SKILL.md",
+      "description": "Manus-style persistent file-based planning for AI coding agents: keeps task_plan.md, findings.md, and progress.md on disk so work survives context loss and /clear. Use when asked to plan out, break down, or organize a multi-step project, research task, or any work requiring 5+ tool calls. Supports automatic session recovery after /clear.",
+      "slug": "othmanadi-planning-with-files"
+    }
+  ],
+  "itemCount": 7,
+  "publicSkillCount": 6,
+  "lastStatus": "scanned"
+}

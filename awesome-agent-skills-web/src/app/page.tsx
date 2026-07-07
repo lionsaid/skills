@@ -1,12 +1,12 @@
 import { existsSync } from "node:fs";
 import path from "node:path";
-import Link from "next/link";
+import { DelayedRouteLink, DelayedSkillLink } from "@/components/delayed-skill-link";
 import { PublisherLogo } from "@/components/publisher-logo";
 import { PublisherLogoMarquee } from "@/components/publisher-logo-marquee";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { getFeaturedSkills, getPublishers, getRoles, getStats, getTrustLevelLabel } from "@/lib/skills";
-import { getCopy, getSkillDetailPath, prefixLocalePath, type Locale } from "@/lib/i18n";
+import { getCopy, prefixLocalePath, type Locale } from "@/lib/i18n";
 import { getRequestLocale } from "@/lib/request-locale";
 import { buildMetadata, getLocalizedDescription } from "@/lib/seo";
 import type { Metadata } from "next";
@@ -195,13 +195,13 @@ export async function HomePage({ locale }: PageProps) {
 
             <div className="mt-6 flex flex-wrap gap-2">
               {quickStarts.map((item) => (
-                <Link
+                <DelayedRouteLink
                   key={item.label}
                   className="rounded-full border border-[var(--border-soft)] bg-[var(--surface-strong)] px-4 py-2 text-sm font-medium text-[var(--foreground)] transition hover:bg-[var(--surface)]"
                   href={item.href}
                 >
                   {item.label}
-                </Link>
+                </DelayedRouteLink>
               ))}
             </div>
 
@@ -307,9 +307,9 @@ export async function HomePage({ locale }: PageProps) {
               {locale === "zh-CN" ? "先从更容易找到结果的入口开始。" : "Start from the paths that usually get you results faster."}
             </h2>
           </div>
-          <Link className="action-secondary inline-flex items-center justify-center rounded-full border px-4 py-2 text-sm font-semibold transition" href={prefixLocalePath("/skills", locale)}>
+          <DelayedRouteLink className="action-secondary inline-flex items-center justify-center rounded-full border px-4 py-2 text-sm font-semibold transition" href={prefixLocalePath("/skills", locale)}>
             {locale === "zh-CN" ? "查看全部" : "See all skills"}
-          </Link>
+          </DelayedRouteLink>
         </div>
 
             <div className="mt-8 grid gap-4 lg:grid-cols-2 xl:grid-cols-4">
@@ -355,7 +355,7 @@ export async function HomePage({ locale }: PageProps) {
                   slug: "googleworkspace",
                 },
           ].map((item) => (
-            <Link
+            <DelayedRouteLink
               key={item.title}
               className="homepage-entry-card group flex min-h-[260px] flex-col justify-between rounded-[1.8rem] border border-[var(--panel-outline)] bg-[var(--surface-strong)] p-6 transition hover:-translate-y-0.5 hover:border-[var(--accent-soft)] hover:shadow-[0_24px_54px_rgba(56,49,36,0.12)]"
               href={item.href}
@@ -371,16 +371,16 @@ export async function HomePage({ locale }: PageProps) {
                   <PublisherLogo name={item.title} size="sm" slug={item.slug} />
                 </div>
               </div>
-              <p className="mt-5 max-w-[32ch] text-sm leading-7 text-[var(--panel-muted)]">
+              <p className="mt-4 max-w-[32ch] text-sm leading-7 text-[var(--panel-muted)]">
                 {item.body}
               </p>
-              <div className="mt-8 flex items-center justify-between gap-3 border-t border-[var(--panel-outline)] pt-4">
+              <div className="mt-6 flex items-center justify-between gap-3 border-t border-[var(--panel-outline)] pt-4">
                 <span className="text-sm font-medium text-[var(--accent)]">
                   {locale === "zh-CN" ? "打开入口" : "Open entry"}
                 </span>
                 <span className="text-sm text-[var(--panel-muted)]">→</span>
               </div>
-            </Link>
+            </DelayedRouteLink>
           ))}
         </div>
 
@@ -402,7 +402,7 @@ export async function HomePage({ locale }: PageProps) {
           <div className="mt-7 border-t border-[var(--panel-outline)] pt-6">
             <div className="grid gap-3 md:grid-cols-2">
               {roles.slice(0, 6).map((role) => (
-                <Link
+                <DelayedRouteLink
                   key={role.slug}
                   className="group flex items-start gap-4 rounded-[1.2rem] border border-transparent px-4 py-4 transition hover:border-[var(--panel-outline)] hover:bg-[var(--surface-strong)]"
                   href={prefixLocalePath(`/roles/${role.slug}`, locale)}
@@ -430,14 +430,14 @@ export async function HomePage({ locale }: PageProps) {
                       ))}
                     </div>
                   </div>
-                </Link>
+                </DelayedRouteLink>
               ))}
             </div>
 
             <div className="mt-5 flex justify-end">
-              <Link className="action-secondary inline-flex items-center justify-center rounded-full border px-4 py-2 text-sm font-semibold transition" href={prefixLocalePath("/roles", locale)}>
+              <DelayedRouteLink className="action-secondary inline-flex items-center justify-center rounded-full border px-4 py-2 text-sm font-semibold transition" href={prefixLocalePath("/roles", locale)}>
                 {locale === "zh-CN" ? "查看全部角色" : "See all roles"}
-              </Link>
+              </DelayedRouteLink>
             </div>
           </div>
         </div>
@@ -455,7 +455,7 @@ export async function HomePage({ locale }: PageProps) {
 
             <div className="mt-8 grid gap-3 lg:grid-cols-2">
               {taskCards.map((task, index) => (
-                <Link
+                <DelayedRouteLink
                   key={task.label}
                   className="homepage-task-strip group flex items-start gap-4 rounded-[1.45rem] p-4 sm:p-5"
                   href={task.href}
@@ -468,7 +468,7 @@ export async function HomePage({ locale }: PageProps) {
                     </div>
                     <p className="homepage-task-copy mt-2 text-sm leading-6">{task.summary}</p>
                   </div>
-                </Link>
+                </DelayedRouteLink>
               ))}
             </div>
 
@@ -478,9 +478,9 @@ export async function HomePage({ locale }: PageProps) {
                   ? "如果你已经知道目标，直接搜索会更快。"
                   : "If you already know the goal, search is still the fastest path."}
               </p>
-              <Link className="homepage-dark-cta shrink-0" href={prefixLocalePath("/skills", locale)}>
+              <DelayedRouteLink className="homepage-dark-cta shrink-0" href={prefixLocalePath("/skills", locale)}>
                 {locale === "zh-CN" ? "查看全部" : "See all skills"}
-              </Link>
+              </DelayedRouteLink>
             </div>
           </div>
       </section>
@@ -509,14 +509,14 @@ export async function HomePage({ locale }: PageProps) {
                       : "lg:col-span-4"
                 }`}
               >
-                <Link
+                <DelayedSkillLink
                   className={`group relative block h-full overflow-hidden rounded-[2rem] ${
                     index === 0 ? "homepage-feature-hero p-7 lg:p-8" : "homepage-feature-card p-6"
                   } ${
                     index === 0 ? "min-h-[520px] lg:p-8" : "min-h-[240px]"
                   }`}
-                  href={prefixLocalePath(getSkillDetailPath(skill.slug, locale), locale)}
-                  prefetch={false}
+                  locale={locale}
+                  skillSlug={skill.slug}
                 >
                   <div className="homepage-card-glow absolute -right-10 -top-10 h-36 w-36 rounded-full opacity-80" />
                   <div className="homepage-card-glow-secondary absolute bottom-[-3rem] left-[-1rem] h-28 w-28 rounded-full opacity-65" />
@@ -560,7 +560,7 @@ export async function HomePage({ locale }: PageProps) {
                       </div>
                     </div>
                   </div>
-                </Link>
+                </DelayedSkillLink>
               </div>
             ))}
           </div>
@@ -580,15 +580,15 @@ export async function HomePage({ locale }: PageProps) {
                 : "Many people start from the company or platform they already trust."}
             </p>
           </div>
-          <Link className="action-secondary inline-flex items-center justify-center rounded-full border px-4 py-2 text-sm font-semibold transition" href={prefixLocalePath("/skills", locale)}>
-            {locale === "zh-CN" ? "查看全部" : "See all skills"}
-          </Link>
+              <DelayedRouteLink className="action-secondary inline-flex items-center justify-center rounded-full border px-4 py-2 text-sm font-semibold transition" href={prefixLocalePath("/skills", locale)}>
+                {locale === "zh-CN" ? "查看全部" : "See all skills"}
+              </DelayedRouteLink>
         </div>
         <div className="mt-8 grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
           {ecosystemPublishers.map((publisher) => (
-            <Link
+              <DelayedRouteLink
               key={publisher.slug}
-              className="homepage-entry-card flex min-h-[160px] flex-col justify-between rounded-[1.55rem] border border-[var(--panel-outline)] bg-[var(--surface-strong)] p-5 transition hover:-translate-y-0.5 hover:border-[var(--accent-soft)] hover:shadow-[0_24px_54px_rgba(56,49,36,0.12)]"
+              className="homepage-entry-card flex min-h-[144px] flex-col justify-between rounded-[1.55rem] border border-[var(--panel-outline)] bg-[var(--surface-strong)] p-4 transition hover:-translate-y-0.5 hover:border-[var(--accent-soft)] hover:shadow-[0_24px_54px_rgba(56,49,36,0.12)]"
               href={prefixLocalePath(`/skills?publisher=${publisher.slug}`, locale)}
             >
               <div>
@@ -598,11 +598,20 @@ export async function HomePage({ locale }: PageProps) {
                 <div className="mt-4">
                   <PublisherLogo name={publisher.name} size="sm" slug={publisher.slug} />
                 </div>
+                <p className="mt-4 text-sm leading-6 text-[var(--panel-muted)]">
+                  {publisher.kind === "official"
+                    ? locale === "zh-CN"
+                      ? "官方维护，优先看这里。"
+                      : "Officially maintained, worth starting with."
+                    : locale === "zh-CN"
+                      ? "社区整理，覆盖更广。"
+                      : "Community maintained, broader coverage."}
+                </p>
               </div>
               <span className="homepage-inline-link">
                 {locale === "zh-CN" ? "进入生态" : "Open ecosystem"}
               </span>
-            </Link>
+            </DelayedRouteLink>
           ))}
         </div>
       </section>

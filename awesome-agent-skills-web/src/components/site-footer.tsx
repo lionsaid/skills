@@ -1,5 +1,5 @@
-import Link from "next/link";
 import { CookieSettingsButton } from "@/components/cookie-settings-button";
+import { DelayedRouteLink } from "@/components/delayed-skill-link";
 import { prefixLocalePath, type Locale } from "@/lib/i18n";
 
 const footerColumns = [
@@ -119,29 +119,29 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
             </p>
 
             <div className="mt-8 flex flex-wrap gap-3">
-              <Link
+              <DelayedRouteLink
                 className="action-primary inline-flex min-w-[10rem] items-center justify-center whitespace-nowrap rounded-full border px-5 py-3 text-sm font-semibold transition"
                 href={localize("/skills")}
               >
                 {locale === "zh-CN" ? "开始找 skill" : "Search skills"}
-              </Link>
-              <Link
+              </DelayedRouteLink>
+              <DelayedRouteLink
                 className="action-secondary inline-flex min-w-[10rem] items-center justify-center whitespace-nowrap rounded-full border px-5 py-3 text-sm font-semibold transition"
                 href={localize("/skills?sort=featured")}
               >
                 {locale === "zh-CN" ? "看看精选 skill" : "See featured skills"}
-              </Link>
+              </DelayedRouteLink>
             </div>
           </div>
         </div>
 
-        <div className="mt-14 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+        <div className="mt-14 grid justify-items-start gap-6 md:grid-cols-2 xl:grid-cols-3">
           {footerColumns.map((column) => (
-            <div key={column.title} className="footer-rule border-t pt-6">
+            <div key={column.title} className="footer-rule w-full border-t pt-6 text-left">
               <p className="eyebrow text-[color:var(--footer-muted)]">
                 {translateFooterTitle(locale, column.title)}
               </p>
-              <div className="mt-4 grid gap-3">
+              <div className="mt-4 grid justify-items-start gap-3">
                 {column.items.map((item) =>
                   item.href.startsWith("http") ? (
                     <a
@@ -160,15 +160,15 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
                         label={locale === "zh-CN" ? "Cookie 设置" : item.label}
                       />
                     ) : (
-                      <Link
+                      <DelayedRouteLink
                         key={item.label}
                         className="footer-link text-sm transition"
                         href={localize(item.href)}
                       >
                         {translateFooterLabel(locale, item.label)}
-                      </Link>
+                      </DelayedRouteLink>
                     )
-                  ),
+                ),
                 )}
               </div>
             </div>

@@ -1,0 +1,246 @@
+{
+  "repository": "brycewang-stanford/Auto-Empirical-Research-Skills",
+  "branch": "main",
+  "defaultBranch": "main",
+  "pushedAt": "2026-07-06T11:54:32Z",
+  "scannedAt": "2026-07-07T09:06:34.782Z",
+  "treeSha": "ebd08cbeafdaa4fd386d4dde72a2915384936019",
+  "items": [
+    {
+      "repository": "brycewang-stanford/Auto-Empirical-Research-Skills",
+      "branch": "main",
+      "skillName": "Auto-Empirical-Research-Skills",
+      "path": "README.md",
+      "url": "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills",
+      "description": "🔬 A curated collection of 23,000+ agent skills for empirical research across 8 social science disciplines. | 精选 23,000+ AI Agent 技能库，覆盖8大社会科学学科的实证研究。CoPaper.AI 20分钟完成一篇可复现的规范实证论文，并支持用户上传 Skills。-- Maintained by CoPaper.AI from Stanford REAP.",
+      "slug": "brycewang-stanford-auto-empirical-research-skills-collection",
+      "isCollection": true,
+      "stars": 2689,
+      "skillPaths": [
+        "SKILL.md",
+        "skills/00-Full-empirical-analysis-skill_StatsPAI/SKILL.md",
+        "skills/00.1-Full-empirical-analysis-skill_Python/SKILL.md",
+        "skills/00.2-Full-empirical-analysis-skill_Stata/SKILL.md",
+        "skills/00.3-Full-empirical-analysis-skill_R/SKILL.md",
+        "skills/08-ndpvt-web-latex-document-skill/SKILL.md",
+        "skills/10-Jill0099-causal-inference-mixtape/SKILL.md",
+        "skills/18-jusi-aalto-stata-accounting-research/SKILL.md",
+        "skills/20-wenddymacro-python-econ-skill/SKILL.md",
+        "skills/36-taoyunudt-literature-review-skill/SKILL.md",
+        "skills/38-peternka-academic-proofreader/SKILL.md",
+        "skills/39-vincentarelbundock-marginaleffects/SKILL.md",
+        "skills/40-py-econometrics-pyfixest/SKILL.md",
+        "skills/44-matsuikentaro1-humanizer_academic/SKILL.md",
+        "skills/45-stephenturner-skill-deslop/SKILL.md",
+        "skills/46-hardikpandya-stop-slop/SKILL.md",
+        "skills/47-conorbronsdon-avoid-ai-writing/SKILL.md",
+        "skills/48-copaper-ai-chinese-de-aigc/SKILL.md",
+        "skills/49-voidborne-d-humanize-chinese/SKILL.md",
+        "skills/52-keemanxp-slr-prisma/SKILL.md",
+        "skills/62-PHY041-claude-skill-citation-checker/SKILL.md",
+        "skills/65-game-theory-paper-writer/SKILL.md"
+      ]
+    },
+    {
+      "repository": "brycewang-stanford/Auto-Empirical-Research-Skills",
+      "branch": "main",
+      "skillName": "Auto-Empirical-Research-Skills",
+      "path": "SKILL.md",
+      "url": "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills/blob/main/SKILL.md",
+      "description": "Route empirical-research requests through the Auto-Empirical Research Skills catalog when this whole repository is installed as one skill in Codex, CodeBuddy, Claude Code, or another IDE. Use to choose and load the right vendored AERS skill for causal inference, econometrics, replication, manuscript writing, citation checking, de-AIGC editing, or full empirical-paper workflows without reading the entire repository at once.",
+      "slug": "brycewang-stanford-auto-empirical-research-skills"
+    },
+    {
+      "repository": "brycewang-stanford/Auto-Empirical-Research-Skills",
+      "branch": "main",
+      "skillName": "00-Full-empirical-analysis-skill_StatsPAI",
+      "path": "skills/00-Full-empirical-analysis-skill_StatsPAI/SKILL.md",
+      "url": "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills/blob/main/skills/00-Full-empirical-analysis-skill_StatsPAI/SKILL.md",
+      "description": "Use when the user asks to run a full empirical / causal analysis in Python — by default in the style of an applied economics paper (AER / QJE / JPE / ReStud / AEJ) with DID / RD / IV / SCM / DML / matching, written-out estimating equation + identifying assumption, Table 1 / Table 2 / event-study figure / robustness gauntlet — OR in epidemiology / public health style (target-trial emulation, IPTW + g-formula + TMLE triplet, Mendelian randomization, KM/AFT survival, E-value sensitivity, STROBE/TRIPOD reporting) — OR in ML causal inference style (DML, S/T/X/R/DR meta-learners, causal forest, Dragonnet/TARNet/CEVAE, BCF, CATE distribution, policy learning, conformal causal, fairness audit, causal discovery). Also covers exporting multi-column regression tables to Word / Excel / LaTeX (Stata outreg2 / esttab / R modelsummary equivalent) and bundling an entire replication appendix into one .do",
+      "slug": "brycewang-stanford-00-full-empirical-analysis-skill-statspai"
+    },
+    {
+      "repository": "brycewang-stanford/Auto-Empirical-Research-Skills",
+      "branch": "main",
+      "skillName": "00.1-Full-empirical-analysis-skill_Python",
+      "path": "skills/00.1-Full-empirical-analysis-skill_Python/SKILL.md",
+      "url": "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills/blob/main/skills/00.1-Full-empirical-analysis-skill_Python/SKILL.md",
+      "description": "Classical end-to-end empirical analysis workflow in the traditional Python econometric stack — pandas + numpy + scipy + statsmodels + linearmodels + pyfixest + rdrobust + econml + causalml + matplotlib/seaborn. **Defaults to economics empirical-paper style** (AER / QJE / AEJ) — every run produces a publication-ready output set with a multi-column regression table (M1→M6 progressive controls/FE) as the centerpiece, plus Table 1 (descriptives), mechanism / heterogeneity / robustness tables, and event-study + coefficient + trend figures. Covers the full 8-step pipeline an applied economist or quantitative social scientist runs on every paper — (1) data cleaning, (2) variable construction & transformation, (3) descriptive statistics & Table 1, (4) statistical diagnostic tests, (5) baseline empirical modeling, (6) robustness battery, (7) further analysis (mechanism, heterogeneity, mediation, ",
+      "slug": "brycewang-stanford-00-1-full-empirical-analysis-skill-python"
+    },
+    {
+      "repository": "brycewang-stanford/Auto-Empirical-Research-Skills",
+      "branch": "main",
+      "skillName": "00.2-Full-empirical-analysis-skill_Stata",
+      "path": "skills/00.2-Full-empirical-analysis-skill_Stata/SKILL.md",
+      "url": "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills/blob/main/skills/00.2-Full-empirical-analysis-skill_Stata/SKILL.md",
+      "description": "Classical end-to-end empirical analysis workflow in the traditional Stata ecosystem — native Stata + reghdfe + ivreg2 + csdid + did_imputation + eventstudyinteract + sdid + rdrobust + rddensity + synth + synth_runner + psmatch2 + teffects + ebalance + coefplot + esttab + asdoc + binscatter. **Defaults to economics empirical-paper style** (AER / QJE / AEJ) — every run produces a publication-ready output set with a multi-column regression table (M1→M6 progressive controls/FE) as the centerpiece, plus Table 1 (descriptives), mechanism / heterogeneity / robustness tables, and event-study + coefficient + trend figures. Covers the full 8-step Stata pipeline an applied economist runs on every paper — (1) data import & cleaning (use/import, destring, misstable, duplicates, merge assert), (2) variable construction (gen/egen/winsor2/xtile/xtset with L./F./D.), (3) descriptive statistics & Table 1 ",
+      "slug": "brycewang-stanford-00-2-full-empirical-analysis-skill-stata"
+    },
+    {
+      "repository": "brycewang-stanford/Auto-Empirical-Research-Skills",
+      "branch": "main",
+      "skillName": "00.3-Full-empirical-analysis-skill_R",
+      "path": "skills/00.3-Full-empirical-analysis-skill_R/SKILL.md",
+      "url": "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills/blob/main/skills/00.3-Full-empirical-analysis-skill_R/SKILL.md",
+      "description": "Classical end-to-end empirical analysis workflow in the modern tidyverse + econometrics R ecosystem — dplyr + tidyr + haven + fixest + sandwich + lmtest + clubSandwich + AER + ivreg + did + bacondecomp + HonestDiD + eventstudyr + rdrobust + rddensity + Synth + gsynth + synthdid + MatchIt + WeightIt + cobalt + ebal + grf + DoubleML + mediation + marginaleffects + modelsummary + kableExtra + gt + ggplot2 + ggpubr + cowplot + binsreg. **Defaults to economics empirical-paper style** (AER / QJE / AEJ) — every run produces a publication-ready output set with a multi-column regression table (M1→M6 progressive controls/FE) as the centerpiece, plus Table 1 (descriptives), mechanism / heterogeneity / robustness tables, and event-study + coefficient + trend figures. Covers the full 8-step R pipeline an applied economist runs on every paper — (1) data import & cleaning (read_dta/read_csv, naniar, ja",
+      "slug": "brycewang-stanford-00-3-full-empirical-analysis-skill-r"
+    },
+    {
+      "repository": "brycewang-stanford/Auto-Empirical-Research-Skills",
+      "branch": "main",
+      "skillName": "08-ndpvt-web-latex-document-skill",
+      "path": "skills/08-ndpvt-web-latex-document-skill/SKILL.md",
+      "url": "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills/blob/main/skills/08-ndpvt-web-latex-document-skill/SKILL.md",
+      "description": ">",
+      "slug": "brycewang-stanford-08-ndpvt-web-latex-document-skill"
+    },
+    {
+      "repository": "brycewang-stanford/Auto-Empirical-Research-Skills",
+      "branch": "main",
+      "skillName": "10-Jill0099-causal-inference-mixtape",
+      "path": "skills/10-Jill0099-causal-inference-mixtape/SKILL.md",
+      "url": "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills/blob/main/skills/10-Jill0099-causal-inference-mixtape/SKILL.md",
+      "description": "This skill should be used when the user asks to \"implement a DiD regression\", \"write a causal inference pipeline\", \"set up an event study\", \"implement instrumental variables\", \"run a regression discontinuity design\", \"build a synthetic control model\", \"implement propensity score matching\", \"write parallel trends test\", \"implement Bacon decomposition\", or needs code templates for causal inference methods in Python, R, or Stata. Based on Scott Cunningham''s Causal Inference: The Mixtape.",
+      "slug": "brycewang-stanford-10-jill0099-causal-inference-mixtape"
+    },
+    {
+      "repository": "brycewang-stanford/Auto-Empirical-Research-Skills",
+      "branch": "main",
+      "skillName": "18-jusi-aalto-stata-accounting-research",
+      "path": "skills/18-jusi-aalto-stata-accounting-research/SKILL.md",
+      "url": "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills/blob/main/skills/18-jusi-aalto-stata-accounting-research/SKILL.md",
+      "description": "|",
+      "slug": "brycewang-stanford-18-jusi-aalto-stata-accounting-research"
+    },
+    {
+      "repository": "brycewang-stanford/Auto-Empirical-Research-Skills",
+      "branch": "main",
+      "skillName": "20-wenddymacro-python-econ-skill",
+      "path": "skills/20-wenddymacro-python-econ-skill/SKILL.md",
+      "url": "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills/blob/main/skills/20-wenddymacro-python-econ-skill/SKILL.md",
+      "description": "Use when writing Python code for DSGE models, HANK models, numerical economic computation, causal inference, or quantitative economic data analysis",
+      "slug": "brycewang-stanford-20-wenddymacro-python-econ-skill"
+    },
+    {
+      "repository": "brycewang-stanford/Auto-Empirical-Research-Skills",
+      "branch": "main",
+      "skillName": "36-taoyunudt-literature-review-skill",
+      "path": "skills/36-taoyunudt-literature-review-skill/SKILL.md",
+      "url": "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills/blob/main/skills/36-taoyunudt-literature-review-skill/SKILL.md",
+      "description": "帮助用户撰写高质量的文献综述类论文。提供从选题、文献检索、评估筛选、结构规划到最终写作的全流程指导。适用于需要撰写独立文献综述论文或学术论文中文献综述部分的用户。",
+      "slug": "brycewang-stanford-36-taoyunudt-literature-review-skill"
+    },
+    {
+      "repository": "brycewang-stanford/Auto-Empirical-Research-Skills",
+      "branch": "main",
+      "skillName": "38-peternka-academic-proofreader",
+      "path": "skills/38-peternka-academic-proofreader/SKILL.md",
+      "url": "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills/blob/main/skills/38-peternka-academic-proofreader/SKILL.md",
+      "description": "Academic Proofreader System Prompt — Applied Microeconomics (Claude Code)",
+      "slug": "brycewang-stanford-38-peternka-academic-proofreader"
+    },
+    {
+      "repository": "brycewang-stanford/Auto-Empirical-Research-Skills",
+      "branch": "main",
+      "skillName": "39-vincentarelbundock-marginaleffects",
+      "path": "skills/39-vincentarelbundock-marginaleffects/SKILL.md",
+      "url": "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills/blob/main/skills/39-vincentarelbundock-marginaleffects/SKILL.md",
+      "description": "Manual for the marginaleffects R and Python package, and guide to the book \"Model to Meaning\". Use when users ask about predictions, comparisons, slopes, marginal effects, average treatment effects (ATE/ATT/CATE), hypothesis testing, contrasts, counterfactuals, risk ratios, odds ratios, causal inference with G-computation, or need help with marginaleffects functions like predictions(), comparisons(), slopes(), hypotheses(), datagrid(), avg_predictions(), avg_comparisons(), avg_slopes(), or plot functions.",
+      "slug": "brycewang-stanford-39-vincentarelbundock-marginaleffects"
+    },
+    {
+      "repository": "brycewang-stanford/Auto-Empirical-Research-Skills",
+      "branch": "main",
+      "skillName": "40-py-econometrics-pyfixest",
+      "path": "skills/40-py-econometrics-pyfixest/SKILL.md",
+      "url": "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills/blob/main/skills/40-py-econometrics-pyfixest/SKILL.md",
+      "description": "PyFixest LLM Skill Reference",
+      "slug": "brycewang-stanford-40-py-econometrics-pyfixest"
+    },
+    {
+      "repository": "brycewang-stanford/Auto-Empirical-Research-Skills",
+      "branch": "main",
+      "skillName": "44-matsuikentaro1-humanizer_academic",
+      "path": "skills/44-matsuikentaro1-humanizer_academic/SKILL.md",
+      "url": "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills/blob/main/skills/44-matsuikentaro1-humanizer_academic/SKILL.md",
+      "description": "|",
+      "slug": "brycewang-stanford-44-matsuikentaro1-humanizer-academic"
+    },
+    {
+      "repository": "brycewang-stanford/Auto-Empirical-Research-Skills",
+      "branch": "main",
+      "skillName": "45-stephenturner-skill-deslop",
+      "path": "skills/45-stephenturner-skill-deslop/SKILL.md",
+      "url": "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills/blob/main/skills/45-stephenturner-skill-deslop/SKILL.md",
+      "description": "Remove AI writing patterns from prose. Use this skill when writing, drafting, editing, reviewing, or revising any text to eliminate predictable AI tells, slop, and formulaic patterns. Trigger this skill whenever the user asks to \"deslop\", \"de-AI\", \"make it sound human,\" \"remove AI patterns,\" \"remove AI tropes,\" \"clean up AI writing,\" fix \"slop,\" \"deslop\" text, or review prose for authenticity. Also use when the user asks you to write or draft anything and wants it to sound natural rather than AI-generated. Common use cases include scientific writing (manuscripts, abstracts, cover letters, grant narratives, discussion sections, peer review responses), blog posts, newsletters, memos, reports, and any other substantial prose.",
+      "slug": "brycewang-stanford-45-stephenturner-skill-deslop"
+    },
+    {
+      "repository": "brycewang-stanford/Auto-Empirical-Research-Skills",
+      "branch": "main",
+      "skillName": "46-hardikpandya-stop-slop",
+      "path": "skills/46-hardikpandya-stop-slop/SKILL.md",
+      "url": "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills/blob/main/skills/46-hardikpandya-stop-slop/SKILL.md",
+      "description": "Remove AI writing patterns from prose. Use when drafting, editing, or reviewing text to eliminate predictable AI tells.",
+      "slug": "brycewang-stanford-46-hardikpandya-stop-slop"
+    },
+    {
+      "repository": "brycewang-stanford/Auto-Empirical-Research-Skills",
+      "branch": "main",
+      "skillName": "47-conorbronsdon-avoid-ai-writing",
+      "path": "skills/47-conorbronsdon-avoid-ai-writing/SKILL.md",
+      "url": "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills/blob/main/skills/47-conorbronsdon-avoid-ai-writing/SKILL.md",
+      "description": "Audit and rewrite content to remove AI writing patterns (\"AI-isms\"). Use this skill when asked to \"remove AI-isms,\" \"clean up AI writing,\" \"edit writing for AI patterns,\" \"audit writing for AI tells,\" or \"make this sound less like AI.\" Supports a detection-only mode that flags patterns without rewriting.",
+      "slug": "brycewang-stanford-47-conorbronsdon-avoid-ai-writing"
+    },
+    {
+      "repository": "brycewang-stanford/Auto-Empirical-Research-Skills",
+      "branch": "main",
+      "skillName": "48-copaper-ai-chinese-de-aigc",
+      "path": "skills/48-copaper-ai-chinese-de-aigc/SKILL.md",
+      "url": "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills/blob/main/skills/48-copaper-ai-chinese-de-aigc/SKILL.md",
+      "description": "面向中文学术论文的降 AIGC 检测率 Skill。针对知网、万方、维普、Turnitin 中文版的检测机制，识别并消除中文大语言模型的 17 类结构化写作痕迹。采用\"定位 → 诊断 → 改写 → 自评 → 复查\"五步闭环工作流，分章节差异化策略（摘要/引言/文献综述/方法/结果/讨论/结论），保持学术严谨性前提下通过检测。",
+      "slug": "brycewang-stanford-48-copaper-ai-chinese-de-aigc"
+    },
+    {
+      "repository": "brycewang-stanford/Auto-Empirical-Research-Skills",
+      "branch": "main",
+      "skillName": "49-voidborne-d-humanize-chinese",
+      "path": "skills/49-voidborne-d-humanize-chinese/SKILL.md",
+      "url": "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills/blob/main/skills/49-voidborne-d-humanize-chinese/SKILL.md",
+      "description": ">",
+      "slug": "brycewang-stanford-49-voidborne-d-humanize-chinese"
+    },
+    {
+      "repository": "brycewang-stanford/Auto-Empirical-Research-Skills",
+      "branch": "main",
+      "skillName": "52-keemanxp-slr-prisma",
+      "path": "skills/52-keemanxp-slr-prisma/SKILL.md",
+      "url": "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills/blob/main/skills/52-keemanxp-slr-prisma/SKILL.md",
+      "description": "Guide users through writing a systematic literature review (SLR) following the PRISMA 2020 framework. Use this skill whenever the user mentions 'systematic review', 'systematic literature review', 'SLR', 'PRISMA', 'PRISMA 2020', 'PRISMA flow diagram', 'PRISMA checklist', or asks for help writing, structuring, or auditing a literature review that follows reporting guidelines. Also trigger when the user asks about inclusion/exclusion criteria for a review, search strategies for databases like Scopus/WoS/PubMed, study selection processes, risk of bias assessment, or narrative synthesis for a review paper. This skill covers the full PRISMA 2020 checklist (27 items), produces a Word document manuscript in strict journal article format, generates an annotated PRISMA flow diagram, and enforces APA 7th Edition referencing throughout. It does NOT cover meta-analysis or statistical pooling. By Chu",
+      "slug": "brycewang-stanford-52-keemanxp-slr-prisma"
+    },
+    {
+      "repository": "brycewang-stanford/Auto-Empirical-Research-Skills",
+      "branch": "main",
+      "skillName": "62-PHY041-claude-skill-citation-checker",
+      "path": "skills/62-PHY041-claude-skill-citation-checker/SKILL.md",
+      "url": "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills/blob/main/skills/62-PHY041-claude-skill-citation-checker/SKILL.md",
+      "description": "Verify academic citations against CrossRef, Semantic Scholar, and OpenAlex. Detects AI-hallucinated references, chimeric citations, and suspicious patterns.",
+      "slug": "brycewang-stanford-62-phy041-claude-skill-citation-checker"
+    },
+    {
+      "repository": "brycewang-stanford/Auto-Empirical-Research-Skills",
+      "branch": "main",
+      "skillName": "65-game-theory-paper-writer",
+      "path": "skills/65-game-theory-paper-writer/SKILL.md",
+      "url": "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills/blob/main/skills/65-game-theory-paper-writer/SKILL.md",
+      "description": "Generate, continue, revise, polish, and stress-test game theory research papers. Use when the user provides a game theory topic, phenomenon, draft, outline, model idea, literature anchor, reviewer comments, or asks for 博弈论论文生成, 选题建模, 文献迁移, 模型修正, 均衡分析, 数值模拟, 论文润色, 改稿打磨, or R&R response work.",
+      "slug": "brycewang-stanford-65-game-theory-paper-writer"
+    }
+  ],
+  "itemCount": 23,
+  "publicSkillCount": 22,
+  "lastStatus": "scanned"
+}

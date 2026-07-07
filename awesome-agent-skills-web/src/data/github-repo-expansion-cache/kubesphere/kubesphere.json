@@ -1,0 +1,325 @@
+{
+  "repository": "kubesphere/kubesphere",
+  "branch": "master",
+  "defaultBranch": "master",
+  "pushedAt": "2026-06-25T05:29:15Z",
+  "scannedAt": "2026-07-07T09:04:34.381Z",
+  "treeSha": "f72c75a149e05998744d83a76aebc447dc56b198",
+  "items": [
+    {
+      "repository": "kubesphere/kubesphere",
+      "branch": "master",
+      "skillName": "kubesphere",
+      "path": "README.md",
+      "url": "https://github.com/kubesphere/kubesphere",
+      "description": "The container platform tailored for Kubernetes multi-cloud, datacenter, and edge management ⎈ 🖥 ☁️",
+      "slug": "kubesphere-kubesphere-collection",
+      "isCollection": true,
+      "stars": null,
+      "skillPaths": [
+        "skills/frontend-forge-fe-operations/SKILL.md",
+        "skills/frontend-forge-fi-operations/SKILL.md",
+        "skills/frontend-integration-yaml/SKILL.md",
+        "skills/kubeeye/SKILL.md",
+        "skills/kubesphere-cluster-management/SKILL.md",
+        "skills/kubesphere-core/SKILL.md",
+        "skills/kubesphere-devops-argocd/SKILL.md",
+        "skills/kubesphere-devops-credentials/SKILL.md",
+        "skills/kubesphere-devops-jenkins/SKILL.md",
+        "skills/kubesphere-devops-overview/SKILL.md",
+        "skills/kubesphere-devops-pipeline/SKILL.md",
+        "skills/kubesphere-devops-tenant/SKILL.md",
+        "skills/kubesphere-extension-management/SKILL.md",
+        "skills/kubesphere-fluid/SKILL.md",
+        "skills/kubesphere-multi-tenant-management/SKILL.md",
+        "skills/kubesphere-network-extension-operations/SKILL.md",
+        "skills/kubesphere-openkruise/SKILL.md",
+        "skills/kubesphere-servicemesh/SKILL.md",
+        "skills/kubesphere-volcano/SKILL.md",
+        "skills/nodegroup/SKILL.md",
+        "skills/openpitrix/SKILL.md",
+        "skills/opensearch/SKILL.md",
+        "skills/vector/SKILL.md",
+        "skills/whizard-auditing/SKILL.md",
+        "skills/whizard-events/SKILL.md",
+        "skills/whizard-logging/SKILL.md",
+        "skills/whizard-notification/SKILL.md",
+        "skills/whizard-telemetry-ruler/SKILL.md",
+        "skills/whizard-telemetry/SKILL.md",
+        "skills/wiztelemetry-tracing/SKILL.md"
+      ]
+    },
+    {
+      "repository": "kubesphere/kubesphere",
+      "branch": "master",
+      "skillName": "frontend-forge-fe-operations",
+      "path": "skills/frontend-forge-fe-operations/SKILL.md",
+      "url": "https://github.com/kubesphere/kubesphere/blob/master/skills/frontend-forge-fe-operations/SKILL.md",
+      "description": "Operate FrontendExtension (FE) resources in frontend-forge: create, update, rebuild, inspect package artifacts, download packages, publish, unpublish, delete, and debug package/publish controller behavior. Use this skill whenever the user mentions FE operations, FrontendExtension lifecycle, extension package/download/publish/unpublish, artifact ConfigMaps, package Jobs, publisher Jobs, publish target ConfigMaps or Secrets, rebuild-token, package-state/publish-state labels, or troubleshooting FE status in a Kubernetes cluster.",
+      "slug": "kubesphere-frontend-forge-fe-operations"
+    },
+    {
+      "repository": "kubesphere/kubesphere",
+      "branch": "master",
+      "skillName": "frontend-forge-fi-operations",
+      "path": "skills/frontend-forge-fi-operations/SKILL.md",
+      "url": "https://github.com/kubesphere/kubesphere/blob/master/skills/frontend-forge-fi-operations/SKILL.md",
+      "description": "Operate FrontendIntegration resources and the frontend-forge extension. Use when Codex needs to create a FrontendIntegration from FrontendIntegration YAML, update or patch FI lifecycle state, inspect or troubleshoot FI build output, or create, enable, disable, uninstall, and inspect the frontend-forge extension through its InstallPlan and extension resources.",
+      "slug": "kubesphere-frontend-forge-fi-operations"
+    },
+    {
+      "repository": "kubesphere/kubesphere",
+      "branch": "master",
+      "skillName": "frontend-integration-yaml",
+      "path": "skills/frontend-integration-yaml/SKILL.md",
+      "url": "https://github.com/kubesphere/kubesphere/blob/master/skills/frontend-integration-yaml/SKILL.md",
+      "description": "Generate canonical FrontendIntegration YAML from a simplified single-menu authoring model for frontend-forge.",
+      "slug": "kubesphere-frontend-integration-yaml"
+    },
+    {
+      "repository": "kubesphere/kubesphere",
+      "branch": "master",
+      "skillName": "kubeeye",
+      "path": "skills/kubeeye/SKILL.md",
+      "url": "https://github.com/kubesphere/kubesphere/blob/master/skills/kubeeye/SKILL.md",
+      "description": "Use when deploying KubeEye for cluster inspection, creating InspectRule/InspectPlan resources, or retrieving inspection results. Covers InstallPlan-based deployment, OPA/PromQL/FileChange/Sysctl/Systemd/NodeInfo/FileFilter/ServiceConnect/CustomCommand rule types, and report retrieval. Always consult this skill when the user mentions KubeEye, cluster inspection, InspectRule, InspectPlan, or inspection reports.",
+      "slug": "kubesphere-kubeeye"
+    },
+    {
+      "repository": "kubesphere/kubesphere",
+      "branch": "master",
+      "skillName": "kubesphere-cluster-management",
+      "path": "skills/kubesphere-cluster-management/SKILL.md",
+      "url": "https://github.com/kubesphere/kubesphere/blob/master/skills/kubesphere-cluster-management/SKILL.md",
+      "description": "KubeSphere cluster query Skill (read-only). Use when user requests to view cluster list, cluster status, cluster details, or cluster version info. Do not perform any write operations (create, delete, update). Use KubeSphere Console for management operations.",
+      "slug": "kubesphere-kubesphere-cluster-management"
+    },
+    {
+      "repository": "kubesphere/kubesphere",
+      "branch": "master",
+      "skillName": "kubesphere-core",
+      "path": "skills/kubesphere-core/SKILL.md",
+      "url": "https://github.com/kubesphere/kubesphere/blob/master/skills/kubesphere-core/SKILL.md",
+      "description": "KubeSphere central controller Skill. Routes to specific Skills based on user requests: multi-cluster management (kubesphere-cluster-management), multi-tenant management (kubesphere-multi-tenant-management), extension management (kubesphere-extension-management). Also provides core architecture, API routing, and API utilities.",
+      "slug": "kubesphere-kubesphere-core"
+    },
+    {
+      "repository": "kubesphere/kubesphere",
+      "branch": "master",
+      "skillName": "kubesphere-devops-argocd",
+      "path": "skills/kubesphere-devops-argocd/SKILL.md",
+      "url": "https://github.com/kubesphere/kubesphere/blob/master/skills/kubesphere-devops-argocd/SKILL.md",
+      "description": "Use when configuring ArgoCD in KubeSphere DevOps, including GitOps deployments, application management, SSO setup, or troubleshooting ArgoCD issues",
+      "slug": "kubesphere-kubesphere-devops-argocd"
+    },
+    {
+      "repository": "kubesphere/kubesphere",
+      "branch": "master",
+      "skillName": "kubesphere-devops-credentials",
+      "path": "skills/kubesphere-devops-credentials/SKILL.md",
+      "url": "https://github.com/kubesphere/kubesphere/blob/master/skills/kubesphere-devops-credentials/SKILL.md",
+      "description": "Use when managing credentials in KubeSphere DevOps, including repository credentials, kubeconfig, and API tokens",
+      "slug": "kubesphere-kubesphere-devops-credentials"
+    },
+    {
+      "repository": "kubesphere/kubesphere",
+      "branch": "master",
+      "skillName": "kubesphere-devops-jenkins",
+      "path": "skills/kubesphere-devops-jenkins/SKILL.md",
+      "url": "https://github.com/kubesphere/kubesphere/blob/master/skills/kubesphere-devops-jenkins/SKILL.md",
+      "description": "Use when configuring Jenkins in KubeSphere DevOps, including agent customization, LDAP/OIDC integration, build artifact retrieval, or troubleshooting Jenkins issues",
+      "slug": "kubesphere-kubesphere-devops-jenkins"
+    },
+    {
+      "repository": "kubesphere/kubesphere",
+      "branch": "master",
+      "skillName": "kubesphere-devops-overview",
+      "path": "skills/kubesphere-devops-overview/SKILL.md",
+      "url": "https://github.com/kubesphere/kubesphere/blob/master/skills/kubesphere-devops-overview/SKILL.md",
+      "description": "Use when working with KubeSphere DevOps extension, CI/CD pipelines, Jenkins integration, or pipeline troubleshooting",
+      "slug": "kubesphere-kubesphere-devops-overview"
+    },
+    {
+      "repository": "kubesphere/kubesphere",
+      "branch": "master",
+      "skillName": "kubesphere-devops-pipeline",
+      "path": "skills/kubesphere-devops-pipeline/SKILL.md",
+      "url": "https://github.com/kubesphere/kubesphere/blob/master/skills/kubesphere-devops-pipeline/SKILL.md",
+      "description": "Use when creating, running, or managing CI/CD pipelines in KubeSphere DevOps, including pipeline API operations and run monitoring",
+      "slug": "kubesphere-kubesphere-devops-pipeline"
+    },
+    {
+      "repository": "kubesphere/kubesphere",
+      "branch": "master",
+      "skillName": "kubesphere-devops-tenant",
+      "path": "skills/kubesphere-devops-tenant/SKILL.md",
+      "url": "https://github.com/kubesphere/kubesphere/blob/master/skills/kubesphere-devops-tenant/SKILL.md",
+      "description": "Use when operating KubeSphere DevOps as a namespace-scoped tenant with limited permissions, without cluster-admin access, or when accessing DevOps through KubeSphere APIs only",
+      "slug": "kubesphere-kubesphere-devops-tenant"
+    },
+    {
+      "repository": "kubesphere/kubesphere",
+      "branch": "master",
+      "skillName": "kubesphere-extension-management",
+      "path": "skills/kubesphere-extension-management/SKILL.md",
+      "url": "https://github.com/kubesphere/kubesphere/blob/master/skills/kubesphere-extension-management/SKILL.md",
+      "description": "KubeSphere extension management Skill. Use when user requests to install, configure, upgrade, uninstall extensions, or query extension info/troubleshoot issues. Includes extension discovery, dependency management, install configuration, version management.",
+      "slug": "kubesphere-kubesphere-extension-management"
+    },
+    {
+      "repository": "kubesphere/kubesphere",
+      "branch": "master",
+      "skillName": "kubesphere-fluid",
+      "path": "skills/kubesphere-fluid/SKILL.md",
+      "url": "https://github.com/kubesphere/kubesphere/blob/master/skills/kubesphere-fluid/SKILL.md",
+      "description": "KubeSphere Fluid management Skill. Use when user asks to install or enable Fluid, check Fluid status, view Fluid pods/logs/CRDs, create or update Dataset, AlluxioRuntime, JuiceFSRuntime, or ThinRuntime, perform DataLoad or cache warming, scale runtime, or troubleshoot Fluid issues in KubeSphere.",
+      "slug": "kubesphere-kubesphere-fluid"
+    },
+    {
+      "repository": "kubesphere/kubesphere",
+      "branch": "master",
+      "skillName": "kubesphere-multi-tenant-management",
+      "path": "skills/kubesphere-multi-tenant-management/SKILL.md",
+      "url": "https://github.com/kubesphere/kubesphere/blob/master/skills/kubesphere-multi-tenant-management/SKILL.md",
+      "description": "KubeSphere multi-tenant management Skill. Use when user requests to create users, workspaces, projects, or assign roles/permissions. Supports user lifecycle management, workspace configuration, project creation, role binding. Do not perform any delete operations, do not create custom roles.",
+      "slug": "kubesphere-kubesphere-multi-tenant-management"
+    },
+    {
+      "repository": "kubesphere/kubesphere",
+      "branch": "master",
+      "skillName": "kubesphere-network-extension-operations",
+      "path": "skills/kubesphere-network-extension-operations/SKILL.md",
+      "url": "https://github.com/kubesphere/kubesphere/blob/master/skills/kubesphere-network-extension-operations/SKILL.md",
+      "description": "Operate the KubeSphere network extension. Use when Codex needs to install, upgrade, configure, enable, disable, or inspect the `network` extension; manage Calico `IPPool` resources, namespace bindings, migrations, or network isolation flows; or consult the bundled network extension references in this skill.",
+      "slug": "kubesphere-kubesphere-network-extension-operations"
+    },
+    {
+      "repository": "kubesphere/kubesphere",
+      "branch": "master",
+      "skillName": "kubesphere-openkruise",
+      "path": "skills/kubesphere-openkruise/SKILL.md",
+      "url": "https://github.com/kubesphere/kubesphere/blob/master/skills/kubesphere-openkruise/SKILL.md",
+      "description": "KubeSphere OpenKruise management Skill. Use when user asks to install or enable OpenKruise, check OpenKruise status, view kruise pods/logs/CRDs, create or update SidecarSet, manage sidecar injection, create or update CloneSet, perform in-place update or batch rollout, uninstall or remove OpenKruise, or troubleshoot Kruise Pod, CRD, and webhook issues in KubeSphere.",
+      "slug": "kubesphere-kubesphere-openkruise"
+    },
+    {
+      "repository": "kubesphere/kubesphere",
+      "branch": "master",
+      "skillName": "kubesphere-servicemesh",
+      "path": "skills/kubesphere-servicemesh/SKILL.md",
+      "url": "https://github.com/kubesphere/kubesphere/blob/master/skills/kubesphere-servicemesh/SKILL.md",
+      "description": "KubeSphere ServiceMesh extension management Skill (Istio + Kiali + Jaeger). Use this skill for the ServiceMesh extension Configuration (covers installation, uninstallation, status checks), troubleshooting (covers grayscale release, sidecar injection, topology/metrics, and tracing for Composed Apps Aka Custom Applications).",
+      "slug": "kubesphere-kubesphere-servicemesh"
+    },
+    {
+      "repository": "kubesphere/kubesphere",
+      "branch": "master",
+      "skillName": "kubesphere-volcano",
+      "path": "skills/kubesphere-volcano/SKILL.md",
+      "url": "https://github.com/kubesphere/kubesphere/blob/master/skills/kubesphere-volcano/SKILL.md",
+      "description": "KubeSphere Volcano job management Skill. Use when user asks to create, list, update, delete Jobs (Volcano Jobs), manage Queues, create PyTorch/TensorFlow/MPI training jobs, or troubleshoot Volcano scheduling issues in KubeSphere. Includes built-in YAML templates, scheduling policy recommendations, and best practices for resource configuration. Handles both KubeSphere API and kubectl operations.",
+      "slug": "kubesphere-kubesphere-volcano"
+    },
+    {
+      "repository": "kubesphere/kubesphere",
+      "branch": "master",
+      "skillName": "nodegroup",
+      "path": "skills/nodegroup/SKILL.md",
+      "url": "https://github.com/kubesphere/kubesphere/blob/master/skills/nodegroup/SKILL.md",
+      "description": "NodeGroup operation Skill for the edgewize nodegroup project. Use this whenever the user wants to query, create, update, delete, bind, unbind, or troubleshoot NodeGroup resources, including node binding, namespace binding, workspace binding, and deployment/config inspection for nodegroup.",
+      "slug": "kubesphere-nodegroup"
+    },
+    {
+      "repository": "kubesphere/kubesphere",
+      "branch": "master",
+      "skillName": "openpitrix",
+      "path": "skills/openpitrix/SKILL.md",
+      "url": "https://github.com/kubesphere/kubesphere/blob/master/skills/openpitrix/SKILL.md",
+      "description": "KubeSphere OpenPitrix application management Skill. Use when users ask about KubeSphere App Store, OpenPitrix, Helm/YAML application templates, application repositories, app versions, app releases, categories, review states, repository sync, or troubleshooting application installation and upgrade issues.",
+      "slug": "kubesphere-openpitrix"
+    },
+    {
+      "repository": "kubesphere/kubesphere",
+      "branch": "master",
+      "skillName": "opensearch",
+      "path": "skills/opensearch/SKILL.md",
+      "url": "https://github.com/kubesphere/kubesphere/blob/master/skills/opensearch/SKILL.md",
+      "description": "Use when installing or configuring the OpenSearch extension for KubeSphere, which provides distributed search and analytics engine for storing logs, events, auditing, and notification history",
+      "slug": "kubesphere-opensearch"
+    },
+    {
+      "repository": "kubesphere/kubesphere",
+      "branch": "master",
+      "skillName": "vector",
+      "path": "skills/vector/SKILL.md",
+      "url": "https://github.com/kubesphere/kubesphere/blob/master/skills/vector/SKILL.md",
+      "description": "Use when installing or configuring the WizTelemetry Data Pipeline (vector) extension for KubeSphere, which provides data collection, transformation, and routing for observability data including logs, auditing, events, and notifications",
+      "slug": "kubesphere-vector"
+    },
+    {
+      "repository": "kubesphere/kubesphere",
+      "branch": "master",
+      "skillName": "whizard-auditing",
+      "path": "skills/whizard-auditing/SKILL.md",
+      "url": "https://github.com/kubesphere/kubesphere/blob/master/skills/whizard-auditing/SKILL.md",
+      "description": "Use when working with WizTelemetry Auditing extension for KubeSphere, including installation, configuration, and audit query API",
+      "slug": "kubesphere-whizard-auditing"
+    },
+    {
+      "repository": "kubesphere/kubesphere",
+      "branch": "master",
+      "skillName": "whizard-events",
+      "path": "skills/whizard-events/SKILL.md",
+      "url": "https://github.com/kubesphere/kubesphere/blob/master/skills/whizard-events/SKILL.md",
+      "description": "Use when working with WizTelemetry Events extension for KubeSphere, including installation, configuration, and event query API",
+      "slug": "kubesphere-whizard-events"
+    },
+    {
+      "repository": "kubesphere/kubesphere",
+      "branch": "master",
+      "skillName": "whizard-logging",
+      "path": "skills/whizard-logging/SKILL.md",
+      "url": "https://github.com/kubesphere/kubesphere/blob/master/skills/whizard-logging/SKILL.md",
+      "description": "Use when working with WizTelemetry Logging extension for KubeSphere, including installation, configuration, and log query API",
+      "slug": "kubesphere-whizard-logging"
+    },
+    {
+      "repository": "kubesphere/kubesphere",
+      "branch": "master",
+      "skillName": "whizard-notification",
+      "path": "skills/whizard-notification/SKILL.md",
+      "url": "https://github.com/kubesphere/kubesphere/blob/master/skills/whizard-notification/SKILL.md",
+      "description": "Use when working with WizTelemetry Notification extension for KubeSphere, including installation, configuration, troubleshooting, notification channel setup, alert routing, and silence management.",
+      "slug": "kubesphere-whizard-notification"
+    },
+    {
+      "repository": "kubesphere/kubesphere",
+      "branch": "master",
+      "skillName": "whizard-telemetry-ruler",
+      "path": "skills/whizard-telemetry-ruler/SKILL.md",
+      "url": "https://github.com/kubesphere/kubesphere/blob/master/skills/whizard-telemetry-ruler/SKILL.md",
+      "description": "Use when working with WizTelemetry Ruler extension for KubeSphere, including installation, configuration, alerting rules management",
+      "slug": "kubesphere-whizard-telemetry-ruler"
+    },
+    {
+      "repository": "kubesphere/kubesphere",
+      "branch": "master",
+      "skillName": "whizard-telemetry",
+      "path": "skills/whizard-telemetry/SKILL.md",
+      "url": "https://github.com/kubesphere/kubesphere/blob/master/skills/whizard-telemetry/SKILL.md",
+      "description": "Use when installing or configuring the WizTelemetry Platform Service extension for KubeSphere, which provides the common APIServer backend services for all WizTelemetry observability extensions",
+      "slug": "kubesphere-whizard-telemetry"
+    },
+    {
+      "repository": "kubesphere/kubesphere",
+      "branch": "master",
+      "skillName": "wiztelemetry-tracing",
+      "path": "skills/wiztelemetry-tracing/SKILL.md",
+      "url": "https://github.com/kubesphere/kubesphere/blob/master/skills/wiztelemetry-tracing/SKILL.md",
+      "description": "Use when working with WizTelemetry Tracing extension for KubeSphere, including installation, configuration, and tracing query API",
+      "slug": "kubesphere-wiztelemetry-tracing"
+    }
+  ],
+  "itemCount": 31,
+  "lastStatus": "reused-unchanged"
+}

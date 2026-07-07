@@ -1,0 +1,86 @@
+{
+  "repository": "glitternetwork/pinme",
+  "branch": "main",
+  "defaultBranch": "main",
+  "pushedAt": "2026-07-06T16:29:17Z",
+  "scannedAt": "2026-07-07T09:06:00.036Z",
+  "treeSha": "1a6b07bf9dce46514669cc55837d5a812580c5c0",
+  "items": [
+    {
+      "repository": "glitternetwork/pinme",
+      "branch": "main",
+      "skillName": "pinme",
+      "path": "README.md",
+      "url": "https://github.com/glitternetwork/pinme",
+      "description": "Deploy Your Frontend in a Single Command. Claude Code Skills supported.",
+      "slug": "glitternetwork-pinme-collection",
+      "isCollection": true,
+      "stars": 3704,
+      "skillPaths": [
+        "skills/pinme-auth/SKILL.md",
+        "skills/pinme-email/SKILL.md",
+        "skills/pinme-llm/SKILL.md",
+        "skills/pinme-share/SKILL.md",
+        "skills/pinme-uniwebpay/SKILL.md",
+        "skills/pinme/SKILL.md"
+      ]
+    },
+    {
+      "repository": "glitternetwork/pinme",
+      "branch": "main",
+      "skillName": "pinme-auth",
+      "path": "skills/pinme-auth/SKILL.md",
+      "url": "https://github.com/glitternetwork/pinme/blob/main/skills/pinme-auth/SKILL.md",
+      "description": "Use when a PinMe project (Worker TypeScript) needs to integrate user authentication — creating email/password users, verifying id_tokens, querying user info, or listing users via Identity Platform auth proxy APIs.",
+      "slug": "glitternetwork-pinme-auth"
+    },
+    {
+      "repository": "glitternetwork/pinme",
+      "branch": "main",
+      "skillName": "pinme-email",
+      "path": "skills/pinme-email/SKILL.md",
+      "url": "https://github.com/glitternetwork/pinme/blob/main/skills/pinme-email/SKILL.md",
+      "description": "Use this skill when a PinMe project (Worker TypeScript) needs to integrate email sending (send_email). Guides AI to generate correct Worker TS code.",
+      "slug": "glitternetwork-pinme-email"
+    },
+    {
+      "repository": "glitternetwork/pinme",
+      "branch": "main",
+      "skillName": "pinme-llm",
+      "path": "skills/pinme-llm/SKILL.md",
+      "url": "https://github.com/glitternetwork/pinme/blob/main/skills/pinme-llm/SKILL.md",
+      "description": "Use this skill when a PinMe project (Worker TypeScript) needs to call OpenRouter-backed LLM APIs, including models, chat/completions, streaming, or OpenRouter web search. Guides AI to generate correct Worker TS code.",
+      "slug": "glitternetwork-pinme-llm"
+    },
+    {
+      "repository": "glitternetwork/pinme",
+      "branch": "main",
+      "skillName": "pinme-share",
+      "path": "skills/pinme-share/SKILL.md",
+      "url": "https://github.com/glitternetwork/pinme/blob/main/skills/pinme-share/SKILL.md",
+      "description": "Use this skill when the user wants to share, publish, or upload a static result through PinMe, especially by generating a static HTML share page for a PinMe project link, deployed full-stack app, Codex conversation summary, report, file, demo, or any 分享/发布/上传分享页 request that should end with `pinme upload`.",
+      "slug": "glitternetwork-pinme-share"
+    },
+    {
+      "repository": "glitternetwork/pinme",
+      "branch": "main",
+      "skillName": "pinme-uniwebpay",
+      "path": "skills/pinme-uniwebpay/SKILL.md",
+      "url": "https://github.com/glitternetwork/pinme/blob/main/skills/pinme-uniwebpay/SKILL.md",
+      "description": "Use when generating, modifying, or reviewing PinMe Cloudflare Worker TypeScript code that accepts payments through UniwebPay. The target app is a PinMe Worker project where PinMe injects UNIWEB_* bindings and the Worker calls UniwebPay directly with @uniwebpay/sdk. Covers Env bindings, SDK client setup, payment links, products/prices, checkout sessions, payment status reads, refunds/subscriptions/webhooks when requested, and PinMe-specific deployment/security rules.",
+      "slug": "glitternetwork-pinme-uniwebpay"
+    },
+    {
+      "repository": "glitternetwork/pinme",
+      "branch": "main",
+      "skillName": "pinme",
+      "path": "skills/pinme/SKILL.md",
+      "url": "https://github.com/glitternetwork/pinme/blob/main/skills/pinme/SKILL.md",
+      "description": "Use this skill when the user mentions \"pinme\", or needs to upload files, store to IPFS, create/publish/deploy websites or full-stack services (including frontend pages, backend APIs, database storage, email sending, etc.), or any feature requiring backend database/server support.",
+      "slug": "glitternetwork-pinme"
+    }
+  ],
+  "itemCount": 7,
+  "publicSkillCount": 6,
+  "lastStatus": "scanned"
+}

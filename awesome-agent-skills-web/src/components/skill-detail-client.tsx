@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useMemo } from "react";
 import { notFound, useSearchParams } from "next/navigation";
 import { PublisherLogo } from "@/components/publisher-logo";
@@ -8,13 +7,15 @@ import { SkillAvatar } from "@/components/skill-avatar";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { CopyButton } from "@/components/copy-button";
+import { DelayedRouteLink, DelayedSkillLink } from "@/components/delayed-skill-link";
+import { SkillSourcePreview } from "@/components/skill-source-preview";
 import {
   getRelatedSkills,
   getSkillBySlug,
   getSourceTypeLabel,
   getTrustLevelLabel,
 } from "@/lib/skills";
-import { getPublisherDetailPath, getSkillDetailPath, prefixLocalePath } from "@/lib/i18n";
+import { getPublisherDetailPath, prefixLocalePath } from "@/lib/i18n";
 
 const officialSkillRepos: Record<string, string> = {
   anthropics: "https://github.com/anthropics/skills",
@@ -50,6 +51,20 @@ function getSourceBadgeClass(
   }
 
   return "border-[#d8e0ea] bg-[#f6f8fb] text-[#556577]";
+}
+
+function getRepositoryUrl(repository?: string) {
+  return repository ? `https://github.com/${repository}` : null;
+}
+
+function getCreatorLabel(skill: NonNullable<ReturnType<typeof getSkillBySlug>>) {
+  return skill.creatorHandle ? `@${skill.creatorHandle}` : skill.publisher;
+}
+
+function getLicenseStatusLabel(pageLocale: "en" | "zh-CN") {
+  return pageLocale === "zh-CN"
+    ? "未在本站索引中单独记录；请以上游仓库 LICENSE / README 为准。"
+    : "Not separately recorded in this index; please verify the upstream repository LICENSE / README.";
 }
 
 function getInstallInfo(skill: NonNullable<ReturnType<typeof getSkillBySlug>>) {
@@ -97,6 +112,7 @@ export function SkillDetailClient({ locale }: { locale: "en" | "zh-CN" }) {
   const skill = useMemo(() => (slug ? getSkillBySlug(slug) : null), [slug]);
   const relatedSkills = useMemo(() => (slug ? getRelatedSkills(slug, 6, pageLocale) : []), [slug, pageLocale]);
   const installInfo = useMemo(() => (skill ? getInstallInfo(skill) : null), [skill]);
+  const repositoryUrl = useMemo(() => (skill ? getRepositoryUrl(skill.repository) : null), [skill]);
 
   if (!slug || !skill) {
     notFound();
@@ -104,7 +120,7 @@ export function SkillDetailClient({ locale }: { locale: "en" | "zh-CN" }) {
 
   return (
     <main className="pb-28 sm:pb-20">
-      <SiteHeader currentPath="/skills" locale={pageLocale} />
+      <SiteHeader currentPath={null} locale={pageLocale} />
       <div className="page-shell" style={{ paddingTop: "2rem", paddingBottom: "3.5rem" }}>
         <section
           className="detail-shell overflow-hidden border shadow-[0_28px_90px_rgba(56,49,36,0.08)]"
@@ -132,13 +148,13 @@ export function SkillDetailClient({ locale }: { locale: "en" | "zh-CN" }) {
 
               <div className="flex max-w-4xl flex-wrap gap-2">
                 {skill.tags.map((tag) => (
-                  <Link
+                  <DelayedRouteLink
                     key={tag}
                     className="detail-chip inline-flex min-h-8 max-w-full min-w-0 items-center justify-start rounded-full border px-3 py-1 text-left text-[10px] font-semibold uppercase leading-[1.15] tracking-[0.06em] whitespace-normal break-words transition sm:min-h-10 sm:px-4 sm:py-2 sm:text-xs sm:tracking-[0.12em]"
                     href={prefixLocalePath(`/skills?q=${encodeURIComponent(tag)}`, pageLocale)}
                   >
                     {tag}
-                  </Link>
+                  </DelayedRouteLink>
                 ))}
               </div>
 
@@ -163,19 +179,18 @@ export function SkillDetailClient({ locale }: { locale: "en" | "zh-CN" }) {
                   ))}
                 </div>
                 <div className="mt-4 flex flex-col items-start gap-3 sm:mt-5 sm:flex-row sm:flex-wrap sm:items-center sm:gap-3">
-                  <Link
+                  <DelayedRouteLink
                     className="detail-chip inline-flex min-h-11 min-w-0 items-center rounded-full border px-4 py-2.5 text-[13px] font-semibold leading-5 transition sm:text-sm sm:leading-6"
                     href={prefixLocalePath(getPublisherDetailPath(skill.publisherSlug, pageLocale), pageLocale)}
-                    prefetch={false}
                   >
                     {pageLocale === "zh-CN" ? `更多来自 ${skill.publisher}` : `More from ${skill.publisher}`}
-                  </Link>
-                  <Link
+                  </DelayedRouteLink>
+                  <DelayedRouteLink
                     className="detail-chip inline-flex min-h-11 min-w-0 items-center rounded-full border px-4 py-2.5 text-[13px] font-semibold leading-5 transition sm:text-sm sm:leading-6"
                     href={prefixLocalePath(`/skills?publisher=${skill.publisherSlug}`, pageLocale)}
                   >
                     {pageLocale === "zh-CN" ? "查看同一发布方的更多 skill" : "See more from this publisher"}
-                  </Link>
+                  </DelayedRouteLink>
                   <a
                     className="detail-chip inline-flex min-h-11 min-w-0 items-center gap-1.5 rounded-full border px-4 py-2.5 text-[13px] font-semibold leading-5 transition sm:text-sm sm:leading-6"
                     href={installInfo?.sourceUrl ?? skill.url}
@@ -308,13 +323,13 @@ export function SkillDetailClient({ locale }: { locale: "en" | "zh-CN" }) {
               <div className="mt-4 flex flex-wrap gap-2">
                 {skill.tags.length > 0 ? (
                   skill.tags.map((tag) => (
-                    <Link
+                    <DelayedRouteLink
                       key={tag}
                       className="detail-chip inline-flex min-h-8 max-w-full items-center rounded-full border px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.08em] sm:min-h-9"
                       href={prefixLocalePath(`/skills?q=${encodeURIComponent(tag)}`, pageLocale)}
                     >
                       {tag}
-                    </Link>
+                    </DelayedRouteLink>
                   ))
                 ) : (
                   <p className="muted text-sm leading-7">
@@ -324,7 +339,73 @@ export function SkillDetailClient({ locale }: { locale: "en" | "zh-CN" }) {
               </div>
             </div>
           </div>
+
+          <div className="mt-4 rounded-[1.25rem] border border-[var(--border-soft)] bg-[var(--surface-strong)] p-5">
+            <h3 className="eyebrow muted">{pageLocale === "zh-CN" ? "来源与合规说明" : "Source and policy notes"}</h3>
+            <div className="mt-4 grid gap-4 lg:grid-cols-2">
+              <div className="rounded-[1rem] border border-white/8 bg-white/[0.03] p-4">
+                <p className="text-xs uppercase tracking-[0.18em] text-[var(--ink-muted)]">
+                  {pageLocale === "zh-CN" ? "作者 / 维护者" : "Author / maintainer"}
+                </p>
+                <p className="mt-2 text-sm font-medium leading-6">{getCreatorLabel(skill)}</p>
+              </div>
+              <div className="rounded-[1rem] border border-white/8 bg-white/[0.03] p-4">
+                <p className="text-xs uppercase tracking-[0.18em] text-[var(--ink-muted)]">
+                  {pageLocale === "zh-CN" ? "仓库" : "Repository"}
+                </p>
+                {repositoryUrl ? (
+                  <a
+                    className="mt-2 block break-all text-sm font-medium leading-6 underline decoration-[color:var(--accent)] decoration-from-font underline-offset-4"
+                    href={repositoryUrl}
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    {repositoryUrl}
+                  </a>
+                ) : (
+                  <p className="mt-2 text-sm font-medium leading-6">-</p>
+                )}
+              </div>
+              <div className="rounded-[1rem] border border-white/8 bg-white/[0.03] p-4">
+                <p className="text-xs uppercase tracking-[0.18em] text-[var(--ink-muted)]">
+                  {pageLocale === "zh-CN" ? "来源" : "Source"}
+                </p>
+                <p className="mt-2 break-all text-sm font-medium leading-6">{skill.url}</p>
+              </div>
+              <div className="rounded-[1rem] border border-white/8 bg-white/[0.03] p-4">
+                <p className="text-xs uppercase tracking-[0.18em] text-[var(--ink-muted)]">
+                  {pageLocale === "zh-CN" ? "许可状态" : "License status"}
+                </p>
+                <p className="mt-2 text-sm font-medium leading-6">{getLicenseStatusLabel(pageLocale)}</p>
+              </div>
+            </div>
+            <div className="mt-4 rounded-[1rem] border border-[#d9d8ff] bg-[#f7f7ff] px-4 py-4 text-sm leading-7 text-[#4a4480] dark:border-[#5f5cb0] dark:bg-[rgba(91,88,155,0.18)] dark:text-[#d8d6ff]">
+              {pageLocale === "zh-CN" ? (
+                <>
+                  如需下架、纠错或权利说明，请联系{" "}
+                  <a className="underline" href="mailto:lionsaid@aliyun.com">
+                    lionsaid@aliyun.com
+                  </a>
+                </>
+              ) : (
+                <>
+                  For takedown, correction, or rights requests, contact{" "}
+                  <a className="underline" href="mailto:lionsaid@aliyun.com">
+                    lionsaid@aliyun.com
+                  </a>{" "}
+                </>
+              )}
+            </div>
+          </div>
         </section>
+
+        <SkillSourcePreview
+          locale={pageLocale}
+          skillName={skill.name}
+          discoveryPath={skill.discoveryPath}
+          repository={skill.repository}
+          sourceUrl={skill.url}
+        />
 
         <section className="mt-14">
           <div className="mb-7 flex items-end justify-between gap-4">
@@ -343,11 +424,11 @@ export function SkillDetailClient({ locale }: { locale: "en" | "zh-CN" }) {
 
           <div className="grid gap-5 md:grid-cols-2">
             {relatedSkills.map(({ skill: relatedSkill, reason }) => (
-              <Link
+              <DelayedSkillLink
                 key={relatedSkill.slug}
                 className="skill-card detail-card rounded-[1.75rem] border p-6 shadow-[0_18px_50px_rgba(56,49,36,0.06)]"
-                href={prefixLocalePath(getSkillDetailPath(relatedSkill.slug, pageLocale), pageLocale)}
-                prefetch={false}
+                locale={pageLocale}
+                skillSlug={relatedSkill.slug}
               >
                 <p className="eyebrow muted">{relatedSkill.publisher}</p>
                 <h3 className="mt-3 text-[1.35rem] font-semibold tracking-[-0.03em]">
@@ -367,7 +448,7 @@ export function SkillDetailClient({ locale }: { locale: "en" | "zh-CN" }) {
                     </span>
                   ))}
                 </div>
-              </Link>
+              </DelayedSkillLink>
             ))}
           </div>
         </section>

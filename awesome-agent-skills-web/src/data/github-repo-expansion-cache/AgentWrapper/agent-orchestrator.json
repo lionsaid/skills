@@ -1,0 +1,36 @@
+{
+  "repository": "AgentWrapper/agent-orchestrator",
+  "branch": "main",
+  "defaultBranch": "main",
+  "pushedAt": "2026-07-07T08:59:06Z",
+  "scannedAt": "2026-07-07T09:05:08.159Z",
+  "treeSha": "863853e3ac8bbe04f215385da1f6cb4a3aa76477",
+  "items": [
+    {
+      "repository": "AgentWrapper/agent-orchestrator",
+      "branch": "main",
+      "skillName": "agent-orchestrator",
+      "path": "README.md",
+      "url": "https://github.com/AgentWrapper/agent-orchestrator",
+      "description": "Agentic orchestrator for parallel coding agents — plans tasks, spawns agents, and autonomously handles CI    fixes, merge conflicts, and code reviews.",
+      "slug": "agentwrapper-agent-orchestrator-collection",
+      "isCollection": true,
+      "stars": 8105,
+      "skillPaths": [
+        "skills/bug-triage/SKILL.md"
+      ]
+    },
+    {
+      "repository": "AgentWrapper/agent-orchestrator",
+      "branch": "main",
+      "skillName": "bug-triage",
+      "path": "skills/bug-triage/SKILL.md",
+      "url": "https://github.com/AgentWrapper/agent-orchestrator/blob/main/skills/bug-triage/SKILL.md",
+      "description": "Triage bugs reported in chat/issues, search for duplicates, file or update GitHub issues with full context, and push fix PRs.",
+      "slug": "agentwrapper-bug-triage"
+    }
+  ],
+  "itemCount": 2,
+  "publicSkillCount": 1,
+  "lastStatus": "scanned"
+}

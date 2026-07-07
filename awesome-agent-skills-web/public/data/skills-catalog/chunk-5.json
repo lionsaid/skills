@@ -1,8 +1,100 @@
 {
-  "generatedAt": "2026-06-30T06:43:31.297Z",
+  "generatedAt": "2026-07-07T09:11:26.306Z",
   "chunkIndex": 5,
-  "totalSkills": 8512,
+  "totalSkills": 8886,
   "skills": [
+    {
+      "slug": "mrsz-agent-phone-call",
+      "name": "mrsz/agent-phone-call",
+      "description": "Agent Phone Call gives every AI agent a phone number and the ability to get things done over the phone — finding contacts, making calls, and completing tasks...",
+      "publisher": "mrsz",
+      "publisherSlug": "mrsz",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "mrsz",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/mrsz.png?size=88",
+      "creatorHandle": "mrsz",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "shawnpana-browser-use",
+      "name": "shawnpana/browser-use",
+      "description": "Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with w...",
+      "publisher": "shawnpana",
+      "publisherSlug": "shawnpana",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced",
+        "shawnpana"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/shawnpana.png?size=88",
+      "creatorHandle": "shawnpana",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "shaivpidadi-free-ride",
+      "name": "shaivpidadi/free-ride",
+      "description": "Manages free AI models from OpenRouter for OpenClaw. Automatically ranks models by quality, configures fallbacks for rate-limit handling, and updates opencla...",
+      "publisher": "shaivpidadi",
+      "publisherSlug": "shaivpidadi",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced",
+        "shaivpidadi"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/shaivpidadi.png?size=88",
+      "creatorHandle": "shaivpidadi",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
     {
       "slug": "autogame-17-feishu-evolver-wrapper",
       "name": "autogame-17/feishu-evolver-wrapper",
@@ -35,6 +127,36 @@
       ],
       "creatorAvatarUrl": "https://github.com/autogame-17.png?size=88",
       "creatorHandle": "autogame-17",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "steipete-mcporter",
+      "name": "steipete/mcporter",
+      "description": "Use the mcporter CLI to list, configure, auth, and call MCP servers/tools directly (HTTP or stdio), including ad-hoc servers, config edits, and CLI/type generation.",
+      "publisher": "steipete",
+      "publisherSlug": "steipete",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced",
+        "steipete"
+      ],
+      "personas": [],
+      "jobs": [
+        "api-integration"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/steipete.png?size=88",
+      "creatorHandle": "steipete",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -121,27 +243,21 @@
       "forks": null
     },
     {
-      "slug": "shawnpana-browser-use",
-      "name": "shawnpana/browser-use",
-      "description": "Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with w...",
-      "publisher": "shawnpana",
-      "publisherSlug": "shawnpana",
+      "slug": "matagul-desktop-control",
+      "name": "matagul/desktop-control",
+      "description": "Advanced desktop automation with mouse, keyboard, and screen control",
+      "publisher": "matagul",
+      "publisherSlug": "matagul",
       "sectionTitle": "Community marketplace",
       "kind": "community",
       "tags": [
         "community-marketplace",
+        "matagul",
         "namespaced",
-        "publisher-namespaced",
-        "shawnpana"
+        "publisher-namespaced"
       ],
-      "personas": [
-        "engineer"
-      ],
+      "personas": [],
       "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
         "workflow-automation"
       ],
       "sourceType": "marketplace",
@@ -150,8 +266,8 @@
         "community-marketplace",
         "requires-security-review"
       ],
-      "creatorAvatarUrl": "https://github.com/shawnpana.png?size=88",
-      "creatorHandle": "shawnpana",
+      "creatorAvatarUrl": "https://github.com/matagul.png?size=88",
+      "creatorHandle": "matagul",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -306,7 +422,7 @@
     {
       "slug": "gzlicanyi-imap-smtp-email",
       "name": "gzlicanyi/imap-smtp-email",
-      "description": "Read and send email via IMAP/SMTP. Check for new/unread messages, fetch content, search mailboxes, mark as read/unread, and send emails with attachments. Supports multiple accounts. Works with any IMAP/SMTP server including Gmail, Outlook, 163.com, vip.163.com, 126.com, vip.126.com, 188.com, and vip.188.com.",
+      "description": "Read and send email via IMAP/SMTP. Check for new/unread messages, fetch content, search mailboxes, mark as read/unread, and send emails with attachments. Supports multiple accounts. Works with any IMAP/SMTP server including Gmail, Outlook, 163.com, vip.163.com, 126.com, vip.126.com, 188.com, and vip",
       "publisher": "gzlicanyi",
       "publisherSlug": "gzlicanyi",
       "sectionTitle": "Community marketplace",
@@ -553,36 +669,6 @@
       "forks": null
     },
     {
-      "slug": "jrbobbyhansen-pixel-memory-setup",
-      "name": "jrbobbyhansen-pixel/memory-setup",
-      "description": "Enable and configure Moltbot/Clawdbot memory search for persistent context. Use when setting up memory, fixing \"goldfish brain,\" or helping users configure memorySearch in their config. Covers MEMORY.md, daily logs, and vector search setup.",
-      "publisher": "jrbobbyhansen-pixel",
-      "publisherSlug": "jrbobbyhansen-pixel",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "jrbobbyhansen-pixel",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [
-        "research-synthesis"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/jrbobbyhansen-pixel.png?size=88",
-      "creatorHandle": "jrbobbyhansen-pixel",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
       "slug": "joargp-news-summary",
       "name": "joargp/news-summary",
       "description": "This skill should be used when the user asks for news updates, daily briefings, or what's happening in the world. Fetches news from trusted international RSS feeds and can create voice summaries.",
@@ -613,22 +699,22 @@
       "forks": null
     },
     {
-      "slug": "steipete-blogwatcher",
-      "name": "steipete/blogwatcher",
-      "description": "Monitor blogs and RSS/Atom feeds for updates using the blogwatcher CLI.",
-      "publisher": "steipete",
-      "publisherSlug": "steipete",
+      "slug": "jrbobbyhansen-pixel-memory-setup",
+      "name": "jrbobbyhansen-pixel/memory-setup",
+      "description": "Enable and configure Moltbot/Clawdbot memory search for persistent context. Use when setting up memory, fixing \"goldfish brain,\" or helping users configure memorySearch in their config. Covers MEMORY.md, daily logs, and vector search setup.",
+      "publisher": "jrbobbyhansen-pixel",
+      "publisherSlug": "jrbobbyhansen-pixel",
       "sectionTitle": "Community marketplace",
       "kind": "community",
       "tags": [
         "community-marketplace",
+        "jrbobbyhansen-pixel",
         "namespaced",
-        "publisher-namespaced",
-        "steipete"
+        "publisher-namespaced"
       ],
       "personas": [],
       "jobs": [
-        "content-production"
+        "research-synthesis"
       ],
       "sourceType": "marketplace",
       "trustLevel": "untrusted",
@@ -636,8 +722,43 @@
         "community-marketplace",
         "requires-security-review"
       ],
-      "creatorAvatarUrl": "https://github.com/steipete.png?size=88",
-      "creatorHandle": "steipete",
+      "creatorAvatarUrl": "https://github.com/jrbobbyhansen-pixel.png?size=88",
+      "creatorHandle": "jrbobbyhansen-pixel",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "xiucheng-xiucheng-self-improving-agent",
+      "name": "xiucheng/xiucheng-self-improving-agent",
+      "description": "Self-improving agent system that analyzes conversation quality, identifies improvement opportunities, and continuously optimizes response strategies.",
+      "publisher": "xiucheng",
+      "publisherSlug": "xiucheng",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced",
+        "xiucheng"
+      ],
+      "personas": [
+        "support"
+      ],
+      "jobs": [
+        "data-extraction",
+        "document-authoring",
+        "reporting",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/xiucheng.png?size=88",
+      "creatorHandle": "xiucheng",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -671,6 +792,36 @@
       ],
       "creatorAvatarUrl": "https://github.com/spiceman161.png?size=88",
       "creatorHandle": "spiceman161",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "awspace-pdf",
+      "name": "awspace/pdf",
+      "description": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.",
+      "publisher": "awspace",
+      "publisherSlug": "awspace",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "awspace",
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [
+        "data-extraction"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/awspace.png?size=88",
+      "creatorHandle": "awspace",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -716,22 +867,22 @@
       "forks": null
     },
     {
-      "slug": "awspace-pdf",
-      "name": "awspace/pdf",
-      "description": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.",
-      "publisher": "awspace",
-      "publisherSlug": "awspace",
+      "slug": "steipete-blogwatcher",
+      "name": "steipete/blogwatcher",
+      "description": "Monitor blogs and RSS/Atom feeds for updates using the blogwatcher CLI.",
+      "publisher": "steipete",
+      "publisherSlug": "steipete",
       "sectionTitle": "Community marketplace",
       "kind": "community",
       "tags": [
-        "awspace",
         "community-marketplace",
         "namespaced",
-        "publisher-namespaced"
+        "publisher-namespaced",
+        "steipete"
       ],
       "personas": [],
       "jobs": [
-        "data-extraction"
+        "content-production"
       ],
       "sourceType": "marketplace",
       "trustLevel": "untrusted",
@@ -739,8 +890,8 @@
         "community-marketplace",
         "requires-security-review"
       ],
-      "creatorAvatarUrl": "https://github.com/awspace.png?size=88",
-      "creatorHandle": "awspace",
+      "creatorAvatarUrl": "https://github.com/steipete.png?size=88",
+      "creatorHandle": "steipete",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -930,34 +1081,6 @@
       "forks": null
     },
     {
-      "slug": "bestrocky-proactive-agent-lite",
-      "name": "bestrocky/proactive-agent-lite",
-      "description": "Transform AI agents from task-followers into proactive partners with memory architecture, reverse prompting, and self-healing patterns. Lightweight version f...",
-      "publisher": "bestrocky",
-      "publisherSlug": "bestrocky",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "bestrocky",
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/bestrocky.png?size=88",
-      "creatorHandle": "bestrocky",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
       "slug": "mpociot-superdesign",
       "name": "mpociot/superdesign",
       "description": "Expert frontend design guidelines for creating beautiful, modern UIs. Use when building landing pages, dashboards, or any user interface.",
@@ -1005,38 +1128,29 @@
       "forks": null
     },
     {
-      "slug": "steipete-model-usage",
-      "name": "steipete/model-usage",
-      "description": "Use CodexBar CLI local cost usage to summarize per-model usage for Codex or Claude, including the current (most recent) model or a full model breakdown. Trigger when asked for model-level usage/cost data from codexbar, or when you need a scriptable per-model summary from codexbar cost JSON.",
-      "publisher": "steipete",
-      "publisherSlug": "steipete",
+      "slug": "bestrocky-proactive-agent-lite",
+      "name": "bestrocky/proactive-agent-lite",
+      "description": "Transform AI agents from task-followers into proactive partners with memory architecture, reverse prompting, and self-healing patterns. Lightweight version f...",
+      "publisher": "bestrocky",
+      "publisherSlug": "bestrocky",
       "sectionTitle": "Community marketplace",
       "kind": "community",
       "tags": [
+        "bestrocky",
         "community-marketplace",
         "namespaced",
-        "publisher-namespaced",
-        "steipete"
+        "publisher-namespaced"
       ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "research-synthesis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
+      "personas": [],
+      "jobs": [],
       "sourceType": "marketplace",
       "trustLevel": "untrusted",
       "riskFlags": [
         "community-marketplace",
         "requires-security-review"
       ],
-      "creatorAvatarUrl": "https://github.com/steipete.png?size=88",
-      "creatorHandle": "steipete",
+      "creatorAvatarUrl": "https://github.com/bestrocky.png?size=88",
+      "creatorHandle": "bestrocky",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -1080,6 +1194,43 @@
       ],
       "creatorAvatarUrl": "https://github.com/billyutw.png?size=88",
       "creatorHandle": "billyutw",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "steipete-model-usage",
+      "name": "steipete/model-usage",
+      "description": "Use CodexBar CLI local cost usage to summarize per-model usage for Codex or Claude, including the current (most recent) model or a full model breakdown. Trigger when asked for model-level usage/cost data from codexbar, or when you need a scriptable per-model summary from codexbar cost JSON.",
+      "publisher": "steipete",
+      "publisherSlug": "steipete",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced",
+        "steipete"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/steipete.png?size=88",
+      "creatorHandle": "steipete",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -1220,9 +1371,47 @@
       "forks": null
     },
     {
+      "slug": "steipete-clawdhub",
+      "name": "steipete/clawdhub",
+      "description": "Use the ClawdHub CLI to search, install, update, and publish agent skills from clawdhub.com. Use when you need to fetch new skills on the fly, sync installed skills to latest or a specific version, or publish new/updated skill folders with the npm-installed clawdhub CLI.",
+      "publisher": "steipete",
+      "publisherSlug": "steipete",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced",
+        "steipete"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "prd-specs",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/steipete.png?size=88",
+      "creatorHandle": "steipete",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
       "slug": "autogame-17-capability-evolver",
       "name": "autogame-17/capability-evolver",
-      "description": "A self-evolution engine for AI agents. Analyzes runtime history to identify improvements and applies protocol-constrained evolution. Communicates with EvoMap...",
+      "description": "A self-evolution engine for AI agents. Analyzes runtime history to identify improvements and applies protocol-constrained evolution. Communicates with EvoMap Hub via local Proxy mailbox.",
       "publisher": "autogame-17",
       "publisherSlug": "autogame-17",
       "sectionTitle": "Community marketplace",
@@ -1280,42 +1469,6 @@
       "forks": null
     },
     {
-      "slug": "adboio-agentmail",
-      "name": "adboio/agentmail",
-      "description": "API-first email platform designed for AI agents. Create and manage dedicated email inboxes, send and receive emails programmatically, and handle email-based workflows with webhooks and real-time events. Use when you need to set up agent email identity, send emails from agents, handle incoming email workflows, or replace traditional email providers like Gmail with agent-friendly infrastructure.",
-      "publisher": "adboio",
-      "publisherSlug": "adboio",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "adboio",
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/adboio.png?size=88",
-      "creatorHandle": "adboio",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
       "slug": "ivangdavila-playwright",
       "name": "ivangdavila/playwright",
       "description": "Browser automation via Playwright MCP. Navigate websites, click elements, fill forms, take screenshots, extract data, and debug real browser workflows. Use w...",
@@ -1348,6 +1501,42 @@
       ],
       "creatorAvatarUrl": "https://github.com/ivangdavila.png?size=88",
       "creatorHandle": "ivangdavila",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "adboio-agentmail",
+      "name": "adboio/agentmail",
+      "description": "API-first email platform designed for AI agents. Create and manage dedicated email inboxes, send and receive emails programmatically, and handle email-based workflows with webhooks and real-time events. Use when you need to set up agent email identity, send emails from agents, handle incoming email workflows, or replace traditional email providers like Gmail with agent-friendly infrastructure.",
+      "publisher": "adboio",
+      "publisherSlug": "adboio",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "adboio",
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/adboio.png?size=88",
+      "creatorHandle": "adboio",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -1424,6 +1613,49 @@
       ],
       "creatorAvatarUrl": "https://github.com/steipete.png?size=88",
       "creatorHandle": "steipete",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "anysearch-ai-anysearch-mcp",
+      "name": "anysearch-ai/anysearch-mcp",
+      "description": "Real-time MCP server for general and vertical web searches, parallel batch queries, and full-page URL content extraction as Markdown.",
+      "publisher": "anysearch-ai",
+      "publisherSlug": "anysearch-ai",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "anysearch-ai",
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "data-analyst",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "dashboarding",
+        "data-extraction",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/anysearch-ai.png?size=88",
+      "creatorHandle": "anysearch-ai",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -1508,6 +1740,43 @@
       "forks": null
     },
     {
+      "slug": "anysearch-ai-anysearch",
+      "name": "anysearch-ai/anysearch",
+      "description": "Real-time search engine supporting web search, vertical domain search, parallel batch search, and URL content extraction.",
+      "publisher": "anysearch-ai",
+      "publisherSlug": "anysearch-ai",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "anysearch-ai",
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "marketer"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/anysearch-ai.png?size=88",
+      "creatorHandle": "anysearch-ai",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
       "slug": "kowl64-n8n-workflow-automation",
       "name": "kowl64/n8n-workflow-automation",
       "description": "Designs and outputs n8n workflow JSON with robust triggers, idempotency, error handling, logging, retries, and human-in-the-loop review queues. Use when you need an auditable automation that won’t silently fail.",
@@ -1533,49 +1802,6 @@
       ],
       "creatorAvatarUrl": "https://github.com/kowl64.png?size=88",
       "creatorHandle": "kowl64",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "anysearch-ai-anysearch-mcp",
-      "name": "anysearch-ai/anysearch-mcp",
-      "description": "Real-time MCP server for general and vertical web searches, parallel batch queries, and full-page URL content extraction as Markdown.",
-      "publisher": "anysearch-ai",
-      "publisherSlug": "anysearch-ai",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "anysearch-ai",
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "data-analyst",
-        "marketer"
-      ],
-      "jobs": [
-        "api-integration",
-        "campaign-planning",
-        "content-production",
-        "dashboarding",
-        "data-extraction",
-        "landing-pages",
-        "reporting",
-        "research-synthesis",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/anysearch-ai.png?size=88",
-      "creatorHandle": "anysearch-ai",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -1612,6 +1838,42 @@
       "forks": null
     },
     {
+      "slug": "zlc000190-using-superpowers",
+      "name": "zlc000190/using-superpowers",
+      "description": "Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions",
+      "publisher": "zlc000190",
+      "publisherSlug": "zlc000190",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced",
+        "zlc000190"
+      ],
+      "personas": [
+        "support"
+      ],
+      "jobs": [
+        "data-extraction",
+        "document-authoring",
+        "reporting",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/zlc000190.png?size=88",
+      "creatorHandle": "zlc000190",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
       "slug": "wwlyzzyorg-ppt-generator",
       "name": "wwlyzzyorg/ppt-generator",
       "description": "将用户讲稿一键生成乔布斯风极简科技感竖屏HTML演示稿。当用户需要生成PPT、演示文稿、Slides、幻灯片，或要求科技风/极简风/乔布斯风格的演示时触发此技能。输出为单个可直接运行的HTML文件。",
@@ -1637,43 +1899,6 @@
       ],
       "creatorAvatarUrl": "https://github.com/wwlyzzyorg.png?size=88",
       "creatorHandle": "wwlyzzyorg",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "anysearch-ai-anysearch",
-      "name": "anysearch-ai/anysearch",
-      "description": "Real-time search engine supporting web search, vertical domain search, parallel batch search, and URL content extraction.",
-      "publisher": "anysearch-ai",
-      "publisherSlug": "anysearch-ai",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "anysearch-ai",
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "marketer"
-      ],
-      "jobs": [
-        "campaign-planning",
-        "content-production",
-        "landing-pages",
-        "reporting",
-        "research-synthesis",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/anysearch-ai.png?size=88",
-      "creatorHandle": "anysearch-ai",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -1837,34 +2062,6 @@
       "forks": null
     },
     {
-      "slug": "alex3alex-openclaw-backup",
-      "name": "alex3alex/openclaw-backup",
-      "description": "Backup and restore OpenClaw data. Use when user asks to create backups, set up automatic backup schedules, restore from backup, or manage backup rotation. Handles ~/.openclaw directory archiving with proper exclusions.",
-      "publisher": "alex3alex",
-      "publisherSlug": "alex3alex",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "alex3alex",
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/alex3alex.png?size=88",
-      "creatorHandle": "alex3alex",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
       "slug": "dennis-da-menace-agent-memory",
       "name": "dennis-da-menace/agent-memory",
       "description": "Persistent memory for AI agents to store facts, learn from actions, recall information, and track entities across sessions.",
@@ -1888,6 +2085,34 @@
       ],
       "creatorAvatarUrl": "https://github.com/dennis-da-menace.png?size=88",
       "creatorHandle": "dennis-da-menace",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "alex3alex-openclaw-backup",
+      "name": "alex3alex/openclaw-backup",
+      "description": "Backup and restore OpenClaw data. Use when user asks to create backups, set up automatic backup schedules, restore from backup, or manage backup rotation. Handles ~/.openclaw directory archiving with proper exclusions.",
+      "publisher": "alex3alex",
+      "publisherSlug": "alex3alex",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "alex3alex",
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/alex3alex.png?size=88",
+      "creatorHandle": "alex3alex",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -2040,34 +2265,6 @@
       "forks": null
     },
     {
-      "slug": "mbpz-akshare-stock",
-      "name": "mbpz/akshare-stock",
-      "description": "A股量化数据分析工具，基于AkShare库获取A股行情、财务数据、板块信息等。用于回答关于A股股票查询、行情数据、财务分析、选股等问题。",
-      "publisher": "mbpz",
-      "publisherSlug": "mbpz",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "mbpz",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mbpz.png?size=88",
-      "creatorHandle": "mbpz",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
       "slug": "stellarhold170nt-healthcheck",
       "name": "stellarhold170nt/healthcheck",
       "description": "Track water and sleep with JSON file storage",
@@ -2091,6 +2288,34 @@
       ],
       "creatorAvatarUrl": "https://github.com/stellarhold170nt.png?size=88",
       "creatorHandle": "stellarhold170nt",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "mbpz-akshare-stock",
+      "name": "mbpz/akshare-stock",
+      "description": "A股量化数据分析工具，基于AkShare库获取A股行情、财务数据、板块信息等。用于回答关于A股股票查询、行情数据、财务分析、选股等问题。",
+      "publisher": "mbpz",
+      "publisherSlug": "mbpz",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "mbpz",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/mbpz.png?size=88",
+      "creatorHandle": "mbpz",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -2162,23 +2387,29 @@
       "forks": null
     },
     {
-      "slug": "10e9928a-duckduckgo-search",
-      "name": "10e9928a/duckduckgo-search",
-      "description": "Performs web searches using DuckDuckGo to retrieve real-time information from the internet. Use when the user needs to search for current events, documentation, tutorials, or any information that requires web search capabilities.",
-      "publisher": "10e9928a",
-      "publisherSlug": "10e9928a",
+      "slug": "steipete-tmux",
+      "name": "steipete/tmux",
+      "description": "Remote-control tmux sessions for interactive CLIs by sending keystrokes and scraping pane output.",
+      "publisher": "steipete",
+      "publisherSlug": "steipete",
       "sectionTitle": "Community marketplace",
       "kind": "community",
       "tags": [
-        "10e9928a",
         "community-marketplace",
         "namespaced",
-        "publisher-namespaced"
+        "publisher-namespaced",
+        "steipete"
       ],
-      "personas": [],
+      "personas": [
+        "engineer"
+      ],
       "jobs": [
-        "research-synthesis",
-        "ui-ux-design"
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
       ],
       "sourceType": "marketplace",
       "trustLevel": "untrusted",
@@ -2186,8 +2417,8 @@
         "community-marketplace",
         "requires-security-review"
       ],
-      "creatorAvatarUrl": "https://github.com/10e9928a.png?size=88",
-      "creatorHandle": "10e9928a",
+      "creatorAvatarUrl": "https://github.com/steipete.png?size=88",
+      "creatorHandle": "steipete",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -2230,6 +2461,103 @@
       ],
       "creatorAvatarUrl": "https://github.com/kys42.png?size=88",
       "creatorHandle": "kys42",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "10e9928a-duckduckgo-search",
+      "name": "10e9928a/duckduckgo-search",
+      "description": "Performs web searches using DuckDuckGo to retrieve real-time information from the internet. Use when the user needs to search for current events, documentation, tutorials, or any information that requires web search capabilities.",
+      "publisher": "10e9928a",
+      "publisherSlug": "10e9928a",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "10e9928a",
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [
+        "research-synthesis",
+        "ui-ux-design"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/10e9928a.png?size=88",
+      "creatorHandle": "10e9928a",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "waisimon-playwright-scraper-skill",
+      "name": "waisimon/playwright-scraper-skill",
+      "description": "Playwright-based web scraping OpenClaw Skill with anti-bot protection. Successfully tested on complex sites like Discuss.com.hk.",
+      "publisher": "waisimon",
+      "publisherSlug": "waisimon",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced",
+        "waisimon"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/waisimon.png?size=88",
+      "creatorHandle": "waisimon",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "jamesfincher-browserbase",
+      "name": "jamesfincher/browserbase",
+      "description": "Create and manage persistent Browserbase cloud browser sessions with authentication persistence. Use when the user needs to automate browsers, maintain logged-in sessions across interactions, scrape authenticated pages, or manage cloud browser instances. Handles session creation, context-based auth persistence, keep-alive reconnection, captcha solving, session recording, screenshots, and session cleanup.",
+      "publisher": "jamesfincher",
+      "publisherSlug": "jamesfincher",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "jamesfincher",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/jamesfincher.png?size=88",
+      "creatorHandle": "jamesfincher",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -2323,42 +2651,6 @@
       "forks": null
     },
     {
-      "slug": "steipete-sag",
-      "name": "steipete/sag",
-      "description": "ElevenLabs text-to-speech with mac-style say UX.",
-      "publisher": "steipete",
-      "publisherSlug": "steipete",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced",
-        "steipete"
-      ],
-      "personas": [
-        "designer"
-      ],
-      "jobs": [
-        "design-critique",
-        "presentation-building",
-        "ui-ux-design",
-        "visual-assets",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/steipete.png?size=88",
-      "creatorHandle": "steipete",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
       "slug": "ivangdavila-code",
       "name": "ivangdavila/code",
       "description": "Coding workflow with planning, implementation, verification, and testing for clean software development.",
@@ -2396,6 +2688,42 @@
       "forks": null
     },
     {
+      "slug": "steipete-sag",
+      "name": "steipete/sag",
+      "description": "ElevenLabs text-to-speech with mac-style say UX.",
+      "publisher": "steipete",
+      "publisherSlug": "steipete",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced",
+        "steipete"
+      ],
+      "personas": [
+        "designer"
+      ],
+      "jobs": [
+        "design-critique",
+        "presentation-building",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/steipete.png?size=88",
+      "creatorHandle": "steipete",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
       "slug": "whiteknight07-exa-web-search-free",
       "name": "whiteknight07/exa-web-search-free",
       "description": "Free AI search via Exa MCP. Web search for news/info, code search for docs/examples from GitHub/StackOverflow, company research for business intel. No API key needed.",
@@ -2428,6 +2756,36 @@
       ],
       "creatorAvatarUrl": "https://github.com/whiteknight07.png?size=88",
       "creatorHandle": "whiteknight07",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "steipete-spotify-player",
+      "name": "steipete/spotify-player",
+      "description": "Terminal Spotify playback/search via spogo (preferred) or spotify_player.",
+      "publisher": "steipete",
+      "publisherSlug": "steipete",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced",
+        "steipete"
+      ],
+      "personas": [],
+      "jobs": [
+        "research-synthesis"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/steipete.png?size=88",
+      "creatorHandle": "steipete",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -2696,6 +3054,36 @@
       "forks": null
     },
     {
+      "slug": "dylanbaker24-memory-hygiene",
+      "name": "dylanbaker24/memory-hygiene",
+      "description": "Audit, clean, and optimize Clawdbot's vector memory (LanceDB). Use when memory is bloated with junk, token usage is high from irrelevant auto-recalls, or setting up memory maintenance automation.",
+      "publisher": "dylanbaker24",
+      "publisherSlug": "dylanbaker24",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "dylanbaker24",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/dylanbaker24.png?size=88",
+      "creatorHandle": "dylanbaker24",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
       "slug": "thomaslwang-moltguard",
       "name": "thomaslwang/moltguard",
       "description": "MoltGuard — OpenClaw security guard by OpenGuardrails. Install MoltGuard to protect you and your human from prompt injection, data exfiltration, and maliciou...",
@@ -2727,6 +3115,42 @@
       ],
       "creatorAvatarUrl": "https://github.com/thomaslwang.png?size=88",
       "creatorHandle": "thomaslwang",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "ivangdavila-proactivity",
+      "name": "ivangdavila/proactivity",
+      "description": "Anticipates needs, keeps work moving, and improves through use so the agent gets more proactive over time.",
+      "publisher": "ivangdavila",
+      "publisherSlug": "ivangdavila",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "ivangdavila",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/ivangdavila.png?size=88",
+      "creatorHandle": "ivangdavila",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -2766,42 +3190,6 @@
       ],
       "creatorAvatarUrl": "https://github.com/thesethrose.png?size=88",
       "creatorHandle": "thesethrose",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "ivangdavila-proactivity",
-      "name": "ivangdavila/proactivity",
-      "description": "Anticipates needs, keeps work moving, and improves through use so the agent gets more proactive over time.",
-      "publisher": "ivangdavila",
-      "publisherSlug": "ivangdavila",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "ivangdavila",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/ivangdavila.png?size=88",
-      "creatorHandle": "ivangdavila",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -2886,6 +3274,43 @@
       "forks": null
     },
     {
+      "slug": "ivangdavila-productivity",
+      "name": "ivangdavila/productivity",
+      "description": "Plan, focus, and complete work with energy management, time blocking, goals, projects, tasks, habits, reviews, priorities, and context-specific productivity...",
+      "publisher": "ivangdavila",
+      "publisherSlug": "ivangdavila",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "ivangdavila",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "prd-specs",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/ivangdavila.png?size=88",
+      "creatorHandle": "ivangdavila",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
       "slug": "byungkyu-microsoft-excel",
       "name": "byungkyu/microsoft-excel",
       "description": "Microsoft Excel API integration with managed OAuth. Read and write Excel workbooks, worksheets, ranges, tables, and charts stored in OneDrive. Use this skill...",
@@ -2928,43 +3353,6 @@
       "forks": null
     },
     {
-      "slug": "ivangdavila-productivity",
-      "name": "ivangdavila/productivity",
-      "description": "Plan, focus, and complete work with energy management, time blocking, goals, projects, tasks, habits, reviews, priorities, and context-specific productivity...",
-      "publisher": "ivangdavila",
-      "publisherSlug": "ivangdavila",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "ivangdavila",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "prd-specs",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/ivangdavila.png?size=88",
-      "creatorHandle": "ivangdavila",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
       "slug": "wscats-bilibili-all-in-one",
       "name": "wscats/bilibili-all-in-one",
       "description": "A comprehensive Bilibili toolkit that integrates hot trending monitoring, video downloading, video watching/playback, subtitle downloading, and video publish...",
@@ -2988,55 +3376,6 @@
       ],
       "creatorAvatarUrl": "https://github.com/wscats.png?size=88",
       "creatorHandle": "wscats",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "jk-0001-copywriting",
-      "name": "jk-0001/copywriting",
-      "description": "Write persuasive copy for landing pages, emails, ads, sales pages, and marketing materials. Use when you need to write headlines, CTAs, product descriptions, ad copy, email sequences, or any text meant to drive action. Covers copywriting formulas (AIDA, PAS, FAB), headline writing, emotional triggers, objection handling in copy, and A/B testing. Trigger on \"write copy\", \"copywriting\", \"landing page copy\", \"headline\", \"write a sales page\", \"ad copy\", \"email copy\", \"persuasive writing\", \"how to write [marketing text]\".",
-      "publisher": "jk-0001",
-      "publisherSlug": "jk-0001",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "jk-0001",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer",
-        "founder",
-        "marketer",
-        "pm",
-        "sales"
-      ],
-      "jobs": [
-        "api-integration",
-        "campaign-planning",
-        "content-production",
-        "deployment-ops",
-        "development-workflows",
-        "document-authoring",
-        "landing-pages",
-        "planning-roadmapping",
-        "prd-specs",
-        "presentation-building",
-        "reporting",
-        "research-synthesis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/jk-0001.png?size=88",
-      "creatorHandle": "jk-0001",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -3109,6 +3448,55 @@
       ],
       "creatorAvatarUrl": "https://github.com/OthmanAdi.png?size=88",
       "creatorHandle": "OthmanAdi",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "jk-0001-copywriting",
+      "name": "jk-0001/copywriting",
+      "description": "Write persuasive copy for landing pages, emails, ads, sales pages, and marketing materials. Use when you need to write headlines, CTAs, product descriptions, ad copy, email sequences, or any text meant to drive action. Covers copywriting formulas (AIDA, PAS, FAB), headline writing, emotional triggers, objection handling in copy, and A/B testing. Trigger on \"write copy\", \"copywriting\", \"landing page copy\", \"headline\", \"write a sales page\", \"ad copy\", \"email copy\", \"persuasive writing\", \"how to write [marketing text]\".",
+      "publisher": "jk-0001",
+      "publisherSlug": "jk-0001",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "jk-0001",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "founder",
+        "marketer",
+        "pm",
+        "sales"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "landing-pages",
+        "planning-roadmapping",
+        "prd-specs",
+        "presentation-building",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/jk-0001.png?size=88",
+      "creatorHandle": "jk-0001",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -3187,6 +3575,34 @@
       "forks": null
     },
     {
+      "slug": "ndcccccc-calendar",
+      "name": "ndcccccc/calendar",
+      "description": "Calendar management and scheduling. Create events, manage meetings, and sync across calendar providers.",
+      "publisher": "ndcccccc",
+      "publisherSlug": "ndcccccc",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "namespaced",
+        "ndcccccc",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/ndcccccc.png?size=88",
+      "creatorHandle": "ndcccccc",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
       "slug": "robbyczgw-cla-web-search-plus",
       "name": "robbyczgw-cla/web-search-plus",
       "description": "Unified multi-provider web search and URL extraction skill with intelligent auto-routing across Serper, Brave, Tavily, Querit, Linkup, Exa, Firecrawl, Perple...",
@@ -3245,18 +3661,18 @@
       "forks": null
     },
     {
-      "slug": "ndcccccc-calendar",
-      "name": "ndcccccc/calendar",
-      "description": "Calendar management and scheduling. Create events, manage meetings, and sync across calendar providers.",
-      "publisher": "ndcccccc",
-      "publisherSlug": "ndcccccc",
+      "slug": "zhengxinjipai-self-improving-agent-cn",
+      "name": "zhengxinjipai/self-improving-agent-cn",
+      "description": "AI自我改进与记忆系统 - 解决'同类错误反复犯、用户纠正不长记性'的痛点。自动捕获错误、用户纠正、最佳实践，并转化为长期记忆。",
+      "publisher": "zhengxinjipai",
+      "publisherSlug": "zhengxinjipai",
       "sectionTitle": "Community marketplace",
       "kind": "community",
       "tags": [
         "community-marketplace",
         "namespaced",
-        "ndcccccc",
-        "publisher-namespaced"
+        "publisher-namespaced",
+        "zhengxinjipai"
       ],
       "personas": [],
       "jobs": [],
@@ -3266,44 +3682,8 @@
         "community-marketplace",
         "requires-security-review"
       ],
-      "creatorAvatarUrl": "https://github.com/ndcccccc.png?size=88",
-      "creatorHandle": "ndcccccc",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "byungkyu-outlook-api",
-      "name": "byungkyu/outlook-api",
-      "description": "Microsoft Outlook API integration with managed OAuth. Read, send, and manage emails, folders, calendar events, and contacts via Microsoft Graph. Use this skill when users want to interact with Outlook. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
-      "publisher": "byungkyu",
-      "publisherSlug": "byungkyu",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "byungkyu",
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/byungkyu.png?size=88",
-      "creatorHandle": "byungkyu",
+      "creatorAvatarUrl": "https://github.com/zhengxinjipai.png?size=88",
+      "creatorHandle": "zhengxinjipai",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -3347,6 +3727,42 @@
       ],
       "creatorAvatarUrl": "https://github.com/steipete.png?size=88",
       "creatorHandle": "steipete",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "byungkyu-outlook-api",
+      "name": "byungkyu/outlook-api",
+      "description": "Microsoft Outlook API integration with managed OAuth. Read, send, and manage emails, folders, calendar events, and contacts via Microsoft Graph. Use this skill when users want to interact with Outlook. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
+      "publisher": "byungkyu",
+      "publisherSlug": "byungkyu",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "byungkyu",
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/byungkyu.png?size=88",
+      "creatorHandle": "byungkyu",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -3458,6 +3874,52 @@
       "forks": null
     },
     {
+      "slug": "ivangdavila-market-research",
+      "name": "ivangdavila/market-research",
+      "description": "Research markets with sizing, segmentation, competitor mapping, pricing checks, and demand validation that turn fuzzy ideas into decision-ready evidence. Use...",
+      "publisher": "ivangdavila",
+      "publisherSlug": "ivangdavila",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "ivangdavila",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "founder",
+        "pm",
+        "sales"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "landing-pages",
+        "planning-roadmapping",
+        "prd-specs",
+        "presentation-building",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/ivangdavila.png?size=88",
+      "creatorHandle": "ivangdavila",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
       "slug": "ashwingupy-firecrawl-search",
       "name": "ashwingupy/firecrawl-search",
       "description": "Web search and scraping via Firecrawl API. Use when you need to search the web, scrape websites (including JS-heavy pages), crawl entire sites, or extract structured data from web pages. Requires FIRECRAWL_API_KEY environment variable.",
@@ -3534,47 +3996,29 @@
       "forks": null
     },
     {
-      "slug": "ivangdavila-market-research",
-      "name": "ivangdavila/market-research",
-      "description": "Research markets with sizing, segmentation, competitor mapping, pricing checks, and demand validation that turn fuzzy ideas into decision-ready evidence. Use...",
-      "publisher": "ivangdavila",
-      "publisherSlug": "ivangdavila",
+      "slug": "breckengan-find-skill",
+      "name": "breckengan/find-skill",
+      "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express...",
+      "publisher": "breckengan",
+      "publisherSlug": "breckengan",
       "sectionTitle": "Community marketplace",
       "kind": "community",
       "tags": [
+        "breckengan",
         "community-marketplace",
-        "ivangdavila",
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [
-        "engineer",
-        "founder",
-        "pm",
-        "sales"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "document-authoring",
-        "landing-pages",
-        "planning-roadmapping",
-        "prd-specs",
-        "presentation-building",
-        "reporting",
-        "research-synthesis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
+      "personas": [],
+      "jobs": [],
       "sourceType": "marketplace",
       "trustLevel": "untrusted",
       "riskFlags": [
         "community-marketplace",
         "requires-security-review"
       ],
-      "creatorAvatarUrl": "https://github.com/ivangdavila.png?size=88",
-      "creatorHandle": "ivangdavila",
+      "creatorAvatarUrl": "https://github.com/breckengan.png?size=88",
+      "creatorHandle": "breckengan",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -3633,6 +4077,42 @@
       ],
       "creatorAvatarUrl": "https://github.com/wscats.png?size=88",
       "creatorHandle": "wscats",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "knifean-golang-coding",
+      "name": "knifean/golang-coding",
+      "description": "Evaluate and score Go code quality based on syntax, style, and best practices to provide constructive feedback and improvements.",
+      "publisher": "knifean",
+      "publisherSlug": "knifean",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "knifean",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/knifean.png?size=88",
+      "creatorHandle": "knifean",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -3744,6 +4224,42 @@
       "forks": null
     },
     {
+      "slug": "iahmadzain-home-assistant",
+      "name": "iahmadzain/home-assistant",
+      "description": "Control Home Assistant smart home devices, run automations, and receive webhook events. Use when controlling lights, switches, climate, scenes, scripts, or any HA entity. Supports bidirectional communication via REST API (outbound) and webhooks (inbound triggers from HA automations).",
+      "publisher": "iahmadzain",
+      "publisherSlug": "iahmadzain",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "iahmadzain",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/iahmadzain.png?size=88",
+      "creatorHandle": "iahmadzain",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
       "slug": "abk234-searxng",
       "name": "abk234/searxng",
       "description": "Privacy-respecting metasearch using your local SearXNG instance. Search the web, images, news, and more without external API dependencies.",
@@ -3778,34 +4294,6 @@
       ],
       "creatorAvatarUrl": "https://github.com/abk234.png?size=88",
       "creatorHandle": "abk234",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "wscats-t-trading",
-      "name": "wscats/t-trading",
-      "description": "基于维加斯通道EMA多层通道与斐波那契回撤，提供A股和加密货币短线交易的多维度结构化技术分析和明确操作建议。",
-      "publisher": "wscats",
-      "publisherSlug": "wscats",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced",
-        "wscats"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/wscats.png?size=88",
-      "creatorHandle": "wscats",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -3859,46 +4347,9 @@
       "forks": null
     },
     {
-      "slug": "byungkyu-stripe-api",
-      "name": "byungkyu/stripe-api",
-      "description": "Stripe API integration with managed OAuth. This is a write-capable financial integration for customers, subscriptions, invoices, products, prices, and payments. Install only if you need Stripe administration. Connect with the least-privileged Stripe account and OAuth scopes available, verify the intended connection ID before each request, and revoke unused connections promptly. All write operations require explicit user approval showing the exact endpoint, target resource, object IDs, amounts, and test/live mode before execution.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).\nRequires network access and valid Maton API key.",
-      "publisher": "byungkyu",
-      "publisherSlug": "byungkyu",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "byungkyu",
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/byungkyu.png?size=88",
-      "creatorHandle": "byungkyu",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "wscats-resume-assistant",
-      "name": "wscats/resume-assistant",
-      "description": "Assist job seekers by polishing, customizing, scoring, and exporting resumes with detailed checklist reviews and multi-format support.",
+      "slug": "wscats-t-trading",
+      "name": "wscats/t-trading",
+      "description": "基于维加斯通道EMA多层通道与斐波那契回撤，提供A股和加密货币短线交易的多维度结构化技术分析和明确操作建议。",
       "publisher": "wscats",
       "publisherSlug": "wscats",
       "sectionTitle": "Community marketplace",
@@ -3909,15 +4360,8 @@
         "publisher-namespaced",
         "wscats"
       ],
-      "personas": [
-        "support"
-      ],
-      "jobs": [
-        "data-extraction",
-        "document-authoring",
-        "reporting",
-        "workflow-automation"
-      ],
+      "personas": [],
+      "jobs": [],
       "sourceType": "marketplace",
       "trustLevel": "untrusted",
       "riskFlags": [
@@ -3959,6 +4403,78 @@
       "forks": null
     },
     {
+      "slug": "wscats-resume-assistant",
+      "name": "wscats/resume-assistant",
+      "description": "Assist job seekers by polishing, customizing, scoring, and exporting resumes with detailed checklist reviews and multi-format support.",
+      "publisher": "wscats",
+      "publisherSlug": "wscats",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced",
+        "wscats"
+      ],
+      "personas": [
+        "support"
+      ],
+      "jobs": [
+        "data-extraction",
+        "document-authoring",
+        "reporting",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/wscats.png?size=88",
+      "creatorHandle": "wscats",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "byungkyu-stripe-api",
+      "name": "byungkyu/stripe-api",
+      "description": "Stripe API integration with managed OAuth. This is a write-capable financial integration for customers, subscriptions, invoices, products, prices, and payments. Install only if you need Stripe administration. Connect with the least-privileged Stripe account and OAuth scopes available, verify the intended connection ID before each request, and revoke unused connections promptly. All write operations require explicit user approval showing the exact endpoint, target resource, object IDs, amounts, and test/live mode before execution.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).\nRequires network access and valid Maton API key.",
+      "publisher": "byungkyu",
+      "publisherSlug": "byungkyu",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "byungkyu",
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/byungkyu.png?size=88",
+      "creatorHandle": "byungkyu",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
       "slug": "rhyssullivan-answeroverflow",
       "name": "rhyssullivan/answeroverflow",
       "description": "Search indexed Discord community discussions via Answer Overflow. Find solutions to coding problems, library issues, and community Q&A that only exist in Discord conversations.",
@@ -3985,6 +4501,81 @@
       ],
       "creatorAvatarUrl": "https://github.com/rhyssullivan.png?size=88",
       "creatorHandle": "rhyssullivan",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "shreefentsar-remotion-video-toolkit",
+      "name": "shreefentsar/remotion-video-toolkit",
+      "description": "Complete toolkit for programmatic video creation with Remotion + React. Covers animations, timing, rendering (CLI/Node.js/Lambda/Cloud Run), captions, 3D, charts, text effects, transitions, and media handling. Use when writing Remotion code, building video generation pipelines, or creating data-driven video templates.",
+      "publisher": "shreefentsar",
+      "publisherSlug": "shreefentsar",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced",
+        "shreefentsar"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/shreefentsar.png?size=88",
+      "creatorHandle": "shreefentsar",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "cmanfre7-debug-pro",
+      "name": "cmanfre7/debug-pro",
+      "description": "Provides a 7-step debugging protocol plus language-specific commands to systematically identify, verify, and fix software bugs across multiple environments.",
+      "publisher": "cmanfre7",
+      "publisherSlug": "cmanfre7",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "cmanfre7",
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "prd-specs",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/cmanfre7.png?size=88",
+      "creatorHandle": "cmanfre7",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -4085,81 +4676,6 @@
       ],
       "creatorAvatarUrl": "https://github.com/wscats.png?size=88",
       "creatorHandle": "wscats",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "shreefentsar-remotion-video-toolkit",
-      "name": "shreefentsar/remotion-video-toolkit",
-      "description": "Complete toolkit for programmatic video creation with Remotion + React. Covers animations, timing, rendering (CLI/Node.js/Lambda/Cloud Run), captions, 3D, charts, text effects, transitions, and media handling. Use when writing Remotion code, building video generation pipelines, or creating data-driven video templates.",
-      "publisher": "shreefentsar",
-      "publisherSlug": "shreefentsar",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced",
-        "shreefentsar"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "document-authoring",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/shreefentsar.png?size=88",
-      "creatorHandle": "shreefentsar",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "cmanfre7-debug-pro",
-      "name": "cmanfre7/debug-pro",
-      "description": "Provides a 7-step debugging protocol plus language-specific commands to systematically identify, verify, and fix software bugs across multiple environments.",
-      "publisher": "cmanfre7",
-      "publisherSlug": "cmanfre7",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "cmanfre7",
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "prd-specs",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/cmanfre7.png?size=88",
-      "creatorHandle": "cmanfre7",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -4347,6 +4863,48 @@
       "forks": null
     },
     {
+      "slug": "wlshlad85-superpowers",
+      "name": "wlshlad85/superpowers",
+      "description": "Spec-first, TDD, subagent-driven software development workflow. Use when: (1) building any new feature or app — triggers brainstorm → plan → subagent executi...",
+      "publisher": "wlshlad85",
+      "publisherSlug": "wlshlad85",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced",
+        "wlshlad85"
+      ],
+      "personas": [
+        "engineer",
+        "pm"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "planning-roadmapping",
+        "prd-specs",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/wlshlad85.png?size=88",
+      "creatorHandle": "wlshlad85",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
       "slug": "wscats-eno",
       "name": "wscats/eno",
       "description": "This skill should be used when the user needs to analyze frontend project architecture evaluate tech stack choices review component design patterns assess bu...",
@@ -4384,34 +4942,56 @@
       "forks": null
     },
     {
-      "slug": "byungkyu-google-slides",
-      "name": "byungkyu/google-slides",
-      "description": "Google Slides API integration with managed OAuth. Create presentations, add slides, insert content, and manage slide formatting. Use this skill when users wa...",
-      "publisher": "byungkyu",
-      "publisherSlug": "byungkyu",
+      "slug": "ryancampbell-agent-autonomy-kit",
+      "name": "ryancampbell/agent-autonomy-kit",
+      "description": "Stop waiting for prompts. Keep working.",
+      "publisher": "ryancampbell",
+      "publisherSlug": "ryancampbell",
       "sectionTitle": "Community marketplace",
       "kind": "community",
       "tags": [
-        "byungkyu",
         "community-marketplace",
+        "namespaced",
+        "publisher-namespaced",
+        "ryancampbell"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/ryancampbell.png?size=88",
+      "creatorHandle": "ryancampbell",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "ivangdavila-image",
+      "name": "ivangdavila/image",
+      "description": "Create, inspect, process, and optimize image files and visual assets with reliable format choice, resizing, compression, color-profile, metadata, and platfor...",
+      "publisher": "ivangdavila",
+      "publisherSlug": "ivangdavila",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "ivangdavila",
         "namespaced",
         "publisher-namespaced"
       ],
       "personas": [
-        "engineer",
-        "marketer"
+        "designer"
       ],
       "jobs": [
-        "api-integration",
-        "campaign-planning",
-        "content-production",
-        "deployment-ops",
-        "development-workflows",
-        "landing-pages",
+        "design-critique",
+        "prd-specs",
         "presentation-building",
-        "reporting",
-        "research-synthesis",
-        "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
         "workflow-automation"
       ],
       "sourceType": "marketplace",
@@ -4420,8 +5000,8 @@
         "community-marketplace",
         "requires-security-review"
       ],
-      "creatorAvatarUrl": "https://github.com/byungkyu.png?size=88",
-      "creatorHandle": "byungkyu",
+      "creatorAvatarUrl": "https://github.com/ivangdavila.png?size=88",
+      "creatorHandle": "ivangdavila",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -4467,70 +5047,34 @@
       "forks": null
     },
     {
-      "slug": "ivangdavila-image",
-      "name": "ivangdavila/image",
-      "description": "Create, inspect, process, and optimize image files and visual assets with reliable format choice, resizing, compression, color-profile, metadata, and platfor...",
-      "publisher": "ivangdavila",
-      "publisherSlug": "ivangdavila",
+      "slug": "byungkyu-google-slides",
+      "name": "byungkyu/google-slides",
+      "description": "Google Slides API integration with managed OAuth. Create presentations, add slides, insert content, and manage slide formatting. Use this skill when users wa...",
+      "publisher": "byungkyu",
+      "publisherSlug": "byungkyu",
       "sectionTitle": "Community marketplace",
       "kind": "community",
       "tags": [
+        "byungkyu",
         "community-marketplace",
-        "ivangdavila",
         "namespaced",
         "publisher-namespaced"
       ],
       "personas": [
-        "designer"
-      ],
-      "jobs": [
-        "design-critique",
-        "prd-specs",
-        "presentation-building",
-        "ui-ux-design",
-        "visual-assets",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/ivangdavila.png?size=88",
-      "creatorHandle": "ivangdavila",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "wlshlad85-superpowers",
-      "name": "wlshlad85/superpowers",
-      "description": "Spec-first, TDD, subagent-driven software development workflow. Use when: (1) building any new feature or app — triggers brainstorm → plan → subagent executi...",
-      "publisher": "wlshlad85",
-      "publisherSlug": "wlshlad85",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced",
-        "wlshlad85"
-      ],
-      "personas": [
         "engineer",
-        "pm"
+        "marketer"
       ],
       "jobs": [
         "api-integration",
+        "campaign-planning",
+        "content-production",
         "deployment-ops",
         "development-workflows",
-        "planning-roadmapping",
-        "prd-specs",
+        "landing-pages",
+        "presentation-building",
         "reporting",
         "research-synthesis",
         "testing-debugging",
-        "ui-ux-design",
         "workflow-automation"
       ],
       "sourceType": "marketplace",
@@ -4539,8 +5083,8 @@
         "community-marketplace",
         "requires-security-review"
       ],
-      "creatorAvatarUrl": "https://github.com/wlshlad85.png?size=88",
-      "creatorHandle": "wlshlad85",
+      "creatorAvatarUrl": "https://github.com/byungkyu.png?size=88",
+      "creatorHandle": "byungkyu",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -4810,6 +5354,42 @@
       "forks": null
     },
     {
+      "slug": "fangkelvin-proactive-agent-skill",
+      "name": "fangkelvin/proactive-agent-skill",
+      "description": "Transform AI agents from task-followers into proactive partners that anticipate needs and continuously improve. Includes WAL Protocol, Working Buffer, Autono...",
+      "publisher": "fangkelvin",
+      "publisherSlug": "fangkelvin",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "fangkelvin",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/fangkelvin.png?size=88",
+      "creatorHandle": "fangkelvin",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
       "slug": "byungkyu-typeform",
       "name": "byungkyu/typeform",
       "description": "Typeform API integration with managed OAuth. Create forms, manage responses, and access insights. Use this skill when users want to interact with Typeform su...",
@@ -4869,42 +5449,6 @@
       ],
       "creatorAvatarUrl": "https://github.com/i-mw.png?size=88",
       "creatorHandle": "i-mw",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "byungkyu-google-meet",
-      "name": "byungkyu/google-meet",
-      "description": "Google Meet API integration with managed OAuth. Create meeting spaces, list conference records, and manage meeting participants. Use this skill when users wa...",
-      "publisher": "byungkyu",
-      "publisherSlug": "byungkyu",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "byungkyu",
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/byungkyu.png?size=88",
-      "creatorHandle": "byungkyu",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -4981,45 +5525,9 @@
       "forks": null
     },
     {
-      "slug": "byungkyu-clickup-api",
-      "name": "byungkyu/clickup-api",
-      "description": "ClickUp API integration with managed OAuth. Access tasks, lists, folders, spaces, workspaces, users, and manage webhooks. Use this skill when users want to m...",
-      "publisher": "byungkyu",
-      "publisherSlug": "byungkyu",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "byungkyu",
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/byungkyu.png?size=88",
-      "creatorHandle": "byungkyu",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "byungkyu-calendly-api",
-      "name": "byungkyu/calendly-api",
-      "description": "Calendly API integration with managed OAuth. Access event types, scheduled events, invitees, availability, and manage webhooks. Use this skill when users wan...",
+      "slug": "byungkyu-google-meet",
+      "name": "byungkyu/google-meet",
+      "description": "Google Meet API integration with managed OAuth. Create meeting spaces, list conference records, and manage meeting participants. Use this skill when users wa...",
       "publisher": "byungkyu",
       "publisherSlug": "byungkyu",
       "sectionTitle": "Community marketplace",
@@ -5100,6 +5608,44 @@
       "forks": null
     },
     {
+      "slug": "isainazar-openclaw-find-skills",
+      "name": "isainazar/openclaw-find-skills",
+      "description": "Search, discover, and install skills from the open agent skills ecosystem to extend agent capabilities for specific tasks or domains.",
+      "publisher": "isainazar",
+      "publisherSlug": "isainazar",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "isainazar",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "prd-specs",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/isainazar.png?size=88",
+      "creatorHandle": "isainazar",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
       "slug": "buksan1950-reddit-readonly",
       "name": "buksan1950/reddit-readonly",
       "description": "Browse and search Reddit in read-only mode using public JSON endpoints. Use when the user asks to browse subreddits, search for posts by topic, inspect comment threads, or build a shortlist of links to review and reply to manually.",
@@ -5144,9 +5690,9 @@
       "forks": null
     },
     {
-      "slug": "byungkyu-google-workspace-admin",
-      "name": "byungkyu/google-workspace-admin",
-      "description": "Google Workspace Admin SDK integration with managed OAuth. This is a write-capable administrative integration for users, groups, organizational units, roles,...",
+      "slug": "byungkyu-clickup-api",
+      "name": "byungkyu/clickup-api",
+      "description": "ClickUp API integration with managed OAuth. Access tasks, lists, folders, spaces, workspaces, users, and manage webhooks. Use this skill when users want to m...",
       "publisher": "byungkyu",
       "publisherSlug": "byungkyu",
       "sectionTitle": "Community marketplace",
@@ -5175,6 +5721,70 @@
       ],
       "creatorAvatarUrl": "https://github.com/byungkyu.png?size=88",
       "creatorHandle": "byungkyu",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "byungkyu-calendly-api",
+      "name": "byungkyu/calendly-api",
+      "description": "Calendly API integration with managed OAuth. Access event types, scheduled events, invitees, availability, and manage webhooks. Use this skill when users wan...",
+      "publisher": "byungkyu",
+      "publisherSlug": "byungkyu",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "byungkyu",
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/byungkyu.png?size=88",
+      "creatorHandle": "byungkyu",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "mike5230odense-self-improvement",
+      "name": "mike5230odense/self-improvement",
+      "description": "Captures learnings, errors, and corrections to enable continuous improvement. Use when: (1) A command or operation fails unexpectedly, (2) User corrects Clau...",
+      "publisher": "mike5230odense",
+      "publisherSlug": "mike5230odense",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "mike5230odense",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/mike5230odense.png?size=88",
+      "creatorHandle": "mike5230odense",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -5252,9 +5862,9 @@
       "forks": null
     },
     {
-      "slug": "byungkyu-asana-api",
-      "name": "byungkyu/asana-api",
-      "description": "Asana API integration with managed OAuth. Access tasks, projects, workspaces, users, and manage webhooks. Use this skill when users want to manage work items, track projects, or integrate with Asana workflows. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
+      "slug": "byungkyu-google-workspace-admin",
+      "name": "byungkyu/google-workspace-admin",
+      "description": "Google Workspace Admin SDK integration with managed OAuth. This is a write-capable administrative integration for users, groups, organizational units, roles,...",
       "publisher": "byungkyu",
       "publisherSlug": "byungkyu",
       "sectionTitle": "Community marketplace",
@@ -5311,6 +5921,42 @@
       ],
       "creatorAvatarUrl": "https://github.com/thirtyfang.png?size=88",
       "creatorHandle": "thirtyfang",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "byungkyu-asana-api",
+      "name": "byungkyu/asana-api",
+      "description": "Asana API integration with managed OAuth. Access tasks, projects, workspaces, users, and manage webhooks. Use this skill when users want to manage work items, track projects, or integrate with Asana workflows. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
+      "publisher": "byungkyu",
+      "publisherSlug": "byungkyu",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "byungkyu",
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/byungkyu.png?size=88",
+      "creatorHandle": "byungkyu",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -5478,42 +6124,6 @@
       "forks": null
     },
     {
-      "slug": "byungkyu-fathom-api",
-      "name": "byungkyu/fathom-api",
-      "description": "Fathom API integration with managed OAuth. Access meeting recordings, transcripts, summaries, and manage webhooks. Use this skill when users want to retrieve...",
-      "publisher": "byungkyu",
-      "publisherSlug": "byungkyu",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "byungkyu",
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/byungkyu.png?size=88",
-      "creatorHandle": "byungkyu",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
       "slug": "byungkyu-trello-api",
       "name": "byungkyu/trello-api",
       "description": "Trello API integration with managed OAuth. Manage boards, lists, cards, members, and labels. Use this skill when users want to interact with Trello for project management. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
@@ -5550,37 +6160,9 @@
       "forks": null
     },
     {
-      "slug": "steipete-imsg",
-      "name": "steipete/imsg",
-      "description": "iMessage/SMS CLI for listing chats, history, watch, and sending.",
-      "publisher": "steipete",
-      "publisherSlug": "steipete",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced",
-        "steipete"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/steipete.png?size=88",
-      "creatorHandle": "steipete",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "byungkyu-klaviyo",
-      "name": "byungkyu/klaviyo",
-      "description": "Klaviyo API integration with managed OAuth. Access profiles, lists, segments, campaigns, flows, events, metrics, templates, catalogs, and webhooks. Use this...",
+      "slug": "byungkyu-fathom-api",
+      "name": "byungkyu/fathom-api",
+      "description": "Fathom API integration with managed OAuth. Access meeting recordings, transcripts, summaries, and manage webhooks. Use this skill when users want to retrieve...",
       "publisher": "byungkyu",
       "publisherSlug": "byungkyu",
       "sectionTitle": "Community marketplace",
@@ -5592,23 +6174,12 @@
         "publisher-namespaced"
       ],
       "personas": [
-        "data-analyst",
-        "engineer",
-        "marketer"
+        "engineer"
       ],
       "jobs": [
         "api-integration",
-        "campaign-planning",
-        "content-production",
-        "dashboarding",
-        "data-extraction",
         "deployment-ops",
         "development-workflows",
-        "landing-pages",
-        "reporting",
-        "research-synthesis",
-        "spreadsheet-cleaning",
-        "sql-analysis",
         "testing-debugging",
         "workflow-automation"
       ],
@@ -5620,44 +6191,6 @@
       ],
       "creatorAvatarUrl": "https://github.com/byungkyu.png?size=88",
       "creatorHandle": "byungkyu",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "okradze-desearch-web-search",
-      "name": "okradze/desearch-web-search",
-      "description": "Search the web and get real-time SERP-style results with titles, URLs, and snippets. Use this for general web queries when you need current links and informa...",
-      "publisher": "okradze",
-      "publisherSlug": "okradze",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "namespaced",
-        "okradze",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "data-analyst"
-      ],
-      "jobs": [
-        "dashboarding",
-        "data-extraction",
-        "reporting",
-        "research-synthesis",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/okradze.png?size=88",
-      "creatorHandle": "okradze",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -5702,9 +6235,139 @@
       "forks": null
     },
     {
-      "slug": "byungkyu-mailchimp",
-      "name": "byungkyu/mailchimp",
-      "description": "Mailchimp Marketing API integration with managed OAuth. Access audiences, campaigns, templates, automations, reports, and manage subscribers. Use this skill...",
+      "slug": "adrianmiller99-google-calendar",
+      "name": "adrianmiller99/google-calendar",
+      "description": "Interact with Google Calendar via the Google Calendar API – list upcoming events, create new events, update or delete them. Use this skill when you need programmatic access to your calendar from OpenClaw.",
+      "publisher": "adrianmiller99",
+      "publisherSlug": "adrianmiller99",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "adrianmiller99",
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/adrianmiller99.png?size=88",
+      "creatorHandle": "adrianmiller99",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "steipete-imsg",
+      "name": "steipete/imsg",
+      "description": "iMessage/SMS CLI for listing chats, history, watch, and sending.",
+      "publisher": "steipete",
+      "publisherSlug": "steipete",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced",
+        "steipete"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/steipete.png?size=88",
+      "creatorHandle": "steipete",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "okradze-desearch-web-search",
+      "name": "okradze/desearch-web-search",
+      "description": "Search the web and get real-time SERP-style results with titles, URLs, and snippets. Use this for general web queries when you need current links and informa...",
+      "publisher": "okradze",
+      "publisherSlug": "okradze",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "namespaced",
+        "okradze",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "data-analyst"
+      ],
+      "jobs": [
+        "dashboarding",
+        "data-extraction",
+        "reporting",
+        "research-synthesis",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/okradze.png?size=88",
+      "creatorHandle": "okradze",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "chrisochrisochriso-cmyk-clawsec",
+      "name": "chrisochrisochriso-cmyk/clawsec",
+      "description": "Manage and operate ClawSec Monitor v3.0, a MITM HTTP/HTTPS proxy that logs AI agent traffic, detects exfiltration and injection threats in real time.",
+      "publisher": "chrisochrisochriso-cmyk",
+      "publisherSlug": "chrisochrisochriso-cmyk",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "chrisochrisochriso-cmyk",
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/chrisochrisochriso-cmyk.png?size=88",
+      "creatorHandle": "chrisochrisochriso-cmyk",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "byungkyu-klaviyo",
+      "name": "byungkyu/klaviyo",
+      "description": "Klaviyo API integration with managed OAuth. Access profiles, lists, segments, campaigns, flows, events, metrics, templates, catalogs, and webhooks. Use this...",
       "publisher": "byungkyu",
       "publisherSlug": "byungkyu",
       "sectionTitle": "Community marketplace",
@@ -5716,6 +6379,7 @@
         "publisher-namespaced"
       ],
       "personas": [
+        "data-analyst",
         "engineer",
         "marketer"
       ],
@@ -5723,11 +6387,15 @@
         "api-integration",
         "campaign-planning",
         "content-production",
+        "dashboarding",
+        "data-extraction",
         "deployment-ops",
         "development-workflows",
         "landing-pages",
         "reporting",
         "research-synthesis",
+        "spreadsheet-cleaning",
+        "sql-analysis",
         "testing-debugging",
         "workflow-automation"
       ],
@@ -5811,6 +6479,48 @@
       "forks": null
     },
     {
+      "slug": "byungkyu-mailchimp",
+      "name": "byungkyu/mailchimp",
+      "description": "Mailchimp Marketing API integration with managed OAuth. Access audiences, campaigns, templates, automations, reports, and manage subscribers. Use this skill...",
+      "publisher": "byungkyu",
+      "publisherSlug": "byungkyu",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "byungkyu",
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/byungkyu.png?size=88",
+      "creatorHandle": "byungkyu",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
       "slug": "byungkyu-pipedrive-api",
       "name": "byungkyu/pipedrive-api",
       "description": "Pipedrive API integration with managed OAuth. Manage deals, persons, organizations, activities, and pipelines. Use this skill when users want to interact wit...",
@@ -5847,34 +6557,6 @@
       "forks": null
     },
     {
-      "slug": "lstpsche-gcalcli-calendar",
-      "name": "lstpsche/gcalcli-calendar",
-      "description": "Google Calendar via gcalcli: today-only agenda by default, bounded meaning-first lookup via agenda scans, and fast create/delete with verification--optimized for low tool calls and minimal output.",
-      "publisher": "lstpsche",
-      "publisherSlug": "lstpsche",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "lstpsche",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/lstpsche.png?size=88",
-      "creatorHandle": "lstpsche",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
       "slug": "eddygk-skill-vetting",
       "name": "eddygk/skill-vetting",
       "description": "Vet ClawHub skills for security and utility before installation. Use when considering installing a ClawHub skill, evaluating third-party code, or assessing w...",
@@ -5906,42 +6588,6 @@
       ],
       "creatorAvatarUrl": "https://github.com/eddygk.png?size=88",
       "creatorHandle": "eddygk",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "byungkyu-google-play",
-      "name": "byungkyu/google-play",
-      "description": "Google Play Developer API (Android Publisher) integration with managed OAuth. Manage apps, subscriptions, in-app purchases, and reviews. Use this skill when...",
-      "publisher": "byungkyu",
-      "publisherSlug": "byungkyu",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "byungkyu",
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/byungkyu.png?size=88",
-      "creatorHandle": "byungkyu",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -5989,6 +6635,34 @@
       "forks": null
     },
     {
+      "slug": "lstpsche-gcalcli-calendar",
+      "name": "lstpsche/gcalcli-calendar",
+      "description": "Google Calendar via gcalcli: today-only agenda by default, bounded meaning-first lookup via agenda scans, and fast create/delete with verification--optimized for low tool calls and minimal output.",
+      "publisher": "lstpsche",
+      "publisherSlug": "lstpsche",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "lstpsche",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/lstpsche.png?size=88",
+      "creatorHandle": "lstpsche",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
       "slug": "ivangdavila-screenshot",
       "name": "ivangdavila/screenshot",
       "description": "Capture, inspect, and compare screenshots of screens, windows, regions, web pages, simulators, and CI runs with the right tool, wait strategy, viewport, and...",
@@ -6030,6 +6704,42 @@
       "forks": null
     },
     {
+      "slug": "byungkyu-google-play",
+      "name": "byungkyu/google-play",
+      "description": "Google Play Developer API (Android Publisher) integration with managed OAuth. Manage apps, subscriptions, in-app purchases, and reviews. Use this skill when...",
+      "publisher": "byungkyu",
+      "publisherSlug": "byungkyu",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "byungkyu",
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/byungkyu.png?size=88",
+      "creatorHandle": "byungkyu",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
       "slug": "sarielwang93-memory-tiering",
       "name": "sarielwang93/memory-tiering",
       "description": "Automated multi-tiered memory management (HOT, WARM, COLD). Use this skill to organize, prune, and archive context during memory operations or compactions.",
@@ -6055,37 +6765,6 @@
       ],
       "creatorAvatarUrl": "https://github.com/sarielwang93.png?size=88",
       "creatorHandle": "sarielwang93",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "steipete-things-mac",
-      "name": "steipete/things-mac",
-      "description": "Manage Things 3 via the `things` CLI on macOS (add/update projects+todos via URL scheme; read/search/list from the local Things database). Use when a user asks Clawdbot to add a task to Things, list inbox/today/upcoming, search tasks, or inspect projects/areas/tags.",
-      "publisher": "steipete",
-      "publisherSlug": "steipete",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced",
-        "steipete"
-      ],
-      "personas": [],
-      "jobs": [
-        "prd-specs",
-        "research-synthesis"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/steipete.png?size=88",
-      "creatorHandle": "steipete",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -6123,36 +6802,6 @@
       ],
       "creatorAvatarUrl": "https://github.com/liyang58.png?size=88",
       "creatorHandle": "liyang58",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "ivangdavila-git",
-      "name": "ivangdavila/git",
-      "description": "Git commits, branches, rebases, merges, conflict resolution, history recovery, team workflows, and the commands needed for safe day-to-day version control. U...",
-      "publisher": "ivangdavila",
-      "publisherSlug": "ivangdavila",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "ivangdavila",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/ivangdavila.png?size=88",
-      "creatorHandle": "ivangdavila",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -6198,6 +6847,98 @@
       ],
       "creatorAvatarUrl": "https://github.com/ivangdavila.png?size=88",
       "creatorHandle": "ivangdavila",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "ivangdavila-git",
+      "name": "ivangdavila/git",
+      "description": "Git commits, branches, rebases, merges, conflict resolution, history recovery, team workflows, and the commands needed for safe day-to-day version control. U...",
+      "publisher": "ivangdavila",
+      "publisherSlug": "ivangdavila",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "ivangdavila",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/ivangdavila.png?size=88",
+      "creatorHandle": "ivangdavila",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "steipete-things-mac",
+      "name": "steipete/things-mac",
+      "description": "Manage Things 3 via the `things` CLI on macOS (add/update projects+todos via URL scheme; read/search/list from the local Things database). Use when a user asks Clawdbot to add a task to Things, list inbox/today/upcoming, search tasks, or inspect projects/areas/tags.",
+      "publisher": "steipete",
+      "publisherSlug": "steipete",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced",
+        "steipete"
+      ],
+      "personas": [],
+      "jobs": [
+        "prd-specs",
+        "research-synthesis"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/steipete.png?size=88",
+      "creatorHandle": "steipete",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "ram-raghav-s-computer-use",
+      "name": "ram-raghav-s/computer-use",
+      "description": "Full desktop computer use for headless Linux servers. Xvfb + XFCE virtual desktop with xdotool automation. 17 actions (click, type, scroll, screenshot, drag,...",
+      "publisher": "ram-raghav-s",
+      "publisherSlug": "ram-raghav-s",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced",
+        "ram-raghav-s"
+      ],
+      "personas": [],
+      "jobs": [
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/ram-raghav-s.png?size=88",
+      "creatorHandle": "ram-raghav-s",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -6267,22 +7008,28 @@
       "forks": null
     },
     {
-      "slug": "ram-raghav-s-computer-use",
-      "name": "ram-raghav-s/computer-use",
-      "description": "Full desktop computer use for headless Linux servers. Xvfb + XFCE virtual desktop with xdotool automation. 17 actions (click, type, scroll, screenshot, drag,...",
-      "publisher": "ram-raghav-s",
-      "publisherSlug": "ram-raghav-s",
+      "slug": "shuai-daidai-feishu-doc-manager",
+      "name": "shuai-daidai/feishu-doc-manager",
+      "description": "📄 Feishu Doc Manager | 飞书文档管理器\n\nSeamlessly publish Markdown content to Feishu Docs with automatic formatting.\nSolves key pain points: Markdown table conversion, permission management, batch writing.\n\n将 Markdown 内容无缝发布到飞书文档，自动渲染格式。\n解决核心痛点：Markdown 表格转换、权限管理、批量写入。",
+      "publisher": "shuai-daidai",
+      "publisherSlug": "shuai-daidai",
       "sectionTitle": "Community marketplace",
       "kind": "community",
       "tags": [
         "community-marketplace",
         "namespaced",
         "publisher-namespaced",
-        "ram-raghav-s"
+        "shuai-daidai"
       ],
-      "personas": [],
+      "personas": [
+        "marketer"
+      ],
       "jobs": [
-        "ui-ux-design",
+        "campaign-planning",
+        "content-production",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
         "workflow-automation"
       ],
       "sourceType": "marketplace",
@@ -6291,8 +7038,8 @@
         "community-marketplace",
         "requires-security-review"
       ],
-      "creatorAvatarUrl": "https://github.com/ram-raghav-s.png?size=88",
-      "creatorHandle": "ram-raghav-s",
+      "creatorAvatarUrl": "https://github.com/shuai-daidai.png?size=88",
+      "creatorHandle": "shuai-daidai",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -6335,49 +7082,6 @@
       ],
       "creatorAvatarUrl": "https://github.com/financial-ai-analyst.png?size=88",
       "creatorHandle": "financial-ai-analyst",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "byungkyu-google-sheets",
-      "name": "byungkyu/google-sheets",
-      "description": "Google Sheets API integration with managed OAuth. Read and write spreadsheet data, create sheets, apply formatting, and manage ranges. Use this skill when users want to read from or write to Google Sheets. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
-      "publisher": "byungkyu",
-      "publisherSlug": "byungkyu",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "byungkyu",
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "data-analyst",
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "campaign-planning",
-        "dashboarding",
-        "data-extraction",
-        "deployment-ops",
-        "development-workflows",
-        "reporting",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/byungkyu.png?size=88",
-      "creatorHandle": "byungkyu",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -6439,6 +7143,49 @@
       "forks": null
     },
     {
+      "slug": "byungkyu-google-sheets",
+      "name": "byungkyu/google-sheets",
+      "description": "Google Sheets API integration with managed OAuth. Read and write spreadsheet data, create sheets, apply formatting, and manage ranges. Use this skill when users want to read from or write to Google Sheets. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
+      "publisher": "byungkyu",
+      "publisherSlug": "byungkyu",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "byungkyu",
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/byungkyu.png?size=88",
+      "creatorHandle": "byungkyu",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
       "slug": "itsjustdri-ui-ux-design",
       "name": "itsjustdri/ui-ux-design",
       "description": "Expert guidance on mobile-first UI/UX design, color systems, typography, accessibility (WCAG 2.2), Tailwind + Shadcn/ui integration, micro-interactions, and...",
@@ -6471,79 +7218,6 @@
       ],
       "creatorAvatarUrl": "https://github.com/itsjustdri.png?size=88",
       "creatorHandle": "itsjustdri",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "byungkyu-google-drive",
-      "name": "byungkyu/google-drive",
-      "description": "Google Drive API integration with managed OAuth. List, search, create, and manage files and folders. Use this skill when users want to interact with Google Drive files. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
-      "publisher": "byungkyu",
-      "publisherSlug": "byungkyu",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "byungkyu",
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "research-synthesis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/byungkyu.png?size=88",
-      "creatorHandle": "byungkyu",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "byungkyu-monday",
-      "name": "byungkyu/monday",
-      "description": "Monday.com API integration with managed OAuth. Manage boards, items, columns, groups, and workspaces using GraphQL. Use this skill when users want to create,...",
-      "publisher": "byungkyu",
-      "publisherSlug": "byungkyu",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "byungkyu",
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/byungkyu.png?size=88",
-      "creatorHandle": "byungkyu",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -6607,6 +7281,42 @@
       "forks": null
     },
     {
+      "slug": "byungkyu-monday",
+      "name": "byungkyu/monday",
+      "description": "Monday.com API integration with managed OAuth. Manage boards, items, columns, groups, and workspaces using GraphQL. Use this skill when users want to create,...",
+      "publisher": "byungkyu",
+      "publisherSlug": "byungkyu",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "byungkyu",
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/byungkyu.png?size=88",
+      "creatorHandle": "byungkyu",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
       "slug": "gaurangzalariya-xurl",
       "name": "gaurangzalariya/xurl",
       "description": "Analyze Twitter content to uncover WordPress and Shopify client pain points, craft authority-building posts, and generate qualified inbound lead insights.",
@@ -6650,6 +7360,43 @@
       "forks": null
     },
     {
+      "slug": "byungkyu-google-drive",
+      "name": "byungkyu/google-drive",
+      "description": "Google Drive API integration with managed OAuth. List, search, create, and manage files and folders. Use this skill when users want to interact with Google Drive files. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
+      "publisher": "byungkyu",
+      "publisherSlug": "byungkyu",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "byungkyu",
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/byungkyu.png?size=88",
+      "creatorHandle": "byungkyu",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
       "slug": "manuelhettich-linear",
       "name": "manuelhettich/linear",
       "description": "Query and manage Linear issues, projects, and team workflows.",
@@ -6682,6 +7429,71 @@
       ],
       "creatorAvatarUrl": "https://github.com/manuelhettich.png?size=88",
       "creatorHandle": "manuelhettich",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "am-will-remotion-best-practices",
+      "name": "am-will/remotion-best-practices",
+      "description": "Best practices for Remotion - Video creation in React",
+      "publisher": "am-will",
+      "publisherSlug": "am-will",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "am-will",
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/am-will.png?size=88",
+      "creatorHandle": "am-will",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "ivangdavila-docker",
+      "name": "ivangdavila/docker",
+      "description": "Docker containers, images, Compose stacks, networking, volumes, debugging, production hardening, and the commands that keep real environments stable. Use whe...",
+      "publisher": "ivangdavila",
+      "publisherSlug": "ivangdavila",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "ivangdavila",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/ivangdavila.png?size=88",
+      "creatorHandle": "ivangdavila",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -6753,44 +7565,16 @@
       "forks": null
     },
     {
-      "slug": "am-will-remotion-best-practices",
-      "name": "am-will/remotion-best-practices",
-      "description": "Best practices for Remotion - Video creation in React",
-      "publisher": "am-will",
-      "publisherSlug": "am-will",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "am-will",
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/am-will.png?size=88",
-      "creatorHandle": "am-will",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "ivangdavila-docker",
-      "name": "ivangdavila/docker",
-      "description": "Docker containers, images, Compose stacks, networking, volumes, debugging, production hardening, and the commands that keep real environments stable. Use whe...",
-      "publisher": "ivangdavila",
-      "publisherSlug": "ivangdavila",
+      "slug": "dasweltall-openclaw-auto-updater",
+      "name": "dasweltall/openclaw-auto-updater",
+      "description": "Schedule automatic OpenClaw and skill updates with reliable cron templates, timezone-safe scheduling, and clear summary outputs. Use for hands-off maintenance, scheduled upgrades, and concise update reports.",
+      "publisher": "dasweltall",
+      "publisherSlug": "dasweltall",
       "sectionTitle": "Community marketplace",
       "kind": "community",
       "tags": [
         "community-marketplace",
-        "ivangdavila",
+        "dasweltall",
         "namespaced",
         "publisher-namespaced"
       ],
@@ -6801,8 +7585,8 @@
         "api-integration",
         "deployment-ops",
         "development-workflows",
+        "research-synthesis",
         "testing-debugging",
-        "visual-assets",
         "workflow-automation"
       ],
       "sourceType": "marketplace",
@@ -6811,8 +7595,8 @@
         "community-marketplace",
         "requires-security-review"
       ],
-      "creatorAvatarUrl": "https://github.com/ivangdavila.png?size=88",
-      "creatorHandle": "ivangdavila",
+      "creatorAvatarUrl": "https://github.com/dasweltall.png?size=88",
+      "creatorHandle": "dasweltall",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -6855,6 +7639,47 @@
       ],
       "creatorAvatarUrl": "https://github.com/mrtommywu.png?size=88",
       "creatorHandle": "mrtommywu",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "stefanofa-sleek-design-mobile-apps",
+      "name": "stefanofa/sleek-design-mobile-apps",
+      "description": "Use when the user wants to design a mobile app, create screens, build UI, or interact with their Sleek projects. Covers high-level requests (\"design an app t...",
+      "publisher": "stefanofa",
+      "publisherSlug": "stefanofa",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced",
+        "stefanofa"
+      ],
+      "personas": [
+        "designer",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "design-critique",
+        "development-workflows",
+        "presentation-building",
+        "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/stefanofa.png?size=88",
+      "creatorHandle": "stefanofa",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -6967,32 +7792,21 @@
       "forks": null
     },
     {
-      "slug": "stefanofa-sleek-design-mobile-apps",
-      "name": "stefanofa/sleek-design-mobile-apps",
-      "description": "Use when the user wants to design a mobile app, create screens, build UI, or interact with their Sleek projects. Covers high-level requests (\"design an app t...",
-      "publisher": "stefanofa",
-      "publisherSlug": "stefanofa",
+      "slug": "biostartechnology-linkedin",
+      "name": "biostartechnology/linkedin",
+      "description": "LinkedIn automation via browser relay or cookies for messaging, profile viewing, and network actions.",
+      "publisher": "biostartechnology",
+      "publisherSlug": "biostartechnology",
       "sectionTitle": "Community marketplace",
       "kind": "community",
       "tags": [
+        "biostartechnology",
         "community-marketplace",
         "namespaced",
-        "publisher-namespaced",
-        "stefanofa"
+        "publisher-namespaced"
       ],
-      "personas": [
-        "designer",
-        "engineer"
-      ],
+      "personas": [],
       "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "design-critique",
-        "development-workflows",
-        "presentation-building",
-        "testing-debugging",
-        "ui-ux-design",
-        "visual-assets",
         "workflow-automation"
       ],
       "sourceType": "marketplace",
@@ -7001,8 +7815,8 @@
         "community-marketplace",
         "requires-security-review"
       ],
-      "creatorAvatarUrl": "https://github.com/stefanofa.png?size=88",
-      "creatorHandle": "stefanofa",
+      "creatorAvatarUrl": "https://github.com/biostartechnology.png?size=88",
+      "creatorHandle": "biostartechnology",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -7034,6 +7848,36 @@
       ],
       "creatorAvatarUrl": "https://github.com/mahmoudadelbghany.png?size=88",
       "creatorHandle": "mahmoudadelbghany",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "goktugcy-tavily-web-search-for-openclaw",
+      "name": "goktugcy/tavily-web-search-for-openclaw",
+      "description": "use this when the user asks to search the web, look up recent information, check current events, gather online sources, or research a topic using tavily search.",
+      "publisher": "goktugcy",
+      "publisherSlug": "goktugcy",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "goktugcy",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [
+        "research-synthesis"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/goktugcy.png?size=88",
+      "creatorHandle": "goktugcy",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -7075,36 +7919,6 @@
       "forks": null
     },
     {
-      "slug": "goktugcy-tavily-web-search-for-openclaw",
-      "name": "goktugcy/tavily-web-search-for-openclaw",
-      "description": "use this when the user asks to search the web, look up recent information, check current events, gather online sources, or research a topic using tavily search.",
-      "publisher": "goktugcy",
-      "publisherSlug": "goktugcy",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "goktugcy",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [
-        "research-synthesis"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/goktugcy.png?size=88",
-      "creatorHandle": "goktugcy",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
       "slug": "jackeven02-document-pro",
       "name": "jackeven02/document-pro",
       "description": "文档处理技能 - 让 AI 能够读取、解析、提取 PDF、DOCX、PPT 等文档的关键信息。当用户要求分析文档、提取内容、总结报告时触发此技能。",
@@ -7131,6 +7945,114 @@
       ],
       "creatorAvatarUrl": "https://github.com/jackeven02.png?size=88",
       "creatorHandle": "jackeven02",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "wwb-daniel-windows-ui-automation",
+      "name": "wwb-daniel/windows-ui-automation",
+      "description": "Automate Windows GUI interactions (mouse, keyboard, windows) using PowerShell. Use when the user needs to simulate user input on the desktop, such as moving the cursor, clicking buttons, typing text in non-web apps, or managing window states.",
+      "publisher": "wwb-daniel",
+      "publisherSlug": "wwb-daniel",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced",
+        "wwb-daniel"
+      ],
+      "personas": [
+        "designer"
+      ],
+      "jobs": [
+        "design-critique",
+        "presentation-building",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/wwb-daniel.png?size=88",
+      "creatorHandle": "wwb-daniel",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "olliewazza-larry",
+      "name": "olliewazza/larry",
+      "description": "Automate TikTok slideshow marketing for any app or product. Researches competitors, generates AI images, adds text overlays, posts via Postiz, tracks analyti...",
+      "publisher": "olliewazza",
+      "publisherSlug": "olliewazza",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "namespaced",
+        "olliewazza",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "marketer",
+        "pm"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "landing-pages",
+        "planning-roadmapping",
+        "prd-specs",
+        "presentation-building",
+        "reporting",
+        "research-synthesis",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/olliewazza.png?size=88",
+      "creatorHandle": "olliewazza",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "ivangdavila-in-depth-research",
+      "name": "ivangdavila/in-depth-research",
+      "description": "Conduct exhaustive multi-source investigation with methodology tracking, source evaluation, and iterative depth.",
+      "publisher": "ivangdavila",
+      "publisherSlug": "ivangdavila",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "ivangdavila",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [
+        "research-synthesis"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/ivangdavila.png?size=88",
+      "creatorHandle": "ivangdavila",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -7173,38 +8095,29 @@
       "forks": null
     },
     {
-      "slug": "amaofx-filesystem",
-      "name": "amaofx/filesystem",
-      "description": "Perform advanced filesystem tasks including listing, recursive searching by name or content, batch copying/moving/deleting files, and analyzing directory siz...",
-      "publisher": "amaofx",
-      "publisherSlug": "amaofx",
+      "slug": "jypjypjypjyp-feishu-messaging",
+      "name": "jypjypjypjyp/feishu-messaging",
+      "description": "飞书消息发送与文档创建工作流。\n触发场景：查找群成员、查找群ID、发送消息失败需要重新尝试。\n适用于：发送飞书消息。",
+      "publisher": "jypjypjypjyp",
+      "publisherSlug": "jypjypjypjyp",
       "sectionTitle": "Community marketplace",
       "kind": "community",
       "tags": [
-        "amaofx",
         "community-marketplace",
+        "jypjypjypjyp",
         "namespaced",
         "publisher-namespaced"
       ],
-      "personas": [
-        "marketer"
-      ],
-      "jobs": [
-        "campaign-planning",
-        "content-production",
-        "landing-pages",
-        "reporting",
-        "research-synthesis",
-        "workflow-automation"
-      ],
+      "personas": [],
+      "jobs": [],
       "sourceType": "marketplace",
       "trustLevel": "untrusted",
       "riskFlags": [
         "community-marketplace",
         "requires-security-review"
       ],
-      "creatorAvatarUrl": "https://github.com/amaofx.png?size=88",
-      "creatorHandle": "amaofx",
+      "creatorAvatarUrl": "https://github.com/jypjypjypjyp.png?size=88",
+      "creatorHandle": "jypjypjypjyp",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -7246,29 +8159,32 @@
       "forks": null
     },
     {
-      "slug": "jypjypjypjyp-feishu-messaging",
-      "name": "jypjypjypjyp/feishu-messaging",
-      "description": "飞书消息发送与文档创建工作流。\n触发场景：查找群成员、查找群ID、发送消息失败需要重新尝试。\n适用于：发送飞书消息。",
-      "publisher": "jypjypjypjyp",
-      "publisherSlug": "jypjypjypjyp",
+      "slug": "xejrax-image-ocr",
+      "name": "xejrax/image-ocr",
+      "description": "Extract text from images using Tesseract OCR",
+      "publisher": "xejrax",
+      "publisherSlug": "xejrax",
       "sectionTitle": "Community marketplace",
       "kind": "community",
       "tags": [
         "community-marketplace",
-        "jypjypjypjyp",
         "namespaced",
-        "publisher-namespaced"
+        "publisher-namespaced",
+        "xejrax"
       ],
       "personas": [],
-      "jobs": [],
+      "jobs": [
+        "data-extraction",
+        "visual-assets"
+      ],
       "sourceType": "marketplace",
       "trustLevel": "untrusted",
       "riskFlags": [
         "community-marketplace",
         "requires-security-review"
       ],
-      "creatorAvatarUrl": "https://github.com/jypjypjypjyp.png?size=88",
-      "creatorHandle": "jypjypjypjyp",
+      "creatorAvatarUrl": "https://github.com/xejrax.png?size=88",
+      "creatorHandle": "xejrax",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -7312,23 +8228,29 @@
       "forks": null
     },
     {
-      "slug": "xejrax-image-ocr",
-      "name": "xejrax/image-ocr",
-      "description": "Extract text from images using Tesseract OCR",
-      "publisher": "xejrax",
-      "publisherSlug": "xejrax",
+      "slug": "amaofx-filesystem",
+      "name": "amaofx/filesystem",
+      "description": "Perform advanced filesystem tasks including listing, recursive searching by name or content, batch copying/moving/deleting files, and analyzing directory siz...",
+      "publisher": "amaofx",
+      "publisherSlug": "amaofx",
       "sectionTitle": "Community marketplace",
       "kind": "community",
       "tags": [
+        "amaofx",
         "community-marketplace",
         "namespaced",
-        "publisher-namespaced",
-        "xejrax"
+        "publisher-namespaced"
       ],
-      "personas": [],
+      "personas": [
+        "marketer"
+      ],
       "jobs": [
-        "data-extraction",
-        "visual-assets"
+        "campaign-planning",
+        "content-production",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "workflow-automation"
       ],
       "sourceType": "marketplace",
       "trustLevel": "untrusted",
@@ -7336,29 +8258,29 @@
         "community-marketplace",
         "requires-security-review"
       ],
-      "creatorAvatarUrl": "https://github.com/xejrax.png?size=88",
-      "creatorHandle": "xejrax",
+      "creatorAvatarUrl": "https://github.com/amaofx.png?size=88",
+      "creatorHandle": "amaofx",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
     },
     {
-      "slug": "ivangdavila-in-depth-research",
-      "name": "ivangdavila/in-depth-research",
-      "description": "Conduct exhaustive multi-source investigation with methodology tracking, source evaluation, and iterative depth.",
-      "publisher": "ivangdavila",
-      "publisherSlug": "ivangdavila",
+      "slug": "bodietron-openclaw-agent-browser",
+      "name": "bodietron/openclaw-agent-browser",
+      "description": "Headless browser automation CLI for AI agents. Use when interacting with websites — navigating pages, filling forms, clicking buttons, taking screenshots, ex...",
+      "publisher": "bodietron",
+      "publisherSlug": "bodietron",
       "sectionTitle": "Community marketplace",
       "kind": "community",
       "tags": [
+        "bodietron",
         "community-marketplace",
-        "ivangdavila",
         "namespaced",
         "publisher-namespaced"
       ],
       "personas": [],
       "jobs": [
-        "research-synthesis"
+        "workflow-automation"
       ],
       "sourceType": "marketplace",
       "trustLevel": "untrusted",
@@ -7366,8 +8288,8 @@
         "community-marketplace",
         "requires-security-review"
       ],
-      "creatorAvatarUrl": "https://github.com/ivangdavila.png?size=88",
-      "creatorHandle": "ivangdavila",
+      "creatorAvatarUrl": "https://github.com/bodietron.png?size=88",
+      "creatorHandle": "bodietron",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -7404,6 +8326,43 @@
       ],
       "creatorAvatarUrl": "https://github.com/gitgoodordietrying.png?size=88",
       "creatorHandle": "gitgoodordietrying",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "aatmaan1-agent-orchestrator",
+      "name": "aatmaan1/agent-orchestrator",
+      "description": "Meta-agent skill for orchestrating complex tasks through autonomous sub-agents. Decomposes macro tasks into subtasks, spawns specialized sub-agents with dynamically generated SKILL.md files, coordinates file-based communication, consolidates results, and dissolves agents upon completion.\n\nMANDATORY TRIGGERS: orchestrate, multi-agent, decompose task, spawn agents, sub-agents, parallel agents, agent coordination, task breakdown, meta-agent, agent factory, delegate tasks",
+      "publisher": "aatmaan1",
+      "publisherSlug": "aatmaan1",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "aatmaan1",
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "prd-specs",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/aatmaan1.png?size=88",
+      "creatorHandle": "aatmaan1",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -7489,47 +8448,6 @@
       "forks": null
     },
     {
-      "slug": "byungkyu-zoho-crm",
-      "name": "byungkyu/zoho-crm",
-      "description": "Zoho CRM API integration with managed OAuth. Manage leads, contacts, accounts, deals, and other CRM records. Use this skill when users want to read, create,...",
-      "publisher": "byungkyu",
-      "publisherSlug": "byungkyu",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "byungkyu",
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer",
-        "sales"
-      ],
-      "jobs": [
-        "api-integration",
-        "campaign-planning",
-        "deployment-ops",
-        "development-workflows",
-        "document-authoring",
-        "presentation-building",
-        "reporting",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/byungkyu.png?size=88",
-      "creatorHandle": "byungkyu",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
       "slug": "dimagious-notion-skill",
       "name": "dimagious/notion-skill",
       "description": "Work with Notion pages and databases via the official Notion API.",
@@ -7561,1011 +8479,6 @@
       ],
       "creatorAvatarUrl": "https://github.com/dimagious.png?size=88",
       "creatorHandle": "dimagious",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "ipedrax-antigravity-image-gen",
-      "name": "ipedrax/antigravity-image-gen",
-      "description": "Generate images using the internal Google Antigravity API (Gemini 3 Pro Image). High quality, native generation without browser automation.",
-      "publisher": "ipedrax",
-      "publisherSlug": "ipedrax",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "ipedrax",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "visual-assets",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/ipedrax.png?size=88",
-      "creatorHandle": "ipedrax",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "deanpress-polymarket-odds",
-      "name": "deanpress/polymarket-odds",
-      "description": "Query Polymarket prediction market odds and events via CLI. Search for markets, get current prices, list events by category. Supports sports betting (NFL, NBA, soccer/EPL, Champions League), politics, crypto, elections, geopolitics. Real money markets = more accurate than polls. No API key required. Use when asked about odds, probabilities, predictions, or \"what are the chances of X\".",
-      "publisher": "deanpress",
-      "publisherSlug": "deanpress",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "deanpress",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "data-analyst",
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "dashboarding",
-        "data-extraction",
-        "deployment-ops",
-        "development-workflows",
-        "reporting",
-        "research-synthesis",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/deanpress.png?size=88",
-      "creatorHandle": "deanpress",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "passersss-system-resource-monitor",
-      "name": "passersss/system-resource-monitor",
-      "description": "A clean, reliable system resource monitor for CPU load, RAM, Swap, and Disk usage. Optimized for OpenClaw.",
-      "publisher": "passersss",
-      "publisherSlug": "passersss",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "namespaced",
-        "passersss",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/passersss.png?size=88",
-      "creatorHandle": "passersss",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "cmanfre7-test-runner",
-      "name": "cmanfre7/test-runner",
-      "description": "Write, run, and manage unit, integration, and E2E tests across TypeScript, Python, and Swift using recommended frameworks.",
-      "publisher": "cmanfre7",
-      "publisherSlug": "cmanfre7",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "cmanfre7",
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/cmanfre7.png?size=88",
-      "creatorHandle": "cmanfre7",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "1kalin-social-media-scheduler",
-      "name": "1kalin/social-media-scheduler",
-      "description": "Plan, draft, and organize social media content across platforms. Create content calendars, write platform-optimized posts, and maintain consistent posting schedules.",
-      "publisher": "1kalin",
-      "publisherSlug": "1kalin",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "1kalin",
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer",
-        "marketer"
-      ],
-      "jobs": [
-        "api-integration",
-        "campaign-planning",
-        "content-production",
-        "deployment-ops",
-        "development-workflows",
-        "landing-pages",
-        "reporting",
-        "research-synthesis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/1kalin.png?size=88",
-      "creatorHandle": "1kalin",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "guohongbin-git-wechat-mp-cn",
-      "name": "guohongbin-git/wechat-mp-cn",
-      "description": "微信公众号监控 - 文章监控、阅读量追踪、舆情分析（WeChat Official Account）",
-      "publisher": "guohongbin-git",
-      "publisherSlug": "guohongbin-git",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "guohongbin-git",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/guohongbin-git.png?size=88",
-      "creatorHandle": "guohongbin-git",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "zlc000190-brainstorming",
-      "name": "zlc000190/brainstorming",
-      "description": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.",
-      "publisher": "zlc000190",
-      "publisherSlug": "zlc000190",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced",
-        "zlc000190"
-      ],
-      "personas": [
-        "designer",
-        "engineer",
-        "pm"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "design-critique",
-        "development-workflows",
-        "planning-roadmapping",
-        "prd-specs",
-        "presentation-building",
-        "reporting",
-        "research-synthesis",
-        "testing-debugging",
-        "ui-ux-design",
-        "visual-assets",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/zlc000190.png?size=88",
-      "creatorHandle": "zlc000190",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "ivangdavila-skill-finder",
-      "name": "ivangdavila/skill-finder",
-      "description": "Find, compare, and install agent skills across ClawHub and Skills.sh when the user needs new capabilities, better workflows, stronger tools, or safer alterna...",
-      "publisher": "ivangdavila",
-      "publisherSlug": "ivangdavila",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "ivangdavila",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/ivangdavila.png?size=88",
-      "creatorHandle": "ivangdavila",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "ivangdavila-find",
-      "name": "ivangdavila/find",
-      "description": "Locate anything with progressive search expansion, multi-source validation, and iterative refinement until found.",
-      "publisher": "ivangdavila",
-      "publisherSlug": "ivangdavila",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "ivangdavila",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [
-        "research-synthesis"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/ivangdavila.png?size=88",
-      "creatorHandle": "ivangdavila",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "anton-roos-finance",
-      "name": "anton-roos/finance",
-      "description": "Track stocks, ETFs, indices, crypto (where available), and FX pairs with caching + provider fallbacks.",
-      "publisher": "anton-roos",
-      "publisherSlug": "anton-roos",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "anton-roos",
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/anton-roos.png?size=88",
-      "creatorHandle": "anton-roos",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "jontsai-command-center",
-      "name": "jontsai/command-center",
-      "description": "Mission control dashboard for OpenClaw - real-time session monitoring, LLM usage tracking, cost intelligence, and system vitals. View all your AI agents in o...",
-      "publisher": "jontsai",
-      "publisherSlug": "jontsai",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "jontsai",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "data-analyst"
-      ],
-      "jobs": [
-        "dashboarding",
-        "data-extraction",
-        "reporting",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/jontsai.png?size=88",
-      "creatorHandle": "jontsai",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "byungkyu-zoho-inventory",
-      "name": "byungkyu/zoho-inventory",
-      "description": "Zoho Inventory API integration with managed OAuth. Manage items, sales orders, invoices, purchase orders, bills, contacts, and shipments. Use this skill when...",
-      "publisher": "byungkyu",
-      "publisherSlug": "byungkyu",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "byungkyu",
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer",
-        "sales"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "document-authoring",
-        "presentation-building",
-        "reporting",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/byungkyu.png?size=88",
-      "creatorHandle": "byungkyu",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "hgvgfgvh-link-skill",
-      "name": "hgvgfgvh/link-skill",
-      "description": "Universal API integration skill for enterprise platforms. Connect to any platform using Swagger/OpenAPI discovery.",
-      "publisher": "hgvgfgvh",
-      "publisherSlug": "hgvgfgvh",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "hgvgfgvh",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/hgvgfgvh.png?size=88",
-      "creatorHandle": "hgvgfgvh",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "kys42-stock-info-explorer",
-      "name": "kys42/stock-info-explorer",
-      "description": "A Yahoo Finance (yfinance) powered financial analysis tool. Get real-time quotes, generate high-resolution charts with moving averages + indicators (RSI/MACD/Bollinger/VWAP/ATR), summarize fundamentals, and run a one-shot report that outputs both a text summary and a Pro chart.",
-      "publisher": "kys42",
-      "publisherSlug": "kys42",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "kys42",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "data-analyst",
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "dashboarding",
-        "data-extraction",
-        "deployment-ops",
-        "development-workflows",
-        "reporting",
-        "research-synthesis",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/kys42.png?size=88",
-      "creatorHandle": "kys42",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "steipete-openhue",
-      "name": "steipete/openhue",
-      "description": "Control Philips Hue lights/scenes via the OpenHue CLI.",
-      "publisher": "steipete",
-      "publisherSlug": "steipete",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced",
-        "steipete"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/steipete.png?size=88",
-      "creatorHandle": "steipete",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "byungkyu-attio-api",
-      "name": "byungkyu/attio-api",
-      "description": "Attio API integration with managed OAuth. Manage CRM data including people, companies, and custom objects. Use this skill when users want to create, read, up...",
-      "publisher": "byungkyu",
-      "publisherSlug": "byungkyu",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "byungkyu",
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer",
-        "sales"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "document-authoring",
-        "presentation-building",
-        "reporting",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/byungkyu.png?size=88",
-      "creatorHandle": "byungkyu",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "shengbinxu-stock-monitor",
-      "name": "shengbinxu/stock-monitor",
-      "description": "股票价格实时监控。支持多只股票监控，使用 Yahoo Finance API 获取实时股价，自定义涨跌阈值提醒。当股价波动超过设定阈值时自动发送提醒，支持首次预警和续警机制。用于：(1) 监控持仓股票价格波动 (2) 设置价格提醒 (3) 定期检查股价变化",
-      "publisher": "shengbinxu",
-      "publisherSlug": "shengbinxu",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced",
-        "shengbinxu"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/shengbinxu.png?size=88",
-      "creatorHandle": "shengbinxu",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "jernejcicorbin-hub-claim-verifier",
-      "name": "jernejcicorbin-hub/claim-verifier",
-      "description": "Verify external factual claims in draft content before publishing or sending. Produces a structured claim verification report with evidence links.",
-      "publisher": "jernejcicorbin-hub",
-      "publisherSlug": "jernejcicorbin-hub",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "jernejcicorbin-hub",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer",
-        "marketer"
-      ],
-      "jobs": [
-        "api-integration",
-        "campaign-planning",
-        "content-production",
-        "deployment-ops",
-        "development-workflows",
-        "landing-pages",
-        "reporting",
-        "research-synthesis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/jernejcicorbin-hub.png?size=88",
-      "creatorHandle": "jernejcicorbin-hub",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "gitgoodordietrying-git-workflows",
-      "name": "gitgoodordietrying/git-workflows",
-      "description": "Advanced git operations beyond add/commit/push. Use when rebasing, bisecting bugs, using worktrees for parallel development, recovering with reflog, managing subtrees/submodules, resolving merge conflicts, cherry-picking across branches, or working with monorepos.",
-      "publisher": "gitgoodordietrying",
-      "publisherSlug": "gitgoodordietrying",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "gitgoodordietrying",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [
-        "development-workflows",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/gitgoodordietrying.png?size=88",
-      "creatorHandle": "gitgoodordietrying",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "cnyezi-a-stock-analysis",
-      "name": "cnyezi/a-stock-analysis",
-      "description": "提供A股实时行情、分时成交量分布及主力资金动向分析，支持持仓管理和盈亏监控。",
-      "publisher": "cnyezi",
-      "publisherSlug": "cnyezi",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "cnyezi",
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "data-analyst"
-      ],
-      "jobs": [
-        "dashboarding",
-        "data-extraction",
-        "reporting",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/cnyezi.png?size=88",
-      "creatorHandle": "cnyezi",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "byungkyu-zoho-calendar",
-      "name": "byungkyu/zoho-calendar",
-      "description": "Zoho Calendar API integration with managed OAuth. Manage calendars and events with full scheduling capabilities. Use this skill when users want to read, crea...",
-      "publisher": "byungkyu",
-      "publisherSlug": "byungkyu",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "byungkyu",
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/byungkyu.png?size=88",
-      "creatorHandle": "byungkyu",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "byungkyu-zoho-recruit",
-      "name": "byungkyu/zoho-recruit",
-      "description": "Zoho Recruit API integration with managed OAuth. Manage candidates, job openings, interviews, and recruitment workflows. Use this skill when users want to re...",
-      "publisher": "byungkyu",
-      "publisherSlug": "byungkyu",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "byungkyu",
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/byungkyu.png?size=88",
-      "creatorHandle": "byungkyu",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "rubenfb23-arxiv-watcher",
-      "name": "rubenfb23/arxiv-watcher",
-      "description": "Search and summarize papers from ArXiv. Use when the user asks for the latest research, specific topics on ArXiv, or a daily summary of AI papers.",
-      "publisher": "rubenfb23",
-      "publisherSlug": "rubenfb23",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced",
-        "rubenfb23"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "prd-specs",
-        "research-synthesis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/rubenfb23.png?size=88",
-      "creatorHandle": "rubenfb23",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "liuxy951129-cpu-humanizer-zh",
-      "name": "liuxy951129-cpu/humanizer-zh",
-      "description": "去除文本中的 AI 生成痕迹。适用于编辑或审阅文本，使其听起来更自然、更像人类书写。\n基于维基百科的\"AI 写作特征\"综合指南。检测并修复以下模式：夸大的象征意义、\n宣传性语言、以 -ing 结尾的肤浅分析、模糊的归因、破折号过度使用、三段式法则、\nAI 词汇、否定式排比、过多的连接性短语。",
-      "publisher": "liuxy951129-cpu",
-      "publisherSlug": "liuxy951129-cpu",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "liuxy951129-cpu",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [
-        "ui-ux-design"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/liuxy951129-cpu.png?size=88",
-      "creatorHandle": "liuxy951129-cpu",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "whtoo-self-evolving-skill",
-      "name": "whtoo/self-evolving-skill",
-      "description": "Meta-cognitive self-learning system - Automated skill evolution based on predictive coding and value-driven mechanisms.",
-      "publisher": "whtoo",
-      "publisherSlug": "whtoo",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced",
-        "whtoo"
-      ],
-      "personas": [],
-      "jobs": [
-        "development-workflows",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/whtoo.png?size=88",
-      "creatorHandle": "whtoo",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "byungkyu-zoho-people",
-      "name": "byungkyu/zoho-people",
-      "description": "Zoho People API integration with managed OAuth. Manage employees, departments, designations, attendance, leave, and arbitrary Zoho People forms (including cu...",
-      "publisher": "byungkyu",
-      "publisherSlug": "byungkyu",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "byungkyu",
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/byungkyu.png?size=88",
-      "creatorHandle": "byungkyu",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "byungkyu-zoho-bigin",
-      "name": "byungkyu/zoho-bigin",
-      "description": "Zoho Bigin API integration with managed OAuth. Manage contacts, companies, pipelines, and products in Bigin CRM. Use this skill when users want to read, crea...",
-      "publisher": "byungkyu",
-      "publisherSlug": "byungkyu",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "byungkyu",
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer",
-        "sales"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "document-authoring",
-        "presentation-building",
-        "reporting",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/byungkyu.png?size=88",
-      "creatorHandle": "byungkyu",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "zlc000190-subagent-driven-development",
-      "name": "zlc000190/subagent-driven-development",
-      "description": "Use when executing implementation plans with independent tasks in the current session",
-      "publisher": "zlc000190",
-      "publisherSlug": "zlc000190",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced",
-        "zlc000190"
-      ],
-      "personas": [],
-      "jobs": [
-        "development-workflows"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/zlc000190.png?size=88",
-      "creatorHandle": "zlc000190",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null

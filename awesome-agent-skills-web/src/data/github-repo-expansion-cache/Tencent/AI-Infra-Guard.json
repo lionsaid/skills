@@ -1,0 +1,66 @@
+{
+  "repository": "Tencent/AI-Infra-Guard",
+  "branch": "main",
+  "defaultBranch": "main",
+  "pushedAt": "2026-07-06T07:10:46Z",
+  "scannedAt": "2026-07-07T09:05:50.573Z",
+  "treeSha": "f88c3fb2e9abd3aa0205ebc9a3f29f163e639ef4",
+  "items": [
+    {
+      "repository": "Tencent/AI-Infra-Guard",
+      "branch": "main",
+      "skillName": "AI-Infra-Guard",
+      "path": "README.md",
+      "url": "https://github.com/Tencent/AI-Infra-Guard",
+      "description": "A full-stack AI Red Teaming platform securing AI ecosystems via OpenClaw Security Scan, Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation.",
+      "slug": "tencent-ai-infra-guard-collection",
+      "isCollection": true,
+      "stars": 4065,
+      "skillPaths": [
+        "skills/aig-agent-redteam/SKILL.md",
+        "skills/aig-scanner/SKILL.md",
+        "skills/edgeone-clawscan/SKILL.md",
+        "skills/edgeone-skill-scanner/SKILL.md"
+      ]
+    },
+    {
+      "repository": "Tencent/AI-Infra-Guard",
+      "branch": "main",
+      "skillName": "aig-agent-redteam",
+      "path": "skills/aig-agent-redteam/SKILL.md",
+      "url": "https://github.com/Tencent/AI-Infra-Guard/blob/main/skills/aig-agent-redteam/SKILL.md",
+      "description": "|",
+      "slug": "tencent-aig-agent-redteam"
+    },
+    {
+      "repository": "Tencent/AI-Infra-Guard",
+      "branch": "main",
+      "skillName": "aig-scanner",
+      "path": "skills/aig-scanner/SKILL.md",
+      "url": "https://github.com/Tencent/AI-Infra-Guard/blob/main/skills/aig-scanner/SKILL.md",
+      "description": ">",
+      "slug": "tencent-aig-scanner"
+    },
+    {
+      "repository": "Tencent/AI-Infra-Guard",
+      "branch": "main",
+      "skillName": "edgeone-clawscan",
+      "path": "skills/edgeone-clawscan/SKILL.md",
+      "url": "https://github.com/Tencent/AI-Infra-Guard/blob/main/skills/edgeone-clawscan/SKILL.md",
+      "description": ">",
+      "slug": "tencent-edgeone-clawscan"
+    },
+    {
+      "repository": "Tencent/AI-Infra-Guard",
+      "branch": "main",
+      "skillName": "edgeone-skill-scanner",
+      "path": "skills/edgeone-skill-scanner/SKILL.md",
+      "url": "https://github.com/Tencent/AI-Infra-Guard/blob/main/skills/edgeone-skill-scanner/SKILL.md",
+      "description": ">",
+      "slug": "tencent-edgeone-skill-scanner"
+    }
+  ],
+  "itemCount": 5,
+  "publicSkillCount": 4,
+  "lastStatus": "scanned"
+}
