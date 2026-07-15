@@ -1,0 +1,36 @@
+{
+  "repository": "Alisa0808/vibe-creating-skill",
+  "branch": "main",
+  "defaultBranch": "main",
+  "pushedAt": "2026-06-17T09:12:18Z",
+  "scannedAt": "2026-07-15T02:39:07.452Z",
+  "treeSha": "a599301980a66eb47ddac5c15e41081b74a2759d",
+  "items": [
+    {
+      "repository": "Alisa0808/vibe-creating-skill",
+      "branch": "main",
+      "skillName": "vibe-creating-skill",
+      "path": "README.md",
+      "url": "https://github.com/Alisa0808/vibe-creating-skill",
+      "description": "Open-source, bilingual AI video-prompt skill — rewrite ideas into model-ready text-to-video prompts. A portable Agent Skill (Claude Code, Codex, OpenClaw, Hermes); generate via Atlas Cloud — Seedance 2.0, Kling, Veo, Hailuo, Wan, Vidu, Gemini Omni, Grok Imagine.",
+      "slug": "alisa0808-vibe-creating-skill-collection",
+      "isCollection": true,
+      "stars": 104,
+      "skillPaths": [
+        "skills/vibe-creating-prompt/SKILL.md"
+      ]
+    },
+    {
+      "repository": "Alisa0808/vibe-creating-skill",
+      "branch": "main",
+      "skillName": "vibe-creating-prompt",
+      "path": "skills/vibe-creating-prompt/SKILL.md",
+      "url": "https://github.com/Alisa0808/vibe-creating-skill/blob/main/skills/vibe-creating-prompt/SKILL.md",
+      "description": "Judges whether a user's input suits the Vibe Creating style of video-prompt writing, and when it does, distills single-scene prompts, multi-shot descriptions, emotional imagery, or mixed input into prompts that are easier for a video model to generate from — while preserving any user-specified dialogue, voiceover, music, sound effects, and other hard constraints. Use when a user wants to turn an idea, story, feeling, or rough/over-specified prompt into a strong text-to-video prompt (Seedance, Sora, Kling, Veo, Runway, etc.), or asks to \"rewrite\", \"improve\", \"clean up\", or \"vibe-ify\" a video prompt. Do NOT use for long narrative films that need precise word-for-word dialogue sync, industrial shot lists meant to be executed verbatim, or functional/UI demos and step-by-step tutorials.",
+      "slug": "alisa0808-vibe-creating-prompt"
+    }
+  ],
+  "itemCount": 2,
+  "publicSkillCount": 1,
+  "lastStatus": "scanned"
+}
