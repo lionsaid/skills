@@ -2,9 +2,9 @@
   "repository": "qdrant/skills",
   "branch": "main",
   "defaultBranch": "main",
-  "pushedAt": "2026-07-06T20:15:33Z",
-  "scannedAt": "2026-07-07T09:08:01.280Z",
-  "treeSha": "b12b75c01f567eb1f7a3e05a991641627c30998a",
+  "pushedAt": "2026-07-14T13:04:00Z",
+  "scannedAt": "2026-07-15T02:28:36.886Z",
+  "treeSha": "2a06cb1e9b614fca0f902eed79edd049c24877c5",
   "items": [
     {
       "repository": "qdrant/skills",
@@ -15,10 +15,11 @@
       "description": "Agent skills for Qdrant vector search: scaling, performance optimization, search quality, monitoring, deployment, model migration, version upgrades, and SDK usage across Python, TypeScript, Rust, Go, .NET, Java",
       "slug": "qdrant-skills-collection",
       "isCollection": true,
-      "stars": 189,
+      "stars": 199,
       "skillPaths": [
         "skills/qdrant-clients-sdk/SKILL.md",
         "skills/qdrant-deployment-options/SKILL.md",
+        "skills/qdrant-edge/SKILL.md",
         "skills/qdrant-model-migration/SKILL.md",
         "skills/qdrant-monitoring/SKILL.md",
         "skills/qdrant-performance-optimization/SKILL.md",
@@ -44,6 +45,15 @@
       "url": "https://github.com/qdrant/skills/blob/main/skills/qdrant-deployment-options/SKILL.md",
       "description": "Guides Qdrant deployment selection. Use when someone asks 'how to deploy Qdrant', 'Docker vs Cloud', 'local mode', 'embedded Qdrant', 'Qdrant EDGE', 'which deployment option', 'self-hosted vs cloud', or 'need lowest latency deployment'. Also use when choosing between deployment types for a new project.",
       "slug": "qdrant-qdrant-deployment-options"
+    },
+    {
+      "repository": "qdrant/skills",
+      "branch": "main",
+      "skillName": "qdrant-edge",
+      "path": "skills/qdrant-edge/SKILL.md",
+      "url": "https://github.com/qdrant/skills/blob/main/skills/qdrant-edge/SKILL.md",
+      "description": "Guides building on Qdrant Edge, the embedded in-process shard. Use when someone asks 'how to sync Edge with the server', 'keep a local shard in sync with Qdrant Cloud', 'BM25 or keyword search on Edge', 'hybrid search on Edge', 'embeddings on device', 'Edge snapshots', 'apply a partial snapshot', 'why is my Edge search empty after inserts', or is writing custom sync, BM25, or fusion code against qdrant-edge. Also use when deciding what Edge ships built-in versus what you must implement.",
+      "slug": "qdrant-qdrant-edge"
     },
     {
       "repository": "qdrant/skills",
@@ -100,7 +110,6 @@
       "slug": "qdrant-qdrant-version-upgrade"
     }
   ],
-  "itemCount": 9,
-  "publicSkillCount": 8,
-  "lastStatus": "scanned"
+  "itemCount": 10,
+  "lastStatus": "cache-fresh"
 }

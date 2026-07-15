@@ -1,8 +1,1728 @@
 {
-  "generatedAt": "2026-07-07T09:11:26.306Z",
+  "generatedAt": "2026-07-15T02:39:29.986Z",
   "chunkIndex": 1,
-  "totalSkills": 8886,
+  "totalSkills": 8995,
   "skills": [
+    {
+      "slug": "getsentry-sentry-fix-issues",
+      "name": "getsentry/sentry-fix-issues",
+      "description": "Find and fix Sentry issues with stack trace, breadcrumb, and trace context via MCP",
+      "publisher": "getsentry",
+      "publisherSlug": "getsentry",
+      "sectionTitle": "Skills by Sentry team for their dev team.",
+      "kind": "official",
+      "tags": [
+        "getsentry",
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-sentry-team-for-their-dev-team"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
+      "creatorHandle": "getsentry",
+      "hasPublisherLogo": true,
+      "stars": 828,
+      "forks": 45
+    },
+    {
+      "slug": "getsentry-sentry-code-review",
+      "name": "getsentry/sentry-code-review",
+      "description": "Review code changes using Sentry issue and trace context",
+      "publisher": "getsentry",
+      "publisherSlug": "getsentry",
+      "sectionTitle": "Skills by Sentry team for their dev team.",
+      "kind": "official",
+      "tags": [
+        "getsentry",
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-sentry-team-for-their-dev-team"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
+      "creatorHandle": "getsentry",
+      "hasPublisherLogo": true,
+      "stars": 828,
+      "forks": 45
+    },
+    {
+      "slug": "getsentry-sentry-pr-code-review",
+      "name": "getsentry/sentry-pr-code-review",
+      "description": "Review PR comments from Seer Bug Prediction and Sentry feedback",
+      "publisher": "getsentry",
+      "publisherSlug": "getsentry",
+      "sectionTitle": "Skills by Sentry team for their dev team.",
+      "kind": "official",
+      "tags": [
+        "getsentry",
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-sentry-team-for-their-dev-team"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
+      "creatorHandle": "getsentry",
+      "hasPublisherLogo": true,
+      "stars": 828,
+      "forks": 45
+    },
+    {
+      "slug": "getsentry-sentry-create-alert",
+      "name": "getsentry/sentry-create-alert",
+      "description": "Create Sentry alerts with email, Slack, PagerDuty, Discord, and more",
+      "publisher": "getsentry",
+      "publisherSlug": "getsentry",
+      "sectionTitle": "Skills by Sentry team for their dev team.",
+      "kind": "official",
+      "tags": [
+        "getsentry",
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-sentry-team-for-their-dev-team"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
+      "creatorHandle": "getsentry",
+      "hasPublisherLogo": true,
+      "stars": 828,
+      "forks": 45
+    },
+    {
+      "slug": "getsentry-sentry-feature-setup",
+      "name": "getsentry/sentry-feature-setup",
+      "description": "Configure advanced Sentry features: AI monitoring, OTel pipelines, and alerts",
+      "publisher": "getsentry",
+      "publisherSlug": "getsentry",
+      "sectionTitle": "Skills by Sentry team for their dev team.",
+      "kind": "official",
+      "tags": [
+        "getsentry",
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-sentry-team-for-their-dev-team"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "prd-specs",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
+      "creatorHandle": "getsentry",
+      "hasPublisherLogo": true,
+      "stars": 828,
+      "forks": 45
+    },
+    {
+      "slug": "getsentry-sentry-otel-exporter-setup",
+      "name": "getsentry/sentry-otel-exporter-setup",
+      "description": "Configure the OpenTelemetry Collector with Sentry Exporter",
+      "publisher": "getsentry",
+      "publisherSlug": "getsentry",
+      "sectionTitle": "Skills by Sentry team for their dev team.",
+      "kind": "official",
+      "tags": [
+        "getsentry",
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-sentry-team-for-their-dev-team"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
+      "creatorHandle": "getsentry",
+      "hasPublisherLogo": true,
+      "stars": 828,
+      "forks": 45
+    },
+    {
+      "slug": "getsentry-sentry-setup-ai-monitoring",
+      "name": "getsentry/sentry-setup-ai-monitoring",
+      "description": "Instrument OpenAI, Anthropic, Vercel AI, LangChain, Google GenAI, and Pydantic AI",
+      "publisher": "getsentry",
+      "publisherSlug": "getsentry",
+      "sectionTitle": "Skills by Sentry team for their dev team.",
+      "kind": "official",
+      "tags": [
+        "getsentry",
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-sentry-team-for-their-dev-team"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
+      "creatorHandle": "getsentry",
+      "hasPublisherLogo": true,
+      "stars": 828,
+      "forks": 45
+    },
+    {
+      "slug": "getsentry-sentry-sdk-upgrade",
+      "name": "getsentry/sentry-sdk-upgrade",
+      "description": "Upgrade the Sentry JavaScript SDK across major versions",
+      "publisher": "getsentry",
+      "publisherSlug": "getsentry",
+      "sectionTitle": "Skills by Sentry team for their dev team.",
+      "kind": "official",
+      "tags": [
+        "getsentry",
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-sentry-team-for-their-dev-team"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
+      "creatorHandle": "getsentry",
+      "hasPublisherLogo": true,
+      "stars": 828,
+      "forks": 45
+    },
+    {
+      "slug": "getsentry-sentry-sdk-skill-creator",
+      "name": "getsentry/sentry-sdk-skill-creator",
+      "description": "Create a new Sentry SDK skill bundle for a platform",
+      "publisher": "getsentry",
+      "publisherSlug": "getsentry",
+      "sectionTitle": "Skills by Sentry team for their dev team.",
+      "kind": "official",
+      "tags": [
+        "getsentry",
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-sentry-team-for-their-dev-team"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
+      "creatorHandle": "getsentry",
+      "hasPublisherLogo": true,
+      "stars": 828,
+      "forks": 45
+    },
+    {
+      "slug": "getsentry-sentry-android-sdk",
+      "name": "getsentry/sentry-android-sdk",
+      "description": "Full Sentry SDK setup for Android (Kotlin and Java)",
+      "publisher": "getsentry",
+      "publisherSlug": "getsentry",
+      "sectionTitle": "Skills by Sentry team for their dev team.",
+      "kind": "official",
+      "tags": [
+        "getsentry",
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-sentry-team-for-their-dev-team"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
+      "creatorHandle": "getsentry",
+      "hasPublisherLogo": true,
+      "stars": 828,
+      "forks": 45
+    },
+    {
+      "slug": "getsentry-sentry-browser-sdk",
+      "name": "getsentry/sentry-browser-sdk",
+      "description": "Full Sentry SDK setup for browser JavaScript",
+      "publisher": "getsentry",
+      "publisherSlug": "getsentry",
+      "sectionTitle": "Skills by Sentry team for their dev team.",
+      "kind": "official",
+      "tags": [
+        "getsentry",
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-sentry-team-for-their-dev-team"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
+      "creatorHandle": "getsentry",
+      "hasPublisherLogo": true,
+      "stars": 828,
+      "forks": 45
+    },
+    {
+      "slug": "getsentry-sentry-cloudflare-sdk",
+      "name": "getsentry/sentry-cloudflare-sdk",
+      "description": "Full Sentry SDK setup for Cloudflare Workers, Pages, Durable Objects, Queues, and Workflows",
+      "publisher": "getsentry",
+      "publisherSlug": "getsentry",
+      "sectionTitle": "Skills by Sentry team for their dev team.",
+      "kind": "official",
+      "tags": [
+        "getsentry",
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-sentry-team-for-their-dev-team"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
+      "creatorHandle": "getsentry",
+      "hasPublisherLogo": true,
+      "stars": 828,
+      "forks": 45
+    },
+    {
+      "slug": "getsentry-sentry-cocoa-sdk",
+      "name": "getsentry/sentry-cocoa-sdk",
+      "description": "Full Sentry SDK setup for Apple platforms (iOS, macOS, tvOS, watchOS, visionOS)",
+      "publisher": "getsentry",
+      "publisherSlug": "getsentry",
+      "sectionTitle": "Skills by Sentry team for their dev team.",
+      "kind": "official",
+      "tags": [
+        "getsentry",
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-sentry-team-for-their-dev-team"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
+      "creatorHandle": "getsentry",
+      "hasPublisherLogo": true,
+      "stars": 828,
+      "forks": 45
+    },
+    {
+      "slug": "getsentry-sentry-dotnet-sdk",
+      "name": "getsentry/sentry-dotnet-sdk",
+      "description": "Full Sentry SDK setup for .NET (ASP.NET Core, MAUI, WPF, WinForms, Blazor, Azure Functions)",
+      "publisher": "getsentry",
+      "publisherSlug": "getsentry",
+      "sectionTitle": "Skills by Sentry team for their dev team.",
+      "kind": "official",
+      "tags": [
+        "getsentry",
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-sentry-team-for-their-dev-team"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
+      "creatorHandle": "getsentry",
+      "hasPublisherLogo": true,
+      "stars": 828,
+      "forks": 45
+    },
+    {
+      "slug": "getsentry-sentry-elixir-sdk",
+      "name": "getsentry/sentry-elixir-sdk",
+      "description": "Full Sentry SDK setup for Elixir, Phoenix, Plug, LiveView, Oban, and Quantum",
+      "publisher": "getsentry",
+      "publisherSlug": "getsentry",
+      "sectionTitle": "Skills by Sentry team for their dev team.",
+      "kind": "official",
+      "tags": [
+        "getsentry",
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-sentry-team-for-their-dev-team"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
+      "creatorHandle": "getsentry",
+      "hasPublisherLogo": true,
+      "stars": 828,
+      "forks": 45
+    },
+    {
+      "slug": "getsentry-sentry-flutter-sdk",
+      "name": "getsentry/sentry-flutter-sdk",
+      "description": "Full Sentry SDK setup for Flutter and Dart across all platforms",
+      "publisher": "getsentry",
+      "publisherSlug": "getsentry",
+      "sectionTitle": "Skills by Sentry team for their dev team.",
+      "kind": "official",
+      "tags": [
+        "getsentry",
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-sentry-team-for-their-dev-team"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
+      "creatorHandle": "getsentry",
+      "hasPublisherLogo": true,
+      "stars": 828,
+      "forks": 45
+    },
+    {
+      "slug": "getsentry-sentry-go-sdk",
+      "name": "getsentry/sentry-go-sdk",
+      "description": "Full Sentry SDK setup for Go (net/http, Gin, Echo, Fiber, FastHTTP, Iris, Negroni)",
+      "publisher": "getsentry",
+      "publisherSlug": "getsentry",
+      "sectionTitle": "Skills by Sentry team for their dev team.",
+      "kind": "official",
+      "tags": [
+        "getsentry",
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-sentry-team-for-their-dev-team"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
+      "creatorHandle": "getsentry",
+      "hasPublisherLogo": true,
+      "stars": 828,
+      "forks": 45
+    },
+    {
+      "slug": "getsentry-sentry-nestjs-sdk",
+      "name": "getsentry/sentry-nestjs-sdk",
+      "description": "Full Sentry SDK setup for NestJS with Express or Fastify, GraphQL, microservices",
+      "publisher": "getsentry",
+      "publisherSlug": "getsentry",
+      "sectionTitle": "Skills by Sentry team for their dev team.",
+      "kind": "official",
+      "tags": [
+        "getsentry",
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-sentry-team-for-their-dev-team"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
+      "creatorHandle": "getsentry",
+      "hasPublisherLogo": true,
+      "stars": 828,
+      "forks": 45
+    },
+    {
+      "slug": "getsentry-sentry-nextjs-sdk",
+      "name": "getsentry/sentry-nextjs-sdk",
+      "description": "Full Sentry SDK setup for Next.js 13+ (App Router and Pages Router)",
+      "publisher": "getsentry",
+      "publisherSlug": "getsentry",
+      "sectionTitle": "Skills by Sentry team for their dev team.",
+      "kind": "official",
+      "tags": [
+        "getsentry",
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-sentry-team-for-their-dev-team"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
+      "creatorHandle": "getsentry",
+      "hasPublisherLogo": true,
+      "stars": 828,
+      "forks": 45
+    },
+    {
+      "slug": "getsentry-sentry-node-sdk",
+      "name": "getsentry/sentry-node-sdk",
+      "description": "Full Sentry SDK setup for Node.js, Bun, and Deno",
+      "publisher": "getsentry",
+      "publisherSlug": "getsentry",
+      "sectionTitle": "Skills by Sentry team for their dev team.",
+      "kind": "official",
+      "tags": [
+        "getsentry",
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-sentry-team-for-their-dev-team"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
+      "creatorHandle": "getsentry",
+      "hasPublisherLogo": true,
+      "stars": 828,
+      "forks": 45
+    },
+    {
+      "slug": "getsentry-sentry-php-sdk",
+      "name": "getsentry/sentry-php-sdk",
+      "description": "Full Sentry SDK setup for PHP, Laravel, and Symfony",
+      "publisher": "getsentry",
+      "publisherSlug": "getsentry",
+      "sectionTitle": "Skills by Sentry team for their dev team.",
+      "kind": "official",
+      "tags": [
+        "getsentry",
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-sentry-team-for-their-dev-team"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
+      "creatorHandle": "getsentry",
+      "hasPublisherLogo": true,
+      "stars": 828,
+      "forks": 45
+    },
+    {
+      "slug": "getsentry-sentry-python-sdk",
+      "name": "getsentry/sentry-python-sdk",
+      "description": "Full Sentry SDK setup for Python (Django, Flask, FastAPI, Celery, Starlette, AIOHTTP, Tornado)",
+      "publisher": "getsentry",
+      "publisherSlug": "getsentry",
+      "sectionTitle": "Skills by Sentry team for their dev team.",
+      "kind": "official",
+      "tags": [
+        "getsentry",
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-sentry-team-for-their-dev-team"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
+      "creatorHandle": "getsentry",
+      "hasPublisherLogo": true,
+      "stars": 828,
+      "forks": 45
+    },
+    {
+      "slug": "getsentry-sentry-react-native-sdk",
+      "name": "getsentry/sentry-react-native-sdk",
+      "description": "Full Sentry SDK setup for React Native and Expo",
+      "publisher": "getsentry",
+      "publisherSlug": "getsentry",
+      "sectionTitle": "Skills by Sentry team for their dev team.",
+      "kind": "official",
+      "tags": [
+        "getsentry",
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-sentry-team-for-their-dev-team"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
+      "creatorHandle": "getsentry",
+      "hasPublisherLogo": true,
+      "stars": 828,
+      "forks": 45
+    },
+    {
+      "slug": "getsentry-sentry-react-sdk",
+      "name": "getsentry/sentry-react-sdk",
+      "description": "Full Sentry SDK setup for React (React Router v5-v7, TanStack Router, Redux, Vite, webpack)",
+      "publisher": "getsentry",
+      "publisherSlug": "getsentry",
+      "sectionTitle": "Skills by Sentry team for their dev team.",
+      "kind": "official",
+      "tags": [
+        "getsentry",
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-sentry-team-for-their-dev-team"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
+      "creatorHandle": "getsentry",
+      "hasPublisherLogo": true,
+      "stars": 828,
+      "forks": 45
+    },
+    {
+      "slug": "getsentry-sentry-ruby-sdk",
+      "name": "getsentry/sentry-ruby-sdk",
+      "description": "Full Sentry SDK setup for Ruby (Rails, Sinatra, Rack, Sidekiq, Resque)",
+      "publisher": "getsentry",
+      "publisherSlug": "getsentry",
+      "sectionTitle": "Skills by Sentry team for their dev team.",
+      "kind": "official",
+      "tags": [
+        "getsentry",
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-sentry-team-for-their-dev-team"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
+      "creatorHandle": "getsentry",
+      "hasPublisherLogo": true,
+      "stars": 828,
+      "forks": 45
+    },
+    {
+      "slug": "getsentry-sentry-svelte-sdk",
+      "name": "getsentry/sentry-svelte-sdk",
+      "description": "Full Sentry SDK setup for Svelte and SvelteKit",
+      "publisher": "getsentry",
+      "publisherSlug": "getsentry",
+      "sectionTitle": "Skills by Sentry team for their dev team.",
+      "kind": "official",
+      "tags": [
+        "getsentry",
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-sentry-team-for-their-dev-team"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
+      "creatorHandle": "getsentry",
+      "hasPublisherLogo": true,
+      "stars": 828,
+      "forks": 45
+    },
+    {
+      "slug": "microsoft-cloud-solution-architect",
+      "name": "microsoft/cloud-solution-architect",
+      "description": "Design well-architected Azure cloud systems",
+      "publisher": "microsoft",
+      "publisherSlug": "microsoft",
+      "sectionTitle": "Core Skills",
+      "kind": "official",
+      "tags": [
+        "core-skills",
+        "microsoft",
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "designer",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "design-critique",
+        "development-workflows",
+        "presentation-building",
+        "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
+      "creatorHandle": "microsoft",
+      "hasPublisherLogo": true,
+      "stars": 2620,
+      "forks": 298
+    },
+    {
+      "slug": "microsoft-continual-learning",
+      "name": "microsoft/continual-learning",
+      "description": "Continual learning patterns for Azure AI",
+      "publisher": "microsoft",
+      "publisherSlug": "microsoft",
+      "sectionTitle": "Core Skills",
+      "kind": "official",
+      "tags": [
+        "core-skills",
+        "microsoft",
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
+      "creatorHandle": "microsoft",
+      "hasPublisherLogo": true,
+      "stars": 2620,
+      "forks": 298
+    },
+    {
+      "slug": "microsoft-copilot-sdk",
+      "name": "microsoft/copilot-sdk",
+      "description": "Build applications powered by GitHub Copilot SDK",
+      "publisher": "microsoft",
+      "publisherSlug": "microsoft",
+      "sectionTitle": "Core Skills",
+      "kind": "official",
+      "tags": [
+        "core-skills",
+        "microsoft",
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "development-workflows"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
+      "creatorHandle": "microsoft",
+      "hasPublisherLogo": true,
+      "stars": 2620,
+      "forks": 298
+    },
+    {
+      "slug": "microsoft-entra-agent-id",
+      "name": "microsoft/entra-agent-id",
+      "description": "Microsoft Entra Agent ID OAuth2 identities via Graph API",
+      "publisher": "microsoft",
+      "publisherSlug": "microsoft",
+      "sectionTitle": "Core Skills",
+      "kind": "official",
+      "tags": [
+        "core-skills",
+        "microsoft",
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
+      "creatorHandle": "microsoft",
+      "hasPublisherLogo": true,
+      "stars": 2620,
+      "forks": 298
+    },
+    {
+      "slug": "microsoft-frontend-design-review",
+      "name": "microsoft/frontend-design-review",
+      "description": "Review and create distinctive frontend interfaces",
+      "publisher": "microsoft",
+      "publisherSlug": "microsoft",
+      "sectionTitle": "Core Skills",
+      "kind": "official",
+      "tags": [
+        "core-skills",
+        "microsoft",
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "designer",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "design-critique",
+        "development-workflows",
+        "prd-specs",
+        "presentation-building",
+        "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
+      "creatorHandle": "microsoft",
+      "hasPublisherLogo": true,
+      "stars": 2620,
+      "forks": 298
+    },
+    {
+      "slug": "microsoft-github-issue-creator",
+      "name": "microsoft/github-issue-creator",
+      "description": "Structured GitHub issue reports from notes",
+      "publisher": "microsoft",
+      "publisherSlug": "microsoft",
+      "sectionTitle": "Core Skills",
+      "kind": "official",
+      "tags": [
+        "core-skills",
+        "microsoft",
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "pm",
+        "support"
+      ],
+      "jobs": [
+        "document-authoring",
+        "prd-specs",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
+      "creatorHandle": "microsoft",
+      "hasPublisherLogo": true,
+      "stars": 2620,
+      "forks": 298
+    },
+    {
+      "slug": "microsoft-mcp-builder",
+      "name": "microsoft/mcp-builder",
+      "description": "MCP server creation guide for LLM tool integration",
+      "publisher": "microsoft",
+      "publisherSlug": "microsoft",
+      "sectionTitle": "Core Skills",
+      "kind": "official",
+      "tags": [
+        "core-skills",
+        "microsoft",
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
+      "creatorHandle": "microsoft",
+      "hasPublisherLogo": true,
+      "stars": 2620,
+      "forks": 298
+    },
+    {
+      "slug": "microsoft-podcast-generation",
+      "name": "microsoft/podcast-generation",
+      "description": "AI podcast audio with Azure OpenAI Realtime API",
+      "publisher": "microsoft",
+      "publisherSlug": "microsoft",
+      "sectionTitle": "Core Skills",
+      "kind": "official",
+      "tags": [
+        "core-skills",
+        "microsoft",
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "designer",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "design-critique",
+        "development-workflows",
+        "presentation-building",
+        "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
+      "creatorHandle": "microsoft",
+      "hasPublisherLogo": true,
+      "stars": 2620,
+      "forks": 298
+    },
+    {
+      "slug": "microsoft-skill-creator",
+      "name": "microsoft/skill-creator",
+      "description": "Guide for creating effective skills for AI coding agents",
+      "publisher": "microsoft",
+      "publisherSlug": "microsoft",
+      "sectionTitle": "Core Skills",
+      "kind": "official",
+      "tags": [
+        "core-skills",
+        "microsoft",
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
+      "creatorHandle": "microsoft",
+      "hasPublisherLogo": true,
+      "stars": 2620,
+      "forks": 298
+    },
+    {
+      "slug": "microsoft-azure-ai-document-intelligence-dotnet",
+      "name": "microsoft/azure-ai-document-intelligence-dotnet",
+      "description": "Document text, table, and data extraction",
+      "publisher": "microsoft",
+      "publisherSlug": "microsoft",
+      "sectionTitle": ".NET Skills",
+      "kind": "official",
+      "tags": [
+        "microsoft",
+        "namespaced",
+        "net-skills",
+        "official-skills",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
+      "creatorHandle": "microsoft",
+      "hasPublisherLogo": true,
+      "stars": 2620,
+      "forks": 298
+    },
+    {
+      "slug": "microsoft-azure-ai-openai-dotnet",
+      "name": "microsoft/azure-ai-openai-dotnet",
+      "description": "GPT-4, embeddings, DALL-E, and Whisper client",
+      "publisher": "microsoft",
+      "publisherSlug": "microsoft",
+      "sectionTitle": ".NET Skills",
+      "kind": "official",
+      "tags": [
+        "microsoft",
+        "namespaced",
+        "net-skills",
+        "official-skills",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
+      "creatorHandle": "microsoft",
+      "hasPublisherLogo": true,
+      "stars": 2620,
+      "forks": 298
+    },
+    {
+      "slug": "microsoft-azure-ai-projects-dotnet",
+      "name": "microsoft/azure-ai-projects-dotnet",
+      "description": "AI Foundry project management SDK",
+      "publisher": "microsoft",
+      "publisherSlug": "microsoft",
+      "sectionTitle": ".NET Skills",
+      "kind": "official",
+      "tags": [
+        "microsoft",
+        "namespaced",
+        "net-skills",
+        "official-skills",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
+      "creatorHandle": "microsoft",
+      "hasPublisherLogo": true,
+      "stars": 2620,
+      "forks": 298
+    },
+    {
+      "slug": "microsoft-azure-ai-voicelive-dotnet",
+      "name": "microsoft/azure-ai-voicelive-dotnet",
+      "description": "Real-time bidirectional voice AI",
+      "publisher": "microsoft",
+      "publisherSlug": "microsoft",
+      "sectionTitle": ".NET Skills",
+      "kind": "official",
+      "tags": [
+        "microsoft",
+        "namespaced",
+        "net-skills",
+        "official-skills",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
+      "creatorHandle": "microsoft",
+      "hasPublisherLogo": true,
+      "stars": 2620,
+      "forks": 298
+    },
+    {
+      "slug": "microsoft-azure-eventgrid-dotnet",
+      "name": "microsoft/azure-eventgrid-dotnet",
+      "description": "Event Grid topic and domain publishing",
+      "publisher": "microsoft",
+      "publisherSlug": "microsoft",
+      "sectionTitle": ".NET Skills",
+      "kind": "official",
+      "tags": [
+        "microsoft",
+        "namespaced",
+        "net-skills",
+        "official-skills",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
+      "creatorHandle": "microsoft",
+      "hasPublisherLogo": true,
+      "stars": 2620,
+      "forks": 298
+    },
+    {
+      "slug": "microsoft-azure-eventhub-dotnet",
+      "name": "microsoft/azure-eventhub-dotnet",
+      "description": "High-throughput event streaming",
+      "publisher": "microsoft",
+      "publisherSlug": "microsoft",
+      "sectionTitle": ".NET Skills",
+      "kind": "official",
+      "tags": [
+        "microsoft",
+        "namespaced",
+        "net-skills",
+        "official-skills",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
+      "creatorHandle": "microsoft",
+      "hasPublisherLogo": true,
+      "stars": 2620,
+      "forks": 298
+    },
+    {
+      "slug": "microsoft-azure-identity-dotnet",
+      "name": "microsoft/azure-identity-dotnet",
+      "description": "Microsoft Entra ID authentication",
+      "publisher": "microsoft",
+      "publisherSlug": "microsoft",
+      "sectionTitle": ".NET Skills",
+      "kind": "official",
+      "tags": [
+        "microsoft",
+        "namespaced",
+        "net-skills",
+        "official-skills",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
+      "creatorHandle": "microsoft",
+      "hasPublisherLogo": true,
+      "stars": 2620,
+      "forks": 298
+    },
+    {
+      "slug": "microsoft-azure-maps-search-dotnet",
+      "name": "microsoft/azure-maps-search-dotnet",
+      "description": "Geocoding, routing, and weather services",
+      "publisher": "microsoft",
+      "publisherSlug": "microsoft",
+      "sectionTitle": ".NET Skills",
+      "kind": "official",
+      "tags": [
+        "microsoft",
+        "namespaced",
+        "net-skills",
+        "official-skills",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
+      "creatorHandle": "microsoft",
+      "hasPublisherLogo": true,
+      "stars": 2620,
+      "forks": 298
+    },
+    {
+      "slug": "microsoft-azure-mgmt-apicenter-dotnet",
+      "name": "microsoft/azure-mgmt-apicenter-dotnet",
+      "description": "API inventory and governance",
+      "publisher": "microsoft",
+      "publisherSlug": "microsoft",
+      "sectionTitle": ".NET Skills",
+      "kind": "official",
+      "tags": [
+        "microsoft",
+        "namespaced",
+        "net-skills",
+        "official-skills",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
+      "creatorHandle": "microsoft",
+      "hasPublisherLogo": true,
+      "stars": 2620,
+      "forks": 298
+    },
+    {
+      "slug": "microsoft-azure-mgmt-apimanagement-dotnet",
+      "name": "microsoft/azure-mgmt-apimanagement-dotnet",
+      "description": "API Management provisioning via ARM",
+      "publisher": "microsoft",
+      "publisherSlug": "microsoft",
+      "sectionTitle": ".NET Skills",
+      "kind": "official",
+      "tags": [
+        "microsoft",
+        "namespaced",
+        "net-skills",
+        "official-skills",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
+      "creatorHandle": "microsoft",
+      "hasPublisherLogo": true,
+      "stars": 2620,
+      "forks": 298
+    },
+    {
+      "slug": "microsoft-azure-mgmt-applicationinsights-dotnet",
+      "name": "microsoft/azure-mgmt-applicationinsights-dotnet",
+      "description": "Application Insights resource management",
+      "publisher": "microsoft",
+      "publisherSlug": "microsoft",
+      "sectionTitle": ".NET Skills",
+      "kind": "official",
+      "tags": [
+        "microsoft",
+        "namespaced",
+        "net-skills",
+        "official-skills",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
+      "creatorHandle": "microsoft",
+      "hasPublisherLogo": true,
+      "stars": 2620,
+      "forks": 298
+    },
+    {
+      "slug": "microsoft-azure-mgmt-arizeaiobservabilityeval-dotnet",
+      "name": "microsoft/azure-mgmt-arizeaiobservabilityeval-dotnet",
+      "description": "Arize AI observability management",
+      "publisher": "microsoft",
+      "publisherSlug": "microsoft",
+      "sectionTitle": ".NET Skills",
+      "kind": "official",
+      "tags": [
+        "microsoft",
+        "namespaced",
+        "net-skills",
+        "official-skills",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
+      "creatorHandle": "microsoft",
+      "hasPublisherLogo": true,
+      "stars": 2620,
+      "forks": 298
+    },
+    {
+      "slug": "microsoft-azure-mgmt-botservice-dotnet",
+      "name": "microsoft/azure-mgmt-botservice-dotnet",
+      "description": "Bot Service provisioning via ARM",
+      "publisher": "microsoft",
+      "publisherSlug": "microsoft",
+      "sectionTitle": ".NET Skills",
+      "kind": "official",
+      "tags": [
+        "microsoft",
+        "namespaced",
+        "net-skills",
+        "official-skills",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
+      "creatorHandle": "microsoft",
+      "hasPublisherLogo": true,
+      "stars": 2620,
+      "forks": 298
+    },
+    {
+      "slug": "microsoft-azure-mgmt-fabric-dotnet",
+      "name": "microsoft/azure-mgmt-fabric-dotnet",
+      "description": "Microsoft Fabric capacity management",
+      "publisher": "microsoft",
+      "publisherSlug": "microsoft",
+      "sectionTitle": ".NET Skills",
+      "kind": "official",
+      "tags": [
+        "microsoft",
+        "namespaced",
+        "net-skills",
+        "official-skills",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
+      "creatorHandle": "microsoft",
+      "hasPublisherLogo": true,
+      "stars": 2620,
+      "forks": 298
+    },
+    {
+      "slug": "microsoft-azure-mgmt-mongodbatlas-dotnet",
+      "name": "microsoft/azure-mgmt-mongodbatlas-dotnet",
+      "description": "MongoDB Atlas as ARM resources",
+      "publisher": "microsoft",
+      "publisherSlug": "microsoft",
+      "sectionTitle": ".NET Skills",
+      "kind": "official",
+      "tags": [
+        "microsoft",
+        "namespaced",
+        "net-skills",
+        "official-skills",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
+      "creatorHandle": "microsoft",
+      "hasPublisherLogo": true,
+      "stars": 2620,
+      "forks": 298
+    },
     {
       "slug": "microsoft-azure-mgmt-weightsandbiases-dotnet",
       "name": "microsoft/azure-mgmt-weightsandbiases-dotnet",
@@ -6776,8 +8496,8 @@
       "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
       "creatorHandle": "coreyhaines31",
       "hasPublisherLogo": true,
-      "stars": 36932,
-      "forks": 5944
+      "stars": 39239,
+      "forks": 6261
     },
     {
       "slug": "coreyhaines31-ad-creative",
@@ -6821,8 +8541,8 @@
       "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
       "creatorHandle": "coreyhaines31",
       "hasPublisherLogo": true,
-      "stars": 36932,
-      "forks": 5944
+      "stars": 39239,
+      "forks": 6261
     },
     {
       "slug": "coreyhaines31-ai-seo",
@@ -6864,8 +8584,8 @@
       "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
       "creatorHandle": "coreyhaines31",
       "hasPublisherLogo": true,
-      "stars": 36932,
-      "forks": 5944
+      "stars": 39239,
+      "forks": 6261
     },
     {
       "slug": "coreyhaines31-analytics-tracking",
@@ -6903,1920 +8623,8 @@
       "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
       "creatorHandle": "coreyhaines31",
       "hasPublisherLogo": true,
-      "stars": 36932,
-      "forks": 5944
-    },
-    {
-      "slug": "coreyhaines31-churn-prevention",
-      "name": "coreyhaines31/churn-prevention",
-      "description": "Build cancellation flows, save offers, and recover failed payments",
-      "publisher": "coreyhaines31",
-      "publisherSlug": "coreyhaines31",
-      "sectionTitle": "Marketing Skills by Corey Haines",
-      "kind": "official",
-      "tags": [
-        "coreyhaines31",
-        "github-discovery",
-        "marketing-skills-by-corey-haines",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer",
-        "marketer"
-      ],
-      "jobs": [
-        "api-integration",
-        "campaign-planning",
-        "content-production",
-        "deployment-ops",
-        "development-workflows",
-        "landing-pages",
-        "reporting",
-        "research-synthesis",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "curated",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
-      "creatorHandle": "coreyhaines31",
-      "hasPublisherLogo": true,
-      "stars": 36932,
-      "forks": 5944
-    },
-    {
-      "slug": "coreyhaines31-cold-email",
-      "name": "coreyhaines31/cold-email",
-      "description": "Write B2B cold emails and follow-up sequences that convert",
-      "publisher": "coreyhaines31",
-      "publisherSlug": "coreyhaines31",
-      "sectionTitle": "Marketing Skills by Corey Haines",
-      "kind": "official",
-      "tags": [
-        "coreyhaines31",
-        "github-discovery",
-        "marketing-skills-by-corey-haines",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "marketer",
-        "sales"
-      ],
-      "jobs": [
-        "campaign-planning",
-        "content-production",
-        "development-workflows",
-        "document-authoring",
-        "landing-pages",
-        "prd-specs",
-        "presentation-building",
-        "reporting",
-        "research-synthesis",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "curated",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
-      "creatorHandle": "coreyhaines31",
-      "hasPublisherLogo": true,
-      "stars": 36932,
-      "forks": 5944
-    },
-    {
-      "slug": "coreyhaines31-competitor-alternatives",
-      "name": "coreyhaines31/competitor-alternatives",
-      "description": "Build competitor comparison and alternative landing pages for SEO",
-      "publisher": "coreyhaines31",
-      "publisherSlug": "coreyhaines31",
-      "sectionTitle": "Marketing Skills by Corey Haines",
-      "kind": "official",
-      "tags": [
-        "coreyhaines31",
-        "marketing-skills-by-corey-haines",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer",
-        "marketer"
-      ],
-      "jobs": [
-        "api-integration",
-        "campaign-planning",
-        "content-production",
-        "deployment-ops",
-        "development-workflows",
-        "landing-pages",
-        "reporting",
-        "research-synthesis",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "curated",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
-      "creatorHandle": "coreyhaines31",
-      "hasPublisherLogo": true,
-      "stars": 36932,
-      "forks": 5944
-    },
-    {
-      "slug": "coreyhaines31-content-strategy",
-      "name": "coreyhaines31/content-strategy",
-      "description": "Plan content strategy and decide what topics and formats to prioritize",
-      "publisher": "coreyhaines31",
-      "publisherSlug": "coreyhaines31",
-      "sectionTitle": "Marketing Skills by Corey Haines",
-      "kind": "official",
-      "tags": [
-        "coreyhaines31",
-        "github-discovery",
-        "marketing-skills-by-corey-haines",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer",
-        "founder",
-        "marketer",
-        "pm",
-        "support"
-      ],
-      "jobs": [
-        "api-integration",
-        "campaign-planning",
-        "content-production",
-        "data-extraction",
-        "deployment-ops",
-        "development-workflows",
-        "document-authoring",
-        "landing-pages",
-        "planning-roadmapping",
-        "prd-specs",
-        "reporting",
-        "research-synthesis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "curated",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
-      "creatorHandle": "coreyhaines31",
-      "hasPublisherLogo": true,
-      "stars": 36932,
-      "forks": 5944
-    },
-    {
-      "slug": "coreyhaines31-copy-editing",
-      "name": "coreyhaines31/copy-editing",
-      "description": "Edit and improve existing marketing copy for clarity and impact",
-      "publisher": "coreyhaines31",
-      "publisherSlug": "coreyhaines31",
-      "sectionTitle": "Marketing Skills by Corey Haines",
-      "kind": "official",
-      "tags": [
-        "coreyhaines31",
-        "github-discovery",
-        "marketing-skills-by-corey-haines",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "marketer"
-      ],
-      "jobs": [
-        "campaign-planning",
-        "content-production",
-        "document-authoring",
-        "landing-pages",
-        "reporting",
-        "research-synthesis"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "curated",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
-      "creatorHandle": "coreyhaines31",
-      "hasPublisherLogo": true,
-      "stars": 36932,
-      "forks": 5944
-    },
-    {
-      "slug": "coreyhaines31-copywriting",
-      "name": "coreyhaines31/copywriting",
-      "description": "Write and rewrite marketing copy for landing pages, homepages, and ads",
-      "publisher": "coreyhaines31",
-      "publisherSlug": "coreyhaines31",
-      "sectionTitle": "Marketing Skills by Corey Haines",
-      "kind": "official",
-      "tags": [
-        "coreyhaines31",
-        "github-discovery",
-        "marketing-skills-by-corey-haines",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer",
-        "founder",
-        "marketer",
-        "pm",
-        "sales"
-      ],
-      "jobs": [
-        "api-integration",
-        "campaign-planning",
-        "content-production",
-        "deployment-ops",
-        "development-workflows",
-        "document-authoring",
-        "landing-pages",
-        "planning-roadmapping",
-        "prd-specs",
-        "presentation-building",
-        "reporting",
-        "research-synthesis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "curated",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
-      "creatorHandle": "coreyhaines31",
-      "hasPublisherLogo": true,
-      "stars": 36932,
-      "forks": 5944
-    },
-    {
-      "slug": "coreyhaines31-email-sequence",
-      "name": "coreyhaines31/email-sequence",
-      "description": "Build email sequences, drip campaigns, and lifecycle email flows",
-      "publisher": "coreyhaines31",
-      "publisherSlug": "coreyhaines31",
-      "sectionTitle": "Marketing Skills by Corey Haines",
-      "kind": "official",
-      "tags": [
-        "coreyhaines31",
-        "marketing-skills-by-corey-haines",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer",
-        "marketer"
-      ],
-      "jobs": [
-        "api-integration",
-        "campaign-planning",
-        "content-production",
-        "deployment-ops",
-        "development-workflows",
-        "landing-pages",
-        "reporting",
-        "research-synthesis",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "curated",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
-      "creatorHandle": "coreyhaines31",
-      "hasPublisherLogo": true,
-      "stars": 36932,
-      "forks": 5944
-    },
-    {
-      "slug": "coreyhaines31-form-cro",
-      "name": "coreyhaines31/form-cro",
-      "description": "Optimize lead capture and contact forms to improve conversion",
-      "publisher": "coreyhaines31",
-      "publisherSlug": "coreyhaines31",
-      "sectionTitle": "Marketing Skills by Corey Haines",
-      "kind": "official",
-      "tags": [
-        "coreyhaines31",
-        "marketing-skills-by-corey-haines",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "marketer"
-      ],
-      "jobs": [
-        "campaign-planning",
-        "content-production",
-        "landing-pages",
-        "reporting",
-        "research-synthesis"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "curated",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
-      "creatorHandle": "coreyhaines31",
-      "hasPublisherLogo": true,
-      "stars": 36932,
-      "forks": 5944
-    },
-    {
-      "slug": "coreyhaines31-free-tool-strategy",
-      "name": "coreyhaines31/free-tool-strategy",
-      "description": "Plan and build free tools for lead generation and SEO value",
-      "publisher": "coreyhaines31",
-      "publisherSlug": "coreyhaines31",
-      "sectionTitle": "Marketing Skills by Corey Haines",
-      "kind": "official",
-      "tags": [
-        "coreyhaines31",
-        "marketing-skills-by-corey-haines",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer",
-        "founder",
-        "marketer"
-      ],
-      "jobs": [
-        "api-integration",
-        "campaign-planning",
-        "content-production",
-        "deployment-ops",
-        "development-workflows",
-        "landing-pages",
-        "planning-roadmapping",
-        "reporting",
-        "research-synthesis",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "curated",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
-      "creatorHandle": "coreyhaines31",
-      "hasPublisherLogo": true,
-      "stars": 36932,
-      "forks": 5944
-    },
-    {
-      "slug": "coreyhaines31-launch-strategy",
-      "name": "coreyhaines31/launch-strategy",
-      "description": "Plan product launches, feature announcements, and go-to-market strategies",
-      "publisher": "coreyhaines31",
-      "publisherSlug": "coreyhaines31",
-      "sectionTitle": "Marketing Skills by Corey Haines",
-      "kind": "official",
-      "tags": [
-        "coreyhaines31",
-        "marketing-skills-by-corey-haines",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "founder",
-        "marketer",
-        "pm"
-      ],
-      "jobs": [
-        "campaign-planning",
-        "content-production",
-        "landing-pages",
-        "planning-roadmapping",
-        "prd-specs",
-        "reporting",
-        "research-synthesis",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "curated",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
-      "creatorHandle": "coreyhaines31",
-      "hasPublisherLogo": true,
-      "stars": 36932,
-      "forks": 5944
-    },
-    {
-      "slug": "coreyhaines31-marketing-ideas",
-      "name": "coreyhaines31/marketing-ideas",
-      "description": "Generate marketing strategies and campaign ideas for SaaS products",
-      "publisher": "coreyhaines31",
-      "publisherSlug": "coreyhaines31",
-      "sectionTitle": "Marketing Skills by Corey Haines",
-      "kind": "official",
-      "tags": [
-        "coreyhaines31",
-        "github-discovery",
-        "marketing-skills-by-corey-haines",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer",
-        "marketer",
-        "pm"
-      ],
-      "jobs": [
-        "api-integration",
-        "campaign-planning",
-        "content-production",
-        "deployment-ops",
-        "development-workflows",
-        "landing-pages",
-        "planning-roadmapping",
-        "prd-specs",
-        "reporting",
-        "research-synthesis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "curated",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
-      "creatorHandle": "coreyhaines31",
-      "hasPublisherLogo": true,
-      "stars": 36932,
-      "forks": 5944
-    },
-    {
-      "slug": "coreyhaines31-marketing-psychology",
-      "name": "coreyhaines31/marketing-psychology",
-      "description": "Apply psychological principles and behavioral science to copy and design",
-      "publisher": "coreyhaines31",
-      "publisherSlug": "coreyhaines31",
-      "sectionTitle": "Marketing Skills by Corey Haines",
-      "kind": "official",
-      "tags": [
-        "coreyhaines31",
-        "github-discovery",
-        "marketing-skills-by-corey-haines",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "designer",
-        "engineer",
-        "founder",
-        "marketer",
-        "sales"
-      ],
-      "jobs": [
-        "api-integration",
-        "campaign-planning",
-        "content-production",
-        "deployment-ops",
-        "design-critique",
-        "development-workflows",
-        "document-authoring",
-        "landing-pages",
-        "planning-roadmapping",
-        "prd-specs",
-        "presentation-building",
-        "reporting",
-        "research-synthesis",
-        "testing-debugging",
-        "ui-ux-design",
-        "visual-assets",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "curated",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
-      "creatorHandle": "coreyhaines31",
-      "hasPublisherLogo": true,
-      "stars": 36932,
-      "forks": 5944
-    },
-    {
-      "slug": "coreyhaines31-onboarding-cro",
-      "name": "coreyhaines31/onboarding-cro",
-      "description": "Optimize post-signup onboarding and user activation to improve time-to-value",
-      "publisher": "coreyhaines31",
-      "publisherSlug": "coreyhaines31",
-      "sectionTitle": "Marketing Skills by Corey Haines",
-      "kind": "official",
-      "tags": [
-        "coreyhaines31",
-        "marketing-skills-by-corey-haines",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "marketer"
-      ],
-      "jobs": [
-        "campaign-planning",
-        "content-production",
-        "landing-pages",
-        "reporting",
-        "research-synthesis"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "curated",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
-      "creatorHandle": "coreyhaines31",
-      "hasPublisherLogo": true,
-      "stars": 36932,
-      "forks": 5944
-    },
-    {
-      "slug": "coreyhaines31-page-cro",
-      "name": "coreyhaines31/page-cro",
-      "description": "Improve conversion rates on any marketing page including homepages and landing pages",
-      "publisher": "coreyhaines31",
-      "publisherSlug": "coreyhaines31",
-      "sectionTitle": "Marketing Skills by Corey Haines",
-      "kind": "official",
-      "tags": [
-        "coreyhaines31",
-        "marketing-skills-by-corey-haines",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "marketer"
-      ],
-      "jobs": [
-        "campaign-planning",
-        "content-production",
-        "landing-pages",
-        "reporting",
-        "research-synthesis"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "curated",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
-      "creatorHandle": "coreyhaines31",
-      "hasPublisherLogo": true,
-      "stars": 36932,
-      "forks": 5944
-    },
-    {
-      "slug": "coreyhaines31-paid-ads",
-      "name": "coreyhaines31/paid-ads",
-      "description": "Create and optimize paid campaigns on Google, Meta, LinkedIn, and more",
-      "publisher": "coreyhaines31",
-      "publisherSlug": "coreyhaines31",
-      "sectionTitle": "Marketing Skills by Corey Haines",
-      "kind": "official",
-      "tags": [
-        "coreyhaines31",
-        "marketing-skills-by-corey-haines",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "marketer"
-      ],
-      "jobs": [
-        "campaign-planning",
-        "content-production",
-        "landing-pages",
-        "reporting",
-        "research-synthesis"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "curated",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
-      "creatorHandle": "coreyhaines31",
-      "hasPublisherLogo": true,
-      "stars": 36932,
-      "forks": 5944
-    },
-    {
-      "slug": "coreyhaines31-paywall-upgrade-cro",
-      "name": "coreyhaines31/paywall-upgrade-cro",
-      "description": "Design and optimize upgrade screens, paywalls, and upsell modals",
-      "publisher": "coreyhaines31",
-      "publisherSlug": "coreyhaines31",
-      "sectionTitle": "Marketing Skills by Corey Haines",
-      "kind": "official",
-      "tags": [
-        "coreyhaines31",
-        "marketing-skills-by-corey-haines",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "designer",
-        "marketer"
-      ],
-      "jobs": [
-        "campaign-planning",
-        "content-production",
-        "design-critique",
-        "landing-pages",
-        "presentation-building",
-        "reporting",
-        "research-synthesis",
-        "ui-ux-design",
-        "visual-assets",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "curated",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
-      "creatorHandle": "coreyhaines31",
-      "hasPublisherLogo": true,
-      "stars": 36932,
-      "forks": 5944
-    },
-    {
-      "slug": "coreyhaines31-popup-cro",
-      "name": "coreyhaines31/popup-cro",
-      "description": "Create and optimize popups, modals, and slide-ins for conversions",
-      "publisher": "coreyhaines31",
-      "publisherSlug": "coreyhaines31",
-      "sectionTitle": "Marketing Skills by Corey Haines",
-      "kind": "official",
-      "tags": [
-        "coreyhaines31",
-        "marketing-skills-by-corey-haines",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "marketer"
-      ],
-      "jobs": [
-        "campaign-planning",
-        "content-production",
-        "landing-pages",
-        "reporting",
-        "research-synthesis"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "curated",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
-      "creatorHandle": "coreyhaines31",
-      "hasPublisherLogo": true,
-      "stars": 36932,
-      "forks": 5944
-    },
-    {
-      "slug": "coreyhaines31-pricing-strategy",
-      "name": "coreyhaines31/pricing-strategy",
-      "description": "Define pricing, packaging, and monetization strategy for SaaS products",
-      "publisher": "coreyhaines31",
-      "publisherSlug": "coreyhaines31",
-      "sectionTitle": "Marketing Skills by Corey Haines",
-      "kind": "official",
-      "tags": [
-        "coreyhaines31",
-        "marketing-skills-by-corey-haines",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer",
-        "founder",
-        "marketer",
-        "sales"
-      ],
-      "jobs": [
-        "api-integration",
-        "campaign-planning",
-        "content-production",
-        "deployment-ops",
-        "development-workflows",
-        "document-authoring",
-        "landing-pages",
-        "planning-roadmapping",
-        "presentation-building",
-        "reporting",
-        "research-synthesis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "curated",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
-      "creatorHandle": "coreyhaines31",
-      "hasPublisherLogo": true,
-      "stars": 36932,
-      "forks": 5944
-    },
-    {
-      "slug": "coreyhaines31-product-marketing-context",
-      "name": "coreyhaines31/product-marketing-context",
-      "description": "Create and maintain a product marketing context document for consistent messaging",
-      "publisher": "coreyhaines31",
-      "publisherSlug": "coreyhaines31",
-      "sectionTitle": "Marketing Skills by Corey Haines",
-      "kind": "official",
-      "tags": [
-        "coreyhaines31",
-        "marketing-skills-by-corey-haines",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "marketer",
-        "pm"
-      ],
-      "jobs": [
-        "campaign-planning",
-        "content-production",
-        "document-authoring",
-        "landing-pages",
-        "planning-roadmapping",
-        "prd-specs",
-        "reporting",
-        "research-synthesis",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "curated",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
-      "creatorHandle": "coreyhaines31",
-      "hasPublisherLogo": true,
-      "stars": 36932,
-      "forks": 5944
-    },
-    {
-      "slug": "coreyhaines31-programmatic-seo",
-      "name": "coreyhaines31/programmatic-seo",
-      "description": "Build SEO-driven page templates for large-scale content generation",
-      "publisher": "coreyhaines31",
-      "publisherSlug": "coreyhaines31",
-      "sectionTitle": "Marketing Skills by Corey Haines",
-      "kind": "official",
-      "tags": [
-        "coreyhaines31",
-        "github-discovery",
-        "marketing-skills-by-corey-haines",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer",
-        "founder",
-        "marketer"
-      ],
-      "jobs": [
-        "api-integration",
-        "campaign-planning",
-        "content-production",
-        "deployment-ops",
-        "development-workflows",
-        "landing-pages",
-        "planning-roadmapping",
-        "reporting",
-        "research-synthesis",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "curated",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
-      "creatorHandle": "coreyhaines31",
-      "hasPublisherLogo": true,
-      "stars": 36932,
-      "forks": 5944
-    },
-    {
-      "slug": "coreyhaines31-referral-program",
-      "name": "coreyhaines31/referral-program",
-      "description": "Design and optimize referral, affiliate, and word-of-mouth programs",
-      "publisher": "coreyhaines31",
-      "publisherSlug": "coreyhaines31",
-      "sectionTitle": "Marketing Skills by Corey Haines",
-      "kind": "official",
-      "tags": [
-        "coreyhaines31",
-        "marketing-skills-by-corey-haines",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "designer",
-        "marketer"
-      ],
-      "jobs": [
-        "campaign-planning",
-        "content-production",
-        "design-critique",
-        "landing-pages",
-        "presentation-building",
-        "reporting",
-        "research-synthesis",
-        "ui-ux-design",
-        "visual-assets",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "curated",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
-      "creatorHandle": "coreyhaines31",
-      "hasPublisherLogo": true,
-      "stars": 36932,
-      "forks": 5944
-    },
-    {
-      "slug": "coreyhaines31-revops",
-      "name": "coreyhaines31/revops",
-      "description": "Streamline revenue operations, lead lifecycle, and marketing-to-sales handoff",
-      "publisher": "coreyhaines31",
-      "publisherSlug": "coreyhaines31",
-      "sectionTitle": "Marketing Skills by Corey Haines",
-      "kind": "official",
-      "tags": [
-        "coreyhaines31",
-        "github-discovery",
-        "marketing-skills-by-corey-haines",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "data-analyst",
-        "engineer",
-        "founder",
-        "marketer",
-        "sales"
-      ],
-      "jobs": [
-        "api-integration",
-        "campaign-planning",
-        "content-production",
-        "dashboarding",
-        "data-extraction",
-        "deployment-ops",
-        "development-workflows",
-        "document-authoring",
-        "landing-pages",
-        "planning-roadmapping",
-        "presentation-building",
-        "reporting",
-        "research-synthesis",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "curated",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
-      "creatorHandle": "coreyhaines31",
-      "hasPublisherLogo": true,
-      "stars": 36932,
-      "forks": 5944
-    },
-    {
-      "slug": "coreyhaines31-sales-enablement",
-      "name": "coreyhaines31/sales-enablement",
-      "description": "Create pitch decks, one-pagers, objection handling docs, and demo scripts",
-      "publisher": "coreyhaines31",
-      "publisherSlug": "coreyhaines31",
-      "sectionTitle": "Marketing Skills by Corey Haines",
-      "kind": "official",
-      "tags": [
-        "coreyhaines31",
-        "github-discovery",
-        "marketing-skills-by-corey-haines",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "data-analyst",
-        "engineer",
-        "founder",
-        "marketer",
-        "sales"
-      ],
-      "jobs": [
-        "api-integration",
-        "campaign-planning",
-        "content-production",
-        "dashboarding",
-        "data-extraction",
-        "deployment-ops",
-        "development-workflows",
-        "document-authoring",
-        "landing-pages",
-        "planning-roadmapping",
-        "prd-specs",
-        "presentation-building",
-        "reporting",
-        "research-synthesis",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "curated",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
-      "creatorHandle": "coreyhaines31",
-      "hasPublisherLogo": true,
-      "stars": 36932,
-      "forks": 5944
-    },
-    {
-      "slug": "coreyhaines31-schema-markup",
-      "name": "coreyhaines31/schema-markup",
-      "description": "Add and optimize schema markup and structured data for better SEO",
-      "publisher": "coreyhaines31",
-      "publisherSlug": "coreyhaines31",
-      "sectionTitle": "Marketing Skills by Corey Haines",
-      "kind": "official",
-      "tags": [
-        "coreyhaines31",
-        "marketing-skills-by-corey-haines",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "marketer"
-      ],
-      "jobs": [
-        "campaign-planning",
-        "content-production",
-        "landing-pages",
-        "reporting",
-        "research-synthesis"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "curated",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
-      "creatorHandle": "coreyhaines31",
-      "hasPublisherLogo": true,
-      "stars": 36932,
-      "forks": 5944
-    },
-    {
-      "slug": "coreyhaines31-seo-audit",
-      "name": "coreyhaines31/seo-audit",
-      "description": "Audit and diagnose technical and on-page SEO issues on a site",
-      "publisher": "coreyhaines31",
-      "publisherSlug": "coreyhaines31",
-      "sectionTitle": "Marketing Skills by Corey Haines",
-      "kind": "official",
-      "tags": [
-        "coreyhaines31",
-        "github-discovery",
-        "marketing-skills-by-corey-haines",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer",
-        "marketer"
-      ],
-      "jobs": [
-        "api-integration",
-        "campaign-planning",
-        "content-production",
-        "deployment-ops",
-        "development-workflows",
-        "landing-pages",
-        "reporting",
-        "research-synthesis",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "curated",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
-      "creatorHandle": "coreyhaines31",
-      "hasPublisherLogo": true,
-      "stars": 36932,
-      "forks": 5944
-    },
-    {
-      "slug": "coreyhaines31-signup-flow-cro",
-      "name": "coreyhaines31/signup-flow-cro",
-      "description": "Optimize signup, registration, and trial activation flows for higher conversion",
-      "publisher": "coreyhaines31",
-      "publisherSlug": "coreyhaines31",
-      "sectionTitle": "Marketing Skills by Corey Haines",
-      "kind": "official",
-      "tags": [
-        "coreyhaines31",
-        "marketing-skills-by-corey-haines",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "marketer"
-      ],
-      "jobs": [
-        "campaign-planning",
-        "content-production",
-        "landing-pages",
-        "reporting",
-        "research-synthesis"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "curated",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
-      "creatorHandle": "coreyhaines31",
-      "hasPublisherLogo": true,
-      "stars": 36932,
-      "forks": 5944
-    },
-    {
-      "slug": "coreyhaines31-site-architecture",
-      "name": "coreyhaines31/site-architecture",
-      "description": "Plan and restructure page hierarchy, navigation, and URL structure",
-      "publisher": "coreyhaines31",
-      "publisherSlug": "coreyhaines31",
-      "sectionTitle": "Marketing Skills by Corey Haines",
-      "kind": "official",
-      "tags": [
-        "coreyhaines31",
-        "github-discovery",
-        "marketing-skills-by-corey-haines",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "designer",
-        "founder",
-        "marketer"
-      ],
-      "jobs": [
-        "campaign-planning",
-        "content-production",
-        "design-critique",
-        "landing-pages",
-        "planning-roadmapping",
-        "presentation-building",
-        "reporting",
-        "research-synthesis",
-        "ui-ux-design",
-        "visual-assets",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "curated",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
-      "creatorHandle": "coreyhaines31",
-      "hasPublisherLogo": true,
-      "stars": 36932,
-      "forks": 5944
-    },
-    {
-      "slug": "coreyhaines31-social-content",
-      "name": "coreyhaines31/social-content",
-      "description": "Create and schedule social media content for LinkedIn, Twitter/X, and Instagram",
-      "publisher": "coreyhaines31",
-      "publisherSlug": "coreyhaines31",
-      "sectionTitle": "Marketing Skills by Corey Haines",
-      "kind": "official",
-      "tags": [
-        "coreyhaines31",
-        "marketing-skills-by-corey-haines",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer",
-        "marketer"
-      ],
-      "jobs": [
-        "api-integration",
-        "campaign-planning",
-        "content-production",
-        "deployment-ops",
-        "development-workflows",
-        "landing-pages",
-        "reporting",
-        "research-synthesis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "curated",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
-      "creatorHandle": "coreyhaines31",
-      "hasPublisherLogo": true,
-      "stars": 36932,
-      "forks": 5944
-    },
-    {
-      "slug": "realkimbarrett-avatar-extraction",
-      "name": "realkimbarrett/avatar-extraction",
-      "description": "Define exactly who the buyer is, what they want, what they've tried, and what's driving their decisions",
-      "publisher": "realkimbarrett",
-      "publisherSlug": "realkimbarrett",
-      "sectionTitle": "Advertising Skills by Kim Barrett",
-      "kind": "official",
-      "tags": [
-        "advertising-skills-by-kim-barrett",
-        "namespaced",
-        "publisher-namespaced",
-        "realkimbarrett"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "curated",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/realkimbarrett.png?size=88",
-      "creatorHandle": "realkimbarrett",
-      "hasPublisherLogo": true,
-      "stars": 683,
-      "forks": 56
-    },
-    {
-      "slug": "realkimbarrett-offer-extraction",
-      "name": "realkimbarrett/offer-extraction",
-      "description": "Turn a product or service into a compelling, high-converting offer",
-      "publisher": "realkimbarrett",
-      "publisherSlug": "realkimbarrett",
-      "sectionTitle": "Advertising Skills by Kim Barrett",
-      "kind": "official",
-      "tags": [
-        "advertising-skills-by-kim-barrett",
-        "namespaced",
-        "publisher-namespaced",
-        "realkimbarrett"
-      ],
-      "personas": [
-        "pm"
-      ],
-      "jobs": [
-        "api-integration",
-        "planning-roadmapping",
-        "prd-specs",
-        "reporting",
-        "research-synthesis",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "curated",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/realkimbarrett.png?size=88",
-      "creatorHandle": "realkimbarrett",
-      "hasPublisherLogo": true,
-      "stars": 683,
-      "forks": 56
-    },
-    {
-      "slug": "realkimbarrett-schwartz-awareness-mapper",
-      "name": "realkimbarrett/schwartz-awareness-mapper",
-      "description": "Determine audience awareness level and the correct messaging approach",
-      "publisher": "realkimbarrett",
-      "publisherSlug": "realkimbarrett",
-      "sectionTitle": "Advertising Skills by Kim Barrett",
-      "kind": "official",
-      "tags": [
-        "advertising-skills-by-kim-barrett",
-        "namespaced",
-        "publisher-namespaced",
-        "realkimbarrett"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-readme",
-      "trustLevel": "curated",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/realkimbarrett.png?size=88",
-      "creatorHandle": "realkimbarrett",
-      "hasPublisherLogo": true,
-      "stars": 683,
-      "forks": 56
-    },
-    {
-      "slug": "realkimbarrett-mechanism-builder",
-      "name": "realkimbarrett/mechanism-builder",
-      "description": "Explain why your solution works and others failed with a unique mechanism",
-      "publisher": "realkimbarrett",
-      "publisherSlug": "realkimbarrett",
-      "sectionTitle": "Advertising Skills by Kim Barrett",
-      "kind": "official",
-      "tags": [
-        "advertising-skills-by-kim-barrett",
-        "namespaced",
-        "publisher-namespaced",
-        "realkimbarrett"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "curated",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/realkimbarrett.png?size=88",
-      "creatorHandle": "realkimbarrett",
-      "hasPublisherLogo": true,
-      "stars": 683,
-      "forks": 56
-    },
-    {
-      "slug": "realkimbarrett-headline-matrix",
-      "name": "realkimbarrett/headline-matrix",
-      "description": "Generate high-performing headline variations across different angles",
-      "publisher": "realkimbarrett",
-      "publisherSlug": "realkimbarrett",
-      "sectionTitle": "Advertising Skills by Kim Barrett",
-      "kind": "official",
-      "tags": [
-        "advertising-skills-by-kim-barrett",
-        "namespaced",
-        "publisher-namespaced",
-        "realkimbarrett"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-readme",
-      "trustLevel": "curated",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/realkimbarrett.png?size=88",
-      "creatorHandle": "realkimbarrett",
-      "hasPublisherLogo": true,
-      "stars": 683,
-      "forks": 56
-    },
-    {
-      "slug": "realkimbarrett-objection-crusher",
-      "name": "realkimbarrett/objection-crusher",
-      "description": "Identify and neutralize buyer objections and hesitation",
-      "publisher": "realkimbarrett",
-      "publisherSlug": "realkimbarrett",
-      "sectionTitle": "Advertising Skills by Kim Barrett",
-      "kind": "official",
-      "tags": [
-        "advertising-skills-by-kim-barrett",
-        "namespaced",
-        "publisher-namespaced",
-        "realkimbarrett"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-readme",
-      "trustLevel": "curated",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/realkimbarrett.png?size=88",
-      "creatorHandle": "realkimbarrett",
-      "hasPublisherLogo": true,
-      "stars": 683,
-      "forks": 56
-    },
-    {
-      "slug": "realkimbarrett-ad-angle-multiplier",
-      "name": "realkimbarrett/ad-angle-multiplier",
-      "description": "Expand a core idea into multiple distinct ad angles for creative testing",
-      "publisher": "realkimbarrett",
-      "publisherSlug": "realkimbarrett",
-      "sectionTitle": "Advertising Skills by Kim Barrett",
-      "kind": "official",
-      "tags": [
-        "advertising-skills-by-kim-barrett",
-        "namespaced",
-        "publisher-namespaced",
-        "realkimbarrett"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "curated",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/realkimbarrett.png?size=88",
-      "creatorHandle": "realkimbarrett",
-      "hasPublisherLogo": true,
-      "stars": 683,
-      "forks": 56
-    },
-    {
-      "slug": "realkimbarrett-scroll-stopping-creative",
-      "name": "realkimbarrett/scroll-stopping-creative",
-      "description": "Create ad concepts that stop attention in the first 3 seconds",
-      "publisher": "realkimbarrett",
-      "publisherSlug": "realkimbarrett",
-      "sectionTitle": "Advertising Skills by Kim Barrett",
-      "kind": "official",
-      "tags": [
-        "advertising-skills-by-kim-barrett",
-        "namespaced",
-        "publisher-namespaced",
-        "realkimbarrett"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-readme",
-      "trustLevel": "curated",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/realkimbarrett.png?size=88",
-      "creatorHandle": "realkimbarrett",
-      "hasPublisherLogo": true,
-      "stars": 683,
-      "forks": 56
-    },
-    {
-      "slug": "realkimbarrett-conversion-path-builder",
-      "name": "realkimbarrett/conversion-path-builder",
-      "description": "Design the optimal funnel from click to conversion and booked calls",
-      "publisher": "realkimbarrett",
-      "publisherSlug": "realkimbarrett",
-      "sectionTitle": "Advertising Skills by Kim Barrett",
-      "kind": "official",
-      "tags": [
-        "advertising-skills-by-kim-barrett",
-        "namespaced",
-        "publisher-namespaced",
-        "realkimbarrett"
-      ],
-      "personas": [
-        "designer",
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "design-critique",
-        "development-workflows",
-        "landing-pages",
-        "presentation-building",
-        "testing-debugging",
-        "ui-ux-design",
-        "visual-assets",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "curated",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/realkimbarrett.png?size=88",
-      "creatorHandle": "realkimbarrett",
-      "hasPublisherLogo": true,
-      "stars": 683,
-      "forks": 56
-    },
-    {
-      "slug": "realkimbarrett-performance-diagnosis",
-      "name": "realkimbarrett/performance-diagnosis",
-      "description": "Diagnose why campaigns are underperforming — low conversion, high CPL, bad ads",
-      "publisher": "realkimbarrett",
-      "publisherSlug": "realkimbarrett",
-      "sectionTitle": "Advertising Skills by Kim Barrett",
-      "kind": "official",
-      "tags": [
-        "advertising-skills-by-kim-barrett",
-        "namespaced",
-        "publisher-namespaced",
-        "realkimbarrett"
-      ],
-      "personas": [
-        "marketer"
-      ],
-      "jobs": [
-        "campaign-planning",
-        "content-production",
-        "landing-pages",
-        "reporting",
-        "research-synthesis"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "curated",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/realkimbarrett.png?size=88",
-      "creatorHandle": "realkimbarrett",
-      "hasPublisherLogo": true,
-      "stars": 683,
-      "forks": 56
-    },
-    {
-      "slug": "realkimbarrett-full-funnel-campaign-orchestrator",
-      "name": "realkimbarrett/full-funnel-campaign-orchestrator",
-      "description": "Coordinate all skills to build a complete ads + funnel campaign end-to-end",
-      "publisher": "realkimbarrett",
-      "publisherSlug": "realkimbarrett",
-      "sectionTitle": "Advertising Skills by Kim Barrett",
-      "kind": "official",
-      "tags": [
-        "advertising-skills-by-kim-barrett",
-        "namespaced",
-        "publisher-namespaced",
-        "realkimbarrett"
-      ],
-      "personas": [
-        "engineer",
-        "marketer"
-      ],
-      "jobs": [
-        "api-integration",
-        "campaign-planning",
-        "content-production",
-        "deployment-ops",
-        "development-workflows",
-        "landing-pages",
-        "reporting",
-        "research-synthesis",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "curated",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/realkimbarrett.png?size=88",
-      "creatorHandle": "realkimbarrett",
-      "hasPublisherLogo": true,
-      "stars": 683,
-      "forks": 56
-    },
-    {
-      "slug": "realkimbarrett-generic-language-killer",
-      "name": "realkimbarrett/generic-language-killer",
-      "description": "Remove vague, corporate, or AI-sounding language and replace it with clear, specific, human wording",
-      "publisher": "realkimbarrett",
-      "publisherSlug": "realkimbarrett",
-      "sectionTitle": "Advertising Skills by Kim Barrett",
-      "kind": "official",
-      "tags": [
-        "advertising-skills-by-kim-barrett",
-        "namespaced",
-        "publisher-namespaced",
-        "realkimbarrett"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "prd-specs",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "curated",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/realkimbarrett.png?size=88",
-      "creatorHandle": "realkimbarrett",
-      "hasPublisherLogo": true,
-      "stars": 683,
-      "forks": 56
-    },
-    {
-      "slug": "binance-crypto-market-rank",
-      "name": "binance/crypto-market-rank",
-      "description": "Query crypto market rankings including trending tokens, smart money inflows, meme rankings, and top trader PnL leaderboards",
-      "publisher": "binance",
-      "publisherSlug": "binance",
-      "sectionTitle": "Skills by Binance",
-      "kind": "official",
-      "tags": [
-        "binance",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-binance"
-      ],
-      "personas": [
-        "data-analyst",
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "dashboarding",
-        "data-extraction",
-        "deployment-ops",
-        "development-workflows",
-        "reporting",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/binance.png?size=88",
-      "creatorHandle": "binance",
-      "hasPublisherLogo": true,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "binance-meme-rush",
-      "name": "binance/meme-rush",
-      "description": "Track real-time meme token lists from launchpads (Pump.fun, Four.meme) and AI-powered hot market topics ranked by net inflow",
-      "publisher": "binance",
-      "publisherSlug": "binance",
-      "sectionTitle": "Skills by Binance",
-      "kind": "official",
-      "tags": [
-        "binance",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-binance"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "campaign-planning",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/binance.png?size=88",
-      "creatorHandle": "binance",
-      "hasPublisherLogo": true,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "binance-query-address-info",
-      "name": "binance/query-address-info",
-      "description": "Retrieve all token holdings and portfolio positions for any wallet address on BSC, Base, or Solana",
-      "publisher": "binance",
-      "publisherSlug": "binance",
-      "sectionTitle": "Skills by Binance",
-      "kind": "official",
-      "tags": [
-        "binance",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-binance"
-      ],
-      "personas": [
-        "data-analyst",
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "dashboarding",
-        "data-extraction",
-        "deployment-ops",
-        "development-workflows",
-        "prd-specs",
-        "reporting",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/binance.png?size=88",
-      "creatorHandle": "binance",
-      "hasPublisherLogo": true,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "binance-query-token-audit",
-      "name": "binance/query-token-audit",
-      "description": "Audit token security to detect scams, honeypots, and malicious contracts across BSC, Base, Solana, and Ethereum",
-      "publisher": "binance",
-      "publisherSlug": "binance",
-      "sectionTitle": "Skills by Binance",
-      "kind": "official",
-      "tags": [
-        "binance",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-binance"
-      ],
-      "personas": [
-        "data-analyst",
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "dashboarding",
-        "data-extraction",
-        "deployment-ops",
-        "development-workflows",
-        "document-authoring",
-        "reporting",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/binance.png?size=88",
-      "creatorHandle": "binance",
-      "hasPublisherLogo": true,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "binance-query-token-info",
-      "name": "binance/query-token-info",
-      "description": "Search tokens and fetch metadata, real-time market data, and K-Line candlestick charts by keyword or contract address",
-      "publisher": "binance",
-      "publisherSlug": "binance",
-      "sectionTitle": "Skills by Binance",
-      "kind": "official",
-      "tags": [
-        "binance",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-binance"
-      ],
-      "personas": [
-        "data-analyst",
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "dashboarding",
-        "data-extraction",
-        "deployment-ops",
-        "development-workflows",
-        "document-authoring",
-        "reporting",
-        "research-synthesis",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/binance.png?size=88",
-      "creatorHandle": "binance",
-      "hasPublisherLogo": true,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "binance-trading-signal",
-      "name": "binance/trading-signal",
-      "description": "Monitor on-chain Smart Money buy/sell signals with price, max gain, and exit rate data on Solana and BSC",
-      "publisher": "binance",
-      "publisherSlug": "binance",
-      "sectionTitle": "Skills by Binance",
-      "kind": "official",
-      "tags": [
-        "binance",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-binance"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/binance.png?size=88",
-      "creatorHandle": "binance",
-      "hasPublisherLogo": true,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "binance-spot",
-      "name": "binance/spot",
-      "description": "Place and manage spot trading orders on Binance via API key authentication, supporting mainnet and testnet",
-      "publisher": "binance",
-      "publisherSlug": "binance",
-      "sectionTitle": "Skills by Binance",
-      "kind": "official",
-      "tags": [
-        "binance",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-binance"
-      ],
-      "personas": [
-        "data-analyst",
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "dashboarding",
-        "data-extraction",
-        "deployment-ops",
-        "development-workflows",
-        "reporting",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/binance.png?size=88",
-      "creatorHandle": "binance",
-      "hasPublisherLogo": true,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "apollographql-apollo-client",
-      "name": "apollographql/apollo-client",
-      "description": "Build React applications with Apollo Client 4",
-      "publisher": "apollographql",
-      "publisherSlug": "apollographql",
-      "sectionTitle": "Skills by Apollo GraphQL",
-      "kind": "official",
-      "tags": [
-        "apollographql",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-apollo-graphql"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/apollographql.png?size=88",
-      "creatorHandle": "apollographql",
-      "hasPublisherLogo": true,
-      "stars": 89,
-      "forks": 10
-    },
-    {
-      "slug": "apollographql-apollo-connectors",
-      "name": "apollographql/apollo-connectors",
-      "description": "Integrate REST APIs into GraphQL supergraphs using Apollo Connectors",
-      "publisher": "apollographql",
-      "publisherSlug": "apollographql",
-      "sectionTitle": "Skills by Apollo GraphQL",
-      "kind": "official",
-      "tags": [
-        "apollographql",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-apollo-graphql"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/apollographql.png?size=88",
-      "creatorHandle": "apollographql",
-      "hasPublisherLogo": true,
-      "stars": 89,
-      "forks": 10
-    },
-    {
-      "slug": "apollographql-apollo-federation",
-      "name": "apollographql/apollo-federation",
-      "description": "Write Apollo Federation 2 subgraph schemas and compose them into a supergraph",
-      "publisher": "apollographql",
-      "publisherSlug": "apollographql",
-      "sectionTitle": "Skills by Apollo GraphQL",
-      "kind": "official",
-      "tags": [
-        "apollographql",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-apollo-graphql"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/apollographql.png?size=88",
-      "creatorHandle": "apollographql",
-      "hasPublisherLogo": true,
-      "stars": 89,
-      "forks": 10
+      "stars": 39239,
+      "forks": 6261
     }
   ]
 }

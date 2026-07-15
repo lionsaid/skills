@@ -2,9 +2,9 @@
   "repository": "nexu-io/open-design",
   "branch": "main",
   "defaultBranch": "main",
-  "pushedAt": "2026-07-07T09:00:51Z",
-  "scannedAt": "2026-07-07T09:03:37.195Z",
-  "treeSha": "16eb3b4c4338e014063f4e676aa628716142c6f7",
+  "pushedAt": "2026-07-15T02:17:36Z",
+  "scannedAt": "2026-07-15T02:21:23.153Z",
+  "treeSha": "7533db3f4342d09b27368fa5d907ebd3cdb93b75",
   "items": [
     {
       "repository": "nexu-io/open-design",
@@ -15,7 +15,7 @@
       "description": "🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen & 20+ CLIs via BYOK.",
       "slug": "nexu-io-open-design-collection",
       "isCollection": true,
-      "stars": 75753,
+      "stars": 78204,
       "skillPaths": [
         "skills/8-bit-orbit-video-template/SKILL.md",
         "skills/ad-creative/SKILL.md",
@@ -34,6 +34,7 @@
         "skills/canvas-design/SKILL.md",
         "skills/card-twitter/SKILL.md",
         "skills/card-xiaohongshu/SKILL.md",
+        "skills/chat-motion-overlay/SKILL.md",
         "skills/color-expert/SKILL.md",
         "skills/competitive-ads-extractor/SKILL.md",
         "skills/copywriting/SKILL.md",
@@ -331,6 +332,15 @@
       "url": "https://github.com/nexu-io/open-design/blob/main/skills/card-xiaohongshu/SKILL.md",
       "description": "Xiaohongshu-style knowledge cards, arranged as a swipeable multi-card carousel.",
       "slug": "nexu-io-card-xiaohongshu"
+    },
+    {
+      "repository": "nexu-io/open-design",
+      "branch": "main",
+      "skillName": "chat-motion-overlay",
+      "path": "skills/chat-motion-overlay/SKILL.md",
+      "url": "https://github.com/nexu-io/open-design/blob/main/skills/chat-motion-overlay/SKILL.md",
+      "description": "Generate configurable chat motion overlays from a transcript or screenshot, including plain bubble scenes, app-style chat containers, optional device frames, preset or uploaded avatars, nickname display rules, and transparent-video-ready Remotion bundles. Use when Codex needs to create reusable short-form chat clips for Douyin, demo videos, story reenactments, social-message proof scenes, or embeddable alpha overlays for Hyperframe and Remotion workflows.",
+      "slug": "nexu-io-chat-motion-overlay"
     },
     {
       "repository": "nexu-io/open-design",
@@ -1620,7 +1630,6 @@
       "slug": "nexu-io-youtube-clipper"
     }
   ],
-  "itemCount": 161,
-  "publicSkillCount": 160,
-  "lastStatus": "scanned"
+  "itemCount": 162,
+  "lastStatus": "cache-fresh"
 }

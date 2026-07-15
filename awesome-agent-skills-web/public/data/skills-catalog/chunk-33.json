@@ -1,8 +1,1583 @@
 {
-  "generatedAt": "2026-07-07T09:11:26.306Z",
+  "generatedAt": "2026-07-15T02:39:29.986Z",
   "chunkIndex": 33,
-  "totalSkills": 8886,
+  "totalSkills": 8995,
   "skills": [
+    {
+      "slug": "cloudai-x-threejs-geometry",
+      "name": "CloudAI-X/threejs-geometry",
+      "description": "Three.js geometry creation - built-in shapes, BufferGeometry, custom geometry, instancing. Use when creating 3D shapes, working with vertices, building custom meshes, or optimizing with instanced rendering.",
+      "publisher": "CloudAI-X",
+      "publisherSlug": "cloudai-x",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "cloudai-x",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/CloudAI-X.png?size=88",
+      "creatorHandle": "CloudAI-X",
+      "hasPublisherLogo": false,
+      "stars": 2595,
+      "forks": 294
+    },
+    {
+      "slug": "cloudai-x-threejs-interaction",
+      "name": "CloudAI-X/threejs-interaction",
+      "description": "Three.js interaction - raycasting, controls, mouse/touch input, object selection. Use when handling user input, implementing click detection, adding camera controls, or creating interactive 3D experiences.",
+      "publisher": "CloudAI-X",
+      "publisherSlug": "cloudai-x",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "cloudai-x",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/CloudAI-X.png?size=88",
+      "creatorHandle": "CloudAI-X",
+      "hasPublisherLogo": false,
+      "stars": 2595,
+      "forks": 294
+    },
+    {
+      "slug": "cloudai-x-threejs-lighting",
+      "name": "CloudAI-X/threejs-lighting",
+      "description": "Three.js lighting - light types, shadows, environment lighting. Use when adding lights, configuring shadows, setting up IBL, or optimizing lighting performance.",
+      "publisher": "CloudAI-X",
+      "publisherSlug": "cloudai-x",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "cloudai-x",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/CloudAI-X.png?size=88",
+      "creatorHandle": "CloudAI-X",
+      "hasPublisherLogo": false,
+      "stars": 2595,
+      "forks": 294
+    },
+    {
+      "slug": "cloudai-x-threejs-loaders",
+      "name": "CloudAI-X/threejs-loaders",
+      "description": "Three.js asset loading - GLTF, textures, images, models, async patterns. Use when loading 3D models, textures, HDR environments, or managing loading progress.",
+      "publisher": "CloudAI-X",
+      "publisherSlug": "cloudai-x",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "cloudai-x",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [
+        "visual-assets"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/CloudAI-X.png?size=88",
+      "creatorHandle": "CloudAI-X",
+      "hasPublisherLogo": false,
+      "stars": 2595,
+      "forks": 294
+    },
+    {
+      "slug": "cloudai-x-threejs-materials",
+      "name": "CloudAI-X/threejs-materials",
+      "description": "Three.js materials - PBR, basic, phong, shader materials, material properties. Use when styling meshes, working with textures, creating custom shaders, or optimizing material performance.",
+      "publisher": "CloudAI-X",
+      "publisherSlug": "cloudai-x",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "cloudai-x",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/CloudAI-X.png?size=88",
+      "creatorHandle": "CloudAI-X",
+      "hasPublisherLogo": false,
+      "stars": 2595,
+      "forks": 294
+    },
+    {
+      "slug": "cloudai-x-threejs-postprocessing",
+      "name": "CloudAI-X/threejs-postprocessing",
+      "description": "Three.js post-processing - EffectComposer, bloom, DOF, screen effects. Use when adding visual effects, color grading, blur, glow, or creating custom screen-space shaders.",
+      "publisher": "CloudAI-X",
+      "publisherSlug": "cloudai-x",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "cloudai-x",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "designer"
+      ],
+      "jobs": [
+        "design-critique",
+        "presentation-building",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/CloudAI-X.png?size=88",
+      "creatorHandle": "CloudAI-X",
+      "hasPublisherLogo": false,
+      "stars": 2595,
+      "forks": 294
+    },
+    {
+      "slug": "cloudai-x-threejs-shaders",
+      "name": "CloudAI-X/threejs-shaders",
+      "description": "Three.js shaders - GLSL, ShaderMaterial, uniforms, custom effects. Use when creating custom visual effects, modifying vertices, writing fragment shaders, or extending built-in materials.",
+      "publisher": "CloudAI-X",
+      "publisherSlug": "cloudai-x",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "cloudai-x",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "designer"
+      ],
+      "jobs": [
+        "design-critique",
+        "document-authoring",
+        "presentation-building",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/CloudAI-X.png?size=88",
+      "creatorHandle": "CloudAI-X",
+      "hasPublisherLogo": false,
+      "stars": 2595,
+      "forks": 294
+    },
+    {
+      "slug": "cloudai-x-threejs-textures",
+      "name": "CloudAI-X/threejs-textures",
+      "description": "Three.js textures - texture types, UV mapping, environment maps, texture settings. Use when working with images, UV coordinates, cubemaps, HDR environments, or texture optimization.",
+      "publisher": "CloudAI-X",
+      "publisherSlug": "cloudai-x",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "cloudai-x",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [
+        "visual-assets"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/CloudAI-X.png?size=88",
+      "creatorHandle": "CloudAI-X",
+      "hasPublisherLogo": false,
+      "stars": 2595,
+      "forks": 294
+    },
+    {
+      "slug": "samber-cc-skills-golang-collection",
+      "name": "samber/cc-skills-golang",
+      "description": "🧑‍🎨 A collection of Golang agentic skills that works",
+      "publisher": "samber",
+      "publisherSlug": "samber",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "samber"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/samber.png?size=88",
+      "creatorHandle": "samber",
+      "hasPublisherLogo": false,
+      "stars": 2543,
+      "forks": 170
+    },
+    {
+      "slug": "samber-golang-benchmark",
+      "name": "samber/golang-benchmark",
+      "description": "Golang benchmarking, profiling, and performance measurement. Use when writing, running, or comparing Go benchmarks, profiling hot paths with pprof, interpreting CPU/memory/trace profiles, analyzing results with benchstat, setting up CI benchmark regression detection, or investigating production performance with Prometheus runtime metrics. Also use when the developer needs deep analysis on a specific performance indicator - this skill provides the measurement methodology, while `samber/cc-skills-golang@golang-performance` provides the optimization patterns.",
+      "publisher": "samber",
+      "publisherSlug": "samber",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "samber"
+      ],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "prd-specs",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/samber.png?size=88",
+      "creatorHandle": "samber",
+      "hasPublisherLogo": false,
+      "stars": 2543,
+      "forks": 170
+    },
+    {
+      "slug": "samber-golang-cli",
+      "name": "samber/golang-cli",
+      "description": "Golang CLI application development. Use when building, modifying, or reviewing a Go CLI tool — especially for command structure, flag handling, configuration layering, version embedding, exit codes, I/O patterns, signal handling, shell completion, argument validation, and CLI unit testing. Also triggers when code uses cobra, viper, or urfave/cli. For cobra-specific APIs → See `samber/cc-skills-golang@golang-spf13-cobra` skill; for viper configuration layering → See `samber/cc-skills-golang@golang-spf13-viper` skill.",
+      "publisher": "samber",
+      "publisherSlug": "samber",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "samber"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "prd-specs",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/samber.png?size=88",
+      "creatorHandle": "samber",
+      "hasPublisherLogo": false,
+      "stars": 2543,
+      "forks": 170
+    },
+    {
+      "slug": "samber-golang-code-style",
+      "name": "samber/golang-code-style",
+      "description": "Golang code style conventions — line length and breaking, variable declarations, control flow clarity, when comments help vs hurt. Use when writing or reviewing Go code, asking about style or clarity, or establishing project coding standards. Not for naming conventions (→ See `samber/cc-skills-golang@golang-naming` skill), linter configuration (→ See `samber/cc-skills-golang@golang-lint` skill), or doc comments (→ See `samber/cc-skills-golang@golang-documentation` skill).",
+      "publisher": "samber",
+      "publisherSlug": "samber",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "samber"
+      ],
+      "personas": [
+        "engineer",
+        "support"
+      ],
+      "jobs": [
+        "api-integration",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "reporting",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/samber.png?size=88",
+      "creatorHandle": "samber",
+      "hasPublisherLogo": false,
+      "stars": 2543,
+      "forks": 170
+    },
+    {
+      "slug": "samber-golang-concurrency",
+      "name": "samber/golang-concurrency",
+      "description": "Golang concurrency patterns. Use when writing or reviewing concurrent Go code involving goroutines, channels, select, locks, sync primitives, errgroup, singleflight, worker pools, or fan-out/fan-in pipelines. Also triggers when you detect goroutine leaks, race conditions, channel ownership issues, or need to choose between channels and mutexes.",
+      "publisher": "samber",
+      "publisherSlug": "samber",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "samber"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/samber.png?size=88",
+      "creatorHandle": "samber",
+      "hasPublisherLogo": false,
+      "stars": 2543,
+      "forks": 170
+    },
+    {
+      "slug": "samber-golang-context",
+      "name": "samber/golang-context",
+      "description": "Idiomatic context.Context usage in Golang — propagation through API boundaries, cancellation, timeouts and deadlines, request-scoped values, context.WithoutCancel for background work outliving requests. Apply when designing context propagation across layers, debugging leaked or unexpired contexts, choosing between context.Background/TODO/WithoutCancel, or storing values in context. Not for code that merely accepts ctx as first parameter.",
+      "publisher": "samber",
+      "publisherSlug": "samber",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "samber"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/samber.png?size=88",
+      "creatorHandle": "samber",
+      "hasPublisherLogo": false,
+      "stars": 2543,
+      "forks": 170
+    },
+    {
+      "slug": "samber-golang-continuous-integration",
+      "name": "samber/golang-continuous-integration",
+      "description": "CI/CD pipeline configuration using GitHub Actions for Golang projects — testing, linting, SAST, security scanning, code coverage, Dependabot, Renovate, GoReleaser, code review automation, and release pipelines. Use when setting up or improving Go project CI, configuring GitHub Actions workflows, adding linters or security scanners, automating dependency updates, or adding quality gates.",
+      "publisher": "samber",
+      "publisherSlug": "samber",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "samber"
+      ],
+      "personas": [
+        "engineer",
+        "sales"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "presentation-building",
+        "reporting",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/samber.png?size=88",
+      "creatorHandle": "samber",
+      "hasPublisherLogo": false,
+      "stars": 2543,
+      "forks": 170
+    },
+    {
+      "slug": "samber-golang-data-structures",
+      "name": "samber/golang-data-structures",
+      "description": "Golang data structures — slices (internals, capacity growth, preallocation, slices package), maps (internals, hash buckets, maps package), arrays, container/list/heap/ring, strings.Builder vs bytes.Buffer, generic collections, pointers (unsafe.Pointer, weak.Pointer), and copy semantics. Use when choosing or optimizing Go data structures, implementing generic containers, using container/ packages, unsafe or weak pointers, or questioning slice/map internals.",
+      "publisher": "samber",
+      "publisherSlug": "samber",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "samber"
+      ],
+      "personas": [
+        "engineer",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/samber.png?size=88",
+      "creatorHandle": "samber",
+      "hasPublisherLogo": false,
+      "stars": 2543,
+      "forks": 170
+    },
+    {
+      "slug": "samber-golang-database",
+      "name": "samber/golang-database",
+      "description": "Comprehensive guide for Go database access — parameterized queries, struct scanning, NULLable columns, transactions, isolation levels, SELECT FOR UPDATE, connection pool, batch processing, context propagation, and migration tooling. Use when writing, reviewing, or debugging Golang code that interacts with PostgreSQL, MariaDB, MySQL, or SQLite; for database testing; or for questions about database/sql, sqlx, or pgx. Does NOT generate database schemas or migration SQL.",
+      "publisher": "samber",
+      "publisherSlug": "samber",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "samber"
+      ],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/samber.png?size=88",
+      "creatorHandle": "samber",
+      "hasPublisherLogo": false,
+      "stars": 2543,
+      "forks": 170
+    },
+    {
+      "slug": "samber-golang-dependency-injection",
+      "name": "samber/golang-dependency-injection",
+      "description": "Comprehensive guide for dependency injection (DI) in Golang. Covers why DI matters (testability, loose coupling, separation of concerns, lifecycle management), manual constructor injection, and DI library comparison (google/wire, uber-go/dig, uber-go/fx, samber/do). Use this skill when designing service architecture, setting up dependency injection, refactoring tightly coupled code, managing singletons or service factories, or when the user asks about inversion of control, service containers, or wiring dependencies in Go. For a specific DI library, → See `samber/cc-skills-golang@golang-google-wire`, `samber/cc-skills-golang@golang-uber-dig`, `samber/cc-skills-golang@golang-uber-fx`, or `samber/cc-skills-golang@golang-samber-do` skills.",
+      "publisher": "samber",
+      "publisherSlug": "samber",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "samber"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "prd-specs",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/samber.png?size=88",
+      "creatorHandle": "samber",
+      "hasPublisherLogo": false,
+      "stars": 2543,
+      "forks": 170
+    },
+    {
+      "slug": "samber-golang-dependency-management",
+      "name": "samber/golang-dependency-management",
+      "description": "Dependency management strategies for Golang projects — go.mod management, installing/upgrading packages, Minimal Version Selection, vulnerability scanning, outdated dependency tracking, binary size analysis, Dependabot/Renovate setup, conflict resolution, and go.work workspaces. Use when adding, removing, or upgrading Go dependencies, auditing vulnerabilities, resolving version conflicts, or setting up automated dependency updates.",
+      "publisher": "samber",
+      "publisherSlug": "samber",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "samber"
+      ],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/samber.png?size=88",
+      "creatorHandle": "samber",
+      "hasPublisherLogo": false,
+      "stars": 2543,
+      "forks": 170
+    },
+    {
+      "slug": "samber-golang-design-patterns",
+      "name": "samber/golang-design-patterns",
+      "description": "Idiomatic Golang design patterns — functional options, constructors, error flow and cascading, resource management and lifecycle, graceful shutdown, resilience, architecture, dependency injection, data handling, streaming, and more. Apply when explicitly choosing between architectural patterns, implementing functional options, designing constructor APIs, setting up graceful shutdown, applying resilience patterns, or asking which idiomatic Go pattern fits a specific problem.",
+      "publisher": "samber",
+      "publisherSlug": "samber",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "samber"
+      ],
+      "personas": [
+        "designer",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "design-critique",
+        "development-workflows",
+        "prd-specs",
+        "presentation-building",
+        "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/samber.png?size=88",
+      "creatorHandle": "samber",
+      "hasPublisherLogo": false,
+      "stars": 2543,
+      "forks": 170
+    },
+    {
+      "slug": "samber-golang-documentation",
+      "name": "samber/golang-documentation",
+      "description": "Comprehensive documentation guide for Golang projects, covering godoc comments, README, CONTRIBUTING, CHANGELOG, Go Playground, Example tests, API docs, and llms.txt. Use when writing or reviewing doc comments, documentation, adding code examples, setting up doc sites, or discussing documentation best practices. Triggers for both libraries and applications/CLIs.",
+      "publisher": "samber",
+      "publisherSlug": "samber",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "samber"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/samber.png?size=88",
+      "creatorHandle": "samber",
+      "hasPublisherLogo": false,
+      "stars": 2543,
+      "forks": 170
+    },
+    {
+      "slug": "samber-golang-error-handling",
+      "name": "samber/golang-error-handling",
+      "description": "Idiomatic Golang error handling — creation, wrapping with %w, errors.Is/As, errors.Join, custom error types, sentinel errors, panic/recover, the single handling rule, structured logging with slog, HTTP request logging middleware, and samber/oops for production errors. Built to make logs usable at scale with log aggregation 3rd-party tools. Apply when creating, wrapping, inspecting, or logging errors in Go code. For samber/oops specifics → See `samber/cc-skills-golang@golang-samber-oops` skill; for slog handler ecosystem → See `samber/cc-skills-golang@golang-samber-slog` skill.",
+      "publisher": "samber",
+      "publisherSlug": "samber",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "samber"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "prd-specs",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/samber.png?size=88",
+      "creatorHandle": "samber",
+      "hasPublisherLogo": false,
+      "stars": 2543,
+      "forks": 170
+    },
+    {
+      "slug": "samber-golang-google-wire",
+      "name": "samber/golang-google-wire",
+      "description": "Compile-time dependency injection in Golang using google/wire — wire.NewSet, wire.Build, wire.Bind (interface→concrete), wire.Struct, wire.Value, wire.InterfaceValue, wire.FieldsOf, cleanup functions, //go:build wireinject injector files, and generated wire_gen.go. Apply when using or adopting google/wire, when the codebase imports `github.com/google/wire`, or when wiring an application graph at compile time via `wire.Build`. For runtime DI with reflection, see `samber/cc-skills-golang@golang-uber-dig` skill.",
+      "publisher": "samber",
+      "publisherSlug": "samber",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "samber"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/samber.png?size=88",
+      "creatorHandle": "samber",
+      "hasPublisherLogo": false,
+      "stars": 2543,
+      "forks": 170
+    },
+    {
+      "slug": "samber-golang-gopls",
+      "name": "samber/golang-gopls",
+      "description": "Golang semantic code intelligence via `gopls`, the official Go language server — go-to-definition, find references, call/implementation hierarchy, workspace symbol search, package API discovery, diagnostics, safe rename, refactors (extract/inline/fill/rewrite code actions), formatting, and generated tests. Reaches an agent via gopls's own MCP server (`go_*` tools), Claude Code's native `LSP` tool, or the `gopls` CLI. Use when navigating or refactoring Go code — jumping to a definition, finding call sites before a rename, understanding a file's or package's dependencies, running diagnostics after an edit, or extracting/inlining/renaming. Not for the published ecosystem — packages not in your `go.mod`, versions, licenses, importers — → See `samber/cc-skills-golang@golang-pkg-go-dev` skill (`godig`). Not for a whole-tree vulnerability audit → See `samber/cc-skills-golang@golang-security` sk",
+      "publisher": "samber",
+      "publisherSlug": "samber",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "samber"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/samber.png?size=88",
+      "creatorHandle": "samber",
+      "hasPublisherLogo": false,
+      "stars": 2543,
+      "forks": 170
+    },
+    {
+      "slug": "samber-golang-graphql",
+      "name": "samber/golang-graphql",
+      "description": "Implements GraphQL APIs in Golang using gqlgen or graphql-go. Apply when building GraphQL servers, designing schemas, writing resolvers, handling subscriptions, or integrating GraphQL with existing Go HTTP services. Also apply when the codebase imports `github.com/99designs/gqlgen` or `github.com/graph-gophers/graphql-go`.",
+      "publisher": "samber",
+      "publisherSlug": "samber",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "samber"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/samber.png?size=88",
+      "creatorHandle": "samber",
+      "hasPublisherLogo": false,
+      "stars": 2543,
+      "forks": 170
+    },
+    {
+      "slug": "samber-golang-grpc",
+      "name": "samber/golang-grpc",
+      "description": "Provides gRPC usage guidelines, protobuf organization, and production-ready patterns for Golang microservices. Use when implementing, reviewing, or debugging gRPC servers/clients, writing proto files, setting up interceptors, handling gRPC errors with status codes, configuring TLS/mTLS, testing with bufconn, or working with streaming RPCs.",
+      "publisher": "samber",
+      "publisherSlug": "samber",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "samber"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/samber.png?size=88",
+      "creatorHandle": "samber",
+      "hasPublisherLogo": false,
+      "stars": 2543,
+      "forks": 170
+    },
+    {
+      "slug": "samber-golang-how-to",
+      "name": "samber/golang-how-to",
+      "description": "Golang skills orchestrator — always active on any Golang coding, review, debug, or setup task. Reads the task context and loads the most relevant skills from samber/cc-skills-golang, often multiple at once: writing a gRPC service loads golang-grpc + golang-testing + golang-error-handling; debugging a panic loads golang-troubleshooting + golang-safety; auditing security loads golang-security + golang-lint + golang-safety. Also: disambiguates competing clusters when two skills seem to overlap (performance vs benchmark vs troubleshooting, samber/lo vs mo vs ro, DI cluster, safety vs security), and configures CLAUDE.md or AGENTS.md to force-trigger skills in a project (/golang-how-to configure).",
+      "publisher": "samber",
+      "publisherSlug": "samber",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "samber"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/samber.png?size=88",
+      "creatorHandle": "samber",
+      "hasPublisherLogo": false,
+      "stars": 2543,
+      "forks": 170
+    },
+    {
+      "slug": "samber-golang-lint",
+      "name": "samber/golang-lint",
+      "description": "Linting best practices and golangci-lint configuration for Golang projects — running linters, configuring .golangci.yml, suppressing warnings with nolint directives, interpreting lint output, and selecting linters. Use when configuring golangci-lint, asking about lint warnings or nolint suppressions, setting up code quality tooling, or choosing linters. Also use when the user mentions golangci-lint, go vet, staticcheck, or revive.",
+      "publisher": "samber",
+      "publisherSlug": "samber",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "samber"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/samber.png?size=88",
+      "creatorHandle": "samber",
+      "hasPublisherLogo": false,
+      "stars": 2543,
+      "forks": 170
+    },
+    {
+      "slug": "samber-golang-modernize",
+      "name": "samber/golang-modernize",
+      "description": "Modernize Golang code to use recent language features, standard library improvements, and idiomatic patterns. Trigger proactively when writing or reviewing Go code and old-style patterns are detected, or when encountering a deprecation warning. Also use when the user explicitly asks for modernization, a Go version upgrade, or a CI/tooling refresh.",
+      "publisher": "samber",
+      "publisherSlug": "samber",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "samber"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/samber.png?size=88",
+      "creatorHandle": "samber",
+      "hasPublisherLogo": false,
+      "stars": 2543,
+      "forks": 170
+    },
+    {
+      "slug": "samber-golang-naming",
+      "name": "samber/golang-naming",
+      "description": "Go (Golang) naming conventions — covers packages, constructors, structs, interfaces, constants, enums, errors, booleans, receivers, getters/setters, functional options, acronyms, test functions, and subtest names. Use this skill when writing new Go code, reviewing or refactoring, choosing between naming alternatives (New vs NewTypeName, isConnected vs connected, ErrNotFound vs NotFoundError, StatusReady vs StatusUnknown at iota 0), debating Go package names (utils/helpers anti-patterns), or asking about Go naming best practices. Also trigger when the user mentions MixedCaps vs snake_case, ALL_CAPS constants, Get-prefix on getters, or error string casing. Do NOT use for general Go implementation questions that don't involve naming decisions.",
+      "publisher": "samber",
+      "publisherSlug": "samber",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "samber"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/samber.png?size=88",
+      "creatorHandle": "samber",
+      "hasPublisherLogo": false,
+      "stars": 2543,
+      "forks": 170
+    },
+    {
+      "slug": "samber-golang-observability",
+      "name": "samber/golang-observability",
+      "description": "Golang everyday observability — the always-on signals in production. Covers structured logging with slog, Prometheus metrics, OpenTelemetry distributed tracing, continuous profiling with pprof/Pyroscope, server-side RUM event tracking, alerting, and Grafana dashboards. Apply when instrumenting Go services for production monitoring, setting up metrics or alerting, adding OpenTelemetry tracing, correlating logs with traces, migrating legacy loggers (zap/logrus/zerolog) to slog, adding observability to new features, or implementing GDPR/CCPA-compliant tracking with Customer Data Platforms (CDP). Not for temporary deep-dive performance investigation (→ See `samber/cc-skills-golang@golang-benchmark` and `samber/cc-skills-golang@golang-performance` skills).",
+      "publisher": "samber",
+      "publisherSlug": "samber",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "samber"
+      ],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/samber.png?size=88",
+      "creatorHandle": "samber",
+      "hasPublisherLogo": false,
+      "stars": 2543,
+      "forks": 170
+    },
+    {
+      "slug": "samber-golang-performance",
+      "name": "samber/golang-performance",
+      "description": "Golang performance optimization patterns and methodology - if X bottleneck, then apply Y. Covers allocation reduction, CPU efficiency, memory layout, GC tuning, pooling, caching, and hot-path optimization. Use when profiling or benchmarks have identified a bottleneck and you need the right optimization pattern to fix it. Also use when performing performance code review to suggest improvements or benchmarks that could help identify quick performance gains. Not for measurement methodology (→ See `samber/cc-skills-golang@golang-benchmark` skill) or debugging workflow (→ See `samber/cc-skills-golang@golang-troubleshooting` skill).",
+      "publisher": "samber",
+      "publisherSlug": "samber",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "samber"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/samber.png?size=88",
+      "creatorHandle": "samber",
+      "hasPublisherLogo": false,
+      "stars": 2543,
+      "forks": 170
+    },
+    {
+      "slug": "samber-golang-pkg-go-dev",
+      "name": "samber/golang-pkg-go-dev",
+      "description": "Golang package and module documentation and exploration via `godig`, a pkg.go.dev API client (CLI + MCP server) — package docs, API references, symbols, code examples, available versions, importers (who imports a package), licenses, and known vulnerabilities. Read-only, no auth. Use for looking up any Go/Golang library's documentation, API signatures, usage examples, which versions exist, whether a dependency has CVEs, or who imports a package — prefer this over Context7 for any Go package or module. Triggers on: how to use a Go library, Go API docs, import usage, code examples, pkg.go.dev. Not for upgrading dependencies (→ See `samber/cc-skills-golang@golang-dependency-management` skill) or choosing a library (→ See `samber/cc-skills-golang@golang-popular-libraries` skill).",
+      "publisher": "samber",
+      "publisherSlug": "samber",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "samber"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/samber.png?size=88",
+      "creatorHandle": "samber",
+      "hasPublisherLogo": false,
+      "stars": 2543,
+      "forks": 170
+    },
+    {
+      "slug": "samber-golang-popular-libraries",
+      "name": "samber/golang-popular-libraries",
+      "description": "Recommends production-ready Golang libraries and frameworks. Apply when the user explicitly asks for library suggestions, wants to compare alternatives, needs to choose a library for a specific task, or when a new dependency is being added to the project.",
+      "publisher": "samber",
+      "publisherSlug": "samber",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "samber"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "prd-specs",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/samber.png?size=88",
+      "creatorHandle": "samber",
+      "hasPublisherLogo": false,
+      "stars": 2543,
+      "forks": 170
+    },
+    {
+      "slug": "samber-golang-project-layout",
+      "name": "samber/golang-project-layout",
+      "description": "Provides a guide for setting up Golang project layouts and workspaces. Use when starting a new Go project, organizing an existing codebase, setting up a monorepo with multiple packages, creating CLI tools with multiple main packages, deciding between cmd/internal/pkg directory conventions, or discussing package restructuring, package splits, or module splits.",
+      "publisher": "samber",
+      "publisherSlug": "samber",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "samber"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/samber.png?size=88",
+      "creatorHandle": "samber",
+      "hasPublisherLogo": false,
+      "stars": 2543,
+      "forks": 170
+    },
+    {
+      "slug": "samber-golang-refactoring",
+      "name": "samber/golang-refactoring",
+      "description": "Golang refactoring — the safe, at-scale process for restructuring existing Go code: a coverage-adaptive safety net, tool-driven behavior-preserving transforms (gopls Rename/Inline/Extract, `gofmt -r`, `eg`, `gopatch`, `go/analysis` fixers), the Fowler catalog mapped to Go, breaking import cycles, moving types across packages, and a human-in-the-loop workflow of small stacked PRs on a refactoring branch. Apply when code is hard to maintain, a function/type has grown too large, a code smell needs fixing, adding a feature is blocked by the current structure, or the user asks to clean up, refactor, or improve Go code — also for renaming at scale, extracting functions/interfaces, moving code between packages, splitting packages, or planning a multi-step refactor. Target styles owned elsewhere → See `samber/cc-skills-golang@golang-naming` (renames), `@golang-project-layout` (splits), `@golang-",
+      "publisher": "samber",
+      "publisherSlug": "samber",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "samber"
+      ],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "planning-roadmapping",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/samber.png?size=88",
+      "creatorHandle": "samber",
+      "hasPublisherLogo": false,
+      "stars": 2543,
+      "forks": 170
+    },
+    {
+      "slug": "samber-golang-safety",
+      "name": "samber/golang-safety",
+      "description": "Defensive Golang coding to prevent panics, silent data corruption, and subtle runtime bugs. Use when encountering nil panics, append aliasing, map concurrent access, float comparison pitfalls, or zero-value design questions. Also use when reviewing code for nil-safety, numeric conversion overflow, resource lifecycle issues (defer in loops), or defensive copying of slices and maps.",
+      "publisher": "samber",
+      "publisherSlug": "samber",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "samber"
+      ],
+      "personas": [
+        "designer",
+        "engineer",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "design-critique",
+        "development-workflows",
+        "landing-pages",
+        "presentation-building",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/samber.png?size=88",
+      "creatorHandle": "samber",
+      "hasPublisherLogo": false,
+      "stars": 2543,
+      "forks": 170
+    },
+    {
+      "slug": "samber-golang-samber-do",
+      "name": "samber/golang-samber-do",
+      "description": "Dependency injection in Golang using samber/do — service containers, lifecycle management, scopes, health checks, graceful shutdown, and module organization. Apply when using or adopting samber/do, when the codebase imports github.com/samber/do or github.com/samber/do/v2, or when refactoring manual constructor injection into a DI container.",
+      "publisher": "samber",
+      "publisherSlug": "samber",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "samber"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/samber.png?size=88",
+      "creatorHandle": "samber",
+      "hasPublisherLogo": false,
+      "stars": 2543,
+      "forks": 170
+    },
+    {
+      "slug": "samber-golang-samber-hot",
+      "name": "samber/golang-samber-hot",
+      "description": "In-memory caching in Golang using samber/hot — eviction algorithms (LRU, LFU, TinyLFU, W-TinyLFU, S3FIFO, ARC, TwoQueue, SIEVE, FIFO), TTL, cache loaders, sharding, stale-while-revalidate, missing key caching, and Prometheus metrics. Apply when using or adopting samber/hot, when the codebase imports github.com/samber/hot, or when the project repeatedly loads the same medium-to-low cardinality resources at high frequency and needs to reduce latency or backend pressure.",
+      "publisher": "samber",
+      "publisherSlug": "samber",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "samber"
+      ],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/samber.png?size=88",
+      "creatorHandle": "samber",
+      "hasPublisherLogo": false,
+      "stars": 2543,
+      "forks": 170
+    },
+    {
+      "slug": "samber-golang-samber-lo",
+      "name": "samber/golang-samber-lo",
+      "description": "Functional programming helpers for Golang using samber/lo — 500+ type-safe generic functions for slices, maps, channels, strings, math, tuples, and concurrency (Map, Filter, Reduce, GroupBy, Chunk, Flatten, Find, Uniq, etc.). Core immutable package (lo), concurrent variants (lo/parallel aka lop), in-place mutations (lo/mutable aka lom), lazy iterators (lo/it aka loi for Go 1.23+), and experimental SIMD (lo/exp/simd). Apply when using or adopting samber/lo, when the codebase imports github.com/samber/lo, or when implementing functional-style data transformations in Go. Not for streaming pipelines (→ See `samber/cc-skills-golang@golang-samber-ro` skill).",
+      "publisher": "samber",
+      "publisherSlug": "samber",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "samber"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/samber.png?size=88",
+      "creatorHandle": "samber",
+      "hasPublisherLogo": false,
+      "stars": 2543,
+      "forks": 170
+    },
+    {
+      "slug": "samber-golang-samber-mo",
+      "name": "samber/golang-samber-mo",
+      "description": "Monadic types for Golang using samber/mo — Option, Result, Either, Future, IO, Task, and State types for type-safe nullable values, error handling, and functional composition with pipeline sub-packages. Apply when using or adopting samber/mo, when the codebase imports `github.com/samber/mo`, or when considering functional programming patterns as a safety design for Golang.",
+      "publisher": "samber",
+      "publisherSlug": "samber",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "samber"
+      ],
+      "personas": [
+        "designer",
+        "engineer",
+        "sales"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "design-critique",
+        "development-workflows",
+        "document-authoring",
+        "presentation-building",
+        "reporting",
+        "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/samber.png?size=88",
+      "creatorHandle": "samber",
+      "hasPublisherLogo": false,
+      "stars": 2543,
+      "forks": 170
+    },
+    {
+      "slug": "samber-golang-samber-oops",
+      "name": "samber/golang-samber-oops",
+      "description": "Structured error handling in Golang with samber/oops — error builders, stack traces, error codes, error context, error wrapping, error attributes, user-facing vs developer messages, panic recovery, and logger integration. Apply when using or adopting samber/oops, or when the codebase already imports github.com/samber/oops.",
+      "publisher": "samber",
+      "publisherSlug": "samber",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "samber"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/samber.png?size=88",
+      "creatorHandle": "samber",
+      "hasPublisherLogo": false,
+      "stars": 2543,
+      "forks": 170
+    },
     {
       "slug": "samber-golang-samber-ro",
       "name": "samber/golang-samber-ro",
@@ -37,8 +1612,8 @@
       "creatorAvatarUrl": "https://github.com/samber.png?size=88",
       "creatorHandle": "samber",
       "hasPublisherLogo": false,
-      "stars": 2434,
-      "forks": 156
+      "stars": 2543,
+      "forks": 170
     },
     {
       "slug": "samber-golang-samber-slog",
@@ -73,8 +1648,8 @@
       "creatorAvatarUrl": "https://github.com/samber.png?size=88",
       "creatorHandle": "samber",
       "hasPublisherLogo": false,
-      "stars": 2434,
-      "forks": 156
+      "stars": 2543,
+      "forks": 170
     },
     {
       "slug": "samber-golang-security",
@@ -116,8 +1691,8 @@
       "creatorAvatarUrl": "https://github.com/samber.png?size=88",
       "creatorHandle": "samber",
       "hasPublisherLogo": false,
-      "stars": 2434,
-      "forks": 156
+      "stars": 2543,
+      "forks": 170
     },
     {
       "slug": "samber-golang-spf13-cobra",
@@ -152,8 +1727,8 @@
       "creatorAvatarUrl": "https://github.com/samber.png?size=88",
       "creatorHandle": "samber",
       "hasPublisherLogo": false,
-      "stars": 2434,
-      "forks": 156
+      "stars": 2543,
+      "forks": 170
     },
     {
       "slug": "samber-golang-spf13-viper",
@@ -188,8 +1763,8 @@
       "creatorAvatarUrl": "https://github.com/samber.png?size=88",
       "creatorHandle": "samber",
       "hasPublisherLogo": false,
-      "stars": 2434,
-      "forks": 156
+      "stars": 2543,
+      "forks": 170
     },
     {
       "slug": "samber-golang-stay-updated",
@@ -216,8 +1791,8 @@
       "creatorAvatarUrl": "https://github.com/samber.png?size=88",
       "creatorHandle": "samber",
       "hasPublisherLogo": false,
-      "stars": 2434,
-      "forks": 156
+      "stars": 2543,
+      "forks": 170
     },
     {
       "slug": "samber-golang-stretchr-testify",
@@ -254,8 +1829,8 @@
       "creatorAvatarUrl": "https://github.com/samber.png?size=88",
       "creatorHandle": "samber",
       "hasPublisherLogo": false,
-      "stars": 2434,
-      "forks": 156
+      "stars": 2543,
+      "forks": 170
     },
     {
       "slug": "samber-golang-structs-interfaces",
@@ -291,8 +1866,8 @@
       "creatorAvatarUrl": "https://github.com/samber.png?size=88",
       "creatorHandle": "samber",
       "hasPublisherLogo": false,
-      "stars": 2434,
-      "forks": 156
+      "stars": 2543,
+      "forks": 170
     },
     {
       "slug": "samber-golang-swagger",
@@ -328,8 +1903,8 @@
       "creatorAvatarUrl": "https://github.com/samber.png?size=88",
       "creatorHandle": "samber",
       "hasPublisherLogo": false,
-      "stars": 2434,
-      "forks": 156
+      "stars": 2543,
+      "forks": 170
     },
     {
       "slug": "samber-golang-testing",
@@ -367,8 +1942,8 @@
       "creatorAvatarUrl": "https://github.com/samber.png?size=88",
       "creatorHandle": "samber",
       "hasPublisherLogo": false,
-      "stars": 2434,
-      "forks": 156
+      "stars": 2543,
+      "forks": 170
     },
     {
       "slug": "samber-golang-troubleshooting",
@@ -403,8 +1978,8 @@
       "creatorAvatarUrl": "https://github.com/samber.png?size=88",
       "creatorHandle": "samber",
       "hasPublisherLogo": false,
-      "stars": 2434,
-      "forks": 156
+      "stars": 2543,
+      "forks": 170
     },
     {
       "slug": "samber-golang-uber-dig",
@@ -439,8 +2014,8 @@
       "creatorAvatarUrl": "https://github.com/samber.png?size=88",
       "creatorHandle": "samber",
       "hasPublisherLogo": false,
-      "stars": 2434,
-      "forks": 156
+      "stars": 2543,
+      "forks": 170
     },
     {
       "slug": "samber-golang-uber-fx",
@@ -475,22 +2050,58 @@
       "creatorAvatarUrl": "https://github.com/samber.png?size=88",
       "creatorHandle": "samber",
       "hasPublisherLogo": false,
-      "stars": 2434,
-      "forks": 156
+      "stars": 2543,
+      "forks": 170
     },
     {
-      "slug": "runkids-skillshare",
-      "name": "runkids/skillshare",
-      "description": "|",
-      "publisher": "runkids",
-      "publisherSlug": "runkids",
+      "slug": "jeremylongshore-claude-code-plugins-plus-skills-collection",
+      "name": "jeremylongshore/claude-code-plugins-plus-skills",
+      "description": "425 plugins, 2,810 skills, 200 agents for Claude Code. Open-source marketplace at tonsofskills.com with the ccpi CLI package manager.",
+      "publisher": "jeremylongshore",
+      "publisherSlug": "jeremylongshore",
       "sectionTitle": "GitHub discovery",
       "kind": "community",
       "tags": [
         "github-discovery",
+        "jeremylongshore",
         "namespaced",
-        "publisher-namespaced",
-        "runkids"
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/jeremylongshore.png?size=88",
+      "creatorHandle": "jeremylongshore",
+      "hasPublisherLogo": false,
+      "stars": 2519,
+      "forks": 360
+    },
+    {
+      "slug": "addyosmani-web-quality-skills-collection",
+      "name": "addyosmani/web-quality-skills",
+      "description": "Agent Skills for optimizing web quality based on Lighthouse and Core Web Vitals.",
+      "publisher": "addyosmani",
+      "publisherSlug": "addyosmani",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "addyosmani",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
       ],
       "personas": [],
       "jobs": [],
@@ -500,253 +2111,11 @@
         "github-discovery",
         "requires-security-review"
       ],
-      "creatorAvatarUrl": "https://github.com/runkids.png?size=88",
-      "creatorHandle": "runkids",
+      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
+      "creatorHandle": "addyosmani",
       "hasPublisherLogo": false,
-      "stars": 2374,
-      "forks": 145
-    },
-    {
-      "slug": "aaron-he-zhu-aaron-marketing-skills-collection",
-      "name": "aaron-he-zhu/aaron-marketing-skills",
-      "description": "120 marketing skills + 8 commands for Claude Code & AI agents across 7 disciplines — SEO/GEO, influencer, paid ads, email, product launch, organic social & brand narrative — on one shared contract, with 8 auditor gates: CORE-EEAT · CITE · C³ · ROAS · SEND · RAMP · ECHO · TALE.",
-      "publisher": "aaron-he-zhu",
-      "publisherSlug": "aaron-he-zhu",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "aaron-he-zhu",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "designer",
-        "engineer",
-        "founder",
-        "marketer",
-        "pm"
-      ],
-      "jobs": [
-        "api-integration",
-        "campaign-planning",
-        "content-production",
-        "deployment-ops",
-        "design-critique",
-        "development-workflows",
-        "document-authoring",
-        "landing-pages",
-        "planning-roadmapping",
-        "prd-specs",
-        "presentation-building",
-        "reporting",
-        "research-synthesis",
-        "testing-debugging",
-        "ui-ux-design",
-        "visual-assets",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/aaron-he-zhu.png?size=88",
-      "creatorHandle": "aaron-he-zhu",
-      "hasPublisherLogo": false,
-      "stars": 2330,
-      "forks": 320
-    },
-    {
-      "slug": "supabase-agent-skills-collection",
-      "name": "supabase/agent-skills",
-      "description": "Agent Skills to help developers using AI agents with Supabase",
-      "publisher": "supabase",
-      "publisherSlug": "supabase",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced",
-        "supabase"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/supabase.png?size=88",
-      "creatorHandle": "supabase",
-      "hasPublisherLogo": true,
-      "stars": 2318,
-      "forks": 167
-    },
-    {
-      "slug": "supabase-supabase-postgres-best-practices",
-      "name": "supabase/supabase-postgres-best-practices",
-      "description": "Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimizing Postgres queries, schema designs, or database configurations.",
-      "publisher": "supabase",
-      "publisherSlug": "supabase",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "data",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced",
-        "supabase"
-      ],
-      "personas": [
-        "data-analyst",
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "dashboarding",
-        "data-extraction",
-        "deployment-ops",
-        "development-workflows",
-        "document-authoring",
-        "reporting",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/supabase.png?size=88",
-      "creatorHandle": "supabase",
-      "hasPublisherLogo": true,
-      "stars": 2318,
-      "forks": 167
-    },
-    {
-      "slug": "supabase-supabase",
-      "name": "supabase/supabase",
-      "description": "Use when doing ANY task involving Supabase. Triggers: Supabase products (Database, Auth, Edge Functions, Realtime, Storage, Vectors, Cron, Queues); client libraries and SSR integrations (supabase-js, @supabase/ssr) in Next.js, React, SvelteKit, Astro, Remix; auth issues (login, logout, sessions, JWT, cookies, getSession, getUser, getClaims, RLS); Supabase CLI or MCP server; schema changes, migrations, security audits, Postgres extensions (pg_graphql, pg_cron, pg_vector).",
-      "publisher": "supabase",
-      "publisherSlug": "supabase",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "data",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced",
-        "supabase"
-      ],
-      "personas": [
-        "data-analyst",
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "dashboarding",
-        "data-extraction",
-        "deployment-ops",
-        "development-workflows",
-        "reporting",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/supabase.png?size=88",
-      "creatorHandle": "supabase",
-      "hasPublisherLogo": true,
-      "stars": 2318,
-      "forks": 167
-    },
-    {
-      "slug": "hawk86104-three-vue-tres-collection",
-      "name": "hawk86104/three-vue-tres",
-      "description": "🎉一款让你的三维可视化项目快速落地的开源框架，天然具备良好的跨平台与🎊国产化适配能力 支持低代码编辑器、Web / 小程序 / App 全端部署，永久免费商用。 融合数字孪生、三维可视化（WebGL / WebGPU / three.js / tres.js / tvt.js），并扩展 AI 能力（Skills / OpenSpec），助力智能化场景快速构建 🚀",
-      "publisher": "hawk86104",
-      "publisherSlug": "hawk86104",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "hawk86104",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [
-        "prd-specs"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/hawk86104.png?size=88",
-      "creatorHandle": "hawk86104",
-      "hasPublisherLogo": false,
-      "stars": 2316,
-      "forks": 172
-    },
-    {
-      "slug": "hawk86104-tvt-js-plugin-builder",
-      "name": "hawk86104/tvt-js-plugin-builder",
-      "description": "理解并扩展 TvT.js / icegl-three-vue-tres 的插件体系。适用于 TvT.js 工作区中出现 新建插件、新建案例、src/plugins、public/plugins、config.js、预览元数据、tvtstore、FES_APP_PLSNAME、pluginMaker、PLS、qiankun、uniAppView、GoView 或 zone3Deditor 等场景。用它处理插件脚手架、页面或案例新增、preview 条目更新、插件 ZIP 打包安装、单插件预览或构建，以及 qiankun、uni-app、zone-editor 兼容约束。",
-      "publisher": "hawk86104",
-      "publisherSlug": "hawk86104",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "hawk86104",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/hawk86104.png?size=88",
-      "creatorHandle": "hawk86104",
-      "hasPublisherLogo": false,
-      "stars": 2316,
-      "forks": 172
+      "stars": 2501,
+      "forks": 229
     },
     {
       "slug": "nvidia-skills-collection",
@@ -773,8 +2142,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-accelerated-computing-cudf",
@@ -817,8 +2186,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-aiq-deploy",
@@ -853,8 +2222,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-aiq-research",
@@ -883,8 +2252,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-amc-run-sample-calibration",
@@ -924,8 +2293,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-amc-run-video-calibration",
@@ -960,8 +2329,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-amc-setup-calibration-stack",
@@ -1006,8 +2375,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-cudaq-guide",
@@ -1043,8 +2412,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-cufolio",
@@ -1080,8 +2449,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-cuopt-developer",
@@ -1117,8 +2486,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-cuopt-install",
@@ -1154,8 +2523,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-cuopt-multi-objective-exploration",
@@ -1182,44 +2551,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
-    },
-    {
-      "slug": "nvidia-cuopt-numerical-optimization-api-python",
-      "name": "NVIDIA/cuopt-numerical-optimization-api-python",
-      "description": "Solve LP, MILP, QP (beta) with cuOpt Python API — linear/quadratic objectives, integer variables, scheduling, portfolio, least squares.",
-      "publisher": "NVIDIA",
-      "publisherSlug": "nvidia",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nvidia",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
-      "creatorHandle": "NVIDIA",
-      "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-cuopt-numerical-optimization-api",
@@ -1254,8 +2587,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-cuopt-routing-api-python",
@@ -1291,8 +2624,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-cuopt-server-api-python",
@@ -1327,74 +2660,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
-    },
-    {
-      "slug": "nvidia-cuopt-server-common",
-      "name": "NVIDIA/cuopt-server-common",
-      "description": "cuOpt REST server — what it does and how requests flow. Domain concepts; no deploy or client code.",
-      "publisher": "NVIDIA",
-      "publisherSlug": "nvidia",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nvidia",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
-      "creatorHandle": "NVIDIA",
-      "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
-    },
-    {
-      "slug": "nvidia-cuopt-user-rules",
-      "name": "NVIDIA/cuopt-user-rules",
-      "description": "Base rules for end users calling NVIDIA cuOpt (routing/LP/MILP/QP/install/server). Not for cuOpt internals — use cuopt-developer for those.",
-      "publisher": "NVIDIA",
-      "publisherSlug": "nvidia",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nvidia",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [
-        "development-workflows"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
-      "creatorHandle": "NVIDIA",
-      "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-cupynumeric-hdf5",
@@ -1421,8 +2688,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-cupynumeric-install",
@@ -1463,8 +2730,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-cupynumeric-migration-readiness",
@@ -1510,8 +2777,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-cupynumeric-parallel-data-load",
@@ -1546,8 +2813,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-dali-dynamic-mode",
@@ -1586,8 +2853,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-data-designer",
@@ -1627,8 +2894,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-deepstream-dev",
@@ -1670,8 +2937,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-deepstream-generate-pipeline",
@@ -1717,8 +2984,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-deepstream-import-vision-model",
@@ -1745,8 +3012,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-deepstream-profile-pipeline",
@@ -1785,8 +3052,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-deepstream-sop",
@@ -1813,8 +3080,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-dicom-metadata-extract",
@@ -1843,8 +3110,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-dicom-series-preflight",
@@ -1873,8 +3140,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-dicom-series-to-volume",
@@ -1903,8 +3170,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-digital-health-clinical-asr-build",
@@ -1940,8 +3207,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-digital-health-clinical-asr-eval",
@@ -1968,8 +3235,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-digital-health-clinical-asr-finetune",
@@ -1996,8 +3263,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-digital-health-clinical-asr-setup",
@@ -2032,8 +3299,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-dynamo-interconnect-check",
@@ -2069,8 +3336,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-dynamo-recipe-runner",
@@ -2105,8 +3372,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-dynamo-router-starter",
@@ -2141,8 +3408,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-dynamo-troubleshoot",
@@ -2182,8 +3449,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-earth2studio-create-datasource",
@@ -2210,8 +3477,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-earth2studio-create-diagnostic",
@@ -2238,8 +3505,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-earth2studio-create-prognostic",
@@ -2266,8 +3533,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-earth2studio-data-fetch",
@@ -2294,8 +3561,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-earth2studio-deterministic-forecast",
@@ -2322,8 +3589,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-earth2studio-discover",
@@ -2350,8 +3617,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-earth2studio-install",
@@ -2378,8 +3645,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-holoscan-install-conda",
@@ -2414,8 +3681,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-holoscan-install-container",
@@ -2450,8 +3717,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-holoscan-install-debian",
@@ -2486,8 +3753,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-holoscan-install-source",
@@ -2523,8 +3790,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-holoscan-install-wheel",
@@ -2559,8 +3826,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-holoscan-setup",
@@ -2597,8 +3864,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-hsb-app",
@@ -2639,8 +3906,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-hsb-flash",
@@ -2676,8 +3943,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-hsb-setup",
@@ -2718,8 +3985,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-hsb-test",
@@ -2757,8 +4024,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-jetson-build-source",
@@ -2794,8 +4061,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-jetson-customize-camera",
@@ -2822,8 +4089,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-jetson-customize-clocks",
@@ -2850,8 +4117,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-jetson-customize-fan",
@@ -2878,8 +4145,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-jetson-customize-mgbe",
@@ -2906,8 +4173,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-jetson-customize-nvpmodel",
@@ -2934,8 +4201,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-jetson-customize-pcie",
@@ -2970,8 +4237,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-jetson-customize-pinmux",
@@ -3000,8 +4267,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-jetson-customize-uphy",
@@ -3037,8 +4304,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-jetson-customize-usb",
@@ -3065,8 +4332,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-jetson-derive-carrier",
@@ -3093,8 +4360,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-jetson-diagnostic",
@@ -3123,8 +4390,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-jetson-download-bsp",
@@ -3151,8 +4418,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-jetson-flash-image",
@@ -3182,8 +4449,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-jetson-generate-kb",
@@ -3210,8 +4477,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-jetson-headless-mode",
@@ -3240,8 +4507,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-jetson-inference-mem-tune",
@@ -3268,8 +4535,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-jetson-init-image",
@@ -3298,8 +4565,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-jetson-init-source",
@@ -3326,8 +4593,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-jetson-init-target",
@@ -3354,8 +4621,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-jetson-link-docs",
@@ -3382,8 +4649,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-jetson-llm-benchmark",
@@ -3410,8 +4677,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-jetson-llm-serve",
@@ -3438,8 +4705,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-jetson-memory-audit",
@@ -3466,8 +4733,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-jetson-optimize-memory",
@@ -3494,8 +4761,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-jetson-package",
@@ -3532,8 +4799,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-jetson-print-bsp-info",
@@ -3562,8 +4829,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-jetson-print-device-info",
@@ -3592,8 +4859,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-jetson-promote-image",
@@ -3622,8 +4889,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-jetson-quick-start",
@@ -3652,8 +4919,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-jetson-set-target",
@@ -3680,8 +4947,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-jetson-speculative-decoding",
@@ -3711,8 +4978,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-jetson-validate-image",
@@ -3741,8 +5008,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-launch-nemo-rl",
@@ -3782,8 +5049,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-mcore-create-issue",
@@ -3810,8 +5077,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-mcore-linting-and-formatting",
@@ -3846,8 +5113,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-mcore-run-on-slurm",
@@ -3883,8 +5150,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-mcore-split-pr",
@@ -3920,8 +5187,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-mcore-testing",
@@ -3956,8 +5223,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-nemo-automodel-distributed-training",
@@ -3986,8 +5253,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-nemo-automodel-launcher-config",
@@ -4016,8 +5283,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-nemo-automodel-model-onboarding",
@@ -4046,8 +5313,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-nemo-automodel-recipe-development",
@@ -4083,8 +5350,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-nemo-data-designer-plugin",
@@ -4124,8 +5391,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-nemo-evaluator-plugin",
@@ -4161,8 +5428,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-nemo-mbridge-mlm-bridge-training",
@@ -4197,8 +5464,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-nemo-mbridge-multi-node-slurm",
@@ -4233,8 +5500,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-nemo-mbridge-perf-activation-recompute",
@@ -4261,8 +5528,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-nemo-mbridge-perf-cpu-offloading",
@@ -4291,8 +5558,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-nemo-mbridge-perf-cuda-graphs",
@@ -4319,8 +5586,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-nemo-mbridge-perf-expert-parallel-overlap",
@@ -4349,8 +5616,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-nemo-mbridge-perf-hierarchical-context-parallel",
@@ -4386,8 +5653,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-nemo-mbridge-perf-megatron-fsdp",
@@ -4423,8 +5690,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-nemo-mbridge-perf-memory-tuning",
@@ -4459,8 +5726,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-nemo-mbridge-perf-moe-comm-overlap",
@@ -4489,8 +5756,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-nemo-mbridge-perf-moe-dispatcher-selection",
@@ -4517,8 +5784,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-nemo-mbridge-perf-moe-hardware-configs",
@@ -4545,8 +5812,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-nemo-mbridge-perf-moe-long-context",
@@ -4575,8 +5842,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-nemo-mbridge-perf-moe-optimization-workflow",
@@ -4610,8 +5877,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-nemo-mbridge-perf-moe-vlm-training",
@@ -4640,8 +5907,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-nemo-mbridge-perf-parallelism-strategies",
@@ -4670,8 +5937,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-nemo-mbridge-perf-sequence-packing",
@@ -4701,8 +5968,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-nemo-mbridge-perf-tp-dp-comm-overlap",
@@ -4738,8 +6005,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-nemo-mbridge-recipe-recommender",
@@ -4774,8 +6041,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-nemo-mbridge-resiliency",
@@ -4802,8 +6069,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-nemo-retriever",
@@ -4844,8 +6111,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-nemoclaw-user-guide",
@@ -4876,8 +6143,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-nemotron-customize",
@@ -4922,8 +6189,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-nemotron-policy-generator",
@@ -4964,8 +6231,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-nemotron-retrieval-recipes",
@@ -5001,8 +6268,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-nemotron-speech",
@@ -5038,8 +6305,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-nv-generate-ct-rflow",
@@ -5066,8 +6333,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-nv-generate-mr-brain-finetune",
@@ -5094,8 +6361,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-nv-generate-mr-brain",
@@ -5122,8 +6389,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-nv-generate-mr",
@@ -5150,8 +6417,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-nv-generate-vae-finetune",
@@ -5178,8 +6445,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-nv-reason-cxr",
@@ -5215,8 +6482,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-nv-segment-ct-finetune",
@@ -5243,8 +6510,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-nv-segment-ct",
@@ -5273,8 +6540,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-nv-segment-ctmr",
@@ -5303,8 +6570,36 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
+    },
+    {
+      "slug": "nvidia-nvidia-skill-finder",
+      "name": "NVIDIA/nvidia-skill-finder",
+      "description": ">-",
+      "publisher": "NVIDIA",
+      "publisherSlug": "nvidia",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "nvidia",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
+      "creatorHandle": "NVIDIA",
+      "hasPublisherLogo": true,
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-omniverse-cad-to-simready",
@@ -5346,8 +6641,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-omniverse-realtime-viewer",
@@ -5374,8 +6669,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-omniverse-usd-performance-tuning",
@@ -5404,8 +6699,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-physical-ai-defect-image-generation",
@@ -5434,8 +6729,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-physical-ai-infrastructure-setup-and-resilient-scaling",
@@ -5470,8 +6765,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-physical-ai-neural-reconstruction",
@@ -5507,8 +6802,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-physical-ai-people-attribute-search",
@@ -5537,8 +6832,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-physical-ai-video-data-augmentation",
@@ -5565,8 +6860,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-physicsnemo-discover",
@@ -5604,8 +6899,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-rag-blueprint",
@@ -5647,8 +6942,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-rag-eval",
@@ -5675,8 +6970,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-rag-perf",
@@ -5703,8 +6998,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-skill-card-generator",
@@ -5740,8 +7035,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-tao-analyze-changenet-rca",
@@ -5782,8 +7077,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-tao-analyze-gaps-visual-changenet",
@@ -5829,8 +7124,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-tao-analyze-gaps-vlm-bcq",
@@ -5859,8 +7154,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-tao-convert-dataset-format",
@@ -5887,8 +7182,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-tao-finetune-clip",
@@ -5917,8 +7212,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-tao-finetune-cosmos-embed",
@@ -5945,8 +7240,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-tao-finetune-cosmos-reason",
@@ -5975,8 +7270,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-tao-finetune-huggingface-model",
@@ -6003,8 +7298,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-tao-generate-image-grounding",
@@ -6039,8 +7334,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-tao-generate-referring-expressions",
@@ -6075,8 +7370,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-tao-generate-video-reasoning-annotations",
@@ -6103,8 +7398,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-tao-launch-workflow",
@@ -6139,8 +7434,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-tao-list-capabilities",
@@ -6167,8 +7462,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-tao-mine-aoi-images",
@@ -6209,8 +7504,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-tao-port-huggingface-model",
@@ -6237,8 +7532,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-tao-route-visual-changenet-samples",
@@ -6273,8 +7568,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-tao-run-automl-deft-pipeline",
@@ -6308,8 +7603,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-tao-run-automl",
@@ -6336,8 +7631,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-tao-run-deft-aoi",
@@ -6364,8 +7659,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-tao-run-inference-service",
@@ -6394,8 +7689,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-tao-run-on-brev",
@@ -6429,8 +7724,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-tao-run-on-kubernetes",
@@ -6457,36 +7752,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
-    },
-    {
-      "slug": "nvidia-tao-run-on-lepton",
-      "name": "NVIDIA/tao-run-on-lepton",
-      "description": "DGX Cloud Lepton managed GPU compute platform with run/status/cancel interface. Use when submitting TAO jobs",
-      "publisher": "NVIDIA",
-      "publisherSlug": "nvidia",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nvidia",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
-      "creatorHandle": "NVIDIA",
-      "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-tao-run-on-local-docker",
@@ -6521,8 +7788,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-tao-run-on-slurm",
@@ -6551,8 +7818,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-tao-run-platform",
@@ -6587,8 +7854,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-tao-setup-nvidia-gpu-host",
@@ -6615,8 +7882,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-tao-train-action-recognition",
@@ -6643,8 +7910,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-tao-train-bevfusion",
@@ -6673,8 +7940,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-tao-train-centerpose",
@@ -6701,8 +7968,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-tao-train-deformable-detr",
@@ -6737,8 +8004,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-tao-train-depth-anything-v2",
@@ -6765,8 +8032,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-tao-train-dino",
@@ -6793,8 +8060,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-tao-train-fast-foundation-stereo",
@@ -6829,8 +8096,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-tao-train-foundation-stereo",
@@ -6859,8 +8126,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     },
     {
       "slug": "nvidia-tao-train-grounding-dino",
@@ -6895,1193 +8162,8 @@
       "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
       "creatorHandle": "NVIDIA",
       "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
-    },
-    {
-      "slug": "nvidia-tao-train-image-classification",
-      "name": "NVIDIA/tao-train-image-classification",
-      "description": "PyTorch-based TAO image classification. Supports a wide range of backbones (FAN, EfficientNet, ResNet, etc.)",
-      "publisher": "NVIDIA",
-      "publisherSlug": "nvidia",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nvidia",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "visual-assets",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
-      "creatorHandle": "NVIDIA",
-      "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
-    },
-    {
-      "slug": "nvidia-tao-train-mask-auto-encoder",
-      "name": "NVIDIA/tao-train-mask-auto-encoder",
-      "description": "Masked Auto-Encoder (MAE) for self-supervised pretraining and fine-tuning. Masks random patches and reconstructs",
-      "publisher": "NVIDIA",
-      "publisherSlug": "nvidia",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nvidia",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
-      "creatorHandle": "NVIDIA",
-      "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
-    },
-    {
-      "slug": "nvidia-tao-train-mask-auto-label",
-      "name": "NVIDIA/tao-train-mask-auto-label",
-      "description": "MAL (Mask Auto-Label) for weakly-supervised segmentation. Produces segmentation masks from minimal annotations",
-      "publisher": "NVIDIA",
-      "publisherSlug": "nvidia",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nvidia",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
-      "creatorHandle": "NVIDIA",
-      "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
-    },
-    {
-      "slug": "nvidia-tao-train-mask-grounding-dino",
-      "name": "NVIDIA/tao-train-mask-grounding-dino",
-      "description": "Mask Grounding DINO for grounded instance segmentation. Extends Grounding DINO with a mask-prediction head for",
-      "publisher": "NVIDIA",
-      "publisherSlug": "nvidia",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nvidia",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
-      "creatorHandle": "NVIDIA",
-      "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
-    },
-    {
-      "slug": "nvidia-tao-train-mask2former",
-      "name": "NVIDIA/tao-train-mask2former",
-      "description": "Mask2Former for universal image segmentation (panoptic, instance, and semantic). Transformer-based with",
-      "publisher": "NVIDIA",
-      "publisherSlug": "nvidia",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nvidia",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [
-        "visual-assets"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
-      "creatorHandle": "NVIDIA",
-      "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
-    },
-    {
-      "slug": "nvidia-tao-train-metric-learning-recognition",
-      "name": "NVIDIA/tao-train-metric-learning-recognition",
-      "description": "Metric-learning recognition (ml-recog) for fine-grained visual recognition. Learns embeddings for",
-      "publisher": "NVIDIA",
-      "publisherSlug": "nvidia",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nvidia",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "designer"
-      ],
-      "jobs": [
-        "design-critique",
-        "presentation-building",
-        "ui-ux-design",
-        "visual-assets",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
-      "creatorHandle": "NVIDIA",
-      "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
-    },
-    {
-      "slug": "nvidia-tao-train-nvdinov2",
-      "name": "NVIDIA/tao-train-nvdinov2",
-      "description": "NVDINOv2 for self-supervised visual representation learning. Trains vision transformers via self-distillation",
-      "publisher": "NVIDIA",
-      "publisherSlug": "nvidia",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nvidia",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "designer"
-      ],
-      "jobs": [
-        "design-critique",
-        "presentation-building",
-        "ui-ux-design",
-        "visual-assets",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
-      "creatorHandle": "NVIDIA",
-      "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
-    },
-    {
-      "slug": "nvidia-tao-train-nvpanoptix3d",
-      "name": "NVIDIA/tao-train-nvpanoptix3d",
-      "description": "NVPanoptix3D for panoptic 3D scene reconstruction from posed RGB images. Produces 3D panoptic segmentation",
-      "publisher": "NVIDIA",
-      "publisherSlug": "nvidia",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nvidia",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [
-        "visual-assets"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
-      "creatorHandle": "NVIDIA",
-      "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
-    },
-    {
-      "slug": "nvidia-tao-train-ocdnet",
-      "name": "NVIDIA/tao-train-ocdnet",
-      "description": "OCDNet for scene text detection. Detects arbitrary-oriented text regions in natural images using a",
-      "publisher": "NVIDIA",
-      "publisherSlug": "nvidia",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nvidia",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [
-        "visual-assets"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
-      "creatorHandle": "NVIDIA",
-      "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
-    },
-    {
-      "slug": "nvidia-tao-train-ocrnet",
-      "name": "NVIDIA/tao-train-ocrnet",
-      "description": "OCRNet for scene text recognition. Recognizes text content from cropped text-region images and supports CTC",
-      "publisher": "NVIDIA",
-      "publisherSlug": "nvidia",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nvidia",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "marketer"
-      ],
-      "jobs": [
-        "campaign-planning",
-        "content-production",
-        "landing-pages",
-        "reporting",
-        "research-synthesis",
-        "visual-assets"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
-      "creatorHandle": "NVIDIA",
-      "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
-    },
-    {
-      "slug": "nvidia-tao-train-oneformer",
-      "name": "NVIDIA/tao-train-oneformer",
-      "description": "OneFormer for universal image segmentation. Unifies panoptic, instance, and semantic segmentation with a",
-      "publisher": "NVIDIA",
-      "publisherSlug": "nvidia",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nvidia",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [
-        "visual-assets"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
-      "creatorHandle": "NVIDIA",
-      "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
-    },
-    {
-      "slug": "nvidia-tao-train-optical-inspection",
-      "name": "NVIDIA/tao-train-optical-inspection",
-      "description": "Optical Inspection for defect detection using Siamese networks. Compares image pairs to detect manufacturing",
-      "publisher": "NVIDIA",
-      "publisherSlug": "nvidia",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nvidia",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [
-        "prd-specs",
-        "visual-assets"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
-      "creatorHandle": "NVIDIA",
-      "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
-    },
-    {
-      "slug": "nvidia-tao-train-pointpillars",
-      "name": "NVIDIA/tao-train-pointpillars",
-      "description": "PointPillars for 3D object detection from LiDAR point clouds. Encodes point clouds into a pseudo-image via a",
-      "publisher": "NVIDIA",
-      "publisherSlug": "nvidia",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nvidia",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "visual-assets",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
-      "creatorHandle": "NVIDIA",
-      "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
-    },
-    {
-      "slug": "nvidia-tao-train-pose-classification",
-      "name": "NVIDIA/tao-train-pose-classification",
-      "description": "Pose classification using ST-GCN (Spatial Temporal Graph Convolutional Network). Classifies skeleton sequences",
-      "publisher": "NVIDIA",
-      "publisherSlug": "nvidia",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nvidia",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
-      "creatorHandle": "NVIDIA",
-      "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
-    },
-    {
-      "slug": "nvidia-tao-train-reid",
-      "name": "NVIDIA/tao-train-reid",
-      "description": "Person re-identification (ReID). Learns discriminative embeddings to match the same person across different",
-      "publisher": "NVIDIA",
-      "publisherSlug": "nvidia",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nvidia",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
-      "creatorHandle": "NVIDIA",
-      "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
-    },
-    {
-      "slug": "nvidia-tao-train-rtdetr",
-      "name": "NVIDIA/tao-train-rtdetr",
-      "description": "RT-DETR (Real-Time DEtection TRansformer) for 2D object detection. Designed for real-time inference with",
-      "publisher": "NVIDIA",
-      "publisherSlug": "nvidia",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nvidia",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
-      "creatorHandle": "NVIDIA",
-      "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
-    },
-    {
-      "slug": "nvidia-tao-train-segformer",
-      "name": "NVIDIA/tao-train-segformer",
-      "description": "SegFormer for semantic segmentation. Lightweight transformer-based architecture with hierarchical feature",
-      "publisher": "NVIDIA",
-      "publisherSlug": "nvidia",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nvidia",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
-      "creatorHandle": "NVIDIA",
-      "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
-    },
-    {
-      "slug": "nvidia-tao-train-single-step",
-      "name": "NVIDIA/tao-train-single-step",
-      "description": "Standard single-step train/eval/export workflow for any TAO model. Use when training a TAO model on a dataset",
-      "publisher": "NVIDIA",
-      "publisherSlug": "nvidia",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nvidia",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
-      "creatorHandle": "NVIDIA",
-      "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
-    },
-    {
-      "slug": "nvidia-tao-train-sparse4d",
-      "name": "NVIDIA/tao-train-sparse4d",
-      "description": "Sparse4D for multi-camera temporal 3D object detection and tracking. Uses sparse queries with deformable",
-      "publisher": "NVIDIA",
-      "publisherSlug": "nvidia",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nvidia",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "data-analyst"
-      ],
-      "jobs": [
-        "dashboarding",
-        "data-extraction",
-        "reporting",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
-      "creatorHandle": "NVIDIA",
-      "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
-    },
-    {
-      "slug": "nvidia-tao-train-visual-changenet",
-      "name": "NVIDIA/tao-train-visual-changenet",
-      "description": "Visual ChangeNet for binary image classification and segmentation in AOI defect detection. Use when training,",
-      "publisher": "NVIDIA",
-      "publisherSlug": "nvidia",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nvidia",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "designer"
-      ],
-      "jobs": [
-        "design-critique",
-        "presentation-building",
-        "ui-ux-design",
-        "visual-assets",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
-      "creatorHandle": "NVIDIA",
-      "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
-    },
-    {
-      "slug": "nvidia-tao-validate-dataset-format",
-      "name": "NVIDIA/tao-validate-dataset-format",
-      "description": "Run `tao-daft validate` to check NVIDIA TAO DAFT datasets for structure, schema, and cross-reference errors. Do",
-      "publisher": "NVIDIA",
-      "publisherSlug": "nvidia",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nvidia",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
-      "creatorHandle": "NVIDIA",
-      "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
-    },
-    {
-      "slug": "nvidia-vss-ask-video",
-      "name": "NVIDIA/vss-ask-video",
-      "description": "Use this skill to ask the VSS agent's video_understanding tool a fresh visual question about a recorded clip. Not for prior tool output, search hits, or metadata-answerable questions.",
-      "publisher": "NVIDIA",
-      "publisherSlug": "nvidia",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nvidia",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "designer"
-      ],
-      "jobs": [
-        "design-critique",
-        "presentation-building",
-        "research-synthesis",
-        "ui-ux-design",
-        "visual-assets",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
-      "creatorHandle": "NVIDIA",
-      "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
-    },
-    {
-      "slug": "nvidia-vss-deploy-dense-captioning",
-      "name": "NVIDIA/vss-deploy-dense-captioning",
-      "description": "Use this skill when deploying standalone RT-VLM dense captioning or calling its REST API (uploads, captions, streams, chat-completions, Kafka). Not for VSS profile deploy or video-search ingestion.",
-      "publisher": "NVIDIA",
-      "publisherSlug": "nvidia",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nvidia",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "campaign-planning",
-        "deployment-ops",
-        "development-workflows",
-        "research-synthesis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
-      "creatorHandle": "NVIDIA",
-      "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
-    },
-    {
-      "slug": "nvidia-vss-deploy-detection-tracking-2d",
-      "name": "NVIDIA/vss-deploy-detection-tracking-2d",
-      "description": "Use this skill when the user wants to deploy, run, debug, tear down, or call the REST API of the RTVI-CV 2D detection / tracking microservice. Trigger when the user says things like 'deploy rtvi-cv', 'start warehouse 2d', 'add a stream', 'check rtvi-cv health', or 'stop the perception container'. Not for VLM, embedding, or analytics — use the matching vss-* skill.",
-      "publisher": "NVIDIA",
-      "publisherSlug": "nvidia",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nvidia",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "data-analyst",
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "dashboarding",
-        "data-extraction",
-        "deployment-ops",
-        "development-workflows",
-        "reporting",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
-      "creatorHandle": "NVIDIA",
-      "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
-    },
-    {
-      "slug": "nvidia-vss-deploy-detection-tracking-3d",
-      "name": "NVIDIA/vss-deploy-detection-tracking-3d",
-      "description": ">",
-      "publisher": "NVIDIA",
-      "publisherSlug": "nvidia",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nvidia",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
-      "creatorHandle": "NVIDIA",
-      "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
-    },
-    {
-      "slug": "nvidia-vss-deploy-profile",
-      "name": "NVIDIA/vss-deploy-profile",
-      "description": "Use to select, configure, deploy, verify, debug, or tear down a VSS profile (base, search, lvs, warehouse, edge). Not for standalone microservices — use the vss-deploy-* skill.",
-      "publisher": "NVIDIA",
-      "publisherSlug": "nvidia",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nvidia",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "research-synthesis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
-      "creatorHandle": "NVIDIA",
-      "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
-    },
-    {
-      "slug": "nvidia-vss-deploy-video-embedding",
-      "name": "NVIDIA/vss-deploy-video-embedding",
-      "description": ">",
-      "publisher": "NVIDIA",
-      "publisherSlug": "nvidia",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nvidia",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
-      "creatorHandle": "NVIDIA",
-      "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
-    },
-    {
-      "slug": "nvidia-vss-generate-video-calibration",
-      "name": "NVIDIA/vss-generate-video-calibration",
-      "description": "Use to run AutoMagicCalib on local MP4s, RTSP, or the bundled sample dataset, and to deploy vss-auto-calibration when needed. Do not use for non-AMC calibration or runtime analytics.",
-      "publisher": "NVIDIA",
-      "publisherSlug": "nvidia",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nvidia",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "data-analyst",
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "dashboarding",
-        "data-extraction",
-        "deployment-ops",
-        "development-workflows",
-        "reporting",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
-      "creatorHandle": "NVIDIA",
-      "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
-    },
-    {
-      "slug": "nvidia-vss-generate-video-report",
-      "name": "NVIDIA/vss-generate-video-report",
-      "description": "Use this skill when producing a VSS analysis report — Mode A per-clip VLM, Mode B incident-range via video-analytics. Not for standalone video summarization, real-time alerts or ad-hoc Q&A.",
-      "publisher": "NVIDIA",
-      "publisherSlug": "nvidia",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nvidia",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "data-analyst",
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "dashboarding",
-        "data-extraction",
-        "deployment-ops",
-        "development-workflows",
-        "reporting",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
-      "creatorHandle": "NVIDIA",
-      "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
-    },
-    {
-      "slug": "nvidia-vss-manage-alerts",
-      "name": "NVIDIA/vss-manage-alerts",
-      "description": "Use for VSS alert workflows — real-time monitoring, Alert-Bridge subscriptions, Slack notifications, incident queries, camera onboarding. Not for non-alert analytics.",
-      "publisher": "NVIDIA",
-      "publisherSlug": "nvidia",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nvidia",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "data-analyst",
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "dashboarding",
-        "data-extraction",
-        "deployment-ops",
-        "development-workflows",
-        "reporting",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
-      "creatorHandle": "NVIDIA",
-      "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
-    },
-    {
-      "slug": "nvidia-vss-manage-video-io-storage",
-      "name": "NVIDIA/vss-manage-video-io-storage",
-      "description": "Use to call the VIOS REST API (sensor list, timelines, clip extraction, snapshots, add/delete sensors and streams). Not for VLM inference or search.",
-      "publisher": "NVIDIA",
-      "publisherSlug": "nvidia",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nvidia",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "research-synthesis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
-      "creatorHandle": "NVIDIA",
-      "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
-    },
-    {
-      "slug": "nvidia-vss-query-analytics",
-      "name": "NVIDIA/vss-query-analytics",
-      "description": "Use this skill when reading video-analytics metrics, incidents, alerts, and sensor data via the VA-MCP server (port 9901). Not for live VLM or incident-range narrative reports.",
-      "publisher": "NVIDIA",
-      "publisherSlug": "nvidia",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nvidia",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "data-analyst",
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "dashboarding",
-        "data-extraction",
-        "deployment-ops",
-        "development-workflows",
-        "reporting",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
-      "creatorHandle": "NVIDIA",
-      "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
-    },
-    {
-      "slug": "nvidia-vss-search-archive",
-      "name": "NVIDIA/vss-search-archive",
-      "description": "Use this skill to run top-level VSS fusion search on archived video, or to ingest video files / RTSP streams for search. Do NOT use for ad-hoc visual Q&A (use vss-ask-video), live captioning (use vss-deploy-dense-captioning), or video summarization and reports (use vss-summarize-video).",
-      "publisher": "NVIDIA",
-      "publisherSlug": "nvidia",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nvidia",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "designer",
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "data-extraction",
-        "deployment-ops",
-        "design-critique",
-        "development-workflows",
-        "presentation-building",
-        "research-synthesis",
-        "testing-debugging",
-        "ui-ux-design",
-        "visual-assets",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
-      "creatorHandle": "NVIDIA",
-      "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
-    },
-    {
-      "slug": "nvidia-vss-setup-behavior-analytics",
-      "name": "NVIDIA/vss-setup-behavior-analytics",
-      "description": "Use to deploy the vss-behavior-analytics service standalone (entrypoint, config-source, optional calibration). Not for the full warehouse deploy.",
-      "publisher": "NVIDIA",
-      "publisherSlug": "nvidia",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nvidia",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "data-analyst",
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "dashboarding",
-        "data-extraction",
-        "deployment-ops",
-        "development-workflows",
-        "reporting",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/NVIDIA.png?size=88",
-      "creatorHandle": "NVIDIA",
-      "hasPublisherLogo": true,
-      "stars": 2279,
-      "forks": 260
+      "stars": 2498,
+      "forks": 280
     }
   ]
 }

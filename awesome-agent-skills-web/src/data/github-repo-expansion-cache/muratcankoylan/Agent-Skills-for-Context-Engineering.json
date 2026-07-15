@@ -2,9 +2,9 @@
   "repository": "muratcankoylan/Agent-Skills-for-Context-Engineering",
   "branch": "main",
   "defaultBranch": "main",
-  "pushedAt": "2026-06-29T21:52:52Z",
-  "scannedAt": "2026-07-07T09:04:34.884Z",
-  "treeSha": "175cee7c25b5d98d919369f53427c646cdd86d93",
+  "pushedAt": "2026-07-14T05:15:52Z",
+  "scannedAt": "2026-07-15T02:22:58.186Z",
+  "treeSha": "c578e85e40fe2bda7c1fec91ff64cf5285434934",
   "items": [
     {
       "repository": "muratcankoylan/Agent-Skills-for-Context-Engineering",
@@ -15,7 +15,7 @@
       "description": "A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management.",
       "slug": "muratcankoylan-agent-skills-for-context-engineering-collection",
       "isCollection": true,
-      "stars": null,
+      "stars": 17216,
       "skillPaths": [
         "SKILL.md",
         "skills/advanced-evaluation/SKILL.md",
@@ -29,9 +29,11 @@
         "skills/harness-engineering/SKILL.md",
         "skills/hosted-agents/SKILL.md",
         "skills/latent-briefing/SKILL.md",
+        "skills/long-horizon-prompting/SKILL.md",
         "skills/memory-systems/SKILL.md",
         "skills/multi-agent-patterns/SKILL.md",
         "skills/project-development/SKILL.md",
+        "skills/self-improvement-loops/SKILL.md",
         "skills/tool-design/SKILL.md"
       ]
     },
@@ -146,6 +148,15 @@
     {
       "repository": "muratcankoylan/Agent-Skills-for-Context-Engineering",
       "branch": "main",
+      "skillName": "long-horizon-prompting",
+      "path": "skills/long-horizon-prompting/SKILL.md",
+      "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/long-horizon-prompting/SKILL.md",
+      "description": "This skill should be used when writing, enhancing, or evaluating the launch prompt for a long-running autonomous agent or a parallel multi-agent orchestration attacking a hard problem: pseudo-formal task briefs that define terms and an exact success predicate linguistically, enumerate non-counting outcomes, set persistence rules with explicit stop and return conditions and effort floors, manage a diverse portfolio of parallel approaches with an approach registry and blocked-route bookkeeping, and gate the return on adversarial audit. Route agent topology and coordination protocols to multi-agent-patterns, runtime control surfaces and loop governance to harness-engineering, evaluator and quality-gate construction to evaluation, judge design to advanced-evaluation, and compaction or memory mechanics to context-compression and memory-systems.",
+      "slug": "muratcankoylan-long-horizon-prompting"
+    },
+    {
+      "repository": "muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "branch": "main",
       "skillName": "memory-systems",
       "path": "skills/memory-systems/SKILL.md",
       "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/memory-systems/SKILL.md",
@@ -173,6 +184,15 @@
     {
       "repository": "muratcankoylan/Agent-Skills-for-Context-Engineering",
       "branch": "main",
+      "skillName": "self-improvement-loops",
+      "path": "skills/self-improvement-loops/SKILL.md",
+      "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/self-improvement-loops/SKILL.md",
+      "description": "This skill should be used when the harness, scaffold, workflow, or optimizer itself is the optimization target: recursive self-improvement (RSI) loops, meta-harnesses, self-improving harnesses that mine their own failures and propose bounded edits, evolutionary or population-based search over agent scaffolds, acceptance gates for self-modifying systems, and agentic context evolution where the mechanism that produces context is versioned and evolved. Route governance of a single autonomous loop (locked surfaces, durable logs, rollback, novelty gates, approval boundaries) to harness-engineering, measurement and quality-gate design to evaluation, judge design to advanced-evaluation, and remote sandbox infrastructure to hosted-agents.",
+      "slug": "muratcankoylan-self-improvement-loops"
+    },
+    {
+      "repository": "muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "branch": "main",
       "skillName": "tool-design",
       "path": "skills/tool-design/SKILL.md",
       "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/tool-design/SKILL.md",
@@ -180,6 +200,6 @@
       "slug": "muratcankoylan-tool-design"
     }
   ],
-  "itemCount": 17,
-  "lastStatus": "reused-unchanged"
+  "itemCount": 19,
+  "lastStatus": "cache-fresh"
 }

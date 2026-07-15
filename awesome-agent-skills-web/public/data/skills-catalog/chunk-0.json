@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-07T09:11:26.306Z",
+  "generatedAt": "2026-07-15T02:39:29.986Z",
   "chunkIndex": 0,
-  "totalSkills": 8886,
+  "totalSkills": 8995,
   "skills": [
     {
       "slug": "anthropics-docx",
@@ -879,6 +879,1795 @@
       "forks": 8
     },
     {
+      "slug": "testmu-ai-api-skill",
+      "name": "testmu-ai/api-skill",
+      "description": "Suite of API skills for designing, mocking, documenting, securing, and generating tests for REST/GraphQL/gRPC APIs",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-appium-skill",
+      "name": "testmu-ai/appium-skill",
+      "description": "Generate Appium mobile automation for Android and iOS in Java, Python, or JS",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-behat-skill",
+      "name": "testmu-ai/behat-skill",
+      "description": "Generate Behat BDD tests for PHP with Gherkin and Mink",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-behave-skill",
+      "name": "testmu-ai/behave-skill",
+      "description": "Generate Behave BDD tests for Python with Gherkin and step implementations",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-capybara-skill",
+      "name": "testmu-ai/capybara-skill",
+      "description": "Generate Capybara E2E tests in Ruby with RSpec integration",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "prd-specs",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-cicd-pipeline-skill",
+      "name": "testmu-ai/cicd-pipeline-skill",
+      "description": "Generate CI/CD pipelines for tests on GitHub Actions, Jenkins, GitLab CI, and Azure DevOps",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer",
+        "sales"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "presentation-building",
+        "reporting",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-codeception-skill",
+      "name": "testmu-ai/codeception-skill",
+      "description": "Generate Codeception acceptance, functional, and unit tests in PHP",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-cucumber-skill",
+      "name": "testmu-ai/cucumber-skill",
+      "description": "Generate Cucumber BDD tests with Gherkin and step definitions in Java, JS, or Ruby",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-cypress-skill",
+      "name": "testmu-ai/cypress-skill",
+      "description": "Generate Cypress E2E and component tests in JavaScript or TypeScript",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-detox-skill",
+      "name": "testmu-ai/detox-skill",
+      "description": "Generate Detox gray-box E2E tests for React Native apps in JavaScript",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-espresso-skill",
+      "name": "testmu-ai/espresso-skill",
+      "description": "Generate Espresso UI tests for Android apps in Kotlin or Java",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "designer",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "design-critique",
+        "development-workflows",
+        "presentation-building",
+        "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-flutter-testing-skill",
+      "name": "testmu-ai/flutter-testing-skill",
+      "description": "Generate Flutter widget, integration, and golden tests in Dart",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-gauge-skill",
+      "name": "testmu-ai/gauge-skill",
+      "description": "Generate Gauge specs in Markdown with steps in Java, Python, JS, or Ruby",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "prd-specs",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-geb-skill",
+      "name": "testmu-ai/geb-skill",
+      "description": "Generate Geb browser automation in Groovy with Spock and page objects",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-hyperexecute-skill",
+      "name": "testmu-ai/hyperexecute-skill",
+      "description": "Operate TestMu AI HyperExecute end-to-end: YAML, CLI runs, debugging, and CI wiring",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-jasmine-skill",
+      "name": "testmu-ai/jasmine-skill",
+      "description": "Generate Jasmine BDD tests in JavaScript with spies and async support",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer",
+        "support"
+      ],
+      "jobs": [
+        "api-integration",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "reporting",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-jest-skill",
+      "name": "testmu-ai/jest-skill",
+      "description": "Generate Jest unit and integration tests in JS/TS with mocking and snapshots",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-junit-5-skill",
+      "name": "testmu-ai/junit-5-skill",
+      "description": "Generate JUnit 5 unit and integration tests in Java with Mockito",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-karma-skill",
+      "name": "testmu-ai/karma-skill",
+      "description": "Generate Karma test-runner configs for browser-based JS testing",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-laravel-dusk-skill",
+      "name": "testmu-ai/laravel-dusk-skill",
+      "description": "Generate Laravel Dusk Chrome-based browser tests in PHP",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-lettuce-skill",
+      "name": "testmu-ai/lettuce-skill",
+      "description": "Generate Lettuce BDD tests for Python (legacy; prefer Behave)",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-mocha-skill",
+      "name": "testmu-ai/mocha-skill",
+      "description": "Generate Mocha tests in JavaScript with Chai and Sinon",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-mstest-skill",
+      "name": "testmu-ai/mstest-skill",
+      "description": "Generate MSTest tests in C# for .NET",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "curated",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-nemojs-skill",
+      "name": "testmu-ai/nemojs-skill",
+      "description": "Generate Nemo.js Selenium-based tests for Node.js",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-nightwatchjs-skill",
+      "name": "testmu-ai/nightwatchjs-skill",
+      "description": "Generate NightwatchJS E2E tests in JavaScript with Selenium WebDriver",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-nunit-skill",
+      "name": "testmu-ai/nunit-skill",
+      "description": "Generate NUnit 3 tests in C# with the constraint model and Moq",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-phpunit-skill",
+      "name": "testmu-ai/phpunit-skill",
+      "description": "Generate PHPUnit tests in PHP with data providers and mocking",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-playwright-skill",
+      "name": "testmu-ai/playwright-skill",
+      "description": "Generate Playwright E2E tests in TS, JS, Python, Java, or C#",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-protractor-skill",
+      "name": "testmu-ai/protractor-skill",
+      "description": "Generate Protractor E2E tests for Angular in JS/TS (deprecated; prefer Playwright/Cypress)",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-puppeteer-skill",
+      "name": "testmu-ai/puppeteer-skill",
+      "description": "Generate Puppeteer scripts for browser automation, scraping, and PDF generation",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-pytest-skill",
+      "name": "testmu-ai/pytest-skill",
+      "description": "Generate pytest tests in Python with fixtures, parametrize, and mocking",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-reqnroll-skill",
+      "name": "testmu-ai/reqnroll-skill",
+      "description": "Generate Reqnroll BDD tests for web and mobile in C#",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-robot-framework-skill",
+      "name": "testmu-ai/robot-framework-skill",
+      "description": "Generate Robot Framework keyword-driven tests in Python",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-rspec-skill",
+      "name": "testmu-ai/rspec-skill",
+      "description": "Generate RSpec tests in Ruby with matchers, hooks, and mocking",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "prd-specs",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-selenide-skill",
+      "name": "testmu-ai/selenide-skill",
+      "description": "Generate Selenide UI tests in Java with auto-waits and a fluent API",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "designer",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "design-critique",
+        "development-workflows",
+        "presentation-building",
+        "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-selenium-skill",
+      "name": "testmu-ai/selenium-skill",
+      "description": "Generate Selenium WebDriver tests in Java, Python, JS, C#, Ruby, or PHP",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-serenity-bdd-skill",
+      "name": "testmu-ai/serenity-bdd-skill",
+      "description": "Generate Serenity BDD tests in Java with the Screenplay pattern and reporting",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "reporting",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-smartui-skill",
+      "name": "testmu-ai/smartui-skill",
+      "description": "Generate SmartUI visual regression configs for screenshot comparison",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "designer",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "design-critique",
+        "development-workflows",
+        "presentation-building",
+        "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-specflow-skill",
+      "name": "testmu-ai/specflow-skill",
+      "description": "Generate SpecFlow BDD tests for C#/.NET with Gherkin and step bindings",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "prd-specs",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-test-framework-migration-skill",
+      "name": "testmu-ai/test-framework-migration-skill",
+      "description": "Migrate tests between Selenium, Playwright, Puppeteer, and Cypress",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-testcafe-skill",
+      "name": "testmu-ai/testcafe-skill",
+      "description": "Generate TestCafe automation tests in JavaScript or TypeScript",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-testng-skill",
+      "name": "testmu-ai/testng-skill",
+      "description": "Generate TestNG tests in Java with data providers and parallel execution",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-testunit-skill",
+      "name": "testmu-ai/testunit-skill",
+      "description": "Generate Test::Unit xUnit-style tests in Ruby",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-unittest-skill",
+      "name": "testmu-ai/unittest-skill",
+      "description": "Generate Python unittest tests with TestCase and setUp/tearDown",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-vitest-skill",
+      "name": "testmu-ai/vitest-skill",
+      "description": "Generate Vitest tests in JS/TS with a Jest-compatible API and ESM",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-webdriverio-skill",
+      "name": "testmu-ai/webdriverio-skill",
+      "description": "Generate WebdriverIO (WDIO) automation tests in JavaScript or TypeScript",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-xcuitest-skill",
+      "name": "testmu-ai/xcuitest-skill",
+      "description": "Generate XCUITest UI tests for iOS/iPadOS apps in Swift",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "designer",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "design-critique",
+        "development-workflows",
+        "presentation-building",
+        "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "testmu-ai-xunit-skill",
+      "name": "testmu-ai/xunit-skill",
+      "description": "Generate xUnit.net tests in C# with Fact/Theory and FluentAssertions",
+      "publisher": "testmu-ai",
+      "publisherSlug": "testmu-ai",
+      "sectionTitle": "Skills by TestMu AI",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "publisher-namespaced",
+        "skills-by-testmu-ai",
+        "testing",
+        "testmu-ai"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "curated",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
+      "creatorHandle": "testmu-ai",
+      "hasPublisherLogo": true,
+      "stars": 329,
+      "forks": 66
+    },
+    {
+      "slug": "zero-zero",
+      "name": "zero/zero",
+      "description": "Discover and call external paid tools for Claude Code agents instead of stopping to ask the user to sign up or fetch an API key",
+      "publisher": "zero",
+      "publisherSlug": "zero",
+      "sectionTitle": "Skills by Zero",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-zero",
+        "zero"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "research-synthesis",
+        "testing-debugging",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/zero.png?size=88",
+      "creatorHandle": "zero",
+      "hasPublisherLogo": true,
+      "stars": 18,
+      "forks": 2
+    },
+    {
+      "slug": "zero-zero-gemini",
+      "name": "zero/zero-gemini",
+      "description": "Same Zero tool-discovery and payment layer packaged as a Gemini CLI extension",
+      "publisher": "zero",
+      "publisherSlug": "zero",
+      "sectionTitle": "Skills by Zero",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "official-skills",
+        "publisher-namespaced",
+        "skills-by-zero",
+        "zero"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "official",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/zero.png?size=88",
+      "creatorHandle": "zero",
+      "hasPublisherLogo": true,
+      "stars": 18,
+      "forks": 2
+    },
+    {
       "slug": "angular-angular-developer",
       "name": "angular/angular-developer",
       "description": "Generate Angular code and architectural guidance for components, services, reactivity",
@@ -888,7 +2677,6 @@
       "kind": "official",
       "tags": [
         "angular",
-        "github-discovery",
         "namespaced",
         "official-skills",
         "publisher-namespaced",
@@ -907,14 +2695,11 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
+      "riskFlags": [],
       "creatorAvatarUrl": "https://github.com/angular.png?size=88",
       "creatorHandle": "angular",
       "hasPublisherLogo": true,
-      "stars": 549,
+      "stars": 564,
       "forks": 40
     },
     {
@@ -927,7 +2712,6 @@
       "kind": "official",
       "tags": [
         "angular",
-        "github-discovery",
         "namespaced",
         "official-skills",
         "publisher-namespaced",
@@ -945,14 +2729,11 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
+      "riskFlags": [],
       "creatorAvatarUrl": "https://github.com/angular.png?size=88",
       "creatorHandle": "angular",
       "hasPublisherLogo": true,
-      "stars": 549,
+      "stars": 564,
       "forks": 40
     },
     {
@@ -1285,7 +3066,6 @@
       "sectionTitle": "Skills by Courier",
       "kind": "official",
       "tags": [
-        "github-discovery",
         "namespaced",
         "publisher-namespaced",
         "skills-by-courier",
@@ -1295,10 +3075,7 @@
       "jobs": [],
       "sourceType": "github-readme",
       "trustLevel": "curated",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
+      "riskFlags": [],
       "creatorAvatarUrl": "https://github.com/trycourier.png?size=88",
       "creatorHandle": "trycourier",
       "hasPublisherLogo": true,
@@ -2924,7 +4701,6 @@
       "sectionTitle": "Skills by Remotion",
       "kind": "official",
       "tags": [
-        "github-discovery",
         "media",
         "namespaced",
         "official-skills",
@@ -2944,10 +4720,7 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
+      "riskFlags": [],
       "creatorAvatarUrl": "https://github.com/remotion-dev.png?size=88",
       "creatorHandle": "remotion-dev",
       "hasPublisherLogo": true,
@@ -3072,7 +4845,7 @@
       "creatorAvatarUrl": "https://github.com/veniceai.png?size=88",
       "creatorHandle": "veniceai",
       "hasPublisherLogo": true,
-      "stars": 117,
+      "stars": 119,
       "forks": 15
     },
     {
@@ -3111,7 +4884,7 @@
       "creatorAvatarUrl": "https://github.com/veniceai.png?size=88",
       "creatorHandle": "veniceai",
       "hasPublisherLogo": true,
-      "stars": 117,
+      "stars": 119,
       "forks": 15
     },
     {
@@ -3157,7 +4930,7 @@
       "creatorAvatarUrl": "https://github.com/veniceai.png?size=88",
       "creatorHandle": "veniceai",
       "hasPublisherLogo": true,
-      "stars": 117,
+      "stars": 119,
       "forks": 15
     },
     {
@@ -3198,7 +4971,7 @@
       "creatorAvatarUrl": "https://github.com/veniceai.png?size=88",
       "creatorHandle": "veniceai",
       "hasPublisherLogo": true,
-      "stars": 117,
+      "stars": 119,
       "forks": 15
     },
     {
@@ -3242,7 +5015,7 @@
       "creatorAvatarUrl": "https://github.com/veniceai.png?size=88",
       "creatorHandle": "veniceai",
       "hasPublisherLogo": true,
-      "stars": 117,
+      "stars": 119,
       "forks": 15
     },
     {
@@ -3288,7 +5061,7 @@
       "creatorAvatarUrl": "https://github.com/veniceai.png?size=88",
       "creatorHandle": "veniceai",
       "hasPublisherLogo": true,
-      "stars": 117,
+      "stars": 119,
       "forks": 15
     },
     {
@@ -3329,7 +5102,7 @@
       "creatorAvatarUrl": "https://github.com/veniceai.png?size=88",
       "creatorHandle": "veniceai",
       "hasPublisherLogo": true,
-      "stars": 117,
+      "stars": 119,
       "forks": 15
     },
     {
@@ -3369,7 +5142,7 @@
       "creatorAvatarUrl": "https://github.com/veniceai.png?size=88",
       "creatorHandle": "veniceai",
       "hasPublisherLogo": true,
-      "stars": 117,
+      "stars": 119,
       "forks": 15
     },
     {
@@ -3413,7 +5186,7 @@
       "creatorAvatarUrl": "https://github.com/veniceai.png?size=88",
       "creatorHandle": "veniceai",
       "hasPublisherLogo": true,
-      "stars": 117,
+      "stars": 119,
       "forks": 15
     },
     {
@@ -3457,7 +5230,7 @@
       "creatorAvatarUrl": "https://github.com/veniceai.png?size=88",
       "creatorHandle": "veniceai",
       "hasPublisherLogo": true,
-      "stars": 117,
+      "stars": 119,
       "forks": 15
     },
     {
@@ -3503,7 +5276,7 @@
       "creatorAvatarUrl": "https://github.com/veniceai.png?size=88",
       "creatorHandle": "veniceai",
       "hasPublisherLogo": true,
-      "stars": 117,
+      "stars": 119,
       "forks": 15
     },
     {
@@ -3557,7 +5330,7 @@
       "creatorAvatarUrl": "https://github.com/veniceai.png?size=88",
       "creatorHandle": "veniceai",
       "hasPublisherLogo": true,
-      "stars": 117,
+      "stars": 119,
       "forks": 15
     },
     {
@@ -3598,7 +5371,7 @@
       "creatorAvatarUrl": "https://github.com/veniceai.png?size=88",
       "creatorHandle": "veniceai",
       "hasPublisherLogo": true,
-      "stars": 117,
+      "stars": 119,
       "forks": 15
     },
     {
@@ -3637,7 +5410,7 @@
       "creatorAvatarUrl": "https://github.com/veniceai.png?size=88",
       "creatorHandle": "veniceai",
       "hasPublisherLogo": true,
-      "stars": 117,
+      "stars": 119,
       "forks": 15
     },
     {
@@ -3684,7 +5457,7 @@
       "creatorAvatarUrl": "https://github.com/veniceai.png?size=88",
       "creatorHandle": "veniceai",
       "hasPublisherLogo": true,
-      "stars": 117,
+      "stars": 119,
       "forks": 15
     },
     {
@@ -3722,7 +5495,7 @@
       "creatorAvatarUrl": "https://github.com/veniceai.png?size=88",
       "creatorHandle": "veniceai",
       "hasPublisherLogo": true,
-      "stars": 117,
+      "stars": 119,
       "forks": 15
     },
     {
@@ -3769,7 +5542,7 @@
       "creatorAvatarUrl": "https://github.com/veniceai.png?size=88",
       "creatorHandle": "veniceai",
       "hasPublisherLogo": true,
-      "stars": 117,
+      "stars": 119,
       "forks": 15
     },
     {
@@ -3821,7 +5594,7 @@
       "creatorAvatarUrl": "https://github.com/veniceai.png?size=88",
       "creatorHandle": "veniceai",
       "hasPublisherLogo": true,
-      "stars": 117,
+      "stars": 119,
       "forks": 15
     },
     {
@@ -3869,7 +5642,7 @@
       "creatorAvatarUrl": "https://github.com/veniceai.png?size=88",
       "creatorHandle": "veniceai",
       "hasPublisherLogo": true,
-      "stars": 117,
+      "stars": 119,
       "forks": 15
     },
     {
@@ -7289,1726 +9062,6 @@
       "hasPublisherLogo": true,
       "stars": 828,
       "forks": 45
-    },
-    {
-      "slug": "getsentry-sentry-fix-issues",
-      "name": "getsentry/sentry-fix-issues",
-      "description": "Find and fix Sentry issues with stack trace, breadcrumb, and trace context via MCP",
-      "publisher": "getsentry",
-      "publisherSlug": "getsentry",
-      "sectionTitle": "Skills by Sentry team for their dev team.",
-      "kind": "official",
-      "tags": [
-        "getsentry",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-sentry-team-for-their-dev-team"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
-      "creatorHandle": "getsentry",
-      "hasPublisherLogo": true,
-      "stars": 828,
-      "forks": 45
-    },
-    {
-      "slug": "getsentry-sentry-code-review",
-      "name": "getsentry/sentry-code-review",
-      "description": "Review code changes using Sentry issue and trace context",
-      "publisher": "getsentry",
-      "publisherSlug": "getsentry",
-      "sectionTitle": "Skills by Sentry team for their dev team.",
-      "kind": "official",
-      "tags": [
-        "getsentry",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-sentry-team-for-their-dev-team"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
-      "creatorHandle": "getsentry",
-      "hasPublisherLogo": true,
-      "stars": 828,
-      "forks": 45
-    },
-    {
-      "slug": "getsentry-sentry-pr-code-review",
-      "name": "getsentry/sentry-pr-code-review",
-      "description": "Review PR comments from Seer Bug Prediction and Sentry feedback",
-      "publisher": "getsentry",
-      "publisherSlug": "getsentry",
-      "sectionTitle": "Skills by Sentry team for their dev team.",
-      "kind": "official",
-      "tags": [
-        "getsentry",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-sentry-team-for-their-dev-team"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
-      "creatorHandle": "getsentry",
-      "hasPublisherLogo": true,
-      "stars": 828,
-      "forks": 45
-    },
-    {
-      "slug": "getsentry-sentry-create-alert",
-      "name": "getsentry/sentry-create-alert",
-      "description": "Create Sentry alerts with email, Slack, PagerDuty, Discord, and more",
-      "publisher": "getsentry",
-      "publisherSlug": "getsentry",
-      "sectionTitle": "Skills by Sentry team for their dev team.",
-      "kind": "official",
-      "tags": [
-        "getsentry",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-sentry-team-for-their-dev-team"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
-      "creatorHandle": "getsentry",
-      "hasPublisherLogo": true,
-      "stars": 828,
-      "forks": 45
-    },
-    {
-      "slug": "getsentry-sentry-feature-setup",
-      "name": "getsentry/sentry-feature-setup",
-      "description": "Configure advanced Sentry features: AI monitoring, OTel pipelines, and alerts",
-      "publisher": "getsentry",
-      "publisherSlug": "getsentry",
-      "sectionTitle": "Skills by Sentry team for their dev team.",
-      "kind": "official",
-      "tags": [
-        "getsentry",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-sentry-team-for-their-dev-team"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "prd-specs",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
-      "creatorHandle": "getsentry",
-      "hasPublisherLogo": true,
-      "stars": 828,
-      "forks": 45
-    },
-    {
-      "slug": "getsentry-sentry-otel-exporter-setup",
-      "name": "getsentry/sentry-otel-exporter-setup",
-      "description": "Configure the OpenTelemetry Collector with Sentry Exporter",
-      "publisher": "getsentry",
-      "publisherSlug": "getsentry",
-      "sectionTitle": "Skills by Sentry team for their dev team.",
-      "kind": "official",
-      "tags": [
-        "getsentry",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-sentry-team-for-their-dev-team"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
-      "creatorHandle": "getsentry",
-      "hasPublisherLogo": true,
-      "stars": 828,
-      "forks": 45
-    },
-    {
-      "slug": "getsentry-sentry-setup-ai-monitoring",
-      "name": "getsentry/sentry-setup-ai-monitoring",
-      "description": "Instrument OpenAI, Anthropic, Vercel AI, LangChain, Google GenAI, and Pydantic AI",
-      "publisher": "getsentry",
-      "publisherSlug": "getsentry",
-      "sectionTitle": "Skills by Sentry team for their dev team.",
-      "kind": "official",
-      "tags": [
-        "getsentry",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-sentry-team-for-their-dev-team"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
-      "creatorHandle": "getsentry",
-      "hasPublisherLogo": true,
-      "stars": 828,
-      "forks": 45
-    },
-    {
-      "slug": "getsentry-sentry-sdk-upgrade",
-      "name": "getsentry/sentry-sdk-upgrade",
-      "description": "Upgrade the Sentry JavaScript SDK across major versions",
-      "publisher": "getsentry",
-      "publisherSlug": "getsentry",
-      "sectionTitle": "Skills by Sentry team for their dev team.",
-      "kind": "official",
-      "tags": [
-        "getsentry",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-sentry-team-for-their-dev-team"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
-      "creatorHandle": "getsentry",
-      "hasPublisherLogo": true,
-      "stars": 828,
-      "forks": 45
-    },
-    {
-      "slug": "getsentry-sentry-sdk-skill-creator",
-      "name": "getsentry/sentry-sdk-skill-creator",
-      "description": "Create a new Sentry SDK skill bundle for a platform",
-      "publisher": "getsentry",
-      "publisherSlug": "getsentry",
-      "sectionTitle": "Skills by Sentry team for their dev team.",
-      "kind": "official",
-      "tags": [
-        "getsentry",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-sentry-team-for-their-dev-team"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
-      "creatorHandle": "getsentry",
-      "hasPublisherLogo": true,
-      "stars": 828,
-      "forks": 45
-    },
-    {
-      "slug": "getsentry-sentry-android-sdk",
-      "name": "getsentry/sentry-android-sdk",
-      "description": "Full Sentry SDK setup for Android (Kotlin and Java)",
-      "publisher": "getsentry",
-      "publisherSlug": "getsentry",
-      "sectionTitle": "Skills by Sentry team for their dev team.",
-      "kind": "official",
-      "tags": [
-        "getsentry",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-sentry-team-for-their-dev-team"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
-      "creatorHandle": "getsentry",
-      "hasPublisherLogo": true,
-      "stars": 828,
-      "forks": 45
-    },
-    {
-      "slug": "getsentry-sentry-browser-sdk",
-      "name": "getsentry/sentry-browser-sdk",
-      "description": "Full Sentry SDK setup for browser JavaScript",
-      "publisher": "getsentry",
-      "publisherSlug": "getsentry",
-      "sectionTitle": "Skills by Sentry team for their dev team.",
-      "kind": "official",
-      "tags": [
-        "getsentry",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-sentry-team-for-their-dev-team"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
-      "creatorHandle": "getsentry",
-      "hasPublisherLogo": true,
-      "stars": 828,
-      "forks": 45
-    },
-    {
-      "slug": "getsentry-sentry-cloudflare-sdk",
-      "name": "getsentry/sentry-cloudflare-sdk",
-      "description": "Full Sentry SDK setup for Cloudflare Workers, Pages, Durable Objects, Queues, and Workflows",
-      "publisher": "getsentry",
-      "publisherSlug": "getsentry",
-      "sectionTitle": "Skills by Sentry team for their dev team.",
-      "kind": "official",
-      "tags": [
-        "getsentry",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-sentry-team-for-their-dev-team"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
-      "creatorHandle": "getsentry",
-      "hasPublisherLogo": true,
-      "stars": 828,
-      "forks": 45
-    },
-    {
-      "slug": "getsentry-sentry-cocoa-sdk",
-      "name": "getsentry/sentry-cocoa-sdk",
-      "description": "Full Sentry SDK setup for Apple platforms (iOS, macOS, tvOS, watchOS, visionOS)",
-      "publisher": "getsentry",
-      "publisherSlug": "getsentry",
-      "sectionTitle": "Skills by Sentry team for their dev team.",
-      "kind": "official",
-      "tags": [
-        "getsentry",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-sentry-team-for-their-dev-team"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
-      "creatorHandle": "getsentry",
-      "hasPublisherLogo": true,
-      "stars": 828,
-      "forks": 45
-    },
-    {
-      "slug": "getsentry-sentry-dotnet-sdk",
-      "name": "getsentry/sentry-dotnet-sdk",
-      "description": "Full Sentry SDK setup for .NET (ASP.NET Core, MAUI, WPF, WinForms, Blazor, Azure Functions)",
-      "publisher": "getsentry",
-      "publisherSlug": "getsentry",
-      "sectionTitle": "Skills by Sentry team for their dev team.",
-      "kind": "official",
-      "tags": [
-        "getsentry",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-sentry-team-for-their-dev-team"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
-      "creatorHandle": "getsentry",
-      "hasPublisherLogo": true,
-      "stars": 828,
-      "forks": 45
-    },
-    {
-      "slug": "getsentry-sentry-elixir-sdk",
-      "name": "getsentry/sentry-elixir-sdk",
-      "description": "Full Sentry SDK setup for Elixir, Phoenix, Plug, LiveView, Oban, and Quantum",
-      "publisher": "getsentry",
-      "publisherSlug": "getsentry",
-      "sectionTitle": "Skills by Sentry team for their dev team.",
-      "kind": "official",
-      "tags": [
-        "getsentry",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-sentry-team-for-their-dev-team"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
-      "creatorHandle": "getsentry",
-      "hasPublisherLogo": true,
-      "stars": 828,
-      "forks": 45
-    },
-    {
-      "slug": "getsentry-sentry-flutter-sdk",
-      "name": "getsentry/sentry-flutter-sdk",
-      "description": "Full Sentry SDK setup for Flutter and Dart across all platforms",
-      "publisher": "getsentry",
-      "publisherSlug": "getsentry",
-      "sectionTitle": "Skills by Sentry team for their dev team.",
-      "kind": "official",
-      "tags": [
-        "getsentry",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-sentry-team-for-their-dev-team"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
-      "creatorHandle": "getsentry",
-      "hasPublisherLogo": true,
-      "stars": 828,
-      "forks": 45
-    },
-    {
-      "slug": "getsentry-sentry-go-sdk",
-      "name": "getsentry/sentry-go-sdk",
-      "description": "Full Sentry SDK setup for Go (net/http, Gin, Echo, Fiber, FastHTTP, Iris, Negroni)",
-      "publisher": "getsentry",
-      "publisherSlug": "getsentry",
-      "sectionTitle": "Skills by Sentry team for their dev team.",
-      "kind": "official",
-      "tags": [
-        "getsentry",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-sentry-team-for-their-dev-team"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
-      "creatorHandle": "getsentry",
-      "hasPublisherLogo": true,
-      "stars": 828,
-      "forks": 45
-    },
-    {
-      "slug": "getsentry-sentry-nestjs-sdk",
-      "name": "getsentry/sentry-nestjs-sdk",
-      "description": "Full Sentry SDK setup for NestJS with Express or Fastify, GraphQL, microservices",
-      "publisher": "getsentry",
-      "publisherSlug": "getsentry",
-      "sectionTitle": "Skills by Sentry team for their dev team.",
-      "kind": "official",
-      "tags": [
-        "getsentry",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-sentry-team-for-their-dev-team"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
-      "creatorHandle": "getsentry",
-      "hasPublisherLogo": true,
-      "stars": 828,
-      "forks": 45
-    },
-    {
-      "slug": "getsentry-sentry-nextjs-sdk",
-      "name": "getsentry/sentry-nextjs-sdk",
-      "description": "Full Sentry SDK setup for Next.js 13+ (App Router and Pages Router)",
-      "publisher": "getsentry",
-      "publisherSlug": "getsentry",
-      "sectionTitle": "Skills by Sentry team for their dev team.",
-      "kind": "official",
-      "tags": [
-        "getsentry",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-sentry-team-for-their-dev-team"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
-      "creatorHandle": "getsentry",
-      "hasPublisherLogo": true,
-      "stars": 828,
-      "forks": 45
-    },
-    {
-      "slug": "getsentry-sentry-node-sdk",
-      "name": "getsentry/sentry-node-sdk",
-      "description": "Full Sentry SDK setup for Node.js, Bun, and Deno",
-      "publisher": "getsentry",
-      "publisherSlug": "getsentry",
-      "sectionTitle": "Skills by Sentry team for their dev team.",
-      "kind": "official",
-      "tags": [
-        "getsentry",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-sentry-team-for-their-dev-team"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
-      "creatorHandle": "getsentry",
-      "hasPublisherLogo": true,
-      "stars": 828,
-      "forks": 45
-    },
-    {
-      "slug": "getsentry-sentry-php-sdk",
-      "name": "getsentry/sentry-php-sdk",
-      "description": "Full Sentry SDK setup for PHP, Laravel, and Symfony",
-      "publisher": "getsentry",
-      "publisherSlug": "getsentry",
-      "sectionTitle": "Skills by Sentry team for their dev team.",
-      "kind": "official",
-      "tags": [
-        "getsentry",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-sentry-team-for-their-dev-team"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
-      "creatorHandle": "getsentry",
-      "hasPublisherLogo": true,
-      "stars": 828,
-      "forks": 45
-    },
-    {
-      "slug": "getsentry-sentry-python-sdk",
-      "name": "getsentry/sentry-python-sdk",
-      "description": "Full Sentry SDK setup for Python (Django, Flask, FastAPI, Celery, Starlette, AIOHTTP, Tornado)",
-      "publisher": "getsentry",
-      "publisherSlug": "getsentry",
-      "sectionTitle": "Skills by Sentry team for their dev team.",
-      "kind": "official",
-      "tags": [
-        "getsentry",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-sentry-team-for-their-dev-team"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
-      "creatorHandle": "getsentry",
-      "hasPublisherLogo": true,
-      "stars": 828,
-      "forks": 45
-    },
-    {
-      "slug": "getsentry-sentry-react-native-sdk",
-      "name": "getsentry/sentry-react-native-sdk",
-      "description": "Full Sentry SDK setup for React Native and Expo",
-      "publisher": "getsentry",
-      "publisherSlug": "getsentry",
-      "sectionTitle": "Skills by Sentry team for their dev team.",
-      "kind": "official",
-      "tags": [
-        "getsentry",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-sentry-team-for-their-dev-team"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
-      "creatorHandle": "getsentry",
-      "hasPublisherLogo": true,
-      "stars": 828,
-      "forks": 45
-    },
-    {
-      "slug": "getsentry-sentry-react-sdk",
-      "name": "getsentry/sentry-react-sdk",
-      "description": "Full Sentry SDK setup for React (React Router v5-v7, TanStack Router, Redux, Vite, webpack)",
-      "publisher": "getsentry",
-      "publisherSlug": "getsentry",
-      "sectionTitle": "Skills by Sentry team for their dev team.",
-      "kind": "official",
-      "tags": [
-        "getsentry",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-sentry-team-for-their-dev-team"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
-      "creatorHandle": "getsentry",
-      "hasPublisherLogo": true,
-      "stars": 828,
-      "forks": 45
-    },
-    {
-      "slug": "getsentry-sentry-ruby-sdk",
-      "name": "getsentry/sentry-ruby-sdk",
-      "description": "Full Sentry SDK setup for Ruby (Rails, Sinatra, Rack, Sidekiq, Resque)",
-      "publisher": "getsentry",
-      "publisherSlug": "getsentry",
-      "sectionTitle": "Skills by Sentry team for their dev team.",
-      "kind": "official",
-      "tags": [
-        "getsentry",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-sentry-team-for-their-dev-team"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
-      "creatorHandle": "getsentry",
-      "hasPublisherLogo": true,
-      "stars": 828,
-      "forks": 45
-    },
-    {
-      "slug": "getsentry-sentry-svelte-sdk",
-      "name": "getsentry/sentry-svelte-sdk",
-      "description": "Full Sentry SDK setup for Svelte and SvelteKit",
-      "publisher": "getsentry",
-      "publisherSlug": "getsentry",
-      "sectionTitle": "Skills by Sentry team for their dev team.",
-      "kind": "official",
-      "tags": [
-        "getsentry",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-sentry-team-for-their-dev-team"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/getsentry.png?size=88",
-      "creatorHandle": "getsentry",
-      "hasPublisherLogo": true,
-      "stars": 828,
-      "forks": 45
-    },
-    {
-      "slug": "microsoft-cloud-solution-architect",
-      "name": "microsoft/cloud-solution-architect",
-      "description": "Design well-architected Azure cloud systems",
-      "publisher": "microsoft",
-      "publisherSlug": "microsoft",
-      "sectionTitle": "Core Skills",
-      "kind": "official",
-      "tags": [
-        "core-skills",
-        "microsoft",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "designer",
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "design-critique",
-        "development-workflows",
-        "presentation-building",
-        "testing-debugging",
-        "ui-ux-design",
-        "visual-assets",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
-      "creatorHandle": "microsoft",
-      "hasPublisherLogo": true,
-      "stars": 2620,
-      "forks": 298
-    },
-    {
-      "slug": "microsoft-continual-learning",
-      "name": "microsoft/continual-learning",
-      "description": "Continual learning patterns for Azure AI",
-      "publisher": "microsoft",
-      "publisherSlug": "microsoft",
-      "sectionTitle": "Core Skills",
-      "kind": "official",
-      "tags": [
-        "core-skills",
-        "microsoft",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
-      "creatorHandle": "microsoft",
-      "hasPublisherLogo": true,
-      "stars": 2620,
-      "forks": 298
-    },
-    {
-      "slug": "microsoft-copilot-sdk",
-      "name": "microsoft/copilot-sdk",
-      "description": "Build applications powered by GitHub Copilot SDK",
-      "publisher": "microsoft",
-      "publisherSlug": "microsoft",
-      "sectionTitle": "Core Skills",
-      "kind": "official",
-      "tags": [
-        "core-skills",
-        "microsoft",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "development-workflows"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
-      "creatorHandle": "microsoft",
-      "hasPublisherLogo": true,
-      "stars": 2620,
-      "forks": 298
-    },
-    {
-      "slug": "microsoft-entra-agent-id",
-      "name": "microsoft/entra-agent-id",
-      "description": "Microsoft Entra Agent ID OAuth2 identities via Graph API",
-      "publisher": "microsoft",
-      "publisherSlug": "microsoft",
-      "sectionTitle": "Core Skills",
-      "kind": "official",
-      "tags": [
-        "core-skills",
-        "microsoft",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
-      "creatorHandle": "microsoft",
-      "hasPublisherLogo": true,
-      "stars": 2620,
-      "forks": 298
-    },
-    {
-      "slug": "microsoft-frontend-design-review",
-      "name": "microsoft/frontend-design-review",
-      "description": "Review and create distinctive frontend interfaces",
-      "publisher": "microsoft",
-      "publisherSlug": "microsoft",
-      "sectionTitle": "Core Skills",
-      "kind": "official",
-      "tags": [
-        "core-skills",
-        "microsoft",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "designer",
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "design-critique",
-        "development-workflows",
-        "prd-specs",
-        "presentation-building",
-        "testing-debugging",
-        "ui-ux-design",
-        "visual-assets",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
-      "creatorHandle": "microsoft",
-      "hasPublisherLogo": true,
-      "stars": 2620,
-      "forks": 298
-    },
-    {
-      "slug": "microsoft-github-issue-creator",
-      "name": "microsoft/github-issue-creator",
-      "description": "Structured GitHub issue reports from notes",
-      "publisher": "microsoft",
-      "publisherSlug": "microsoft",
-      "sectionTitle": "Core Skills",
-      "kind": "official",
-      "tags": [
-        "core-skills",
-        "microsoft",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "pm",
-        "support"
-      ],
-      "jobs": [
-        "document-authoring",
-        "prd-specs",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
-      "creatorHandle": "microsoft",
-      "hasPublisherLogo": true,
-      "stars": 2620,
-      "forks": 298
-    },
-    {
-      "slug": "microsoft-mcp-builder",
-      "name": "microsoft/mcp-builder",
-      "description": "MCP server creation guide for LLM tool integration",
-      "publisher": "microsoft",
-      "publisherSlug": "microsoft",
-      "sectionTitle": "Core Skills",
-      "kind": "official",
-      "tags": [
-        "core-skills",
-        "microsoft",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
-      "creatorHandle": "microsoft",
-      "hasPublisherLogo": true,
-      "stars": 2620,
-      "forks": 298
-    },
-    {
-      "slug": "microsoft-podcast-generation",
-      "name": "microsoft/podcast-generation",
-      "description": "AI podcast audio with Azure OpenAI Realtime API",
-      "publisher": "microsoft",
-      "publisherSlug": "microsoft",
-      "sectionTitle": "Core Skills",
-      "kind": "official",
-      "tags": [
-        "core-skills",
-        "microsoft",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "designer",
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "design-critique",
-        "development-workflows",
-        "presentation-building",
-        "testing-debugging",
-        "ui-ux-design",
-        "visual-assets",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
-      "creatorHandle": "microsoft",
-      "hasPublisherLogo": true,
-      "stars": 2620,
-      "forks": 298
-    },
-    {
-      "slug": "microsoft-skill-creator",
-      "name": "microsoft/skill-creator",
-      "description": "Guide for creating effective skills for AI coding agents",
-      "publisher": "microsoft",
-      "publisherSlug": "microsoft",
-      "sectionTitle": "Core Skills",
-      "kind": "official",
-      "tags": [
-        "core-skills",
-        "microsoft",
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
-      "creatorHandle": "microsoft",
-      "hasPublisherLogo": true,
-      "stars": 2620,
-      "forks": 298
-    },
-    {
-      "slug": "microsoft-azure-ai-document-intelligence-dotnet",
-      "name": "microsoft/azure-ai-document-intelligence-dotnet",
-      "description": "Document text, table, and data extraction",
-      "publisher": "microsoft",
-      "publisherSlug": "microsoft",
-      "sectionTitle": ".NET Skills",
-      "kind": "official",
-      "tags": [
-        "microsoft",
-        "namespaced",
-        "net-skills",
-        "official-skills",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "document-authoring",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
-      "creatorHandle": "microsoft",
-      "hasPublisherLogo": true,
-      "stars": 2620,
-      "forks": 298
-    },
-    {
-      "slug": "microsoft-azure-ai-openai-dotnet",
-      "name": "microsoft/azure-ai-openai-dotnet",
-      "description": "GPT-4, embeddings, DALL-E, and Whisper client",
-      "publisher": "microsoft",
-      "publisherSlug": "microsoft",
-      "sectionTitle": ".NET Skills",
-      "kind": "official",
-      "tags": [
-        "microsoft",
-        "namespaced",
-        "net-skills",
-        "official-skills",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
-      "creatorHandle": "microsoft",
-      "hasPublisherLogo": true,
-      "stars": 2620,
-      "forks": 298
-    },
-    {
-      "slug": "microsoft-azure-ai-projects-dotnet",
-      "name": "microsoft/azure-ai-projects-dotnet",
-      "description": "AI Foundry project management SDK",
-      "publisher": "microsoft",
-      "publisherSlug": "microsoft",
-      "sectionTitle": ".NET Skills",
-      "kind": "official",
-      "tags": [
-        "microsoft",
-        "namespaced",
-        "net-skills",
-        "official-skills",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
-      "creatorHandle": "microsoft",
-      "hasPublisherLogo": true,
-      "stars": 2620,
-      "forks": 298
-    },
-    {
-      "slug": "microsoft-azure-ai-voicelive-dotnet",
-      "name": "microsoft/azure-ai-voicelive-dotnet",
-      "description": "Real-time bidirectional voice AI",
-      "publisher": "microsoft",
-      "publisherSlug": "microsoft",
-      "sectionTitle": ".NET Skills",
-      "kind": "official",
-      "tags": [
-        "microsoft",
-        "namespaced",
-        "net-skills",
-        "official-skills",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
-      "creatorHandle": "microsoft",
-      "hasPublisherLogo": true,
-      "stars": 2620,
-      "forks": 298
-    },
-    {
-      "slug": "microsoft-azure-eventgrid-dotnet",
-      "name": "microsoft/azure-eventgrid-dotnet",
-      "description": "Event Grid topic and domain publishing",
-      "publisher": "microsoft",
-      "publisherSlug": "microsoft",
-      "sectionTitle": ".NET Skills",
-      "kind": "official",
-      "tags": [
-        "microsoft",
-        "namespaced",
-        "net-skills",
-        "official-skills",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
-      "creatorHandle": "microsoft",
-      "hasPublisherLogo": true,
-      "stars": 2620,
-      "forks": 298
-    },
-    {
-      "slug": "microsoft-azure-eventhub-dotnet",
-      "name": "microsoft/azure-eventhub-dotnet",
-      "description": "High-throughput event streaming",
-      "publisher": "microsoft",
-      "publisherSlug": "microsoft",
-      "sectionTitle": ".NET Skills",
-      "kind": "official",
-      "tags": [
-        "microsoft",
-        "namespaced",
-        "net-skills",
-        "official-skills",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
-      "creatorHandle": "microsoft",
-      "hasPublisherLogo": true,
-      "stars": 2620,
-      "forks": 298
-    },
-    {
-      "slug": "microsoft-azure-identity-dotnet",
-      "name": "microsoft/azure-identity-dotnet",
-      "description": "Microsoft Entra ID authentication",
-      "publisher": "microsoft",
-      "publisherSlug": "microsoft",
-      "sectionTitle": ".NET Skills",
-      "kind": "official",
-      "tags": [
-        "microsoft",
-        "namespaced",
-        "net-skills",
-        "official-skills",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
-      "creatorHandle": "microsoft",
-      "hasPublisherLogo": true,
-      "stars": 2620,
-      "forks": 298
-    },
-    {
-      "slug": "microsoft-azure-maps-search-dotnet",
-      "name": "microsoft/azure-maps-search-dotnet",
-      "description": "Geocoding, routing, and weather services",
-      "publisher": "microsoft",
-      "publisherSlug": "microsoft",
-      "sectionTitle": ".NET Skills",
-      "kind": "official",
-      "tags": [
-        "microsoft",
-        "namespaced",
-        "net-skills",
-        "official-skills",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "research-synthesis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
-      "creatorHandle": "microsoft",
-      "hasPublisherLogo": true,
-      "stars": 2620,
-      "forks": 298
-    },
-    {
-      "slug": "microsoft-azure-mgmt-apicenter-dotnet",
-      "name": "microsoft/azure-mgmt-apicenter-dotnet",
-      "description": "API inventory and governance",
-      "publisher": "microsoft",
-      "publisherSlug": "microsoft",
-      "sectionTitle": ".NET Skills",
-      "kind": "official",
-      "tags": [
-        "microsoft",
-        "namespaced",
-        "net-skills",
-        "official-skills",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
-      "creatorHandle": "microsoft",
-      "hasPublisherLogo": true,
-      "stars": 2620,
-      "forks": 298
-    },
-    {
-      "slug": "microsoft-azure-mgmt-apimanagement-dotnet",
-      "name": "microsoft/azure-mgmt-apimanagement-dotnet",
-      "description": "API Management provisioning via ARM",
-      "publisher": "microsoft",
-      "publisherSlug": "microsoft",
-      "sectionTitle": ".NET Skills",
-      "kind": "official",
-      "tags": [
-        "microsoft",
-        "namespaced",
-        "net-skills",
-        "official-skills",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
-      "creatorHandle": "microsoft",
-      "hasPublisherLogo": true,
-      "stars": 2620,
-      "forks": 298
-    },
-    {
-      "slug": "microsoft-azure-mgmt-applicationinsights-dotnet",
-      "name": "microsoft/azure-mgmt-applicationinsights-dotnet",
-      "description": "Application Insights resource management",
-      "publisher": "microsoft",
-      "publisherSlug": "microsoft",
-      "sectionTitle": ".NET Skills",
-      "kind": "official",
-      "tags": [
-        "microsoft",
-        "namespaced",
-        "net-skills",
-        "official-skills",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
-      "creatorHandle": "microsoft",
-      "hasPublisherLogo": true,
-      "stars": 2620,
-      "forks": 298
-    },
-    {
-      "slug": "microsoft-azure-mgmt-arizeaiobservabilityeval-dotnet",
-      "name": "microsoft/azure-mgmt-arizeaiobservabilityeval-dotnet",
-      "description": "Arize AI observability management",
-      "publisher": "microsoft",
-      "publisherSlug": "microsoft",
-      "sectionTitle": ".NET Skills",
-      "kind": "official",
-      "tags": [
-        "microsoft",
-        "namespaced",
-        "net-skills",
-        "official-skills",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
-      "creatorHandle": "microsoft",
-      "hasPublisherLogo": true,
-      "stars": 2620,
-      "forks": 298
-    },
-    {
-      "slug": "microsoft-azure-mgmt-botservice-dotnet",
-      "name": "microsoft/azure-mgmt-botservice-dotnet",
-      "description": "Bot Service provisioning via ARM",
-      "publisher": "microsoft",
-      "publisherSlug": "microsoft",
-      "sectionTitle": ".NET Skills",
-      "kind": "official",
-      "tags": [
-        "microsoft",
-        "namespaced",
-        "net-skills",
-        "official-skills",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
-      "creatorHandle": "microsoft",
-      "hasPublisherLogo": true,
-      "stars": 2620,
-      "forks": 298
-    },
-    {
-      "slug": "microsoft-azure-mgmt-fabric-dotnet",
-      "name": "microsoft/azure-mgmt-fabric-dotnet",
-      "description": "Microsoft Fabric capacity management",
-      "publisher": "microsoft",
-      "publisherSlug": "microsoft",
-      "sectionTitle": ".NET Skills",
-      "kind": "official",
-      "tags": [
-        "microsoft",
-        "namespaced",
-        "net-skills",
-        "official-skills",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
-      "creatorHandle": "microsoft",
-      "hasPublisherLogo": true,
-      "stars": 2620,
-      "forks": 298
-    },
-    {
-      "slug": "microsoft-azure-mgmt-mongodbatlas-dotnet",
-      "name": "microsoft/azure-mgmt-mongodbatlas-dotnet",
-      "description": "MongoDB Atlas as ARM resources",
-      "publisher": "microsoft",
-      "publisherSlug": "microsoft",
-      "sectionTitle": ".NET Skills",
-      "kind": "official",
-      "tags": [
-        "microsoft",
-        "namespaced",
-        "net-skills",
-        "official-skills",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/microsoft.png?size=88",
-      "creatorHandle": "microsoft",
-      "hasPublisherLogo": true,
-      "stars": 2620,
-      "forks": 298
     }
   ]
 }

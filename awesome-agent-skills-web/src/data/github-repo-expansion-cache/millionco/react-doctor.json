@@ -2,10 +2,34 @@
   "repository": "millionco/react-doctor",
   "branch": "main",
   "defaultBranch": "main",
-  "pushedAt": "2026-07-07T06:45:16Z",
-  "scannedAt": "2026-07-07T09:04:42.225Z",
-  "treeSha": "1880b152e4d6aedd5c06cf2ca51783e53cfb4004",
+  "pushedAt": "2026-07-15T01:43:54Z",
+  "scannedAt": "2026-07-15T02:23:34.546Z",
+  "treeSha": "d8b2989fd5d440d70931743a88ab6f7a91cf7b89",
   "items": [
+    {
+      "repository": "millionco/react-doctor",
+      "branch": "main",
+      "skillName": "react-doctor",
+      "path": "README.md",
+      "url": "https://github.com/millionco/react-doctor",
+      "description": "Your agent writes bad React. This catches it",
+      "slug": "millionco-react-doctor-collection",
+      "isCollection": true,
+      "stars": 13798,
+      "skillPaths": [
+        "skills/improve-react/SKILL.md",
+        "skills/react-doctor/SKILL.md"
+      ]
+    },
+    {
+      "repository": "millionco/react-doctor",
+      "branch": "main",
+      "skillName": "improve-react",
+      "path": "skills/improve-react/SKILL.md",
+      "url": "https://github.com/millionco/react-doctor/blob/main/skills/improve-react/SKILL.md",
+      "description": "Survey a whole React codebase as a senior React engineer, using React Doctor's scan as evidence, then produce a prioritized audit and self-contained implementation plans for other agents (or cheaper models) to execute. Read-only on source code — it plans improvements, it does not apply them. Use when the user asks to \"improve the React code\", \"audit this codebase\", \"make this app faster / more robust\", or wants a roadmap of fixes rather than a review of a single diff. For a regression check or a fix-it-now pass, use the `react-doctor` skill instead.",
+      "slug": "millionco-improve-react"
+    },
     {
       "repository": "millionco/react-doctor",
       "branch": "main",
@@ -16,7 +40,6 @@
       "slug": "millionco-react-doctor"
     }
   ],
-  "itemCount": 1,
-  "publicSkillCount": 1,
-  "lastStatus": "scanned"
+  "itemCount": 3,
+  "lastStatus": "cache-fresh"
 }

@@ -1,23 +1,242 @@
 {
-  "generatedAt": "2026-07-07T09:11:26.306Z",
+  "generatedAt": "2026-07-15T02:39:29.986Z",
   "chunkIndex": 4,
-  "totalSkills": 8886,
+  "totalSkills": 8995,
   "skills": [
     {
-      "slug": "testmu-ai-karma-skill",
-      "name": "testmu-ai/karma-skill",
-      "description": "Generate Karma test-runner configs for browser-based JS testing",
-      "publisher": "testmu-ai",
-      "publisherSlug": "testmu-ai",
-      "sectionTitle": "Skills by TestMu AI",
+      "slug": "nvidia-video-search-and-summarization-video-analytics",
+      "name": "NVIDIA/video-search-and-summarization/video-analytics",
+      "description": "Query video analytics data and metrics from Elastic search via the VA-MCP server (port 9901).",
+      "publisher": "NVIDIA",
+      "publisherSlug": "nvidia",
+      "sectionTitle": "video-search-and-summarization",
       "kind": "official",
       "tags": [
         "namespaced",
-        "official-skills",
+        "nvidia",
         "publisher-namespaced",
-        "skills-by-testmu-ai",
-        "testing",
-        "testmu-ai"
+        "video-search-and-summarization"
+      ],
+      "personas": [
+        "data-analyst"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "reporting",
+        "research-synthesis",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "curated",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/nvidia.png?size=88",
+      "creatorHandle": "nvidia",
+      "hasPublisherLogo": true,
+      "stars": 2498,
+      "forks": 280
+    },
+    {
+      "slug": "nvidia-video-search-and-summarization-video-search",
+      "name": "NVIDIA/video-search-and-summarization/video-search",
+      "description": "Search video archives using natural language — find events, objects, actions, and people across recorded video using fusion search (Cosmos Embed1 semantic search + CV attribute sea...",
+      "publisher": "NVIDIA",
+      "publisherSlug": "nvidia",
+      "sectionTitle": "video-search-and-summarization",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "nvidia",
+        "publisher-namespaced",
+        "video-search-and-summarization"
+      ],
+      "personas": [],
+      "jobs": [
+        "research-synthesis"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "curated",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/nvidia.png?size=88",
+      "creatorHandle": "nvidia",
+      "hasPublisherLogo": true,
+      "stars": 2498,
+      "forks": 280
+    },
+    {
+      "slug": "nvidia-video-search-and-summarization-video-summarization",
+      "name": "NVIDIA/video-search-and-summarization/video-summarization",
+      "description": "Summarize a video by calling the VLM NIM or the Long Video Summarization (LVS) microservice directly.",
+      "publisher": "NVIDIA",
+      "publisherSlug": "nvidia",
+      "sectionTitle": "video-search-and-summarization",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "nvidia",
+        "publisher-namespaced",
+        "video-search-and-summarization"
+      ],
+      "personas": [],
+      "jobs": [
+        "api-integration",
+        "research-synthesis"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "curated",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/nvidia.png?size=88",
+      "creatorHandle": "nvidia",
+      "hasPublisherLogo": true,
+      "stars": 2498,
+      "forks": 280
+    },
+    {
+      "slug": "nvidia-video-search-and-summarization-video-understanding",
+      "name": "NVIDIA/video-search-and-summarization/video-understanding",
+      "description": "Call the vss agent to run video understanding on video to answer a text question.",
+      "publisher": "NVIDIA",
+      "publisherSlug": "nvidia",
+      "sectionTitle": "video-search-and-summarization",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "nvidia",
+        "publisher-namespaced",
+        "video-search-and-summarization"
+      ],
+      "personas": [],
+      "jobs": [
+        "research-synthesis"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "curated",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/nvidia.png?size=88",
+      "creatorHandle": "nvidia",
+      "hasPublisherLogo": true,
+      "stars": 2498,
+      "forks": 280
+    },
+    {
+      "slug": "nvidia-video-search-and-summarization-vios",
+      "name": "NVIDIA/video-search-and-summarization/vios",
+      "description": "Query VIOS REST APIs: sensor list, recording timelines, video clip extraction, snapshot capture, add/delete sensors and streams",
+      "publisher": "NVIDIA",
+      "publisherSlug": "nvidia",
+      "sectionTitle": "video-search-and-summarization",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "nvidia",
+        "publisher-namespaced",
+        "video-search-and-summarization"
+      ],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "reporting",
+        "research-synthesis",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "curated",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/nvidia.png?size=88",
+      "creatorHandle": "nvidia",
+      "hasPublisherLogo": true,
+      "stars": 2498,
+      "forks": 280
+    },
+    {
+      "slug": "nvidia-video-search-and-summarization-vss-frag",
+      "name": "NVIDIA/video-search-and-summarization/vss-frag",
+      "description": "Generate video summary reports using the VSS video_search_frag extension with Long Video Summarization (LVS), Enterprise RAG knowledge retrieval, and human-in-the-loop parameter co...",
+      "publisher": "NVIDIA",
+      "publisherSlug": "nvidia",
+      "sectionTitle": "video-search-and-summarization",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "nvidia",
+        "publisher-namespaced",
+        "video-search-and-summarization"
+      ],
+      "personas": [],
+      "jobs": [
+        "research-synthesis"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "curated",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/nvidia.png?size=88",
+      "creatorHandle": "nvidia",
+      "hasPublisherLogo": true,
+      "stars": 2498,
+      "forks": 280
+    },
+    {
+      "slug": "google-cloud-agent-platform-skill-registry",
+      "name": "google/cloud/agent-platform-skill-registry",
+      "description": "Interact with the Gemini Enterprise Agent Platform Skill Registry to create and search for available skills.",
+      "publisher": "google",
+      "publisherSlug": "google",
+      "sectionTitle": "Skills by Google Cloud",
+      "kind": "official",
+      "tags": [
+        "google",
+        "infra",
+        "namespaced",
+        "publisher-namespaced",
+        "skills-by-google-cloud"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "curated",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/google.png?size=88",
+      "creatorHandle": "google",
+      "hasPublisherLogo": true,
+      "stars": 14800,
+      "forks": 1137
+    },
+    {
+      "slug": "google-cloud-alloydb-basics",
+      "name": "google/cloud/alloydb-basics",
+      "description": "Manages clusters, instances, and backups for AlloyDB for PostgreSQL, and integrates with AlloyDB model context protocol (MCP) tools for automated database operations.",
+      "publisher": "google",
+      "publisherSlug": "google",
+      "sectionTitle": "Skills by Google Cloud",
+      "kind": "official",
+      "tags": [
+        "google",
+        "infra",
+        "namespaced",
+        "publisher-namespaced",
+        "skills-by-google-cloud"
       ],
       "personas": [
         "engineer"
@@ -30,29 +249,68 @@
         "workflow-automation"
       ],
       "sourceType": "github-readme",
-      "trustLevel": "official",
+      "trustLevel": "curated",
       "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
-      "creatorHandle": "testmu-ai",
+      "creatorAvatarUrl": "https://github.com/google.png?size=88",
+      "creatorHandle": "google",
       "hasPublisherLogo": true,
-      "stars": 322,
-      "forks": 65
+      "stars": 14800,
+      "forks": 1137
     },
     {
-      "slug": "testmu-ai-laravel-dusk-skill",
-      "name": "testmu-ai/laravel-dusk-skill",
-      "description": "Generate Laravel Dusk Chrome-based browser tests in PHP",
-      "publisher": "testmu-ai",
-      "publisherSlug": "testmu-ai",
-      "sectionTitle": "Skills by TestMu AI",
+      "slug": "google-cloud-bigquery-basics",
+      "name": "google/cloud/bigquery-basics",
+      "description": "Manages datasets, tables, and jobs in BigQuery, and integrates with BigQuery ML and Gemini for advanced data analytics and AI-driven insights.",
+      "publisher": "google",
+      "publisherSlug": "google",
+      "sectionTitle": "Skills by Google Cloud",
       "kind": "official",
       "tags": [
+        "google",
+        "infra",
         "namespaced",
-        "official-skills",
         "publisher-namespaced",
-        "skills-by-testmu-ai",
-        "testing",
-        "testmu-ai"
+        "skills-by-google-cloud"
+      ],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "curated",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/google.png?size=88",
+      "creatorHandle": "google",
+      "hasPublisherLogo": true,
+      "stars": 14800,
+      "forks": 1137
+    },
+    {
+      "slug": "google-cloud-cloud-run-basics",
+      "name": "google/cloud/cloud-run-basics",
+      "description": "Manages Cloud Run services, jobs, and worker pools.",
+      "publisher": "google",
+      "publisherSlug": "google",
+      "sectionTitle": "Skills by Google Cloud",
+      "kind": "official",
+      "tags": [
+        "google",
+        "infra",
+        "namespaced",
+        "publisher-namespaced",
+        "skills-by-google-cloud"
       ],
       "personas": [
         "engineer"
@@ -65,29 +323,103 @@
         "workflow-automation"
       ],
       "sourceType": "github-readme",
-      "trustLevel": "official",
+      "trustLevel": "curated",
       "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
-      "creatorHandle": "testmu-ai",
+      "creatorAvatarUrl": "https://github.com/google.png?size=88",
+      "creatorHandle": "google",
       "hasPublisherLogo": true,
-      "stars": 322,
-      "forks": 65
+      "stars": 14800,
+      "forks": 1137
     },
     {
-      "slug": "testmu-ai-lettuce-skill",
-      "name": "testmu-ai/lettuce-skill",
-      "description": "Generate Lettuce BDD tests for Python (legacy; prefer Behave)",
-      "publisher": "testmu-ai",
-      "publisherSlug": "testmu-ai",
-      "sectionTitle": "Skills by TestMu AI",
+      "slug": "google-cloud-cloud-sql-basics",
+      "name": "google/cloud/cloud-sql-basics",
+      "description": "This file generates or explains Cloud SQL resources.",
+      "publisher": "google",
+      "publisherSlug": "google",
+      "sectionTitle": "Skills by Google Cloud",
       "kind": "official",
       "tags": [
+        "google",
+        "infra",
         "namespaced",
-        "official-skills",
         "publisher-namespaced",
-        "skills-by-testmu-ai",
-        "testing",
-        "testmu-ai"
+        "skills-by-google-cloud"
+      ],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "curated",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/google.png?size=88",
+      "creatorHandle": "google",
+      "hasPublisherLogo": true,
+      "stars": 14800,
+      "forks": 1137
+    },
+    {
+      "slug": "google-cloud-firebase-basics",
+      "name": "google/cloud/firebase-basics",
+      "description": "Use this skill whenever you are working on a project that uses Firebase products or services, especially for mobile or web apps.",
+      "publisher": "google",
+      "publisherSlug": "google",
+      "sectionTitle": "Skills by Google Cloud",
+      "kind": "official",
+      "tags": [
+        "google",
+        "infra",
+        "namespaced",
+        "publisher-namespaced",
+        "skills-by-google-cloud"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "prd-specs",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "curated",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/google.png?size=88",
+      "creatorHandle": "google",
+      "hasPublisherLogo": true,
+      "stars": 14800,
+      "forks": 1137
+    },
+    {
+      "slug": "google-cloud-gemini-agents-api",
+      "name": "google/cloud/gemini-agents-api",
+      "description": "Manages custom Agent resources on Gemini Enterprise Agent Platform.",
+      "publisher": "google",
+      "publisherSlug": "google",
+      "sectionTitle": "Skills by Google Cloud",
+      "kind": "official",
+      "tags": [
+        "google",
+        "infra",
+        "namespaced",
+        "publisher-namespaced",
+        "skills-by-google-cloud"
       ],
       "personas": [
         "engineer"
@@ -100,64 +432,28 @@
         "workflow-automation"
       ],
       "sourceType": "github-readme",
-      "trustLevel": "official",
+      "trustLevel": "curated",
       "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
-      "creatorHandle": "testmu-ai",
+      "creatorAvatarUrl": "https://github.com/google.png?size=88",
+      "creatorHandle": "google",
       "hasPublisherLogo": true,
-      "stars": 322,
-      "forks": 65
+      "stars": 14800,
+      "forks": 1137
     },
     {
-      "slug": "testmu-ai-mocha-skill",
-      "name": "testmu-ai/mocha-skill",
-      "description": "Generate Mocha tests in JavaScript with Chai and Sinon",
-      "publisher": "testmu-ai",
-      "publisherSlug": "testmu-ai",
-      "sectionTitle": "Skills by TestMu AI",
+      "slug": "google-cloud-gemini-api",
+      "name": "google/cloud/gemini-api",
+      "description": "Guides the usage of the Gemini API on Agent Platform with the Google Gen AI SDK.",
+      "publisher": "google",
+      "publisherSlug": "google",
+      "sectionTitle": "Skills by Google Cloud",
       "kind": "official",
       "tags": [
+        "google",
+        "infra",
         "namespaced",
-        "official-skills",
         "publisher-namespaced",
-        "skills-by-testmu-ai",
-        "testing",
-        "testmu-ai"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
-      "creatorHandle": "testmu-ai",
-      "hasPublisherLogo": true,
-      "stars": 322,
-      "forks": 65
-    },
-    {
-      "slug": "testmu-ai-mstest-skill",
-      "name": "testmu-ai/mstest-skill",
-      "description": "Generate MSTest tests in C# for .NET",
-      "publisher": "testmu-ai",
-      "publisherSlug": "testmu-ai",
-      "sectionTitle": "Skills by TestMu AI",
-      "kind": "official",
-      "tags": [
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-testmu-ai",
-        "testing",
-        "testmu-ai"
+        "skills-by-google-cloud"
       ],
       "personas": [
         "engineer"
@@ -171,29 +467,562 @@
         "workflow-automation"
       ],
       "sourceType": "github-readme",
-      "trustLevel": "official",
+      "trustLevel": "curated",
       "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
-      "creatorHandle": "testmu-ai",
+      "creatorAvatarUrl": "https://github.com/google.png?size=88",
+      "creatorHandle": "google",
       "hasPublisherLogo": true,
-      "stars": 322,
-      "forks": 65
+      "stars": 14800,
+      "forks": 1137
     },
     {
-      "slug": "testmu-ai-nemojs-skill",
-      "name": "testmu-ai/nemojs-skill",
-      "description": "Generate Nemo.js Selenium-based tests for Node.js",
-      "publisher": "testmu-ai",
-      "publisherSlug": "testmu-ai",
-      "sectionTitle": "Skills by TestMu AI",
+      "slug": "google-cloud-gemini-interactions-api",
+      "name": "google/cloud/gemini-interactions-api",
+      "description": "Guides the usage of Gemini Interactions API on Gemini Enterprise Agent Platform.",
+      "publisher": "google",
+      "publisherSlug": "google",
+      "sectionTitle": "Skills by Google Cloud",
+      "kind": "official",
+      "tags": [
+        "google",
+        "infra",
+        "namespaced",
+        "publisher-namespaced",
+        "skills-by-google-cloud"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "curated",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/google.png?size=88",
+      "creatorHandle": "google",
+      "hasPublisherLogo": true,
+      "stars": 14800,
+      "forks": 1137
+    },
+    {
+      "slug": "google-cloud-gke-basics",
+      "name": "google/cloud/gke-basics",
+      "description": "Plan, create, and configure production-ready Google Kubernetes Engine (GKE) clusters using the golden path Autopilot configuration.",
+      "publisher": "google",
+      "publisherSlug": "google",
+      "sectionTitle": "Skills by Google Cloud",
+      "kind": "official",
+      "tags": [
+        "google",
+        "infra",
+        "namespaced",
+        "publisher-namespaced",
+        "skills-by-google-cloud"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "curated",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/google.png?size=88",
+      "creatorHandle": "google",
+      "hasPublisherLogo": true,
+      "stars": 14800,
+      "forks": 1137
+    },
+    {
+      "slug": "google-cloud-google-cloud-networking-observability",
+      "name": "google/cloud/google-cloud-networking-observability",
+      "description": "Investigates Google Cloud networking issues by analyzing logs, metrics, and diagnostics.",
+      "publisher": "google",
+      "publisherSlug": "google",
+      "sectionTitle": "Skills by Google Cloud",
+      "kind": "official",
+      "tags": [
+        "google",
+        "infra",
+        "namespaced",
+        "publisher-namespaced",
+        "skills-by-google-cloud"
+      ],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "curated",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/google.png?size=88",
+      "creatorHandle": "google",
+      "hasPublisherLogo": true,
+      "stars": 14800,
+      "forks": 1137
+    },
+    {
+      "slug": "google-cloud-google-cloud-recipe-auth",
+      "name": "google/cloud/google-cloud-recipe-auth",
+      "description": "Provides expert guidance on authenticating and authorizing to Google Cloud services and APIs, covering human users, service identities, Application Default Credentials (ADC), and b...",
+      "publisher": "google",
+      "publisherSlug": "google",
+      "sectionTitle": "Skills by Google Cloud",
+      "kind": "official",
+      "tags": [
+        "google",
+        "infra",
+        "namespaced",
+        "publisher-namespaced",
+        "skills-by-google-cloud"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "curated",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/google.png?size=88",
+      "creatorHandle": "google",
+      "hasPublisherLogo": true,
+      "stars": 14800,
+      "forks": 1137
+    },
+    {
+      "slug": "google-cloud-google-cloud-recipe-onboarding",
+      "name": "google/cloud/google-cloud-recipe-onboarding",
+      "description": "Guidance for a developer's first steps on Google Cloud, covering account creation, billing setup, project management, and deploying a first resource.",
+      "publisher": "google",
+      "publisherSlug": "google",
+      "sectionTitle": "Skills by Google Cloud",
+      "kind": "official",
+      "tags": [
+        "google",
+        "infra",
+        "namespaced",
+        "publisher-namespaced",
+        "skills-by-google-cloud"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "curated",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/google.png?size=88",
+      "creatorHandle": "google",
+      "hasPublisherLogo": true,
+      "stars": 14800,
+      "forks": 1137
+    },
+    {
+      "slug": "google-cloud-google-cloud-waf-cost-optimization",
+      "name": "google/cloud/google-cloud-waf-cost-optimization",
+      "description": "Generates cost optimization guidance for Google Cloud workloads based on the Google Cloud Well-Architected Framework (WAF).",
+      "publisher": "google",
+      "publisherSlug": "google",
+      "sectionTitle": "Skills by Google Cloud",
+      "kind": "official",
+      "tags": [
+        "google",
+        "infra",
+        "namespaced",
+        "publisher-namespaced",
+        "skills-by-google-cloud"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "curated",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/google.png?size=88",
+      "creatorHandle": "google",
+      "hasPublisherLogo": true,
+      "stars": 14800,
+      "forks": 1137
+    },
+    {
+      "slug": "google-cloud-google-cloud-waf-operational-excellence",
+      "name": "google/cloud/google-cloud-waf-operational-excellence",
+      "description": "Generates operations-focused guidance for Google Cloud workloads based on the design principles and recommendations in the Operational Excellence pillar of the Google Cloud Well-Ar...",
+      "publisher": "google",
+      "publisherSlug": "google",
+      "sectionTitle": "Skills by Google Cloud",
+      "kind": "official",
+      "tags": [
+        "google",
+        "infra",
+        "namespaced",
+        "publisher-namespaced",
+        "skills-by-google-cloud"
+      ],
+      "personas": [
+        "designer",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "deployment-ops",
+        "design-critique",
+        "development-workflows",
+        "presentation-building",
+        "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "curated",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/google.png?size=88",
+      "creatorHandle": "google",
+      "hasPublisherLogo": true,
+      "stars": 14800,
+      "forks": 1137
+    },
+    {
+      "slug": "google-cloud-google-cloud-waf-performance-optimization",
+      "name": "google/cloud/google-cloud-waf-performance-optimization",
+      "description": "Generates performance-focused guidance for Google Cloud workloads based on the design principles and recommendations in the Performance Optimization pillar of the Google Cloud Well...",
+      "publisher": "google",
+      "publisherSlug": "google",
+      "sectionTitle": "Skills by Google Cloud",
+      "kind": "official",
+      "tags": [
+        "google",
+        "infra",
+        "namespaced",
+        "publisher-namespaced",
+        "skills-by-google-cloud"
+      ],
+      "personas": [
+        "designer",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "deployment-ops",
+        "design-critique",
+        "development-workflows",
+        "presentation-building",
+        "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "curated",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/google.png?size=88",
+      "creatorHandle": "google",
+      "hasPublisherLogo": true,
+      "stars": 14800,
+      "forks": 1137
+    },
+    {
+      "slug": "google-cloud-google-cloud-waf-reliability",
+      "name": "google/cloud/google-cloud-waf-reliability",
+      "description": "Generates reliability-focused guidance for Google Cloud workloads based on the design principles and recommendations in the Google Cloud Well-Architected Framework.",
+      "publisher": "google",
+      "publisherSlug": "google",
+      "sectionTitle": "Skills by Google Cloud",
+      "kind": "official",
+      "tags": [
+        "google",
+        "infra",
+        "namespaced",
+        "publisher-namespaced",
+        "skills-by-google-cloud"
+      ],
+      "personas": [
+        "designer",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "deployment-ops",
+        "design-critique",
+        "development-workflows",
+        "presentation-building",
+        "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "curated",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/google.png?size=88",
+      "creatorHandle": "google",
+      "hasPublisherLogo": true,
+      "stars": 14800,
+      "forks": 1137
+    },
+    {
+      "slug": "google-cloud-google-cloud-waf-security",
+      "name": "google/cloud/google-cloud-waf-security",
+      "description": "Generates security-focused guidance for Google Cloud workloads based on the design principles and recommendations in the Google Cloud Well-Architected Framework (WAF).",
+      "publisher": "google",
+      "publisherSlug": "google",
+      "sectionTitle": "Skills by Google Cloud",
+      "kind": "official",
+      "tags": [
+        "google",
+        "infra",
+        "namespaced",
+        "publisher-namespaced",
+        "skills-by-google-cloud"
+      ],
+      "personas": [
+        "designer",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "deployment-ops",
+        "design-critique",
+        "development-workflows",
+        "presentation-building",
+        "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "curated",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/google.png?size=88",
+      "creatorHandle": "google",
+      "hasPublisherLogo": true,
+      "stars": 14800,
+      "forks": 1137
+    },
+    {
+      "slug": "google-cloud-google-cloud-waf-sustainability",
+      "name": "google/cloud/google-cloud-waf-sustainability",
+      "description": "Generates sustainability-focused guidance for Google Cloud workloads based on the design principles and recommendations in the Google Cloud Well-Architected Framework (WAF).",
+      "publisher": "google",
+      "publisherSlug": "google",
+      "sectionTitle": "Skills by Google Cloud",
+      "kind": "official",
+      "tags": [
+        "google",
+        "infra",
+        "namespaced",
+        "publisher-namespaced",
+        "skills-by-google-cloud"
+      ],
+      "personas": [
+        "designer",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "deployment-ops",
+        "design-critique",
+        "development-workflows",
+        "presentation-building",
+        "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "curated",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/google.png?size=88",
+      "creatorHandle": "google",
+      "hasPublisherLogo": true,
+      "stars": 14800,
+      "forks": 1137
+    },
+    {
+      "slug": "redhat-cve-skillpack",
+      "name": "redhat/cve-skillpack",
+      "description": "Understand CVEs, check product lifecycle status, gather diagnostics, and file support cases at the right severity — essential Red Hat skills for everyday operations.",
+      "publisher": "redhat",
+      "publisherSlug": "redhat",
+      "sectionTitle": "Skills by RedHat",
       "kind": "official",
       "tags": [
         "namespaced",
+        "publisher-namespaced",
+        "redhat",
+        "skills-by-redhat"
+      ],
+      "personas": [
+        "pm",
+        "support"
+      ],
+      "jobs": [
+        "data-extraction",
+        "document-authoring",
+        "planning-roadmapping",
+        "prd-specs",
+        "reporting",
+        "research-synthesis",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "curated",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/redhat.png?size=88",
+      "creatorHandle": "redhat",
+      "hasPublisherLogo": true,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "redhat-sre-skillpack",
+      "name": "redhat/sre-skillpack",
+      "description": "Discover, remediate, and verify CVEs across your RHEL fleet — orchestrating Red Hat Lightspeed and Ansible Automation Platform through a single workflow.",
+      "publisher": "redhat",
+      "publisherSlug": "redhat",
+      "sectionTitle": "Skills by RedHat",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "publisher-namespaced",
+        "redhat",
+        "skills-by-redhat"
+      ],
+      "personas": [],
+      "jobs": [
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "curated",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/redhat.png?size=88",
+      "creatorHandle": "redhat",
+      "hasPublisherLogo": true,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "redhat-openshift-skillpack",
+      "name": "redhat/openshift-skillpack",
+      "description": "Provision, inventory, and report on OpenShift clusters — spanning Assisted Installer, OCM, ROSA, ARO, and kubeconfig fleets — through a single conversational workflow.",
+      "publisher": "redhat",
+      "publisherSlug": "redhat",
+      "sectionTitle": "Skills by RedHat",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "publisher-namespaced",
+        "redhat",
+        "skills-by-redhat"
+      ],
+      "personas": [],
+      "jobs": [
+        "reporting",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "curated",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/redhat.png?size=88",
+      "creatorHandle": "redhat",
+      "hasPublisherLogo": true,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "redhat-openshift-virtualization",
+      "name": "redhat/openshift-virtualization",
+      "description": "Manage the full VM lifecycle on OpenShift Virtualization — create, clone, snapshot, restore, rebalance, and report — through a single conversational workflow.",
+      "publisher": "redhat",
+      "publisherSlug": "redhat",
+      "sectionTitle": "Skills by RedHat",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "publisher-namespaced",
+        "redhat",
+        "skills-by-redhat"
+      ],
+      "personas": [],
+      "jobs": [
+        "reporting",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "curated",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/redhat.png?size=88",
+      "creatorHandle": "redhat",
+      "hasPublisherLogo": true,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "cypress-io-cypress-author",
+      "name": "cypress-io/cypress-author",
+      "description": "Creates, updates, and fixes Cypress E2E and component tests.",
+      "publisher": "cypress-io",
+      "publisherSlug": "cypress-io",
+      "sectionTitle": "Skills by Cypress",
+      "kind": "official",
+      "tags": [
+        "cypress-io",
+        "namespaced",
         "official-skills",
         "publisher-namespaced",
-        "skills-by-testmu-ai",
-        "testing",
-        "testmu-ai"
+        "skills-by-cypress"
       ],
       "personas": [
         "engineer"
@@ -208,27 +1037,26 @@
       "sourceType": "github-readme",
       "trustLevel": "official",
       "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
-      "creatorHandle": "testmu-ai",
+      "creatorAvatarUrl": "https://github.com/cypress-io.png?size=88",
+      "creatorHandle": "cypress-io",
       "hasPublisherLogo": true,
-      "stars": 322,
-      "forks": 65
+      "stars": 36,
+      "forks": 3
     },
     {
-      "slug": "testmu-ai-nightwatchjs-skill",
-      "name": "testmu-ai/nightwatchjs-skill",
-      "description": "Generate NightwatchJS E2E tests in JavaScript with Selenium WebDriver",
-      "publisher": "testmu-ai",
-      "publisherSlug": "testmu-ai",
-      "sectionTitle": "Skills by TestMu AI",
+      "slug": "cypress-io-cypress-explain",
+      "name": "cypress-io/cypress-explain",
+      "description": "Explains Cypress E2E and component tests, and answers questions about Cypress use and behavior.",
+      "publisher": "cypress-io",
+      "publisherSlug": "cypress-io",
+      "sectionTitle": "Skills by Cypress",
       "kind": "official",
       "tags": [
+        "cypress-io",
         "namespaced",
         "official-skills",
         "publisher-namespaced",
-        "skills-by-testmu-ai",
-        "testing",
-        "testmu-ai"
+        "skills-by-cypress"
       ],
       "personas": [
         "engineer"
@@ -243,167 +1071,26 @@
       "sourceType": "github-readme",
       "trustLevel": "official",
       "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
-      "creatorHandle": "testmu-ai",
+      "creatorAvatarUrl": "https://github.com/cypress-io.png?size=88",
+      "creatorHandle": "cypress-io",
       "hasPublisherLogo": true,
-      "stars": 322,
-      "forks": 65
+      "stars": 36,
+      "forks": 3
     },
     {
-      "slug": "testmu-ai-nunit-skill",
-      "name": "testmu-ai/nunit-skill",
-      "description": "Generate NUnit 3 tests in C# with the constraint model and Moq",
-      "publisher": "testmu-ai",
-      "publisherSlug": "testmu-ai",
-      "sectionTitle": "Skills by TestMu AI",
+      "slug": "cypress-io-cypress-docs",
+      "name": "cypress-io/cypress-docs",
+      "description": "Search and extract Cypress information from official documentation.",
+      "publisher": "cypress-io",
+      "publisherSlug": "cypress-io",
+      "sectionTitle": "Skills by Cypress",
       "kind": "official",
       "tags": [
+        "cypress-io",
         "namespaced",
         "official-skills",
         "publisher-namespaced",
-        "skills-by-testmu-ai",
-        "testing",
-        "testmu-ai"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
-      "creatorHandle": "testmu-ai",
-      "hasPublisherLogo": true,
-      "stars": 322,
-      "forks": 65
-    },
-    {
-      "slug": "testmu-ai-phpunit-skill",
-      "name": "testmu-ai/phpunit-skill",
-      "description": "Generate PHPUnit tests in PHP with data providers and mocking",
-      "publisher": "testmu-ai",
-      "publisherSlug": "testmu-ai",
-      "sectionTitle": "Skills by TestMu AI",
-      "kind": "official",
-      "tags": [
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-testmu-ai",
-        "testing",
-        "testmu-ai"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
-      "creatorHandle": "testmu-ai",
-      "hasPublisherLogo": true,
-      "stars": 322,
-      "forks": 65
-    },
-    {
-      "slug": "testmu-ai-playwright-skill",
-      "name": "testmu-ai/playwright-skill",
-      "description": "Generate Playwright E2E tests in TS, JS, Python, Java, or C#",
-      "publisher": "testmu-ai",
-      "publisherSlug": "testmu-ai",
-      "sectionTitle": "Skills by TestMu AI",
-      "kind": "official",
-      "tags": [
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-testmu-ai",
-        "testing",
-        "testmu-ai"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
-      "creatorHandle": "testmu-ai",
-      "hasPublisherLogo": true,
-      "stars": 322,
-      "forks": 65
-    },
-    {
-      "slug": "testmu-ai-protractor-skill",
-      "name": "testmu-ai/protractor-skill",
-      "description": "Generate Protractor E2E tests for Angular in JS/TS (deprecated; prefer Playwright/Cypress)",
-      "publisher": "testmu-ai",
-      "publisherSlug": "testmu-ai",
-      "sectionTitle": "Skills by TestMu AI",
-      "kind": "official",
-      "tags": [
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-testmu-ai",
-        "testing",
-        "testmu-ai"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
-      "creatorHandle": "testmu-ai",
-      "hasPublisherLogo": true,
-      "stars": 322,
-      "forks": 65
-    },
-    {
-      "slug": "testmu-ai-puppeteer-skill",
-      "name": "testmu-ai/puppeteer-skill",
-      "description": "Generate Puppeteer scripts for browser automation, scraping, and PDF generation",
-      "publisher": "testmu-ai",
-      "publisherSlug": "testmu-ai",
-      "sectionTitle": "Skills by TestMu AI",
-      "kind": "official",
-      "tags": [
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-testmu-ai",
-        "testing",
-        "testmu-ai"
+        "skills-by-cypress"
       ],
       "personas": [
         "engineer"
@@ -413,668 +1100,18 @@
         "data-extraction",
         "deployment-ops",
         "development-workflows",
+        "research-synthesis",
         "testing-debugging",
         "workflow-automation"
       ],
       "sourceType": "github-readme",
       "trustLevel": "official",
       "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
-      "creatorHandle": "testmu-ai",
+      "creatorAvatarUrl": "https://github.com/cypress-io.png?size=88",
+      "creatorHandle": "cypress-io",
       "hasPublisherLogo": true,
-      "stars": 322,
-      "forks": 65
-    },
-    {
-      "slug": "testmu-ai-pytest-skill",
-      "name": "testmu-ai/pytest-skill",
-      "description": "Generate pytest tests in Python with fixtures, parametrize, and mocking",
-      "publisher": "testmu-ai",
-      "publisherSlug": "testmu-ai",
-      "sectionTitle": "Skills by TestMu AI",
-      "kind": "official",
-      "tags": [
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-testmu-ai",
-        "testing",
-        "testmu-ai"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
-      "creatorHandle": "testmu-ai",
-      "hasPublisherLogo": true,
-      "stars": 322,
-      "forks": 65
-    },
-    {
-      "slug": "testmu-ai-reqnroll-skill",
-      "name": "testmu-ai/reqnroll-skill",
-      "description": "Generate Reqnroll BDD tests for web and mobile in C#",
-      "publisher": "testmu-ai",
-      "publisherSlug": "testmu-ai",
-      "sectionTitle": "Skills by TestMu AI",
-      "kind": "official",
-      "tags": [
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-testmu-ai",
-        "testing",
-        "testmu-ai"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
-      "creatorHandle": "testmu-ai",
-      "hasPublisherLogo": true,
-      "stars": 322,
-      "forks": 65
-    },
-    {
-      "slug": "testmu-ai-robot-framework-skill",
-      "name": "testmu-ai/robot-framework-skill",
-      "description": "Generate Robot Framework keyword-driven tests in Python",
-      "publisher": "testmu-ai",
-      "publisherSlug": "testmu-ai",
-      "sectionTitle": "Skills by TestMu AI",
-      "kind": "official",
-      "tags": [
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-testmu-ai",
-        "testing",
-        "testmu-ai"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
-      "creatorHandle": "testmu-ai",
-      "hasPublisherLogo": true,
-      "stars": 322,
-      "forks": 65
-    },
-    {
-      "slug": "testmu-ai-rspec-skill",
-      "name": "testmu-ai/rspec-skill",
-      "description": "Generate RSpec tests in Ruby with matchers, hooks, and mocking",
-      "publisher": "testmu-ai",
-      "publisherSlug": "testmu-ai",
-      "sectionTitle": "Skills by TestMu AI",
-      "kind": "official",
-      "tags": [
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-testmu-ai",
-        "testing",
-        "testmu-ai"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "prd-specs",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
-      "creatorHandle": "testmu-ai",
-      "hasPublisherLogo": true,
-      "stars": 322,
-      "forks": 65
-    },
-    {
-      "slug": "testmu-ai-selenide-skill",
-      "name": "testmu-ai/selenide-skill",
-      "description": "Generate Selenide UI tests in Java with auto-waits and a fluent API",
-      "publisher": "testmu-ai",
-      "publisherSlug": "testmu-ai",
-      "sectionTitle": "Skills by TestMu AI",
-      "kind": "official",
-      "tags": [
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-testmu-ai",
-        "testing",
-        "testmu-ai"
-      ],
-      "personas": [
-        "designer",
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "design-critique",
-        "development-workflows",
-        "presentation-building",
-        "testing-debugging",
-        "ui-ux-design",
-        "visual-assets",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
-      "creatorHandle": "testmu-ai",
-      "hasPublisherLogo": true,
-      "stars": 322,
-      "forks": 65
-    },
-    {
-      "slug": "testmu-ai-selenium-skill",
-      "name": "testmu-ai/selenium-skill",
-      "description": "Generate Selenium WebDriver tests in Java, Python, JS, C#, Ruby, or PHP",
-      "publisher": "testmu-ai",
-      "publisherSlug": "testmu-ai",
-      "sectionTitle": "Skills by TestMu AI",
-      "kind": "official",
-      "tags": [
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-testmu-ai",
-        "testing",
-        "testmu-ai"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
-      "creatorHandle": "testmu-ai",
-      "hasPublisherLogo": true,
-      "stars": 322,
-      "forks": 65
-    },
-    {
-      "slug": "testmu-ai-serenity-bdd-skill",
-      "name": "testmu-ai/serenity-bdd-skill",
-      "description": "Generate Serenity BDD tests in Java with the Screenplay pattern and reporting",
-      "publisher": "testmu-ai",
-      "publisherSlug": "testmu-ai",
-      "sectionTitle": "Skills by TestMu AI",
-      "kind": "official",
-      "tags": [
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-testmu-ai",
-        "testing",
-        "testmu-ai"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "reporting",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
-      "creatorHandle": "testmu-ai",
-      "hasPublisherLogo": true,
-      "stars": 322,
-      "forks": 65
-    },
-    {
-      "slug": "testmu-ai-smartui-skill",
-      "name": "testmu-ai/smartui-skill",
-      "description": "Generate SmartUI visual regression configs for screenshot comparison",
-      "publisher": "testmu-ai",
-      "publisherSlug": "testmu-ai",
-      "sectionTitle": "Skills by TestMu AI",
-      "kind": "official",
-      "tags": [
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-testmu-ai",
-        "testing",
-        "testmu-ai"
-      ],
-      "personas": [
-        "designer",
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "design-critique",
-        "development-workflows",
-        "presentation-building",
-        "testing-debugging",
-        "ui-ux-design",
-        "visual-assets",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
-      "creatorHandle": "testmu-ai",
-      "hasPublisherLogo": true,
-      "stars": 322,
-      "forks": 65
-    },
-    {
-      "slug": "testmu-ai-specflow-skill",
-      "name": "testmu-ai/specflow-skill",
-      "description": "Generate SpecFlow BDD tests for C#/.NET with Gherkin and step bindings",
-      "publisher": "testmu-ai",
-      "publisherSlug": "testmu-ai",
-      "sectionTitle": "Skills by TestMu AI",
-      "kind": "official",
-      "tags": [
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-testmu-ai",
-        "testing",
-        "testmu-ai"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "prd-specs",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
-      "creatorHandle": "testmu-ai",
-      "hasPublisherLogo": true,
-      "stars": 322,
-      "forks": 65
-    },
-    {
-      "slug": "testmu-ai-test-framework-migration-skill",
-      "name": "testmu-ai/test-framework-migration-skill",
-      "description": "Migrate tests between Selenium, Playwright, Puppeteer, and Cypress",
-      "publisher": "testmu-ai",
-      "publisherSlug": "testmu-ai",
-      "sectionTitle": "Skills by TestMu AI",
-      "kind": "official",
-      "tags": [
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-testmu-ai",
-        "testing",
-        "testmu-ai"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
-      "creatorHandle": "testmu-ai",
-      "hasPublisherLogo": true,
-      "stars": 322,
-      "forks": 65
-    },
-    {
-      "slug": "testmu-ai-testcafe-skill",
-      "name": "testmu-ai/testcafe-skill",
-      "description": "Generate TestCafe automation tests in JavaScript or TypeScript",
-      "publisher": "testmu-ai",
-      "publisherSlug": "testmu-ai",
-      "sectionTitle": "Skills by TestMu AI",
-      "kind": "official",
-      "tags": [
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-testmu-ai",
-        "testing",
-        "testmu-ai"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
-      "creatorHandle": "testmu-ai",
-      "hasPublisherLogo": true,
-      "stars": 322,
-      "forks": 65
-    },
-    {
-      "slug": "testmu-ai-testng-skill",
-      "name": "testmu-ai/testng-skill",
-      "description": "Generate TestNG tests in Java with data providers and parallel execution",
-      "publisher": "testmu-ai",
-      "publisherSlug": "testmu-ai",
-      "sectionTitle": "Skills by TestMu AI",
-      "kind": "official",
-      "tags": [
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-testmu-ai",
-        "testing",
-        "testmu-ai"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
-      "creatorHandle": "testmu-ai",
-      "hasPublisherLogo": true,
-      "stars": 322,
-      "forks": 65
-    },
-    {
-      "slug": "testmu-ai-testunit-skill",
-      "name": "testmu-ai/testunit-skill",
-      "description": "Generate Test::Unit xUnit-style tests in Ruby",
-      "publisher": "testmu-ai",
-      "publisherSlug": "testmu-ai",
-      "sectionTitle": "Skills by TestMu AI",
-      "kind": "official",
-      "tags": [
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-testmu-ai",
-        "testing",
-        "testmu-ai"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
-      "creatorHandle": "testmu-ai",
-      "hasPublisherLogo": true,
-      "stars": 322,
-      "forks": 65
-    },
-    {
-      "slug": "testmu-ai-unittest-skill",
-      "name": "testmu-ai/unittest-skill",
-      "description": "Generate Python unittest tests with TestCase and setUp/tearDown",
-      "publisher": "testmu-ai",
-      "publisherSlug": "testmu-ai",
-      "sectionTitle": "Skills by TestMu AI",
-      "kind": "official",
-      "tags": [
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-testmu-ai",
-        "testing",
-        "testmu-ai"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
-      "creatorHandle": "testmu-ai",
-      "hasPublisherLogo": true,
-      "stars": 322,
-      "forks": 65
-    },
-    {
-      "slug": "testmu-ai-vitest-skill",
-      "name": "testmu-ai/vitest-skill",
-      "description": "Generate Vitest tests in JS/TS with a Jest-compatible API and ESM",
-      "publisher": "testmu-ai",
-      "publisherSlug": "testmu-ai",
-      "sectionTitle": "Skills by TestMu AI",
-      "kind": "official",
-      "tags": [
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-testmu-ai",
-        "testing",
-        "testmu-ai"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
-      "creatorHandle": "testmu-ai",
-      "hasPublisherLogo": true,
-      "stars": 322,
-      "forks": 65
-    },
-    {
-      "slug": "testmu-ai-webdriverio-skill",
-      "name": "testmu-ai/webdriverio-skill",
-      "description": "Generate WebdriverIO (WDIO) automation tests in JavaScript or TypeScript",
-      "publisher": "testmu-ai",
-      "publisherSlug": "testmu-ai",
-      "sectionTitle": "Skills by TestMu AI",
-      "kind": "official",
-      "tags": [
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-testmu-ai",
-        "testing",
-        "testmu-ai"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
-      "creatorHandle": "testmu-ai",
-      "hasPublisherLogo": true,
-      "stars": 322,
-      "forks": 65
-    },
-    {
-      "slug": "testmu-ai-xcuitest-skill",
-      "name": "testmu-ai/xcuitest-skill",
-      "description": "Generate XCUITest UI tests for iOS/iPadOS apps in Swift",
-      "publisher": "testmu-ai",
-      "publisherSlug": "testmu-ai",
-      "sectionTitle": "Skills by TestMu AI",
-      "kind": "official",
-      "tags": [
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-testmu-ai",
-        "testing",
-        "testmu-ai"
-      ],
-      "personas": [
-        "designer",
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "design-critique",
-        "development-workflows",
-        "presentation-building",
-        "testing-debugging",
-        "ui-ux-design",
-        "visual-assets",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
-      "creatorHandle": "testmu-ai",
-      "hasPublisherLogo": true,
-      "stars": 322,
-      "forks": 65
-    },
-    {
-      "slug": "testmu-ai-xunit-skill",
-      "name": "testmu-ai/xunit-skill",
-      "description": "Generate xUnit.net tests in C# with Fact/Theory and FluentAssertions",
-      "publisher": "testmu-ai",
-      "publisherSlug": "testmu-ai",
-      "sectionTitle": "Skills by TestMu AI",
-      "kind": "official",
-      "tags": [
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "skills-by-testmu-ai",
-        "testing",
-        "testmu-ai"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-readme",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/testmu-ai.png?size=88",
-      "creatorHandle": "testmu-ai",
-      "hasPublisherLogo": true,
-      "stars": 322,
-      "forks": 65
+      "stars": 36,
+      "forks": 3
     },
     {
       "slug": "qdrant-skills",
@@ -1107,8 +1144,8 @@
       "creatorAvatarUrl": "https://github.com/qdrant.png?size=88",
       "creatorHandle": "qdrant",
       "hasPublisherLogo": true,
-      "stars": 189,
-      "forks": 21
+      "stars": 199,
+      "forks": 23
     },
     {
       "slug": "brianrwagner-ai-marketing-skills",
@@ -1149,8 +1186,8 @@
       "creatorAvatarUrl": "https://github.com/brianrwagner.png?size=88",
       "creatorHandle": "brianrwagner",
       "hasPublisherLogo": true,
-      "stars": 347,
-      "forks": 83
+      "stars": 367,
+      "forks": 87
     },
     {
       "slug": "agricidaniel-claude-seo",
@@ -1193,8 +1230,8 @@
       "creatorAvatarUrl": "https://github.com/agricidaniel.png?size=88",
       "creatorHandle": "agricidaniel",
       "hasPublisherLogo": true,
-      "stars": 10700,
-      "forks": 1557
+      "stars": 11392,
+      "forks": 1668
     },
     {
       "slug": "wshuyi-x-article-publisher-skill",
@@ -1226,8 +1263,8 @@
       "creatorAvatarUrl": "https://github.com/wshuyi.png?size=88",
       "creatorHandle": "wshuyi",
       "hasPublisherLogo": true,
-      "stars": 828,
-      "forks": 90
+      "stars": 831,
+      "forks": 91
     },
     {
       "slug": "cosmoblk-email-marketing-bible",
@@ -1264,7 +1301,7 @@
       "creatorAvatarUrl": "https://github.com/CosmoBlk.png?size=88",
       "creatorHandle": "CosmoBlk",
       "hasPublisherLogo": true,
-      "stars": 241,
+      "stars": 243,
       "forks": 34
     },
     {
@@ -1304,8 +1341,8 @@
       "creatorAvatarUrl": "https://github.com/smixs.png?size=88",
       "creatorHandle": "smixs",
       "hasPublisherLogo": true,
-      "stars": 94,
-      "forks": 28
+      "stars": 100,
+      "forks": 29
     },
     {
       "slug": "xquik-dev-x-twitter-scraper",
@@ -1348,8 +1385,8 @@
       "creatorAvatarUrl": "https://github.com/Xquik-dev.png?size=88",
       "creatorHandle": "Xquik-dev",
       "hasPublisherLogo": true,
-      "stars": 134,
-      "forks": 12
+      "stars": 153,
+      "forks": 14
     },
     {
       "slug": "xquik-dev-tweetclaw",
@@ -1383,7 +1420,7 @@
       "creatorAvatarUrl": "https://github.com/xquik-dev.png?size=88",
       "creatorHandle": "xquik-dev",
       "hasPublisherLogo": true,
-      "stars": 85,
+      "stars": 88,
       "forks": 6
     },
     {
@@ -1417,7 +1454,7 @@
       "creatorAvatarUrl": "https://github.com/shadowpr0.png?size=88",
       "creatorHandle": "shadowpr0",
       "hasPublisherLogo": true,
-      "stars": 47,
+      "stars": 48,
       "forks": 4
     },
     {
@@ -1455,8 +1492,8 @@
       "creatorAvatarUrl": "https://github.com/blader.png?size=88",
       "creatorHandle": "blader",
       "hasPublisherLogo": true,
-      "stars": 27830,
-      "forks": 2580
+      "stars": 29215,
+      "forks": 2695
     },
     {
       "slug": "mohamedabdallah-14-unslop",
@@ -1495,7 +1532,7 @@
       "creatorAvatarUrl": "https://github.com/mohamedabdallah-14.png?size=88",
       "creatorHandle": "mohamedabdallah-14",
       "hasPublisherLogo": true,
-      "stars": 75,
+      "stars": 78,
       "forks": 1
     },
     {
@@ -1539,8 +1576,8 @@
       "creatorAvatarUrl": "https://github.com/eronred.png?size=88",
       "creatorHandle": "eronred",
       "hasPublisherLogo": true,
-      "stars": 1589,
-      "forks": 103
+      "stars": 1624,
+      "forks": 107
     },
     {
       "slug": "degausai-wonda",
@@ -1551,6 +1588,7 @@
       "sectionTitle": "Marketing",
       "kind": "official",
       "tags": [
+        "community-marketplace",
         "degausai",
         "marketing",
         "namespaced",
@@ -1565,15 +1603,19 @@
         "landing-pages",
         "reporting",
         "research-synthesis",
-        "visual-assets"
+        "visual-assets",
+        "workflow-automation"
       ],
       "sourceType": "github-readme",
       "trustLevel": "curated",
-      "riskFlags": [],
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
       "creatorAvatarUrl": "https://github.com/degausai.png?size=88",
       "creatorHandle": "degausai",
       "hasPublisherLogo": true,
-      "stars": 133,
+      "stars": 135,
       "forks": 20
     },
     {
@@ -1616,8 +1658,51 @@
       "creatorAvatarUrl": "https://github.com/gitroomhq.png?size=88",
       "creatorHandle": "gitroomhq",
       "hasPublisherLogo": true,
-      "stars": 337,
-      "forks": 58
+      "stars": 353,
+      "forks": 64
+    },
+    {
+      "slug": "taisly-agent",
+      "name": "taisly/agent",
+      "description": "Codex plugin, Agent Skill, CLI, and MCP server for publishing approved short-form videos to TikTok, Instagram Reels, YouTube Shorts, X, and Facebook through Taisly",
+      "publisher": "taisly",
+      "publisherSlug": "taisly",
+      "sectionTitle": "Marketing",
+      "kind": "official",
+      "tags": [
+        "github-discovery",
+        "marketing",
+        "namespaced",
+        "publisher-namespaced",
+        "taisly"
+      ],
+      "personas": [
+        "engineer",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "curated",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/taisly.png?size=88",
+      "creatorHandle": "taisly",
+      "hasPublisherLogo": true,
+      "stars": 291,
+      "forks": 1
     },
     {
       "slug": "indranilbanerjee-digital-marketing-pro",
@@ -1658,8 +1743,8 @@
       "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
       "creatorHandle": "indranilbanerjee",
       "hasPublisherLogo": true,
-      "stars": 217,
-      "forks": 48
+      "stars": 226,
+      "forks": 50
     },
     {
       "slug": "nowork-studio-notfair",
@@ -1691,8 +1776,48 @@
       "creatorAvatarUrl": "https://github.com/nowork-studio.png?size=88",
       "creatorHandle": "nowork-studio",
       "hasPublisherLogo": true,
-      "stars": 3082,
-      "forks": 374
+      "stars": 3130,
+      "forks": 380
+    },
+    {
+      "slug": "aaron-he-zhu-aaron-marketing-skills",
+      "name": "aaron-he-zhu/aaron-marketing-skills",
+      "description": "69 marketing skills across SEO/GEO, influencer, paid ads, and email on one shared contract, with 5 benchmark-driven auditor gates (CORE-EEAT, CITE, C³, ROAS, SEND) and keyless data connectors",
+      "publisher": "aaron-he-zhu",
+      "publisherSlug": "aaron-he-zhu",
+      "sectionTitle": "Marketing",
+      "kind": "official",
+      "tags": [
+        "aaron-he-zhu",
+        "marketing",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "curated",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/aaron-he-zhu.png?size=88",
+      "creatorHandle": "aaron-he-zhu",
+      "hasPublisherLogo": true,
+      "stars": 2385,
+      "forks": 325
     },
     {
       "slug": "pspdfkit-labs-nutrient-agent-skill",
@@ -1733,7 +1858,7 @@
       "creatorAvatarUrl": "https://github.com/pspdfkit-labs.png?size=88",
       "creatorHandle": "pspdfkit-labs",
       "hasPublisherLogo": true,
-      "stars": 12,
+      "stars": 13,
       "forks": 0
     },
     {
@@ -1805,8 +1930,8 @@
       "creatorAvatarUrl": "https://github.com/op7418.png?size=88",
       "creatorHandle": "op7418",
       "hasPublisherLogo": true,
-      "stars": 3093,
-      "forks": 336
+      "stars": 3122,
+      "forks": 339
     },
     {
       "slug": "zarazhangrui-frontend-slides",
@@ -1854,8 +1979,8 @@
       "creatorAvatarUrl": "https://github.com/zarazhangrui.png?size=88",
       "creatorHandle": "zarazhangrui",
       "hasPublisherLogo": true,
-      "stars": 24753,
-      "forks": 2015
+      "stars": 25595,
+      "forks": 2084
     },
     {
       "slug": "gokapso-integrate-whatsapp",
@@ -1891,7 +2016,7 @@
       "creatorAvatarUrl": "https://github.com/gokapso.png?size=88",
       "creatorHandle": "gokapso",
       "hasPublisherLogo": true,
-      "stars": 139,
+      "stars": 141,
       "forks": 19
     },
     {
@@ -1929,7 +2054,7 @@
       "creatorAvatarUrl": "https://github.com/gokapso.png?size=88",
       "creatorHandle": "gokapso",
       "hasPublisherLogo": true,
-      "stars": 139,
+      "stars": 141,
       "forks": 19
     },
     {
@@ -1971,7 +2096,7 @@
       "creatorAvatarUrl": "https://github.com/gokapso.png?size=88",
       "creatorHandle": "gokapso",
       "hasPublisherLogo": true,
-      "stars": 139,
+      "stars": 141,
       "forks": 19
     },
     {
@@ -2015,8 +2140,8 @@
       "creatorAvatarUrl": "https://github.com/PleasePrompto.png?size=88",
       "creatorHandle": "PleasePrompto",
       "hasPublisherLogo": true,
-      "stars": 7321,
-      "forks": 821
+      "stars": 7385,
+      "forks": 827
     },
     {
       "slug": "obra-superpowers-lab",
@@ -2040,7 +2165,7 @@
       "creatorAvatarUrl": "https://github.com/obra.png?size=88",
       "creatorHandle": "obra",
       "hasPublisherLogo": true,
-      "stars": 390,
+      "stars": 395,
       "forks": 30
     },
     {
@@ -2087,8 +2212,8 @@
       "creatorAvatarUrl": "https://github.com/obra.png?size=88",
       "creatorHandle": "obra",
       "hasPublisherLogo": true,
-      "stars": 248152,
-      "forks": 22026
+      "stars": 254731,
+      "forks": 22764
     },
     {
       "slug": "obra-writing-plans",
@@ -2131,8 +2256,8 @@
       "creatorAvatarUrl": "https://github.com/obra.png?size=88",
       "creatorHandle": "obra",
       "hasPublisherLogo": true,
-      "stars": 248152,
-      "forks": 22026
+      "stars": 254731,
+      "forks": 22764
     },
     {
       "slug": "obra-executing-plans",
@@ -2160,8 +2285,8 @@
       "creatorAvatarUrl": "https://github.com/obra.png?size=88",
       "creatorHandle": "obra",
       "hasPublisherLogo": true,
-      "stars": 248152,
-      "forks": 22026
+      "stars": 254731,
+      "forks": 22764
     },
     {
       "slug": "obra-dispatching-parallel-agents",
@@ -2197,8 +2322,8 @@
       "creatorAvatarUrl": "https://github.com/obra.png?size=88",
       "creatorHandle": "obra",
       "hasPublisherLogo": true,
-      "stars": 248152,
-      "forks": 22026
+      "stars": 254731,
+      "forks": 22764
     },
     {
       "slug": "obra-sharing-skills",
@@ -2222,8 +2347,8 @@
       "creatorAvatarUrl": "https://github.com/obra.png?size=88",
       "creatorHandle": "obra",
       "hasPublisherLogo": true,
-      "stars": 248152,
-      "forks": 22026
+      "stars": 254731,
+      "forks": 22764
     },
     {
       "slug": "obra-using-superpowers",
@@ -2259,8 +2384,8 @@
       "creatorAvatarUrl": "https://github.com/obra.png?size=88",
       "creatorHandle": "obra",
       "hasPublisherLogo": true,
-      "stars": 248152,
-      "forks": 22026
+      "stars": 254731,
+      "forks": 22764
     },
     {
       "slug": "op7418-youtube-clipper-skill",
@@ -2290,8 +2415,8 @@
       "creatorAvatarUrl": "https://github.com/op7418.png?size=88",
       "creatorHandle": "op7418",
       "hasPublisherLogo": true,
-      "stars": 2045,
-      "forks": 306
+      "stars": 2058,
+      "forks": 307
     },
     {
       "slug": "ognjengt-founder-skills",
@@ -2317,8 +2442,8 @@
       "creatorAvatarUrl": "https://github.com/ognjengt.png?size=88",
       "creatorHandle": "ognjengt",
       "hasPublisherLogo": true,
-      "stars": 211,
-      "forks": 24
+      "stars": 214,
+      "forks": 25
     },
     {
       "slug": "everyinc-charlie-cfo-skill",
@@ -2360,7 +2485,7 @@
       "creatorAvatarUrl": "https://github.com/EveryInc.png?size=88",
       "creatorHandle": "EveryInc",
       "hasPublisherLogo": true,
-      "stars": 276,
+      "stars": 280,
       "forks": 35
     },
     {
@@ -2385,8 +2510,8 @@
       "creatorAvatarUrl": "https://github.com/openaccountants.png?size=88",
       "creatorHandle": "openaccountants",
       "hasPublisherLogo": true,
-      "stars": 233,
-      "forks": 36
+      "stars": 248,
+      "forks": 39
     },
     {
       "slug": "wrsmith108-linear-claude-skill",
@@ -2416,7 +2541,7 @@
       "creatorAvatarUrl": "https://github.com/wrsmith108.png?size=88",
       "creatorHandle": "wrsmith108",
       "hasPublisherLogo": true,
-      "stars": 116,
+      "stars": 117,
       "forks": 13
     },
     {
@@ -2466,7 +2591,7 @@
       "creatorAvatarUrl": "https://github.com/hanfang.png?size=88",
       "creatorHandle": "hanfang",
       "hasPublisherLogo": true,
-      "stars": 35,
+      "stars": 38,
       "forks": 3
     },
     {
@@ -2495,8 +2620,8 @@
       "creatorAvatarUrl": "https://github.com/kreuzberg-dev.png?size=88",
       "creatorHandle": "kreuzberg-dev",
       "hasPublisherLogo": true,
-      "stars": 8593,
-      "forks": 508
+      "stars": 8643,
+      "forks": 518
     },
     {
       "slug": "paramchoudhary-resumeskills",
@@ -2535,8 +2660,8 @@
       "creatorAvatarUrl": "https://github.com/paramchoudhary.png?size=88",
       "creatorHandle": "paramchoudhary",
       "hasPublisherLogo": true,
-      "stars": 1032,
-      "forks": 104
+      "stars": 1137,
+      "forks": 110
     },
     {
       "slug": "roundtable02-tutor-skills",
@@ -2569,8 +2694,8 @@
       "creatorAvatarUrl": "https://github.com/roundtable02.png?size=88",
       "creatorHandle": "roundtable02",
       "hasPublisherLogo": true,
-      "stars": 1013,
-      "forks": 87
+      "stars": 1038,
+      "forks": 88
     },
     {
       "slug": "neolabhq-write-concisely",
@@ -2603,8 +2728,8 @@
       "creatorAvatarUrl": "https://github.com/neolabhq.png?size=88",
       "creatorHandle": "neolabhq",
       "hasPublisherLogo": true,
-      "stars": 1205,
-      "forks": 129
+      "stars": 1239,
+      "forks": 132
     },
     {
       "slug": "resciencelab-opc-skills",
@@ -2642,8 +2767,8 @@
       "creatorAvatarUrl": "https://github.com/resciencelab.png?size=88",
       "creatorHandle": "resciencelab",
       "hasPublisherLogo": true,
-      "stars": 1085,
-      "forks": 109
+      "stars": 1156,
+      "forks": 115
     },
     {
       "slug": "seanzor-claude-speed-reader",
@@ -2695,7 +2820,7 @@
       "creatorAvatarUrl": "https://github.com/charlie85270.png?size=88",
       "creatorHandle": "charlie85270",
       "hasPublisherLogo": true,
-      "stars": 317,
+      "stars": 322,
       "forks": 64
     },
     {
@@ -2747,8 +2872,8 @@
       "creatorAvatarUrl": "https://github.com/Digidai.png?size=88",
       "creatorHandle": "Digidai",
       "hasPublisherLogo": true,
-      "stars": 119,
-      "forks": 12
+      "stars": 125,
+      "forks": 13
     },
     {
       "slug": "deusyu-translate-book",
@@ -2779,8 +2904,8 @@
       "creatorAvatarUrl": "https://github.com/deusyu.png?size=88",
       "creatorHandle": "deusyu",
       "hasPublisherLogo": true,
-      "stars": 891,
-      "forks": 116
+      "stars": 913,
+      "forks": 121
     },
     {
       "slug": "mvanhorn-last30days-skill",
@@ -2806,8 +2931,8 @@
       "creatorAvatarUrl": "https://github.com/mvanhorn.png?size=88",
       "creatorHandle": "mvanhorn",
       "hasPublisherLogo": true,
-      "stars": 50063,
-      "forks": 4172
+      "stars": 52214,
+      "forks": 4546
     },
     {
       "slug": "santifer-career-ops",
@@ -2843,8 +2968,43 @@
       "creatorAvatarUrl": "https://github.com/santifer.png?size=88",
       "creatorHandle": "santifer",
       "hasPublisherLogo": true,
-      "stars": 58923,
-      "forks": 11568
+      "stars": 60134,
+      "forks": 11920
+    },
+    {
+      "slug": "linked-api-linkedin",
+      "name": "Linked-API/linkedin",
+      "description": "Fetch LinkedIn profiles, search people and companies, send messages, manage connections, create posts, react, comment, and run custom LinkedIn workflows from Claude Code, Codex, Cursor, and Windsurf.",
+      "publisher": "Linked-API",
+      "publisherSlug": "linked-api",
+      "sectionTitle": "Productivity and Collaboration",
+      "kind": "official",
+      "tags": [
+        "linked-api",
+        "namespaced",
+        "productivity-and-collaboration",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "curated",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/linked-api.png?size=88",
+      "creatorHandle": "linked-api",
+      "hasPublisherLogo": true,
+      "stars": 34,
+      "forks": 7
     },
     {
       "slug": "pattern-ai-labs-agentcall",
@@ -2872,8 +3032,36 @@
       "creatorAvatarUrl": "https://github.com/pattern-ai-labs.png?size=88",
       "creatorHandle": "pattern-ai-labs",
       "hasPublisherLogo": true,
-      "stars": 106,
-      "forks": 10
+      "stars": 110,
+      "forks": 11
+    },
+    {
+      "slug": "sendmux-skills",
+      "name": "Sendmux/skills",
+      "description": "Sendmux email and mailbox workflows for agents",
+      "publisher": "Sendmux",
+      "publisherSlug": "sendmux",
+      "sectionTitle": "Productivity and Collaboration",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "productivity-and-collaboration",
+        "publisher-namespaced",
+        "sendmux"
+      ],
+      "personas": [],
+      "jobs": [
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "curated",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/sendmux.png?size=88",
+      "creatorHandle": "sendmux",
+      "hasPublisherLogo": true,
+      "stars": 53,
+      "forks": 1
     },
     {
       "slug": "robzolkos-skill-rails-upgrade",
@@ -2982,8 +3170,8 @@
       "creatorAvatarUrl": "https://github.com/antonbabenko.png?size=88",
       "creatorHandle": "antonbabenko",
       "hasPublisherLogo": true,
-      "stars": 2150,
-      "forks": 190
+      "stars": 2181,
+      "forks": 194
     },
     {
       "slug": "zxkane-aws-skills",
@@ -3015,8 +3203,8 @@
       "creatorAvatarUrl": "https://github.com/zxkane.png?size=88",
       "creatorHandle": "zxkane",
       "hasPublisherLogo": true,
-      "stars": 329,
-      "forks": 37
+      "stars": 330,
+      "forks": 35
     },
     {
       "slug": "rootly-ai-labs-rootly-incident-responder",
@@ -3053,7 +3241,7 @@
       "creatorAvatarUrl": "https://github.com/rootly-ai-labs.png?size=88",
       "creatorHandle": "rootly-ai-labs",
       "hasPublisherLogo": true,
-      "stars": 43,
+      "stars": 44,
       "forks": 23
     },
     {
@@ -3086,8 +3274,8 @@
       "creatorAvatarUrl": "https://github.com/conorluddy.png?size=88",
       "creatorHandle": "conorluddy",
       "hasPublisherLogo": true,
-      "stars": 1135,
-      "forks": 76
+      "stars": 1152,
+      "forks": 77
     },
     {
       "slug": "ramzesenok-ios-accessibility-audit-skill",
@@ -3157,8 +3345,8 @@
       "creatorAvatarUrl": "https://github.com/truongduy2611.png?size=88",
       "creatorHandle": "truongduy2611",
       "hasPublisherLogo": true,
-      "stars": 1275,
-      "forks": 68
+      "stars": 1292,
+      "forks": 71
     },
     {
       "slug": "coderabbitai-skills",
@@ -3190,7 +3378,7 @@
       "creatorAvatarUrl": "https://github.com/coderabbitai.png?size=88",
       "creatorHandle": "coderabbitai",
       "hasPublisherLogo": true,
-      "stars": 123,
+      "stars": 126,
       "forks": 8
     },
     {
@@ -3238,8 +3426,8 @@
       "creatorAvatarUrl": "https://github.com/sanjay3290.png?size=88",
       "creatorHandle": "sanjay3290",
       "hasPublisherLogo": true,
-      "stars": 334,
-      "forks": 36
+      "stars": 341,
+      "forks": 37
     },
     {
       "slug": "sanjay3290-deep-research",
@@ -3282,8 +3470,8 @@
       "creatorAvatarUrl": "https://github.com/sanjay3290.png?size=88",
       "creatorHandle": "sanjay3290",
       "hasPublisherLogo": true,
-      "stars": 334,
-      "forks": 36
+      "stars": 341,
+      "forks": 37
     },
     {
       "slug": "jthack-ffuf-claude-skill",
@@ -3316,7 +3504,7 @@
       "creatorHandle": "jthack",
       "hasPublisherLogo": true,
       "stars": 196,
-      "forks": 18
+      "forks": 19
     },
     {
       "slug": "lackeyjb-playwright-skill",
@@ -3357,8 +3545,8 @@
       "creatorAvatarUrl": "https://github.com/lackeyjb.png?size=88",
       "creatorHandle": "lackeyjb",
       "hasPublisherLogo": true,
-      "stars": 2877,
-      "forks": 208
+      "stars": 2912,
+      "forks": 209
     },
     {
       "slug": "ibelick-ui-skills",
@@ -3395,8 +3583,8 @@
       "creatorAvatarUrl": "https://github.com/ibelick.png?size=88",
       "creatorHandle": "ibelick",
       "hasPublisherLogo": true,
-      "stars": 3554,
-      "forks": 147
+      "stars": 3708,
+      "forks": 156
     },
     {
       "slug": "muthuishere-hand-drawn-diagrams",
@@ -3429,7 +3617,7 @@
       "creatorAvatarUrl": "https://github.com/muthuishere.png?size=88",
       "creatorHandle": "muthuishere",
       "hasPublisherLogo": true,
-      "stars": 49,
+      "stars": 51,
       "forks": 10
     },
     {
@@ -3467,8 +3655,8 @@
       "creatorAvatarUrl": "https://github.com/nextlevelbuilder.png?size=88",
       "creatorHandle": "nextlevelbuilder",
       "hasPublisherLogo": true,
-      "stars": 101959,
-      "forks": 10747
+      "stars": 105615,
+      "forks": 11205
     },
     {
       "slug": "ehmo-platform-design-skills",
@@ -3505,7 +3693,7 @@
       "creatorAvatarUrl": "https://github.com/ehmo.png?size=88",
       "creatorHandle": "ehmo",
       "hasPublisherLogo": true,
-      "stars": 431,
+      "stars": 445,
       "forks": 26
     },
     {
@@ -3539,7 +3727,7 @@
       "creatorAvatarUrl": "https://github.com/scarletkc.png?size=88",
       "creatorHandle": "scarletkc",
       "hasPublisherLogo": true,
-      "stars": 225,
+      "stars": 227,
       "forks": 13
     },
     {
@@ -3577,8 +3765,8 @@
       "creatorAvatarUrl": "https://github.com/obra.png?size=88",
       "creatorHandle": "obra",
       "hasPublisherLogo": true,
-      "stars": 248152,
-      "forks": 22026
+      "stars": 254731,
+      "forks": 22764
     },
     {
       "slug": "obra-subagent-driven-development",
@@ -3614,8 +3802,8 @@
       "creatorAvatarUrl": "https://github.com/obra.png?size=88",
       "creatorHandle": "obra",
       "hasPublisherLogo": true,
-      "stars": 248152,
-      "forks": 22026
+      "stars": 254731,
+      "forks": 22764
     },
     {
       "slug": "obra-systematic-debugging",
@@ -3651,8 +3839,8 @@
       "creatorAvatarUrl": "https://github.com/obra.png?size=88",
       "creatorHandle": "obra",
       "hasPublisherLogo": true,
-      "stars": 248152,
-      "forks": 22026
+      "stars": 254731,
+      "forks": 22764
     },
     {
       "slug": "obra-root-cause-tracing",
@@ -3684,8 +3872,8 @@
       "creatorAvatarUrl": "https://github.com/obra.png?size=88",
       "creatorHandle": "obra",
       "hasPublisherLogo": true,
-      "stars": 248152,
-      "forks": 22026
+      "stars": 254731,
+      "forks": 22764
     },
     {
       "slug": "obra-testing-skills-with-subagents",
@@ -3717,8 +3905,8 @@
       "creatorAvatarUrl": "https://github.com/obra.png?size=88",
       "creatorHandle": "obra",
       "hasPublisherLogo": true,
-      "stars": 248152,
-      "forks": 22026
+      "stars": 254731,
+      "forks": 22764
     },
     {
       "slug": "obra-testing-anti-patterns",
@@ -3750,8 +3938,8 @@
       "creatorAvatarUrl": "https://github.com/obra.png?size=88",
       "creatorHandle": "obra",
       "hasPublisherLogo": true,
-      "stars": 248152,
-      "forks": 22026
+      "stars": 254731,
+      "forks": 22764
     },
     {
       "slug": "obra-finishing-a-development-branch",
@@ -3788,8 +3976,8 @@
       "creatorAvatarUrl": "https://github.com/obra.png?size=88",
       "creatorHandle": "obra",
       "hasPublisherLogo": true,
-      "stars": 248152,
-      "forks": 22026
+      "stars": 254731,
+      "forks": 22764
     },
     {
       "slug": "obra-requesting-code-review",
@@ -3831,8 +4019,8 @@
       "creatorAvatarUrl": "https://github.com/obra.png?size=88",
       "creatorHandle": "obra",
       "hasPublisherLogo": true,
-      "stars": 248152,
-      "forks": 22026
+      "stars": 254731,
+      "forks": 22764
     },
     {
       "slug": "obra-receiving-code-review",
@@ -3870,8 +4058,8 @@
       "creatorAvatarUrl": "https://github.com/obra.png?size=88",
       "creatorHandle": "obra",
       "hasPublisherLogo": true,
-      "stars": 248152,
-      "forks": 22026
+      "stars": 254731,
+      "forks": 22764
     },
     {
       "slug": "obra-using-git-worktrees",
@@ -3907,8 +4095,8 @@
       "creatorAvatarUrl": "https://github.com/obra.png?size=88",
       "creatorHandle": "obra",
       "hasPublisherLogo": true,
-      "stars": 248152,
-      "forks": 22026
+      "stars": 254731,
+      "forks": 22764
     },
     {
       "slug": "obra-verification-before-completion",
@@ -3946,8 +4134,8 @@
       "creatorAvatarUrl": "https://github.com/obra.png?size=88",
       "creatorHandle": "obra",
       "hasPublisherLogo": true,
-      "stars": 248152,
-      "forks": 22026
+      "stars": 254731,
+      "forks": 22764
     },
     {
       "slug": "obra-condition-based-waiting",
@@ -3979,8 +4167,8 @@
       "creatorAvatarUrl": "https://github.com/obra.png?size=88",
       "creatorHandle": "obra",
       "hasPublisherLogo": true,
-      "stars": 248152,
-      "forks": 22026
+      "stars": 254731,
+      "forks": 22764
     },
     {
       "slug": "obra-commands",
@@ -4012,8 +4200,8 @@
       "creatorAvatarUrl": "https://github.com/obra.png?size=88",
       "creatorHandle": "obra",
       "hasPublisherLogo": true,
-      "stars": 248152,
-      "forks": 22026
+      "stars": 254731,
+      "forks": 22764
     },
     {
       "slug": "obra-writing-skills",
@@ -4050,8 +4238,8 @@
       "creatorAvatarUrl": "https://github.com/obra.png?size=88",
       "creatorHandle": "obra",
       "hasPublisherLogo": true,
-      "stars": 248152,
-      "forks": 22026
+      "stars": 254731,
+      "forks": 22764
     },
     {
       "slug": "fvadicamo-dev-agent-skills",
@@ -4116,7 +4304,7 @@
       "creatorAvatarUrl": "https://github.com/omkamal.png?size=88",
       "creatorHandle": "omkamal",
       "hasPublisherLogo": true,
-      "stars": 86,
+      "stars": 88,
       "forks": 10
     },
     {
@@ -4154,7 +4342,7 @@
       "creatorAvatarUrl": "https://github.com/alinaqi.png?size=88",
       "creatorHandle": "alinaqi",
       "hasPublisherLogo": true,
-      "stars": 700,
+      "stars": 701,
       "forks": 56
     },
     {
@@ -4192,7 +4380,7 @@
       "creatorAvatarUrl": "https://github.com/zhanghandong.png?size=88",
       "creatorHandle": "zhanghandong",
       "hasPublisherLogo": true,
-      "stars": 745,
+      "stars": 743,
       "forks": 87
     },
     {
@@ -4241,7 +4429,6 @@
       "tags": [
         "avdlee",
         "development-and-testing",
-        "github-discovery",
         "mobile",
         "namespaced",
         "publisher-namespaced"
@@ -4259,15 +4446,12 @@
       ],
       "sourceType": "github-readme",
       "trustLevel": "curated",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/AvdLee.png?size=88",
-      "creatorHandle": "AvdLee",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/avdlee.png?size=88",
+      "creatorHandle": "avdlee",
       "hasPublisherLogo": true,
-      "stars": 3187,
-      "forks": 148
+      "stars": 3263,
+      "forks": 149
     },
     {
       "slug": "efremidze-swift-patterns-skill",
@@ -4335,7 +4519,7 @@
       "creatorAvatarUrl": "https://github.com/joannis.png?size=88",
       "creatorHandle": "joannis",
       "hasPublisherLogo": true,
-      "stars": 61,
+      "stars": 60,
       "forks": 5
     },
     {
@@ -4368,7 +4552,7 @@
       "creatorAvatarUrl": "https://github.com/rudrankriyam.png?size=88",
       "creatorHandle": "rudrankriyam",
       "hasPublisherLogo": true,
-      "stars": 895,
+      "stars": 907,
       "forks": 48
     },
     {
@@ -4402,7 +4586,7 @@
       "creatorAvatarUrl": "https://github.com/rameerez.png?size=88",
       "creatorHandle": "rameerez",
       "hasPublisherLogo": true,
-      "stars": 29,
+      "stars": 28,
       "forks": 1
     },
     {
@@ -4472,8 +4656,8 @@
       "creatorAvatarUrl": "https://github.com/cloudai-x.png?size=88",
       "creatorHandle": "cloudai-x",
       "hasPublisherLogo": true,
-      "stars": 2545,
-      "forks": 291
+      "stars": 2595,
+      "forks": 294
     },
     {
       "slug": "leonxlnx-taste-skill",
@@ -4520,8 +4704,8 @@
       "creatorAvatarUrl": "https://github.com/Leonxlnx.png?size=88",
       "creatorHandle": "Leonxlnx",
       "hasPublisherLogo": true,
-      "stars": 59586,
-      "forks": 4041
+      "stars": 63531,
+      "forks": 4485
     },
     {
       "slug": "testdino-hq-playwright-skill",
@@ -4564,8 +4748,8 @@
       "creatorAvatarUrl": "https://github.com/testdino-hq.png?size=88",
       "creatorHandle": "testdino-hq",
       "hasPublisherLogo": true,
-      "stars": 308,
-      "forks": 49
+      "stars": 312,
+      "forks": 48
     },
     {
       "slug": "neolabhq-code-review",
@@ -4598,8 +4782,8 @@
       "creatorAvatarUrl": "https://github.com/neolabhq.png?size=88",
       "creatorHandle": "neolabhq",
       "hasPublisherLogo": true,
-      "stars": 1205,
-      "forks": 129
+      "stars": 1239,
+      "forks": 132
     },
     {
       "slug": "neolabhq-reflexion",
@@ -4631,8 +4815,8 @@
       "creatorAvatarUrl": "https://github.com/neolabhq.png?size=88",
       "creatorHandle": "neolabhq",
       "hasPublisherLogo": true,
-      "stars": 1205,
-      "forks": 129
+      "stars": 1239,
+      "forks": 132
     },
     {
       "slug": "neolabhq-sdd",
@@ -4674,8 +4858,8 @@
       "creatorAvatarUrl": "https://github.com/neolabhq.png?size=88",
       "creatorHandle": "neolabhq",
       "hasPublisherLogo": true,
-      "stars": 1205,
-      "forks": 129
+      "stars": 1239,
+      "forks": 132
     },
     {
       "slug": "neolabhq-ddd",
@@ -4712,8 +4896,8 @@
       "creatorAvatarUrl": "https://github.com/neolabhq.png?size=88",
       "creatorHandle": "neolabhq",
       "hasPublisherLogo": true,
-      "stars": 1205,
-      "forks": 129
+      "stars": 1239,
+      "forks": 132
     },
     {
       "slug": "neolabhq-sadd",
@@ -4745,8 +4929,8 @@
       "creatorAvatarUrl": "https://github.com/neolabhq.png?size=88",
       "creatorHandle": "neolabhq",
       "hasPublisherLogo": true,
-      "stars": 1205,
-      "forks": 129
+      "stars": 1239,
+      "forks": 132
     },
     {
       "slug": "neolabhq-kaizen",
@@ -4778,8 +4962,8 @@
       "creatorAvatarUrl": "https://github.com/neolabhq.png?size=88",
       "creatorHandle": "neolabhq",
       "hasPublisherLogo": true,
-      "stars": 1205,
-      "forks": 129
+      "stars": 1239,
+      "forks": 132
     },
     {
       "slug": "hamelsmu-eval-audit",
@@ -5095,8 +5279,8 @@
       "creatorAvatarUrl": "https://github.com/mattpocock.png?size=88",
       "creatorHandle": "mattpocock",
       "hasPublisherLogo": true,
-      "stars": 159251,
-      "forks": 13680
+      "stars": 170443,
+      "forks": 14664
     },
     {
       "slug": "mukul975-anthropic-cybersecurity-skills",
@@ -5135,8 +5319,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": true,
-      "stars": 24819,
-      "forks": 2833
+      "stars": 25575,
+      "forks": 3097
     },
     {
       "slug": "wrsmith108-varlock-claude-skill",
@@ -5168,7 +5352,7 @@
       "creatorAvatarUrl": "https://github.com/wrsmith108.png?size=88",
       "creatorHandle": "wrsmith108",
       "hasPublisherLogo": true,
-      "stars": 28,
+      "stars": 29,
       "forks": 0
     },
     {
@@ -5199,8 +5383,8 @@
       "creatorAvatarUrl": "https://github.com/development-and-testing.png?size=88",
       "creatorHandle": "development-and-testing",
       "hasPublisherLogo": true,
-      "stars": 14382,
-      "forks": 1469
+      "stars": 14456,
+      "forks": 1472
     },
     {
       "slug": "noizai-skills",
@@ -5233,7 +5417,7 @@
       "creatorHandle": "noizai",
       "hasPublisherLogo": true,
       "stars": 516,
-      "forks": 77
+      "forks": 76
     },
     {
       "slug": "kevin7qi-codex-collab",
@@ -5364,8 +5548,8 @@
       "creatorAvatarUrl": "https://github.com/mcollina.png?size=88",
       "creatorHandle": "mcollina",
       "hasPublisherLogo": true,
-      "stars": 1856,
-      "forks": 150
+      "stars": 1867,
+      "forks": 151
     },
     {
       "slug": "lum1104-understand-anything",
@@ -5403,8 +5587,8 @@
       "creatorAvatarUrl": "https://github.com/lum1104.png?size=88",
       "creatorHandle": "lum1104",
       "hasPublisherLogo": true,
-      "stars": 71556,
-      "forks": 5960
+      "stars": 74063,
+      "forks": 6162
     },
     {
       "slug": "hqhq1025-skill-optimizer",
@@ -5443,8 +5627,8 @@
       "creatorAvatarUrl": "https://github.com/hqhq1025.png?size=88",
       "creatorHandle": "hqhq1025",
       "hasPublisherLogo": true,
-      "stars": 125,
-      "forks": 5
+      "stars": 132,
+      "forks": 4
     },
     {
       "slug": "lambdatest-agent-skills",
@@ -5477,8 +5661,8 @@
       "creatorAvatarUrl": "https://github.com/lambdatest.png?size=88",
       "creatorHandle": "lambdatest",
       "hasPublisherLogo": true,
-      "stars": 322,
-      "forks": 65
+      "stars": 329,
+      "forks": 66
     },
     {
       "slug": "foryourhealth111-pixel-vibe-skills",
@@ -5520,8 +5704,8 @@
       "creatorAvatarUrl": "https://github.com/foryourhealth111-pixel.png?size=88",
       "creatorHandle": "foryourhealth111-pixel",
       "hasPublisherLogo": true,
-      "stars": 2373,
-      "forks": 169
+      "stars": 2382,
+      "forks": 167
     },
     {
       "slug": "metalbear-co-skills",
@@ -5597,7 +5781,7 @@
       "creatorAvatarUrl": "https://github.com/dembrandt.png?size=88",
       "creatorHandle": "dembrandt",
       "hasPublisherLogo": true,
-      "stars": 23,
+      "stars": 25,
       "forks": 5
     },
     {
@@ -5631,8 +5815,8 @@
       "creatorAvatarUrl": "https://github.com/ganyuanran.png?size=88",
       "creatorHandle": "ganyuanran",
       "hasPublisherLogo": true,
-      "stars": 620,
-      "forks": 36
+      "stars": 644,
+      "forks": 37
     },
     {
       "slug": "baskduf-codex-fable5",
@@ -5665,8 +5849,59 @@
       "creatorAvatarUrl": "https://github.com/baskduf.png?size=88",
       "creatorHandle": "baskduf",
       "hasPublisherLogo": true,
-      "stars": 410,
-      "forks": 49
+      "stars": 420,
+      "forks": 52
+    },
+    {
+      "slug": "csthink-dashmotion",
+      "name": "csthink/dashmotion",
+      "description": "Animated technical diagrams from plain English or Mermaid, self-contained HTML/SVG",
+      "publisher": "csthink",
+      "publisherSlug": "csthink",
+      "sectionTitle": "Development and Testing",
+      "kind": "official",
+      "tags": [
+        "csthink",
+        "development-and-testing",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "founder",
+        "marketer",
+        "pm",
+        "sales"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "landing-pages",
+        "planning-roadmapping",
+        "prd-specs",
+        "presentation-building",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "curated",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/csthink.png?size=88",
+      "creatorHandle": "csthink",
+      "hasPublisherLogo": true,
+      "stars": 136,
+      "forks": 9
     },
     {
       "slug": "muratcankoylan-context-fundamentals",
@@ -5703,8 +5938,8 @@
       "creatorAvatarUrl": "https://github.com/muratcankoylan.png?size=88",
       "creatorHandle": "muratcankoylan",
       "hasPublisherLogo": true,
-      "stars": 16902,
-      "forks": 1385
+      "stars": 17216,
+      "forks": 1418
     },
     {
       "slug": "muratcankoylan-context-degradation",
@@ -5732,8 +5967,8 @@
       "creatorAvatarUrl": "https://github.com/muratcankoylan.png?size=88",
       "creatorHandle": "muratcankoylan",
       "hasPublisherLogo": true,
-      "stars": 16902,
-      "forks": 1385
+      "stars": 17216,
+      "forks": 1418
     },
     {
       "slug": "muratcankoylan-context-compression",
@@ -5774,8 +6009,8 @@
       "creatorAvatarUrl": "https://github.com/muratcankoylan.png?size=88",
       "creatorHandle": "muratcankoylan",
       "hasPublisherLogo": true,
-      "stars": 16902,
-      "forks": 1385
+      "stars": 17216,
+      "forks": 1418
     },
     {
       "slug": "muratcankoylan-context-optimization",
@@ -5815,8 +6050,8 @@
       "creatorAvatarUrl": "https://github.com/muratcankoylan.png?size=88",
       "creatorHandle": "muratcankoylan",
       "hasPublisherLogo": true,
-      "stars": 16902,
-      "forks": 1385
+      "stars": 17216,
+      "forks": 1418
     },
     {
       "slug": "muratcankoylan-multi-agent-patterns",
@@ -5852,8 +6087,8 @@
       "creatorAvatarUrl": "https://github.com/muratcankoylan.png?size=88",
       "creatorHandle": "muratcankoylan",
       "hasPublisherLogo": true,
-      "stars": 16902,
-      "forks": 1385
+      "stars": 17216,
+      "forks": 1418
     },
     {
       "slug": "muratcankoylan-memory-systems",
@@ -5895,8 +6130,8 @@
       "creatorAvatarUrl": "https://github.com/muratcankoylan.png?size=88",
       "creatorHandle": "muratcankoylan",
       "hasPublisherLogo": true,
-      "stars": 16902,
-      "forks": 1385
+      "stars": 17216,
+      "forks": 1418
     },
     {
       "slug": "muratcankoylan-tool-design",
@@ -5943,8 +6178,8 @@
       "creatorAvatarUrl": "https://github.com/muratcankoylan.png?size=88",
       "creatorHandle": "muratcankoylan",
       "hasPublisherLogo": true,
-      "stars": 16902,
-      "forks": 1385
+      "stars": 17216,
+      "forks": 1418
     },
     {
       "slug": "muratcankoylan-evaluation",
@@ -5981,8 +6216,8 @@
       "creatorAvatarUrl": "https://github.com/muratcankoylan.png?size=88",
       "creatorHandle": "muratcankoylan",
       "hasPublisherLogo": true,
-      "stars": 16902,
-      "forks": 1385
+      "stars": 17216,
+      "forks": 1418
     },
     {
       "slug": "k-kolomeitsev-data-structure-protocol",
@@ -6008,7 +6243,7 @@
       "creatorAvatarUrl": "https://github.com/k-kolomeitsev.png?size=88",
       "creatorHandle": "k-kolomeitsev",
       "hasPublisherLogo": true,
-      "stars": 57,
+      "stars": 59,
       "forks": 5
     },
     {
@@ -6069,8 +6304,8 @@
       "creatorAvatarUrl": "https://github.com/neolabhq.png?size=88",
       "creatorHandle": "neolabhq",
       "hasPublisherLogo": true,
-      "stars": 1205,
-      "forks": 129
+      "stars": 1239,
+      "forks": 132
     },
     {
       "slug": "sametbrr-llm-wiki-manager",
@@ -6101,8 +6336,8 @@
       "creatorAvatarUrl": "https://github.com/sametbrr.png?size=88",
       "creatorHandle": "sametbrr",
       "hasPublisherLogo": true,
-      "stars": 49,
-      "forks": 9
+      "stars": 52,
+      "forks": 10
     },
     {
       "slug": "panniantong-agent-reach",
@@ -6132,8 +6367,69 @@
       "creatorAvatarUrl": "https://github.com/panniantong.png?size=88",
       "creatorHandle": "panniantong",
       "hasPublisherLogo": true,
-      "stars": 52337,
-      "forks": 4204
+      "stars": 56323,
+      "forks": 4634
+    },
+    {
+      "slug": "tubo2333-obsidian-knowledge-brain",
+      "name": "Tubo2333/obsidian-knowledge-brain",
+      "description": "Cross-session knowledge memory and rule evolution for AI coding agents",
+      "publisher": "Tubo2333",
+      "publisherSlug": "tubo2333",
+      "sectionTitle": "Context Engineering",
+      "kind": "official",
+      "tags": [
+        "context-engineering",
+        "namespaced",
+        "publisher-namespaced",
+        "tubo2333"
+      ],
+      "personas": [],
+      "jobs": [
+        "development-workflows"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "curated",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/tubo2333.png?size=88",
+      "creatorHandle": "tubo2333",
+      "hasPublisherLogo": true,
+      "stars": 81,
+      "forks": 8
+    },
+    {
+      "slug": "shouldnotappearcalm-a-share-skill",
+      "name": "shouldnotappearcalm/a-share-skill",
+      "description": "China A-share (Shanghai/Shenzhen) skills: real-time quotes, K-line history, technical indicators, events, capital flows, sector heatmaps, and paper trading. Works with Claude Code, Cursor, Codex, and Qoder",
+      "publisher": "shouldnotappearcalm",
+      "publisherSlug": "shouldnotappearcalm",
+      "sectionTitle": "Specialized Domains",
+      "kind": "official",
+      "tags": [
+        "namespaced",
+        "publisher-namespaced",
+        "shouldnotappearcalm",
+        "specialized-domains"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "prd-specs",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "curated",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/shouldnotappearcalm.png?size=88",
+      "creatorHandle": "shouldnotappearcalm",
+      "hasPublisherLogo": true,
+      "stars": 197,
+      "forks": 36
     },
     {
       "slug": "transloadit-skills",
@@ -6206,7 +6502,7 @@
       "creatorAvatarUrl": "https://github.com/honeydew-ai.png?size=88",
       "creatorHandle": "honeydew-ai",
       "hasPublisherLogo": true,
-      "stars": 37,
+      "stars": 38,
       "forks": 0
     },
     {
@@ -6241,8 +6537,8 @@
       "creatorAvatarUrl": "https://github.com/raintree-technology.png?size=88",
       "creatorHandle": "raintree-technology",
       "hasPublisherLogo": true,
-      "stars": 77,
-      "forks": 6
+      "stars": 84,
+      "forks": 5
     },
     {
       "slug": "k-dense-ai-claude-scientific-skills",
@@ -6282,8 +6578,8 @@
       "creatorAvatarUrl": "https://github.com/k-dense-ai.png?size=88",
       "creatorHandle": "k-dense-ai",
       "hasPublisherLogo": true,
-      "stars": 30366,
-      "forks": 3058
+      "stars": 30911,
+      "forks": 3103
     },
     {
       "slug": "notmyself-claude-win11-speckit-update-skill",
@@ -6355,8 +6651,8 @@
       "creatorAvatarUrl": "https://github.com/sanjay3290.png?size=88",
       "creatorHandle": "sanjay3290",
       "hasPublisherLogo": true,
-      "stars": 334,
-      "forks": 36
+      "stars": 341,
+      "forks": 37
     },
     {
       "slug": "jeffersonwarrior-claudisms",
@@ -6458,8 +6754,8 @@
       "creatorAvatarUrl": "https://github.com/obra.png?size=88",
       "creatorHandle": "obra",
       "hasPublisherLogo": true,
-      "stars": 248152,
-      "forks": 22026
+      "stars": 254731,
+      "forks": 22764
     },
     {
       "slug": "huifer-claude-ally-health",
@@ -6499,8 +6795,8 @@
       "creatorAvatarUrl": "https://github.com/huifer.png?size=88",
       "creatorHandle": "huifer",
       "hasPublisherLogo": true,
-      "stars": 890,
-      "forks": 116
+      "stars": 898,
+      "forks": 117
     },
     {
       "slug": "frmoretto-clarity-gate",
@@ -6569,8 +6865,8 @@
       "creatorAvatarUrl": "https://github.com/wanshuiyin.png?size=88",
       "creatorHandle": "wanshuiyin",
       "hasPublisherLogo": true,
-      "stars": 13089,
-      "forks": 1183
+      "stars": 13395,
+      "forks": 1209
     },
     {
       "slug": "zechenzhangagi-ai-research-skills",
@@ -6604,8 +6900,8 @@
       "creatorAvatarUrl": "https://github.com/zechenzhangagi.png?size=88",
       "creatorHandle": "zechenzhangagi",
       "hasPublisherLogo": true,
-      "stars": 10457,
-      "forks": 779
+      "stars": 10721,
+      "forks": 797
     },
     {
       "slug": "orchestra-research-ai-research-skills",
@@ -6640,8 +6936,8 @@
       "creatorAvatarUrl": "https://github.com/orchestra-research.png?size=88",
       "creatorHandle": "orchestra-research",
       "hasPublisherLogo": true,
-      "stars": 10457,
-      "forks": 779
+      "stars": 10721,
+      "forks": 797
     },
     {
       "slug": "komal-skynet-claude-skill-homeassistant",
@@ -6674,8 +6970,8 @@
       "creatorAvatarUrl": "https://github.com/komal-skynet.png?size=88",
       "creatorHandle": "komal-skynet",
       "hasPublisherLogo": true,
-      "stars": 753,
-      "forks": 46
+      "stars": 760,
+      "forks": 45
     },
     {
       "slug": "more-io-apple-bridges",
@@ -6709,7 +7005,7 @@
       "creatorAvatarUrl": "https://github.com/more-io.png?size=88",
       "creatorHandle": "more-io",
       "hasPublisherLogo": true,
-      "stars": 28,
+      "stars": 29,
       "forks": 4
     },
     {
@@ -6783,8 +7079,8 @@
       "creatorAvatarUrl": "https://github.com/prompt-security.png?size=88",
       "creatorHandle": "prompt-security",
       "hasPublisherLogo": true,
-      "stars": 1059,
-      "forks": 110
+      "stars": 1065,
+      "forks": 112
     },
     {
       "slug": "behisecc-vibesec",
@@ -6823,8 +7119,8 @@
       "creatorAvatarUrl": "https://github.com/behisecc.png?size=88",
       "creatorHandle": "behisecc",
       "hasPublisherLogo": true,
-      "stars": 1034,
-      "forks": 90
+      "stars": 1077,
+      "forks": 94
     },
     {
       "slug": "lawvable-awesome-legal-skills",
@@ -6857,8 +7153,8 @@
       "creatorAvatarUrl": "https://github.com/lawvable.png?size=88",
       "creatorHandle": "lawvable",
       "hasPublisherLogo": true,
-      "stars": 556,
-      "forks": 67
+      "stars": 578,
+      "forks": 71
     },
     {
       "slug": "peas-genealogy-research",
@@ -6933,7 +7229,7 @@
       "creatorAvatarUrl": "https://github.com/zw008.png?size=88",
       "creatorHandle": "zw008",
       "hasPublisherLogo": true,
-      "stars": 56,
+      "stars": 59,
       "forks": 9
     },
     {
@@ -6970,7 +7266,7 @@
       "creatorAvatarUrl": "https://github.com/video-db.png?size=88",
       "creatorHandle": "video-db",
       "hasPublisherLogo": true,
-      "stars": 106,
+      "stars": 108,
       "forks": 7
     },
     {
@@ -7002,7 +7298,7 @@
       "creatorAvatarUrl": "https://github.com/specialized-domains.png?size=88",
       "creatorHandle": "specialized-domains",
       "hasPublisherLogo": true,
-      "stars": 55,
+      "stars": 57,
       "forks": 4
     },
     {
@@ -7037,8 +7333,8 @@
       "creatorAvatarUrl": "https://github.com/ericyoung-183.png?size=88",
       "creatorHandle": "ericyoung-183",
       "hasPublisherLogo": true,
-      "stars": 41,
-      "forks": 9
+      "stars": 44,
+      "forks": 8
     },
     {
       "slug": "takechanman1228-claude-ecom",
@@ -7077,7 +7373,7 @@
       "creatorAvatarUrl": "https://github.com/takechanman1228.png?size=88",
       "creatorHandle": "takechanman1228",
       "hasPublisherLogo": true,
-      "stars": 39,
+      "stars": 42,
       "forks": 6
     },
     {
@@ -7121,7 +7417,7 @@
       "creatorAvatarUrl": "https://github.com/talkstream.png?size=88",
       "creatorHandle": "talkstream",
       "hasPublisherLogo": true,
-      "stars": 141,
+      "stars": 146,
       "forks": 18
     },
     {
@@ -7162,8 +7458,8 @@
       "creatorAvatarUrl": "https://github.com/helius-labs.png?size=88",
       "creatorHandle": "helius-labs",
       "hasPublisherLogo": true,
-      "stars": 23,
-      "forks": 8
+      "stars": 24,
+      "forks": 9
     },
     {
       "slug": "meodai-skill-color-expert",
@@ -7201,7 +7497,7 @@
       "creatorAvatarUrl": "https://github.com/meodai.png?size=88",
       "creatorHandle": "meodai",
       "hasPublisherLogo": true,
-      "stars": 522,
+      "stars": 526,
       "forks": 34
     },
     {
@@ -7246,8 +7542,8 @@
       "creatorAvatarUrl": "https://github.com/aklofas.png?size=88",
       "creatorHandle": "aklofas",
       "hasPublisherLogo": true,
-      "stars": 690,
-      "forks": 53
+      "stars": 732,
+      "forks": 56
     },
     {
       "slug": "bitwize-music-studio-claude-ai-music-skills",
@@ -7280,8 +7576,42 @@
       "creatorAvatarUrl": "https://github.com/bitwize-music-studio.png?size=88",
       "creatorHandle": "bitwize-music-studio",
       "hasPublisherLogo": true,
-      "stars": 327,
-      "forks": 71
+      "stars": 356,
+      "forks": 80
+    },
+    {
+      "slug": "alisa0808-vibe-creating-skill",
+      "name": "Alisa0808/vibe-creating-skill",
+      "description": "Rewrites a rough idea or shot script into text-to-video prompts",
+      "publisher": "Alisa0808",
+      "publisherSlug": "alisa0808",
+      "sectionTitle": "Specialized Domains",
+      "kind": "official",
+      "tags": [
+        "alisa0808",
+        "namespaced",
+        "publisher-namespaced",
+        "specialized-domains"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "prd-specs",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-readme",
+      "trustLevel": "curated",
+      "riskFlags": [],
+      "creatorAvatarUrl": "https://github.com/alisa0808.png?size=88",
+      "creatorHandle": "alisa0808",
+      "hasPublisherLogo": true,
+      "stars": 104,
+      "forks": 15
     },
     {
       "slug": "czlonkowski-n8n-code-javascript",
@@ -7319,8 +7649,8 @@
       "creatorAvatarUrl": "https://github.com/czlonkowski.png?size=88",
       "creatorHandle": "czlonkowski",
       "hasPublisherLogo": true,
-      "stars": 5715,
-      "forks": 969
+      "stars": 5790,
+      "forks": 980
     },
     {
       "slug": "czlonkowski-n8n-code-python",
@@ -7359,8 +7689,8 @@
       "creatorAvatarUrl": "https://github.com/czlonkowski.png?size=88",
       "creatorHandle": "czlonkowski",
       "hasPublisherLogo": true,
-      "stars": 5715,
-      "forks": 969
+      "stars": 5790,
+      "forks": 980
     },
     {
       "slug": "czlonkowski-n8n-expression-syntax",
@@ -7397,8 +7727,8 @@
       "creatorAvatarUrl": "https://github.com/czlonkowski.png?size=88",
       "creatorHandle": "czlonkowski",
       "hasPublisherLogo": true,
-      "stars": 5715,
-      "forks": 969
+      "stars": 5790,
+      "forks": 980
     },
     {
       "slug": "czlonkowski-n8n-mcp-tools-expert",
@@ -7435,8 +7765,8 @@
       "creatorAvatarUrl": "https://github.com/czlonkowski.png?size=88",
       "creatorHandle": "czlonkowski",
       "hasPublisherLogo": true,
-      "stars": 5715,
-      "forks": 969
+      "stars": 5790,
+      "forks": 980
     },
     {
       "slug": "czlonkowski-n8n-node-configuration",
@@ -7473,8 +7803,8 @@
       "creatorAvatarUrl": "https://github.com/czlonkowski.png?size=88",
       "creatorHandle": "czlonkowski",
       "hasPublisherLogo": true,
-      "stars": 5715,
-      "forks": 969
+      "stars": 5790,
+      "forks": 980
     },
     {
       "slug": "czlonkowski-n8n-validation-expert",
@@ -7505,8 +7835,8 @@
       "creatorAvatarUrl": "https://github.com/czlonkowski.png?size=88",
       "creatorHandle": "czlonkowski",
       "hasPublisherLogo": true,
-      "stars": 5715,
-      "forks": 969
+      "stars": 5790,
+      "forks": 980
     },
     {
       "slug": "czlonkowski-n8n-workflow-patterns",
@@ -7548,22 +7878,22 @@
       "creatorAvatarUrl": "https://github.com/czlonkowski.png?size=88",
       "creatorHandle": "czlonkowski",
       "hasPublisherLogo": true,
-      "stars": 5715,
-      "forks": 969
+      "stars": 5790,
+      "forks": 980
     },
     {
-      "slug": "zero-zero",
-      "name": "zero/zero",
-      "description": "A search engine and payment layer that lets AI agents find and call external paid capabilities like image generation, translation, web search, and audio processing.",
-      "publisher": "zero",
-      "publisherSlug": "zero",
+      "slug": "citrolabs-ego-browser",
+      "name": "citrolabs/ego-browser",
+      "description": "A Chromium-based browser built for AI agents to control programmatically.",
+      "publisher": "citrolabs",
+      "publisherSlug": "citrolabs",
       "sectionTitle": "Official skills",
       "kind": "official",
       "tags": [
+        "citrolabs",
         "namespaced",
         "official-skills",
-        "publisher-namespaced",
-        "zero"
+        "publisher-namespaced"
       ],
       "personas": [
         "engineer"
@@ -7572,53 +7902,18 @@
         "api-integration",
         "deployment-ops",
         "development-workflows",
-        "research-synthesis",
         "testing-debugging",
-        "visual-assets",
+        "ui-ux-design",
         "workflow-automation"
       ],
       "sourceType": "official-site",
       "trustLevel": "official",
       "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/zero.png?size=88",
-      "creatorHandle": "zero",
+      "creatorAvatarUrl": "https://github.com/citrolabs.png?size=88",
+      "creatorHandle": "citrolabs",
       "hasPublisherLogo": true,
-      "stars": 15,
-      "forks": 2
-    },
-    {
-      "slug": "zero-zero-gemini",
-      "name": "zero/zero-gemini",
-      "description": "A search engine and payment layer for AI agents.",
-      "publisher": "zero",
-      "publisherSlug": "zero",
-      "sectionTitle": "Official skills",
-      "kind": "official",
-      "tags": [
-        "namespaced",
-        "official-skills",
-        "publisher-namespaced",
-        "zero"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "research-synthesis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "official-site",
-      "trustLevel": "official",
-      "riskFlags": [],
-      "creatorAvatarUrl": "https://github.com/zero.png?size=88",
-      "creatorHandle": "zero",
-      "hasPublisherLogo": true,
-      "stars": 15,
-      "forks": 2
+      "stars": null,
+      "forks": null
     },
     {
       "slug": "pskoett-self-improving-agent",
@@ -7729,6 +8024,41 @@
       "forks": null
     },
     {
+      "slug": "oswalpalash-ontology",
+      "name": "oswalpalash/ontology",
+      "description": "Typed knowledge graph for structured agent memory and composable skills. Use when creating/querying entities (Person, Project, Task, Event, Document), linkin...",
+      "publisher": "oswalpalash",
+      "publisherSlug": "oswalpalash",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "namespaced",
+        "oswalpalash",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "support"
+      ],
+      "jobs": [
+        "data-extraction",
+        "document-authoring",
+        "reporting",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/oswalpalash.png?size=88",
+      "creatorHandle": "oswalpalash",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
       "slug": "steipete-github",
       "name": "steipete/github",
       "description": "Interact with GitHub using the `gh` CLI. Use `gh issue`, `gh pr`, `gh run`, and `gh api` for issues, PRs, CI runs, and advanced queries.",
@@ -7766,41 +8096,6 @@
       ],
       "creatorAvatarUrl": "https://github.com/steipete.png?size=88",
       "creatorHandle": "steipete",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "oswalpalash-ontology",
-      "name": "oswalpalash/ontology",
-      "description": "Typed knowledge graph for structured agent memory and composable skills. Use when creating/querying entities (Person, Project, Task, Event, Document), linkin...",
-      "publisher": "oswalpalash",
-      "publisherSlug": "oswalpalash",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "namespaced",
-        "oswalpalash",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "support"
-      ],
-      "jobs": [
-        "data-extraction",
-        "document-authoring",
-        "reporting",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/oswalpalash.png?size=88",
-      "creatorHandle": "oswalpalash",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -8103,36 +8398,6 @@
       "forks": null
     },
     {
-      "slug": "steipete-nano-banana-pro",
-      "name": "steipete/nano-banana-pro",
-      "description": "Generate/edit images with Nano Banana Pro (Gemini 3 Pro Image). Use for image create/modify requests incl. edits. Supports text-to-image + image-to-image; 1K/2K/4K; use --input-image.",
-      "publisher": "steipete",
-      "publisherSlug": "steipete",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced",
-        "steipete"
-      ],
-      "personas": [],
-      "jobs": [
-        "visual-assets"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/steipete.png?size=88",
-      "creatorHandle": "steipete",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
       "slug": "steipete-obsidian",
       "name": "steipete/obsidian",
       "description": "Work with Obsidian vaults (plain Markdown notes) and automate via obsidian-cli.",
@@ -8163,29 +8428,31 @@
       "forks": null
     },
     {
-      "slug": "pollyreach-pollyreach",
-      "name": "pollyreach/pollyreach",
-      "description": "PollyReach gives every AI agent a phone number and the ability to get things done over the phone — finding contacts, making calls, and completing tasks. Just...",
-      "publisher": "pollyreach",
-      "publisherSlug": "pollyreach",
+      "slug": "steipete-nano-banana-pro",
+      "name": "steipete/nano-banana-pro",
+      "description": "Generate/edit images with Nano Banana Pro (Gemini 3 Pro Image). Use for image create/modify requests incl. edits. Supports text-to-image + image-to-image; 1K/2K/4K; use --input-image.",
+      "publisher": "steipete",
+      "publisherSlug": "steipete",
       "sectionTitle": "Community marketplace",
       "kind": "community",
       "tags": [
         "community-marketplace",
         "namespaced",
-        "pollyreach",
-        "publisher-namespaced"
+        "publisher-namespaced",
+        "steipete"
       ],
       "personas": [],
-      "jobs": [],
+      "jobs": [
+        "visual-assets"
+      ],
       "sourceType": "marketplace",
       "trustLevel": "untrusted",
       "riskFlags": [
         "community-marketplace",
         "requires-security-review"
       ],
-      "creatorAvatarUrl": "https://github.com/pollyreach.png?size=88",
-      "creatorHandle": "pollyreach",
+      "creatorAvatarUrl": "https://github.com/steipete.png?size=88",
+      "creatorHandle": "steipete",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -8223,6 +8490,34 @@
       ],
       "creatorAvatarUrl": "https://github.com/jacky1n7.png?size=88",
       "creatorHandle": "jacky1n7",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "pollyreach-pollyreach",
+      "name": "pollyreach/pollyreach",
+      "description": "PollyReach gives every AI agent a phone number and the ability to get things done over the phone — finding contacts, making calls, and completing tasks. Just...",
+      "publisher": "pollyreach",
+      "publisherSlug": "pollyreach",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "namespaced",
+        "pollyreach",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/pollyreach.png?size=88",
+      "creatorHandle": "pollyreach",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -8327,306 +8622,6 @@
       ],
       "creatorAvatarUrl": "https://github.com/chindden.png?size=88",
       "creatorHandle": "chindden",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "ide-rea-baidu-search",
-      "name": "ide-rea/baidu-search",
-      "description": "Search the web using Baidu AI Search Engine (BDSE). Use for live information, documentation, or research topics.",
-      "publisher": "ide-rea",
-      "publisherSlug": "ide-rea",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "ide-rea",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [
-        "research-synthesis"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/ide-rea.png?size=88",
-      "creatorHandle": "ide-rea",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "steipete-openai-whisper",
-      "name": "steipete/openai-whisper",
-      "description": "Local speech-to-text with the Whisper CLI (no API key).",
-      "publisher": "steipete",
-      "publisherSlug": "steipete",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced",
-        "steipete"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/steipete.png?size=88",
-      "creatorHandle": "steipete",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "steipete-sonoscli",
-      "name": "steipete/sonoscli",
-      "description": "Control Sonos speakers (discover/status/play/volume/group).",
-      "publisher": "steipete",
-      "publisherSlug": "steipete",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced",
-        "steipete"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/steipete.png?size=88",
-      "creatorHandle": "steipete",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "ivangdavila-word-docx",
-      "name": "ivangdavila/word-docx",
-      "description": "Create, inspect, and edit Microsoft Word documents and DOCX files with reliable styles, numbering, tracked changes, tables, sections, and compatibility check...",
-      "publisher": "ivangdavila",
-      "publisherSlug": "ivangdavila",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "ivangdavila",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [
-        "data-extraction",
-        "document-authoring",
-        "prd-specs"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/ivangdavila.png?size=88",
-      "creatorHandle": "ivangdavila",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "byungkyu-api-gateway",
-      "name": "byungkyu/api-gateway",
-      "description": "Connect to external services through Maton-managed API routes.\nUse this skill only after the user names the target app, account, and task.\nStart with read/list calls when possible and follow the app-specific reference before any change.",
-      "publisher": "byungkyu",
-      "publisherSlug": "byungkyu",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "byungkyu",
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "prd-specs",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/byungkyu.png?size=88",
-      "creatorHandle": "byungkyu",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "uroboros1205-prismfy-search",
-      "name": "uroboros1205/prismfy-search",
-      "description": "Default web search for OpenClaw. Search the web across 10 engines — Google, Reddit, GitHub, arXiv, Hacker News, and more — using Prismfy. Free tier included,...",
-      "publisher": "uroboros1205",
-      "publisherSlug": "uroboros1205",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced",
-        "uroboros1205"
-      ],
-      "personas": [],
-      "jobs": [
-        "research-synthesis"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/uroboros1205.png?size=88",
-      "creatorHandle": "uroboros1205",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "jk-0001-automation-workflows",
-      "name": "jk-0001/automation-workflows",
-      "description": "Design and implement automation workflows to save time and scale operations as a solopreneur. Use when identifying repetitive tasks to automate, building workflows across tools, setting up triggers and actions, or optimizing existing automations. Covers automation opportunity identification, workflow design, tool selection (Zapier, Make, n8n), testing, and maintenance. Trigger on \"automate\", \"automation\", \"workflow automation\", \"save time\", \"reduce manual work\", \"automate my business\", \"no-code automation\".",
-      "publisher": "jk-0001",
-      "publisherSlug": "jk-0001",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "jk-0001",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "designer",
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "design-critique",
-        "development-workflows",
-        "presentation-building",
-        "testing-debugging",
-        "ui-ux-design",
-        "visual-assets",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/jk-0001.png?size=88",
-      "creatorHandle": "jk-0001",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "autogame-17-evolver",
-      "name": "autogame-17/evolver",
-      "description": "A self-evolution engine for AI agents. Analyzes runtime history to identify improvements and applies protocol-constrained evolution. Communicates with EvoMap Hub via local Proxy mailbox.",
-      "publisher": "autogame-17",
-      "publisherSlug": "autogame-17",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "autogame-17",
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/autogame-17.png?size=88",
-      "creatorHandle": "autogame-17",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "ivangdavila-excel-xlsx",
-      "name": "ivangdavila/excel-xlsx",
-      "description": "Create, inspect, and edit Microsoft Excel workbooks and XLSX files with reliable formulas, dates, types, formatting, recalculation, and template preservation...",
-      "publisher": "ivangdavila",
-      "publisherSlug": "ivangdavila",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "ivangdavila",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "data-analyst"
-      ],
-      "jobs": [
-        "dashboarding",
-        "data-extraction",
-        "prd-specs",
-        "reporting",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/ivangdavila.png?size=88",
-      "creatorHandle": "ivangdavila",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null

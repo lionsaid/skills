@@ -2,9 +2,9 @@
   "repository": "NVIDIA/skills",
   "branch": "main",
   "defaultBranch": "main",
-  "pushedAt": "2026-07-07T07:16:40Z",
-  "scannedAt": "2026-07-07T09:07:04.820Z",
-  "treeSha": "1f01acfe1aece58ba95d124eafdfb5bb93523db6",
+  "pushedAt": "2026-07-15T01:36:24Z",
+  "scannedAt": "2026-07-15T02:27:48.641Z",
+  "treeSha": "1700ebd31ba862df5b6992403764c989f2bda66b",
   "items": [
     {
       "repository": "NVIDIA/skills",
@@ -15,7 +15,7 @@
       "description": "AI agent skills published by NVIDIA",
       "slug": "nvidia-skills-collection",
       "isCollection": true,
-      "stars": 2279,
+      "stars": 2498,
       "skillPaths": [
         "skills/accelerated-computing-cudf/SKILL.md",
         "skills/aiq-deploy/SKILL.md",
@@ -28,15 +28,10 @@
         "skills/cuopt-developer/SKILL.md",
         "skills/cuopt-install/SKILL.md",
         "skills/cuopt-multi-objective-exploration/SKILL.md",
-        "skills/cuopt-numerical-optimization-api-python/SKILL.md",
         "skills/cuopt-numerical-optimization-api/SKILL.md",
         "skills/cuopt-numerical-optimization-formulation/SKILL.md",
         "skills/cuopt-routing-api-python/SKILL.md",
-        "skills/cuopt-routing-formulation/SKILL.md",
         "skills/cuopt-server-api-python/SKILL.md",
-        "skills/cuopt-server-common/SKILL.md",
-        "skills/cuopt-skill-evolution/SKILL.md",
-        "skills/cuopt-user-rules/SKILL.md",
         "skills/cupynumeric-hdf5/SKILL.md",
         "skills/cupynumeric-install/SKILL.md",
         "skills/cupynumeric-migration-readiness/SKILL.md",
@@ -160,6 +155,7 @@
         "skills/nv-segment-ct-finetune/SKILL.md",
         "skills/nv-segment-ct/SKILL.md",
         "skills/nv-segment-ctmr/SKILL.md",
+        "skills/nvidia-skill-finder/SKILL.md",
         "skills/omniverse-cad-to-simready/SKILL.md",
         "skills/omniverse-realtime-viewer/SKILL.md",
         "skills/omniverse-usd-performance-tuning/SKILL.md",
@@ -195,7 +191,6 @@
         "skills/tao-run-inference-service/SKILL.md",
         "skills/tao-run-on-brev/SKILL.md",
         "skills/tao-run-on-kubernetes/SKILL.md",
-        "skills/tao-run-on-lepton/SKILL.md",
         "skills/tao-run-on-local-docker/SKILL.md",
         "skills/tao-run-on-slurm/SKILL.md",
         "skills/tao-run-platform/SKILL.md",
@@ -356,15 +351,6 @@
     {
       "repository": "NVIDIA/skills",
       "branch": "main",
-      "skillName": "cuopt-numerical-optimization-api-python",
-      "path": "skills/cuopt-numerical-optimization-api-python/SKILL.md",
-      "url": "https://github.com/NVIDIA/skills/blob/main/skills/cuopt-numerical-optimization-api-python/SKILL.md",
-      "description": "Solve LP, MILP, QP (beta) with cuOpt Python API — linear/quadratic objectives, integer variables, scheduling, portfolio, least squares.",
-      "slug": "nvidia-cuopt-numerical-optimization-api-python"
-    },
-    {
-      "repository": "NVIDIA/skills",
-      "branch": "main",
       "skillName": "cuopt-numerical-optimization-api",
       "path": "skills/cuopt-numerical-optimization-api/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/cuopt-numerical-optimization-api/SKILL.md",
@@ -392,47 +378,11 @@
     {
       "repository": "NVIDIA/skills",
       "branch": "main",
-      "skillName": "cuopt-routing-formulation",
-      "path": "skills/cuopt-routing-formulation/SKILL.md",
-      "url": "https://github.com/NVIDIA/skills/blob/main/skills/cuopt-routing-formulation/SKILL.md",
-      "description": "Vehicle routing (VRP, TSP, PDP) — problem types and data requirements. Domain concepts; no API or interface.",
-      "slug": "nvidia-cuopt-routing-formulation"
-    },
-    {
-      "repository": "NVIDIA/skills",
-      "branch": "main",
       "skillName": "cuopt-server-api-python",
       "path": "skills/cuopt-server-api-python/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/cuopt-server-api-python/SKILL.md",
       "description": "cuOpt REST server — start server, endpoints, Python/curl client examples. Use when the user is deploying or calling the REST API.",
       "slug": "nvidia-cuopt-server-api-python"
-    },
-    {
-      "repository": "NVIDIA/skills",
-      "branch": "main",
-      "skillName": "cuopt-server-common",
-      "path": "skills/cuopt-server-common/SKILL.md",
-      "url": "https://github.com/NVIDIA/skills/blob/main/skills/cuopt-server-common/SKILL.md",
-      "description": "cuOpt REST server — what it does and how requests flow. Domain concepts; no deploy or client code.",
-      "slug": "nvidia-cuopt-server-common"
-    },
-    {
-      "repository": "NVIDIA/skills",
-      "branch": "main",
-      "skillName": "cuopt-skill-evolution",
-      "path": "skills/cuopt-skill-evolution/SKILL.md",
-      "url": "https://github.com/NVIDIA/skills/blob/main/skills/cuopt-skill-evolution/SKILL.md",
-      "description": "After solving a non-trivial problem, detect generalizable learnings and propose skill updates. Always active — applies to every interaction.",
-      "slug": "nvidia-cuopt-skill-evolution"
-    },
-    {
-      "repository": "NVIDIA/skills",
-      "branch": "main",
-      "skillName": "cuopt-user-rules",
-      "path": "skills/cuopt-user-rules/SKILL.md",
-      "url": "https://github.com/NVIDIA/skills/blob/main/skills/cuopt-user-rules/SKILL.md",
-      "description": "Base rules for end users calling NVIDIA cuOpt (routing/LP/MILP/QP/install/server). Not for cuOpt internals — use cuopt-developer for those.",
-      "slug": "nvidia-cuopt-user-rules"
     },
     {
       "repository": "NVIDIA/skills",
@@ -1544,6 +1494,15 @@
     {
       "repository": "NVIDIA/skills",
       "branch": "main",
+      "skillName": "nvidia-skill-finder",
+      "path": "skills/nvidia-skill-finder/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/nvidia-skill-finder/SKILL.md",
+      "description": ">-",
+      "slug": "nvidia-nvidia-skill-finder"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
       "skillName": "omniverse-cad-to-simready",
       "path": "skills/omniverse-cad-to-simready/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/omniverse-cad-to-simready/SKILL.md",
@@ -1855,15 +1814,6 @@
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-run-on-kubernetes/SKILL.md",
       "description": "Kubernetes execution platform — submits TAO container jobs as single-pod k8s Jobs with NVIDIA GPU scheduling.",
       "slug": "nvidia-tao-run-on-kubernetes"
-    },
-    {
-      "repository": "NVIDIA/skills",
-      "branch": "main",
-      "skillName": "tao-run-on-lepton",
-      "path": "skills/tao-run-on-lepton/SKILL.md",
-      "url": "https://github.com/NVIDIA/skills/blob/main/skills/tao-run-on-lepton/SKILL.md",
-      "description": "DGX Cloud Lepton managed GPU compute platform with run/status/cancel interface. Use when submitting TAO jobs",
-      "slug": "nvidia-tao-run-on-lepton"
     },
     {
       "repository": "NVIDIA/skills",
@@ -2370,7 +2320,6 @@
       "slug": "nvidia-vss-summarize-video"
     }
   ],
-  "itemCount": 236,
-  "publicSkillCount": 235,
-  "lastStatus": "scanned"
+  "itemCount": 231,
+  "lastStatus": "cache-fresh"
 }

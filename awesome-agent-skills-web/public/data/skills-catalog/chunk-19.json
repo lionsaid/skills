@@ -1,8 +1,1677 @@
 {
-  "generatedAt": "2026-07-07T09:11:26.306Z",
+  "generatedAt": "2026-07-15T02:39:29.986Z",
   "chunkIndex": 19,
-  "totalSkills": 8886,
+  "totalSkills": 8995,
   "skills": [
+    {
+      "slug": "coreyhaines31-marketing-council",
+      "name": "coreyhaines31/marketing-council",
+      "description": "When the user wants multiple expert perspectives on a marketing question — a simulated board of advisors staffed by legendary marketers (Seth Godin, David Ogilvy, Eugene Schwartz, April Dunford, Rory Sutherland, Alex Hormozi, Byron Sharp, and more). Also use when the user mentions 'marketing council,' 'board of advisors,' 'advisory board,' 'what would Seth Godin say,' 'what would Ogilvy think,' 'channel Hormozi,' 'get multiple perspectives,' 'debate this,' 'have the council review,' 'marketing mentors,' or asks how a famous marketer would approach their problem. The council gives each advisor's take through their documented frameworks, surfaces where they disagree, and synthesizes a recommendation. For executing the winning direction, hand off to positioning, offers, copywriting, ads, or the relevant skill.",
+      "publisher": "coreyhaines31",
+      "publisherSlug": "coreyhaines31",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "coreyhaines31",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "prd-specs",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
+      "creatorHandle": "coreyhaines31",
+      "hasPublisherLogo": false,
+      "stars": 39239,
+      "forks": 6261
+    },
+    {
+      "slug": "coreyhaines31-marketing-loops",
+      "name": "coreyhaines31/marketing-loops",
+      "description": "When the user wants to set up a recurring, self-running marketing workflow — a repeatable loop an AI agent runs on a cadence (weekly, daily, on a trigger) rather than a one-off task. Also use when the user mentions 'marketing loop,' 'recurring marketing workflow,' 'automate my marketing,' 'marketing on autopilot,' 'weekly marketing review,' 'ad fatigue check,' 'content refresh loop,' 'churn watch,' 'ranking drop alert,' 'always-on marketing,' 'marketing automation workflow,' or 'run this every week.' Use this to pick, adapt, and schedule an ongoing marketing loop that orchestrates the other marketing skills. For one-off marketing ideas, see marketing-ideas. For the experimentation loop specifically, see ab-testing.",
+      "publisher": "coreyhaines31",
+      "publisherSlug": "coreyhaines31",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "coreyhaines31",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "prd-specs",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
+      "creatorHandle": "coreyhaines31",
+      "hasPublisherLogo": false,
+      "stars": 39239,
+      "forks": 6261
+    },
+    {
+      "slug": "coreyhaines31-marketing-plan",
+      "name": "coreyhaines31/marketing-plan",
+      "description": "When the user needs a comprehensive marketing plan for a client, a company they advise, or their own product. Also use when the user mentions \"marketing plan,\" \"growth plan,\" \"GTM plan,\" \"go-to-market plan,\" \"AARRR plan,\" \"90-day marketing plan,\" \"12-month marketing roadmap,\" \"fractional CMO plan,\" or \"fCMO plan.\" Generates an exhaustive 13-section plan structured by AARRR (Acquisition, Activation, Retention, Referral, Revenue), customized to the client's current budget, team, and stage, mapped to future funding milestones, cross-referenced with the 139-idea marketing-ideas library and an embedded 17-section current-state audit rubric, with a full marketing operations stack showing which skills and MCP/API integrations execute each part. Outputs a Notion-paste-ready markdown document. For positioning and ICP context before planning, see product-marketing. For stage-specific deep work, se",
+      "publisher": "coreyhaines31",
+      "publisherSlug": "coreyhaines31",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "coreyhaines31",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "founder",
+        "marketer",
+        "pm"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "landing-pages",
+        "planning-roadmapping",
+        "prd-specs",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
+      "creatorHandle": "coreyhaines31",
+      "hasPublisherLogo": false,
+      "stars": 39239,
+      "forks": 6261
+    },
+    {
+      "slug": "coreyhaines31-offers",
+      "name": "coreyhaines31/offers",
+      "description": "When the user wants to design, construct, or improve an offer — the thing they actually sell — including value framing, bonus stacking, guarantee design, scarcity/urgency, naming, and payment structure. Also use when the user mentions 'offer,' 'offer design,' 'build an offer,' 'grand slam offer,' 'irresistible offer,' 'value stack,' 'bonus stack,' 'guarantee,' 'risk reversal,' 'money-back guarantee,' 'scarcity,' 'urgency,' 'high-ticket offer,' 'productize a service,' 'naming an offer,' 'payment plan,' 'down-sell,' 'upsell offer,' or 'why isn't my offer converting.' Best for services, agencies, courses, coaching, info products, high-ticket B2B, and direct-response. If you run pure self-serve SaaS, read pricing first — tiers and packaging do more work there. For price level itself (tiers, freemium, value metric), see pricing. For the page that presents the offer, see copywriting. For the l",
+      "publisher": "coreyhaines31",
+      "publisherSlug": "coreyhaines31",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "coreyhaines31",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "designer",
+        "engineer",
+        "founder",
+        "marketer",
+        "sales",
+        "support"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "data-extraction",
+        "deployment-ops",
+        "design-critique",
+        "development-workflows",
+        "document-authoring",
+        "landing-pages",
+        "planning-roadmapping",
+        "presentation-building",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
+      "creatorHandle": "coreyhaines31",
+      "hasPublisherLogo": false,
+      "stars": 39239,
+      "forks": 6261
+    },
+    {
+      "slug": "coreyhaines31-onboarding",
+      "name": "coreyhaines31/onboarding",
+      "description": "When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions \"onboarding flow,\" \"activation rate,\" \"user activation,\" \"first-run experience,\" \"empty states,\" \"onboarding checklist,\" \"aha moment,\" \"new user experience,\" \"users aren't activating,\" \"nobody completes setup,\" \"low activation rate,\" \"users sign up but don't use the product,\" \"time to value,\" or \"first session experience.\" Use this whenever users are signing up but not sticking around. For signup/registration optimization, see signup. For ongoing email sequences, see emails.",
+      "publisher": "coreyhaines31",
+      "publisherSlug": "coreyhaines31",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "coreyhaines31",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "pm"
+      ],
+      "jobs": [
+        "planning-roadmapping",
+        "prd-specs",
+        "reporting",
+        "research-synthesis",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
+      "creatorHandle": "coreyhaines31",
+      "hasPublisherLogo": false,
+      "stars": 39239,
+      "forks": 6261
+    },
+    {
+      "slug": "coreyhaines31-paywalls",
+      "name": "coreyhaines31/paywalls",
+      "description": "When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions \"paywall,\" \"upgrade screen,\" \"upgrade modal,\" \"upsell,\" \"feature gate,\" \"convert free to paid,\" \"freemium conversion,\" \"trial expiration screen,\" \"limit reached screen,\" \"plan upgrade prompt,\" \"in-app pricing,\" \"free users won't upgrade,\" \"trial to paid conversion,\" or \"how do I get users to pay.\" Use this for any in-product moment where you're asking users to upgrade. Distinct from public pricing pages (see cro) — this focuses on in-product upgrade moments where the user has already experienced value. For pricing decisions, see pricing.",
+      "publisher": "coreyhaines31",
+      "publisherSlug": "coreyhaines31",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "coreyhaines31",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "founder",
+        "pm",
+        "sales"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "landing-pages",
+        "planning-roadmapping",
+        "prd-specs",
+        "presentation-building",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
+      "creatorHandle": "coreyhaines31",
+      "hasPublisherLogo": false,
+      "stars": 39239,
+      "forks": 6261
+    },
+    {
+      "slug": "coreyhaines31-popups",
+      "name": "coreyhaines31/popups",
+      "description": "When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions \"exit intent,\" \"popup conversions,\" \"modal optimization,\" \"lead capture popup,\" \"email popup,\" \"announcement banner,\" \"overlay,\" \"collect emails with a popup,\" \"exit popup,\" \"scroll trigger,\" \"sticky bar,\" or \"notification bar.\" Use this for any overlay or interrupt-style conversion element. For forms outside of popups, see cro. For general page conversion optimization, see cro.",
+      "publisher": "coreyhaines31",
+      "publisherSlug": "coreyhaines31",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "coreyhaines31",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [
+        "landing-pages"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
+      "creatorHandle": "coreyhaines31",
+      "hasPublisherLogo": false,
+      "stars": 39239,
+      "forks": 6261
+    },
+    {
+      "slug": "coreyhaines31-pricing",
+      "name": "coreyhaines31/pricing",
+      "description": "When the user wants help with pricing decisions, packaging, or monetization strategy. Also use when the user mentions 'pricing,' 'pricing tiers,' 'freemium,' 'free trial,' 'packaging,' 'price increase,' 'value metric,' 'Van Westendorp,' 'willingness to pay,' 'monetization,' 'how much should I charge,' 'my pricing is wrong,' 'pricing page,' 'annual vs monthly,' 'per seat pricing,' or 'should I offer a free plan.' Use this whenever someone is figuring out what to charge or how to structure their plans. For in-app upgrade screens, see paywalls. For offer construction (bonuses, guarantees, value framing, naming) on services/courses/coaching/high-ticket B2B, see offers.",
+      "publisher": "coreyhaines31",
+      "publisherSlug": "coreyhaines31",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "coreyhaines31",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "founder",
+        "sales",
+        "support"
+      ],
+      "jobs": [
+        "api-integration",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "landing-pages",
+        "planning-roadmapping",
+        "presentation-building",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
+      "creatorHandle": "coreyhaines31",
+      "hasPublisherLogo": false,
+      "stars": 39239,
+      "forks": 6261
+    },
+    {
+      "slug": "coreyhaines31-product-marketing",
+      "name": "coreyhaines31/product-marketing",
+      "description": "When the user wants to create or update their product marketing context document. Also use when the user mentions 'product context,' 'marketing context,' 'set up context,' 'positioning,' 'who is my target audience,' 'describe my product,' 'ICP,' 'ideal customer profile,' or wants to avoid repeating foundational information across marketing tasks. Use this at the start of any new project before using other marketing skills — it creates `.agents/product-marketing.md` that all other skills reference for product, audience, and positioning context.",
+      "publisher": "coreyhaines31",
+      "publisherSlug": "coreyhaines31",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "coreyhaines31",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "marketer",
+        "pm"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "document-authoring",
+        "landing-pages",
+        "planning-roadmapping",
+        "prd-specs",
+        "reporting",
+        "research-synthesis",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
+      "creatorHandle": "coreyhaines31",
+      "hasPublisherLogo": false,
+      "stars": 39239,
+      "forks": 6261
+    },
+    {
+      "slug": "coreyhaines31-prospecting",
+      "name": "coreyhaines31/prospecting",
+      "description": "When the user wants to find, qualify, and build a list of prospects to reach out to — across B2B SaaS, general B2B, or local small businesses. Also use when the user mentions \"prospecting,\" \"build a prospect list,\" \"find prospects,\" \"find leads,\" \"lead gen list,\" \"find SaaS companies that,\" \"find B2B companies,\" \"find local businesses,\" \"ICP-fit accounts,\" \"who should we go after,\" \"outbound list,\" \"target account list,\" \"find clients near me,\" \"businesses without websites,\" \"prospect research,\" or \"qualified leads.\" Use this for the list-building and qualification phase. For writing the outbound copy after the list is built, see cold-email. For deep competitive research on specific accounts, see competitor-profiling.",
+      "publisher": "coreyhaines31",
+      "publisherSlug": "coreyhaines31",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "coreyhaines31",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "marketer",
+        "sales"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "landing-pages",
+        "prd-specs",
+        "presentation-building",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
+      "creatorHandle": "coreyhaines31",
+      "hasPublisherLogo": false,
+      "stars": 39239,
+      "forks": 6261
+    },
+    {
+      "slug": "coreyhaines31-public-relations",
+      "name": "coreyhaines31/public-relations",
+      "description": "When the user wants help with public relations, earned media, press coverage, journalist outreach, or media strategy (not pull requests). Also use when the user mentions 'PR,' 'public relations,' 'press,' 'press release,' 'press coverage,' 'media outreach,' 'pitch a journalist,' 'get featured,' 'media list,' 'media kit,' 'press kit,' 'newsjacking,' 'news hijack,' 'HARO,' 'Qwoted,' 'Featured,' 'Help A Reporter,' 'reporter request,' 'tech press,' 'TechCrunch,' 'earned media,' 'thought leadership placement,' 'op-ed,' 'guest article,' 'press contacts,' or 'how do I get press.' Use this for earned media work — finding journalists, pitching stories, newsjacking, and responding to press requests. For startup/SaaS/AI directory submissions, see directory-submissions. For product launches, see launch. For social-media engagement, see social. For cold-email outreach to prospects, see cold-email.",
+      "publisher": "coreyhaines31",
+      "publisherSlug": "coreyhaines31",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "coreyhaines31",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "founder",
+        "pm",
+        "sales"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "landing-pages",
+        "planning-roadmapping",
+        "prd-specs",
+        "presentation-building",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
+      "creatorHandle": "coreyhaines31",
+      "hasPublisherLogo": false,
+      "stars": 39239,
+      "forks": 6261
+    },
+    {
+      "slug": "coreyhaines31-referrals",
+      "name": "coreyhaines31/referrals",
+      "description": "When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' 'partner program,' 'referral incentive,' 'how to get referrals,' 'customers referring customers,' or 'affiliate payout.' Use this whenever someone wants existing users or partners to bring in new customers. For launch-specific virality, see launch.",
+      "publisher": "coreyhaines31",
+      "publisherSlug": "coreyhaines31",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "coreyhaines31",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "founder"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "planning-roadmapping",
+        "prd-specs",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
+      "creatorHandle": "coreyhaines31",
+      "hasPublisherLogo": false,
+      "stars": 39239,
+      "forks": 6261
+    },
+    {
+      "slug": "coreyhaines31-schema",
+      "name": "coreyhaines31/schema",
+      "description": "When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user mentions \"schema markup,\" \"structured data,\" \"JSON-LD,\" \"rich snippets,\" \"schema.org,\" \"FAQ schema,\" \"product schema,\" \"review schema,\" \"breadcrumb schema,\" \"Google rich results,\" \"knowledge panel,\" \"star ratings in search,\" or \"add structured data.\" Use this whenever someone wants their pages to show enhanced results in Google. For broader SEO issues, see seo-audit. For AI search optimization, see ai-seo.",
+      "publisher": "coreyhaines31",
+      "publisherSlug": "coreyhaines31",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "coreyhaines31",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "marketer",
+        "pm",
+        "support"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "data-extraction",
+        "document-authoring",
+        "landing-pages",
+        "planning-roadmapping",
+        "prd-specs",
+        "reporting",
+        "research-synthesis",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
+      "creatorHandle": "coreyhaines31",
+      "hasPublisherLogo": false,
+      "stars": 39239,
+      "forks": 6261
+    },
+    {
+      "slug": "coreyhaines31-signup",
+      "name": "coreyhaines31/signup",
+      "description": "When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions \"signup conversions,\" \"registration friction,\" \"signup form optimization,\" \"free trial signup,\" \"reduce signup dropoff,\" \"account creation flow,\" \"people aren't signing up,\" \"signup abandonment,\" \"trial conversion rate,\" \"nobody completes registration,\" \"too many steps to sign up,\" or \"simplify our signup.\" Use this whenever the user has a signup or registration flow that isn't performing. For post-signup onboarding, see onboarding. For lead capture forms (not account creation), see cro.",
+      "publisher": "coreyhaines31",
+      "publisherSlug": "coreyhaines31",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "coreyhaines31",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [
+        "landing-pages"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
+      "creatorHandle": "coreyhaines31",
+      "hasPublisherLogo": false,
+      "stars": 39239,
+      "forks": 6261
+    },
+    {
+      "slug": "coreyhaines31-sms",
+      "name": "coreyhaines31/sms",
+      "description": "When the user wants to plan, build, or optimize SMS or MMS marketing — including welcome flows, abandoned cart texts, post-purchase, win-back, promotional sends, or transactional/auth SMS. Also use when the user mentions \"SMS marketing,\" \"text message campaigns,\" \"SMS sequence,\" \"SMS automation,\" \"abandoned cart text,\" \"post-purchase SMS,\" \"Klaviyo SMS,\" \"Postscript,\" \"Attentive,\" \"Twilio,\" \"A2P 10DLC,\" \"TCPA,\" \"SMS compliance,\" \"short code,\" \"toll-free SMS,\" \"MMS campaign,\" \"should I do SMS,\" or \"SMS vs email.\" For email sequences, see emails. For SMS copy framing, see copywriting. For opt-in popups that capture phone numbers, see popups.",
+      "publisher": "coreyhaines31",
+      "publisherSlug": "coreyhaines31",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "coreyhaines31",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
+      "creatorHandle": "coreyhaines31",
+      "hasPublisherLogo": false,
+      "stars": 39239,
+      "forks": 6261
+    },
+    {
+      "slug": "coreyhaines31-social",
+      "name": "coreyhaines31/social",
+      "description": "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms, or wants to do social listening and engagement triage. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' 'viral content,' 'what should I post,' 'repurpose this content,' 'tweet ideas,' 'LinkedIn carousel,' 'social media strategy,' 'grow my following,' 'TikTok video,' 'Reels,' 'Shorts,' 'video script,' 'video hook,' 'short-form video,' 'create a reel,' 'social listening,' 'brand mentions,' 'competitor monitoring,' 'top posts to comment on,' or 'find people asking for.' Use this for social media content creation, repurposing, scheduling, short-form video scripting, and social listening. For broader content strategy, see content-strategy. For paid ads",
+      "publisher": "coreyhaines31",
+      "publisherSlug": "coreyhaines31",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "coreyhaines31",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "designer",
+        "engineer",
+        "founder",
+        "marketer",
+        "support"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "data-extraction",
+        "deployment-ops",
+        "design-critique",
+        "development-workflows",
+        "document-authoring",
+        "landing-pages",
+        "planning-roadmapping",
+        "presentation-building",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
+      "creatorHandle": "coreyhaines31",
+      "hasPublisherLogo": false,
+      "stars": 39239,
+      "forks": 6261
+    },
+    {
+      "slug": "coreyhaines31-video",
+      "name": "coreyhaines31/video",
+      "description": "When the user wants to create, generate, or produce video content using AI tools or programmatic frameworks. Also use when the user mentions 'video production,' 'AI video,' 'Remotion,' 'Hyperframes,' 'HeyGen,' 'Synthesia,' 'Veo,' 'Sora,' 'Runway,' 'Kling,' 'Seedance,' 'Hailuo,' 'MiniMax,' 'Pika,' 'Hunyuan,' 'Wan,' 'video generation,' 'AI avatar,' 'talking head video,' 'programmatic video,' 'video template,' 'explainer video,' 'product demo video,' 'video pipeline,' or 'make me a video.' Use this for video creation, generation, and production workflows. For video content strategy and what to post, see social. For paid video ad creative, see ad-creative.",
+      "publisher": "coreyhaines31",
+      "publisherSlug": "coreyhaines31",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "coreyhaines31",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "founder",
+        "marketer",
+        "pm",
+        "sales"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "landing-pages",
+        "planning-roadmapping",
+        "prd-specs",
+        "presentation-building",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/coreyhaines31.png?size=88",
+      "creatorHandle": "coreyhaines31",
+      "hasPublisherLogo": false,
+      "stars": 39239,
+      "forks": 6261
+    },
+    {
+      "slug": "calesthio-openmontage-collection",
+      "name": "calesthio/OpenMontage",
+      "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+      "publisher": "calesthio",
+      "publisherSlug": "calesthio",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "calesthio",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [
+        "development-workflows",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/calesthio.png?size=88",
+      "creatorHandle": "calesthio",
+      "hasPublisherLogo": false,
+      "stars": 38544,
+      "forks": 4674
+    },
+    {
+      "slug": "imbad0202-academic-research-skills-collection",
+      "name": "Imbad0202/academic-research-skills",
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "publisher": "Imbad0202",
+      "publisherSlug": "imbad0202",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "imbad0202",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/Imbad0202.png?size=88",
+      "creatorHandle": "Imbad0202",
+      "hasPublisherLogo": false,
+      "stars": 37840,
+      "forks": 3079
+    },
+    {
+      "slug": "github-awesome-copilot-collection",
+      "name": "github/awesome-copilot",
+      "description": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
+      "publisher": "github",
+      "publisherSlug": "github",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github",
+        "github-discovery",
+        "namespaced",
+        "productivity",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/github.png?size=88",
+      "creatorHandle": "github",
+      "hasPublisherLogo": false,
+      "stars": 36582,
+      "forks": 4573
+    },
+    {
+      "slug": "github-acquire-codebase-knowledge",
+      "name": "github/acquire-codebase-knowledge",
+      "description": "Use this skill when the user explicitly asks to map, document, or onboard into an existing codebase. Trigger for prompts like \"map this codebase\", \"document this architecture\", \"onboard me to this repo\", or \"create codebase docs\". Do not trigger for routine feature implementation, bug fixes, or narrow code edits unless the user asks for repository-level discovery.",
+      "publisher": "github",
+      "publisherSlug": "github",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github",
+        "github-discovery",
+        "namespaced",
+        "productivity",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/github.png?size=88",
+      "creatorHandle": "github",
+      "hasPublisherLogo": false,
+      "stars": 36582,
+      "forks": 4573
+    },
+    {
+      "slug": "github-acreadiness-assess",
+      "name": "github/acreadiness-assess",
+      "description": "Run the AgentRC readiness assessment on the current repository and produce a static HTML dashboard at reports/index.html. Wraps `npx github:microsoft/agentrc readiness` and hands off rendering to the @ai-readiness-reporter custom agent. Supports policies (--policy) for org-specific scoring. Use when asked to assess, audit, or score the AI readiness of a repo.",
+      "publisher": "github",
+      "publisherSlug": "github",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github",
+        "github-discovery",
+        "namespaced",
+        "productivity",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "prd-specs",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/github.png?size=88",
+      "creatorHandle": "github",
+      "hasPublisherLogo": false,
+      "stars": 36582,
+      "forks": 4573
+    },
+    {
+      "slug": "github-acreadiness-generate-instructions",
+      "name": "github/acreadiness-generate-instructions",
+      "description": "Generate tailored AI agent instruction files via AgentRC instructions command. Produces .github/copilot-instructions.md (default, recommended for Copilot in VS Code) plus optional per-area .instructions.md files with applyTo globs for monorepos. Use after running /acreadiness-assess to close gaps in the AI Tooling pillar.",
+      "publisher": "github",
+      "publisherSlug": "github",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github",
+        "github-discovery",
+        "namespaced",
+        "productivity",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/github.png?size=88",
+      "creatorHandle": "github",
+      "hasPublisherLogo": false,
+      "stars": 36582,
+      "forks": 4573
+    },
+    {
+      "slug": "github-acreadiness-policy",
+      "name": "github/acreadiness-policy",
+      "description": "Help the user pick, write, or apply an AgentRC policy. Policies customise readiness scoring by disabling irrelevant checks, overriding impact/level, setting pass-rate thresholds, or chaining org baselines with team overrides. Use when the user asks about strict mode, AI-only scoring, custom weights, CI gating, or wants org-wide standardisation.",
+      "publisher": "github",
+      "publisherSlug": "github",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github",
+        "github-discovery",
+        "namespaced",
+        "productivity",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/github.png?size=88",
+      "creatorHandle": "github",
+      "hasPublisherLogo": false,
+      "stars": 36582,
+      "forks": 4573
+    },
+    {
+      "slug": "github-add-educational-comments",
+      "name": "github/add-educational-comments",
+      "description": "Add educational comments to the file specified, or prompt asking for file to comment if one is not provided.",
+      "publisher": "github",
+      "publisherSlug": "github",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github",
+        "github-discovery",
+        "namespaced",
+        "productivity",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "prd-specs",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/github.png?size=88",
+      "creatorHandle": "github",
+      "hasPublisherLogo": false,
+      "stars": 36582,
+      "forks": 4573
+    },
+    {
+      "slug": "github-adobe-illustrator-scripting",
+      "name": "github/adobe-illustrator-scripting",
+      "description": "Write, debug, and optimize Adobe Illustrator automation scripts using ExtendScript (JavaScript/JSX). Use when creating or modifying scripts that manipulate documents, layers, paths, text frames, colors, symbols, artboards, or any Illustrator DOM objects. Covers the complete JavaScript object model, coordinate system, measurement units, export workflows, and scripting best practices.",
+      "publisher": "github",
+      "publisherSlug": "github",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github",
+        "github-discovery",
+        "namespaced",
+        "productivity",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/github.png?size=88",
+      "creatorHandle": "github",
+      "hasPublisherLogo": false,
+      "stars": 36582,
+      "forks": 4573
+    },
+    {
+      "slug": "github-agent-governance",
+      "name": "github/agent-governance",
+      "description": "|",
+      "publisher": "github",
+      "publisherSlug": "github",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github",
+        "github-discovery",
+        "namespaced",
+        "productivity",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/github.png?size=88",
+      "creatorHandle": "github",
+      "hasPublisherLogo": false,
+      "stars": 36582,
+      "forks": 4573
+    },
+    {
+      "slug": "github-agent-owasp-compliance",
+      "name": "github/agent-owasp-compliance",
+      "description": "|",
+      "publisher": "github",
+      "publisherSlug": "github",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github",
+        "github-discovery",
+        "namespaced",
+        "productivity",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/github.png?size=88",
+      "creatorHandle": "github",
+      "hasPublisherLogo": false,
+      "stars": 36582,
+      "forks": 4573
+    },
+    {
+      "slug": "github-agent-supply-chain",
+      "name": "github/agent-supply-chain",
+      "description": "|",
+      "publisher": "github",
+      "publisherSlug": "github",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github",
+        "github-discovery",
+        "namespaced",
+        "productivity",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/github.png?size=88",
+      "creatorHandle": "github",
+      "hasPublisherLogo": false,
+      "stars": 36582,
+      "forks": 4573
+    },
+    {
+      "slug": "github-agentic-eval",
+      "name": "github/agentic-eval",
+      "description": "|",
+      "publisher": "github",
+      "publisherSlug": "github",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github",
+        "github-discovery",
+        "namespaced",
+        "productivity",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/github.png?size=88",
+      "creatorHandle": "github",
+      "hasPublisherLogo": false,
+      "stars": 36582,
+      "forks": 4573
+    },
+    {
+      "slug": "github-ai-prompt-engineering-safety-review",
+      "name": "github/ai-prompt-engineering-safety-review",
+      "description": "Comprehensive AI prompt engineering safety review and improvement prompt. Analyzes prompts for safety, bias, security vulnerabilities, and effectiveness while providing detailed improvement recommendations with extensive frameworks, testing methodologies, and educational content.",
+      "publisher": "github",
+      "publisherSlug": "github",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github",
+        "github-discovery",
+        "namespaced",
+        "productivity",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/github.png?size=88",
+      "creatorHandle": "github",
+      "hasPublisherLogo": false,
+      "stars": 36582,
+      "forks": 4573
+    },
+    {
+      "slug": "github-ai-ready",
+      "name": "github/ai-ready",
+      "description": "Make any repo AI-ready — analyzes your codebase and generates AGENTS.md, copilot-instructions.md, CI workflows, issue templates, and more. Mines your PR review patterns and creates files customized to your stack. USE THIS SKILL when the user asks to \"make this repo ai-ready\", \"set up AI config\", or \"prepare this repo for AI contributions\".",
+      "publisher": "github",
+      "publisherSlug": "github",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github",
+        "github-discovery",
+        "namespaced",
+        "productivity",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/github.png?size=88",
+      "creatorHandle": "github",
+      "hasPublisherLogo": false,
+      "stars": 36582,
+      "forks": 4573
+    },
+    {
+      "slug": "github-ai-team-orchestration",
+      "name": "github/ai-team-orchestration",
+      "description": "Bootstrap and run a multi-agent AI development team. Use when: starting a new software project with AI agents, setting up parallel dev/QA teams, creating sprint plans, writing brainstorm prompts with distinct agent voices, recovering a project workflow, or planning sprints.",
+      "publisher": "github",
+      "publisherSlug": "github",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github",
+        "github-discovery",
+        "namespaced",
+        "productivity",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [
+        "development-workflows",
+        "document-authoring",
+        "planning-roadmapping",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/github.png?size=88",
+      "creatorHandle": "github",
+      "hasPublisherLogo": false,
+      "stars": 36582,
+      "forks": 4573
+    },
+    {
+      "slug": "github-appinsights-instrumentation",
+      "name": "github/appinsights-instrumentation",
+      "description": "Instrument a webapp to send useful telemetry data to Azure App Insights",
+      "publisher": "github",
+      "publisherSlug": "github",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github",
+        "github-discovery",
+        "namespaced",
+        "productivity",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/github.png?size=88",
+      "creatorHandle": "github",
+      "hasPublisherLogo": false,
+      "stars": 36582,
+      "forks": 4573
+    },
+    {
+      "slug": "github-apple-appstore-reviewer",
+      "name": "github/apple-appstore-reviewer",
+      "description": "Serves as a reviewer of the codebase with instructions on looking for Apple App Store optimizations or rejection reasons.",
+      "publisher": "github",
+      "publisherSlug": "github",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github",
+        "github-discovery",
+        "namespaced",
+        "productivity",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/github.png?size=88",
+      "creatorHandle": "github",
+      "hasPublisherLogo": false,
+      "stars": 36582,
+      "forks": 4573
+    },
+    {
+      "slug": "github-arch-linux-triage",
+      "name": "github/arch-linux-triage",
+      "description": "Triage and resolve Arch Linux issues with pacman, systemd, and rolling-release best practices.",
+      "publisher": "github",
+      "publisherSlug": "github",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github",
+        "github-discovery",
+        "namespaced",
+        "productivity",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "support"
+      ],
+      "jobs": [
+        "data-extraction",
+        "document-authoring",
+        "reporting",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/github.png?size=88",
+      "creatorHandle": "github",
+      "hasPublisherLogo": false,
+      "stars": 36582,
+      "forks": 4573
+    },
+    {
+      "slug": "github-architecture-blueprint-generator",
+      "name": "github/architecture-blueprint-generator",
+      "description": "Comprehensive project architecture blueprint generator that analyzes codebases to create detailed architectural documentation. Automatically detects technology stacks and architectural patterns, generates visual diagrams, documents implementation patterns, and provides extensible blueprints for maintaining architectural consistency and guiding new development.",
+      "publisher": "github",
+      "publisherSlug": "github",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github",
+        "github-discovery",
+        "namespaced",
+        "productivity",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "designer",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "design-critique",
+        "development-workflows",
+        "presentation-building",
+        "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/github.png?size=88",
+      "creatorHandle": "github",
+      "hasPublisherLogo": false,
+      "stars": 36582,
+      "forks": 4573
+    },
+    {
+      "slug": "github-arduino-azure-iot-edge-integration",
+      "name": "github/arduino-azure-iot-edge-integration",
+      "description": "Design and implement Arduino integration with Azure IoT Hub and IoT Edge, including secure provisioning, resilient telemetry, command handling, and production guardrails.",
+      "publisher": "github",
+      "publisherSlug": "github",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github",
+        "github-discovery",
+        "namespaced",
+        "productivity",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "designer"
+      ],
+      "jobs": [
+        "api-integration",
+        "design-critique",
+        "presentation-building",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/github.png?size=88",
+      "creatorHandle": "github",
+      "hasPublisherLogo": false,
+      "stars": 36582,
+      "forks": 4573
+    },
+    {
+      "slug": "github-arize-ai-provider-integration",
+      "name": "github/arize-ai-provider-integration",
+      "description": "Creates, reads, updates, and deletes Arize AI integrations that store LLM provider credentials used by evaluators and other Arize features. Supports any LLM provider (e.g. OpenAI, Anthropic, Azure OpenAI, AWS Bedrock, Vertex AI, Gemini, NVIDIA NIM). Use when the user mentions AI integration, LLM provider credentials, create integration, list integrations, update credentials, delete integration, or connecting an LLM provider to Arize.",
+      "publisher": "github",
+      "publisherSlug": "github",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github",
+        "github-discovery",
+        "namespaced",
+        "productivity",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [
+        "api-integration",
+        "campaign-planning"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/github.png?size=88",
+      "creatorHandle": "github",
+      "hasPublisherLogo": false,
+      "stars": 36582,
+      "forks": 4573
+    },
+    {
+      "slug": "github-arize-annotation",
+      "name": "github/arize-annotation",
+      "description": "Creates and manages annotation configs (categorical, continuous, freeform label schemas) and annotation queues (human review workflows) on Arize. Applies human annotations to project spans via the Python SDK. Use when the user mentions annotation config, annotation queue, label schema, human feedback, bulk annotate spans, update_annotations, labeling queue, annotate record, or human review.",
+      "publisher": "github",
+      "publisherSlug": "github",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github",
+        "github-discovery",
+        "namespaced",
+        "productivity",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/github.png?size=88",
+      "creatorHandle": "github",
+      "hasPublisherLogo": false,
+      "stars": 36582,
+      "forks": 4573
+    },
+    {
+      "slug": "github-arize-dataset",
+      "name": "github/arize-dataset",
+      "description": "Creates, manages, and queries Arize datasets and examples. Covers dataset CRUD, appending examples, exporting data, and file-based dataset creation using the ax CLI. Use when the user needs test data, evaluation examples, or mentions create dataset, list datasets, export dataset, append examples, dataset version, golden dataset, or test set.",
+      "publisher": "github",
+      "publisherSlug": "github",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github",
+        "github-discovery",
+        "namespaced",
+        "productivity",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/github.png?size=88",
+      "creatorHandle": "github",
+      "hasPublisherLogo": false,
+      "stars": 36582,
+      "forks": 4573
+    },
+    {
+      "slug": "github-arize-evaluator",
+      "name": "github/arize-evaluator",
+      "description": "Handles LLM-as-judge evaluation workflows on Arize including creating/updating evaluators, running evaluations on spans or experiments, managing tasks, trigger-run operations, column mapping, and continuous monitoring. Use when the user mentions create evaluator, LLM judge, hallucination, faithfulness, correctness, relevance, run eval, score spans, score experiment, trigger-run, column mapping, continuous monitoring, or improve evaluator prompt.",
+      "publisher": "github",
+      "publisherSlug": "github",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github",
+        "github-discovery",
+        "namespaced",
+        "productivity",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/github.png?size=88",
+      "creatorHandle": "github",
+      "hasPublisherLogo": false,
+      "stars": 36582,
+      "forks": 4573
+    },
+    {
+      "slug": "github-arize-experiment",
+      "name": "github/arize-experiment",
+      "description": "Creates, runs, and analyzes Arize experiments for evaluating and comparing model performance. Covers experiment CRUD, exporting runs, comparing results, and evaluation workflows using the ax CLI. Use when the user mentions create experiment, run experiment, compare models, model performance, evaluate AI, experiment results, benchmark, A/B test models, or measure accuracy.",
+      "publisher": "github",
+      "publisherSlug": "github",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github",
+        "github-discovery",
+        "namespaced",
+        "productivity",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/github.png?size=88",
+      "creatorHandle": "github",
+      "hasPublisherLogo": false,
+      "stars": 36582,
+      "forks": 4573
+    },
     {
       "slug": "github-arize-instrumentation",
       "name": "github/arize-instrumentation",
@@ -37,8 +1706,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-arize-link",
@@ -74,8 +1743,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-arize-prompt-optimization",
@@ -111,8 +1780,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-arize-trace",
@@ -150,8 +1819,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-aspire",
@@ -193,8 +1862,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-aspnet-minimal-api-openapi",
@@ -230,8 +1899,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-audit-integrity",
@@ -274,8 +1943,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-automate-this",
@@ -305,8 +1974,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-autoresearch",
@@ -350,8 +2019,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-aws-cdk-python-setup",
@@ -388,8 +2057,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-aws-cloudwatch-investigation",
@@ -417,8 +2086,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-aws-cost-optimize",
@@ -446,8 +2115,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-aws-resource-health-diagnose",
@@ -484,8 +2153,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-aws-resource-query",
@@ -522,8 +2191,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-aws-well-architected-review",
@@ -553,8 +2222,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-az-cost-optimize",
@@ -582,8 +2251,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-azure-architecture-autopilot",
@@ -611,8 +2280,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-azure-deployment-preflight",
@@ -654,8 +2323,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-azure-devops-cli",
@@ -692,8 +2361,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-azure-pricing",
@@ -737,8 +2406,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-azure-resource-health-diagnose",
@@ -766,8 +2435,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-azure-resource-visualizer",
@@ -797,8 +2466,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-azure-role-selector",
@@ -835,8 +2504,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-azure-smart-city-iot-solution-builder",
@@ -882,8 +2551,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-azure-static-web-apps",
@@ -919,8 +2588,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-batch-files",
@@ -957,8 +2626,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-bigquery-pipeline-audit",
@@ -998,8 +2667,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-boost-prompt",
@@ -1036,8 +2705,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-brag-sheet",
@@ -1065,8 +2734,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-breakdown-epic-arch",
@@ -1104,8 +2773,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-breakdown-epic-pm",
@@ -1148,8 +2817,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-breakdown-feature-implementation",
@@ -1177,8 +2846,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-breakdown-feature-prd",
@@ -1215,8 +2884,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-breakdown-plan",
@@ -1253,8 +2922,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-breakdown-test",
@@ -1291,8 +2960,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-centos-linux-triage",
@@ -1329,8 +2998,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-chrome-devtools",
@@ -1372,8 +3041,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-cli-mastery",
@@ -1404,8 +3073,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-cloud-design-patterns",
@@ -1446,8 +3115,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-code-exemplars-blueprint-generator",
@@ -1489,8 +3158,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-code-tour",
@@ -1526,8 +3195,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-codeql",
@@ -1570,8 +3239,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-comment-code-generate-a-tutorial",
@@ -1608,8 +3277,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-commit-message-storyteller",
@@ -1639,8 +3308,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-containerize-aspnet-framework",
@@ -1668,8 +3337,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-containerize-aspnetcore",
@@ -1697,8 +3366,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-content-management-systems",
@@ -1742,8 +3411,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-context-map",
@@ -1771,8 +3440,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-conventional-branch",
@@ -1813,8 +3482,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-conventional-commit",
@@ -1852,8 +3521,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-convert-plaintext-to-md",
@@ -1883,8 +3552,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-copilot-cli-quickstart",
@@ -1914,8 +3583,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-copilot-instructions-blueprint-generator",
@@ -1952,8 +3621,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-copilot-pr-autopilot",
@@ -1999,8 +3668,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-copilot-sdk",
@@ -2037,8 +3706,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-copilot-spaces",
@@ -2079,8 +3748,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-copilot-usage-metrics",
@@ -2122,8 +3791,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-cosmosdb-datamodeling",
@@ -2164,8 +3833,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-create-agentsmd",
@@ -2193,8 +3862,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-create-architectural-decision-record",
@@ -2231,8 +3900,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-create-github-action-workflow-specification",
@@ -2269,8 +3938,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-create-github-issue-feature-from-specification",
@@ -2307,8 +3976,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-create-github-issues-feature-from-implementation-plan",
@@ -2336,8 +4005,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-create-github-issues-for-unmet-specification-requirements",
@@ -2379,8 +4048,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-create-implementation-plan",
@@ -2421,8 +4090,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-create-llms",
@@ -2459,8 +4128,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-create-readme",
@@ -2488,8 +4157,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-create-specification",
@@ -2526,8 +4195,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-create-spring-boot-java-project",
@@ -2555,8 +4224,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-create-spring-boot-kotlin-project",
@@ -2584,8 +4253,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-create-technical-spike",
@@ -2621,8 +4290,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-create-tldr-page",
@@ -2652,8 +4321,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-creating-oracle-to-postgres-master-migration-plan",
@@ -2695,8 +4364,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-creating-oracle-to-postgres-migration-bug-report",
@@ -2733,8 +4402,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-creating-oracle-to-postgres-migration-integration-tests",
@@ -2777,8 +4446,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-csharp-async",
@@ -2806,8 +4475,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-csharp-docs",
@@ -2835,8 +4504,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-csharp-mstest",
@@ -2872,8 +4541,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-csharp-nunit",
@@ -2909,8 +4578,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-csharp-tunit",
@@ -2946,8 +4615,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-csharp-xunit",
@@ -2983,8 +4652,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-daily-prep",
@@ -3012,8 +4681,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-data-breach-blast-radius",
@@ -3056,8 +4725,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-datanalysis-credit-risk",
@@ -3097,8 +4766,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-dataverse-python-advanced-patterns",
@@ -3134,8 +4803,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-dataverse-python-production-code",
@@ -3171,8 +4840,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-dataverse-python-quickstart",
@@ -3209,8 +4878,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-dataverse-python-usecase-builder",
@@ -3248,8 +4917,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-debian-linux-triage",
@@ -3285,8 +4954,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-declarative-agents",
@@ -3324,8 +4993,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-dependabot",
@@ -3353,8 +5022,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-devops-rollout-plan",
@@ -3390,8 +5059,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-diagnose",
@@ -3429,8 +5098,37 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
+    },
+    {
+      "slug": "github-doc-and-modernize",
+      "name": "github/doc-and-modernize",
+      "description": ">-",
+      "publisher": "github",
+      "publisherSlug": "github",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github",
+        "github-discovery",
+        "namespaced",
+        "productivity",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/github.png?size=88",
+      "creatorHandle": "github",
+      "hasPublisherLogo": false,
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-documentation-writer",
@@ -3469,8 +5167,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-dotnet-best-practices",
@@ -3506,8 +5204,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-dotnet-design-pattern-review",
@@ -3548,8 +5246,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-dotnet-mcp-builder",
@@ -3591,8 +5289,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-dotnet-timezone",
@@ -3635,8 +5333,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-dotnet-upgrade",
@@ -3673,8 +5371,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-doublecheck",
@@ -3715,8 +5413,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-draw-io-diagram-generator",
@@ -3756,8 +5454,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-drawio",
@@ -3787,8 +5485,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-editorconfig",
@@ -3825,8 +5523,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-ef-core",
@@ -3854,8 +5552,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-efcore-d2-db-diagram",
@@ -3898,8 +5596,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-em-dash",
@@ -3939,8 +5637,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-email-drafter",
@@ -3982,8 +5680,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-entra-agent-user",
@@ -4011,8 +5709,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-eval-driven-dev",
@@ -4042,8 +5740,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-exam-ready",
@@ -4071,8 +5769,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-excalidraw-diagram-generator",
@@ -4102,8 +5800,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-eyeball",
@@ -4141,8 +5839,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-fabric-lakehouse",
@@ -4179,8 +5877,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-fedora-linux-triage",
@@ -4216,8 +5914,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-finalize-agent-prompt",
@@ -4245,8 +5943,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-finnish-humanizer",
@@ -4289,8 +5987,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-first-ask",
@@ -4321,8 +6019,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-flowstudio-power-automate-build",
@@ -4359,8 +6057,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-flowstudio-power-automate-debug",
@@ -4396,8 +6094,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-flowstudio-power-automate-governance",
@@ -4427,8 +6125,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-flowstudio-power-automate-mcp",
@@ -4459,8 +6157,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-flowstudio-power-automate-monitoring",
@@ -4490,8 +6188,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-fluentui-blazor",
@@ -4521,8 +6219,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-folder-structure-blueprint-generator",
@@ -4565,8 +6263,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-foundry-agent-sync",
@@ -4602,8 +6300,50 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
+    },
+    {
+      "slug": "github-foundry-hosted-agent-copilotkit",
+      "name": "github/foundry-hosted-agent-copilotkit",
+      "description": "Ongoing development guidance for agentic web apps that pair a CopilotKit frontend with Microsoft Agent Framework agents on Azure AI Foundry hosted agents over the AG-UI protocol - add and gate agent tools, wire human-in-the-loop approvals, build generative UI and shared state, debug the event stream, upgrade pre-1.0 packages safely, and deploy hosted agent updates.",
+      "publisher": "github",
+      "publisherSlug": "github",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github",
+        "github-discovery",
+        "namespaced",
+        "productivity",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "designer",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "design-critique",
+        "development-workflows",
+        "presentation-building",
+        "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/github.png?size=88",
+      "creatorHandle": "github",
+      "hasPublisherLogo": false,
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-freecad-scripts",
@@ -4641,8 +6381,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-from-the-other-side-anitta",
@@ -4672,8 +6412,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-from-the-other-side-quinn",
@@ -4703,8 +6443,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-from-the-other-side-vega",
@@ -4741,8 +6481,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-from-the-other-side-wiggins",
@@ -4772,8 +6512,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-game-engine",
@@ -4811,8 +6551,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-gdpr-compliant",
@@ -4857,8 +6597,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-gen-specs-as-issues",
@@ -4896,8 +6636,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-generate-custom-instructions-from-codebase",
@@ -4933,8 +6673,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-generate-image",
@@ -4964,8 +6704,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-geofeed-tuner",
@@ -4993,8 +6733,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-git-commit",
@@ -5031,8 +6771,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-git-flow-branch-creator",
@@ -5060,8 +6800,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-github-actions-efficiency",
@@ -5097,8 +6837,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-github-actions-hardening",
@@ -5135,8 +6875,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-github-actions-runtime-upgrade-conventions",
@@ -5166,8 +6906,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-github-codespaces-efficiency",
@@ -5204,8 +6944,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-github-copilot-starter",
@@ -5233,8 +6973,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-github-issues",
@@ -5271,8 +7011,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-github-release",
@@ -5300,8 +7040,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-go-mcp-server-generator",
@@ -5337,8 +7077,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-gsap-framer-scroll-animation",
@@ -5366,8 +7106,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-gtm-0-to-1-launch",
@@ -5412,8 +7152,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-gtm-ai-gtm",
@@ -5457,8 +7197,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-gtm-board-and-investor-communication",
@@ -5502,8 +7242,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-gtm-developer-ecosystem",
@@ -5544,8 +7284,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-gtm-enterprise-account-planning",
@@ -5590,8 +7330,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-gtm-enterprise-onboarding",
@@ -5627,8 +7367,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-gtm-operating-cadence",
@@ -5674,8 +7414,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-gtm-partnership-architecture",
@@ -5720,8 +7460,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-gtm-positioning-strategy",
@@ -5764,8 +7504,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-gtm-product-led-growth",
@@ -5815,8 +7555,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-gtm-technical-product-pricing",
@@ -5862,8 +7602,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-harness-engineering",
@@ -5899,8 +7639,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-image-annotations",
@@ -5937,8 +7677,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-image-manipulation-image-magick",
@@ -5970,8 +7710,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-impediment-prioritization",
@@ -6016,8 +7756,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-import-infrastructure-as-code",
@@ -6054,8 +7794,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-incident-postmortem",
@@ -6097,8 +7837,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-integrate-context-matic",
@@ -6135,8 +7875,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-issue-fields-migration",
@@ -6172,8 +7912,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-java-add-graalvm-native-image-support",
@@ -6215,8 +7955,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-java-docs",
@@ -6244,8 +7984,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-java-junit",
@@ -6281,8 +8021,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-java-mcp-server-generator",
@@ -6318,8 +8058,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-java-refactoring-extract-method",
@@ -6349,8 +8089,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-java-refactoring-remove-parameter",
@@ -6378,8 +8118,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-java-springboot",
@@ -6409,8 +8149,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-javascript-typescript-jest",
@@ -6447,8 +8187,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-javax-to-jakarta-migration",
@@ -6484,8 +8224,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-kotlin-mcp-server-generator",
@@ -6521,8 +8261,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-kotlin-springboot",
@@ -6552,8 +8292,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-legacy-circuit-mockups",
@@ -6594,8 +8334,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-linkedin-post-formatter",
@@ -6642,8 +8382,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-lsp-setup",
@@ -6679,8 +8419,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-make-repo-contribution",
@@ -6718,8 +8458,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-markdown-to-html",
@@ -6750,8 +8490,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-mcp-cli",
@@ -6787,8 +8527,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-mcp-copilot-studio-server-generator",
@@ -6824,8 +8564,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-mcp-create-adaptive-cards",
@@ -6855,8 +8595,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-mcp-create-declarative-agent",
@@ -6886,8 +8626,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-mcp-deploy-manage-agents",
@@ -6923,8 +8663,39 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
+    },
+    {
+      "slug": "github-mcp-implementation-security-review",
+      "name": "github/mcp-implementation-security-review",
+      "description": "|",
+      "publisher": "github",
+      "publisherSlug": "github",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github",
+        "github-discovery",
+        "namespaced",
+        "productivity",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [
+        "api-integration"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/github.png?size=88",
+      "creatorHandle": "github",
+      "hasPublisherLogo": false,
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-mcp-security-audit",
@@ -6954,8 +8725,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-md-to-docx",
@@ -6988,8 +8759,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-meeting-minutes",
@@ -7029,8 +8800,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-memory-merger",
@@ -7058,8 +8829,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-mentoring-juniors",
@@ -7096,8 +8867,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-microsoft-agent-framework",
@@ -7135,8 +8906,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     },
     {
       "slug": "github-microsoft-code-reference",
@@ -7172,1735 +8943,8 @@
       "creatorAvatarUrl": "https://github.com/github.png?size=88",
       "creatorHandle": "github",
       "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-microsoft-docs",
-      "name": "github/microsoft-docs",
-      "description": "Query official Microsoft documentation to find concepts, tutorials, and code examples across Azure, .NET, Agent Framework, Aspire, VS Code, GitHub, and more. Uses Microsoft Learn MCP as the default, with Context7 and Aspire MCP for content that lives outside learn.microsoft.com.",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "data-analyst",
-        "engineer",
-        "marketer"
-      ],
-      "jobs": [
-        "api-integration",
-        "campaign-planning",
-        "content-production",
-        "dashboarding",
-        "data-extraction",
-        "deployment-ops",
-        "development-workflows",
-        "landing-pages",
-        "reporting",
-        "research-synthesis",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-microsoft-skill-creator",
-      "name": "github/microsoft-skill-creator",
-      "description": "Create agent skills for Microsoft technologies using Learn MCP tools. Use when users want to create a skill that teaches agents about any Microsoft technology, library, framework, or service (Azure, .NET, M365, VS Code, Bicep, etc.). Investigates topics deeply, then generates a hybrid skill storing essential knowledge locally while enabling dynamic deeper investigation.",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-migrating-oracle-to-postgres-stored-procedures",
-      "name": "github/migrating-oracle-to-postgres-stored-procedures",
-      "description": "Migrates Oracle PL/SQL stored procedures to PostgreSQL PL/pgSQL. Translates Oracle-specific syntax, preserves method signatures and type-anchored parameters, leverages orafce where appropriate, and applies COLLATE \"C\" for Oracle-compatible text sorting. Use when converting Oracle stored procedures or functions to PostgreSQL equivalents during a database migration.",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "data-analyst",
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "dashboarding",
-        "data-extraction",
-        "deployment-ops",
-        "development-workflows",
-        "prd-specs",
-        "reporting",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-minecraft-plugin-development",
-      "name": "github/minecraft-plugin-development",
-      "description": "Use this skill when building or modifying Minecraft server plugins for Paper, Spigot, or Bukkit, including plugin.yml setup, commands, listeners, schedulers, player state, team or arena systems, persistent progression, economy or profile data, configuration files, Adventure text, and version-safe API usage. Trigger for requests like \"build a Minecraft plugin\", \"add a Paper command\", \"fix a Bukkit listener\", \"create plugin.yml\", \"implement a minigame mechanic\", \"add a perk or quest system\", or \"debug server plugin behavior\".",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-mini-context-graph",
-      "name": "github/mini-context-graph",
-      "description": "|",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-mkdocs-translations",
-      "name": "github/mkdocs-translations",
-      "description": "Generate a language translation for a mkdocs documentation stack.",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-msgraph-sdk",
-      "name": "github/msgraph-sdk",
-      "description": "Integrate Microsoft Graph SDK into any project — .NET, TypeScript/JavaScript, or Python. Covers auth patterns (client credentials, OBO, managed identity), SDK setup, calling Graph APIs, batching, delta queries, change notifications, throttling, and permission scopes. Use when accessing Microsoft 365 data (users, mail, calendar, Teams, files, SharePoint) from any application type.",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "data-analyst",
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "dashboarding",
-        "data-extraction",
-        "deployment-ops",
-        "development-workflows",
-        "reporting",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-msstore-cli",
-      "name": "github/msstore-cli",
-      "description": "Microsoft Store Developer CLI (msstore) for publishing Windows applications to the Microsoft Store. Use when asked to configure Store credentials, list Store apps, check submission status, publish submissions, manage package flights, set up CI/CD for Store publishing, or integrate with Partner Center. Supports Windows App SDK/WinUI, UWP, .NET MAUI, Flutter, Electron, React Native, and PWA applications.",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-multi-stage-dockerfile",
-      "name": "github/multi-stage-dockerfile",
-      "description": "Create optimized multi-stage Dockerfiles for any language or framework",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-mvvm-toolkit-di",
-      "name": "github/mvvm-toolkit-di",
-      "description": "Wire CommunityToolkit.Mvvm ViewModels into Microsoft.Extensions.DependencyInjection. Covers the .NET Generic Host composition root, constructor injection, service lifetimes (Singleton / Transient / Scoped), IMessenger registration, resolving ViewModels in Views, keyed services, testing seams, and the legacy Ioc.Default escape hatch. Use across WPF, WinUI 3, .NET MAUI, Uno, and Avalonia.",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-mvvm-toolkit-messenger",
-      "name": "github/mvvm-toolkit-messenger",
-      "description": "CommunityToolkit.Mvvm Messenger pub/sub for decoupled communication between ViewModels (or any objects). Covers WeakReferenceMessenger vs StrongReferenceMessenger, IRecipient<TMessage>, RequestMessage<T> / AsyncRequestMessage<T> / CollectionRequestMessage<T>, ValueChangedMessage<T>, channels (tokens), and the ObservableRecipient activation lifecycle. Use across WPF, WinUI 3, .NET MAUI, Uno, and Avalonia.",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-mvvm-toolkit",
-      "name": "github/mvvm-toolkit",
-      "description": "CommunityToolkit.Mvvm (the MVVM Toolkit) core: source generators ([ObservableProperty], [RelayCommand], [NotifyPropertyChangedFor], [NotifyCanExecuteChangedFor], [NotifyDataErrorInfo]), base classes (ObservableObject / ObservableValidator / ObservableRecipient), commands (RelayCommand / AsyncRelayCommand), and validation. Companion skills: mvvm-toolkit-messenger for pub/sub, mvvm-toolkit-di for Microsoft.Extensions.DependencyInjection wiring. Works across WPF, WinUI 3, MAUI, Uno, and Avalonia.",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-namecheap",
-      "name": "github/namecheap",
-      "description": "Manage DNS records for domains registered with Namecheap via their API. List domains, view/add/update/remove DNS host entries (A, AAAA, CNAME, MX, TXT, etc.), and guide users through API setup including public IP detection and credential configuration. Use when the user mentions Namecheap, DNS records, domain management, or wants to add/change/remove A records, CNAME records, MX records, or TXT records for their domains.",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-nano-banana-pro-openrouter",
-      "name": "github/nano-banana-pro-openrouter",
-      "description": "Generate or edit images via OpenRouter with the Gemini 3 Pro Image model. Use for prompt-only image generation, image edits, and multi-image compositing; supports 1K/2K/4K output.",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [
-        "visual-assets"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-napkin",
-      "name": "github/napkin",
-      "description": "Visual whiteboard collaboration for Copilot CLI. Creates an interactive whiteboard that opens in your browser — draw, sketch, add sticky notes, then share everything back with Copilot. Copilot sees your drawings and text, and responds with analysis, suggestions, and ideas.",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "data-analyst",
-        "designer"
-      ],
-      "jobs": [
-        "dashboarding",
-        "data-extraction",
-        "design-critique",
-        "presentation-building",
-        "reporting",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "ui-ux-design",
-        "visual-assets",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-next-intl-add-language",
-      "name": "github/next-intl-add-language",
-      "description": "Add new language to a Next.js + next-intl application",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-noob-mode",
-      "name": "github/noob-mode",
-      "description": "Plain-English translation layer for non-technical Copilot CLI users. Translates every approval prompt, error message, and technical output into clear, jargon-free English with color-coded risk indicators.",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-nuget-manager",
-      "name": "github/nuget-manager",
-      "description": "Manage NuGet packages in .NET projects/solutions. Use this skill when adding, removing, or updating NuGet package versions. It enforces using `dotnet` CLI for package management and provides strict procedures for direct file edits only when updating versions.",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-onboard-context-matic",
-      "name": "github/onboard-context-matic",
-      "description": "Interactive onboarding tour for the context-matic MCP server. Walks the user through what the server does, shows all available APIs, lets them pick one to explore, explains it in their project language, demonstrates model_search and endpoint_search live, and ends with a menu of things the user can ask the agent to do. USE FOR: first-time setup; \"what can this MCP do?\"; \"show me the available APIs\"; \"onboard me\"; \"how do I use the context-matic server\"; \"give me a tour\". DO NOT USE FOR: actually integrating an API end-to-end (use integrate-context-matic instead).",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-oo-component-documentation",
-      "name": "github/oo-component-documentation",
-      "description": "Create or update standardized object-oriented component documentation using a shared template plus mode-specific guidance for new and existing docs.",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "prd-specs",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-openapi-to-application-code",
-      "name": "github/openapi-to-application-code",
-      "description": "Generate a complete, production-ready application from an OpenAPI specification",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "prd-specs",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-optimize-simplicite-logs",
-      "name": "github/optimize-simplicite-logs",
-      "description": "capability to parse Simplicité logs from a raw `.txt` file, filter fields to reduce noise, and output the result as structured JSON.",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "data-extraction",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-pdftk-server",
-      "name": "github/pdftk-server",
-      "description": "Skill for using the command-line tool pdftk (PDFtk Server) for working with PDF files. Use when asked to merge PDFs, split PDFs, rotate pages, encrypt or decrypt PDFs, fill PDF forms, apply watermarks, stamp overlays, extract metadata, burst documents into pages, repair corrupted PDFs, attach or extract files, or perform any PDF manipulation from the command line.",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [
-        "data-extraction"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-penpot-uiux-design",
-      "name": "github/penpot-uiux-design",
-      "description": "Comprehensive guide for creating professional UI/UX designs in Penpot using MCP tools. Use this skill when: (1) Creating new UI/UX designs for web, mobile, or desktop applications, (2) Building design systems with components and tokens, (3) Designing dashboards, forms, navigation, or landing pages, (4) Applying accessibility standards and best practices, (5) Following platform guidelines (iOS, Android, Material Design), (6) Reviewing or improving existing Penpot designs for usability. Triggers: \"design a UI\", \"create interface\", \"build layout\", \"design dashboard\", \"create form\", \"design landing page\", \"make it accessible\", \"design system\", \"component library\".",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "data-analyst",
-        "designer",
-        "engineer",
-        "founder",
-        "marketer"
-      ],
-      "jobs": [
-        "api-integration",
-        "campaign-planning",
-        "content-production",
-        "dashboarding",
-        "data-extraction",
-        "deployment-ops",
-        "design-critique",
-        "development-workflows",
-        "landing-pages",
-        "planning-roadmapping",
-        "presentation-building",
-        "reporting",
-        "research-synthesis",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "testing-debugging",
-        "ui-ux-design",
-        "visual-assets",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-performance-review-writer",
-      "name": "github/performance-review-writer",
-      "description": "Draft performance reviews, self-assessments, peer reviews, and upward feedback in your own voice. Analyzes your contributions, emails, and meeting history via WorkIQ, then produces honest, impact-focused drafts using the STAR format. USE FOR: write my performance review, draft self-assessment, peer review, 360 feedback, annual review, mid-year review, upward feedback, write review for colleague, performance appraisal.",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [
-        "document-authoring"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-pester-migration",
-      "name": "github/pester-migration",
-      "description": "Experimental (preview) Pester migration skill for upgrading PowerShell Pester test suites across major versions — v3→v4, v4→v5, and v5→v6. The v5→v6 path tracks Pester 6, which is still a release candidate, so that guidance may change. Covers the Discovery/Run two-phase model, moving setup into BeforeAll, $PSScriptRoot vs $MyInvocation, mock changes (Assert-MockCalled → Should -Invoke, removed fall-through), Invoke-Pester parameters → PesterConfiguration, data-driven -ForEach/-TestCases, and the v6 breaking changes. Use when the user asks to upgrade, migrate, or modernize Pester tests, fix *.Tests.ps1 files that broke after bumping the Pester version, or convert legacy Should / Invoke-Pester syntax.",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-pester-should-migration",
-      "name": "github/pester-should-migration",
-      "description": "Experimental (preview) Pester skill for migrating classic Should -Be (v5) assertion syntax to the new Should-* (v6) assertions (note the hyphen, no space), e.g. `Should -Be` -> `Should-Be`, `Should -Not -Be` -> `Should-NotBe`. Tracks Pester 6, which is still a release candidate, so this guidance may change; verified against Pester 6.0.0-rc2. Use when converting Pester v5 assertions to Pester v6 Should-* operators, modernizing a Pester test suite, or when a user asks to migrate, convert, or rewrite `Should -...` calls in .Tests.ps1 / PowerShell files.",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-phoenix-cli",
-      "name": "github/phoenix-cli",
-      "description": "Debug LLM applications using the Phoenix CLI. Fetch traces, analyze errors, structure trace review with open coding and axial coding, inspect datasets, review experiments, query annotation configs, and use the GraphQL API. Use whenever the user is analyzing traces or spans, investigating LLM/agent failures, deciding what to do after instrumenting an app, building failure taxonomies, choosing what evals to write, or asking \"what's going wrong\", \"what kinds of mistakes\", or \"where do I focus\" — even without naming a technique.",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "data-analyst",
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "dashboarding",
-        "data-extraction",
-        "deployment-ops",
-        "development-workflows",
-        "prd-specs",
-        "reporting",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-phoenix-evals",
-      "name": "github/phoenix-evals",
-      "description": "Build and run evaluators for AI/LLM applications using Phoenix.",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-phoenix-tracing",
-      "name": "github/phoenix-tracing",
-      "description": "OpenInference semantic conventions and instrumentation for Phoenix AI observability. Use when implementing LLM tracing, creating custom spans, or deploying to production.",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-php-mcp-server-generator",
-      "name": "github/php-mcp-server-generator",
-      "description": "Generate a complete PHP Model Context Protocol server project with tools, resources, prompts, and tests using the official PHP SDK",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-pinecone-rag",
-      "name": "github/pinecone-rag",
-      "description": ">",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-planning-oracle-to-postgres-migration-integration-testing",
-      "name": "github/planning-oracle-to-postgres-migration-integration-testing",
-      "description": "Creates an integration testing plan for .NET data access artifacts during Oracle-to-PostgreSQL database migrations. Analyzes a single project to identify repositories, DAOs, and service layers that interact with the database, then produces a structured testing plan. Use when planning integration test coverage for a migrated project, identifying which data access methods need tests, or preparing for Oracle-to-PostgreSQL migration validation.",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "data-analyst",
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "dashboarding",
-        "data-extraction",
-        "deployment-ops",
-        "development-workflows",
-        "planning-roadmapping",
-        "reporting",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-plantuml-ascii",
-      "name": "github/plantuml-ascii",
-      "description": "Generate ASCII art diagrams using PlantUML text mode. Use when user asks to create ASCII diagrams, text-based diagrams, terminal-friendly diagrams, or mentions plantuml ascii, text diagram, ascii art diagram. Supports: Converting PlantUML diagrams to ASCII art, Creating sequence diagrams, class diagrams, flowcharts in ASCII format, Generating Unicode-enhanced ASCII art with -utxt flag",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-playwright-automation-fill-in-form",
-      "name": "github/playwright-automation-fill-in-form",
-      "description": "Automate filling in a form using Playwright MCP",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [
-        "api-integration",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-playwright-explore-website",
-      "name": "github/playwright-explore-website",
-      "description": "Website exploration for testing using Playwright MCP",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-playwright-generate-test",
-      "name": "github/playwright-generate-test",
-      "description": "Generate a Playwright test based on a scenario using Playwright MCP",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-postgresql-code-review",
-      "name": "github/postgresql-code-review",
-      "description": "PostgreSQL-specific code review assistant focusing on PostgreSQL best practices, anti-patterns, and unique quality standards. Covers JSONB operations, array usage, custom types, schema design, function optimization, and PostgreSQL-exclusive security features like Row Level Security (RLS).",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "designer",
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "design-critique",
-        "development-workflows",
-        "prd-specs",
-        "presentation-building",
-        "testing-debugging",
-        "ui-ux-design",
-        "visual-assets",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-postgresql-optimization",
-      "name": "github/postgresql-optimization",
-      "description": "PostgreSQL-specific development assistant focusing on unique PostgreSQL features, advanced data types, and PostgreSQL-exclusive capabilities. Covers JSONB operations, array types, custom types, range/geometric types, full-text search, window functions, and PostgreSQL extensions ecosystem.",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "prd-specs",
-        "research-synthesis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-power-apps-code-app-scaffold",
-      "name": "github/power-apps-code-app-scaffold",
-      "description": "Scaffold a complete Power Apps Code App project with PAC CLI setup, SDK integration, and connector configuration",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-power-bi-dax-optimization",
-      "name": "github/power-bi-dax-optimization",
-      "description": "Comprehensive Power BI DAX formula optimization prompt for improving performance, readability, and maintainability of DAX calculations.",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "data-analyst"
-      ],
-      "jobs": [
-        "dashboarding",
-        "data-extraction",
-        "reporting",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-power-bi-model-design-review",
-      "name": "github/power-bi-model-design-review",
-      "description": "Comprehensive Power BI data model design review prompt for evaluating model architecture, relationships, and optimization opportunities.",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "data-analyst",
-        "designer"
-      ],
-      "jobs": [
-        "dashboarding",
-        "data-extraction",
-        "design-critique",
-        "presentation-building",
-        "reporting",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "ui-ux-design",
-        "visual-assets",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-power-bi-performance-troubleshooting",
-      "name": "github/power-bi-performance-troubleshooting",
-      "description": "Systematic Power BI performance troubleshooting prompt for identifying, diagnosing, and resolving performance issues in Power BI models, reports, and queries.",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "data-analyst"
-      ],
-      "jobs": [
-        "dashboarding",
-        "data-extraction",
-        "reporting",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-power-bi-report-design-consultation",
-      "name": "github/power-bi-report-design-consultation",
-      "description": "Power BI report visualization design prompt for creating effective, user-friendly, and accessible reports with optimal chart selection and layout design.",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "data-analyst",
-        "designer"
-      ],
-      "jobs": [
-        "dashboarding",
-        "data-extraction",
-        "design-critique",
-        "presentation-building",
-        "reporting",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "ui-ux-design",
-        "visual-assets",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-power-platform-architect",
-      "name": "github/power-platform-architect",
-      "description": "Use this skill when the user needs to transform business requirements, use case descriptions, or meeting transcripts into a technical Power Platform solution architecture, including component selection and Mermaid.js diagrams.",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "pm"
-      ],
-      "jobs": [
-        "planning-roadmapping",
-        "prd-specs",
-        "reporting",
-        "research-synthesis",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
-    },
-    {
-      "slug": "github-power-platform-mcp-connector-suite",
-      "name": "github/power-platform-mcp-connector-suite",
-      "description": "Generate complete Power Platform custom connector with MCP integration for Copilot Studio - includes schema generation, troubleshooting, and validation",
-      "publisher": "github",
-      "publisherSlug": "github",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github",
-        "github-discovery",
-        "namespaced",
-        "productivity",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [
-        "api-integration",
-        "ui-ux-design"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/github.png?size=88",
-      "creatorHandle": "github",
-      "hasPublisherLogo": false,
-      "stars": 36267,
-      "forks": 4515
+      "stars": 36582,
+      "forks": 4573
     }
   ]
 }

@@ -2,9 +2,9 @@
   "repository": "remotion-dev/skills",
   "branch": "main",
   "defaultBranch": "main",
-  "pushedAt": "2026-07-06T08:34:37Z",
-  "scannedAt": "2026-07-07T09:05:52.728Z",
-  "treeSha": "6726bf2d4bcce0359806749b3656b0c886d74aaa",
+  "pushedAt": "2026-07-11T12:51:33Z",
+  "scannedAt": "2026-07-15T02:25:43.932Z",
+  "treeSha": "8b1d51ade295b2d9bd22a8f07047d13c0740f275",
   "items": [
     {
       "repository": "remotion-dev/skills",
@@ -15,22 +15,91 @@
       "description": "Agent Skills",
       "slug": "remotion-dev-skills-collection",
       "isCollection": true,
-      "stars": 3893,
+      "stars": 3955,
       "skillPaths": [
-        "skills/remotion/SKILL.md"
+        "skills/mediabunny/SKILL.md",
+        "skills/remotion-best-practices/SKILL.md",
+        "skills/remotion-captions/SKILL.md",
+        "skills/remotion-create/SKILL.md",
+        "skills/remotion-interactivity/SKILL.md",
+        "skills/remotion-markup/SKILL.md",
+        "skills/remotion-render/SKILL.md",
+        "skills/remotion-saas/SKILL.md"
       ]
     },
     {
       "repository": "remotion-dev/skills",
       "branch": "main",
-      "skillName": "remotion",
-      "path": "skills/remotion/SKILL.md",
-      "url": "https://github.com/remotion-dev/skills/blob/main/skills/remotion/SKILL.md",
-      "description": "Best practices for Remotion - Video creation in React",
-      "slug": "remotion-dev-remotion"
+      "skillName": "mediabunny",
+      "path": "skills/mediabunny/SKILL.md",
+      "url": "https://github.com/remotion-dev/skills/blob/main/skills/mediabunny/SKILL.md",
+      "description": "Multimedia handling with the Mediabunny library",
+      "slug": "remotion-dev-mediabunny"
+    },
+    {
+      "repository": "remotion-dev/skills",
+      "branch": "main",
+      "skillName": "remotion-best-practices",
+      "path": "skills/remotion-best-practices/SKILL.md",
+      "url": "https://github.com/remotion-dev/skills/blob/main/skills/remotion-best-practices/SKILL.md",
+      "description": "Best practices for Remotion",
+      "slug": "remotion-dev-remotion-best-practices"
+    },
+    {
+      "repository": "remotion-dev/skills",
+      "branch": "main",
+      "skillName": "remotion-captions",
+      "path": "skills/remotion-captions/SKILL.md",
+      "url": "https://github.com/remotion-dev/skills/blob/main/skills/remotion-captions/SKILL.md",
+      "description": "Dealing with captions in Remotion",
+      "slug": "remotion-dev-remotion-captions"
+    },
+    {
+      "repository": "remotion-dev/skills",
+      "branch": "main",
+      "skillName": "remotion-create",
+      "path": "skills/remotion-create/SKILL.md",
+      "url": "https://github.com/remotion-dev/skills/blob/main/skills/remotion-create/SKILL.md",
+      "description": "Creating a new Remotion video",
+      "slug": "remotion-dev-remotion-create"
+    },
+    {
+      "repository": "remotion-dev/skills",
+      "branch": "main",
+      "skillName": "remotion-interactivity",
+      "path": "skills/remotion-interactivity/SKILL.md",
+      "url": "https://github.com/remotion-dev/skills/blob/main/skills/remotion-interactivity/SKILL.md",
+      "description": "Best practices for writing Remotion animations that stay intuitive for agents and editable in Remotion Studio Visual Mode.",
+      "slug": "remotion-dev-remotion-interactivity"
+    },
+    {
+      "repository": "remotion-dev/skills",
+      "branch": "main",
+      "skillName": "remotion-markup",
+      "path": "skills/remotion-markup/SKILL.md",
+      "url": "https://github.com/remotion-dev/skills/blob/main/skills/remotion-markup/SKILL.md",
+      "description": "Best practices for writing Remotion React Markup",
+      "slug": "remotion-dev-remotion-markup"
+    },
+    {
+      "repository": "remotion-dev/skills",
+      "branch": "main",
+      "skillName": "remotion-render",
+      "path": "skills/remotion-render/SKILL.md",
+      "url": "https://github.com/remotion-dev/skills/blob/main/skills/remotion-render/SKILL.md",
+      "description": "Best practices for rendering videos",
+      "slug": "remotion-dev-remotion-render"
+    },
+    {
+      "repository": "remotion-dev/skills",
+      "branch": "main",
+      "skillName": "remotion-saas",
+      "path": "skills/remotion-saas/SKILL.md",
+      "url": "https://github.com/remotion-dev/skills/blob/main/skills/remotion-saas/SKILL.md",
+      "description": "Building video apps with Remotion - framework, rendering and Player advice",
+      "slug": "remotion-dev-remotion-saas"
     }
   ],
-  "itemCount": 2,
-  "publicSkillCount": 1,
-  "lastStatus": "scanned"
+  "itemCount": 9,
+  "lastStatus": "cache-fresh"
 }

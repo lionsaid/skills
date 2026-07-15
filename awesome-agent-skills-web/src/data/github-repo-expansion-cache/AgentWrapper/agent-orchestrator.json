@@ -2,9 +2,9 @@
   "repository": "AgentWrapper/agent-orchestrator",
   "branch": "main",
   "defaultBranch": "main",
-  "pushedAt": "2026-07-07T08:59:06Z",
-  "scannedAt": "2026-07-07T09:05:08.159Z",
-  "treeSha": "863853e3ac8bbe04f215385da1f6cb4a3aa76477",
+  "pushedAt": "2026-07-14T20:14:15Z",
+  "scannedAt": "2026-07-15T02:24:24.288Z",
+  "treeSha": "771b71d59ea6d1841c5dd7781dcfcb819d0cea12",
   "items": [
     {
       "repository": "AgentWrapper/agent-orchestrator",
@@ -12,10 +12,10 @@
       "skillName": "agent-orchestrator",
       "path": "README.md",
       "url": "https://github.com/AgentWrapper/agent-orchestrator",
-      "description": "Agentic orchestrator for parallel coding agents — plans tasks, spawns agents, and autonomously handles CI    fixes, merge conflicts, and code reviews.",
+      "description": "AO is an agent IDE, that helps developers manage fleets of coding agents to do your day to day tasks for parallel coding agents. It comes with an agentic orchestrator that plans tasks, spawns agents, and autonomously handles CI    fixes, merge conflicts, and code reviews.",
       "slug": "agentwrapper-agent-orchestrator-collection",
       "isCollection": true,
-      "stars": 8105,
+      "stars": 8250,
       "skillPaths": [
         "skills/bug-triage/SKILL.md"
       ]
@@ -31,6 +31,5 @@
     }
   ],
   "itemCount": 2,
-  "publicSkillCount": 1,
-  "lastStatus": "scanned"
+  "lastStatus": "cache-fresh"
 }

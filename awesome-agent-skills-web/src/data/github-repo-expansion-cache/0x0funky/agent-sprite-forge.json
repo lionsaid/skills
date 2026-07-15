@@ -2,9 +2,9 @@
   "repository": "0x0funky/agent-sprite-forge",
   "branch": "main",
   "defaultBranch": "main",
-  "pushedAt": "2026-05-05T17:53:33Z",
-  "scannedAt": "2026-07-07T09:06:16.504Z",
-  "treeSha": "fff651a89223b044ccfc0b75ed9f3754c6d739b1",
+  "pushedAt": "2026-07-12T19:00:42Z",
+  "scannedAt": "2026-07-15T02:26:29.701Z",
+  "treeSha": "64fd0b57d3f2ae117ef0a95e4c2decc25b4c9dd2",
   "items": [
     {
       "repository": "0x0funky/agent-sprite-forge",
@@ -15,10 +15,11 @@
       "description": "Agent Skill for generating 2D sprite sheets and map, transparent PNG frames, and animated GIFs from prompts.",
       "slug": "0x0funky-agent-sprite-forge-collection",
       "isCollection": true,
-      "stars": null,
+      "stars": 3330,
       "skillPaths": [
         "skills/generate2dmap/SKILL.md",
-        "skills/generate2dsprite/SKILL.md"
+        "skills/generate2dsprite/SKILL.md",
+        "skills/video2dsprite/SKILL.md"
       ]
     },
     {
@@ -38,8 +39,17 @@
       "url": "https://github.com/0x0funky/agent-sprite-forge/blob/main/skills/generate2dsprite/SKILL.md",
       "description": "Generate and postprocess general 2D game assets and animation sheets: pixel-art sprites, clean HD map props, creatures, characters, NPCs, spells, projectiles, impacts, props, summons, and transparent GIF exports. Use when Codex should infer the asset plan from a natural-language request, match a reference or map art style, call built-in `image_gen` for solid-magenta raw sheets, and use the local processor only for chroma-key cleanup, frame extraction, alignment, QC, and transparent exports.",
       "slug": "0x0funky-generate2dsprite"
+    },
+    {
+      "repository": "0x0funky/agent-sprite-forge",
+      "branch": "main",
+      "skillName": "video2dsprite",
+      "path": "skills/video2dsprite/SKILL.md",
+      "url": "https://github.com/0x0funky/agent-sprite-forge/blob/main/skills/video2dsprite/SKILL.md",
+      "description": "Grok Build ONLY. Turn a 2D character still into smooth animation sprites via image_gen/image_edit base → image_to_video (6s/10s run-in-place) → ffmpeg frames → magenta chroma-key → dense sampled sprites (strip/grid/GIF). Use when the user wants video-to-sprite, motion capture from generated video, smoother run/walk cycles from dense frames, or runs /video2dsprite. Do NOT use on Codex/Claude — only Grok Build has image_to_video. Prefer generate2dsprite for crisp pixel sheets without video.",
+      "slug": "0x0funky-video2dsprite"
     }
   ],
-  "itemCount": 3,
-  "lastStatus": "reused-unchanged"
+  "itemCount": 4,
+  "lastStatus": "cache-fresh"
 }

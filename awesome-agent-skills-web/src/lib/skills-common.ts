@@ -111,6 +111,26 @@ export function expandQueryAliases(query: string) {
   return [...new Set(matchedJobs)].sort();
 }
 
+export function normalizeSearchInput(value: string) {
+  const trimmedLeft = value.replace(/^\s+/, "");
+  const withoutSpaces = trimmedLeft.replace(/\s+/g, "");
+  const characters = Array.from(withoutSpaces.toLocaleLowerCase());
+
+  if (
+    trimmedLeft.includes(" ") &&
+    characters.length > 1 &&
+    characters.every((character) => character === characters[0])
+  ) {
+    return withoutSpaces;
+  }
+
+  if (/^(?:[\p{L}\p{N}]\s+){2,}[\p{L}\p{N}]?\s*$/u.test(trimmedLeft)) {
+    return withoutSpaces;
+  }
+
+  return trimmedLeft.replace(/\s{2,}/g, " ");
+}
+
 export function parseSearchQuery(query: string): ParsedSearchQuery {
   const normalized = query
     .trim()

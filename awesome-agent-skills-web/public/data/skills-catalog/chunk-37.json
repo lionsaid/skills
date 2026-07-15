@@ -1,8 +1,4056 @@
 {
-  "generatedAt": "2026-07-07T09:11:26.306Z",
+  "generatedAt": "2026-07-15T02:39:29.986Z",
   "chunkIndex": 37,
-  "totalSkills": 8886,
+  "totalSkills": 8995,
   "skills": [
+    {
+      "slug": "indranilbanerjee-launch-campaign",
+      "name": "indranilbanerjee/launch-campaign",
+      "description": "Orchestrate the full multi-channel launch of an approved campaign plan — pre-launch checklist, asset readiness gate, channel-by-channel activation, CRM campaign record creation, kickoff comms, day-1 monitor setup. Broader than /launch-ad-campaign (which is paid-ads only).",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "founder",
+        "marketer",
+        "sales"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "document-authoring",
+        "landing-pages",
+        "planning-roadmapping",
+        "presentation-building",
+        "reporting",
+        "research-synthesis",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-launch-plan",
+      "name": "indranilbanerjee/launch-plan",
+      "description": "Build product launch playbooks. Use when: planning pre-launch, launch day, or post-launch phases.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "founder",
+        "pm"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "planning-roadmapping",
+        "prd-specs",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-lead-import",
+      "name": "indranilbanerjee/lead-import",
+      "description": "Import leads into CRM. Use when: loading leads from forms, CSV, or manual entry with deduplication and scoring.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "data-analyst",
+        "sales"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "dashboarding",
+        "data-extraction",
+        "document-authoring",
+        "presentation-building",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-learn",
+      "name": "indranilbanerjee/learn",
+      "description": "Save a marketing learning or insight. Use when: capturing knowledge, recording campaign results, building compound intelligence.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-live-dashboard",
+      "name": "indranilbanerjee/live-dashboard",
+      "description": "Create live Looker Studio dashboards. Use when: connecting marketing data sources with auto-configured visualizations.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "data-analyst",
+        "marketer"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "dashboarding",
+        "data-extraction",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-local-seo-audit",
+      "name": "indranilbanerjee/local-seo-audit",
+      "description": "Audit local SEO health. Use when: reviewing GBP optimization, NAP consistency, local citations, or local pack rankings.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-local-seo",
+      "name": "indranilbanerjee/local-seo",
+      "description": "Build local SEO strategy. Use when: optimizing Google Business Profile, fixing NAP consistency, improving local pack rankings.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "founder",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "planning-roadmapping",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-localize-campaign",
+      "name": "indranilbanerjee/localize-campaign",
+      "description": "Localize campaigns for multiple markets. Use when: translating assets, adapting references, adjusting compliance.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "marketer"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "landing-pages",
+        "reporting",
+        "research-synthesis"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-loop-detect",
+      "name": "indranilbanerjee/loop-detect",
+      "description": "Identify and model growth loops. Use when: detecting viral, content, or paid loops, modeling effectiveness, proposing new loops.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "marketer"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "landing-pages",
+        "reporting",
+        "research-synthesis"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-market-weather",
+      "name": "indranilbanerjee/market-weather",
+      "description": "Assess current market conditions. Use when: checking economic indicators, cultural moments, or competitive activity.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-marketing-automation",
+      "name": "indranilbanerjee/marketing-automation",
+      "description": "Design marketing automation workflows. Use when: building lead scoring, nurture sequences, drip campaigns, or behavioral triggers.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "designer",
+        "engineer",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "design-critique",
+        "development-workflows",
+        "landing-pages",
+        "presentation-building",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-martech-audit",
+      "name": "indranilbanerjee/martech-audit",
+      "description": "Audit the martech stack. Use when: evaluating marketing tools, recommending consolidation, or choosing between platforms.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "marketer"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "landing-pages",
+        "reporting",
+        "research-synthesis"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-media-plan",
+      "name": "indranilbanerjee/media-plan",
+      "description": "Create a paid media plan. Use when: building media buy schedules, cross-channel budget allocation, or creative rotation calendars.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-message-test",
+      "name": "indranilbanerjee/message-test",
+      "description": "Test message variants on synthetic audiences. Use when: predicting response rates, sentiment, or objections before live tests.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "support"
+      ],
+      "jobs": [
+        "api-integration",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "reporting",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-multilingual-score",
+      "name": "indranilbanerjee/multilingual-score",
+      "description": "Score localized content quality. Use when: checking translation accuracy, cultural adaptation, or voice preservation.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "marketer"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "landing-pages",
+        "reporting",
+        "research-synthesis"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-narrative-landscape",
+      "name": "indranilbanerjee/narrative-landscape",
+      "description": "Map the competitive narrative landscape. Use when: analyzing positioning territories, gaps, competitor claims, differentiation.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-narrative-tracker",
+      "name": "indranilbanerjee/narrative-tracker",
+      "description": "Track AI engine brand narratives. Use when: detecting narrative drift, misrepresentation, or competitor narrative gains over time.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "designer",
+        "marketer"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "design-critique",
+        "landing-pages",
+        "presentation-building",
+        "reporting",
+        "research-synthesis",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-page-seo-analysis",
+      "name": "indranilbanerjee/page-seo-analysis",
+      "description": "Analyze SEO for a single page. Use when: auditing on-page signals, schema, content quality, E-E-A-T, or AI search readiness.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "data-analyst",
+        "marketer"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "dashboarding",
+        "data-extraction",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-paid-advertising",
+      "name": "indranilbanerjee/paid-advertising",
+      "description": "Plan paid advertising campaigns. Use when: managing Google Ads, Meta Ads, LinkedIn Ads, bid strategy, or budget optimization.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "founder",
+        "marketer"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "landing-pages",
+        "planning-roadmapping",
+        "reporting",
+        "research-synthesis",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-pdf-report",
+      "name": "indranilbanerjee/pdf-report",
+      "description": "Generate branded PDF reports. Use when: creating executive summaries, campaign reports, or client deliverables.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "marketer"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "data-extraction",
+        "landing-pages",
+        "reporting",
+        "research-synthesis"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-performance-check",
+      "name": "indranilbanerjee/performance-check",
+      "description": "Pull live marketing metrics for a performance snapshot: KPIs vs targets, trend comparison, and cross-platform overview. Use when checking current marketing performance, monitoring KPI health, comparing to benchmarks, or getting a quick status update across analytics platforms.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "data-analyst",
+        "marketer"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "dashboarding",
+        "data-extraction",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-performance-report",
+      "name": "indranilbanerjee/performance-report",
+      "description": "Generate performance reports. Use when: tracking KPIs, trend analysis, anomaly detection, and actionable recommendations.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "data-analyst"
+      ],
+      "jobs": [
+        "dashboarding",
+        "data-extraction",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-pipeline-update",
+      "name": "indranilbanerjee/pipeline-update",
+      "description": "Update CRM pipeline. Use when: changing deal stages, values, notes, tracking velocity, or managing deal progression.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "sales"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "presentation-building",
+        "reporting",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-pr-pitch",
+      "name": "indranilbanerjee/pr-pitch",
+      "description": "Create media pitch packages. Use when: building pitch templates, media lists, outreach strategy, or HARO responses.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "founder",
+        "sales"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "landing-pages",
+        "planning-roadmapping",
+        "presentation-building",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-pricing-test",
+      "name": "indranilbanerjee/pricing-test",
+      "description": "Test pricing strategies with synthetic data. Use when: simulating willingness to pay, price sensitivity, or optimal price points.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "founder",
+        "sales"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "landing-pages",
+        "planning-roadmapping",
+        "presentation-building",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-programmatic-seo",
+      "name": "indranilbanerjee/programmatic-seo",
+      "description": "Plan programmatic SEO pages. Use when: building template engines, URL patterns, thin content safeguards, or quality gates.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-prompt-test",
+      "name": "indranilbanerjee/prompt-test",
+      "description": "A/B test content variations. Use when: comparing quality scores across prompt approaches, headline styles, or content versions.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-publish-blog",
+      "name": "indranilbanerjee/publish-blog",
+      "description": "Publish blog posts. Use when: deploying to WordPress or Webflow with SEO optimization, categories, and scheduling.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-qbr-plan",
+      "name": "indranilbanerjee/qbr-plan",
+      "description": "Prepare a Quarterly Business Review. Use when: building QBR presentations, client performance reviews, or strategy updates.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "founder"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "planning-roadmapping",
+        "presentation-building",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-quality-report",
+      "name": "indranilbanerjee/quality-report",
+      "description": "Generate quality trends report. Use when: reviewing eval scores over time, content type performance, or regression alerts.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "marketer"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "landing-pages",
+        "reporting",
+        "research-synthesis"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-rank-monitor",
+      "name": "indranilbanerjee/rank-monitor",
+      "description": "Monitor keyword rankings. Use when: tracking keyword positions, detecting ranking drops, or alerting on position changes.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [
+        "deployment-ops"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-recall",
+      "name": "indranilbanerjee/recall",
+      "description": "Recall marketing learnings. Use when: querying what we know about a channel, audience, objective, or past campaign.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "marketer"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "landing-pages",
+        "reporting",
+        "research-synthesis"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-redirect-manager",
+      "name": "indranilbanerjee/redirect-manager",
+      "description": "Manage URL redirects. Use when: creating 301/302 redirects, auditing chains, fixing loops, or deploying via CMS MCP.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-region-config",
+      "name": "indranilbanerjee/region-config",
+      "description": "Configure regional settings. Use when: setting timezone, language, compliance rules, currency, or local preferences.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-reputation-management",
+      "name": "indranilbanerjee/reputation-management",
+      "description": "Manage brand reputation. Use when: handling reviews, crisis comms, negative press, sentiment, or recovery plans.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "designer",
+        "marketer"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "design-critique",
+        "landing-pages",
+        "presentation-building",
+        "reporting",
+        "research-synthesis",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-retargeting-strategy",
+      "name": "indranilbanerjee/retargeting-strategy",
+      "description": "Design retargeting strategy. Use when: planning cross-platform remarketing, audience segmentation, or ad sequencing.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "designer",
+        "engineer",
+        "founder",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "design-critique",
+        "development-workflows",
+        "landing-pages",
+        "planning-roadmapping",
+        "presentation-building",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-review-response",
+      "name": "indranilbanerjee/review-response",
+      "description": "Respond to online reviews. Use when: drafting replies for Google, Yelp, G2, or building review response templates.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "support"
+      ],
+      "jobs": [
+        "api-integration",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "reporting",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-roi-calculator",
+      "name": "indranilbanerjee/roi-calculator",
+      "description": "Calculate marketing ROI. Use when: measuring campaign ROAS, CAC, CPL, LTV, or multi-channel attribution returns.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "marketer"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "landing-pages",
+        "reporting",
+        "research-synthesis"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-save-knowledge",
+      "name": "indranilbanerjee/save-knowledge",
+      "description": "Save brand knowledge to memory. Use when: persisting campaign learnings, guidelines, or competitive intel for retrieval.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "designer",
+        "marketer"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "design-critique",
+        "landing-pages",
+        "presentation-building",
+        "reporting",
+        "research-synthesis",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-schedule-social",
+      "name": "indranilbanerjee/schedule-social",
+      "description": "Schedule social media posts. Use when: publishing to Twitter/X, Instagram, LinkedIn, TikTok, YouTube, or Pinterest.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-search-knowledge",
+      "name": "indranilbanerjee/search-knowledge",
+      "description": "Search stored brand knowledge. Use when: recalling past learnings, voice guidelines, or competitor insights via semantic search.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "designer",
+        "marketer"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "design-critique",
+        "landing-pages",
+        "presentation-building",
+        "reporting",
+        "research-synthesis",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-segment-audience",
+      "name": "indranilbanerjee/segment-audience",
+      "description": "Create audience segments. Use when: building or updating CRM or email platform segments for campaign targeting.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "marketer",
+        "sales"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "landing-pages",
+        "presentation-building",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-send-email-campaign",
+      "name": "indranilbanerjee/send-email-campaign",
+      "description": "Send email campaigns. Use when: deploying via SendGrid, Klaviyo, Customer.io, Brevo, or Mailgun with A/B testing.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-send-notification",
+      "name": "indranilbanerjee/send-notification",
+      "description": "Send team notifications. Use when: pushing campaign updates, alerts, or approval requests via Slack or Intercom.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "marketer"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "landing-pages",
+        "reporting",
+        "research-synthesis"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-send-report",
+      "name": "indranilbanerjee/send-report",
+      "description": "Deliver performance reports. Use when: sending KPI summaries via Slack, email, or Google Sheets with analysis.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "data-analyst"
+      ],
+      "jobs": [
+        "dashboarding",
+        "data-extraction",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-send-sms",
+      "name": "indranilbanerjee/send-sms",
+      "description": "Send SMS or WhatsApp messages. Use when: deploying marketing messages via Twilio or Brevo with compliance checks.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-seo-audit",
+      "name": "indranilbanerjee/seo-audit",
+      "description": "Run comprehensive SEO audit. Use when: checking technical health, on-page, content quality, E-E-A-T, or link profile.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "marketer"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "landing-pages",
+        "reporting",
+        "research-synthesis"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-seo-drift",
+      "name": "indranilbanerjee/seo-drift",
+      "description": "Compare two SEO snapshots (GSC, GSC AI Performance, rank tracker, AEO probe) and surface biggest movers per metric — impressions, clicks, position, AI citations. Use when: monthly performance reviews, post-Core-Update triage, AI Mode citation tracking, or before/after content-refresh evaluation.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "marketer",
+        "support"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-seo-implement",
+      "name": "indranilbanerjee/seo-implement",
+      "description": "Execute SEO changes. Use when: updating meta tags, schema markup, canonicals, redirects, or indexing via CMS MCP.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "landing-pages",
+        "reporting",
+        "research-synthesis"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-seo-plan",
+      "name": "indranilbanerjee/seo-plan",
+      "description": "Build SEO strategy and roadmap. Use when: planning site architecture, content strategy, or phased implementation.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "founder",
+        "marketer",
+        "pm"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "planning-roadmapping",
+        "prd-specs",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-serp-tracker",
+      "name": "indranilbanerjee/serp-tracker",
+      "description": "Track SERP feature changes. Use when: monitoring AI Overviews, featured snippets, PAA, knowledge panels, local packs.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-share-of-voice",
+      "name": "indranilbanerjee/share-of-voice",
+      "description": "Measure share of voice. Use when: comparing keyword visibility, SERP presence, ad share, or AI citations vs competitors.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-simulate",
+      "name": "indranilbanerjee/simulate",
+      "description": "Simulate revenue impact via Monte Carlo. Use when: testing channel mix changes, budget shifts, or new channel launches.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-sitemap-manager",
+      "name": "indranilbanerjee/sitemap-manager",
+      "description": "Manage XML sitemaps. Use when: auditing sitemap health, generating sitemaps, or planning sitemap architecture.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [
+        "planning-roadmapping"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-social-strategy",
+      "name": "indranilbanerjee/social-strategy",
+      "description": "Build social media strategy. Use when: defining content pillars, posting cadence, engagement tactics, or growth plans.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "founder",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "planning-roadmapping",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-sop-library",
+      "name": "indranilbanerjee/sop-library",
+      "description": "Manage agency SOPs. Use when: creating, assigning, versioning, or auditing standard operating procedures.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [
+        "deployment-ops"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-status",
+      "name": "indranilbanerjee/status",
+      "description": "Show a unified status snapshot of the active brand: profile, active engagements with current part, recent insights, recent compliance violations, Python dependency mode.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "designer",
+        "marketer"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "design-critique",
+        "landing-pages",
+        "presentation-building",
+        "reporting",
+        "research-synthesis",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-switch-brand",
+      "name": "indranilbanerjee/switch-brand",
+      "description": "Switch active brand profile. Use when: changing brand context in multi-client or agency workflows.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "designer",
+        "marketer"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "design-critique",
+        "landing-pages",
+        "presentation-building",
+        "reporting",
+        "research-synthesis",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-sync-memory",
+      "name": "indranilbanerjee/sync-memory",
+      "description": "Batch sync session learnings to memory. Use when: persisting campaign insights and performance history across sessions.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "marketer"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-team-assign",
+      "name": "indranilbanerjee/team-assign",
+      "description": "Assign tasks to team members. Use when: distributing work by role, expertise, and capacity, or managing workloads.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-tech-seo-audit",
+      "name": "indranilbanerjee/tech-seo-audit",
+      "description": "Run technical SEO audit. Use when: checking Core Web Vitals, crawlability, indexation, speed, or structured data.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "marketer"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "landing-pages",
+        "reporting",
+        "research-synthesis"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-technical-seo",
+      "name": "indranilbanerjee/technical-seo",
+      "description": "Deep technical SEO analysis. Use when: optimizing crawlability, Core Web Vitals, rendering, redirects, or sitemaps.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "data-analyst",
+        "marketer"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "dashboarding",
+        "data-extraction",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-translate-content",
+      "name": "indranilbanerjee/translate-content",
+      "description": "Translate marketing content. Use when: localizing with brand voice preservation, quality scoring, or transcreation.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "designer",
+        "marketer"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "design-critique",
+        "landing-pages",
+        "presentation-building",
+        "reporting",
+        "research-synthesis",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-validate-output",
+      "name": "indranilbanerjee/validate-output",
+      "description": "Validate content structure. Use when: checking schema compliance, required sections, word count, or placeholders.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "marketer"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "ui-ux-design"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-validate-profile",
+      "name": "indranilbanerjee/validate-profile",
+      "description": "Validate a brand profile end-to-end — required fields, voice/audience completeness, connector reachability, credentials health, and compliance prerequisites — without exposing credential values. Run after any credential change or brand-profile edit.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "designer",
+        "marketer"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "design-critique",
+        "landing-pages",
+        "presentation-building",
+        "reporting",
+        "research-synthesis",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-verify-claims",
+      "name": "indranilbanerjee/verify-claims",
+      "description": "Verify marketing claims. Use when: cross-checking statistics, awards, certifications, or performance claims with sources.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "marketer"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "landing-pages",
+        "reporting",
+        "research-synthesis"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-video-script",
+      "name": "indranilbanerjee/video-script",
+      "description": "Write video scripts. Use when: creating YouTube, TikTok, Reels, LinkedIn, demo, or explainer video content.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "marketer"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "landing-pages",
+        "reporting",
+        "research-synthesis"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-webinar-plan",
+      "name": "indranilbanerjee/webinar-plan",
+      "description": "Plan webinars and virtual events. Use when: designing promotion, content, registration, and post-event follow-up.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "marketer",
+        "sales"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "document-authoring",
+        "landing-pages",
+        "presentation-building",
+        "reporting",
+        "research-synthesis",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-what-if",
+      "name": "indranilbanerjee/what-if",
+      "description": "Compare budget scenarios side-by-side. Use when: testing 2-4 allocation variants with projected outcomes.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "indranilbanerjee-yearly-planner",
+      "name": "indranilbanerjee/yearly-planner",
+      "description": "Produce the 12-month operational Yearly Planner — the calendar companion to the Growth Plan in Part 8. Translates strategy into month-by-month execution.",
+      "publisher": "indranilbanerjee",
+      "publisherSlug": "indranilbanerjee",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "indranilbanerjee",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "founder",
+        "marketer"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "landing-pages",
+        "planning-roadmapping",
+        "reporting",
+        "research-synthesis",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/indranilbanerjee.png?size=88",
+      "creatorHandle": "indranilbanerjee",
+      "hasPublisherLogo": false,
+      "stars": 226,
+      "forks": 50
+    },
+    {
+      "slug": "ognjengt-founder-skills-collection",
+      "name": "ognjengt/founder-skills",
+      "description": "Discovered from a public GitHub repository: ognjengt/founder-skills",
+      "publisher": "ognjengt",
+      "publisherSlug": "ognjengt",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "ognjengt",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/ognjengt.png?size=88",
+      "creatorHandle": "ognjengt",
+      "hasPublisherLogo": false,
+      "stars": 214,
+      "forks": 25
+    },
+    {
+      "slug": "ognjengt-brand-copywriter",
+      "name": "ognjengt/brand-copywriter",
+      "description": "Writes marketing copy using proven copywriting frameworks. Use when user needs copy for ads (Facebook, Instagram, TikTok, YouTube), landing pages, sales pages, email sequences, LinkedIn posts, product descriptions, or any marketing content.",
+      "publisher": "ognjengt",
+      "publisherSlug": "ognjengt",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "ognjengt",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "designer",
+        "marketer",
+        "pm",
+        "sales"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "design-critique",
+        "document-authoring",
+        "landing-pages",
+        "planning-roadmapping",
+        "prd-specs",
+        "presentation-building",
+        "reporting",
+        "research-synthesis",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/ognjengt.png?size=88",
+      "creatorHandle": "ognjengt",
+      "hasPublisherLogo": false,
+      "stars": 214,
+      "forks": 25
+    },
+    {
+      "slug": "ognjengt-competitor-intel",
+      "name": "ognjengt/competitor-intel",
+      "description": "Analyzes competitors using web research to provide verified business metrics, actionable leverage strategies, and predicted next moves. Use when user needs competitive intelligence, competitor analysis, market positioning insights, or strategic leverage opportunities.",
+      "publisher": "ognjengt",
+      "publisherSlug": "ognjengt",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "ognjengt",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "data-analyst"
+      ],
+      "jobs": [
+        "dashboarding",
+        "data-extraction",
+        "reporting",
+        "research-synthesis",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/ognjengt.png?size=88",
+      "creatorHandle": "ognjengt",
+      "hasPublisherLogo": false,
+      "stars": 214,
+      "forks": 25
+    },
+    {
+      "slug": "ognjengt-cro-optimization",
+      "name": "ognjengt/cro-optimization",
+      "description": "Analyzes landing pages and provides detailed CRO (Conversion Rate Optimization) recommendations. Use when user provides a landing page URL or HTML/CSS code and needs optimization advice to maximize conversions, signups, or sales. Extracts page elements, audits against proven CRO principles, and delivers actionable recommendations in report format.",
+      "publisher": "ognjengt",
+      "publisherSlug": "ognjengt",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "ognjengt",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "founder",
+        "marketer",
+        "sales"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "landing-pages",
+        "planning-roadmapping",
+        "presentation-building",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/ognjengt.png?size=88",
+      "creatorHandle": "ognjengt",
+      "hasPublisherLogo": false,
+      "stars": 214,
+      "forks": 25
+    },
+    {
+      "slug": "ognjengt-go-to-market-plan",
+      "name": "ognjengt/go-to-market-plan",
+      "description": "Analyzes the founder's business context to deliver 3 best go-to-market strategies tailored to their current stage, product, and market. Asks up to 10 diagnostic questions when needed to understand product readiness, target market clarity, competitive positioning, and distribution channels. Use when user needs go-to-market strategy, launch planning, market entry strategy, or actionable GTM roadmap.",
+      "publisher": "ognjengt",
+      "publisherSlug": "ognjengt",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "ognjengt",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "founder",
+        "pm"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "landing-pages",
+        "planning-roadmapping",
+        "prd-specs",
+        "reporting",
+        "research-synthesis",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/ognjengt.png?size=88",
+      "creatorHandle": "ognjengt",
+      "hasPublisherLogo": false,
+      "stars": 214,
+      "forks": 25
+    },
+    {
+      "slug": "ognjengt-lead-magnet-generator",
+      "name": "ognjengt/lead-magnet-generator",
+      "description": "Creates viral lead magnet posts that drive comments and DMs. Produces 2 versions - a quick punchy format and a detailed format with bullet points. Use when user needs social media posts to give away a lead magnet in exchange for engagement.",
+      "publisher": "ognjengt",
+      "publisherSlug": "ognjengt",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "ognjengt",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/ognjengt.png?size=88",
+      "creatorHandle": "ognjengt",
+      "hasPublisherLogo": false,
+      "stars": 214,
+      "forks": 25
+    },
+    {
+      "slug": "ognjengt-linkedin-writer",
+      "name": "ognjengt/linkedin-writer",
+      "description": "Creates viral LinkedIn posts using proven formats, post templates, and voice matching. Use when user needs engaging, high-performing posts for LinkedIn.",
+      "publisher": "ognjengt",
+      "publisherSlug": "ognjengt",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "ognjengt",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [
+        "document-authoring"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/ognjengt.png?size=88",
+      "creatorHandle": "ognjengt",
+      "hasPublisherLogo": false,
+      "stars": 214,
+      "forks": 25
+    },
+    {
+      "slug": "ognjengt-marketing-ideas",
+      "name": "ognjengt/marketing-ideas",
+      "description": "Produces the best marketing ideas for your business by analyzing your FOUNDER_CONTEXT and matching it against a curated database of 170+ proven marketing strategies. Use when user needs creative, actionable marketing ideas tailored to their business.",
+      "publisher": "ognjengt",
+      "publisherSlug": "ognjengt",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "ognjengt",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "marketer"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "landing-pages",
+        "reporting",
+        "research-synthesis"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/ognjengt.png?size=88",
+      "creatorHandle": "ognjengt",
+      "hasPublisherLogo": false,
+      "stars": 214,
+      "forks": 25
+    },
+    {
+      "slug": "ognjengt-outreach-specialist",
+      "name": "ognjengt/outreach-specialist",
+      "description": "Crafts high-converting outreach messages and email sequences for cold outreach, LinkedIn DMs, and follow-ups. Use when user needs personalized outreach messages that book calls and get replies.",
+      "publisher": "ognjengt",
+      "publisherSlug": "ognjengt",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "ognjengt",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "sales"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "prd-specs",
+        "presentation-building",
+        "reporting",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/ognjengt.png?size=88",
+      "creatorHandle": "ognjengt",
+      "hasPublisherLogo": false,
+      "stars": 214,
+      "forks": 25
+    },
+    {
+      "slug": "ognjengt-prd-generator",
+      "name": "ognjengt/prd-generator",
+      "description": "Generates professional PRD (Product Requirements Document) files optimized for AI coding tools. Takes a rough product idea, asks clarifying questions, and outputs a structured PDF ready to feed into AI coding assistants.",
+      "publisher": "ognjengt",
+      "publisherSlug": "ognjengt",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "ognjengt",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "pm"
+      ],
+      "jobs": [
+        "data-extraction",
+        "development-workflows",
+        "document-authoring",
+        "planning-roadmapping",
+        "prd-specs",
+        "reporting",
+        "research-synthesis",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/ognjengt.png?size=88",
+      "creatorHandle": "ognjengt",
+      "hasPublisherLogo": false,
+      "stars": 214,
+      "forks": 25
+    },
+    {
+      "slug": "ognjengt-pricing-strategist",
+      "name": "ognjengt/pricing-strategist",
+      "description": "Builds comprehensive pricing strategies by reading business context and asking targeted questions interactively. Use when user needs pricing plans, tier structures, price points, pricing model recommendations, or any pricing-related strategy for their product or service.",
+      "publisher": "ognjengt",
+      "publisherSlug": "ognjengt",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "ognjengt",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "founder",
+        "pm",
+        "sales"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "landing-pages",
+        "planning-roadmapping",
+        "prd-specs",
+        "presentation-building",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/ognjengt.png?size=88",
+      "creatorHandle": "ognjengt",
+      "hasPublisherLogo": false,
+      "stars": 214,
+      "forks": 25
+    },
+    {
+      "slug": "ognjengt-product-hunt-launch-plan",
+      "name": "ognjengt/product-hunt-launch-plan",
+      "description": "Creates a comprehensive, personalized Product Hunt launch plan to rank #1. Use when user needs a step-by-step Product Hunt launch strategy, launch checklist, or wants to maximize their Product Hunt success.",
+      "publisher": "ognjengt",
+      "publisherSlug": "ognjengt",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "ognjengt",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "founder",
+        "pm"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "landing-pages",
+        "planning-roadmapping",
+        "prd-specs",
+        "reporting",
+        "research-synthesis",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/ognjengt.png?size=88",
+      "creatorHandle": "ognjengt",
+      "hasPublisherLogo": false,
+      "stars": 214,
+      "forks": 25
+    },
+    {
+      "slug": "ognjengt-sop-creator",
+      "name": "ognjengt/sop-creator",
+      "description": "Creates detailed Standard Operating Procedures (SOPs) for business processes. Use when user needs SOPs, process documentation, operational guides, workflow documentation, or step-by-step instructions for repeatable business processes.",
+      "publisher": "ognjengt",
+      "publisherSlug": "ognjengt",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "ognjengt",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [
+        "deployment-ops",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/ognjengt.png?size=88",
+      "creatorHandle": "ognjengt",
+      "hasPublisherLogo": false,
+      "stars": 214,
+      "forks": 25
+    },
+    {
+      "slug": "ognjengt-strategic-planning",
+      "name": "ognjengt/strategic-planning",
+      "description": "Analyzes the founder's business context to deliver the 3 highest-impact next moves for growth (marketing or sales). Asks up to 10 diagnostic questions when needed to uncover bottlenecks, struggles, and opportunities. Use when user needs strategic guidance, next steps, growth planning, or actionable business strategy.",
+      "publisher": "ognjengt",
+      "publisherSlug": "ognjengt",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "ognjengt",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "founder",
+        "marketer",
+        "sales"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "document-authoring",
+        "landing-pages",
+        "planning-roadmapping",
+        "presentation-building",
+        "reporting",
+        "research-synthesis",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/ognjengt.png?size=88",
+      "creatorHandle": "ognjengt",
+      "hasPublisherLogo": false,
+      "stars": 214,
+      "forks": 25
+    },
+    {
+      "slug": "ognjengt-viral-hook-creator",
+      "name": "ognjengt/viral-hook-creator",
+      "description": "Creates viral social media hooks using proven psychological patterns and trigger words. Use when user needs attention-grabbing openings for posts, threads, videos, or content.",
+      "publisher": "ognjengt",
+      "publisherSlug": "ognjengt",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "ognjengt",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/ognjengt.png?size=88",
+      "creatorHandle": "ognjengt",
+      "hasPublisherLogo": false,
+      "stars": 214,
+      "forks": 25
+    },
+    {
+      "slug": "ognjengt-x-writer",
+      "name": "ognjengt/x-writer",
+      "description": "Creates viral X (Twitter) posts using proven formats, post templates, and creator voice matching. Use when user needs engaging, high-performing posts for X/Twitter.",
+      "publisher": "ognjengt",
+      "publisherSlug": "ognjengt",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "ognjengt",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [
+        "document-authoring"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/ognjengt.png?size=88",
+      "creatorHandle": "ognjengt",
+      "hasPublisherLogo": false,
+      "stars": 214,
+      "forks": 25
+    },
+    {
+      "slug": "qdrant-skills-collection",
+      "name": "qdrant/skills",
+      "description": "Agent skills for Qdrant vector search: scaling, performance optimization, search quality, monitoring, deployment, model migration, version upgrades, and SDK usage across Python, TypeScript, Rust, Go, .NET, Java",
+      "publisher": "qdrant",
+      "publisherSlug": "qdrant",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "qdrant"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/qdrant.png?size=88",
+      "creatorHandle": "qdrant",
+      "hasPublisherLogo": false,
+      "stars": 199,
+      "forks": 23
+    },
+    {
+      "slug": "qdrant-qdrant-clients-sdk",
+      "name": "qdrant/qdrant-clients-sdk",
+      "description": "Qdrant provides client SDKs for various programming languages, allowing easy integration with Qdrant deployments.",
+      "publisher": "qdrant",
+      "publisherSlug": "qdrant",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "qdrant"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/qdrant.png?size=88",
+      "creatorHandle": "qdrant",
+      "hasPublisherLogo": false,
+      "stars": 199,
+      "forks": 23
+    },
+    {
+      "slug": "qdrant-qdrant-deployment-options",
+      "name": "qdrant/qdrant-deployment-options",
+      "description": "Guides Qdrant deployment selection. Use when someone asks 'how to deploy Qdrant', 'Docker vs Cloud', 'local mode', 'embedded Qdrant', 'Qdrant EDGE', 'which deployment option', 'self-hosted vs cloud', or 'need lowest latency deployment'. Also use when choosing between deployment types for a new project.",
+      "publisher": "qdrant",
+      "publisherSlug": "qdrant",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "qdrant"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/qdrant.png?size=88",
+      "creatorHandle": "qdrant",
+      "hasPublisherLogo": false,
+      "stars": 199,
+      "forks": 23
+    },
+    {
+      "slug": "qdrant-qdrant-edge",
+      "name": "qdrant/qdrant-edge",
+      "description": "Guides building on Qdrant Edge, the embedded in-process shard. Use when someone asks 'how to sync Edge with the server', 'keep a local shard in sync with Qdrant Cloud', 'BM25 or keyword search on Edge', 'hybrid search on Edge', 'embeddings on device', 'Edge snapshots', 'apply a partial snapshot', 'why is my Edge search empty after inserts', or is writing custom sync, BM25, or fusion code against qdrant-edge. Also use when deciding what Edge ships built-in versus what you must implement.",
+      "publisher": "qdrant",
+      "publisherSlug": "qdrant",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "qdrant"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "research-synthesis",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/qdrant.png?size=88",
+      "creatorHandle": "qdrant",
+      "hasPublisherLogo": false,
+      "stars": 199,
+      "forks": 23
+    },
+    {
+      "slug": "qdrant-qdrant-model-migration",
+      "name": "qdrant/qdrant-model-migration",
+      "description": "Guides embedding model migration in Qdrant without downtime. Use when someone asks 'how to switch embedding models', 'how to migrate vectors', 'how to update to a new model', 'zero-downtime model change', 'how to re-embed my data', or 'can I use two models at once'. Also use when upgrading model dimensions, switching providers, or A/B testing models.",
+      "publisher": "qdrant",
+      "publisherSlug": "qdrant",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "qdrant"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/qdrant.png?size=88",
+      "creatorHandle": "qdrant",
+      "hasPublisherLogo": false,
+      "stars": 199,
+      "forks": 23
+    },
+    {
+      "slug": "qdrant-qdrant-monitoring",
+      "name": "qdrant/qdrant-monitoring",
+      "description": "Guides Qdrant monitoring and observability setup. Use when someone asks 'how to monitor Qdrant', 'what metrics to track', 'is Qdrant healthy', 'optimizer stuck', 'why is memory growing', 'requests are slow', or needs to set up Prometheus, Grafana, or health checks. Also use when debugging production issues that require metric analysis.",
+      "publisher": "qdrant",
+      "publisherSlug": "qdrant",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "qdrant"
+      ],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/qdrant.png?size=88",
+      "creatorHandle": "qdrant",
+      "hasPublisherLogo": false,
+      "stars": 199,
+      "forks": 23
+    },
+    {
+      "slug": "qdrant-qdrant-performance-optimization",
+      "name": "qdrant/qdrant-performance-optimization",
+      "description": "Navigation hub linking sub-skills for proactive Qdrant tuning: search speed, indexing performance, and memory usage optimization. Use when planning configuration or capacity changes to improve speed and efficiency. For diagnosing an active production slowdown or analyzing live metrics, use qdrant-monitoring instead.",
+      "publisher": "qdrant",
+      "publisherSlug": "qdrant",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "qdrant"
+      ],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "planning-roadmapping",
+        "reporting",
+        "research-synthesis",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/qdrant.png?size=88",
+      "creatorHandle": "qdrant",
+      "hasPublisherLogo": false,
+      "stars": 199,
+      "forks": 23
+    },
+    {
+      "slug": "qdrant-qdrant-scaling",
+      "name": "qdrant/qdrant-scaling",
+      "description": "Guides Qdrant scaling decisions. Use when someone asks 'how many nodes do I need', 'data doesn't fit on one node', 'need more throughput', 'cluster is slow', 'too many tenants', 'vertical or horizontal', 'how to shard', or 'need to add capacity'.",
+      "publisher": "qdrant",
+      "publisherSlug": "qdrant",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "qdrant"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/qdrant.png?size=88",
+      "creatorHandle": "qdrant",
+      "hasPublisherLogo": false,
+      "stars": 199,
+      "forks": 23
+    },
+    {
+      "slug": "qdrant-qdrant-search-quality",
+      "name": "qdrant/qdrant-search-quality",
+      "description": "Diagnoses and improves Qdrant search relevance. Use when someone reports 'search results are bad', 'wrong results', 'low precision', 'low recall', 'irrelevant matches', 'missing expected results', or asks 'how to improve search quality?', 'which embedding model?', 'should I use hybrid search?', 'should I use reranking?', 'how to measure retrieval quality?', 'build a golden set', 'ground truth dataset', or 'how to score recall@k?'. Also use when search quality degrades after quantization, model change, or data growth.",
+      "publisher": "qdrant",
+      "publisherSlug": "qdrant",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "qdrant"
+      ],
+      "personas": [
+        "engineer",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/qdrant.png?size=88",
+      "creatorHandle": "qdrant",
+      "hasPublisherLogo": false,
+      "stars": 199,
+      "forks": 23
+    },
+    {
+      "slug": "qdrant-qdrant-version-upgrade",
+      "name": "qdrant/qdrant-version-upgrade",
+      "description": "Guidance on how to upgrade your Qdrant version without interrupting the availability of your application and ensuring data integrity.",
+      "publisher": "qdrant",
+      "publisherSlug": "qdrant",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "qdrant"
+      ],
+      "personas": [],
+      "jobs": [
+        "ui-ux-design"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/qdrant.png?size=88",
+      "creatorHandle": "qdrant",
+      "hasPublisherLogo": false,
+      "stars": 199,
+      "forks": 23
+    },
+    {
+      "slug": "shouldnotappearcalm-a-share-skill-collection",
+      "name": "shouldnotappearcalm/a-share-skill",
+      "description": "A股数据分析、量化选股与模拟交易 Skill 集合，支持实时行情、历史K线、技术指标、自定义交易策略与模拟买入、卖出交易账户",
+      "publisher": "shouldnotappearcalm",
+      "publisherSlug": "shouldnotappearcalm",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "shouldnotappearcalm"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/shouldnotappearcalm.png?size=88",
+      "creatorHandle": "shouldnotappearcalm",
+      "hasPublisherLogo": false,
+      "stars": 197,
+      "forks": 36
+    },
+    {
+      "slug": "jthack-ffuf-claude-skill-collection",
+      "name": "jthack/ffuf_claude_skill",
+      "description": "Discovered from a public GitHub repository: jthack/ffuf_claude_skill",
+      "publisher": "jthack",
+      "publisherSlug": "jthack",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "jthack",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/jthack.png?size=88",
+      "creatorHandle": "jthack",
+      "hasPublisherLogo": false,
+      "stars": 196,
+      "forks": 19
+    },
+    {
+      "slug": "xquik-dev-x-twitter-scraper-collection",
+      "name": "Xquik-dev/x-twitter-scraper",
+      "description": "Xquik agent Skill for REST, OAuth-first MCP, webhooks, exports, tweet search, follower data, monitoring, and confirmation-gated publishing. Not affiliated with X Corp.",
+      "publisher": "Xquik-dev",
+      "publisherSlug": "xquik-dev",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "xquik-dev"
+      ],
+      "personas": [],
+      "jobs": [
+        "api-integration",
+        "development-workflows",
+        "research-synthesis",
+        "ui-ux-design"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/Xquik-dev.png?size=88",
+      "creatorHandle": "Xquik-dev",
+      "hasPublisherLogo": false,
+      "stars": 153,
+      "forks": 14
+    },
+    {
+      "slug": "xquik-dev-xquik-social-research",
+      "name": "Xquik-dev/xquik-social-research",
+      "description": "Research public X data with Xquik. Use for tweet search, tweet lookup, user discovery, profile timelines, threads, followers, trends, exports, monitoring plans, or MCP setup. Keep public reads bounded. Require explicit approval before private reads, writes, persistent resources, or bulk jobs.",
+      "publisher": "Xquik-dev",
+      "publisherSlug": "xquik-dev",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "xquik-dev"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "research-synthesis",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/Xquik-dev.png?size=88",
+      "creatorHandle": "Xquik-dev",
+      "hasPublisherLogo": false,
+      "stars": 153,
+      "forks": 14
+    },
+    {
+      "slug": "resend-resend-skills-collection",
+      "name": "resend/resend-skills",
+      "description": "Agent Skills for working with Resend to send and receive emails.",
+      "publisher": "resend",
+      "publisherSlug": "resend",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "productivity",
+        "publisher-namespaced",
+        "resend"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/resend.png?size=88",
+      "creatorHandle": "resend",
+      "hasPublisherLogo": false,
+      "stars": 148,
+      "forks": 19
+    },
+    {
+      "slug": "talkstream-ru-text-collection",
+      "name": "talkstream/ru-text",
+      "description": "Discovered from a public GitHub repository: talkstream/ru-text",
+      "publisher": "talkstream",
+      "publisherSlug": "talkstream",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "talkstream"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/talkstream.png?size=88",
+      "creatorHandle": "talkstream",
+      "hasPublisherLogo": false,
+      "stars": 146,
+      "forks": 18
+    },
+    {
+      "slug": "gokapso-agent-skills-collection",
+      "name": "gokapso/agent-skills",
+      "description": "Kapso agent skills for WhatsApp.",
+      "publisher": "gokapso",
+      "publisherSlug": "gokapso",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "gokapso",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/gokapso.png?size=88",
+      "creatorHandle": "gokapso",
+      "hasPublisherLogo": false,
+      "stars": 141,
+      "forks": 19
+    },
+    {
+      "slug": "degausai-wonda-collection",
+      "name": "degausai/wonda",
+      "description": "Wonda CLI — AI-powered content creation from your terminal",
+      "publisher": "degausai",
+      "publisherSlug": "degausai",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "degausai",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "marketer"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "landing-pages",
+        "reporting",
+        "research-synthesis"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/degausai.png?size=88",
+      "creatorHandle": "degausai",
+      "hasPublisherLogo": false,
+      "stars": 135,
+      "forks": 20
+    },
+    {
+      "slug": "degausai-wonda-cli",
+      "name": "degausai/wonda-cli",
+      "description": "Using the Wonda CLI to generate images, videos, music, and audio from the terminal — plus LinkedIn, Reddit, and X/Twitter research and automation",
+      "publisher": "degausai",
+      "publisherSlug": "degausai",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "degausai",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [
+        "research-synthesis",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/degausai.png?size=88",
+      "creatorHandle": "degausai",
+      "hasPublisherLogo": false,
+      "stars": 135,
+      "forks": 20
+    },
+    {
+      "slug": "hqhq1025-skill-optimizer-collection",
+      "name": "hqhq1025/skill-optimizer",
+      "description": "Discovered from a public GitHub repository: hqhq1025/skill-optimizer",
+      "publisher": "hqhq1025",
+      "publisherSlug": "hqhq1025",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "hqhq1025",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/hqhq1025.png?size=88",
+      "creatorHandle": "hqhq1025",
+      "hasPublisherLogo": false,
+      "stars": 132,
+      "forks": 4
+    },
     {
       "slug": "hqhq1025-skill-generalizer",
       "name": "hqhq1025/skill-generalizer",
@@ -37,8 +4085,8 @@
       "creatorAvatarUrl": "https://github.com/hqhq1025.png?size=88",
       "creatorHandle": "hqhq1025",
       "hasPublisherLogo": false,
-      "stars": 125,
-      "forks": 5
+      "stars": 132,
+      "forks": 4
     },
     {
       "slug": "hqhq1025-skill-miner",
@@ -68,8 +4116,8 @@
       "creatorAvatarUrl": "https://github.com/hqhq1025.png?size=88",
       "creatorHandle": "hqhq1025",
       "hasPublisherLogo": false,
-      "stars": 125,
-      "forks": 5
+      "stars": 132,
+      "forks": 4
     },
     {
       "slug": "hqhq1025-skill-personalizer",
@@ -105,8 +4153,8 @@
       "creatorAvatarUrl": "https://github.com/hqhq1025.png?size=88",
       "creatorHandle": "hqhq1025",
       "hasPublisherLogo": false,
-      "stars": 125,
-      "forks": 5
+      "stars": 132,
+      "forks": 4
     },
     {
       "slug": "coderabbitai-skills-collection",
@@ -141,7 +4189,7 @@
       "creatorAvatarUrl": "https://github.com/coderabbitai.png?size=88",
       "creatorHandle": "coderabbitai",
       "hasPublisherLogo": false,
-      "stars": 123,
+      "stars": 126,
       "forks": 8
     },
     {
@@ -169,7 +4217,7 @@
       "creatorAvatarUrl": "https://github.com/veniceai.png?size=88",
       "creatorHandle": "veniceai",
       "hasPublisherLogo": false,
-      "stars": 117,
+      "stars": 119,
       "forks": 15
     },
     {
@@ -198,8 +4246,123 @@
       "creatorAvatarUrl": "https://github.com/video-db.png?size=88",
       "creatorHandle": "video-db",
       "hasPublisherLogo": false,
-      "stars": 106,
+      "stars": 108,
       "forks": 7
+    },
+    {
+      "slug": "alisa0808-vibe-creating-skill-collection",
+      "name": "Alisa0808/vibe-creating-skill",
+      "description": "Open-source, bilingual AI video-prompt skill — rewrite ideas into model-ready text-to-video prompts. A portable Agent Skill (Claude Code, Codex, OpenClaw, Hermes); generate via Atlas Cloud — Seedance 2.0, Kling, Veo, Hailuo, Wan, Vidu, Gemini Omni, Grok Imagine.",
+      "publisher": "Alisa0808",
+      "publisherSlug": "alisa0808",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "alisa0808",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/Alisa0808.png?size=88",
+      "creatorHandle": "Alisa0808",
+      "hasPublisherLogo": false,
+      "stars": 104,
+      "forks": 15
+    },
+    {
+      "slug": "alisa0808-vibe-creating-prompt",
+      "name": "Alisa0808/vibe-creating-prompt",
+      "description": "Judges whether a user's input suits the Vibe Creating style of video-prompt writing, and when it does, distills single-scene prompts, multi-shot descriptions, emotional imagery, or mixed input into prompts that are easier for a video model to generate from — while preserving any user-specified dialogue, voiceover, music, sound effects, and other hard constraints. Use when a user wants to turn an idea, story, feeling, or rough/over-specified prompt into a strong text-to-video prompt (Seedance, Sora, Kling, Veo, Runway, etc.), or asks to \"rewrite\", \"improve\", \"clean up\", or \"vibe-ify\" a video prompt. Do NOT use for long narrative films that need precise word-for-word dialogue sync, industrial shot lists meant to be executed verbatim, or functional/UI demos and step-by-step tutorials.",
+      "publisher": "Alisa0808",
+      "publisherSlug": "alisa0808",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "alisa0808",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "designer",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "design-critique",
+        "development-workflows",
+        "document-authoring",
+        "prd-specs",
+        "presentation-building",
+        "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/Alisa0808.png?size=88",
+      "creatorHandle": "Alisa0808",
+      "hasPublisherLogo": false,
+      "stars": 104,
+      "forks": 15
+    },
+    {
+      "slug": "smixs-creative-director-skill-collection",
+      "name": "smixs/creative-director-skill",
+      "description": "World-class creative director in a skill. Methodology-driven ideation (SIT, TRIZ, Lateral Thinking, bisociation) + a Cannes Lions evaluation engine, powered by a library of 571 legendary award-winning cases.",
+      "publisher": "smixs",
+      "publisherSlug": "smixs",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "smixs"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/smixs.png?size=88",
+      "creatorHandle": "smixs",
+      "hasPublisherLogo": false,
+      "stars": 100,
+      "forks": 29
     }
   ]
 }

@@ -2,9 +2,9 @@
   "repository": "deanpeters/Product-Manager-Skills",
   "branch": "main",
   "defaultBranch": "main",
-  "pushedAt": "2026-07-04T19:43:47Z",
-  "scannedAt": "2026-07-07T09:05:24.573Z",
-  "treeSha": "39986078003cb8621635828a8d6e7342270b0257",
+  "pushedAt": "2026-07-08T16:10:17Z",
+  "scannedAt": "2026-07-15T02:25:08.191Z",
+  "treeSha": "99be43c842d3b83cde87863ba4a63ade4c9cd84b",
   "items": [
     {
       "repository": "deanpeters/Product-Manager-Skills",
@@ -15,7 +15,7 @@
       "description": "Product Management skills framework built on battle-tested methods for Claude Code, Cowork, Codex, and AI agents.",
       "slug": "deanpeters-product-manager-skills-collection",
       "isCollection": true,
-      "stars": 5576,
+      "stars": 5657,
       "skillPaths": [
         "skills/acquisition-channel-advisor/SKILL.md",
         "skills/agent-orchestration-advisor/SKILL.md",
@@ -38,6 +38,7 @@
         "skills/feature-investment-advisor/SKILL.md",
         "skills/finance-based-pricing-advisor/SKILL.md",
         "skills/finance-metrics-quickref/SKILL.md",
+        "skills/incoming-request-advisor/SKILL.md",
         "skills/jobs-to-be-done/SKILL.md",
         "skills/lean-ux-canvas/SKILL.md",
         "skills/opportunity-solution-tree/SKILL.md",
@@ -262,6 +263,15 @@
       "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/finance-metrics-quickref/SKILL.md",
       "description": "Look up SaaS finance metrics, formulas, and benchmarks fast. Use when you need a quick metric definition, formula, or benchmark during analysis.",
       "slug": "deanpeters-finance-metrics-quickref"
+    },
+    {
+      "repository": "deanpeters/Product-Manager-Skills",
+      "branch": "main",
+      "skillName": "incoming-request-advisor",
+      "path": "skills/incoming-request-advisor/SKILL.md",
+      "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/incoming-request-advisor/SKILL.md",
+      "description": "Decode an incoming message into a structured breakdown that separates the literal ask from the job-to-be-done. Use before replying to a loaded Slack ping, email, mandate, or escalation.",
+      "slug": "deanpeters-incoming-request-advisor"
     },
     {
       "repository": "deanpeters/Product-Manager-Skills",
@@ -570,6 +580,6 @@
       "slug": "deanpeters-workshop-facilitation"
     }
   ],
-  "itemCount": 56,
-  "lastStatus": "reused-unchanged"
+  "itemCount": 57,
+  "lastStatus": "cache-fresh"
 }

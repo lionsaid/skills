@@ -1,8 +1,425 @@
 {
-  "generatedAt": "2026-07-07T09:11:26.306Z",
+  "generatedAt": "2026-07-15T02:39:29.986Z",
   "chunkIndex": 9,
-  "totalSkills": 8886,
+  "totalSkills": 8995,
   "skills": [
+    {
+      "slug": "dannyshmueli-agent-analytics",
+      "name": "dannyshmueli/agent-analytics",
+      "description": "Product analytics with your AI agent: set up consent-based tracking, read funnels, paths, retention, experiments, and context, then recommend the smallest growth action using the official Agent Analytics CLI.",
+      "publisher": "dannyshmueli",
+      "publisherSlug": "dannyshmueli",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "dannyshmueli",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "data-analyst",
+        "engineer",
+        "marketer",
+        "pm"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "planning-roadmapping",
+        "prd-specs",
+        "reporting",
+        "research-synthesis",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/dannyshmueli.png?size=88",
+      "creatorHandle": "dannyshmueli",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "byungkyu-google-forms",
+      "name": "byungkyu/google-forms",
+      "description": "Google Forms API integration with managed OAuth. Create forms, add questions, and retrieve responses. Use this skill when users want to interact with Google...",
+      "publisher": "byungkyu",
+      "publisherSlug": "byungkyu",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "byungkyu",
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/byungkyu.png?size=88",
+      "creatorHandle": "byungkyu",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "okikesolutions-plan2meal",
+      "name": "okikesolutions/plan2meal",
+      "description": "Manage recipes and grocery lists from your Plan2Meal React Native app. Add recipes from URLs, search, view, and manage your grocery lists.",
+      "publisher": "okikesolutions",
+      "publisherSlug": "okikesolutions",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "namespaced",
+        "okikesolutions",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/okikesolutions.png?size=88",
+      "creatorHandle": "okikesolutions",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "jk-0001-competitive-analysis",
+      "name": "jk-0001/competitive-analysis",
+      "description": "Perform a deep competitive analysis for a solopreneur business. Use when mapping competitors in detail, finding exploitable gaps, understanding competitor strategy, benchmarking your own offering, or deciding how to position against the field. Goes deeper than the broad landscape mapping in market-research — this is focused dissection of specific competitors. Trigger on \"analyze my competitors\", \"competitive analysis\", \"who are my competitors\", \"competitor deep-dive\", \"how do I beat the competition\", \"competitive landscape\", \"benchmark against competitors\".",
+      "publisher": "jk-0001",
+      "publisherSlug": "jk-0001",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "jk-0001",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "data-analyst",
+        "engineer",
+        "founder"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "planning-roadmapping",
+        "prd-specs",
+        "reporting",
+        "research-synthesis",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/jk-0001.png?size=88",
+      "creatorHandle": "jk-0001",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "lbs-amap-amap-jsapi-skill",
+      "name": "lbs-amap/amap-jsapi-skill",
+      "description": "高德地图 JSAPI v2.0 (WebGL) 开发技能。涵盖地图生命周期管理、强制安全配置、3D 视图控制、覆盖物绘制及 LBS 服务集成。",
+      "publisher": "lbs-amap",
+      "publisherSlug": "lbs-amap",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "lbs-amap",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/lbs-amap.png?size=88",
+      "creatorHandle": "lbs-amap",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "anishtr4-x-trends",
+      "name": "anishtr4/x-trends",
+      "description": "Fetches current top trending topics on X (Twitter) for any country using public aggregators.",
+      "publisher": "anishtr4",
+      "publisherSlug": "anishtr4",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "anishtr4",
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/anishtr4.png?size=88",
+      "creatorHandle": "anishtr4",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "obra-superpowers-collection",
+      "name": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "publisher": "obra",
+      "publisherSlug": "obra",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "obra",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [
+        "development-workflows"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/obra.png?size=88",
+      "creatorHandle": "obra",
+      "hasPublisherLogo": false,
+      "stars": 254731,
+      "forks": 22764
+    },
+    {
+      "slug": "affaan-m-ecc-collection",
+      "name": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "publisher": "affaan-m",
+      "publisherSlug": "affaan-m",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "affaan-m",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
+      "creatorHandle": "affaan-m",
+      "hasPublisherLogo": false,
+      "stars": 229749,
+      "forks": 35166
+    },
+    {
+      "slug": "affaan-m-accessibility",
+      "name": "affaan-m/accessibility",
+      "description": "Design, implement, and audit inclusive digital products using WCAG 2.2 Level AA",
+      "publisher": "affaan-m",
+      "publisherSlug": "affaan-m",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "affaan-m",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "designer"
+      ],
+      "jobs": [
+        "design-critique",
+        "presentation-building",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
+      "creatorHandle": "affaan-m",
+      "hasPublisherLogo": false,
+      "stars": 229749,
+      "forks": 35166
+    },
+    {
+      "slug": "affaan-m-agent-architecture-audit",
+      "name": "affaan-m/agent-architecture-audit",
+      "description": "Full-stack diagnostic for agent and LLM applications. Audits the 12-layer agent stack for wrapper regression, memory pollution, tool discipline failures, hidden repair loops, and rendering corruption. Produces severity-ranked findings with code-first fixes. Essential for developers building agent applications, autonomous loops, or any LLM-powered feature.",
+      "publisher": "affaan-m",
+      "publisherSlug": "affaan-m",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "affaan-m",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "research-synthesis",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
+      "creatorHandle": "affaan-m",
+      "hasPublisherLogo": false,
+      "stars": 229749,
+      "forks": 35166
+    },
+    {
+      "slug": "affaan-m-agent-eval",
+      "name": "affaan-m/agent-eval",
+      "description": "Head-to-head comparison of coding agents (Claude Code, Aider, Codex, etc.) on custom tasks with pass rate, cost, time, and consistency metrics",
+      "publisher": "affaan-m",
+      "publisherSlug": "affaan-m",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "affaan-m",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
+      "creatorHandle": "affaan-m",
+      "hasPublisherLogo": false,
+      "stars": 229749,
+      "forks": 35166
+    },
     {
       "slug": "affaan-m-agent-harness-construction",
       "name": "affaan-m/agent-harness-construction",
@@ -36,8 +453,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-agent-introspection-debugging",
@@ -73,8 +490,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-agent-payment-x402",
@@ -109,8 +526,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-agent-self-evaluation",
@@ -148,8 +565,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-agent-sort",
@@ -187,8 +604,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-agentic-engineering",
@@ -215,8 +632,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-agentic-os",
@@ -253,8 +670,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-ai-first-engineering",
@@ -281,8 +698,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-ai-regression-testing",
@@ -317,8 +734,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-android-clean-architecture",
@@ -345,8 +762,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-angular-developer",
@@ -382,8 +799,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-api-connector-builder",
@@ -419,8 +836,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-api-design",
@@ -460,8 +877,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-architecture-decision-records",
@@ -496,8 +913,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-article-writing",
@@ -545,8 +962,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-automation-audit-ops",
@@ -578,8 +995,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-autonomous-agent-harness",
@@ -615,8 +1032,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-autonomous-loops",
@@ -651,8 +1068,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-backend-patterns",
@@ -692,8 +1109,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-benchmark-methodology",
@@ -720,8 +1137,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-benchmark-optimization-loop",
@@ -756,8 +1173,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-benchmark",
@@ -784,8 +1201,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-blender-motion-state-inspection",
@@ -821,8 +1238,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-blueprint",
@@ -849,8 +1266,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-brand-discovery",
@@ -891,8 +1308,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-brand-voice",
@@ -942,8 +1359,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-browser-qa",
@@ -983,8 +1400,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-bun-runtime",
@@ -1023,8 +1440,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-canary-watch",
@@ -1059,8 +1476,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-carrier-relationship-management",
@@ -1087,8 +1504,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-cisco-ios-patterns",
@@ -1123,8 +1540,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-ck",
@@ -1160,8 +1577,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-claude-devfleet",
@@ -1190,8 +1607,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-click-path-audit",
@@ -1232,8 +1649,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-clickhouse-io",
@@ -1270,8 +1687,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-code-tour",
@@ -1306,8 +1723,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-codebase-onboarding",
@@ -1343,8 +1760,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-codehealth-mcp",
@@ -1379,8 +1796,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-coding-standards",
@@ -1421,8 +1838,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-competitive-platform-analysis",
@@ -1458,8 +1875,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-competitive-report-structure",
@@ -1488,8 +1905,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-compose-multiplatform-patterns",
@@ -1530,8 +1947,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-config-gc",
@@ -1566,8 +1983,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-configure-ecc",
@@ -1603,8 +2020,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-connections-optimizer",
@@ -1645,8 +2062,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-content-engine",
@@ -1687,8 +2104,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-content-hash-cache-pattern",
@@ -1724,8 +2141,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-context-budget",
@@ -1760,8 +2177,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-continuous-agent-loop",
@@ -1790,8 +2207,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-continuous-learning-v2",
@@ -1818,8 +2235,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-continuous-learning",
@@ -1846,8 +2263,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-cost-aware-llm-pipeline",
@@ -1886,8 +2303,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-cost-tracking",
@@ -1928,8 +2345,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-council",
@@ -1964,8 +2381,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-cpp-coding-standards",
@@ -2002,8 +2419,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-cpp-testing",
@@ -2039,8 +2456,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-crosspost",
@@ -2081,8 +2498,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-csharp-testing",
@@ -2117,8 +2534,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-customer-billing-ops",
@@ -2158,8 +2575,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-customs-trade-compliance",
@@ -2186,8 +2603,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-dart-flutter-patterns",
@@ -2222,8 +2639,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-dashboard-builder",
@@ -2265,8 +2682,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-data-scraper-agent",
@@ -2302,8 +2719,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-data-throughput-accelerator",
@@ -2330,8 +2747,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-database-migrations",
@@ -2366,8 +2783,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-deep-research",
@@ -2403,8 +2820,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-defi-amm-security",
@@ -2433,8 +2850,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-delivery-gate",
@@ -2470,8 +2887,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-deployment-patterns",
@@ -2510,8 +2927,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-design-system",
@@ -2546,8 +2963,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-django-celery",
@@ -2587,8 +3004,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-django-patterns",
@@ -2628,8 +3045,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-django-security",
@@ -2670,8 +3087,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-django-tdd",
@@ -2706,8 +3123,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-django-verification",
@@ -2742,8 +3159,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-dmux-workflows",
@@ -2779,8 +3196,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-docker-patterns",
@@ -2810,8 +3227,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-documentation-lookup",
@@ -2846,8 +3263,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-dotnet-patterns",
@@ -2883,8 +3300,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-dynamic-workflow-mode",
@@ -2919,8 +3336,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-e2e-testing",
@@ -2955,8 +3372,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-ecc-guide",
@@ -2985,8 +3402,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-ecc-recipes",
@@ -3022,8 +3439,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-ecc-tools-cost-audit",
@@ -3053,8 +3470,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-email-ops",
@@ -3092,8 +3509,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-energy-procurement",
@@ -3120,8 +3537,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-enterprise-agent-ops",
@@ -3151,8 +3568,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-error-handling",
@@ -3188,8 +3605,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-eval-harness",
@@ -3224,8 +3641,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-evm-token-decimals",
@@ -3260,8 +3677,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-exa-search",
@@ -3297,8 +3714,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-fal-ai-media",
@@ -3328,8 +3745,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-fastapi-patterns",
@@ -3364,8 +3781,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-finance-billing-ops",
@@ -3408,8 +3825,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-flox-environments",
@@ -3445,8 +3862,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-flutter-dart-code-review",
@@ -3481,8 +3898,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-foundation-models-on-device",
@@ -3512,8 +3929,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-frontend-a11y",
@@ -3549,8 +3966,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-frontend-design-direction",
@@ -3599,8 +4016,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-frontend-patterns",
@@ -3636,8 +4053,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-frontend-slides",
@@ -3684,8 +4101,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-fsharp-testing",
@@ -3720,8 +4137,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-gan-style-harness",
@@ -3761,8 +4178,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-gateguard",
@@ -3797,8 +4214,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-generating-python-installer",
@@ -3841,8 +4258,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-git-workflow",
@@ -3872,8 +4289,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-github-ops",
@@ -3912,8 +4329,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-golang-patterns",
@@ -3949,8 +4366,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-golang-testing",
@@ -3985,8 +4402,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-google-workspace-ops",
@@ -4018,8 +4435,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-growth-log",
@@ -4055,8 +4472,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-healthcare-cdss-patterns",
@@ -4095,8 +4512,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-healthcare-emr-patterns",
@@ -4140,8 +4557,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-healthcare-eval-harness",
@@ -4177,8 +4594,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-healthcare-phi-compliance",
@@ -4205,8 +4622,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-hermes-imports",
@@ -4235,8 +4652,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-hexagonal-architecture",
@@ -4276,8 +4693,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-hipaa-compliance",
@@ -4318,8 +4735,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-homelab-network-readiness",
@@ -4346,8 +4763,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-homelab-network-setup",
@@ -4376,8 +4793,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-homelab-pihole-dns",
@@ -4406,8 +4823,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-homelab-vlan-segmentation",
@@ -4434,8 +4851,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-homelab-wireguard-vpn",
@@ -4462,8 +4879,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-hookify-rules",
@@ -4492,8 +4909,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-inherit-legacy-style",
@@ -4529,8 +4946,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-intent-driven-development",
@@ -4571,8 +4988,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-inventory-demand-planning",
@@ -4601,8 +5018,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-investor-materials",
@@ -4645,8 +5062,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-investor-outreach",
@@ -4689,8 +5106,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-ios-icon-gen",
@@ -4726,8 +5143,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-iterative-retrieval",
@@ -4754,8 +5171,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-ito-basket-compare",
@@ -4799,8 +5216,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-ito-data-atlas-agent",
@@ -4837,8 +5254,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-ito-market-intelligence",
@@ -4875,8 +5292,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-ito-trade-planner",
@@ -4914,8 +5331,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-java-coding-standards",
@@ -4951,8 +5368,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-jira-integration",
@@ -4996,8 +5413,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-jpa-patterns",
@@ -5038,8 +5455,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-knowledge-ops",
@@ -5076,8 +5493,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-kotlin-coroutines-flows",
@@ -5112,8 +5529,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-kotlin-exposed-patterns",
@@ -5149,8 +5566,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-kotlin-ktor-patterns",
@@ -5185,8 +5602,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-kotlin-patterns",
@@ -5222,8 +5639,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-kotlin-testing",
@@ -5258,8 +5675,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-kubernetes-patterns",
@@ -5294,8 +5711,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-laravel-patterns",
@@ -5330,8 +5747,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-laravel-plugin-discovery",
@@ -5360,8 +5777,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-laravel-security",
@@ -5396,8 +5813,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-laravel-tdd",
@@ -5432,8 +5849,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-laravel-verification",
@@ -5474,8 +5891,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-latency-critical-systems",
@@ -5510,8 +5927,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-lead-intelligence",
@@ -5551,8 +5968,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-liquid-glass-design",
@@ -5587,8 +6004,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-llm-trading-agent-security",
@@ -5624,8 +6041,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-logistics-exception-management",
@@ -5652,8 +6069,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-loop-design-check",
@@ -5693,8 +6110,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-mailtrap-email-integration",
@@ -5730,8 +6147,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-make-interfaces-feel-better",
@@ -5771,8 +6188,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-manim-video",
@@ -5813,8 +6230,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-market-research",
@@ -5861,8 +6278,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-marketing-campaign",
@@ -5907,8 +6324,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-mcp-server-patterns",
@@ -5944,8 +6361,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-messages-ops",
@@ -5982,8 +6399,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-ml-adoption-playbook",
@@ -6018,8 +6435,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-mle-workflow",
@@ -6055,8 +6472,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-motion-advanced",
@@ -6092,8 +6509,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-motion-foundations",
@@ -6122,8 +6539,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-motion-patterns",
@@ -6152,8 +6569,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-motion-ui",
@@ -6188,8 +6605,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-mysql-patterns",
@@ -6226,8 +6643,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-nanoclaw-repl",
@@ -6256,8 +6673,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-nestjs-patterns",
@@ -6286,8 +6703,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-netmiko-ssh-automation",
@@ -6316,8 +6733,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-network-bgp-diagnostics",
@@ -6347,8 +6764,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-network-config-validation",
@@ -6383,8 +6800,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-network-interface-health",
@@ -6414,8 +6831,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-nextjs-turbopack",
@@ -6444,8 +6861,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-nodejs-keccak256",
@@ -6472,8 +6889,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-nutrient-document-processing",
@@ -6517,8 +6934,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-nuxt4-patterns",
@@ -6547,8 +6964,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-openclaw-persona-forge",
@@ -6575,8 +6992,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-opensource-pipeline",
@@ -6610,8 +7027,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-orch-add-feature",
@@ -6657,8 +7074,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-orch-build-mvp",
@@ -6705,8 +7122,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-orch-change-feature",
@@ -6746,8 +7163,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-orch-fix-defect",
@@ -6782,8 +7199,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-orch-pipeline",
@@ -6818,8 +7235,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-orch-refine-code",
@@ -6854,8 +7271,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-parallel-execution-optimizer",
@@ -6884,8 +7301,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-perl-patterns",
@@ -6921,8 +7338,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-perl-security",
@@ -6963,8 +7380,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-perl-testing",
@@ -6999,8 +7416,38 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
+    },
+    {
+      "slug": "affaan-m-plan-canvas",
+      "name": "affaan-m/plan-canvas",
+      "description": "Open plans and HTML artifacts in a local browser canvas where the human annotates elements, chats, and approves or requests changes without leaving the page. Use when presenting a plan for review, or when feedback like \"move this, change that\" is easier pointed at than typed.",
+      "publisher": "affaan-m",
+      "publisherSlug": "affaan-m",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "affaan-m",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [
+        "visual-assets"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
+      "creatorHandle": "affaan-m",
+      "hasPublisherLogo": false,
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-plan-orchestrate",
@@ -7036,8 +7483,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-plankton-code-quality",
@@ -7072,8 +7519,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-postgres-patterns",
@@ -7119,8 +7566,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-prediction-market-oracle-research",
@@ -7165,8 +7612,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-prediction-market-risk-review",
@@ -7202,8 +7649,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-prisma-patterns",
@@ -7245,8 +7692,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-product-capability",
@@ -7286,8 +7733,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-product-lens",
@@ -7329,8 +7776,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-production-audit",
@@ -7366,8 +7813,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-production-scheduling",
@@ -7394,8 +7841,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-project-flow-ops",
@@ -7438,8 +7885,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-prompt-optimizer",
@@ -7466,8 +7913,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-python-patterns",
@@ -7503,8 +7950,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-python-testing",
@@ -7545,8 +7992,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-pytorch-patterns",
@@ -7582,8 +8029,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-quality-nonconformance",
@@ -7610,8 +8057,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-quarkus-patterns",
@@ -7651,8 +8098,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-quarkus-security",
@@ -7679,8 +8126,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-quarkus-tdd",
@@ -7715,8 +8162,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-quarkus-verification",
@@ -7758,8 +8205,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-ralphinho-rfc-pipeline",
@@ -7793,8 +8240,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-react-native-patterns",
@@ -7836,8 +8283,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-react-patterns",
@@ -7873,8 +8320,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-react-performance",
@@ -7910,8 +8357,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-react-testing",
@@ -7947,8 +8394,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-recsys-pipeline-architect",
@@ -7998,8 +8445,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-recursive-decision-ledger",
@@ -8039,8 +8486,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-redis-patterns",
@@ -8067,8 +8514,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-regex-vs-llm-structured-text",
@@ -8103,8 +8550,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-remotion-video-creation",
@@ -8140,8 +8587,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-repo-scan",
@@ -8177,8 +8624,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-research-ops",
@@ -8210,8 +8657,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-returns-reverse-logistics",
@@ -8238,8 +8685,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-rules-distill",
@@ -8275,8 +8722,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-rust-patterns",
@@ -8312,8 +8759,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-rust-testing",
@@ -8348,453 +8795,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
-    },
-    {
-      "slug": "affaan-m-safety-guard",
-      "name": "affaan-m/safety-guard",
-      "description": "Use this skill to prevent destructive operations when working on production systems or running agents autonomously.",
-      "publisher": "affaan-m",
-      "publisherSlug": "affaan-m",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "affaan-m",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
-      "creatorHandle": "affaan-m",
-      "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
-    },
-    {
-      "slug": "affaan-m-santa-method",
-      "name": "affaan-m/santa-method",
-      "description": "Multi-agent adversarial verification with convergence loop. Two independent review agents must both pass before output ships.",
-      "publisher": "affaan-m",
-      "publisherSlug": "affaan-m",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "affaan-m",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
-      "creatorHandle": "affaan-m",
-      "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
-    },
-    {
-      "slug": "affaan-m-scientific-db-pubmed-database",
-      "name": "affaan-m/scientific-db-pubmed-database",
-      "description": "Direct PubMed and NCBI E-utilities search workflows for biomedical literature, MeSH queries, PMID lookup, citation retrieval, and API-backed literature monitoring.",
-      "publisher": "affaan-m",
-      "publisherSlug": "affaan-m",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "affaan-m",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "data-analyst",
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "dashboarding",
-        "data-extraction",
-        "deployment-ops",
-        "development-workflows",
-        "reporting",
-        "research-synthesis",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
-      "creatorHandle": "affaan-m",
-      "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
-    },
-    {
-      "slug": "affaan-m-scientific-db-uspto-database",
-      "name": "affaan-m/scientific-db-uspto-database",
-      "description": "USPTO patent and trademark data workflow for official record lookup, PatentSearch queries, TSDR checks, assignment data, and reproducible IP research logs.",
-      "publisher": "affaan-m",
-      "publisherSlug": "affaan-m",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "affaan-m",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "data-analyst",
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "dashboarding",
-        "data-extraction",
-        "deployment-ops",
-        "development-workflows",
-        "reporting",
-        "research-synthesis",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
-      "creatorHandle": "affaan-m",
-      "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
-    },
-    {
-      "slug": "affaan-m-scientific-pkg-gget",
-      "name": "affaan-m/scientific-pkg-gget",
-      "description": "gget CLI and Python workflow for quick genomic database queries, sequence lookup, BLAST-style searches, enrichment checks, and reproducible bioinformatics evidence logs.",
-      "publisher": "affaan-m",
-      "publisherSlug": "affaan-m",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "affaan-m",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "data-analyst",
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "dashboarding",
-        "data-extraction",
-        "deployment-ops",
-        "development-workflows",
-        "reporting",
-        "research-synthesis",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
-      "creatorHandle": "affaan-m",
-      "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
-    },
-    {
-      "slug": "affaan-m-scientific-thinking-literature-review",
-      "name": "affaan-m/scientific-thinking-literature-review",
-      "description": "Systematic literature-review workflow for academic, biomedical, technical, and scientific topics, including search planning, source screening, synthesis, citation checks, and evidence logging.",
-      "publisher": "affaan-m",
-      "publisherSlug": "affaan-m",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "affaan-m",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "planning-roadmapping",
-        "research-synthesis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
-      "creatorHandle": "affaan-m",
-      "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
-    },
-    {
-      "slug": "affaan-m-scientific-thinking-scholar-evaluation",
-      "name": "affaan-m/scientific-thinking-scholar-evaluation",
-      "description": "Structured scholarly-work evaluation for papers, proposals, literature reviews, methods sections, evidence quality, citation support, and research-writing feedback.",
-      "publisher": "affaan-m",
-      "publisherSlug": "affaan-m",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "affaan-m",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer",
-        "support"
-      ],
-      "jobs": [
-        "api-integration",
-        "data-extraction",
-        "deployment-ops",
-        "development-workflows",
-        "document-authoring",
-        "reporting",
-        "research-synthesis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
-      "creatorHandle": "affaan-m",
-      "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
-    },
-    {
-      "slug": "affaan-m-search-first",
-      "name": "affaan-m/search-first",
-      "description": "Research-before-coding workflow. Search for existing tools, libraries, and patterns before writing custom code. Invokes the researcher agent.",
-      "publisher": "affaan-m",
-      "publisherSlug": "affaan-m",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "affaan-m",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "document-authoring",
-        "research-synthesis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
-      "creatorHandle": "affaan-m",
-      "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
-    },
-    {
-      "slug": "affaan-m-security-bounty-hunter",
-      "name": "affaan-m/security-bounty-hunter",
-      "description": "Hunt for exploitable, bounty-worthy security issues in repositories. Focuses on remotely reachable vulnerabilities that qualify for real reports instead of noisy local-only findings.",
-      "publisher": "affaan-m",
-      "publisherSlug": "affaan-m",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "affaan-m",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [
-        "research-synthesis"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
-      "creatorHandle": "affaan-m",
-      "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
-    },
-    {
-      "slug": "affaan-m-security-review",
-      "name": "affaan-m/security-review",
-      "description": "Use this skill when adding authentication, handling user input, working with secrets, creating API endpoints, or implementing payment/sensitive features. Provides comprehensive security checklist and patterns.",
-      "publisher": "affaan-m",
-      "publisherSlug": "affaan-m",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "affaan-m",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
-      "creatorHandle": "affaan-m",
-      "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
-    },
-    {
-      "slug": "affaan-m-security-scan",
-      "name": "affaan-m/security-scan",
-      "description": "Scan your Claude Code configuration (.claude/ directory) for security vulnerabilities, misconfigurations, and injection risks using AgentShield. Checks CLAUDE.md, settings.json, MCP servers, hooks, and agent definitions.",
-      "publisher": "affaan-m",
-      "publisherSlug": "affaan-m",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "affaan-m",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "data-extraction",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
-      "creatorHandle": "affaan-m",
-      "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
-    },
-    {
-      "slug": "affaan-m-seo",
-      "name": "affaan-m/seo",
-      "description": "Audit, plan, and implement SEO improvements across technical SEO, on-page optimization, structured data, Core Web Vitals, and content strategy. Use when the user wants better search visibility, SEO remediation, schema markup, sitemap/robots work, or keyword mapping.",
-      "publisher": "affaan-m",
-      "publisherSlug": "affaan-m",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "affaan-m",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "founder",
-        "marketer"
-      ],
-      "jobs": [
-        "campaign-planning",
-        "content-production",
-        "landing-pages",
-        "planning-roadmapping",
-        "reporting",
-        "research-synthesis",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
-      "creatorHandle": "affaan-m",
-      "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     }
   ]
 }

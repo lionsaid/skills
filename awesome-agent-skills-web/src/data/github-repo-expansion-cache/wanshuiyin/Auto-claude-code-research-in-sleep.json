@@ -2,9 +2,9 @@
   "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
   "branch": "main",
   "defaultBranch": "main",
-  "pushedAt": "2026-07-06T15:19:30Z",
-  "scannedAt": "2026-07-07T09:04:44.200Z",
-  "treeSha": "fe5963c9cde2b1ef7847cbe5d699a64747a9a0b3",
+  "pushedAt": "2026-07-14T17:24:18Z",
+  "scannedAt": "2026-07-15T02:23:46.162Z",
+  "treeSha": "c5f3d5bfc694a812012729841e9697223e4f2130",
   "items": [
     {
       "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
@@ -15,7 +15,7 @@
       "description": "ARIS ⚔️ (Auto-Research-In-Sleep) — Lightweight Markdown-only skills for autonomous ML research: cross-model review loops, idea discovery, and experiment automation. No framework, no lock-in — works with Claude Code, Codex, OpenClaw, or any LLM agent.",
       "slug": "wanshuiyin-auto-claude-code-research-in-sleep-collection",
       "isCollection": true,
-      "stars": 13089,
+      "stars": 13395,
       "skillPaths": [
         "skills/ablation-planner/SKILL.md",
         "skills/alphaxiv/SKILL.md",
@@ -45,6 +45,7 @@
         "skills/idea-creator/SKILL.md",
         "skills/idea-discovery-robot/SKILL.md",
         "skills/idea-discovery/SKILL.md",
+        "skills/integrity-forensics/SKILL.md",
         "skills/interview-cheatsheet/SKILL.md",
         "skills/invention-structuring/SKILL.md",
         "skills/jurisdiction-format/SKILL.md",
@@ -349,6 +350,15 @@
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/idea-discovery/SKILL.md",
       "description": "Workflow 1: Full idea discovery pipeline to go from a broad research direction to validated, pilot-tested ideas. Use when user says \\\"找idea全流程\\\", \\\"idea discovery pipeline\\\", \\\"从零开始找方向\\\", or wants the complete idea exploration workflow.",
       "slug": "wanshuiyin-idea-discovery"
+    },
+    {
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "branch": "main",
+      "skillName": "integrity-forensics",
+      "path": "skills/integrity-forensics/SKILL.md",
+      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/integrity-forensics/SKILL.md",
+      "description": "Run the Anti-Autoresearch integrity-forensics sweep (span-anchored evidence ledger → GPT auditors propose findings → deterministic rules-only adjudicator) against a paper via a SHA-pinned thin launcher — then convert the verdict into a typed policy gate (BLOCK/WARN/NO_NEW_BLOCKER) and an append-only obligations ledger. Use when user says \\\"integrity forensics\\\", \\\"forensic audit this paper\\\", \\\"投稿前自查诚信\\\", \\\"审这篇论文的诚信\\\", or says \\\"anti-autoresearch\\\" when the upstream repo's own skills are not installed. Also invoked by /paper-writing (submission self-forensics, default ON), /peer-review (forensic appendix), /resubmit-pipeline.",
+      "slug": "wanshuiyin-integrity-forensics"
     },
     {
       "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
@@ -810,7 +820,6 @@
       "slug": "wanshuiyin-writing-systems-papers"
     }
   ],
-  "itemCount": 80,
-  "publicSkillCount": 79,
-  "lastStatus": "scanned"
+  "itemCount": 81,
+  "lastStatus": "cache-fresh"
 }

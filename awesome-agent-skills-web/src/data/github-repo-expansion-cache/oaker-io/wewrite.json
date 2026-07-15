@@ -2,21 +2,124 @@
   "repository": "oaker-io/wewrite",
   "branch": "main",
   "defaultBranch": "main",
-  "pushedAt": "2026-06-17T06:20:56Z",
-  "scannedAt": "2026-07-07T09:06:36.847Z",
-  "treeSha": "1ec8cfe6141b7640da65a513800a6dbc3e9edb2e",
+  "pushedAt": "2026-07-13T07:10:17Z",
+  "scannedAt": "2026-07-15T02:27:05.879Z",
+  "treeSha": "83d2a66f8da78f6555b1629751979267a6a1cda9",
   "items": [
     {
       "repository": "oaker-io/wewrite",
       "branch": "main",
       "skillName": "wewrite",
-      "path": "SKILL.md",
-      "url": "https://github.com/oaker-io/wewrite/blob/main/SKILL.md",
+      "path": "README.md",
+      "url": "https://github.com/oaker-io/wewrite",
+      "description": "公众号内容全流程 Skill，从热点抓取到微信草稿箱，一句话跑完整条内容管道",
+      "slug": "oaker-io-wewrite-collection",
+      "isCollection": true,
+      "stars": 2817,
+      "skillPaths": [
+        "skills/wewrite-learn/SKILL.md",
+        "skills/wewrite-publish/SKILL.md",
+        "skills/wewrite-review/SKILL.md",
+        "skills/wewrite-rewrite/SKILL.md",
+        "skills/wewrite-stats/SKILL.md",
+        "skills/wewrite-style/SKILL.md",
+        "skills/wewrite-topic/SKILL.md",
+        "skills/wewrite-visual/SKILL.md",
+        "skills/wewrite-write/SKILL.md",
+        "skills/wewrite/SKILL.md"
+      ]
+    },
+    {
+      "repository": "oaker-io/wewrite",
+      "branch": "main",
+      "skillName": "wewrite-learn",
+      "path": "skills/wewrite-learn/SKILL.md",
+      "url": "https://github.com/oaker-io/wewrite/blob/main/skills/wewrite-learn/SKILL.md",
+      "description": "|",
+      "slug": "oaker-io-wewrite-learn"
+    },
+    {
+      "repository": "oaker-io/wewrite",
+      "branch": "main",
+      "skillName": "wewrite-publish",
+      "path": "skills/wewrite-publish/SKILL.md",
+      "url": "https://github.com/oaker-io/wewrite/blob/main/skills/wewrite-publish/SKILL.md",
+      "description": "|",
+      "slug": "oaker-io-wewrite-publish"
+    },
+    {
+      "repository": "oaker-io/wewrite",
+      "branch": "main",
+      "skillName": "wewrite-review",
+      "path": "skills/wewrite-review/SKILL.md",
+      "url": "https://github.com/oaker-io/wewrite/blob/main/skills/wewrite-review/SKILL.md",
+      "description": "|",
+      "slug": "oaker-io-wewrite-review"
+    },
+    {
+      "repository": "oaker-io/wewrite",
+      "branch": "main",
+      "skillName": "wewrite-rewrite",
+      "path": "skills/wewrite-rewrite/SKILL.md",
+      "url": "https://github.com/oaker-io/wewrite/blob/main/skills/wewrite-rewrite/SKILL.md",
+      "description": "|",
+      "slug": "oaker-io-wewrite-rewrite"
+    },
+    {
+      "repository": "oaker-io/wewrite",
+      "branch": "main",
+      "skillName": "wewrite-stats",
+      "path": "skills/wewrite-stats/SKILL.md",
+      "url": "https://github.com/oaker-io/wewrite/blob/main/skills/wewrite-stats/SKILL.md",
+      "description": "|",
+      "slug": "oaker-io-wewrite-stats"
+    },
+    {
+      "repository": "oaker-io/wewrite",
+      "branch": "main",
+      "skillName": "wewrite-style",
+      "path": "skills/wewrite-style/SKILL.md",
+      "url": "https://github.com/oaker-io/wewrite/blob/main/skills/wewrite-style/SKILL.md",
+      "description": "|",
+      "slug": "oaker-io-wewrite-style"
+    },
+    {
+      "repository": "oaker-io/wewrite",
+      "branch": "main",
+      "skillName": "wewrite-topic",
+      "path": "skills/wewrite-topic/SKILL.md",
+      "url": "https://github.com/oaker-io/wewrite/blob/main/skills/wewrite-topic/SKILL.md",
+      "description": "|",
+      "slug": "oaker-io-wewrite-topic"
+    },
+    {
+      "repository": "oaker-io/wewrite",
+      "branch": "main",
+      "skillName": "wewrite-visual",
+      "path": "skills/wewrite-visual/SKILL.md",
+      "url": "https://github.com/oaker-io/wewrite/blob/main/skills/wewrite-visual/SKILL.md",
+      "description": "|",
+      "slug": "oaker-io-wewrite-visual"
+    },
+    {
+      "repository": "oaker-io/wewrite",
+      "branch": "main",
+      "skillName": "wewrite-write",
+      "path": "skills/wewrite-write/SKILL.md",
+      "url": "https://github.com/oaker-io/wewrite/blob/main/skills/wewrite-write/SKILL.md",
+      "description": "|",
+      "slug": "oaker-io-wewrite-write"
+    },
+    {
+      "repository": "oaker-io/wewrite",
+      "branch": "main",
+      "skillName": "wewrite",
+      "path": "skills/wewrite/SKILL.md",
+      "url": "https://github.com/oaker-io/wewrite/blob/main/skills/wewrite/SKILL.md",
       "description": "|",
       "slug": "oaker-io-wewrite"
     }
   ],
-  "itemCount": 1,
-  "lastStatus": "reused-unchanged",
-  "publicSkillCount": 1
+  "itemCount": 11,
+  "lastStatus": "cache-fresh"
 }

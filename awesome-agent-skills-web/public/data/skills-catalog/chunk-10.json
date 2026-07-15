@@ -1,8 +1,453 @@
 {
-  "generatedAt": "2026-07-07T09:11:26.306Z",
+  "generatedAt": "2026-07-15T02:39:29.986Z",
   "chunkIndex": 10,
-  "totalSkills": 8886,
+  "totalSkills": 8995,
   "skills": [
+    {
+      "slug": "affaan-m-safety-guard",
+      "name": "affaan-m/safety-guard",
+      "description": "Use this skill to prevent destructive operations when working on production systems or running agents autonomously.",
+      "publisher": "affaan-m",
+      "publisherSlug": "affaan-m",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "affaan-m",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
+      "creatorHandle": "affaan-m",
+      "hasPublisherLogo": false,
+      "stars": 229749,
+      "forks": 35166
+    },
+    {
+      "slug": "affaan-m-santa-method",
+      "name": "affaan-m/santa-method",
+      "description": "Multi-agent adversarial verification with convergence loop. Two independent review agents must both pass before output ships.",
+      "publisher": "affaan-m",
+      "publisherSlug": "affaan-m",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "affaan-m",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
+      "creatorHandle": "affaan-m",
+      "hasPublisherLogo": false,
+      "stars": 229749,
+      "forks": 35166
+    },
+    {
+      "slug": "affaan-m-scientific-db-pubmed-database",
+      "name": "affaan-m/scientific-db-pubmed-database",
+      "description": "Direct PubMed and NCBI E-utilities search workflows for biomedical literature, MeSH queries, PMID lookup, citation retrieval, and API-backed literature monitoring.",
+      "publisher": "affaan-m",
+      "publisherSlug": "affaan-m",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "affaan-m",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "reporting",
+        "research-synthesis",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
+      "creatorHandle": "affaan-m",
+      "hasPublisherLogo": false,
+      "stars": 229749,
+      "forks": 35166
+    },
+    {
+      "slug": "affaan-m-scientific-db-uspto-database",
+      "name": "affaan-m/scientific-db-uspto-database",
+      "description": "USPTO patent and trademark data workflow for official record lookup, PatentSearch queries, TSDR checks, assignment data, and reproducible IP research logs.",
+      "publisher": "affaan-m",
+      "publisherSlug": "affaan-m",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "affaan-m",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "reporting",
+        "research-synthesis",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
+      "creatorHandle": "affaan-m",
+      "hasPublisherLogo": false,
+      "stars": 229749,
+      "forks": 35166
+    },
+    {
+      "slug": "affaan-m-scientific-pkg-gget",
+      "name": "affaan-m/scientific-pkg-gget",
+      "description": "gget CLI and Python workflow for quick genomic database queries, sequence lookup, BLAST-style searches, enrichment checks, and reproducible bioinformatics evidence logs.",
+      "publisher": "affaan-m",
+      "publisherSlug": "affaan-m",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "affaan-m",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "reporting",
+        "research-synthesis",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
+      "creatorHandle": "affaan-m",
+      "hasPublisherLogo": false,
+      "stars": 229749,
+      "forks": 35166
+    },
+    {
+      "slug": "affaan-m-scientific-thinking-literature-review",
+      "name": "affaan-m/scientific-thinking-literature-review",
+      "description": "Systematic literature-review workflow for academic, biomedical, technical, and scientific topics, including search planning, source screening, synthesis, citation checks, and evidence logging.",
+      "publisher": "affaan-m",
+      "publisherSlug": "affaan-m",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "affaan-m",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "planning-roadmapping",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
+      "creatorHandle": "affaan-m",
+      "hasPublisherLogo": false,
+      "stars": 229749,
+      "forks": 35166
+    },
+    {
+      "slug": "affaan-m-scientific-thinking-scholar-evaluation",
+      "name": "affaan-m/scientific-thinking-scholar-evaluation",
+      "description": "Structured scholarly-work evaluation for papers, proposals, literature reviews, methods sections, evidence quality, citation support, and research-writing feedback.",
+      "publisher": "affaan-m",
+      "publisherSlug": "affaan-m",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "affaan-m",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "support"
+      ],
+      "jobs": [
+        "api-integration",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
+      "creatorHandle": "affaan-m",
+      "hasPublisherLogo": false,
+      "stars": 229749,
+      "forks": 35166
+    },
+    {
+      "slug": "affaan-m-search-first",
+      "name": "affaan-m/search-first",
+      "description": "Research-before-coding workflow. Search for existing tools, libraries, and patterns before writing custom code. Invokes the researcher agent.",
+      "publisher": "affaan-m",
+      "publisherSlug": "affaan-m",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "affaan-m",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
+      "creatorHandle": "affaan-m",
+      "hasPublisherLogo": false,
+      "stars": 229749,
+      "forks": 35166
+    },
+    {
+      "slug": "affaan-m-security-bounty-hunter",
+      "name": "affaan-m/security-bounty-hunter",
+      "description": "Hunt for exploitable, bounty-worthy security issues in repositories. Focuses on remotely reachable vulnerabilities that qualify for real reports instead of noisy local-only findings.",
+      "publisher": "affaan-m",
+      "publisherSlug": "affaan-m",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "affaan-m",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [
+        "research-synthesis"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
+      "creatorHandle": "affaan-m",
+      "hasPublisherLogo": false,
+      "stars": 229749,
+      "forks": 35166
+    },
+    {
+      "slug": "affaan-m-security-review",
+      "name": "affaan-m/security-review",
+      "description": "Use this skill when adding authentication, handling user input, working with secrets, creating API endpoints, or implementing payment/sensitive features. Provides comprehensive security checklist and patterns.",
+      "publisher": "affaan-m",
+      "publisherSlug": "affaan-m",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "affaan-m",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
+      "creatorHandle": "affaan-m",
+      "hasPublisherLogo": false,
+      "stars": 229749,
+      "forks": 35166
+    },
+    {
+      "slug": "affaan-m-security-scan",
+      "name": "affaan-m/security-scan",
+      "description": "Scan your Claude Code configuration (.claude/ directory) for security vulnerabilities, misconfigurations, and injection risks using AgentShield. Checks CLAUDE.md, settings.json, MCP servers, hooks, and agent definitions.",
+      "publisher": "affaan-m",
+      "publisherSlug": "affaan-m",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "affaan-m",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
+      "creatorHandle": "affaan-m",
+      "hasPublisherLogo": false,
+      "stars": 229749,
+      "forks": 35166
+    },
+    {
+      "slug": "affaan-m-seo",
+      "name": "affaan-m/seo",
+      "description": "Audit, plan, and implement SEO improvements across technical SEO, on-page optimization, structured data, Core Web Vitals, and content strategy. Use when the user wants better search visibility, SEO remediation, schema markup, sitemap/robots work, or keyword mapping.",
+      "publisher": "affaan-m",
+      "publisherSlug": "affaan-m",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "affaan-m",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "founder",
+        "marketer"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "landing-pages",
+        "planning-roadmapping",
+        "reporting",
+        "research-synthesis",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
+      "creatorHandle": "affaan-m",
+      "hasPublisherLogo": false,
+      "stars": 229749,
+      "forks": 35166
+    },
     {
       "slug": "affaan-m-skill-comply",
       "name": "affaan-m/skill-comply",
@@ -30,8 +475,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-skill-scout",
@@ -68,8 +513,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-skill-stocktake",
@@ -100,8 +545,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-social-graph-ranker",
@@ -146,8 +591,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-social-publisher",
@@ -188,8 +633,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-springboot-patterns",
@@ -229,8 +674,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-springboot-security",
@@ -259,8 +704,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-springboot-tdd",
@@ -295,8 +740,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-springboot-verification",
@@ -338,8 +783,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-strategic-compact",
@@ -366,8 +811,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-swift-actor-persistence",
@@ -402,8 +847,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-swift-concurrency-6-2",
@@ -438,8 +883,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-swift-protocol-di-testing",
@@ -474,8 +919,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-swiftui-patterns",
@@ -510,8 +955,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-taste",
@@ -559,8 +1004,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-tdd-workflow",
@@ -596,8 +1041,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-team-agent-orchestration",
@@ -626,8 +1071,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-team-builder",
@@ -663,8 +1108,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-terminal-ops",
@@ -700,8 +1145,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-tinystruct-patterns",
@@ -738,8 +1183,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-token-budget-advisor",
@@ -766,8 +1211,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-ui-demo",
@@ -807,8 +1252,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-ui-to-vue",
@@ -850,8 +1295,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-uncloud",
@@ -887,8 +1332,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-unified-notifications-ops",
@@ -918,8 +1363,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-verification-loop",
@@ -954,8 +1399,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-video-editing",
@@ -1000,8 +1445,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-videodb",
@@ -1049,8 +1494,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-visa-doc-translate",
@@ -1080,8 +1525,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-vite-patterns",
@@ -1117,8 +1562,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-vue-patterns",
@@ -1154,8 +1599,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-windows-desktop-e2e",
@@ -1195,8 +1640,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-workspace-surface-audit",
@@ -1231,8 +1676,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "affaan-m-x-api",
@@ -1278,8 +1723,8 @@
       "creatorAvatarUrl": "https://github.com/affaan-m.png?size=88",
       "creatorHandle": "affaan-m",
       "hasPublisherLogo": false,
-      "stars": 226799,
-      "forks": 34678
+      "stars": 229749,
+      "forks": 35166
     },
     {
       "slug": "multica-ai-andrej-karpathy-skills-collection",
@@ -1314,8 +1759,8 @@
       "creatorAvatarUrl": "https://github.com/multica-ai.png?size=88",
       "creatorHandle": "multica-ai",
       "hasPublisherLogo": false,
-      "stars": 188780,
-      "forks": 19389
+      "stars": 192297,
+      "forks": 19749
     },
     {
       "slug": "multica-ai-karpathy-guidelines",
@@ -1352,8 +1797,8 @@
       "creatorAvatarUrl": "https://github.com/multica-ai.png?size=88",
       "creatorHandle": "multica-ai",
       "hasPublisherLogo": false,
-      "stars": 188780,
-      "forks": 19389
+      "stars": 192297,
+      "forks": 19749
     },
     {
       "slug": "mattpocock-skills-collection",
@@ -1380,8 +1825,8 @@
       "creatorAvatarUrl": "https://github.com/mattpocock.png?size=88",
       "creatorHandle": "mattpocock",
       "hasPublisherLogo": false,
-      "stars": 159251,
-      "forks": 13680
+      "stars": 170443,
+      "forks": 14664
     },
     {
       "slug": "anthropics-skills-collection",
@@ -1409,8 +1854,8 @@
       "creatorAvatarUrl": "https://github.com/anthropics.png?size=88",
       "creatorHandle": "anthropics",
       "hasPublisherLogo": true,
-      "stars": 159005,
-      "forks": 18763
+      "stars": 161162,
+      "forks": 19035
     },
     {
       "slug": "anthropics-claude-api",
@@ -1445,8 +1890,8 @@
       "creatorAvatarUrl": "https://github.com/anthropics.png?size=88",
       "creatorHandle": "anthropics",
       "hasPublisherLogo": true,
-      "stars": 159005,
-      "forks": 18763
+      "stars": 161162,
+      "forks": 19035
     },
     {
       "slug": "nextlevelbuilder-ui-ux-pro-max-skill-collection",
@@ -1486,8 +1931,8 @@
       "creatorAvatarUrl": "https://github.com/nextlevelbuilder.png?size=88",
       "creatorHandle": "nextlevelbuilder",
       "hasPublisherLogo": false,
-      "stars": 101959,
-      "forks": 10747
+      "stars": 105615,
+      "forks": 11205
     },
     {
       "slug": "juliusbrussee-caveman-collection",
@@ -1522,8 +1967,8 @@
       "creatorAvatarUrl": "https://github.com/JuliusBrussee.png?size=88",
       "creatorHandle": "JuliusBrussee",
       "hasPublisherLogo": false,
-      "stars": 85950,
-      "forks": 4782
+      "stars": 89516,
+      "forks": 5142
     },
     {
       "slug": "juliusbrussee-cavecrew",
@@ -1550,8 +1995,8 @@
       "creatorAvatarUrl": "https://github.com/JuliusBrussee.png?size=88",
       "creatorHandle": "JuliusBrussee",
       "hasPublisherLogo": false,
-      "stars": 85950,
-      "forks": 4782
+      "stars": 89516,
+      "forks": 5142
     },
     {
       "slug": "juliusbrussee-caveman-commit",
@@ -1578,8 +2023,8 @@
       "creatorAvatarUrl": "https://github.com/JuliusBrussee.png?size=88",
       "creatorHandle": "JuliusBrussee",
       "hasPublisherLogo": false,
-      "stars": 85950,
-      "forks": 4782
+      "stars": 89516,
+      "forks": 5142
     },
     {
       "slug": "juliusbrussee-caveman-compress",
@@ -1606,8 +2051,8 @@
       "creatorAvatarUrl": "https://github.com/JuliusBrussee.png?size=88",
       "creatorHandle": "JuliusBrussee",
       "hasPublisherLogo": false,
-      "stars": 85950,
-      "forks": 4782
+      "stars": 89516,
+      "forks": 5142
     },
     {
       "slug": "juliusbrussee-caveman-help",
@@ -1634,8 +2079,8 @@
       "creatorAvatarUrl": "https://github.com/JuliusBrussee.png?size=88",
       "creatorHandle": "JuliusBrussee",
       "hasPublisherLogo": false,
-      "stars": 85950,
-      "forks": 4782
+      "stars": 89516,
+      "forks": 5142
     },
     {
       "slug": "juliusbrussee-caveman-review",
@@ -1662,8 +2107,8 @@
       "creatorAvatarUrl": "https://github.com/JuliusBrussee.png?size=88",
       "creatorHandle": "JuliusBrussee",
       "hasPublisherLogo": false,
-      "stars": 85950,
-      "forks": 4782
+      "stars": 89516,
+      "forks": 5142
     },
     {
       "slug": "juliusbrussee-caveman-stats",
@@ -1690,8 +2135,8 @@
       "creatorAvatarUrl": "https://github.com/JuliusBrussee.png?size=88",
       "creatorHandle": "JuliusBrussee",
       "hasPublisherLogo": false,
-      "stars": 85950,
-      "forks": 4782
+      "stars": 89516,
+      "forks": 5142
     },
     {
       "slug": "juliusbrussee-caveman",
@@ -1718,38 +2163,8 @@
       "creatorAvatarUrl": "https://github.com/JuliusBrussee.png?size=88",
       "creatorHandle": "JuliusBrussee",
       "hasPublisherLogo": false,
-      "stars": 85950,
-      "forks": 4782
-    },
-    {
-      "slug": "lobehub-lobehub-collection",
-      "name": "lobehub/lobehub",
-      "description": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.",
-      "publisher": "lobehub",
-      "publisherSlug": "lobehub",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "lobehub",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [
-        "reporting"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/lobehub.png?size=88",
-      "creatorHandle": "lobehub",
-      "hasPublisherLogo": false,
-      "stars": 79571,
-      "forks": 15561
+      "stars": 89516,
+      "forks": 5142
     },
     {
       "slug": "safishamsi-graphify-collection",
@@ -1791,8 +2206,8 @@
       "creatorAvatarUrl": "https://github.com/safishamsi.png?size=88",
       "creatorHandle": "safishamsi",
       "hasPublisherLogo": false,
-      "stars": 79013,
-      "forks": 7793
+      "stars": 86496,
+      "forks": 8509
     },
     {
       "slug": "ruvnet-ruview-collection",
@@ -1819,19 +2234,203 @@
       "creatorAvatarUrl": "https://github.com/ruvnet.png?size=88",
       "creatorHandle": "ruvnet",
       "hasPublisherLogo": false,
-      "stars": 77945,
-      "forks": 10484
+      "stars": 80669,
+      "forks": 10863
     },
     {
-      "slug": "bytedance-deer-flow-collection",
-      "name": "bytedance/deer-flow",
-      "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
-      "publisher": "bytedance",
-      "publisherSlug": "bytedance",
+      "slug": "lobehub-lobehub-collection",
+      "name": "lobehub/lobehub",
+      "description": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.",
+      "publisher": "lobehub",
+      "publisherSlug": "lobehub",
       "sectionTitle": "GitHub discovery",
       "kind": "community",
       "tags": [
-        "bytedance",
+        "github-discovery",
+        "lobehub",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [
+        "reporting"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/lobehub.png?size=88",
+      "creatorHandle": "lobehub",
+      "hasPublisherLogo": false,
+      "stars": 79850,
+      "forks": 15594
+    },
+    {
+      "slug": "addyosmani-agent-skills-collection",
+      "name": "addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "publisher": "addyosmani",
+      "publisherSlug": "addyosmani",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "addyosmani",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [
+        "development-workflows"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
+      "creatorHandle": "addyosmani",
+      "hasPublisherLogo": false,
+      "stars": 78339,
+      "forks": 8412
+    },
+    {
+      "slug": "addyosmani-api-and-interface-design",
+      "name": "addyosmani/api-and-interface-design",
+      "description": "Guides stable API and interface design. Use when designing APIs, module boundaries, or any public interface. Use when creating REST or GraphQL endpoints, defining type contracts between modules, or establishing boundaries between frontend and backend.",
+      "publisher": "addyosmani",
+      "publisherSlug": "addyosmani",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "addyosmani",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "designer",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "design-critique",
+        "development-workflows",
+        "presentation-building",
+        "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
+      "creatorHandle": "addyosmani",
+      "hasPublisherLogo": false,
+      "stars": 78339,
+      "forks": 8412
+    },
+    {
+      "slug": "addyosmani-browser-testing-with-devtools",
+      "name": "addyosmani/browser-testing-with-devtools",
+      "description": "Tests in real browsers via Chrome DevTools MCP. Use when building or debugging anything that runs in a browser. Use when you need to inspect the DOM, capture console errors, analyze network requests, profile performance, or verify visual output with real runtime data. Requires the chrome-devtools MCP server to be configured.",
+      "publisher": "addyosmani",
+      "publisherSlug": "addyosmani",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "addyosmani",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "designer",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "design-critique",
+        "development-workflows",
+        "prd-specs",
+        "presentation-building",
+        "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
+      "creatorHandle": "addyosmani",
+      "hasPublisherLogo": false,
+      "stars": 78339,
+      "forks": 8412
+    },
+    {
+      "slug": "addyosmani-ci-cd-and-automation",
+      "name": "addyosmani/ci-cd-and-automation",
+      "description": "Automates CI/CD pipeline setup. Use when setting up or modifying build and deployment pipelines. Use when you need to automate quality gates, configure test runners in CI, or establish deployment strategies.",
+      "publisher": "addyosmani",
+      "publisherSlug": "addyosmani",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "addyosmani",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "sales"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "presentation-building",
+        "reporting",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
+      "creatorHandle": "addyosmani",
+      "hasPublisherLogo": false,
+      "stars": 78339,
+      "forks": 8412
+    },
+    {
+      "slug": "addyosmani-code-review-and-quality",
+      "name": "addyosmani/code-review-and-quality",
+      "description": "Conducts multi-axis code review. Use before merging any change. Use when reviewing code written by yourself, another agent, or a human. Use when you need to assess code quality across multiple dimensions before it enters the main branch.",
+      "publisher": "addyosmani",
+      "publisherSlug": "addyosmani",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "addyosmani",
         "github-discovery",
         "namespaced",
         "publisher-namespaced"
@@ -1852,11 +2451,750 @@
         "github-discovery",
         "requires-security-review"
       ],
-      "creatorAvatarUrl": "https://github.com/bytedance.png?size=88",
-      "creatorHandle": "bytedance",
+      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
+      "creatorHandle": "addyosmani",
       "hasPublisherLogo": false,
-      "stars": 76323,
-      "forks": 10348
+      "stars": 78339,
+      "forks": 8412
+    },
+    {
+      "slug": "addyosmani-code-simplification",
+      "name": "addyosmani/code-simplification",
+      "description": "Simplifies code for clarity. Use when refactoring code for clarity without changing behavior. Use when code works but is harder to read, maintain, or extend than it should be. Use when reviewing code that has accumulated unnecessary complexity.",
+      "publisher": "addyosmani",
+      "publisherSlug": "addyosmani",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "addyosmani",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
+      "creatorHandle": "addyosmani",
+      "hasPublisherLogo": false,
+      "stars": 78339,
+      "forks": 8412
+    },
+    {
+      "slug": "addyosmani-context-engineering",
+      "name": "addyosmani/context-engineering",
+      "description": "Optimizes agent context setup. Use when starting a new session, when agent output quality degrades, when switching between tasks, or when you need to configure rules files and context for a project.",
+      "publisher": "addyosmani",
+      "publisherSlug": "addyosmani",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "addyosmani",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
+      "creatorHandle": "addyosmani",
+      "hasPublisherLogo": false,
+      "stars": 78339,
+      "forks": 8412
+    },
+    {
+      "slug": "addyosmani-debugging-and-error-recovery",
+      "name": "addyosmani/debugging-and-error-recovery",
+      "description": "Guides systematic root-cause debugging. Use when tests fail, builds break, behavior doesn't match expectations, or you encounter any unexpected error. Use when you need a systematic approach to finding and fixing the root cause rather than guessing.",
+      "publisher": "addyosmani",
+      "publisherSlug": "addyosmani",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "addyosmani",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
+      "creatorHandle": "addyosmani",
+      "hasPublisherLogo": false,
+      "stars": 78339,
+      "forks": 8412
+    },
+    {
+      "slug": "addyosmani-deprecation-and-migration",
+      "name": "addyosmani/deprecation-and-migration",
+      "description": "Manages deprecation and migration. Use when removing old systems, APIs, or features. Use when migrating users from one implementation to another. Use when deciding whether to maintain or sunset existing code.",
+      "publisher": "addyosmani",
+      "publisherSlug": "addyosmani",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "addyosmani",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
+      "creatorHandle": "addyosmani",
+      "hasPublisherLogo": false,
+      "stars": 78339,
+      "forks": 8412
+    },
+    {
+      "slug": "addyosmani-documentation-and-adrs",
+      "name": "addyosmani/documentation-and-adrs",
+      "description": "Records decisions and documentation. Use when making architectural decisions, changing public APIs, shipping features, or when you need to record context that future engineers and agents will need to understand the codebase.",
+      "publisher": "addyosmani",
+      "publisherSlug": "addyosmani",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "addyosmani",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
+      "creatorHandle": "addyosmani",
+      "hasPublisherLogo": false,
+      "stars": 78339,
+      "forks": 8412
+    },
+    {
+      "slug": "addyosmani-doubt-driven-development",
+      "name": "addyosmani/doubt-driven-development",
+      "description": "Subjects every non-trivial decision to a fresh-context adversarial review before it stands. Use when correctness matters more than speed, when working in unfamiliar code, when stakes are high (production, security-sensitive logic, irreversible operations), or any time a confident output would be cheaper to verify now than to debug later.",
+      "publisher": "addyosmani",
+      "publisherSlug": "addyosmani",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "addyosmani",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
+      "creatorHandle": "addyosmani",
+      "hasPublisherLogo": false,
+      "stars": 78339,
+      "forks": 8412
+    },
+    {
+      "slug": "addyosmani-frontend-ui-engineering",
+      "name": "addyosmani/frontend-ui-engineering",
+      "description": "Builds production-quality UIs. Use when building or modifying user-facing interfaces. Use when creating components, implementing layouts, managing state, or when the output needs to look and feel production-quality rather than AI-generated.",
+      "publisher": "addyosmani",
+      "publisherSlug": "addyosmani",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "addyosmani",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "designer",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "design-critique",
+        "development-workflows",
+        "presentation-building",
+        "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
+      "creatorHandle": "addyosmani",
+      "hasPublisherLogo": false,
+      "stars": 78339,
+      "forks": 8412
+    },
+    {
+      "slug": "addyosmani-git-workflow-and-versioning",
+      "name": "addyosmani/git-workflow-and-versioning",
+      "description": "Structures git workflow practices. Use when making any code change. Use when committing, branching, resolving conflicts, or when you need to organize work across multiple parallel streams.",
+      "publisher": "addyosmani",
+      "publisherSlug": "addyosmani",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "addyosmani",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
+      "creatorHandle": "addyosmani",
+      "hasPublisherLogo": false,
+      "stars": 78339,
+      "forks": 8412
+    },
+    {
+      "slug": "addyosmani-idea-refine",
+      "name": "addyosmani/idea-refine",
+      "description": "Refines raw ideas into sharp, actionable concepts through structured divergent and convergent thinking. Use when an idea is still vague, when you need to stress-test assumptions before committing to a plan, or when you want to expand options before converging on one. Triggers on \"ideate\", \"refine this idea\", or \"stress-test my plan\".",
+      "publisher": "addyosmani",
+      "publisherSlug": "addyosmani",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "addyosmani",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
+      "creatorHandle": "addyosmani",
+      "hasPublisherLogo": false,
+      "stars": 78339,
+      "forks": 8412
+    },
+    {
+      "slug": "addyosmani-incremental-implementation",
+      "name": "addyosmani/incremental-implementation",
+      "description": "Delivers changes incrementally. Use when implementing any feature or change that touches more than one file. Use when you're about to write a large amount of code at once, or when a task feels too big to land in one step.",
+      "publisher": "addyosmani",
+      "publisherSlug": "addyosmani",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "addyosmani",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
+      "creatorHandle": "addyosmani",
+      "hasPublisherLogo": false,
+      "stars": 78339,
+      "forks": 8412
+    },
+    {
+      "slug": "addyosmani-interview-me",
+      "name": "addyosmani/interview-me",
+      "description": "Extracts what the user actually wants instead of what they think they should want. Achieves this through one-question-at-a-time interview until ~95% confidence about the underlying intent. Use when an ask is underspecified (\"build me X\" without \"for whom\" or \"why now\"), when the user explicitly invokes (\"interview me\", \"grill me\", \"are we sure?\", \"stress-test my thinking\"), or when you catch yourself silently filling in ambiguous requirements before any plan, spec, or code exists.",
+      "publisher": "addyosmani",
+      "publisherSlug": "addyosmani",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "addyosmani",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "pm"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "planning-roadmapping",
+        "prd-specs",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
+      "creatorHandle": "addyosmani",
+      "hasPublisherLogo": false,
+      "stars": 78339,
+      "forks": 8412
+    },
+    {
+      "slug": "addyosmani-observability-and-instrumentation",
+      "name": "addyosmani/observability-and-instrumentation",
+      "description": "Instruments code so production behavior is visible and diagnosable. Use when adding logging, metrics, tracing, or alerting. Use when shipping any feature that runs in production and you need evidence it works. Use when production issues are reported but you can't tell what happened from the available data.",
+      "publisher": "addyosmani",
+      "publisherSlug": "addyosmani",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "addyosmani",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "reporting",
+        "research-synthesis",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
+      "creatorHandle": "addyosmani",
+      "hasPublisherLogo": false,
+      "stars": 78339,
+      "forks": 8412
+    },
+    {
+      "slug": "addyosmani-performance-optimization",
+      "name": "addyosmani/performance-optimization",
+      "description": "Optimizes application performance. Use when performance requirements exist, when you suspect performance regressions, or when Core Web Vitals or load times need improvement. Use when profiling reveals bottlenecks that need fixing.",
+      "publisher": "addyosmani",
+      "publisherSlug": "addyosmani",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "addyosmani",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "pm"
+      ],
+      "jobs": [
+        "planning-roadmapping",
+        "prd-specs",
+        "reporting",
+        "research-synthesis",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
+      "creatorHandle": "addyosmani",
+      "hasPublisherLogo": false,
+      "stars": 78339,
+      "forks": 8412
+    },
+    {
+      "slug": "addyosmani-planning-and-task-breakdown",
+      "name": "addyosmani/planning-and-task-breakdown",
+      "description": "Breaks work into ordered tasks. Use when you have a spec or clear requirements and need to break work into implementable tasks. Use when a task feels too large to start, when you need to estimate scope, or when parallel work is possible.",
+      "publisher": "addyosmani",
+      "publisherSlug": "addyosmani",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "addyosmani",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "pm"
+      ],
+      "jobs": [
+        "planning-roadmapping",
+        "prd-specs",
+        "reporting",
+        "research-synthesis",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
+      "creatorHandle": "addyosmani",
+      "hasPublisherLogo": false,
+      "stars": 78339,
+      "forks": 8412
+    },
+    {
+      "slug": "addyosmani-security-and-hardening",
+      "name": "addyosmani/security-and-hardening",
+      "description": "Hardens code against vulnerabilities. Use when handling user input, authentication, data storage, or external integrations. Use when building any feature that accepts untrusted data, manages user sessions, or interacts with third-party services.",
+      "publisher": "addyosmani",
+      "publisherSlug": "addyosmani",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "addyosmani",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
+      "creatorHandle": "addyosmani",
+      "hasPublisherLogo": false,
+      "stars": 78339,
+      "forks": 8412
+    },
+    {
+      "slug": "addyosmani-shipping-and-launch",
+      "name": "addyosmani/shipping-and-launch",
+      "description": "Prepares production launches. Use when preparing to deploy to production. Use when you need a pre-launch checklist, when setting up monitoring, when planning a staged rollout, or when you need a rollback strategy.",
+      "publisher": "addyosmani",
+      "publisherSlug": "addyosmani",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "addyosmani",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "founder"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "planning-roadmapping",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
+      "creatorHandle": "addyosmani",
+      "hasPublisherLogo": false,
+      "stars": 78339,
+      "forks": 8412
+    },
+    {
+      "slug": "addyosmani-source-driven-development",
+      "name": "addyosmani/source-driven-development",
+      "description": "Grounds every implementation decision in official documentation. Use when you want authoritative, source-cited code free from outdated patterns. Use when building with any framework or library where correctness matters.",
+      "publisher": "addyosmani",
+      "publisherSlug": "addyosmani",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "addyosmani",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
+      "creatorHandle": "addyosmani",
+      "hasPublisherLogo": false,
+      "stars": 78339,
+      "forks": 8412
+    },
+    {
+      "slug": "addyosmani-spec-driven-development",
+      "name": "addyosmani/spec-driven-development",
+      "description": "Creates specs before coding. Use when starting a new project, feature, or significant change and no specification exists yet. Use when requirements are unclear, ambiguous, or only exist as a vague idea.",
+      "publisher": "addyosmani",
+      "publisherSlug": "addyosmani",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "addyosmani",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "pm"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "planning-roadmapping",
+        "prd-specs",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
+      "creatorHandle": "addyosmani",
+      "hasPublisherLogo": false,
+      "stars": 78339,
+      "forks": 8412
+    },
+    {
+      "slug": "addyosmani-test-driven-development",
+      "name": "addyosmani/test-driven-development",
+      "description": "Drives development with tests. Use when implementing any logic, fixing any bug, or changing any behavior. Use when you need to prove that code works, when a bug report arrives, or when you're about to modify existing functionality.",
+      "publisher": "addyosmani",
+      "publisherSlug": "addyosmani",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "addyosmani",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "reporting",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
+      "creatorHandle": "addyosmani",
+      "hasPublisherLogo": false,
+      "stars": 78339,
+      "forks": 8412
+    },
+    {
+      "slug": "addyosmani-using-agent-skills",
+      "name": "addyosmani/using-agent-skills",
+      "description": "Discovers and invokes agent skills. Use when starting a session or when you need to discover which skill applies to the current task. This is the meta-skill that governs how all other skills are discovered and invoked.",
+      "publisher": "addyosmani",
+      "publisherSlug": "addyosmani",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "addyosmani",
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
+      "creatorHandle": "addyosmani",
+      "hasPublisherLogo": false,
+      "stars": 78339,
+      "forks": 8412
     },
     {
       "slug": "nexu-io-open-design-collection",
@@ -1903,8 +3241,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-8-bit-orbit-video-template",
@@ -1931,8 +3269,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-ad-creative",
@@ -1959,8 +3297,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-after-hours-editorial-template",
@@ -1987,8 +3325,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-agent-browser",
@@ -2015,8 +3353,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-ai-music-album",
@@ -2043,8 +3381,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-algorithmic-art",
@@ -2071,8 +3409,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-apple-hig",
@@ -2099,8 +3437,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-article-magazine",
@@ -2127,8 +3465,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-artifacts-builder",
@@ -2164,8 +3502,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-brainstorming",
@@ -2192,8 +3530,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-brand-extract",
@@ -2235,8 +3573,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-brand-guidelines",
@@ -2277,8 +3615,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-brandkit",
@@ -2313,8 +3651,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-brutalist-skill",
@@ -2341,8 +3679,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-canvas-design",
@@ -2377,8 +3715,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-card-twitter",
@@ -2412,8 +3750,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-card-xiaohongshu",
@@ -2440,8 +3778,45 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
+    },
+    {
+      "slug": "nexu-io-chat-motion-overlay",
+      "name": "nexu-io/chat-motion-overlay",
+      "description": "Generate configurable chat motion overlays from a transcript or screenshot, including plain bubble scenes, app-style chat containers, optional device frames, preset or uploaded avatars, nickname display rules, and transparent-video-ready Remotion bundles. Use when Codex needs to create reusable short-form chat clips for Douyin, demo videos, story reenactments, social-message proof scenes, or embeddable alpha overlays for Hyperframe and Remotion workflows.",
+      "publisher": "nexu-io",
+      "publisherSlug": "nexu-io",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "nexu-io",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
+      "creatorHandle": "nexu-io",
+      "hasPublisherLogo": false,
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-color-expert",
@@ -2468,8 +3843,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-competitive-ads-extractor",
@@ -2498,8 +3873,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-copywriting",
@@ -2534,8 +3909,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-creative-director",
@@ -2562,8 +3937,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-d3-visualization",
@@ -2600,8 +3975,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-data-report",
@@ -2642,8 +4017,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-deck-guizang-editorial",
@@ -2673,8 +4048,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-deck-open-slide-canvas",
@@ -2704,8 +4079,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-deck-swiss-international",
@@ -2734,8 +4109,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-design-brief",
@@ -2771,8 +4146,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-design-consultation",
@@ -2807,8 +4182,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-design-md",
@@ -2843,8 +4218,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-design-review",
@@ -2879,8 +4254,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-digits-fintech-swiss-template",
@@ -2907,8 +4282,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-doc-kami-parchment",
@@ -2937,8 +4312,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-docx",
@@ -2968,8 +4343,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-domain-name-brainstormer",
@@ -2996,8 +4371,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-ecommerce-image-workflow",
@@ -3027,8 +4402,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-editorial-burgundy-principles-template",
@@ -3063,8 +4438,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-emil-design-eng",
@@ -3099,8 +4474,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-emilkowalski-motion",
@@ -3127,8 +4502,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-enhance-prompt",
@@ -3155,8 +4530,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-export-download-debugging",
@@ -3191,8 +4566,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-fal-3d",
@@ -3219,8 +4594,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-fal-generate",
@@ -3247,8 +4622,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-fal-image-edit",
@@ -3277,8 +4652,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-fal-kling-o3",
@@ -3305,8 +4680,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-fal-lip-sync",
@@ -3333,8 +4708,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-fal-realtime",
@@ -3361,8 +4736,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-fal-restore",
@@ -3389,8 +4764,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-fal-train",
@@ -3417,8 +4792,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-fal-tryon",
@@ -3445,8 +4820,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-fal-upscale",
@@ -3473,8 +4848,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-fal-video-edit",
@@ -3501,8 +4876,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-fal-vision",
@@ -3529,8 +4904,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-faq-page",
@@ -3564,8 +4939,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-field-notes-editorial-template",
@@ -3592,8 +4967,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-figma-code-connect-components",
@@ -3633,8 +5008,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-figma-create-design-system-rules",
@@ -3669,8 +5044,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-figma-create-new-file",
@@ -3705,8 +5080,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-figma-generate-design",
@@ -3741,8 +5116,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-figma-generate-library",
@@ -3777,8 +5152,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-figma-implement-design",
@@ -3813,8 +5188,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-figma-use",
@@ -3849,8 +5224,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-flutter-animating-apps",
@@ -3877,8 +5252,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-frame-data-chart-nyt",
@@ -3914,8 +5289,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-frame-flowchart-sticky",
@@ -3942,8 +5317,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-frame-glitch-title",
@@ -3970,8 +5345,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-frame-light-leak-cinema",
@@ -4006,8 +5381,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-frame-liquid-bg-hero",
@@ -4044,8 +5419,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-frame-logo-outro",
@@ -4086,8 +5461,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-frame-macos-notification",
@@ -4123,8 +5498,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-frontend-design",
@@ -4160,8 +5535,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-frontend-dev",
@@ -4197,8 +5572,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-frontend-skill",
@@ -4234,8 +5609,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-frontend-slides",
@@ -4271,8 +5646,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-full-page-screenshot",
@@ -4299,8 +5674,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-gif-sticker-maker",
@@ -4327,8 +5702,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-gpt-tasteskill",
@@ -4355,8 +5730,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-gsap-core",
@@ -4383,8 +5758,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-gsap-frameworks",
@@ -4411,8 +5786,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-gsap-performance",
@@ -4439,8 +5814,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-gsap-plugins",
@@ -4467,8 +5842,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-gsap-react",
@@ -4495,8 +5870,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-gsap-scrolltrigger",
@@ -4523,8 +5898,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-gsap-timeline",
@@ -4551,8 +5926,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-gsap-utils",
@@ -4579,8 +5954,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-hand-drawn-diagrams",
@@ -4607,8 +5982,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-hatch-pet",
@@ -4648,8 +6023,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-html-ppt-retro-quarterly-review",
@@ -4676,8 +6051,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-image-enhancer",
@@ -4706,8 +6081,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-image-to-code-skill",
@@ -4743,8 +6118,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-imagegen-frontend-mobile",
@@ -4780,8 +6155,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-imagegen-frontend-web",
@@ -4817,8 +6192,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-imagegen",
@@ -4847,8 +6222,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-imagen",
@@ -4877,8 +6252,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-impeccable-design-polish",
@@ -4913,8 +6288,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-library-curator",
@@ -4941,8 +6316,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-login-flow",
@@ -4969,8 +6344,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-marketing-psychology",
@@ -5005,8 +6380,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-minimalist-skill",
@@ -5033,8 +6408,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-minimax-docx",
@@ -5064,8 +6439,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-minimax-pdf",
@@ -5094,8 +6469,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-mockup-device-3d",
@@ -5124,8 +6499,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-nanobanana-ppt",
@@ -5152,8 +6527,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-output-skill",
@@ -5180,8 +6555,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-paywall-upgrade-cro",
@@ -5208,8 +6583,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-pdf",
@@ -5238,8 +6613,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-pixelbin-media",
@@ -5266,8 +6641,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-plan-design-review",
@@ -5302,8 +6677,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-platform-design",
@@ -5338,8 +6713,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-poster-hero",
@@ -5374,8 +6749,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-ppt-keynote",
@@ -5404,8 +6779,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-pptx-generator",
@@ -5434,8 +6809,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-pptx-html-fidelity-audit",
@@ -5481,8 +6856,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-pptx",
@@ -5511,8 +6886,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-pr-feedback-quality-gate",
@@ -5539,8 +6914,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-redesign-skill",
@@ -5567,8 +6942,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-reference-design-contract",
@@ -5604,8 +6979,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-release-notes-one-pager",
@@ -5632,8 +7007,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-remotion",
@@ -5660,8 +7035,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-replicate",
@@ -5688,8 +7063,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-research-decision-room",
@@ -5729,8 +7104,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-resume-modern",
@@ -5759,8 +7134,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-review-animations",
@@ -5787,8 +7162,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-screenshot",
@@ -5815,8 +7190,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-screenshots-marketing",
@@ -5851,8 +7226,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-shadcn-ui",
@@ -5887,8 +7262,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-shader-dev",
@@ -5917,8 +7292,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-slack-gif-creator",
@@ -5945,8 +7320,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-slides",
@@ -5975,8 +7350,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-social-reddit-card",
@@ -6014,8 +7389,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-social-spotify-card",
@@ -6052,8 +7427,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-social-x-post-card",
@@ -6097,8 +7472,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-soft-skill",
@@ -6125,8 +7500,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-sora",
@@ -6153,8 +7528,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-speech",
@@ -6181,8 +7556,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-stitch-loop",
@@ -6209,8 +7584,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-stitch-skill",
@@ -6237,8 +7612,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-swiftui-design",
@@ -6273,8 +7648,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-swiss-creative-mode-template",
@@ -6301,8 +7676,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-swiss-user-research-video-template",
@@ -6331,8 +7706,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-taste-skill-v1",
@@ -6359,8 +7734,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-taste-skill",
@@ -6387,8 +7762,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-theme-factory",
@@ -6423,8 +7798,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-threejs",
@@ -6451,8 +7826,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-ui-skills",
@@ -6487,8 +7862,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-ui-ux-pro-max",
@@ -6523,8 +7898,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-venice-audio-music",
@@ -6551,8 +7926,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-venice-audio-speech",
@@ -6579,8 +7954,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-venice-image-edit",
@@ -6609,8 +7984,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-venice-image-generate",
@@ -6639,8 +8014,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
+      "stars": 78204,
+      "forks": 8993
     },
     {
       "slug": "nexu-io-venice-video",
@@ -6667,1318 +8042,8 @@
       "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
       "creatorHandle": "nexu-io",
       "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
-    },
-    {
-      "slug": "nexu-io-vfx-text-cursor",
-      "name": "nexu-io/vfx-text-cursor",
-      "description": "Cursor light trail, chromatic rays, and directional flares for word-by-word quote reveals in video intros.",
-      "publisher": "nexu-io",
-      "publisherSlug": "nexu-io",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nexu-io",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "sales"
-      ],
-      "jobs": [
-        "document-authoring",
-        "presentation-building",
-        "reporting",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
-      "creatorHandle": "nexu-io",
-      "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
-    },
-    {
-      "slug": "nexu-io-video-downloader",
-      "name": "nexu-io/video-downloader",
-      "description": "|",
-      "publisher": "nexu-io",
-      "publisherSlug": "nexu-io",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nexu-io",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
-      "creatorHandle": "nexu-io",
-      "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
-    },
-    {
-      "slug": "nexu-io-video-hyperframes",
-      "name": "nexu-io/video-hyperframes",
-      "description": "Hyperframes / Remotion-compatible continuous frame animation with autoplay support.",
-      "publisher": "nexu-io",
-      "publisherSlug": "nexu-io",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nexu-io",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "support"
-      ],
-      "jobs": [
-        "data-extraction",
-        "document-authoring",
-        "reporting",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
-      "creatorHandle": "nexu-io",
-      "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
-    },
-    {
-      "slug": "nexu-io-web-artifacts-builder",
-      "name": "nexu-io/web-artifacts-builder",
-      "description": "|",
-      "publisher": "nexu-io",
-      "publisherSlug": "nexu-io",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nexu-io",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
-      "creatorHandle": "nexu-io",
-      "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
-    },
-    {
-      "slug": "nexu-io-web-clone",
-      "name": "nexu-io/web-clone",
-      "description": ">",
-      "publisher": "nexu-io",
-      "publisherSlug": "nexu-io",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nexu-io",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
-      "creatorHandle": "nexu-io",
-      "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
-    },
-    {
-      "slug": "nexu-io-web-design-guidelines",
-      "name": "nexu-io/web-design-guidelines",
-      "description": "|",
-      "publisher": "nexu-io",
-      "publisherSlug": "nexu-io",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nexu-io",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "designer"
-      ],
-      "jobs": [
-        "design-critique",
-        "presentation-building",
-        "ui-ux-design",
-        "visual-assets",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
-      "creatorHandle": "nexu-io",
-      "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
-    },
-    {
-      "slug": "nexu-io-weread-year-in-review-video-template",
-      "name": "nexu-io/weread-year-in-review-video-template",
-      "description": "|",
-      "publisher": "nexu-io",
-      "publisherSlug": "nexu-io",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nexu-io",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
-      "creatorHandle": "nexu-io",
-      "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
-    },
-    {
-      "slug": "nexu-io-wpds",
-      "name": "nexu-io/wpds",
-      "description": "|",
-      "publisher": "nexu-io",
-      "publisherSlug": "nexu-io",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nexu-io",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
-      "creatorHandle": "nexu-io",
-      "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
-    },
-    {
-      "slug": "nexu-io-writing-guidelines",
-      "name": "nexu-io/writing-guidelines",
-      "description": "|",
-      "publisher": "nexu-io",
-      "publisherSlug": "nexu-io",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nexu-io",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [
-        "document-authoring",
-        "ui-ux-design"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
-      "creatorHandle": "nexu-io",
-      "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
-    },
-    {
-      "slug": "nexu-io-youtube-clipper",
-      "name": "nexu-io/youtube-clipper",
-      "description": "|",
-      "publisher": "nexu-io",
-      "publisherSlug": "nexu-io",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "nexu-io",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/nexu-io.png?size=88",
-      "creatorHandle": "nexu-io",
-      "hasPublisherLogo": false,
-      "stars": 75752,
-      "forks": 8645
-    },
-    {
-      "slug": "lum1104-understand-anything-collection",
-      "name": "Lum1104/Understand-Anything",
-      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
-      "publisher": "Lum1104",
-      "publisherSlug": "lum1104",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "lum1104",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "research-synthesis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/Lum1104.png?size=88",
-      "creatorHandle": "Lum1104",
-      "hasPublisherLogo": false,
-      "stars": 71556,
-      "forks": 5960
-    },
-    {
-      "slug": "addyosmani-agent-skills-collection",
-      "name": "addyosmani/agent-skills",
-      "description": "Production-grade engineering skills for AI coding agents.",
-      "publisher": "addyosmani",
-      "publisherSlug": "addyosmani",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "addyosmani",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [
-        "development-workflows"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
-      "creatorHandle": "addyosmani",
-      "hasPublisherLogo": false,
-      "stars": 71365,
-      "forks": 7730
-    },
-    {
-      "slug": "addyosmani-api-and-interface-design",
-      "name": "addyosmani/api-and-interface-design",
-      "description": "Guides stable API and interface design. Use when designing APIs, module boundaries, or any public interface. Use when creating REST or GraphQL endpoints, defining type contracts between modules, or establishing boundaries between frontend and backend.",
-      "publisher": "addyosmani",
-      "publisherSlug": "addyosmani",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "addyosmani",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "designer",
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "design-critique",
-        "development-workflows",
-        "presentation-building",
-        "testing-debugging",
-        "ui-ux-design",
-        "visual-assets",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
-      "creatorHandle": "addyosmani",
-      "hasPublisherLogo": false,
-      "stars": 71365,
-      "forks": 7730
-    },
-    {
-      "slug": "addyosmani-browser-testing-with-devtools",
-      "name": "addyosmani/browser-testing-with-devtools",
-      "description": "Tests in real browsers via Chrome DevTools MCP. Use when building or debugging anything that runs in a browser. Use when you need to inspect the DOM, capture console errors, analyze network requests, profile performance, or verify visual output with real runtime data. Requires the chrome-devtools MCP server to be configured.",
-      "publisher": "addyosmani",
-      "publisherSlug": "addyosmani",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "addyosmani",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "designer",
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "design-critique",
-        "development-workflows",
-        "prd-specs",
-        "presentation-building",
-        "testing-debugging",
-        "ui-ux-design",
-        "visual-assets",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
-      "creatorHandle": "addyosmani",
-      "hasPublisherLogo": false,
-      "stars": 71365,
-      "forks": 7730
-    },
-    {
-      "slug": "addyosmani-ci-cd-and-automation",
-      "name": "addyosmani/ci-cd-and-automation",
-      "description": "Automates CI/CD pipeline setup. Use when setting up or modifying build and deployment pipelines. Use when you need to automate quality gates, configure test runners in CI, or establish deployment strategies.",
-      "publisher": "addyosmani",
-      "publisherSlug": "addyosmani",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "addyosmani",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer",
-        "sales"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "document-authoring",
-        "presentation-building",
-        "reporting",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
-      "creatorHandle": "addyosmani",
-      "hasPublisherLogo": false,
-      "stars": 71365,
-      "forks": 7730
-    },
-    {
-      "slug": "addyosmani-code-review-and-quality",
-      "name": "addyosmani/code-review-and-quality",
-      "description": "Conducts multi-axis code review. Use before merging any change. Use when reviewing code written by yourself, another agent, or a human. Use when you need to assess code quality across multiple dimensions before it enters the main branch.",
-      "publisher": "addyosmani",
-      "publisherSlug": "addyosmani",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "addyosmani",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
-      "creatorHandle": "addyosmani",
-      "hasPublisherLogo": false,
-      "stars": 71365,
-      "forks": 7730
-    },
-    {
-      "slug": "addyosmani-code-simplification",
-      "name": "addyosmani/code-simplification",
-      "description": "Simplifies code for clarity. Use when refactoring code for clarity without changing behavior. Use when code works but is harder to read, maintain, or extend than it should be. Use when reviewing code that has accumulated unnecessary complexity.",
-      "publisher": "addyosmani",
-      "publisherSlug": "addyosmani",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "addyosmani",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
-      "creatorHandle": "addyosmani",
-      "hasPublisherLogo": false,
-      "stars": 71365,
-      "forks": 7730
-    },
-    {
-      "slug": "addyosmani-context-engineering",
-      "name": "addyosmani/context-engineering",
-      "description": "Optimizes agent context setup. Use when starting a new session, when agent output quality degrades, when switching between tasks, or when you need to configure rules files and context for a project.",
-      "publisher": "addyosmani",
-      "publisherSlug": "addyosmani",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "addyosmani",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
-      "creatorHandle": "addyosmani",
-      "hasPublisherLogo": false,
-      "stars": 71365,
-      "forks": 7730
-    },
-    {
-      "slug": "addyosmani-debugging-and-error-recovery",
-      "name": "addyosmani/debugging-and-error-recovery",
-      "description": "Guides systematic root-cause debugging. Use when tests fail, builds break, behavior doesn't match expectations, or you encounter any unexpected error. Use when you need a systematic approach to finding and fixing the root cause rather than guessing.",
-      "publisher": "addyosmani",
-      "publisherSlug": "addyosmani",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "addyosmani",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
-      "creatorHandle": "addyosmani",
-      "hasPublisherLogo": false,
-      "stars": 71365,
-      "forks": 7730
-    },
-    {
-      "slug": "addyosmani-deprecation-and-migration",
-      "name": "addyosmani/deprecation-and-migration",
-      "description": "Manages deprecation and migration. Use when removing old systems, APIs, or features. Use when migrating users from one implementation to another. Use when deciding whether to maintain or sunset existing code.",
-      "publisher": "addyosmani",
-      "publisherSlug": "addyosmani",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "addyosmani",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
-      "creatorHandle": "addyosmani",
-      "hasPublisherLogo": false,
-      "stars": 71365,
-      "forks": 7730
-    },
-    {
-      "slug": "addyosmani-documentation-and-adrs",
-      "name": "addyosmani/documentation-and-adrs",
-      "description": "Records decisions and documentation. Use when making architectural decisions, changing public APIs, shipping features, or when you need to record context that future engineers and agents will need to understand the codebase.",
-      "publisher": "addyosmani",
-      "publisherSlug": "addyosmani",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "addyosmani",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
-      "creatorHandle": "addyosmani",
-      "hasPublisherLogo": false,
-      "stars": 71365,
-      "forks": 7730
-    },
-    {
-      "slug": "addyosmani-doubt-driven-development",
-      "name": "addyosmani/doubt-driven-development",
-      "description": "Subjects every non-trivial decision to a fresh-context adversarial review before it stands. Use when correctness matters more than speed, when working in unfamiliar code, when stakes are high (production, security-sensitive logic, irreversible operations), or any time a confident output would be cheaper to verify now than to debug later.",
-      "publisher": "addyosmani",
-      "publisherSlug": "addyosmani",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "addyosmani",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
-      "creatorHandle": "addyosmani",
-      "hasPublisherLogo": false,
-      "stars": 71365,
-      "forks": 7730
-    },
-    {
-      "slug": "addyosmani-frontend-ui-engineering",
-      "name": "addyosmani/frontend-ui-engineering",
-      "description": "Builds production-quality UIs. Use when building or modifying user-facing interfaces. Use when creating components, implementing layouts, managing state, or when the output needs to look and feel production-quality rather than AI-generated.",
-      "publisher": "addyosmani",
-      "publisherSlug": "addyosmani",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "addyosmani",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "designer",
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "design-critique",
-        "development-workflows",
-        "presentation-building",
-        "testing-debugging",
-        "ui-ux-design",
-        "visual-assets",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
-      "creatorHandle": "addyosmani",
-      "hasPublisherLogo": false,
-      "stars": 71365,
-      "forks": 7730
-    },
-    {
-      "slug": "addyosmani-git-workflow-and-versioning",
-      "name": "addyosmani/git-workflow-and-versioning",
-      "description": "Structures git workflow practices. Use when making any code change. Use when committing, branching, resolving conflicts, or when you need to organize work across multiple parallel streams.",
-      "publisher": "addyosmani",
-      "publisherSlug": "addyosmani",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "addyosmani",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
-      "creatorHandle": "addyosmani",
-      "hasPublisherLogo": false,
-      "stars": 71365,
-      "forks": 7730
-    },
-    {
-      "slug": "addyosmani-idea-refine",
-      "name": "addyosmani/idea-refine",
-      "description": "Refines raw ideas into sharp, actionable concepts through structured divergent and convergent thinking. Use when an idea is still vague, when you need to stress-test assumptions before committing to a plan, or when you want to expand options before converging on one. Triggers on \"ideate\", \"refine this idea\", or \"stress-test my plan\".",
-      "publisher": "addyosmani",
-      "publisherSlug": "addyosmani",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "addyosmani",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
-      "creatorHandle": "addyosmani",
-      "hasPublisherLogo": false,
-      "stars": 71365,
-      "forks": 7730
-    },
-    {
-      "slug": "addyosmani-incremental-implementation",
-      "name": "addyosmani/incremental-implementation",
-      "description": "Delivers changes incrementally. Use when implementing any feature or change that touches more than one file. Use when you're about to write a large amount of code at once, or when a task feels too big to land in one step.",
-      "publisher": "addyosmani",
-      "publisherSlug": "addyosmani",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "addyosmani",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
-      "creatorHandle": "addyosmani",
-      "hasPublisherLogo": false,
-      "stars": 71365,
-      "forks": 7730
-    },
-    {
-      "slug": "addyosmani-interview-me",
-      "name": "addyosmani/interview-me",
-      "description": "Extracts what the user actually wants instead of what they think they should want. Achieves this through one-question-at-a-time interview until ~95% confidence about the underlying intent. Use when an ask is underspecified (\"build me X\" without \"for whom\" or \"why now\"), when the user explicitly invokes (\"interview me\", \"grill me\", \"are we sure?\", \"stress-test my thinking\"), or when you catch yourself silently filling in ambiguous requirements before any plan, spec, or code exists.",
-      "publisher": "addyosmani",
-      "publisherSlug": "addyosmani",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "addyosmani",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer",
-        "pm"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "planning-roadmapping",
-        "prd-specs",
-        "reporting",
-        "research-synthesis",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
-      "creatorHandle": "addyosmani",
-      "hasPublisherLogo": false,
-      "stars": 71365,
-      "forks": 7730
-    },
-    {
-      "slug": "addyosmani-observability-and-instrumentation",
-      "name": "addyosmani/observability-and-instrumentation",
-      "description": "Instruments code so production behavior is visible and diagnosable. Use when adding logging, metrics, tracing, or alerting. Use when shipping any feature that runs in production and you need evidence it works. Use when production issues are reported but you can't tell what happened from the available data.",
-      "publisher": "addyosmani",
-      "publisherSlug": "addyosmani",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "addyosmani",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "data-analyst",
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "dashboarding",
-        "data-extraction",
-        "deployment-ops",
-        "development-workflows",
-        "reporting",
-        "research-synthesis",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
-      "creatorHandle": "addyosmani",
-      "hasPublisherLogo": false,
-      "stars": 71365,
-      "forks": 7730
-    },
-    {
-      "slug": "addyosmani-performance-optimization",
-      "name": "addyosmani/performance-optimization",
-      "description": "Optimizes application performance. Use when performance requirements exist, when you suspect performance regressions, or when Core Web Vitals or load times need improvement. Use when profiling reveals bottlenecks that need fixing.",
-      "publisher": "addyosmani",
-      "publisherSlug": "addyosmani",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "addyosmani",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "pm"
-      ],
-      "jobs": [
-        "planning-roadmapping",
-        "prd-specs",
-        "reporting",
-        "research-synthesis",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
-      "creatorHandle": "addyosmani",
-      "hasPublisherLogo": false,
-      "stars": 71365,
-      "forks": 7730
-    },
-    {
-      "slug": "addyosmani-planning-and-task-breakdown",
-      "name": "addyosmani/planning-and-task-breakdown",
-      "description": "Breaks work into ordered tasks. Use when you have a spec or clear requirements and need to break work into implementable tasks. Use when a task feels too large to start, when you need to estimate scope, or when parallel work is possible.",
-      "publisher": "addyosmani",
-      "publisherSlug": "addyosmani",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "addyosmani",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "pm"
-      ],
-      "jobs": [
-        "planning-roadmapping",
-        "prd-specs",
-        "reporting",
-        "research-synthesis",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
-      "creatorHandle": "addyosmani",
-      "hasPublisherLogo": false,
-      "stars": 71365,
-      "forks": 7730
-    },
-    {
-      "slug": "addyosmani-security-and-hardening",
-      "name": "addyosmani/security-and-hardening",
-      "description": "Hardens code against vulnerabilities. Use when handling user input, authentication, data storage, or external integrations. Use when building any feature that accepts untrusted data, manages user sessions, or interacts with third-party services.",
-      "publisher": "addyosmani",
-      "publisherSlug": "addyosmani",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "addyosmani",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
-      "creatorHandle": "addyosmani",
-      "hasPublisherLogo": false,
-      "stars": 71365,
-      "forks": 7730
-    },
-    {
-      "slug": "addyosmani-shipping-and-launch",
-      "name": "addyosmani/shipping-and-launch",
-      "description": "Prepares production launches. Use when preparing to deploy to production. Use when you need a pre-launch checklist, when setting up monitoring, when planning a staged rollout, or when you need a rollback strategy.",
-      "publisher": "addyosmani",
-      "publisherSlug": "addyosmani",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "addyosmani",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer",
-        "founder"
-      ],
-      "jobs": [
-        "api-integration",
-        "campaign-planning",
-        "deployment-ops",
-        "development-workflows",
-        "landing-pages",
-        "planning-roadmapping",
-        "research-synthesis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
-      "creatorHandle": "addyosmani",
-      "hasPublisherLogo": false,
-      "stars": 71365,
-      "forks": 7730
-    },
-    {
-      "slug": "addyosmani-source-driven-development",
-      "name": "addyosmani/source-driven-development",
-      "description": "Grounds every implementation decision in official documentation. Use when you want authoritative, source-cited code free from outdated patterns. Use when building with any framework or library where correctness matters.",
-      "publisher": "addyosmani",
-      "publisherSlug": "addyosmani",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "addyosmani",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
-      "creatorHandle": "addyosmani",
-      "hasPublisherLogo": false,
-      "stars": 71365,
-      "forks": 7730
-    },
-    {
-      "slug": "addyosmani-spec-driven-development",
-      "name": "addyosmani/spec-driven-development",
-      "description": "Creates specs before coding. Use when starting a new project, feature, or significant change and no specification exists yet. Use when requirements are unclear, ambiguous, or only exist as a vague idea.",
-      "publisher": "addyosmani",
-      "publisherSlug": "addyosmani",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "addyosmani",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer",
-        "pm"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "planning-roadmapping",
-        "prd-specs",
-        "reporting",
-        "research-synthesis",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
-      "creatorHandle": "addyosmani",
-      "hasPublisherLogo": false,
-      "stars": 71365,
-      "forks": 7730
-    },
-    {
-      "slug": "addyosmani-test-driven-development",
-      "name": "addyosmani/test-driven-development",
-      "description": "Drives development with tests. Use when implementing any logic, fixing any bug, or changing any behavior. Use when you need to prove that code works, when a bug report arrives, or when you're about to modify existing functionality.",
-      "publisher": "addyosmani",
-      "publisherSlug": "addyosmani",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "addyosmani",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "reporting",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
-      "creatorHandle": "addyosmani",
-      "hasPublisherLogo": false,
-      "stars": 71365,
-      "forks": 7730
-    },
-    {
-      "slug": "addyosmani-using-agent-skills",
-      "name": "addyosmani/using-agent-skills",
-      "description": "Discovers and invokes agent skills. Use when starting a session or when you need to discover which skill applies to the current task. This is the meta-skill that governs how all other skills are discovered and invoked.",
-      "publisher": "addyosmani",
-      "publisherSlug": "addyosmani",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "addyosmani",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/addyosmani.png?size=88",
-      "creatorHandle": "addyosmani",
-      "hasPublisherLogo": false,
-      "stars": 71365,
-      "forks": 7730
-    },
-    {
-      "slug": "composiohq-awesome-claude-skills-collection",
-      "name": "ComposioHQ/awesome-claude-skills",
-      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
-      "publisher": "ComposioHQ",
-      "publisherSlug": "composiohq",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "composiohq",
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/ComposioHQ.png?size=88",
-      "creatorHandle": "ComposioHQ",
-      "hasPublisherLogo": false,
-      "stars": 67043,
-      "forks": 7502
+      "stars": 78204,
+      "forks": 8993
     }
   ]
 }

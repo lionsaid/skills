@@ -2,9 +2,9 @@
   "repository": "sanjay3290/ai-skills",
   "branch": "main",
   "defaultBranch": "main",
-  "pushedAt": "2026-07-06T20:59:51Z",
-  "scannedAt": "2026-07-07T09:07:40.851Z",
-  "treeSha": "9731c774240126a924be44058148bd7a353e20d7",
+  "pushedAt": "2026-07-09T21:13:00Z",
+  "scannedAt": "2026-07-15T02:28:28.471Z",
+  "treeSha": "361969210b1002034be70de60a041a25732b098a",
   "items": [
     {
       "repository": "sanjay3290/ai-skills",
@@ -12,10 +12,10 @@
       "skillName": "ai-skills",
       "path": "README.md",
       "url": "https://github.com/sanjay3290/ai-skills",
-      "description": "Collection of agent skills for AI coding assistants",
+      "description": "24 cross-platform agent skills for Claude Code, Cursor, Codex & Gemini CLI — databases, messaging, research, TTS, DevOps, and Google Workspace",
       "slug": "sanjay3290-ai-skills-collection",
       "isCollection": true,
-      "stars": 334,
+      "stars": 337,
       "skillPaths": [
         "skills/apple-container/SKILL.md",
         "skills/atlassian/SKILL.md",
@@ -30,6 +30,7 @@
         "skills/google-sheets/SKILL.md",
         "skills/google-slides/SKILL.md",
         "skills/google-tts/SKILL.md",
+        "skills/grok-build/SKILL.md",
         "skills/imagen/SKILL.md",
         "skills/jules/SKILL.md",
         "skills/manus/SKILL.md",
@@ -38,7 +39,8 @@
         "skills/notebooklm/SKILL.md",
         "skills/outline/SKILL.md",
         "skills/postgres/SKILL.md",
-        "skills/telegram/SKILL.md"
+        "skills/telegram/SKILL.md",
+        "skills/whatsapp/SKILL.md"
       ]
     },
     {
@@ -161,6 +163,15 @@
     {
       "repository": "sanjay3290/ai-skills",
       "branch": "main",
+      "skillName": "grok-build",
+      "path": "skills/grok-build/SKILL.md",
+      "url": "https://github.com/sanjay3290/ai-skills/blob/main/skills/grok-build/SKILL.md",
+      "description": "Orchestrate coding work by delegating well-specified implementation tasks to xAI's Grok Build CLI (grok) running headlessly, while the coding assistant plans, writes the task specs, reviews every diff, and owns the result. Use when user says: 'use grok', 'grok build', 'delegate to grok', 'have grok implement', 'have grok execute', 'have grok build', 'send to grok', 'execute this plan with grok'. Executes a Markdown implementation plan task-by-task, or ad-hoc tasks with an inline spec.",
+      "slug": "sanjay3290-grok-build"
+    },
+    {
+      "repository": "sanjay3290/ai-skills",
+      "branch": "main",
       "skillName": "imagen",
       "path": "skills/imagen/SKILL.md",
       "url": "https://github.com/sanjay3290/ai-skills/blob/main/skills/imagen/SKILL.md",
@@ -238,9 +249,17 @@
       "url": "https://github.com/sanjay3290/ai-skills/blob/main/skills/telegram/SKILL.md",
       "description": "Send Telegram messages, files, and alerts via bot API; read replies; ask questions with inline buttons and wait for the answer (approve-from-phone). Supports multiple bots and named chat targets. Use when the user wants to send a Telegram message or alert, get notified on Telegram when a task finishes or needs input, ask for approval via Telegram, or wire Telegram notifications into hooks, cron jobs, or CI. Triggers: 'telegram', 'send me a telegram', 'alert me on telegram', 'ask me on telegram', 'notify me when done'.",
       "slug": "sanjay3290-telegram"
+    },
+    {
+      "repository": "sanjay3290/ai-skills",
+      "branch": "main",
+      "skillName": "whatsapp",
+      "path": "skills/whatsapp/SKILL.md",
+      "url": "https://github.com/sanjay3290/ai-skills/blob/main/skills/whatsapp/SKILL.md",
+      "description": "Send and receive WhatsApp messages via the unofficial linked-device client pywhats (pip install pywhats) — pair with QR, send text/images, group chat, read receipts, presence/typing, and a long-running JSON event stream. Use when the user wants to script WhatsApp as a linked companion device (like WhatsApp Web), pair a device, send a WhatsApp from Python, or listen for inbound messages. Triggers: 'whatsapp', 'send whatsapp', 'pair whatsapp', 'pywhats', 'linked device', 'whatsapp web client'. NOT the official WhatsApp Business/Cloud API.",
+      "slug": "sanjay3290-whatsapp"
     }
   ],
-  "itemCount": 23,
-  "publicSkillCount": 22,
-  "lastStatus": "scanned"
+  "itemCount": 25,
+  "lastStatus": "cache-fresh"
 }

@@ -2,9 +2,9 @@
   "repository": "HKUSTDial/Supervisor-Skills",
   "branch": "main",
   "defaultBranch": "main",
-  "pushedAt": "2026-07-04T15:39:10Z",
-  "scannedAt": "2026-07-07T09:06:02.288Z",
-  "treeSha": "0b77a1b98794f8341d57685a0e829a3fa175d05f",
+  "pushedAt": "2026-07-13T09:18:04Z",
+  "scannedAt": "2026-07-15T02:25:42.638Z",
+  "treeSha": "93dccd1e810a781660d7efe489f04496b2c767f0",
   "items": [
     {
       "repository": "HKUSTDial/Supervisor-Skills",
@@ -15,10 +15,121 @@
       "description": "将博导十年科研经验炼化为可直接调用的 AI 技能。从 Idea 构思到论文投稿，你的 AI 科研副导师。",
       "slug": "hkustdial-supervisor-skills-collection",
       "isCollection": true,
-      "stars": 3594,
-      "skillPaths": []
+      "stars": 3967,
+      "skillPaths": [
+        "skills/benchmark-paper-template/SKILL.md",
+        "skills/deep-research/SKILL.md",
+        "skills/drawio-reconstruction/SKILL.md",
+        "skills/figure-designer/SKILL.md",
+        "skills/idea-evaluator/SKILL.md",
+        "skills/intro-drafter/SKILL.md",
+        "skills/paper-polish/SKILL.md",
+        "skills/paper-writer/SKILL.md",
+        "skills/pre-submission-reviewer/SKILL.md",
+        "skills/tech-paper-template/SKILL.md",
+        "skills/vibe-research-workflow/SKILL.md"
+      ]
+    },
+    {
+      "repository": "HKUSTDial/Supervisor-Skills",
+      "branch": "main",
+      "skillName": "benchmark-paper-template",
+      "path": "skills/benchmark-paper-template/SKILL.md",
+      "url": "https://github.com/HKUSTDial/Supervisor-Skills/blob/main/skills/benchmark-paper-template/SKILL.md",
+      "description": "Structures Benchmark and Evaluation papers using the five-pillar framework (Research Gap, Construction Pipeline, Evaluation Framework, Empirical Findings, optional Companion Method). Returns a completeness audit, a six-part Introduction logic chain, a Section 2-7 skeleton, and a pre-submission checklist. Use when writing a benchmark paper, structuring a benchmark paper, checking whether a benchmark idea is substantive, drafting a benchmark Introduction, or planning the data-construction pipeline or experiments.",
+      "slug": "hkustdial-benchmark-paper-template"
+    },
+    {
+      "repository": "HKUSTDial/Supervisor-Skills",
+      "branch": "main",
+      "skillName": "deep-research",
+      "path": "skills/deep-research/SKILL.md",
+      "url": "https://github.com/HKUSTDial/Supervisor-Skills/blob/main/skills/deep-research/SKILL.md",
+      "description": ">-",
+      "slug": "hkustdial-deep-research"
+    },
+    {
+      "repository": "HKUSTDial/Supervisor-Skills",
+      "branch": "main",
+      "skillName": "drawio-reconstruction",
+      "path": "skills/drawio-reconstruction/SKILL.md",
+      "url": "https://github.com/HKUSTDial/Supervisor-Skills/blob/main/skills/drawio-reconstruction/SKILL.md",
+      "description": "Reconstructs reference images, research figures, architecture diagrams, slide diagrams, UI screenshots, and image folders into editable Draw.io files with PNG previews and visual audits. Uses native Draw.io elements for text and structure, SVG only for simple matching icons, and crops for complex visuals. Use when the user wants high-fidelity `.drawio` reconstruction from one or more images.",
+      "slug": "hkustdial-drawio-reconstruction"
+    },
+    {
+      "repository": "HKUSTDial/Supervisor-Skills",
+      "branch": "main",
+      "skillName": "figure-designer",
+      "path": "skills/figure-designer/SKILL.md",
+      "url": "https://github.com/HKUSTDial/Supervisor-Skills/blob/main/skills/figure-designer/SKILL.md",
+      "description": ">-",
+      "slug": "hkustdial-figure-designer"
+    },
+    {
+      "repository": "HKUSTDial/Supervisor-Skills",
+      "branch": "main",
+      "skillName": "idea-evaluator",
+      "path": "skills/idea-evaluator/SKILL.md",
+      "url": "https://github.com/HKUSTDial/Supervisor-Skills/blob/main/skills/idea-evaluator/SKILL.md",
+      "description": ">-",
+      "slug": "hkustdial-idea-evaluator"
+    },
+    {
+      "repository": "HKUSTDial/Supervisor-Skills",
+      "branch": "main",
+      "skillName": "intro-drafter",
+      "path": "skills/intro-drafter/SKILL.md",
+      "url": "https://github.com/HKUSTDial/Supervisor-Skills/blob/main/skills/intro-drafter/SKILL.md",
+      "description": ">-",
+      "slug": "hkustdial-intro-drafter"
+    },
+    {
+      "repository": "HKUSTDial/Supervisor-Skills",
+      "branch": "main",
+      "skillName": "paper-polish",
+      "path": "skills/paper-polish/SKILL.md",
+      "url": "https://github.com/HKUSTDial/Supervisor-Skills/blob/main/skills/paper-polish/SKILL.md",
+      "description": ">-",
+      "slug": "hkustdial-paper-polish"
+    },
+    {
+      "repository": "HKUSTDial/Supervisor-Skills",
+      "branch": "main",
+      "skillName": "paper-writer",
+      "path": "skills/paper-writer/SKILL.md",
+      "url": "https://github.com/HKUSTDial/Supervisor-Skills/blob/main/skills/paper-writer/SKILL.md",
+      "description": ">-",
+      "slug": "hkustdial-paper-writer"
+    },
+    {
+      "repository": "HKUSTDial/Supervisor-Skills",
+      "branch": "main",
+      "skillName": "pre-submission-reviewer",
+      "path": "skills/pre-submission-reviewer/SKILL.md",
+      "url": "https://github.com/HKUSTDial/Supervisor-Skills/blob/main/skills/pre-submission-reviewer/SKILL.md",
+      "description": ">-",
+      "slug": "hkustdial-pre-submission-reviewer"
+    },
+    {
+      "repository": "HKUSTDial/Supervisor-Skills",
+      "branch": "main",
+      "skillName": "tech-paper-template",
+      "path": "skills/tech-paper-template/SKILL.md",
+      "url": "https://github.com/HKUSTDial/Supervisor-Skills/blob/main/skills/tech-paper-template/SKILL.md",
+      "description": ">-",
+      "slug": "hkustdial-tech-paper-template"
+    },
+    {
+      "repository": "HKUSTDial/Supervisor-Skills",
+      "branch": "main",
+      "skillName": "vibe-research-workflow",
+      "path": "skills/vibe-research-workflow/SKILL.md",
+      "url": "https://github.com/HKUSTDial/Supervisor-Skills/blob/main/skills/vibe-research-workflow/SKILL.md",
+      "description": ">-",
+      "slug": "hkustdial-vibe-research-workflow"
     }
   ],
-  "itemCount": 1,
-  "lastStatus": "reused-unchanged"
+  "itemCount": 12,
+  "lastStatus": "cache-fresh"
 }

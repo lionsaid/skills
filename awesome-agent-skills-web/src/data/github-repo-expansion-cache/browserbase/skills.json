@@ -2,9 +2,9 @@
   "repository": "browserbase/skills",
   "branch": "main",
   "defaultBranch": "main",
-  "pushedAt": "2026-07-07T05:49:56Z",
-  "scannedAt": "2026-07-07T09:06:01.698Z",
-  "treeSha": "d919e311d6ce8d8b3daa5f33853e67e43a545b9a",
+  "pushedAt": "2026-07-11T17:33:34Z",
+  "scannedAt": "2026-07-15T02:26:22.123Z",
+  "treeSha": "6afe8663693372e59e167dfa5be37932af09ae3d",
   "items": [
     {
       "repository": "browserbase/skills",
@@ -15,7 +15,7 @@
       "description": "Browserbase's official collection of agent skills to access the web.",
       "slug": "browserbase-skills-collection",
       "isCollection": true,
-      "stars": 3630,
+      "stars": 3646,
       "skillPaths": [
         "skills/agent-experience/SKILL.md",
         "skills/autobrowse/SKILL.md",
@@ -23,7 +23,6 @@
         "skills/browser-trace/SKILL.md",
         "skills/browser-use-to-stagehand/SKILL.md",
         "skills/browser/SKILL.md",
-        "skills/browserbase-cli/SKILL.md",
         "skills/company-research/SKILL.md",
         "skills/competitor-analysis/SKILL.md",
         "skills/cookie-sync/SKILL.md",
@@ -89,15 +88,6 @@
       "url": "https://github.com/browserbase/skills/blob/main/skills/browser/SKILL.md",
       "description": "Automate web browser interactions using natural language via CLI commands. Use when the user asks to browse websites, navigate web pages, extract data from websites, take screenshots, fill forms, click buttons, or interact with web applications. Supports remote Browserbase sessions with Browserbase Identity, Verified browsers, automatic CAPTCHA solving, and residential proxies — ideal for protected websites and JavaScript-heavy pages.",
       "slug": "browserbase-browser"
-    },
-    {
-      "repository": "browserbase/skills",
-      "branch": "main",
-      "skillName": "browserbase-cli",
-      "path": "skills/browserbase-cli/SKILL.md",
-      "url": "https://github.com/browserbase/skills/blob/main/skills/browserbase-cli/SKILL.md",
-      "description": "Use the Browserbase CLI (`browse`) for Browserbase Functions and platform API workflows. Use when the user asks to run `browse`, deploy or invoke functions, manage sessions, projects, contexts, or extensions, fetch a page through the Browserbase Fetch API, search the web through the Browserbase Search API, or scaffold starter templates. Prefer the Browser skill for interactive browsing; use the top-level `browse` driver commands (`browse open`, `browse get`, etc.) only when the user explicitly wants the CLI path.",
-      "slug": "browserbase-browserbase-cli"
     },
     {
       "repository": "browserbase/skills",
@@ -190,7 +180,6 @@
       "slug": "browserbase-webmcp-gen"
     }
   ],
-  "itemCount": 18,
-  "publicSkillCount": 17,
-  "lastStatus": "scanned"
+  "itemCount": 17,
+  "lastStatus": "cache-fresh"
 }

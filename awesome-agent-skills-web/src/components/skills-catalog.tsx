@@ -1,13 +1,14 @@
 "use client";
 
-import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import { DelayedSkillLink } from "@/components/delayed-skill-link";
 import { PublisherLogo } from "@/components/publisher-logo";
 import { SkillAvatar } from "@/components/skill-avatar";
 import { useEffect, useMemo, useRef, useState, useTransition } from "react";
 import type { PublisherSummary, SkillCatalogIndexItem, SkillCatalogItem, Skill } from "@/lib/skill-types";
-import { getRoles, getSourceTypeLabel, getTrustLevelLabel, isPriorityPublisher, matchesSearchQuery, parseSearchQuery } from "@/lib/skills-common";
+import { getRoles, getSourceTypeLabel, getTrustLevelLabel, isPriorityPublisher, matchesSearchQuery, normalizeSearchInput, parseSearchQuery } from "@/lib/skills-common";
 import { getCopy, type Locale } from "@/lib/i18n";
+import { parseSkillsRouteFilters } from "@/lib/skills-route";
 import { expandQueryAliases as expandQueryAliasesLight, type SkillFilterKind, type SkillSort, type SkillTrustFilter } from "@/lib/skills-common";
 
 const PAGE_SIZE = 36;
@@ -145,26 +146,6 @@ function decodeCatalogIndexItem(
     trustLevel,
     chunkIndex,
   };
-}
-
-function normalizeSearchInput(value: string) {
-  const trimmedLeft = value.replace(/^\s+/, "");
-  const withoutSpaces = trimmedLeft.replace(/\s+/g, "");
-  const characters = Array.from(withoutSpaces.toLocaleLowerCase());
-
-  if (
-    trimmedLeft.includes(" ") &&
-    characters.length > 1 &&
-    characters.every((character) => character === characters[0])
-  ) {
-    return withoutSpaces;
-  }
-
-  if (/^(?:[\p{L}\p{N}]\s+){2,}[\p{L}\p{N}]?\s*$/u.test(trimmedLeft)) {
-    return withoutSpaces;
-  }
-
-  return trimmedLeft.replace(/\s{2,}/g, " ");
 }
 
 function getTrustTone(trustLevel: Skill["trustLevel"]) {
@@ -427,7 +408,29 @@ function DropdownFilter({
   );
 }
 
-export function SkillsCatalog({
+export function SkillsCatalog(props: SkillsCatalogProps) {
+  const searchParams = useSearchParams();
+  const searchParamsString = searchParams.toString();
+  const routeFilters = parseSkillsRouteFilters(searchParams, props.publishers);
+
+  return (
+    <SkillsCatalogBody
+      key={searchParamsString || "default"}
+      {...props}
+      initialKind={routeFilters.kind}
+      initialPublisher={routeFilters.publisher}
+      initialQuery={routeFilters.query}
+      initialSort={routeFilters.sort}
+      initialTrustFilter={routeFilters.trustFilter}
+      initialEnterpriseOnly={routeFilters.enterpriseOnly}
+      initialExcludeMarketplace={routeFilters.excludeMarketplace}
+      initialPersona={routeFilters.persona}
+      initialJob={routeFilters.job}
+    />
+  );
+}
+
+function SkillsCatalogBody({
   locale = "en",
   initialKind,
   initialPublisher,

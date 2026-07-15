@@ -2,9 +2,9 @@
   "repository": "glitternetwork/pinme",
   "branch": "main",
   "defaultBranch": "main",
-  "pushedAt": "2026-07-06T16:29:17Z",
-  "scannedAt": "2026-07-07T09:06:00.036Z",
-  "treeSha": "1a6b07bf9dce46514669cc55837d5a812580c5c0",
+  "pushedAt": "2026-07-12T06:14:25Z",
+  "scannedAt": "2026-07-15T02:26:08.248Z",
+  "treeSha": "7822b0501607786958ecb458f3bd02a061933efa",
   "items": [
     {
       "repository": "glitternetwork/pinme",
@@ -15,11 +15,12 @@
       "description": "Deploy Your Frontend in a Single Command. Claude Code Skills supported.",
       "slug": "glitternetwork-pinme-collection",
       "isCollection": true,
-      "stars": 3704,
+      "stars": 3710,
       "skillPaths": [
         "skills/pinme-auth/SKILL.md",
         "skills/pinme-email/SKILL.md",
         "skills/pinme-llm/SKILL.md",
+        "skills/pinme-r2/SKILL.md",
         "skills/pinme-share/SKILL.md",
         "skills/pinme-uniwebpay/SKILL.md",
         "skills/pinme/SKILL.md"
@@ -55,6 +56,15 @@
     {
       "repository": "glitternetwork/pinme",
       "branch": "main",
+      "skillName": "pinme-r2",
+      "path": "skills/pinme-r2/SKILL.md",
+      "url": "https://github.com/glitternetwork/pinme/blob/main/skills/pinme-r2/SKILL.md",
+      "description": "Use when a PinMe Cloudflare Worker needs R2 object storage, including secure file or image upload, streaming download, metadata lookup, deletion, listing, Range requests, or R2+D1 coordination. Guides AI to use PinMe's automatically injected env.R2 binding without R2 credentials or manual Wrangler configuration.",
+      "slug": "glitternetwork-pinme-r2"
+    },
+    {
+      "repository": "glitternetwork/pinme",
+      "branch": "main",
       "skillName": "pinme-share",
       "path": "skills/pinme-share/SKILL.md",
       "url": "https://github.com/glitternetwork/pinme/blob/main/skills/pinme-share/SKILL.md",
@@ -80,7 +90,6 @@
       "slug": "glitternetwork-pinme"
     }
   ],
-  "itemCount": 7,
-  "publicSkillCount": 6,
-  "lastStatus": "scanned"
+  "itemCount": 8,
+  "lastStatus": "cache-fresh"
 }

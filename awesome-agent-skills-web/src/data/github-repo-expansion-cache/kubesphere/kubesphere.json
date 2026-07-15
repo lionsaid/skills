@@ -2,9 +2,9 @@
   "repository": "kubesphere/kubesphere",
   "branch": "master",
   "defaultBranch": "master",
-  "pushedAt": "2026-06-25T05:29:15Z",
-  "scannedAt": "2026-07-07T09:04:34.381Z",
-  "treeSha": "f72c75a149e05998744d83a76aebc447dc56b198",
+  "pushedAt": "2026-07-15T01:14:39Z",
+  "scannedAt": "2026-07-15T02:23:12.103Z",
+  "treeSha": "04a29b5c601470fa6bc2f2e92358dcb802a0d414",
   "items": [
     {
       "repository": "kubesphere/kubesphere",
@@ -15,7 +15,7 @@
       "description": "The container platform tailored for Kubernetes multi-cloud, datacenter, and edge management ⎈ 🖥 ☁️",
       "slug": "kubesphere-kubesphere-collection",
       "isCollection": true,
-      "stars": null,
+      "stars": 16999,
       "skillPaths": [
         "skills/frontend-forge-fe-operations/SKILL.md",
         "skills/frontend-forge-fi-operations/SKILL.md",
@@ -31,6 +31,8 @@
         "skills/kubesphere-devops-tenant/SKILL.md",
         "skills/kubesphere-extension-management/SKILL.md",
         "skills/kubesphere-fluid/SKILL.md",
+        "skills/kubesphere-gateway-api/SKILL.md",
+        "skills/kubesphere-gateway/SKILL.md",
         "skills/kubesphere-multi-tenant-management/SKILL.md",
         "skills/kubesphere-network-extension-operations/SKILL.md",
         "skills/kubesphere-openkruise/SKILL.md",
@@ -178,6 +180,24 @@
     {
       "repository": "kubesphere/kubesphere",
       "branch": "master",
+      "skillName": "kubesphere-gateway-api",
+      "path": "skills/kubesphere-gateway-api/SKILL.md",
+      "url": "https://github.com/kubesphere/kubesphere/blob/master/skills/kubesphere-gateway-api/SKILL.md",
+      "description": "KubeSphere Gateway API extension management Skill (Traefik based, uses Kubernetes Gateway API + GatewayProxy CRD gatewayapi.kubesphere.io/v1alpha1). This is the newer Kubernetes Gateway API standard. For the older Ingress API based gateway (ingress-nginx + Gateway CRD gateway.kubesphere.io/v2alpha2), see the kubesphere-gateway skill instead. Covers installation, uninstallation, status checks, GatewayProxy status inspection, and troubleshooting.",
+      "slug": "kubesphere-kubesphere-gateway-api"
+    },
+    {
+      "repository": "kubesphere/kubesphere",
+      "branch": "master",
+      "skillName": "kubesphere-gateway",
+      "path": "skills/kubesphere-gateway/SKILL.md",
+      "url": "https://github.com/kubesphere/kubesphere/blob/master/skills/kubesphere-gateway/SKILL.md",
+      "description": "KubeSphere Gateway extension management Skill (ingress-nginx based, uses Kubernetes Ingress API + Gateway CRD gateway.kubesphere.io/v2alpha2). For the newer Kubernetes Gateway API (Traefik + GatewayProxy CRD), see the kubesphere-gateway-api skill instead. Covers installation, uninstallation, status checks, gateway status inspection, and troubleshooting (gateway stuck states, Helm failures, pod issues).",
+      "slug": "kubesphere-kubesphere-gateway"
+    },
+    {
+      "repository": "kubesphere/kubesphere",
+      "branch": "master",
       "skillName": "kubesphere-multi-tenant-management",
       "path": "skills/kubesphere-multi-tenant-management/SKILL.md",
       "url": "https://github.com/kubesphere/kubesphere/blob/master/skills/kubesphere-multi-tenant-management/SKILL.md",
@@ -320,6 +340,6 @@
       "slug": "kubesphere-wiztelemetry-tracing"
     }
   ],
-  "itemCount": 31,
-  "lastStatus": "reused-unchanged"
+  "itemCount": 33,
+  "lastStatus": "cache-fresh"
 }

@@ -2,9 +2,9 @@
   "repository": "huggingface/skills",
   "branch": "main",
   "defaultBranch": "main",
-  "pushedAt": "2026-07-06T17:58:20Z",
-  "scannedAt": "2026-07-07T09:04:48.434Z",
-  "treeSha": "2aad4f7a8d2d8360cf65364291489e65370caad8",
+  "pushedAt": "2026-07-14T10:44:02Z",
+  "scannedAt": "2026-07-15T02:24:02.888Z",
+  "treeSha": "52d324945107f68d06d561743cf26194bdbf9cf8",
   "items": [
     {
       "repository": "huggingface/skills",
@@ -15,9 +15,15 @@
       "description": "Give your agents the power of the Hugging Face ecosystem",
       "slug": "huggingface-skills-collection",
       "isCollection": true,
-      "stars": 10781,
+      "stars": 10814,
       "skillPaths": [
         "skills/hf-cli/SKILL.md",
+        "skills/hf-cloud-aws-context-discovery/SKILL.md",
+        "skills/hf-cloud-python-env-setup/SKILL.md",
+        "skills/hf-cloud-sagemaker-deployment-planner/SKILL.md",
+        "skills/hf-cloud-sagemaker-iam-preflight/SKILL.md",
+        "skills/hf-cloud-sagemaker-production-defaults/SKILL.md",
+        "skills/hf-cloud-serving-image-selection/SKILL.md",
         "skills/hf-mem/SKILL.md",
         "skills/huggingface-best/SKILL.md",
         "skills/huggingface-community-evals/SKILL.md",
@@ -46,6 +52,60 @@
       "url": "https://github.com/huggingface/skills/blob/main/skills/hf-cli/SKILL.md",
       "description": "Hugging Face Hub CLI (`hf`) for downloading, uploading, and managing models, datasets, spaces, buckets, repos, papers, jobs, and more on the Hugging Face Hub. Use when: handling authentication; managing local cache; managing Hugging Face Buckets; running or scheduling jobs on Hugging Face infrastructure; managing Hugging Face repos; discussions and pull requests; browsing models, datasets and spaces; reading, searching, or browsing academic papers; managing collections; querying datasets; configuring spaces; setting up webhooks; or deploying and managing HF Inference Endpoints. Make sure to use this skill whenever the user mentions 'hf', 'huggingface', 'Hugging Face', 'huggingface-cli', or 'hugging face cli', or wants to do anything related to the Hugging Face ecosystem and to AI and ML in general. Also use for cloud storage needs like training checkpoints, data pipelines, or agent trace",
       "slug": "huggingface-hf-cli"
+    },
+    {
+      "repository": "huggingface/skills",
+      "branch": "main",
+      "skillName": "hf-cloud-aws-context-discovery",
+      "path": "skills/hf-cloud-aws-context-discovery/SKILL.md",
+      "url": "https://github.com/huggingface/skills/blob/main/skills/hf-cloud-aws-context-discovery/SKILL.md",
+      "description": "Discover the user's local AWS context (active profile, region, account ID, caller identity) at the start of any AWS task. Use this skill before any other AWS work — deploying to SageMaker, creating resources, calling AWS APIs, or anything that touches an AWS account. Use it especially when the user has not specified a region or profile explicitly, when they say things like \"use my AWS account\", \"deploy to AWS\", \"use my profile\", or when about to make any AWS CLI or SDK call. Never guess the region or account ID — always use this skill to read it from the local configuration first.",
+      "slug": "huggingface-hf-cloud-aws-context-discovery"
+    },
+    {
+      "repository": "huggingface/skills",
+      "branch": "main",
+      "skillName": "hf-cloud-python-env-setup",
+      "path": "skills/hf-cloud-python-env-setup/SKILL.md",
+      "url": "https://github.com/huggingface/skills/blob/main/skills/hf-cloud-python-env-setup/SKILL.md",
+      "description": "Set up an isolated Python environment for SageMaker / AWS work, with the right Python version and current boto3. Use this skill whenever Python code will be executed for a SageMaker deployment, training job, or any AWS automation — including when about to run `pip install`, when about to invoke `boto3`, when creating or activating a virtualenv, or when the user asks to \"set up the environment\". Never use system Python and never `pip install` into it. Always isolate. This skill prevents the most common failure modes: wrong Python version, dependency conflicts, and stale SDKs.",
+      "slug": "huggingface-hf-cloud-python-env-setup"
+    },
+    {
+      "repository": "huggingface/skills",
+      "branch": "main",
+      "skillName": "hf-cloud-sagemaker-deployment-planner",
+      "path": "skills/hf-cloud-sagemaker-deployment-planner/SKILL.md",
+      "url": "https://github.com/huggingface/skills/blob/main/skills/hf-cloud-sagemaker-deployment-planner/SKILL.md",
+      "description": "Plan and coordinate the deployment of a model to Amazon SageMaker AI. Use this skill whenever the user wants to deploy, host, serve, or expose a model on SageMaker or AWS — including phrases like \"deploy a model\", \"host this LLM on AWS\", \"serve this embedding model\", \"deploy a reranker\", \"deploy a text-to-image / diffusion model\", \"host this for async inference\", \"create an endpoint\", \"serve my fine-tuned model\", or any request that involves making a model available for inference on AWS. Use this even when the user is vague (e.g. \"I just want to get this running on AWS, you figure it out\"). Works for text-generation LLMs, embedding models, rerankers, classifiers, text-to-image / diffusion models — picks the right serving stack and chooses between real-time and async inference. This is the entry-point skill for SageMaker deployment work — it asks clarifying questions, picks a deployment p",
+      "slug": "huggingface-hf-cloud-sagemaker-deployment-planner"
+    },
+    {
+      "repository": "huggingface/skills",
+      "branch": "main",
+      "skillName": "hf-cloud-sagemaker-iam-preflight",
+      "path": "skills/hf-cloud-sagemaker-iam-preflight/SKILL.md",
+      "url": "https://github.com/huggingface/skills/blob/main/skills/hf-cloud-sagemaker-iam-preflight/SKILL.md",
+      "description": "Ensure a usable SageMaker execution role exists before deploying or training. Use this skill whenever about to create a SageMaker endpoint, model, training job, or any resource that requires an execution role. Use it especially when the user has not provided a role ARN explicitly, when scripts are about to call `iam:CreateRole`, or when an AccessDenied error mentions an IAM action. Never blindly call `iam:CreateRole` — always check for existing roles first. This skill prevents the most common SageMaker deployment failure: trying to create IAM resources from an SSO principal that has no IAM write permissions.",
+      "slug": "huggingface-hf-cloud-sagemaker-iam-preflight"
+    },
+    {
+      "repository": "huggingface/skills",
+      "branch": "main",
+      "skillName": "hf-cloud-sagemaker-production-defaults",
+      "path": "skills/hf-cloud-sagemaker-production-defaults/SKILL.md",
+      "url": "https://github.com/huggingface/skills/blob/main/skills/hf-cloud-sagemaker-production-defaults/SKILL.md",
+      "description": "Create a SageMaker endpoint (real-time or async) with autoscaling, CloudWatch alarms, and tagging enabled by default. Use this skill whenever about to create a SageMaker endpoint, write deployment code that calls `create_endpoint`, or finalize a deployment after the image URI and IAM role are known. Provides deploy.py for real-time endpoints and deploy_async.py for async endpoints (with genuine scale-to-zero support). This is the last step in the SageMaker deployment workflow. Never generate a bare `create_endpoint` call without these defaults — endpoints without autoscaling or alarms are demos, not deployments.",
+      "slug": "huggingface-hf-cloud-sagemaker-production-defaults"
+    },
+    {
+      "repository": "huggingface/skills",
+      "branch": "main",
+      "skillName": "hf-cloud-serving-image-selection",
+      "path": "skills/hf-cloud-serving-image-selection/SKILL.md",
+      "url": "https://github.com/huggingface/skills/blob/main/skills/hf-cloud-serving-image-selection/SKILL.md",
+      "description": "Pick the right serving container for a SageMaker model deployment and find its current image URI. Use this skill whenever about to deploy a model to a SageMaker endpoint and an image URI needs to be chosen — including when the user says \"deploy this LLM\", \"host this HuggingFace model\", \"serve this fine-tuned model\", \"deploy this embedding model\", \"host a reranker\", \"serve a sentence-transformers model\", or when about to hardcode any container URI in deployment code. HuggingFace-curated Deep Learning Containers are ALWAYS preferred: HuggingFace vLLM (LLMs and generative rerankers), HuggingFace vLLM-Omni (multimodal), TEI (embeddings/cross-encoder rerankers), HF Inference Toolkit (other transformers). Generic images (AWS vLLM, DJL-LMI, SGLang) are used only when no HuggingFace image is compatible — never merely because they carry a newer version. Never hardcode a container URI from memory ",
+      "slug": "huggingface-hf-cloud-serving-image-selection"
     },
     {
       "repository": "huggingface/skills",
@@ -210,7 +270,6 @@
       "slug": "huggingface-trl-training"
     }
   ],
-  "itemCount": 20,
-  "publicSkillCount": 19,
-  "lastStatus": "scanned"
+  "itemCount": 26,
+  "lastStatus": "cache-fresh"
 }

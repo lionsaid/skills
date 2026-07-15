@@ -2,9 +2,9 @@
   "repository": "github/awesome-copilot",
   "branch": "main",
   "defaultBranch": "main",
-  "pushedAt": "2026-07-07T03:45:42Z",
-  "scannedAt": "2026-07-07T09:04:05.830Z",
-  "treeSha": "cb2a6022d709288f51b499c60bc57b0adaf459a4",
+  "pushedAt": "2026-07-14T23:22:36Z",
+  "scannedAt": "2026-07-15T02:22:20.841Z",
+  "treeSha": "2c2461a7fa383f664bb75546f03a2c6087f3819d",
   "items": [
     {
       "repository": "github/awesome-copilot",
@@ -15,7 +15,7 @@
       "description": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
       "slug": "github-awesome-copilot-collection",
       "isCollection": true,
-      "stars": 36267,
+      "stars": 36581,
       "skillPaths": [
         "skills/acquire-codebase-knowledge/SKILL.md",
         "skills/acreadiness-assess/SKILL.md",
@@ -133,6 +133,7 @@
         "skills/dependabot/SKILL.md",
         "skills/devops-rollout-plan/SKILL.md",
         "skills/diagnose/SKILL.md",
+        "skills/doc-and-modernize/SKILL.md",
         "skills/documentation-writer/SKILL.md",
         "skills/dotnet-best-practices/SKILL.md",
         "skills/dotnet-design-pattern-review/SKILL.md",
@@ -165,6 +166,7 @@
         "skills/fluentui-blazor/SKILL.md",
         "skills/folder-structure-blueprint-generator/SKILL.md",
         "skills/foundry-agent-sync/SKILL.md",
+        "skills/foundry-hosted-agent-copilotkit/SKILL.md",
         "skills/freecad-scripts/SKILL.md",
         "skills/from-the-other-side-anitta/SKILL.md",
         "skills/from-the-other-side-quinn/SKILL.md",
@@ -227,6 +229,7 @@
         "skills/mcp-create-adaptive-cards/SKILL.md",
         "skills/mcp-create-declarative-agent/SKILL.md",
         "skills/mcp-deploy-manage-agents/SKILL.md",
+        "skills/mcp-implementation-security-review/SKILL.md",
         "skills/mcp-security-audit/SKILL.md",
         "skills/md-to-docx/SKILL.md",
         "skills/meeting-minutes/SKILL.md",
@@ -349,6 +352,7 @@
         "skills/sql-optimization/SKILL.md",
         "skills/sql-server-table-reconciliation/SKILL.md",
         "skills/ssma-console/SKILL.md",
+        "skills/steno-mode/SKILL.md",
         "skills/structured-autonomy-generate/SKILL.md",
         "skills/structured-autonomy-implement/SKILL.md",
         "skills/structured-autonomy-plan/SKILL.md",
@@ -362,6 +366,7 @@
         "skills/threat-model-analyst/SKILL.md",
         "skills/tiny-stepping/SKILL.md",
         "skills/tldr-prompt/SKILL.md",
+        "skills/tm7-threat-model/SKILL.md",
         "skills/transloadit-media-processing/SKILL.md",
         "skills/typescript-mcp-server-generator/SKILL.md",
         "skills/typespec-api-operations/SKILL.md",
@@ -1434,6 +1439,15 @@
     {
       "repository": "github/awesome-copilot",
       "branch": "main",
+      "skillName": "doc-and-modernize",
+      "path": "skills/doc-and-modernize/SKILL.md",
+      "url": "https://github.com/github/awesome-copilot/blob/main/skills/doc-and-modernize/SKILL.md",
+      "description": ">-",
+      "slug": "github-doc-and-modernize"
+    },
+    {
+      "repository": "github/awesome-copilot",
+      "branch": "main",
       "skillName": "documentation-writer",
       "path": "skills/documentation-writer/SKILL.md",
       "url": "https://github.com/github/awesome-copilot/blob/main/skills/documentation-writer/SKILL.md",
@@ -1718,6 +1732,15 @@
       "url": "https://github.com/github/awesome-copilot/blob/main/skills/foundry-agent-sync/SKILL.md",
       "description": "Create and synchronize prompt-based AI agents directly within Azure AI Foundry via REST API, from a local JSON manifest. Unlike scaffolding skills that only generate local code, this skill registers agents in the Foundry service itself — making them immediately available for invocation. Use when the user asks to create agents in Foundry, sync, deploy, register, or push agents to Foundry, update agent instructions, or scaffold the manifest and sync script for a new repository. Triggers: 'create agent in foundry', 'sync foundry agents', 'deploy agents to foundry', 'register agents in foundry', 'push agents', 'create foundry agent manifest', 'scaffold agent sync'.",
       "slug": "github-foundry-agent-sync"
+    },
+    {
+      "repository": "github/awesome-copilot",
+      "branch": "main",
+      "skillName": "foundry-hosted-agent-copilotkit",
+      "path": "skills/foundry-hosted-agent-copilotkit/SKILL.md",
+      "url": "https://github.com/github/awesome-copilot/blob/main/skills/foundry-hosted-agent-copilotkit/SKILL.md",
+      "description": "Ongoing development guidance for agentic web apps that pair a CopilotKit frontend with Microsoft Agent Framework agents on Azure AI Foundry hosted agents over the AG-UI protocol - add and gate agent tools, wire human-in-the-loop approvals, build generative UI and shared state, debug the event stream, upgrade pre-1.0 packages safely, and deploy hosted agent updates.",
+      "slug": "github-foundry-hosted-agent-copilotkit"
     },
     {
       "repository": "github/awesome-copilot",
@@ -2276,6 +2299,15 @@
       "url": "https://github.com/github/awesome-copilot/blob/main/skills/mcp-deploy-manage-agents/SKILL.md",
       "description": "Skill converted from mcp-deploy-manage-agents.prompt.md",
       "slug": "github-mcp-deploy-manage-agents"
+    },
+    {
+      "repository": "github/awesome-copilot",
+      "branch": "main",
+      "skillName": "mcp-implementation-security-review",
+      "path": "skills/mcp-implementation-security-review/SKILL.md",
+      "url": "https://github.com/github/awesome-copilot/blob/main/skills/mcp-implementation-security-review/SKILL.md",
+      "description": "|",
+      "slug": "github-mcp-implementation-security-review"
     },
     {
       "repository": "github/awesome-copilot",
@@ -3378,6 +3410,15 @@
     {
       "repository": "github/awesome-copilot",
       "branch": "main",
+      "skillName": "steno-mode",
+      "path": "skills/steno-mode/SKILL.md",
+      "url": "https://github.com/github/awesome-copilot/blob/main/skills/steno-mode/SKILL.md",
+      "description": "Shorthand-first response compression that cuts ~40% of response tokens while preserving technical precision and exact literals. Use when the user says \"steno mode\", \"shorthand mode\", \"compressed responses\", \"token reduction\", \"brief structured output\", or invokes /steno. Supports four compression levels: lite, brief, court, machine. Do not trigger for requests needing polished prose such as onboarding/tutorial content, stakeholder or customer-facing copy, or teaching-focused explanations.",
+      "slug": "github-steno-mode"
+    },
+    {
+      "repository": "github/awesome-copilot",
+      "branch": "main",
       "skillName": "structured-autonomy-generate",
       "path": "skills/structured-autonomy-generate/SKILL.md",
       "url": "https://github.com/github/awesome-copilot/blob/main/skills/structured-autonomy-generate/SKILL.md",
@@ -3491,6 +3532,15 @@
       "url": "https://github.com/github/awesome-copilot/blob/main/skills/tldr-prompt/SKILL.md",
       "description": "Create tldr summaries for GitHub Copilot files (prompts, agents, instructions, collections), MCP servers, or documentation from URLs and queries.",
       "slug": "github-tldr-prompt"
+    },
+    {
+      "repository": "github/awesome-copilot",
+      "branch": "main",
+      "skillName": "tm7-threat-model",
+      "path": "skills/tm7-threat-model/SKILL.md",
+      "url": "https://github.com/github/awesome-copilot/blob/main/skills/tm7-threat-model/SKILL.md",
+      "description": "Creates valid Microsoft Threat Modeling Tool (.tm7) files compatible with the Microsoft Threat Modeling Tool v7.3+. Use this skill whenever asked to create, generate, or modify a .tm7 threat model file, or when performing STRIDE threat modeling that should output a .tm7 file that opens cleanly in the Microsoft Threat Modeling Tool.",
+      "slug": "github-tm7-threat-model"
     },
     {
       "repository": "github/awesome-copilot",
@@ -3700,7 +3750,6 @@
       "slug": "github-x-twitter-scraper"
     }
   ],
-  "itemCount": 369,
-  "publicSkillCount": 368,
-  "lastStatus": "scanned"
+  "itemCount": 374,
+  "lastStatus": "cache-fresh"
 }
