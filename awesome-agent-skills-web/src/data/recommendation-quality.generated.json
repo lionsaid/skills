@@ -1,0 +1,1428 @@
+{
+  "generatedAt": "2026-07-21T05:22:34.511Z",
+  "thresholds": {
+    "minimumTopSkillsPerRole": 8,
+    "minimumPublishersInFirstFive": 2,
+    "minimumTrustedShareInTopTen": 0.5,
+    "maximumRiskFlagShareInTopTen": 0.35,
+    "minimumDescriptionLength": 24,
+    "maximumMissingDescriptionShare": 0.08,
+    "maximumNearDuplicateShare": 0.03,
+    "reviewQueueSizePerRole": 10
+  },
+  "catalog": {
+    "totalSkills": 9131,
+    "missingDescriptionCount": 606,
+    "nearDuplicateGroupCount": 71,
+    "nearDuplicateSkillCount": 142,
+    "checks": {
+      "missingDescriptionShare": 0.0664,
+      "nearDuplicateShare": 0.0156
+    },
+    "sampleNearDuplicates": [
+      {
+        "key": "qdrant:qdrant skills",
+        "slugs": [
+          "qdrant-skills",
+          "qdrant-skills-collection"
+        ]
+      },
+      {
+        "key": "brianrwagner:brianrwagner ai marketing skills",
+        "slugs": [
+          "brianrwagner-ai-marketing-skills",
+          "brianrwagner-ai-marketing-skills-collection"
+        ]
+      },
+      {
+        "key": "agricidaniel:agricidaniel claude seo",
+        "slugs": [
+          "agricidaniel-claude-seo",
+          "agricidaniel-claude-seo-collection"
+        ]
+      },
+      {
+        "key": "wshuyi:wshuyi x article publisher skill",
+        "slugs": [
+          "wshuyi-x-article-publisher-skill",
+          "wshuyi-x-article-publisher-skill-collection"
+        ]
+      },
+      {
+        "key": "smixs:smixs creative director skill",
+        "slugs": [
+          "smixs-creative-director-skill",
+          "smixs-creative-director-skill-collection"
+        ]
+      },
+      {
+        "key": "xquik-dev:xquik dev x twitter scraper",
+        "slugs": [
+          "xquik-dev-x-twitter-scraper",
+          "xquik-dev-x-twitter-scraper-collection"
+        ]
+      },
+      {
+        "key": "eronred:eronred aso skills",
+        "slugs": [
+          "eronred-aso-skills",
+          "eronred-aso-skills-collection"
+        ]
+      },
+      {
+        "key": "degausai:degausai wonda",
+        "slugs": [
+          "degausai-wonda",
+          "degausai-wonda-collection"
+        ]
+      },
+      {
+        "key": "gitroomhq:gitroomhq postiz agent",
+        "slugs": [
+          "gitroomhq-postiz-agent",
+          "gitroomhq-postiz-agent-collection"
+        ]
+      },
+      {
+        "key": "indranilbanerjee:indranilbanerjee digital marketing pro",
+        "slugs": [
+          "indranilbanerjee-digital-marketing-pro",
+          "indranilbanerjee-digital-marketing-pro-collection"
+        ]
+      },
+      {
+        "key": "nowork-studio:nowork studio notfair",
+        "slugs": [
+          "nowork-studio-notfair",
+          "nowork-studio-notfair-collection"
+        ]
+      },
+      {
+        "key": "aaron-he-zhu:aaron he zhu aaron marketing skills",
+        "slugs": [
+          "aaron-he-zhu-aaron-marketing-skills",
+          "aaron-he-zhu-aaron-marketing-skills-collection"
+        ]
+      },
+      {
+        "key": "obra:obra superpowers lab",
+        "slugs": [
+          "obra-superpowers-lab",
+          "obra-superpowers-lab-collection"
+        ]
+      },
+      {
+        "key": "ognjengt:ognjengt founder skills",
+        "slugs": [
+          "ognjengt-founder-skills",
+          "ognjengt-founder-skills-collection"
+        ]
+      },
+      {
+        "key": "openaccountants:openaccountants openaccountants",
+        "slugs": [
+          "openaccountants-openaccountants",
+          "openaccountants-openaccountants-collection"
+        ]
+      },
+      {
+        "key": "kreuzberg-dev:kreuzberg dev kreuzberg",
+        "slugs": [
+          "kreuzberg-dev-kreuzberg",
+          "kreuzberg-dev-kreuzberg-collection"
+        ]
+      },
+      {
+        "key": "paramchoudhary:paramchoudhary resumeskills",
+        "slugs": [
+          "paramchoudhary-resumeskills",
+          "paramchoudhary-resumeskills-collection"
+        ]
+      },
+      {
+        "key": "roundtable02:roundtable02 tutor skills",
+        "slugs": [
+          "roundtable02-tutor-skills",
+          "roundtable02-tutor-skills-collection"
+        ]
+      },
+      {
+        "key": "resciencelab:resciencelab opc skills",
+        "slugs": [
+          "resciencelab-opc-skills",
+          "resciencelab-opc-skills-collection"
+        ]
+      },
+      {
+        "key": "charlie85270:charlie85270 dorothy",
+        "slugs": [
+          "charlie85270-dorothy",
+          "charlie85270-dorothy-collection"
+        ]
+      }
+    ]
+  },
+  "roles": [
+    {
+      "role": "data-analyst",
+      "topSkillCount": 10,
+      "distinctPublishersInFirstFive": 4,
+      "trustedShare": 1,
+      "riskFlagShare": 0.1,
+      "checks": {
+        "enoughTopSkills": true,
+        "publisherDiversity": true,
+        "trustedShare": true,
+        "riskShare": true
+      },
+      "reviewSummary": {
+        "reviewedCount": 0,
+        "queueSize": 10,
+        "relevantCount": 0,
+        "borderlineCount": 0,
+        "notRelevantCount": 0
+      },
+      "reviewQueue": [
+        {
+          "slug": "clickhouse-chdb-sql",
+          "name": "clickhouse/chdb-sql",
+          "publisher": "clickhouse",
+          "trustLevel": "official",
+          "status": "unreviewed",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "supabase-postgres-best-practices",
+          "name": "supabase/postgres-best-practices",
+          "publisher": "supabase",
+          "trustLevel": "official",
+          "status": "unreviewed",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "clickhouse-clickhouse-best-practices",
+          "name": "clickhouse/clickhouse-best-practices",
+          "publisher": "clickhouse",
+          "trustLevel": "official",
+          "status": "unreviewed",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "coreyhaines31-analytics-tracking",
+          "name": "coreyhaines31/analytics-tracking",
+          "publisher": "coreyhaines31",
+          "trustLevel": "curated",
+          "status": "unreviewed",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "google-cloud-bigquery-basics",
+          "name": "google/cloud/bigquery-basics",
+          "publisher": "google",
+          "trustLevel": "curated",
+          "status": "unreviewed",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "neondatabase-neon-postgres",
+          "name": "neondatabase/neon-postgres",
+          "publisher": "neondatabase",
+          "trustLevel": "official",
+          "status": "unreviewed",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "phuryn-metrics-dashboard",
+          "name": "phuryn/metrics-dashboard",
+          "publisher": "phuryn",
+          "trustLevel": "curated",
+          "status": "unreviewed",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "duckdb-query",
+          "name": "duckdb/query",
+          "publisher": "duckdb",
+          "trustLevel": "official",
+          "status": "unreviewed",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "googleworkspace-gws-sheets",
+          "name": "googleworkspace/gws-sheets",
+          "publisher": "googleworkspace",
+          "trustLevel": "official",
+          "status": "unreviewed",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "duckdb-read-file",
+          "name": "duckdb/read-file",
+          "publisher": "duckdb",
+          "trustLevel": "official",
+          "status": "unreviewed",
+          "rubric": "relevant | borderline | not-relevant"
+        }
+      ]
+    },
+    {
+      "role": "engineer",
+      "topSkillCount": 10,
+      "distinctPublishersInFirstFive": 4,
+      "trustedShare": 1,
+      "riskFlagShare": 0.3,
+      "checks": {
+        "enoughTopSkills": true,
+        "publisherDiversity": true,
+        "trustedShare": true,
+        "riskShare": true
+      },
+      "reviewSummary": {
+        "reviewedCount": 0,
+        "queueSize": 10,
+        "relevantCount": 0,
+        "borderlineCount": 0,
+        "notRelevantCount": 0
+      },
+      "reviewQueue": [
+        {
+          "slug": "cloudflare-workers-best-practices",
+          "name": "cloudflare/workers-best-practices",
+          "publisher": "cloudflare",
+          "trustLevel": "official",
+          "status": "unreviewed",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "cloudflare-wrangler",
+          "name": "cloudflare/wrangler",
+          "publisher": "cloudflare",
+          "trustLevel": "official",
+          "status": "unreviewed",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "openai-gh-fix-ci",
+          "name": "openai/gh-fix-ci",
+          "publisher": "openai",
+          "trustLevel": "official",
+          "status": "unreviewed",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "netlify-netlify-functions",
+          "name": "netlify/netlify-functions",
+          "publisher": "netlify",
+          "trustLevel": "official",
+          "status": "unreviewed",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "anthropics-mcp-builder",
+          "name": "anthropics/mcp-builder",
+          "publisher": "anthropics",
+          "trustLevel": "official",
+          "status": "unreviewed",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "anthropics-webapp-testing",
+          "name": "anthropics/webapp-testing",
+          "publisher": "anthropics",
+          "trustLevel": "official",
+          "status": "unreviewed",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "hashicorp-terraform-search-import",
+          "name": "hashicorp/terraform-search-import",
+          "publisher": "hashicorp",
+          "trustLevel": "official",
+          "status": "unreviewed",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "microsoft-copilot-sdk",
+          "name": "microsoft/copilot-sdk",
+          "publisher": "microsoft",
+          "trustLevel": "official",
+          "status": "unreviewed",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "vercel-labs-next-best-practices",
+          "name": "vercel-labs/next-best-practices",
+          "publisher": "vercel-labs",
+          "trustLevel": "official",
+          "status": "unreviewed",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "anthropics-frontend-design",
+          "name": "anthropics/frontend-design",
+          "publisher": "anthropics",
+          "trustLevel": "official",
+          "status": "unreviewed",
+          "rubric": "relevant | borderline | not-relevant"
+        }
+      ]
+    },
+    {
+      "role": "pm",
+      "topSkillCount": 10,
+      "distinctPublishersInFirstFive": 3,
+      "trustedShare": 0.9,
+      "riskFlagShare": 0.7,
+      "checks": {
+        "enoughTopSkills": true,
+        "publisherDiversity": true,
+        "trustedShare": true,
+        "riskShare": false
+      },
+      "reviewSummary": {
+        "reviewedCount": 10,
+        "queueSize": 10,
+        "relevantCount": 8,
+        "borderlineCount": 2,
+        "notRelevantCount": 0
+      },
+      "reviewQueue": [
+        {
+          "slug": "bjesuiter-prd",
+          "name": "bjesuiter/prd",
+          "publisher": "bjesuiter",
+          "trustLevel": "untrusted",
+          "status": "relevant",
+          "note": "PRD workflow is directly relevant; source needs security review.",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "deanpeters-roadmap-planning",
+          "name": "deanpeters/roadmap-planning",
+          "publisher": "deanpeters",
+          "trustLevel": "curated",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "deanpeters-opportunity-solution-tree",
+          "name": "deanpeters/opportunity-solution-tree",
+          "publisher": "deanpeters",
+          "trustLevel": "curated",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "deanpeters-product-strategy-session",
+          "name": "deanpeters/product-strategy-session",
+          "publisher": "deanpeters",
+          "trustLevel": "curated",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "phuryn-create-prd",
+          "name": "phuryn/create-prd",
+          "publisher": "phuryn",
+          "trustLevel": "curated",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "googleworkspace-gws-docs",
+          "name": "googleworkspace/gws-docs",
+          "publisher": "googleworkspace",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "firecrawl-firecrawl-build",
+          "name": "firecrawl/firecrawl-build",
+          "publisher": "firecrawl",
+          "trustLevel": "official",
+          "status": "borderline",
+          "note": "Useful for research workflows but implementation-oriented.",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "microsoft-github-issue-creator",
+          "name": "microsoft/github-issue-creator",
+          "publisher": "microsoft",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "anthropics-doc-coauthoring",
+          "name": "anthropics/doc-coauthoring",
+          "publisher": "anthropics",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "anthropics-internal-comms",
+          "name": "anthropics/internal-comms",
+          "publisher": "anthropics",
+          "trustLevel": "official",
+          "status": "borderline",
+          "note": "Useful for stakeholder updates, not a core PM workflow.",
+          "rubric": "relevant | borderline | not-relevant"
+        }
+      ]
+    },
+    {
+      "role": "designer",
+      "topSkillCount": 10,
+      "distinctPublishersInFirstFive": 5,
+      "trustedShare": 1,
+      "riskFlagShare": 0.5,
+      "checks": {
+        "enoughTopSkills": true,
+        "publisherDiversity": true,
+        "trustedShare": true,
+        "riskShare": false
+      },
+      "reviewSummary": {
+        "reviewedCount": 10,
+        "queueSize": 10,
+        "relevantCount": 10,
+        "borderlineCount": 0,
+        "notRelevantCount": 0
+      },
+      "reviewQueue": [
+        {
+          "slug": "anthropics-brand-guidelines",
+          "name": "anthropics/brand-guidelines",
+          "publisher": "anthropics",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "figma-figma-generate-design",
+          "name": "figma/figma-generate-design",
+          "publisher": "figma",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "deanpeters-storyboard",
+          "name": "deanpeters/storyboard",
+          "publisher": "deanpeters",
+          "trustLevel": "curated",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "ibelick-ui-skills",
+          "name": "ibelick/ui-skills",
+          "publisher": "ibelick",
+          "trustLevel": "curated",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "openai-figma",
+          "name": "openai/figma",
+          "publisher": "openai",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "ehmo-platform-design-skills",
+          "name": "ehmo/platform-design-skills",
+          "publisher": "ehmo",
+          "trustLevel": "curated",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "microsoft-frontend-design-review",
+          "name": "microsoft/frontend-design-review",
+          "publisher": "microsoft",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "anthropics-frontend-design",
+          "name": "anthropics/frontend-design",
+          "publisher": "anthropics",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "anthropics-theme-factory",
+          "name": "anthropics/theme-factory",
+          "publisher": "anthropics",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "anthropics-canvas-design",
+          "name": "anthropics/canvas-design",
+          "publisher": "anthropics",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        }
+      ]
+    },
+    {
+      "role": "marketer",
+      "topSkillCount": 10,
+      "distinctPublishersInFirstFive": 4,
+      "trustedShare": 1,
+      "riskFlagShare": 0.7,
+      "checks": {
+        "enoughTopSkills": true,
+        "publisherDiversity": true,
+        "trustedShare": true,
+        "riskShare": false
+      },
+      "reviewSummary": {
+        "reviewedCount": 10,
+        "queueSize": 10,
+        "relevantCount": 8,
+        "borderlineCount": 2,
+        "notRelevantCount": 0
+      },
+      "reviewQueue": [
+        {
+          "slug": "firecrawl-firecrawl-build-search",
+          "name": "firecrawl/firecrawl-build-search",
+          "publisher": "firecrawl",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "anthropics-internal-comms",
+          "name": "anthropics/internal-comms",
+          "publisher": "anthropics",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "sanity-io-seo-aeo-best-practices",
+          "name": "sanity-io/seo-aeo-best-practices",
+          "publisher": "sanity-io",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "typefully-typefully",
+          "name": "typefully/typefully",
+          "publisher": "typefully",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "anthropics-canvas-design",
+          "name": "anthropics/canvas-design",
+          "publisher": "anthropics",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "anthropics-frontend-design",
+          "name": "anthropics/frontend-design",
+          "publisher": "anthropics",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "anthropics-theme-factory",
+          "name": "anthropics/theme-factory",
+          "publisher": "anthropics",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "googleworkspace-gws-docs",
+          "name": "googleworkspace/gws-docs",
+          "publisher": "googleworkspace",
+          "trustLevel": "official",
+          "status": "borderline",
+          "note": "General document tooling rather than a marketing-specific workflow.",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "googleworkspace-gws-slides",
+          "name": "googleworkspace/gws-slides",
+          "publisher": "googleworkspace",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "anthropics-doc-coauthoring",
+          "name": "anthropics/doc-coauthoring",
+          "publisher": "anthropics",
+          "trustLevel": "official",
+          "status": "borderline",
+          "note": "Useful for copy collaboration but not a primary marketing workflow.",
+          "rubric": "relevant | borderline | not-relevant"
+        }
+      ]
+    },
+    {
+      "role": "ops",
+      "topSkillCount": 10,
+      "distinctPublishersInFirstFive": 3,
+      "trustedShare": 0.9,
+      "riskFlagShare": 0.3,
+      "checks": {
+        "enoughTopSkills": true,
+        "publisherDiversity": true,
+        "trustedShare": true,
+        "riskShare": true
+      },
+      "reviewSummary": {
+        "reviewedCount": 0,
+        "queueSize": 10,
+        "relevantCount": 0,
+        "borderlineCount": 0,
+        "notRelevantCount": 0
+      },
+      "reviewQueue": [
+        {
+          "slug": "cloudflare-wrangler",
+          "name": "cloudflare/wrangler",
+          "publisher": "cloudflare",
+          "trustLevel": "official",
+          "status": "unreviewed",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "hashicorp-run-acceptance-tests",
+          "name": "hashicorp/run-acceptance-tests",
+          "publisher": "hashicorp",
+          "trustLevel": "official",
+          "status": "unreviewed",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "hashicorp-terraform-search-import",
+          "name": "hashicorp/terraform-search-import",
+          "publisher": "hashicorp",
+          "trustLevel": "official",
+          "status": "unreviewed",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "cloudflare-workers-best-practices",
+          "name": "cloudflare/workers-best-practices",
+          "publisher": "cloudflare",
+          "trustLevel": "official",
+          "status": "unreviewed",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "openai-gh-fix-ci",
+          "name": "openai/gh-fix-ci",
+          "publisher": "openai",
+          "trustLevel": "official",
+          "status": "unreviewed",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "netlify-netlify-functions",
+          "name": "netlify/netlify-functions",
+          "publisher": "netlify",
+          "trustLevel": "official",
+          "status": "unreviewed",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "anthropics-mcp-builder",
+          "name": "anthropics/mcp-builder",
+          "publisher": "anthropics",
+          "trustLevel": "official",
+          "status": "unreviewed",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "anthropics-webapp-testing",
+          "name": "anthropics/webapp-testing",
+          "publisher": "anthropics",
+          "trustLevel": "official",
+          "status": "unreviewed",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "cloudflare-cloudflare",
+          "name": "cloudflare/cloudflare",
+          "publisher": "cloudflare",
+          "trustLevel": "official",
+          "status": "unreviewed",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "sickn33-devops-deploy",
+          "name": "sickn33/devops-deploy",
+          "publisher": "sickn33",
+          "trustLevel": "untrusted",
+          "status": "unreviewed",
+          "rubric": "relevant | borderline | not-relevant"
+        }
+      ]
+    },
+    {
+      "role": "researcher",
+      "topSkillCount": 10,
+      "distinctPublishersInFirstFive": 3,
+      "trustedShare": 1,
+      "riskFlagShare": 0.6,
+      "checks": {
+        "enoughTopSkills": true,
+        "publisherDiversity": true,
+        "trustedShare": true,
+        "riskShare": false
+      },
+      "reviewSummary": {
+        "reviewedCount": 10,
+        "queueSize": 10,
+        "relevantCount": 9,
+        "borderlineCount": 1,
+        "notRelevantCount": 0
+      },
+      "reviewQueue": [
+        {
+          "slug": "anthropics-pdf",
+          "name": "anthropics/pdf",
+          "publisher": "anthropics",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "duckdb-read-file",
+          "name": "duckdb/read-file",
+          "publisher": "duckdb",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "googleworkspace-gws-docs",
+          "name": "googleworkspace/gws-docs",
+          "publisher": "googleworkspace",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "anthropics-doc-coauthoring",
+          "name": "anthropics/doc-coauthoring",
+          "publisher": "anthropics",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "anthropics-docx",
+          "name": "anthropics/docx",
+          "publisher": "anthropics",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "anthropics-xlsx",
+          "name": "anthropics/xlsx",
+          "publisher": "anthropics",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "firecrawl-firecrawl-build-search",
+          "name": "firecrawl/firecrawl-build-search",
+          "publisher": "firecrawl",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "anthropics-pptx",
+          "name": "anthropics/pptx",
+          "publisher": "anthropics",
+          "trustLevel": "official",
+          "status": "borderline",
+          "note": "Most useful when research outputs require a presentation.",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "firecrawl-firecrawl-build-interact",
+          "name": "firecrawl/firecrawl-build-interact",
+          "publisher": "firecrawl",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "duckdb-query",
+          "name": "duckdb/query",
+          "publisher": "duckdb",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        }
+      ]
+    },
+    {
+      "role": "founder",
+      "topSkillCount": 10,
+      "distinctPublishersInFirstFive": 4,
+      "trustedShare": 0.8,
+      "riskFlagShare": 0.5,
+      "checks": {
+        "enoughTopSkills": true,
+        "publisherDiversity": true,
+        "trustedShare": true,
+        "riskShare": false
+      },
+      "reviewSummary": {
+        "reviewedCount": 10,
+        "queueSize": 10,
+        "relevantCount": 8,
+        "borderlineCount": 2,
+        "notRelevantCount": 0
+      },
+      "reviewQueue": [
+        {
+          "slug": "1kalin-market-research-agent",
+          "name": "1kalin/market-research-agent",
+          "publisher": "1kalin",
+          "trustLevel": "untrusted",
+          "status": "relevant",
+          "note": "Role-relevant, but source requires security review.",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "coreyhaines31-launch-strategy",
+          "name": "coreyhaines31/launch-strategy",
+          "publisher": "coreyhaines31",
+          "trustLevel": "curated",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "deanpeters-product-strategy-session",
+          "name": "deanpeters/product-strategy-session",
+          "publisher": "deanpeters",
+          "trustLevel": "curated",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "phuryn-gtm-strategy",
+          "name": "phuryn/gtm-strategy",
+          "publisher": "phuryn",
+          "trustLevel": "curated",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "coreyhaines31-pricing-strategy",
+          "name": "coreyhaines31/pricing-strategy",
+          "publisher": "coreyhaines31",
+          "trustLevel": "curated",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "firecrawl-firecrawl-build",
+          "name": "firecrawl/firecrawl-build",
+          "publisher": "firecrawl",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "googleworkspace-gws-docs",
+          "name": "googleworkspace/gws-docs",
+          "publisher": "googleworkspace",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "vercel-labs-next-best-practices",
+          "name": "vercel-labs/next-best-practices",
+          "publisher": "vercel-labs",
+          "trustLevel": "official",
+          "status": "borderline",
+          "note": "Useful to technical founders, not a general founder workflow.",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "anthropics-internal-comms",
+          "name": "anthropics/internal-comms",
+          "publisher": "anthropics",
+          "trustLevel": "official",
+          "status": "borderline",
+          "note": "Useful for operating cadence, not a core founder recommendation.",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "addyosmani-shipping-and-launch",
+          "name": "addyosmani/shipping-and-launch",
+          "publisher": "addyosmani",
+          "trustLevel": "untrusted",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        }
+      ]
+    },
+    {
+      "role": "sales",
+      "topSkillCount": 10,
+      "distinctPublishersInFirstFive": 3,
+      "trustedShare": 1,
+      "riskFlagShare": 0.6,
+      "checks": {
+        "enoughTopSkills": true,
+        "publisherDiversity": true,
+        "trustedShare": true,
+        "riskShare": false
+      },
+      "reviewSummary": {
+        "reviewedCount": 10,
+        "queueSize": 10,
+        "relevantCount": 8,
+        "borderlineCount": 2,
+        "notRelevantCount": 0
+      },
+      "reviewQueue": [
+        {
+          "slug": "coreyhaines31-sales-enablement",
+          "name": "coreyhaines31/sales-enablement",
+          "publisher": "coreyhaines31",
+          "trustLevel": "curated",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "phuryn-competitive-battlecard",
+          "name": "phuryn/competitive-battlecard",
+          "publisher": "phuryn",
+          "trustLevel": "curated",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "phuryn-value-prop-statements",
+          "name": "phuryn/value-prop-statements",
+          "publisher": "phuryn",
+          "trustLevel": "curated",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "googleworkspace-gws-docs",
+          "name": "googleworkspace/gws-docs",
+          "publisher": "googleworkspace",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "googleworkspace-gws-gmail",
+          "name": "googleworkspace/gws-gmail",
+          "publisher": "googleworkspace",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "googleworkspace-gws-slides",
+          "name": "googleworkspace/gws-slides",
+          "publisher": "googleworkspace",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "coreyhaines31-pricing-strategy",
+          "name": "coreyhaines31/pricing-strategy",
+          "publisher": "coreyhaines31",
+          "trustLevel": "curated",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "anthropics-docx",
+          "name": "anthropics/docx",
+          "publisher": "anthropics",
+          "trustLevel": "official",
+          "status": "borderline",
+          "note": "Helpful for proposals but not sales-specific.",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "anthropics-pptx",
+          "name": "anthropics/pptx",
+          "publisher": "anthropics",
+          "trustLevel": "official",
+          "status": "borderline",
+          "note": "Helpful for pitches but not sales-specific.",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "coreyhaines31-email-sequence",
+          "name": "coreyhaines31/email-sequence",
+          "publisher": "coreyhaines31",
+          "trustLevel": "curated",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        }
+      ]
+    },
+    {
+      "role": "support",
+      "topSkillCount": 10,
+      "distinctPublishersInFirstFive": 5,
+      "trustedShare": 0.5,
+      "riskFlagShare": 0.9,
+      "checks": {
+        "enoughTopSkills": true,
+        "publisherDiversity": true,
+        "trustedShare": true,
+        "riskShare": false
+      },
+      "reviewSummary": {
+        "reviewedCount": 10,
+        "queueSize": 10,
+        "relevantCount": 8,
+        "borderlineCount": 2,
+        "notRelevantCount": 0
+      },
+      "reviewQueue": [
+        {
+          "slug": "porteden-email-gmail-outlook",
+          "name": "porteden/email-gmail-outlook",
+          "publisher": "porteden",
+          "trustLevel": "untrusted",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "lamelas-himalaya",
+          "name": "lamelas/himalaya",
+          "publisher": "lamelas",
+          "trustLevel": "untrusted",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "googleworkspace-gws-gmail",
+          "name": "googleworkspace/gws-gmail",
+          "publisher": "googleworkspace",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "anthropics-pdf",
+          "name": "anthropics/pdf",
+          "publisher": "anthropics",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "firecrawl-firecrawl-build-interact",
+          "name": "firecrawl/firecrawl-build-interact",
+          "publisher": "firecrawl",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "googleworkspace-gws-drive",
+          "name": "googleworkspace/gws-drive",
+          "publisher": "googleworkspace",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "anthropics-docx",
+          "name": "anthropics/docx",
+          "publisher": "anthropics",
+          "trustLevel": "official",
+          "status": "borderline",
+          "note": "Useful for knowledge-base documents, not direct ticket handling.",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "googleworkspace-gws-gmail-reply",
+          "name": "googleworkspace/gws-gmail-reply",
+          "publisher": "googleworkspace",
+          "trustLevel": "untrusted",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "googleworkspace-gws-gmail-reply-all",
+          "name": "googleworkspace/gws-gmail-reply-all",
+          "publisher": "googleworkspace",
+          "trustLevel": "untrusted",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "freedomintelligence-bio-longitudinal-monitoring",
+          "name": "FreedomIntelligence/bio-longitudinal-monitoring",
+          "publisher": "FreedomIntelligence",
+          "trustLevel": "untrusted",
+          "status": "borderline",
+          "note": "Relevant only to healthcare support workflows.",
+          "rubric": "relevant | borderline | not-relevant"
+        }
+      ]
+    },
+    {
+      "role": "content-creator",
+      "topSkillCount": 10,
+      "distinctPublishersInFirstFive": 4,
+      "trustedShare": 1,
+      "riskFlagShare": 0.6,
+      "checks": {
+        "enoughTopSkills": true,
+        "publisherDiversity": true,
+        "trustedShare": true,
+        "riskShare": false
+      },
+      "reviewSummary": {
+        "reviewedCount": 10,
+        "queueSize": 10,
+        "relevantCount": 9,
+        "borderlineCount": 1,
+        "notRelevantCount": 0
+      },
+      "reviewQueue": [
+        {
+          "slug": "sanity-io-seo-aeo-best-practices",
+          "name": "sanity-io/seo-aeo-best-practices",
+          "publisher": "sanity-io",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "firecrawl-firecrawl-build-search",
+          "name": "firecrawl/firecrawl-build-search",
+          "publisher": "firecrawl",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "typefully-typefully",
+          "name": "typefully/typefully",
+          "publisher": "typefully",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "anthropics-canvas-design",
+          "name": "anthropics/canvas-design",
+          "publisher": "anthropics",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "anthropics-pptx",
+          "name": "anthropics/pptx",
+          "publisher": "anthropics",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "anthropics-frontend-design",
+          "name": "anthropics/frontend-design",
+          "publisher": "anthropics",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "anthropics-slack-gif-creator",
+          "name": "anthropics/slack-gif-creator",
+          "publisher": "anthropics",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "anthropics-theme-factory",
+          "name": "anthropics/theme-factory",
+          "publisher": "anthropics",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "sanity-io-content-experimentation-best-practices",
+          "name": "sanity-io/content-experimentation-best-practices",
+          "publisher": "sanity-io",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "googleworkspace-gws-gmail",
+          "name": "googleworkspace/gws-gmail",
+          "publisher": "googleworkspace",
+          "trustLevel": "official",
+          "status": "borderline",
+          "note": "Useful for distribution, not content creation itself.",
+          "rubric": "relevant | borderline | not-relevant"
+        }
+      ]
+    },
+    {
+      "role": "consultant",
+      "topSkillCount": 10,
+      "distinctPublishersInFirstFive": 3,
+      "trustedShare": 1,
+      "riskFlagShare": 0.8,
+      "checks": {
+        "enoughTopSkills": true,
+        "publisherDiversity": true,
+        "trustedShare": true,
+        "riskShare": false
+      },
+      "reviewSummary": {
+        "reviewedCount": 10,
+        "queueSize": 10,
+        "relevantCount": 10,
+        "borderlineCount": 0,
+        "notRelevantCount": 0
+      },
+      "reviewQueue": [
+        {
+          "slug": "googleworkspace-gws-docs",
+          "name": "googleworkspace/gws-docs",
+          "publisher": "googleworkspace",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "googleworkspace-gws-slides",
+          "name": "googleworkspace/gws-slides",
+          "publisher": "googleworkspace",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "anthropics-doc-coauthoring",
+          "name": "anthropics/doc-coauthoring",
+          "publisher": "anthropics",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "anthropics-docx",
+          "name": "anthropics/docx",
+          "publisher": "anthropics",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "duckdb-query",
+          "name": "duckdb/query",
+          "publisher": "duckdb",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "anthropics-pdf",
+          "name": "anthropics/pdf",
+          "publisher": "anthropics",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "anthropics-pptx",
+          "name": "anthropics/pptx",
+          "publisher": "anthropics",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "anthropics-theme-factory",
+          "name": "anthropics/theme-factory",
+          "publisher": "anthropics",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "duckdb-read-file",
+          "name": "duckdb/read-file",
+          "publisher": "duckdb",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        },
+        {
+          "slug": "anthropics-xlsx",
+          "name": "anthropics/xlsx",
+          "publisher": "anthropics",
+          "trustLevel": "official",
+          "status": "relevant",
+          "rubric": "relevant | borderline | not-relevant"
+        }
+      ]
+    }
+  ],
+  "reviews": {
+    "configuredCount": 96,
+    "topRecommendationReviewedCount": 90,
+    "topRecommendationQueueSize": 120
+  },
+  "warnings": [
+    "pm: riskShare needs review",
+    "designer: riskShare needs review",
+    "marketer: riskShare needs review",
+    "researcher: riskShare needs review",
+    "founder: riskShare needs review",
+    "sales: riskShare needs review",
+    "support: riskShare needs review",
+    "content-creator: riskShare needs review",
+    "consultant: riskShare needs review"
+  ],
+  "summary": {
+    "roleChecksPassing": 3,
+    "totalRoles": 12,
+    "warningCount": 9,
+    "reviewCoverage": 0.75,
+    "warningRoleReviewCoverage": 1
+  }
+}

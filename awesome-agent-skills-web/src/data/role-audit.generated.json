@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T02:39:32.573Z",
+  "generatedAt": "2026-07-21T05:22:34.049Z",
   "roles": [
     {
       "role": "data-analyst",
@@ -1869,29 +1869,6 @@
       "label": "Support",
       "topSkills": [
         {
-          "slug": "jernejcicorbin-hub-contact-discovery",
-          "name": "jernejcicorbin-hub/contact-discovery",
-          "publisher": "jernejcicorbin-hub",
-          "publisherSlug": "jernejcicorbin-hub",
-          "sourceType": "marketplace",
-          "trustLevel": "untrusted",
-          "jobs": [
-            "api-integration",
-            "data-extraction",
-            "deployment-ops",
-            "development-workflows",
-            "document-authoring",
-            "reporting",
-            "research-synthesis",
-            "testing-debugging",
-            "workflow-automation"
-          ],
-          "personas": [
-            "engineer",
-            "support"
-          ]
-        },
-        {
           "slug": "porteden-email-gmail-outlook",
           "name": "porteden/email-gmail-outlook",
           "publisher": "porteden",
@@ -2015,11 +1992,11 @@
           ]
         },
         {
-          "slug": "oreoandyuumi-mmxagent-guardian",
-          "name": "oreoandyuumi/mmxagent-guardian",
-          "publisher": "oreoandyuumi",
-          "publisherSlug": "oreoandyuumi",
-          "sourceType": "marketplace",
+          "slug": "googleworkspace-gws-gmail-reply",
+          "name": "googleworkspace/gws-gmail-reply",
+          "publisher": "googleworkspace",
+          "publisherSlug": "googleworkspace",
+          "sourceType": "github-discovery",
           "trustLevel": "untrusted",
           "jobs": [
             "data-extraction",
@@ -2032,16 +2009,35 @@
           ]
         },
         {
-          "slug": "prompt-security-soul-guardian",
-          "name": "prompt-security/soul-guardian",
-          "publisher": "prompt-security",
-          "publisherSlug": "prompt-security",
+          "slug": "googleworkspace-gws-gmail-reply-all",
+          "name": "googleworkspace/gws-gmail-reply-all",
+          "publisher": "googleworkspace",
+          "publisherSlug": "googleworkspace",
           "sourceType": "github-discovery",
           "trustLevel": "untrusted",
           "jobs": [
             "data-extraction",
             "document-authoring",
             "reporting",
+            "workflow-automation"
+          ],
+          "personas": [
+            "support"
+          ]
+        },
+        {
+          "slug": "freedomintelligence-bio-longitudinal-monitoring",
+          "name": "FreedomIntelligence/bio-longitudinal-monitoring",
+          "publisher": "FreedomIntelligence",
+          "publisherSlug": "freedomintelligence",
+          "sourceType": "github-discovery",
+          "trustLevel": "untrusted",
+          "jobs": [
+            "data-extraction",
+            "deployment-ops",
+            "document-authoring",
+            "reporting",
+            "ui-ux-design",
             "workflow-automation"
           ],
           "personas": [

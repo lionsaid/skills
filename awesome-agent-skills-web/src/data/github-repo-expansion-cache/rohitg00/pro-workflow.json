@@ -2,9 +2,9 @@
   "repository": "rohitg00/pro-workflow",
   "branch": "main",
   "defaultBranch": "main",
-  "pushedAt": "2026-07-13T20:24:49Z",
-  "scannedAt": "2026-07-15T02:27:36.782Z",
-  "treeSha": "5c313e2c7f4cbb27f6cf7b97e7d2928a26963918",
+  "pushedAt": "2026-07-20T20:24:12Z",
+  "scannedAt": "2026-07-21T03:10:13.513Z",
+  "treeSha": "7f7209d7215bced7d651209ef050c77953c298d6",
   "items": [
     {
       "repository": "rohitg00/pro-workflow",
@@ -15,7 +15,7 @@
       "description": "Claude Code learns from your corrections: self-correcting memory that compounds over 50+ sessions. Context engineering, parallel worktrees, agent teams, and 17 battle-tested skills.",
       "slug": "rohitg00-pro-workflow-collection",
       "isCollection": true,
-      "stars": 2614,
+      "stars": 2624,
       "skillPaths": [
         "skills/agent-teams/SKILL.md",
         "skills/auto-setup/SKILL.md",
@@ -25,8 +25,11 @@
         "skills/context-engineering/SKILL.md",
         "skills/context-optimizer/SKILL.md",
         "skills/cost-tracker/SKILL.md",
+        "skills/design-engineering/SKILL.md",
         "skills/deslop/SKILL.md",
+        "skills/domain-modeling/SKILL.md",
         "skills/file-watcher/SKILL.md",
+        "skills/improve-architecture/SKILL.md",
         "skills/insights/SKILL.md",
         "skills/learn-rule/SKILL.md",
         "skills/llm-council/SKILL.md",
@@ -42,16 +45,19 @@
         "skills/safe-mode/SKILL.md",
         "skills/session-handoff/SKILL.md",
         "skills/skill-optimizer/SKILL.md",
+        "skills/skill-router/SKILL.md",
         "skills/smart-commit/SKILL.md",
         "skills/sprint-status/SKILL.md",
         "skills/survey-generator/SKILL.md",
+        "skills/tdd/SKILL.md",
         "skills/thoroughness-scoring/SKILL.md",
         "skills/token-efficiency/SKILL.md",
         "skills/wiki-builder/SKILL.md",
         "skills/wiki-query/SKILL.md",
         "skills/wiki-research-loop/SKILL.md",
         "skills/wiki-viewer/SKILL.md",
-        "skills/wrap-up/SKILL.md"
+        "skills/wrap-up/SKILL.md",
+        "skills/writing-guidelines/SKILL.md"
       ]
     },
     {
@@ -129,6 +135,15 @@
     {
       "repository": "rohitg00/pro-workflow",
       "branch": "main",
+      "skillName": "design-engineering",
+      "path": "skills/design-engineering/SKILL.md",
+      "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/design-engineering/SKILL.md",
+      "description": "Apply interface craft when building or reviewing UI - motion, easing, timing, springs, component feel, and visual foundations. Use when building a component, animation, transition, hover or press state, modal, drawer, toast, or when polishing an interface so it feels right. Says \"make this feel better\", \"add an animation\", \"polish the UI\", \"review this component\".",
+      "slug": "rohitg00-design-engineering"
+    },
+    {
+      "repository": "rohitg00/pro-workflow",
+      "branch": "main",
       "skillName": "deslop",
       "path": "skills/deslop/SKILL.md",
       "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/deslop/SKILL.md",
@@ -138,11 +153,29 @@
     {
       "repository": "rohitg00/pro-workflow",
       "branch": "main",
+      "skillName": "domain-modeling",
+      "path": "skills/domain-modeling/SKILL.md",
+      "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/domain-modeling/SKILL.md",
+      "description": "Build the project's shared language and bounded contexts before writing code, so names stay consistent and the agent stops paraphrasing domain concepts. Produces a CONTEXT.md glossary and decision records. Use at the start of a project or feature, or when the codebase and the people describing it speak different languages.",
+      "slug": "rohitg00-domain-modeling"
+    },
+    {
+      "repository": "rohitg00/pro-workflow",
+      "branch": "main",
       "skillName": "file-watcher",
       "path": "skills/file-watcher/SKILL.md",
       "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/file-watcher/SKILL.md",
       "description": "Configure file watching hooks to auto-react to config changes, env file updates, and dependency modifications. Use to set up reactive workflows.",
       "slug": "rohitg00-file-watcher"
+    },
+    {
+      "repository": "rohitg00/pro-workflow",
+      "branch": "main",
+      "skillName": "improve-architecture",
+      "path": "skills/improve-architecture/SKILL.md",
+      "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/improve-architecture/SKILL.md",
+      "description": "Audit an area of the codebase and propose the smallest structural moves that improve it - untangle boundaries, kill duplication, fix seams, break cycles. Produces a prioritized plan and decision records, not a rewrite. Use when a codebase feels tangled, hard to change, or is becoming a ball of mud, or when asked to improve or refactor architecture.",
+      "slug": "rohitg00-improve-architecture"
     },
     {
       "repository": "rohitg00/pro-workflow",
@@ -282,6 +315,15 @@
     {
       "repository": "rohitg00/pro-workflow",
       "branch": "main",
+      "skillName": "skill-router",
+      "path": "skills/skill-router/SKILL.md",
+      "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/skill-router/SKILL.md",
+      "description": "The index of every pro-workflow skill and command, grouped by job, with when to reach for each and whether it is human-run or auto-triggered. Use when you are not sure which skill fits, want the full map, or ask \"what can this do\", \"which skill for X\", \"list the workflow\".",
+      "slug": "rohitg00-skill-router"
+    },
+    {
+      "repository": "rohitg00/pro-workflow",
+      "branch": "main",
       "skillName": "smart-commit",
       "path": "skills/smart-commit/SKILL.md",
       "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/smart-commit/SKILL.md",
@@ -305,6 +347,15 @@
       "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/survey-generator/SKILL.md",
       "description": "Compile a structured literature survey on any AI/ML topic. Agent curates a research bundle (taxonomy + sections + bibliography of real papers) from a public anchor resource, then a chosen LLM generates the survey artifact. Output target is a wiki page (markdown), not a one-off HTML — survey lands in `<wiki>/derived/surveys/<slug>.md` with full bibliography rows in `sources.md`. Provider-agnostic (Anthropic/OpenAI/OpenRouter/Fireworks/custom OpenAI-compat). Use when the user asks for a \"survey\", \"literature review\", \"lit review\", or \"deep dive\" on a technical topic.",
       "slug": "rohitg00-survey-generator"
+    },
+    {
+      "repository": "rohitg00/pro-workflow",
+      "branch": "main",
+      "skillName": "tdd",
+      "path": "skills/tdd/SKILL.md",
+      "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/tdd/SKILL.md",
+      "description": "Drive a change through a red-green-refactor loop - failing test first, minimal code to pass, then clean up. Use when implementing a feature or fixing a bug where correctness matters and a test can pin the behavior. Says \"TDD\", \"test first\", \"red green refactor\", \"write the test first\".",
+      "slug": "rohitg00-tdd"
     },
     {
       "repository": "rohitg00/pro-workflow",
@@ -368,8 +419,17 @@
       "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/wrap-up/SKILL.md",
       "description": "End-of-session ritual that audits changes, runs quality checks, captures learnings, and produces a session summary. Use when saying \"wrap up\", \"done for the day\", \"finish coding\", or ending a coding session.",
       "slug": "rohitg00-wrap-up"
+    },
+    {
+      "repository": "rohitg00/pro-workflow",
+      "branch": "main",
+      "skillName": "writing-guidelines",
+      "path": "skills/writing-guidelines/SKILL.md",
+      "url": "https://github.com/rohitg00/pro-workflow/blob/main/skills/writing-guidelines/SKILL.md",
+      "description": "Apply clear-writing standards to any prose the agent produces - READMEs, docs, UI copy, error messages, commit and PR text, release notes. Use when writing or editing documentation, interface copy, or any text a human will read. Says \"write the README\", \"improve this copy\", \"draft the docs\", \"word this error\".",
+      "slug": "rohitg00-writing-guidelines"
     }
   ],
-  "itemCount": 36,
+  "itemCount": 42,
   "lastStatus": "cache-fresh"
 }

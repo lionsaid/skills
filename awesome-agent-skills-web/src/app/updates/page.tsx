@@ -293,7 +293,7 @@ export async function UpdatesPageContent({ locale }: { locale: Locale }) {
           </div>
 
           <div className="relative space-y-8">
-            {timelineDays.map((day, dayIndex) => (
+            {timelineDays.map((day) => (
               <article
                 key={day.date}
                 className="grid gap-5 border-t border-[rgba(225,6,0,0.08)] pt-8 first:border-t-0 first:pt-0 lg:grid-cols-[220px_minmax(0,1fr)]"

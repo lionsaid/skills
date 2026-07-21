@@ -7,7 +7,7 @@ test.describe("catalog smoke", () => {
     await page.locator('button[aria-label="简体中文"]:visible').click();
     await expect(page).toHaveURL(/\/zh-CN\/$/);
 
-    await page.getByRole("link", { name: "浏览技能" }).click();
+    await page.getByRole("link", { name: "浏览", exact: true }).click();
     await expect(page).toHaveURL(/\/zh-CN\/skills\/?$/);
     await expect(page.getByPlaceholder("按 skill、公司或任务搜索")).toBeVisible();
     await expect(page.getByRole("button", { name: /English/i })).toBeVisible();
@@ -70,6 +70,19 @@ test.describe("catalog smoke", () => {
     await expect(page).toHaveURL(/\/zh-CN\/skills\/\?persona=data-analyst/);
   });
 
+  test("role recommendations explain why a skill was selected", async ({ page }) => {
+    await page.goto("/roles/data-analyst");
+
+    await expect(page.getByText(/curated starter pack|covers .* common tasks|officially maintained/i).first()).toBeVisible();
+  });
+
+  test("role recommendations exclude reviewed irrelevant skills", async ({ page }) => {
+    await page.goto("/roles/support");
+
+    await expect(page.getByText("jernejcicorbin-hub/contact-discovery")).toHaveCount(0);
+    await expect(page.getByText("googleworkspace/gws-gmail")).toBeVisible();
+  });
+
   test("Chinese footer keeps localized skills navigation", async ({ page }) => {
     await page.goto("/zh-CN/");
     await page.getByRole("link", { name: "开始找 skill" }).click();
@@ -115,13 +128,25 @@ test.describe("catalog smoke", () => {
 
     await page.goto("/skills");
     await expect(
-      page.getByText(/auto-loaded to page 1|已自动加载到第 1 页/i).first(),
+      page.getByText(/loaded 1 of .* pages|已加载第 1 \/ .* 页/i).first(),
     ).toBeVisible();
     await page.getByRole("button", { name: /load next page now/i }).click();
-    await expect(page).toHaveURL(/\/skills\/\?page=2/);
+    await expect(page).toHaveURL(/\/skills\/?\?page=2/);
     await expect(
-      page.getByText(/auto-loaded to page 2|已自动加载到第 2 页/i).first(),
+      page.getByText(/loaded 2 of .* pages|已加载第 2 \/ .* 页/i).first(),
     ).toBeVisible();
+  });
+
+  test("catalog restores search and pagination from a shared URL", async ({ page }) => {
+    await page.goto("/skills?q=code&page=2");
+
+    await expect(page.getByPlaceholder("Search by skill, company, or task")).toHaveValue("code");
+    await expect(page.getByText(/loaded 2 of .* pages/i).first()).toBeVisible();
+    await expect(page).toHaveURL(/\/skills\/?\?q=code&page=2/);
+
+    await page.reload();
+    await expect(page.getByPlaceholder("Search by skill, company, or task")).toHaveValue("code");
+    await expect(page).toHaveURL(/\/skills\/?\?q=code&page=2/);
   });
 
   test("mobile skills page shows back-to-search button after scrolling", async ({ page, isMobile }) => {

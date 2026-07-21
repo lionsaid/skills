@@ -2,9 +2,9 @@
   "repository": "ibelick/ui-skills",
   "branch": "main",
   "defaultBranch": "main",
-  "pushedAt": "2026-07-14T14:00:42Z",
-  "scannedAt": "2026-07-15T02:26:19.550Z",
-  "treeSha": "f0daa6bc309b154b29432eb5986d4c4279fb0cf8",
+  "pushedAt": "2026-07-20T19:24:23Z",
+  "scannedAt": "2026-07-21T03:09:07.049Z",
+  "treeSha": "92256d7f05d3e7403d6c56ce2e225a9d3e4b87f2",
   "items": [
     {
       "repository": "ibelick/ui-skills",
@@ -15,12 +15,13 @@
       "description": "Skills for Design Engineers",
       "slug": "ibelick-ui-skills-collection",
       "isCollection": true,
-      "stars": 3708,
+      "stars": 5674,
       "skillPaths": [
         "skills/baseline-ui/SKILL.md",
         "skills/fixing-accessibility/SKILL.md",
         "skills/fixing-metadata/SKILL.md",
         "skills/fixing-motion-performance/SKILL.md",
+        "skills/improve-ui/SKILL.md",
         "skills/ui-skills-root/SKILL.md"
       ]
     },
@@ -63,6 +64,15 @@
     {
       "repository": "ibelick/ui-skills",
       "branch": "main",
+      "skillName": "improve-ui",
+      "path": "skills/improve-ui/SKILL.md",
+      "url": "https://github.com/ibelick/ui-skills/blob/main/skills/improve-ui/SKILL.md",
+      "description": "Audit an existing product surface against its own design evidence, identify verified UI problems, and write self-contained implementation plans for another agent. Strictly read-only on product source. Use when asked to review, refine, improve, or clean up an interface without replacing its identity; investigate design-system drift; or prepare a design handoff.",
+      "slug": "ibelick-improve-ui"
+    },
+    {
+      "repository": "ibelick/ui-skills",
+      "branch": "main",
       "skillName": "ui-skills-root",
       "path": "skills/ui-skills-root/SKILL.md",
       "url": "https://github.com/ibelick/ui-skills/blob/main/skills/ui-skills-root/SKILL.md",
@@ -70,6 +80,6 @@
       "slug": "ibelick-ui-skills-root"
     }
   ],
-  "itemCount": 6,
+  "itemCount": 7,
   "lastStatus": "cache-fresh"
 }

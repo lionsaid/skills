@@ -1,8 +1,966 @@
 {
-  "generatedAt": "2026-07-15T02:39:29.986Z",
+  "generatedAt": "2026-07-21T05:06:39.751Z",
   "chunkIndex": 21,
-  "totalSkills": 8995,
+  "totalSkills": 9131,
   "skills": [
+    {
+      "slug": "k-dense-ai-markdown-mermaid-writing",
+      "name": "K-Dense-AI/markdown-mermaid-writing",
+      "description": "Comprehensive markdown and Mermaid diagram writing skill. Use when creating any scientific document, report, analysis, or visualization. Establishes text-based diagrams as the default documentation standard with full style guides (markdown + mermaid), 24 diagram type references, and 9 document templates.",
+      "publisher": "K-Dense-AI",
+      "publisherSlug": "k-dense-ai",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "k-dense-ai",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
+      "creatorHandle": "K-Dense-AI",
+      "hasPublisherLogo": false,
+      "stars": 31322,
+      "forks": 3124
+    },
+    {
+      "slug": "k-dense-ai-market-research-reports",
+      "name": "K-Dense-AI/market-research-reports",
+      "description": "Generate comprehensive market research reports (50+ pages) in the style of top consulting firms (McKinsey, BCG, Gartner). Features professional LaTeX formatting, extensive visual generation with scientific-schematics and generate-image, deep integration with research-lookup for data gathering, and multi-framework strategic analysis including Porter Five Forces, PESTLE, SWOT, TAM/SAM/SOM, and BCG Matrix.",
+      "publisher": "K-Dense-AI",
+      "publisherSlug": "k-dense-ai",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "k-dense-ai",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "data-analyst",
+        "designer",
+        "engineer",
+        "founder"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "design-critique",
+        "development-workflows",
+        "landing-pages",
+        "planning-roadmapping",
+        "presentation-building",
+        "reporting",
+        "research-synthesis",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
+      "creatorHandle": "K-Dense-AI",
+      "hasPublisherLogo": false,
+      "stars": 31322,
+      "forks": 3124
+    },
+    {
+      "slug": "k-dense-ai-markitdown",
+      "name": "K-Dense-AI/markitdown",
+      "description": "Convert files and office documents to Markdown. Supports PDF, DOCX, PPTX, XLSX, images (with OCR), audio (with transcription), HTML, CSV, JSON, XML, ZIP, YouTube URLs, EPubs and more.",
+      "publisher": "K-Dense-AI",
+      "publisherSlug": "k-dense-ai",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "k-dense-ai",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "data-analyst"
+      ],
+      "jobs": [
+        "dashboarding",
+        "data-extraction",
+        "document-authoring",
+        "presentation-building",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
+      "creatorHandle": "K-Dense-AI",
+      "hasPublisherLogo": false,
+      "stars": 31322,
+      "forks": 3124
+    },
+    {
+      "slug": "k-dense-ai-matchms",
+      "name": "K-Dense-AI/matchms",
+      "description": "Spectral similarity and compound identification for metabolomics. Use for comparing mass spectra, computing similarity scores (cosine, modified cosine), and identifying unknown compounds from spectral libraries. Best for metabolite identification, spectral matching, library searching. For full LC-MS/MS proteomics pipelines use pyopenms.",
+      "publisher": "K-Dense-AI",
+      "publisherSlug": "k-dense-ai",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "k-dense-ai",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [
+        "prd-specs",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
+      "creatorHandle": "K-Dense-AI",
+      "hasPublisherLogo": false,
+      "stars": 31322,
+      "forks": 3124
+    },
+    {
+      "slug": "k-dense-ai-matlab",
+      "name": "K-Dense-AI/matlab",
+      "description": "MATLAB and GNU Octave numerical computing for matrix operations, data analysis, visualization, and scientific computing. Use when writing MATLAB/Octave scripts for linear algebra, signal processing, image processing, differential equations, optimization, statistics, or creating scientific visualizations. Also use when the user needs help with MATLAB syntax, functions, or wants to convert between MATLAB and Python code. Scripts can be executed with MATLAB or the open-source GNU Octave interpreter.",
+      "publisher": "K-Dense-AI",
+      "publisherSlug": "k-dense-ai",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "k-dense-ai",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "data-analyst",
+        "engineer",
+        "support"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
+      "creatorHandle": "K-Dense-AI",
+      "hasPublisherLogo": false,
+      "stars": 31322,
+      "forks": 3124
+    },
+    {
+      "slug": "k-dense-ai-matplotlib",
+      "name": "K-Dense-AI/matplotlib",
+      "description": "Low-level plotting library for full customization. Use when you need fine-grained control over every plot element, creating novel plot types, or integrating with specific scientific workflows. Export to PNG/PDF/SVG for publication. For quick statistical plots use seaborn; for interactive plots use plotly; for publication-ready multi-panel figures with journal styling, use scientific-visualization.",
+      "publisher": "K-Dense-AI",
+      "publisherSlug": "k-dense-ai",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "k-dense-ai",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "prd-specs",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
+      "creatorHandle": "K-Dense-AI",
+      "hasPublisherLogo": false,
+      "stars": 31322,
+      "forks": 3124
+    },
+    {
+      "slug": "k-dense-ai-medchem",
+      "name": "K-Dense-AI/medchem",
+      "description": "Medicinal chemistry filters for compound triage. Apply drug-likeness rules (Lipinski, Veber, CNS), structural alert catalogs (PAINS, NIBR, ChEMBL), complexity metrics, and the medchem query language for library filtering.",
+      "publisher": "K-Dense-AI",
+      "publisherSlug": "k-dense-ai",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "k-dense-ai",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "data-analyst",
+        "engineer",
+        "support"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
+      "creatorHandle": "K-Dense-AI",
+      "hasPublisherLogo": false,
+      "stars": 31322,
+      "forks": 3124
+    },
+    {
+      "slug": "k-dense-ai-modal",
+      "name": "K-Dense-AI/modal",
+      "description": "Modal is a serverless cloud platform for running Python on demand, including on-demand GPUs. Use when deploying or serving AI/ML models, running GPU-accelerated workloads (training, fine-tuning, inference), serving web endpoints, scheduling batch jobs, or scaling Python code to cloud containers with the Modal SDK.",
+      "publisher": "K-Dense-AI",
+      "publisherSlug": "k-dense-ai",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "k-dense-ai",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
+      "creatorHandle": "K-Dense-AI",
+      "hasPublisherLogo": false,
+      "stars": 31322,
+      "forks": 3124
+    },
+    {
+      "slug": "k-dense-ai-molecular-dynamics",
+      "name": "K-Dense-AI/molecular-dynamics",
+      "description": "Run and analyze molecular dynamics simulations with OpenMM and MDAnalysis. Set up protein/small molecule systems, define force fields, run energy minimization and production MD, analyze trajectories (RMSD, RMSF, contact maps, free energy surfaces). For structural biology, drug binding, and biophysics.",
+      "publisher": "K-Dense-AI",
+      "publisherSlug": "k-dense-ai",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "k-dense-ai",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
+      "creatorHandle": "K-Dense-AI",
+      "hasPublisherLogo": false,
+      "stars": 31322,
+      "forks": 3124
+    },
+    {
+      "slug": "k-dense-ai-molfeat",
+      "name": "K-Dense-AI/molfeat",
+      "description": "Molecular featurization for ML (100+ featurizers). ECFP, MACCS, descriptors, pretrained models (ChemBERTa), convert SMILES to features, for QSAR and molecular ML.",
+      "publisher": "K-Dense-AI",
+      "publisherSlug": "k-dense-ai",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "k-dense-ai",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
+      "creatorHandle": "K-Dense-AI",
+      "hasPublisherLogo": false,
+      "stars": 31322,
+      "forks": 3124
+    },
+    {
+      "slug": "k-dense-ai-networkx",
+      "name": "K-Dense-AI/networkx",
+      "description": "Create, analyze, and visualize complex networks and graphs in Python with NetworkX. Use when working with network/graph data structures, computing graph algorithms (shortest paths, centrality, clustering), detecting communities, generating synthetic networks (random, scale-free, small-world), reading/writing graph file formats, or drawing network topologies. Common applications include social, biological, transportation, and citation networks.",
+      "publisher": "K-Dense-AI",
+      "publisherSlug": "k-dense-ai",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "k-dense-ai",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "content-production",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "testing-debugging",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
+      "creatorHandle": "K-Dense-AI",
+      "hasPublisherLogo": false,
+      "stars": 31322,
+      "forks": 3124
+    },
+    {
+      "slug": "k-dense-ai-neurokit2",
+      "name": "K-Dense-AI/neurokit2",
+      "description": "Comprehensive biosignal processing toolkit for analyzing physiological data including ECG, EEG, EDA, RSP, PPG, EMG, and EOG signals. Use this skill when processing cardiovascular signals, brain activity, electrodermal responses, respiratory patterns, muscle activity, or eye movements. Applicable for heart rate variability analysis, event-related potentials, complexity measures, autonomic nervous system assessment, psychophysiology research, and multi-modal physiological signal integration.",
+      "publisher": "K-Dense-AI",
+      "publisherSlug": "k-dense-ai",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "k-dense-ai",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "data-analyst"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "reporting",
+        "research-synthesis",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
+      "creatorHandle": "K-Dense-AI",
+      "hasPublisherLogo": false,
+      "stars": 31322,
+      "forks": 3124
+    },
+    {
+      "slug": "k-dense-ai-neuropixels-analysis",
+      "name": "K-Dense-AI/neuropixels-analysis",
+      "description": "Analyze Neuropixels extracellular recordings end-to-end with SpikeInterface. Covers loading SpikeGLX/Open Ephys/NWB data, preprocessing, drift/motion correction, Kilosort4 (and CPU) spike sorting, quality metrics, and unit curation (threshold-based, model-based UnitRefine, and AI-assisted visual review). Use when working with Neuropixels 1.0/2.0 recordings, spike sorting, or extracellular electrophysiology analysis.",
+      "publisher": "K-Dense-AI",
+      "publisherSlug": "k-dense-ai",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "k-dense-ai",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "data-analyst",
+        "designer"
+      ],
+      "jobs": [
+        "dashboarding",
+        "data-extraction",
+        "design-critique",
+        "presentation-building",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
+      "creatorHandle": "K-Dense-AI",
+      "hasPublisherLogo": false,
+      "stars": 31322,
+      "forks": 3124
+    },
+    {
+      "slug": "k-dense-ai-nextflow",
+      "name": "K-Dense-AI/nextflow",
+      "description": "Build, run, and debug Nextflow data pipelines and nf-core workflows end to end. Use whenever the user mentions Nextflow, nf-core, .nf files, nextflow.config, DSL2, processes/channels/operators, samplesheets, or wants to run a community pipeline (e.g. nf-core/rnaseq, nf-core/sarek), write or test a module/subworkflow with nf-test, configure executors/containers (Docker, Singularity/Apptainer, Conda, Wave), scale a workflow to HPC/SLURM or cloud (AWS Batch, Google Batch, Azure, Kubernetes), or debug a failed/-resume run. Make sure to use this skill for any reproducible scientific/bioinformatics workflow work even if the user does not say the word \"Nextflow\", and for authoring nf-core-compliant pipelines, modules, configs, and linting.",
+      "publisher": "K-Dense-AI",
+      "publisherSlug": "k-dense-ai",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "k-dense-ai",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "sales"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "presentation-building",
+        "reporting",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
+      "creatorHandle": "K-Dense-AI",
+      "hasPublisherLogo": false,
+      "stars": 31322,
+      "forks": 3124
+    },
+    {
+      "slug": "k-dense-ai-omero-integration",
+      "name": "K-Dense-AI/omero-integration",
+      "description": "Microscopy data management platform. Access images via Python, retrieve datasets, analyze pixels, manage ROIs/annotations, batch processing, for high-content screening and microscopy workflows.",
+      "publisher": "K-Dense-AI",
+      "publisherSlug": "k-dense-ai",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "k-dense-ai",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
+      "creatorHandle": "K-Dense-AI",
+      "hasPublisherLogo": false,
+      "stars": 31322,
+      "forks": 3124
+    },
+    {
+      "slug": "k-dense-ai-onekgpd",
+      "name": "K-Dense-AI/onekgpd",
+      "description": ">",
+      "publisher": "K-Dense-AI",
+      "publisherSlug": "k-dense-ai",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "k-dense-ai",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
+      "creatorHandle": "K-Dense-AI",
+      "hasPublisherLogo": false,
+      "stars": 31322,
+      "forks": 3124
+    },
+    {
+      "slug": "k-dense-ai-open-notebook",
+      "name": "K-Dense-AI/open-notebook",
+      "description": "Self-hosted, open-source alternative to Google NotebookLM for AI-powered research and document analysis. Use when organizing research materials into notebooks, ingesting diverse content sources (PDFs, videos, audio, web pages, Office documents), generating AI-powered notes and summaries, creating multi-speaker podcasts from research, chatting with documents using context-aware AI, searching across materials with full-text and vector search, or running custom content transformations. Supports 16+ AI providers including OpenAI, Anthropic, Google, Ollama, Groq, and Mistral with complete data privacy through self-hosting.",
+      "publisher": "K-Dense-AI",
+      "publisherSlug": "k-dense-ai",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "k-dense-ai",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "data-analyst",
+        "marketer"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "dashboarding",
+        "data-extraction",
+        "document-authoring",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
+      "creatorHandle": "K-Dense-AI",
+      "hasPublisherLogo": false,
+      "stars": 31322,
+      "forks": 3124
+    },
+    {
+      "slug": "k-dense-ai-opentrons-integration",
+      "name": "K-Dense-AI/opentrons-integration",
+      "description": "Official Opentrons Protocol API for OT-2 and Flex robots. Use when writing protocols specifically for Opentrons hardware with full access to Protocol API v2 features. Best for production Opentrons protocols, official API compatibility. For multi-vendor automation or broader equipment control use pylabrobot.",
+      "publisher": "K-Dense-AI",
+      "publisherSlug": "k-dense-ai",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "k-dense-ai",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "prd-specs",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
+      "creatorHandle": "K-Dense-AI",
+      "hasPublisherLogo": false,
+      "stars": 31322,
+      "forks": 3124
+    },
+    {
+      "slug": "k-dense-ai-optimize-for-gpu",
+      "name": "K-Dense-AI/optimize-for-gpu",
+      "description": "GPU-accelerate Python code using CuPy, Numba CUDA, Warp, cuDF, cuML, cuGraph, KvikIO, cuCIM, cuxfilter, cuVS, cuSpatial, and RAFT. Use whenever the user mentions GPU/CUDA/NVIDIA acceleration, or wants to speed up NumPy, pandas, scikit-learn, scikit-image, NetworkX, GeoPandas, or Faiss workloads. Covers physics simulation, differentiable rendering, mesh ray casting, particle systems (DEM/SPH/fluids), vector/similarity search, GPUDirect Storage file IO, interactive dashboards, geospatial analysis, medical imaging, and sparse eigensolvers. Also use when you see CPU-bound Python code (loops, large arrays, ML pipelines, graph analytics, image processing) that would benefit from GPU acceleration, even if not explicitly requested.",
+      "publisher": "K-Dense-AI",
+      "publisherSlug": "k-dense-ai",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "k-dense-ai",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "reporting",
+        "research-synthesis",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
+      "creatorHandle": "K-Dense-AI",
+      "hasPublisherLogo": false,
+      "stars": 31322,
+      "forks": 3124
+    },
+    {
+      "slug": "k-dense-ai-pacsomatic",
+      "name": "K-Dense-AI/pacsomatic",
+      "description": "Operator toolkit for nf-core/pacsomatic matched tumor-normal workflows from BAM inputs. Use this skill when the user needs to validate run inputs, generate pacsomatic-compliant samplesheets, prepare reproducible Nextflow launch artifacts, run locally or submit to schedulers (LSF/Slurm/PBS/SGE), and triage execution failures. Triggers on requests to run pacsomatic, prepare launch commands/scripts, perform dry-run checks, or troubleshoot pipeline startup and scheduler submission errors.",
+      "publisher": "K-Dense-AI",
+      "publisherSlug": "k-dense-ai",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "k-dense-ai",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer",
+        "founder",
+        "sales",
+        "support"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "landing-pages",
+        "planning-roadmapping",
+        "presentation-building",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
+      "creatorHandle": "K-Dense-AI",
+      "hasPublisherLogo": false,
+      "stars": 31322,
+      "forks": 3124
+    },
+    {
+      "slug": "k-dense-ai-paper-lookup",
+      "name": "K-Dense-AI/paper-lookup",
+      "description": "Search 10 academic paper databases via REST APIs for research papers, preprints, and scholarly articles. Covers PubMed, PMC (full text), bioRxiv, medRxiv, arXiv, OpenAlex, Crossref, Semantic Scholar, CORE, Unpaywall. Use when searching for papers, citations, DOI/PMID lookups, abstracts, full text, open access, preprints, citation graphs, author search, or any scholarly literature query. Triggers on mentions of any supported database or requests like \"find papers on X\" or \"look up this DOI\".",
+      "publisher": "K-Dense-AI",
+      "publisherSlug": "k-dense-ai",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "k-dense-ai",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "reporting",
+        "research-synthesis",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
+      "creatorHandle": "K-Dense-AI",
+      "hasPublisherLogo": false,
+      "stars": 31322,
+      "forks": 3124
+    },
+    {
+      "slug": "k-dense-ai-paperzilla",
+      "name": "K-Dense-AI/paperzilla",
+      "description": "Chat with your agent about projects, recommendations, and canonical papers in Paperzilla. Use when users ask for recent project recommendations, canonical paper details, markdown-based summaries, recommendation feedback, feed export, or Atom feed URLs.",
+      "publisher": "K-Dense-AI",
+      "publisherSlug": "k-dense-ai",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "k-dense-ai",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
+      "creatorHandle": "K-Dense-AI",
+      "hasPublisherLogo": false,
+      "stars": 31322,
+      "forks": 3124
+    },
+    {
+      "slug": "k-dense-ai-parallel-web",
+      "name": "K-Dense-AI/parallel-web",
+      "description": "All-in-one web toolkit powered by parallel-cli, with a strong emphasis on academic and scientific sources. Use this skill whenever the user needs to search the web, fetch/extract URL content, enrich data with web-sourced fields, or run deep research reports. Covers: web search (fast lookups, research, current info — prioritizing peer-reviewed papers, preprints, and scholarly databases), URL extraction (fetching pages, articles, academic PDFs), bulk data enrichment (adding fields to CSV/lists from the web), and deep research (exhaustive multi-source reports grounded in academic literature). Also handles setup, status checks, and result retrieval. Use this skill for ANY web-related task — even if the user doesn't mention 'parallel' or 'web' explicitly. If they want to look something up, fetch a page, enrich a dataset, investigate a topic, find academic papers, check citations, or review sc",
+      "publisher": "K-Dense-AI",
+      "publisherSlug": "k-dense-ai",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "k-dense-ai",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "data-analyst",
+        "engineer",
+        "marketer"
+      ],
+      "jobs": [
+        "api-integration",
+        "campaign-planning",
+        "content-production",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "landing-pages",
+        "reporting",
+        "research-synthesis",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
+      "creatorHandle": "K-Dense-AI",
+      "hasPublisherLogo": false,
+      "stars": 31322,
+      "forks": 3124
+    },
+    {
+      "slug": "k-dense-ai-pathml",
+      "name": "K-Dense-AI/pathml",
+      "description": "Full-featured computational pathology toolkit. Use for advanced WSI analysis including multiplexed immunofluorescence (CODEX, Vectra), nucleus segmentation, tissue graph construction, and ML model training on pathology data. Supports 160+ slide formats. For simple tile extraction from H&E slides, histolab may be simpler.",
+      "publisher": "K-Dense-AI",
+      "publisherSlug": "k-dense-ai",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "k-dense-ai",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "presentation-building",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
+      "creatorHandle": "K-Dense-AI",
+      "hasPublisherLogo": false,
+      "stars": 31322,
+      "forks": 3124
+    },
     {
       "slug": "k-dense-ai-pathway-enrichment",
       "name": "K-Dense-AI/pathway-enrichment",
@@ -43,8 +1001,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-pdf",
@@ -74,8 +1032,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-peer-review",
@@ -114,8 +1072,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-pennylane",
@@ -152,8 +1110,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-phylogenetics",
@@ -196,8 +1154,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-pi-agent",
@@ -235,8 +1193,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-polars-bio",
@@ -263,8 +1221,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-polars",
@@ -300,8 +1258,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-pptx-posters",
@@ -343,8 +1301,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-pptx",
@@ -385,8 +1343,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-primekg",
@@ -427,8 +1385,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-protocolsio-integration",
@@ -464,8 +1422,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-pufferlib",
@@ -495,8 +1453,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-pydeseq2",
@@ -538,8 +1496,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-pydicom",
@@ -582,8 +1540,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-pyhealth",
@@ -628,8 +1586,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-pylabrobot",
@@ -665,8 +1623,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-pymatgen",
@@ -702,8 +1660,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-pymc",
@@ -740,8 +1698,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-pymoo",
@@ -776,8 +1734,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-pyopenms",
@@ -814,8 +1772,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-pysam",
@@ -845,8 +1803,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-pytdc",
@@ -881,8 +1839,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-pytorch-lightning",
@@ -917,8 +1875,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-pyzotero",
@@ -961,8 +1919,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-qiskit",
@@ -998,8 +1956,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-qutip",
@@ -1036,8 +1994,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-rdkit",
@@ -1074,8 +2032,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-research-grants",
@@ -1116,8 +2074,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-research-lookup",
@@ -1159,8 +2117,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-rowan",
@@ -1196,8 +2154,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-scanpy",
@@ -1237,8 +2195,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-scholar-evaluation",
@@ -1276,8 +2234,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-scientific-brainstorming",
@@ -1315,8 +2273,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-scientific-critical-thinking",
@@ -1364,8 +2322,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-scientific-schematics",
@@ -1403,8 +2361,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-scientific-slides",
@@ -1445,8 +2403,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-scientific-visualization",
@@ -1490,8 +2448,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-scientific-writing",
@@ -1530,8 +2488,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-scikit-bio",
@@ -1572,8 +2530,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-scikit-learn",
@@ -1609,8 +2567,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-scikit-survival",
@@ -1651,8 +2609,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-scvelo",
@@ -1693,8 +2651,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-scvi-tools",
@@ -1731,8 +2689,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-seaborn",
@@ -1775,8 +2733,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-shap",
@@ -1811,8 +2769,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-simpy",
@@ -1848,8 +2806,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-stable-baselines3",
@@ -1885,8 +2843,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-statistical-analysis",
@@ -1930,8 +2888,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-statistical-power",
@@ -1978,8 +2936,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-statsmodels",
@@ -2022,8 +2980,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-sympy",
@@ -2058,8 +3016,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-tamarind",
@@ -2099,8 +3057,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-tiledbvcf",
@@ -2141,8 +3099,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-timesfm-forecasting",
@@ -2181,8 +3139,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-torch-geometric",
@@ -2218,8 +3176,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-torchdrug",
@@ -2255,8 +3213,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-transformers",
@@ -2290,8 +3248,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-treatment-plans",
@@ -2329,8 +3287,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-umap-learn",
@@ -2359,8 +3317,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-usfiscaldata",
@@ -2402,8 +3360,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-vaex",
@@ -2446,8 +3404,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-venue-templates",
@@ -2489,8 +3447,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-what-if-oracle",
@@ -2533,8 +3491,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-xlsx",
@@ -2576,8 +3534,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-zarr-python",
@@ -2613,13 +3571,13 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "k-dense-ai-scientific-agent-skills-collection",
       "name": "K-Dense-AI/scientific-agent-skills",
-      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 160,000+ scientists worldwide. 140 ready-to-use skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 160,000+ scientists worldwide. 148 ready-to-use skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
       "publisher": "K-Dense-AI",
       "publisherSlug": "k-dense-ai",
       "sectionTitle": "GitHub discovery",
@@ -2649,8 +3607,8 @@
       "creatorAvatarUrl": "https://github.com/K-Dense-AI.png?size=88",
       "creatorHandle": "K-Dense-AI",
       "hasPublisherLogo": false,
-      "stars": 30911,
-      "forks": 3103
+      "stars": 31322,
+      "forks": 3124
     },
     {
       "slug": "iofficeai-aionui-collection",
@@ -2686,8 +3644,8 @@
       "creatorAvatarUrl": "https://github.com/iOfficeAI.png?size=88",
       "creatorHandle": "iOfficeAI",
       "hasPublisherLogo": false,
-      "stars": 30058,
-      "forks": 3012
+      "stars": 30535,
+      "forks": 3054
     },
     {
       "slug": "googleworkspace-cli-collection",
@@ -2717,8 +3675,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-gws-calendar-agenda",
@@ -2745,8 +3703,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-gws-calendar-insert",
@@ -2773,8 +3731,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-gws-chat-send",
@@ -2801,8 +3759,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-gws-docs-write",
@@ -2829,8 +3787,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-gws-drive-upload",
@@ -2857,8 +3815,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-gws-events-renew",
@@ -2885,8 +3843,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-gws-events-subscribe",
@@ -2913,8 +3871,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-gws-gmail-forward",
@@ -2949,8 +3907,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-gws-gmail-read",
@@ -2979,8 +3937,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-gws-gmail-reply-all",
@@ -3014,8 +3972,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-gws-gmail-reply",
@@ -3049,8 +4007,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-gws-gmail-send",
@@ -3077,8 +4035,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-gws-gmail-triage",
@@ -3113,8 +4071,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-gws-gmail-watch",
@@ -3141,8 +4099,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-gws-meet",
@@ -3169,8 +4127,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-gws-modelarmor-create-template",
@@ -3197,8 +4155,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-gws-modelarmor-sanitize-prompt",
@@ -3225,8 +4183,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-gws-modelarmor-sanitize-response",
@@ -3260,8 +4218,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-gws-script-push",
@@ -3288,8 +4246,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-gws-script",
@@ -3316,8 +4274,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-gws-sheets-append",
@@ -3354,8 +4312,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-gws-sheets-read",
@@ -3392,8 +4350,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-gws-workflow-email-to-task",
@@ -3422,8 +4380,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-gws-workflow-file-announce",
@@ -3452,8 +4410,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-gws-workflow-meeting-prep",
@@ -3482,8 +4440,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-gws-workflow-standup-report",
@@ -3514,8 +4472,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-gws-workflow-weekly-digest",
@@ -3545,8 +4503,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-persona-content-creator",
@@ -3581,8 +4539,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-persona-customer-support",
@@ -3616,8 +4574,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-persona-event-coordinator",
@@ -3644,8 +4602,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-persona-exec-assistant",
@@ -3672,8 +4630,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-persona-hr-coordinator",
@@ -3702,8 +4660,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-persona-it-admin",
@@ -3730,8 +4688,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-persona-project-manager",
@@ -3758,8 +4716,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-persona-researcher",
@@ -3788,8 +4746,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-persona-sales-ops",
@@ -3824,8 +4782,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-persona-team-lead",
@@ -3852,8 +4810,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-recipe-backup-sheet-as-csv",
@@ -3895,8 +4853,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-recipe-batch-invite-to-event",
@@ -3931,8 +4889,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-recipe-block-focus-time",
@@ -3967,8 +4925,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-recipe-bulk-download-folder",
@@ -4003,8 +4961,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-recipe-collect-form-responses",
@@ -4039,8 +4997,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-recipe-compare-sheet-tabs",
@@ -4075,8 +5033,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-recipe-copy-sheet-for-new-month",
@@ -4117,8 +5075,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-recipe-create-classroom-course",
@@ -4153,8 +5111,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-recipe-create-doc-from-template",
@@ -4195,8 +5153,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-recipe-create-events-from-sheet",
@@ -4238,8 +5196,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-recipe-create-expense-tracker",
@@ -4281,8 +5239,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-recipe-create-feedback-form",
@@ -4317,8 +5275,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-recipe-create-gmail-filter",
@@ -4353,8 +5311,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-recipe-create-meet-space",
@@ -4389,8 +5347,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-recipe-create-presentation",
@@ -4426,8 +5384,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-recipe-create-shared-drive",
@@ -4462,8 +5420,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-recipe-create-task-list",
@@ -4498,8 +5456,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-recipe-create-vacation-responder",
@@ -4538,8 +5496,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-recipe-draft-email-from-doc",
@@ -4580,8 +5538,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-recipe-email-drive-link",
@@ -4616,8 +5574,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-recipe-find-free-time",
@@ -4658,8 +5616,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-recipe-find-large-files",
@@ -4694,8 +5652,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-recipe-forward-labeled-emails",
@@ -4731,8 +5689,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-recipe-generate-report-from-sheet",
@@ -4768,8 +5726,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-recipe-label-and-archive-emails",
@@ -4804,8 +5762,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-recipe-log-deal-update",
@@ -4850,8 +5808,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-recipe-organize-drive-folder",
@@ -4886,8 +5844,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-recipe-plan-weekly-schedule",
@@ -4922,8 +5880,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-recipe-post-mortem-setup",
@@ -4958,8 +5916,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-recipe-reschedule-meeting",
@@ -4994,8 +5952,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-recipe-review-meet-participants",
@@ -5030,8 +5988,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-recipe-review-overdue-tasks",
@@ -5066,8 +6024,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-recipe-save-email-attachments",
@@ -5102,8 +6060,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-recipe-save-email-to-doc",
@@ -5138,8 +6096,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-recipe-schedule-recurring-event",
@@ -5174,8 +6132,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-recipe-send-team-announcement",
@@ -5210,8 +6168,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-recipe-share-doc-and-notify",
@@ -5246,8 +6204,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-recipe-share-event-materials",
@@ -5282,8 +6240,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-recipe-share-folder-with-team",
@@ -5324,8 +6282,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-recipe-sync-contacts-to-sheet",
@@ -5367,8 +6325,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "googleworkspace-recipe-watch-drive-changes",
@@ -5403,8 +6361,8 @@
       "creatorAvatarUrl": "https://github.com/googleworkspace.png?size=88",
       "creatorHandle": "googleworkspace",
       "hasPublisherLogo": true,
-      "stars": 29693,
-      "forks": 1725
+      "stars": 29865,
+      "forks": 1742
     },
     {
       "slug": "vercel-labs-agent-skills-collection",
@@ -5439,8 +6397,8 @@
       "creatorAvatarUrl": "https://github.com/vercel-labs.png?size=88",
       "creatorHandle": "vercel-labs",
       "hasPublisherLogo": true,
-      "stars": 29069,
-      "forks": 2603
+      "stars": 29260,
+      "forks": 2630
     },
     {
       "slug": "vercel-labs-composition-patterns",
@@ -5475,8 +6433,8 @@
       "creatorAvatarUrl": "https://github.com/vercel-labs.png?size=88",
       "creatorHandle": "vercel-labs",
       "hasPublisherLogo": true,
-      "stars": 29069,
-      "forks": 2603
+      "stars": 29260,
+      "forks": 2630
     },
     {
       "slug": "vercel-labs-deploy-to-vercel",
@@ -5512,8 +6470,8 @@
       "creatorAvatarUrl": "https://github.com/vercel-labs.png?size=88",
       "creatorHandle": "vercel-labs",
       "hasPublisherLogo": true,
-      "stars": 29069,
-      "forks": 2603
+      "stars": 29260,
+      "forks": 2630
     },
     {
       "slug": "vercel-labs-react-best-practices",
@@ -5550,8 +6508,8 @@
       "creatorAvatarUrl": "https://github.com/vercel-labs.png?size=88",
       "creatorHandle": "vercel-labs",
       "hasPublisherLogo": true,
-      "stars": 29069,
-      "forks": 2603
+      "stars": 29260,
+      "forks": 2630
     },
     {
       "slug": "vercel-labs-react-native-skills",
@@ -5587,8 +6545,8 @@
       "creatorAvatarUrl": "https://github.com/vercel-labs.png?size=88",
       "creatorHandle": "vercel-labs",
       "hasPublisherLogo": true,
-      "stars": 29069,
-      "forks": 2603
+      "stars": 29260,
+      "forks": 2630
     },
     {
       "slug": "vercel-labs-react-view-transitions",
@@ -5628,8 +6586,8 @@
       "creatorAvatarUrl": "https://github.com/vercel-labs.png?size=88",
       "creatorHandle": "vercel-labs",
       "hasPublisherLogo": true,
-      "stars": 29069,
-      "forks": 2603
+      "stars": 29260,
+      "forks": 2630
     },
     {
       "slug": "vercel-labs-vercel-cli-with-tokens",
@@ -5665,8 +6623,8 @@
       "creatorAvatarUrl": "https://github.com/vercel-labs.png?size=88",
       "creatorHandle": "vercel-labs",
       "hasPublisherLogo": true,
-      "stars": 29069,
-      "forks": 2603
+      "stars": 29260,
+      "forks": 2630
     },
     {
       "slug": "vercel-labs-vercel-optimize",
@@ -5710,8 +6668,8 @@
       "creatorAvatarUrl": "https://github.com/vercel-labs.png?size=88",
       "creatorHandle": "vercel-labs",
       "hasPublisherLogo": true,
-      "stars": 29069,
-      "forks": 2603
+      "stars": 29260,
+      "forks": 2630
     },
     {
       "slug": "vercel-labs-web-design-guidelines",
@@ -5751,8 +6709,8 @@
       "creatorAvatarUrl": "https://github.com/vercel-labs.png?size=88",
       "creatorHandle": "vercel-labs",
       "hasPublisherLogo": true,
-      "stars": 29069,
-      "forks": 2603
+      "stars": 29260,
+      "forks": 2630
     },
     {
       "slug": "vercel-labs-writing-guidelines",
@@ -5788,8 +6746,8 @@
       "creatorAvatarUrl": "https://github.com/vercel-labs.png?size=88",
       "creatorHandle": "vercel-labs",
       "hasPublisherLogo": true,
-      "stars": 29069,
-      "forks": 2603
+      "stars": 29260,
+      "forks": 2630
     },
     {
       "slug": "jcodesmore-ai-website-cloner-template-collection",
@@ -5824,8 +6782,8 @@
       "creatorAvatarUrl": "https://github.com/JCodesMore.png?size=88",
       "creatorHandle": "JCodesMore",
       "hasPublisherLogo": false,
-      "stars": 28310,
-      "forks": 4154
+      "stars": 29147,
+      "forks": 4182
     },
     {
       "slug": "volcengine-openviking-collection",
@@ -5852,8 +6810,8 @@
       "creatorAvatarUrl": "https://github.com/volcengine.png?size=88",
       "creatorHandle": "volcengine",
       "hasPublisherLogo": false,
-      "stars": 26752,
-      "forks": 2092
+      "stars": 27028,
+      "forks": 2123
     },
     {
       "slug": "vercel-labs-skills-collection",
@@ -5888,8 +6846,8 @@
       "creatorAvatarUrl": "https://github.com/vercel-labs.png?size=88",
       "creatorHandle": "vercel-labs",
       "hasPublisherLogo": true,
-      "stars": 26147,
-      "forks": 2192
+      "stars": 26719,
+      "forks": 2248
     },
     {
       "slug": "vercel-labs-find-skills",
@@ -5924,8 +6882,8 @@
       "creatorAvatarUrl": "https://github.com/vercel-labs.png?size=88",
       "creatorHandle": "vercel-labs",
       "hasPublisherLogo": true,
-      "stars": 26147,
-      "forks": 2192
+      "stars": 26719,
+      "forks": 2248
     },
     {
       "slug": "mukul975-anthropic-cybersecurity-skills-collection",
@@ -5961,8 +6919,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-abusing-dpapi-for-credential-access",
@@ -5998,8 +6956,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-abusing-shadow-credentials-for-privesc",
@@ -6029,8 +6987,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-achieving-cmmc-level-2-compliance",
@@ -6057,8 +7015,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-acquiring-disk-image-with-dd-and-dcfldd",
@@ -6088,8 +7046,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-active-directory-acl-abuse",
@@ -6116,8 +7074,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-android-malware-with-apktool",
@@ -6154,8 +7112,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-api-gateway-access-logs",
@@ -6190,8 +7148,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-apt-group-with-mitre-navigator",
@@ -6219,8 +7177,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-azure-activity-logs-for-threats",
@@ -6257,8 +7215,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-bootkit-and-rootkit-samples",
@@ -6286,8 +7244,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-browser-forensics-with-hindsight",
@@ -6316,8 +7274,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-campaign-attribution-evidence",
@@ -6358,8 +7316,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-certificate-transparency-for-phishing",
@@ -6386,8 +7344,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-cloud-storage-access-patterns",
@@ -6414,8 +7372,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-cobalt-strike-beacon-configuration",
@@ -6444,8 +7402,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-cobaltstrike-malleable-c2-profiles",
@@ -6474,8 +7432,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-command-and-control-communication",
@@ -6503,8 +7461,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-cyber-kill-chain",
@@ -6531,8 +7489,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-disk-image-with-autopsy",
@@ -6570,8 +7528,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-dns-logs-for-exfiltration",
@@ -6607,8 +7565,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-docker-container-forensics",
@@ -6637,8 +7595,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-email-headers-for-phishing-investigation",
@@ -6667,8 +7625,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-ethereum-smart-contract-vulnerabilities",
@@ -6705,8 +7663,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-golang-malware-with-ghidra",
@@ -6743,8 +7701,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-heap-spray-exploitation",
@@ -6771,8 +7729,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-indicators-of-compromise",
@@ -6799,8 +7757,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-ios-app-security-with-objection",
@@ -6828,8 +7786,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-kubernetes-audit-logs",
@@ -6864,8 +7822,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-linux-audit-logs-for-intrusion",
@@ -6894,8 +7852,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-linux-elf-malware",
@@ -6932,8 +7890,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-linux-kernel-rootkits",
@@ -6962,8 +7920,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-linux-system-artifacts",
@@ -6993,8 +7951,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-lnk-file-and-jump-list-artifacts",
@@ -7021,8 +7979,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-macro-malware-in-office-documents",
@@ -7058,8 +8016,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-malicious-pdf-with-peepdf",
@@ -7100,8 +8058,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-malicious-url-with-urlscan",
@@ -7136,8 +8094,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-malware-behavior-with-cuckoo-sandbox",
@@ -7165,8 +8123,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-malware-family-relationships-with-malpedia",
@@ -7203,8 +8161,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-malware-persistence-with-autoruns",
@@ -7232,8 +8190,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-malware-sandbox-evasion-techniques",
@@ -7261,8 +8219,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-memory-dumps-with-volatility",
@@ -7297,8 +8255,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-memory-forensics-with-lime-and-volatility",
@@ -7327,8 +8285,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-mft-for-deleted-file-recovery",
@@ -7363,8 +8321,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-network-covert-channels-in-malware",
@@ -7392,8 +8350,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-network-flow-data-with-netflow",
@@ -7422,8 +8380,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-network-packets-with-scapy",
@@ -7450,8 +8408,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-network-traffic-for-incidents",
@@ -7487,8 +8445,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-network-traffic-of-malware",
@@ -7516,8 +8474,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-network-traffic-with-wireshark",
@@ -7544,8 +8502,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-office365-audit-logs-for-compromise",
@@ -7581,8 +8539,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-outlook-pst-for-email-forensics",
@@ -7611,8 +8569,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-packed-malware-with-upx-unpacker",
@@ -7640,8 +8598,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-pdf-malware-with-pdfid",
@@ -7678,8 +8636,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-persistence-mechanisms-in-linux",
@@ -7708,751 +8666,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-analyzing-powershell-empire-artifacts",
-      "name": "mukul975/analyzing-powershell-empire-artifacts",
-      "description": "Detect PowerShell Empire framework artifacts in Windows event logs by",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-analyzing-powershell-script-block-logging",
-      "name": "mukul975/analyzing-powershell-script-block-logging",
-      "description": "Parse Windows PowerShell Script Block Logs (Event ID 4104) from EVTX",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [
-        "data-extraction"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-analyzing-prefetch-files-for-execution-history",
-      "name": "mukul975/analyzing-prefetch-files-for-execution-history",
-      "description": "Parse Windows Prefetch files to determine program execution history including",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [
-        "data-extraction"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-analyzing-ransomware-encryption-mechanisms",
-      "name": "mukul975/analyzing-ransomware-encryption-mechanisms",
-      "description": "Analyzes encryption algorithms, key management, and file encryption",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-analyzing-ransomware-leak-site-intelligence",
-      "name": "mukul975/analyzing-ransomware-leak-site-intelligence",
-      "description": "Monitor and analyze ransomware group data leak sites (DLS) to track victim",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-analyzing-ransomware-network-indicators",
-      "name": "mukul975/analyzing-ransomware-network-indicators",
-      "description": "Identify ransomware network indicators including C2 beaconing patterns,",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-analyzing-ransomware-payment-wallets",
-      "name": "mukul975/analyzing-ransomware-payment-wallets",
-      "description": "Traces ransomware cryptocurrency payment flows using blockchain analysis",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "data-analyst"
-      ],
-      "jobs": [
-        "dashboarding",
-        "data-extraction",
-        "reporting",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-analyzing-sbom-for-supply-chain-vulnerabilities",
-      "name": "mukul975/analyzing-sbom-for-supply-chain-vulnerabilities",
-      "description": "Parses Software Bill of Materials (SBOM) in CycloneDX and SPDX JSON",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-analyzing-security-logs-with-splunk",
-      "name": "mukul975/analyzing-security-logs-with-splunk",
-      "description": "Leverages Splunk Enterprise Security and SPL (Search Processing Language)",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced",
-        "security"
-      ],
-      "personas": [],
-      "jobs": [
-        "research-synthesis"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-analyzing-slack-space-and-file-system-artifacts",
-      "name": "mukul975/analyzing-slack-space-and-file-system-artifacts",
-      "description": "Examine file system slack space, MFT entries, USN journal, and alternate",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-analyzing-supply-chain-malware-artifacts",
-      "name": "mukul975/analyzing-supply-chain-malware-artifacts",
-      "description": "Investigate supply chain attack artifacts including trojanized software",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced",
-        "security"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-analyzing-threat-actor-ttps-with-mitre-attack",
-      "name": "mukul975/analyzing-threat-actor-ttps-with-mitre-attack",
-      "description": "MITRE ATT&CK is a globally-accessible knowledge base of adversary tactics,",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced",
-        "security"
-      ],
-      "personas": [
-        "support"
-      ],
-      "jobs": [
-        "data-extraction",
-        "document-authoring",
-        "reporting",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-analyzing-threat-actor-ttps-with-mitre-navigator",
-      "name": "mukul975/analyzing-threat-actor-ttps-with-mitre-navigator",
-      "description": "Map advanced persistent threat (APT) group tactics, techniques, and",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced",
-        "security"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-analyzing-threat-intelligence-feeds",
-      "name": "mukul975/analyzing-threat-intelligence-feeds",
-      "description": "Analyzes structured and unstructured threat intelligence feeds to extract",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced",
-        "security"
-      ],
-      "personas": [],
-      "jobs": [
-        "data-extraction"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-analyzing-threat-landscape-with-misp",
-      "name": "mukul975/analyzing-threat-landscape-with-misp",
-      "description": "Analyze the threat landscape using MISP (Malware Information Sharing",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced",
-        "security"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-analyzing-tls-certificate-transparency-logs",
-      "name": "mukul975/analyzing-tls-certificate-transparency-logs",
-      "description": "Queries Certificate Transparency logs via crt.sh and pycrtsh to detect",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "data-analyst"
-      ],
-      "jobs": [
-        "dashboarding",
-        "data-extraction",
-        "reporting",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-analyzing-typosquatting-domains-with-dnstwist",
-      "name": "mukul975/analyzing-typosquatting-domains-with-dnstwist",
-      "description": "Detect typosquatting, homograph phishing, and brand impersonation domains",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "designer",
-        "marketer"
-      ],
-      "jobs": [
-        "campaign-planning",
-        "content-production",
-        "design-critique",
-        "landing-pages",
-        "presentation-building",
-        "reporting",
-        "research-synthesis",
-        "ui-ux-design",
-        "visual-assets",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-analyzing-uefi-bootkit-persistence",
-      "name": "mukul975/analyzing-uefi-bootkit-persistence",
-      "description": "Analyzes UEFI bootkit persistence mechanisms including firmware implants",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-analyzing-usb-device-connection-history",
-      "name": "mukul975/analyzing-usb-device-connection-history",
-      "description": "Investigate USB device connection history from Windows registry, event",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [
-        "development-workflows"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-analyzing-web-server-logs-for-intrusion",
-      "name": "mukul975/analyzing-web-server-logs-for-intrusion",
-      "description": "Parse Apache and Nginx access logs to detect SQL injection attempts,",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "data-analyst"
-      ],
-      "jobs": [
-        "dashboarding",
-        "data-extraction",
-        "reporting",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-analyzing-windows-amcache-artifacts",
-      "name": "mukul975/analyzing-windows-amcache-artifacts",
-      "description": "Parses and analyzes the Windows Amcache.hve registry hive to extract",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [
-        "data-extraction"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-analyzing-windows-event-logs-in-splunk",
-      "name": "mukul975/analyzing-windows-event-logs-in-splunk",
-      "description": "Analyzes Windows Security, System, and Sysmon event logs in Splunk to",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced",
-        "security"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-analyzing-windows-lnk-files-for-artifacts",
-      "name": "mukul975/analyzing-windows-lnk-files-for-artifacts",
-      "description": "Parse Windows LNK shortcut files to extract target paths, timestamps,",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [
-        "data-extraction"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-analyzing-windows-prefetch-with-python",
-      "name": "mukul975/analyzing-windows-prefetch-with-python",
-      "description": "Parse Windows Prefetch files using the windowsprefetch Python library",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [
-        "data-extraction"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     }
   ]
 }

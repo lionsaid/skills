@@ -2,9 +2,9 @@
   "repository": "sickn33/antigravity-awesome-skills",
   "branch": "main",
   "defaultBranch": "main",
-  "pushedAt": "2026-07-14T12:27:00Z",
-  "scannedAt": "2026-07-15T02:21:40.896Z",
-  "treeSha": "5e31f236726a988e833b39215d140b2173bf05c0",
+  "pushedAt": "2026-07-20T20:09:49Z",
+  "scannedAt": "2026-07-21T03:07:13.821Z",
+  "treeSha": "5833e0fa1e5f47873b39b3727b9c66640cbeade2",
   "items": [
     {
       "repository": "sickn33/antigravity-awesome-skills",
@@ -12,10 +12,10 @@
       "skillName": "antigravity-awesome-skills",
       "path": "README.md",
       "url": "https://github.com/sickn33/antigravity-awesome-skills",
-      "description": "Installable GitHub library of 1,900+ agentic skills for Claude Code, Cursor, Codex CLI, Autohand Code, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+      "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 1,969+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
       "slug": "sickn33-antigravity-awesome-skills-collection",
       "isCollection": true,
-      "stars": 43244,
+      "stars": 43650,
       "skillPaths": [
         "skills/00-andruia-consultant/SKILL.md",
         "skills/007/SKILL.md",
@@ -35,6 +35,7 @@
         "skills/accint-solve/SKILL.md",
         "skills/active-directory-attacks/SKILL.md",
         "skills/activecampaign-automation/SKILL.md",
+        "skills/ad-campaign-analyzer/SKILL.md",
         "skills/ad-creative/SKILL.md",
         "skills/add-app-clip/SKILL.md",
         "skills/address-github-comments/SKILL.md",
@@ -109,8 +110,10 @@
         "skills/anti-sycophancy/SKILL.md",
         "skills/antigravity-agent-manager/SKILL.md",
         "skills/antigravity-design-expert/SKILL.md",
+        "skills/antigravity-maintainer-batch-release/SKILL.md",
         "skills/antigravity-skill-orchestrator/SKILL.md",
         "skills/antigravity-workflows/SKILL.md",
+        "skills/anywrite/SKILL.md",
         "skills/aomi-transact/SKILL.md",
         "skills/api-analyzer/SKILL.md",
         "skills/api-and-interface-design/SKILL.md",
@@ -472,6 +475,7 @@
         "skills/commit/SKILL.md",
         "skills/community-building/SKILL.md",
         "skills/competitive-landscape/SKILL.md",
+        "skills/competitor-ad-intelligence/SKILL.md",
         "skills/competitor-alternatives/SKILL.md",
         "skills/competitor-analysis/SKILL.md",
         "skills/competitor-profiling/SKILL.md",
@@ -624,6 +628,7 @@
         "skills/devops-deploy/SKILL.md",
         "skills/devops-troubleshooter/SKILL.md",
         "skills/devrel-content/SKILL.md",
+        "skills/diagnose-android-overheating/SKILL.md",
         "skills/diagnosing-bugs/SKILL.md",
         "skills/diary/SKILL.md",
         "skills/differential-review/SKILL.md",
@@ -634,6 +639,7 @@
         "skills/distribute-skill-to-all-agents/SKILL.md",
         "skills/distributed-debugging-debug-trace/SKILL.md",
         "skills/distributed-tracing/SKILL.md",
+        "skills/ditto/SKILL.md",
         "skills/django-access-review/SKILL.md",
         "skills/django-perf-review/SKILL.md",
         "skills/django-pro/SKILL.md",
@@ -1097,6 +1103,7 @@
         "skills/marketing-ideas/SKILL.md",
         "skills/marketing-plan/SKILL.md",
         "skills/marketing-psychology/SKILL.md",
+        "skills/markstream-install/SKILL.md",
         "skills/matematico-tao/SKILL.md",
         "skills/mathguard/SKILL.md",
         "skills/matplotlib/SKILL.md",
@@ -1131,6 +1138,7 @@
         "skills/mobile-developer/SKILL.md",
         "skills/mobile-security-coder/SKILL.md",
         "skills/mock-hunter/SKILL.md",
+        "skills/modellix/SKILL.md",
         "skills/modern-javascript-patterns/SKILL.md",
         "skills/molykit/SKILL.md",
         "skills/monday-automation/SKILL.md",
@@ -1246,6 +1254,7 @@
         "skills/openapi-spec-generation/SKILL.md",
         "skills/openapi-spec-generator/SKILL.md",
         "skills/openclaw-github-repo-commander/SKILL.md",
+        "skills/optim-agent/SKILL.md",
         "skills/options-flow-analyzer/SKILL.md",
         "skills/oral-health-analyzer/SKILL.md",
         "skills/orchestrate-batch-refactor/SKILL.md",
@@ -1593,6 +1602,7 @@
         "skills/sred-project-organizer/SKILL.md",
         "skills/sred-work-summary/SKILL.md",
         "skills/ssh-penetration-testing/SKILL.md",
+        "skills/sshepherd/SKILL.md",
         "skills/stability-ai/SKILL.md",
         "skills/startup-analyst/SKILL.md",
         "skills/startup-business-analyst-business-case/SKILL.md",
@@ -2038,6 +2048,15 @@
       "url": "https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/activecampaign-automation/SKILL.md",
       "description": "Automate ActiveCampaign tasks via Rube MCP (Composio): manage contacts, tags, list subscriptions, automation enrollment, and tasks. Always search tools first for current schemas.",
       "slug": "sickn33-activecampaign-automation"
+    },
+    {
+      "repository": "sickn33/antigravity-awesome-skills",
+      "branch": "main",
+      "skillName": "ad-campaign-analyzer",
+      "path": "skills/ad-campaign-analyzer/SKILL.md",
+      "url": "https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/ad-campaign-analyzer/SKILL.md",
+      "description": "Analyze cross-channel campaign data, quantify uncertainty, and propose evidence-labeled budget tests without overstating causality.",
+      "slug": "sickn33-ad-campaign-analyzer"
     },
     {
       "repository": "sickn33/antigravity-awesome-skills",
@@ -2708,6 +2727,15 @@
     {
       "repository": "sickn33/antigravity-awesome-skills",
       "branch": "main",
+      "skillName": "antigravity-maintainer-batch-release",
+      "path": "skills/antigravity-maintainer-batch-release/SKILL.md",
+      "url": "https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/antigravity-maintainer-batch-release/SKILL.md",
+      "description": "Run protected AAS maintainer sweeps, PR merge batches, canonical sync, Core preview checks, and scripted releases. Use for repository maintenance, main alignment, CLI/MCP/Workbench changes, or release work; not ordinary contribution tasks.",
+      "slug": "sickn33-antigravity-maintainer-batch-release"
+    },
+    {
+      "repository": "sickn33/antigravity-awesome-skills",
+      "branch": "main",
       "skillName": "antigravity-skill-orchestrator",
       "path": "skills/antigravity-skill-orchestrator/SKILL.md",
       "url": "https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/antigravity-skill-orchestrator/SKILL.md",
@@ -2722,6 +2750,15 @@
       "url": "https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/antigravity-workflows/SKILL.md",
       "description": "Orchestrate multiple Antigravity skills through guided workflows for SaaS MVP delivery, security audits, AI agent builds, and browser QA.",
       "slug": "sickn33-antigravity-workflows"
+    },
+    {
+      "repository": "sickn33/antigravity-awesome-skills",
+      "branch": "main",
+      "skillName": "anywrite",
+      "path": "skills/anywrite/SKILL.md",
+      "url": "https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/anywrite/SKILL.md",
+      "description": "Compiled CLI covering all 52 endpoints of the Anytype local API — objects, properties, tags, search, chat, files — one binary, no MCP server needed.",
+      "slug": "sickn33-anywrite"
     },
     {
       "repository": "sickn33/antigravity-awesome-skills",
@@ -5975,6 +6012,15 @@
     {
       "repository": "sickn33/antigravity-awesome-skills",
       "branch": "main",
+      "skillName": "competitor-ad-intelligence",
+      "path": "skills/competitor-ad-intelligence/SKILL.md",
+      "url": "https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/competitor-ad-intelligence/SKILL.md",
+      "description": "Research public competitor ads, analyze creative patterns and landing pages, and produce an evidence-labeled strategic teardown.",
+      "slug": "sickn33-competitor-ad-intelligence"
+    },
+    {
+      "repository": "sickn33/antigravity-awesome-skills",
+      "branch": "main",
       "skillName": "competitor-alternatives",
       "path": "skills/competitor-alternatives/SKILL.md",
       "url": "https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/competitor-alternatives/SKILL.md",
@@ -7343,6 +7389,15 @@
     {
       "repository": "sickn33/antigravity-awesome-skills",
       "branch": "main",
+      "skillName": "diagnose-android-overheating",
+      "path": "skills/diagnose-android-overheating/SKILL.md",
+      "url": "https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/diagnose-android-overheating/SKILL.md",
+      "description": "Use when diagnosing Android overheating, idle heat, thermal throttling, charging or radio heat, or abnormal battery drain with read-only ADB evidence and approval gates.",
+      "slug": "sickn33-diagnose-android-overheating"
+    },
+    {
+      "repository": "sickn33/antigravity-awesome-skills",
+      "branch": "main",
       "skillName": "diagnosing-bugs",
       "path": "skills/diagnosing-bugs/SKILL.md",
       "url": "https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/diagnosing-bugs/SKILL.md",
@@ -7429,6 +7484,15 @@
       "url": "https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/distributed-tracing/SKILL.md",
       "description": "Implement distributed tracing with Jaeger and Tempo for request flow visibility across microservices.",
       "slug": "sickn33-distributed-tracing"
+    },
+    {
+      "repository": "sickn33/antigravity-awesome-skills",
+      "branch": "main",
+      "skillName": "ditto",
+      "path": "skills/ditto/SKILL.md",
+      "url": "https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/ditto/SKILL.md",
+      "description": "Use when a user asks to mine or update a private, evidence-backed work profile from local Claude Code, Codex, Copilot CLI, or OpenCode sessions.",
+      "slug": "sickn33-ditto"
     },
     {
       "repository": "sickn33/antigravity-awesome-skills",
@@ -11600,6 +11664,15 @@
     {
       "repository": "sickn33/antigravity-awesome-skills",
       "branch": "main",
+      "skillName": "markstream-install",
+      "path": "skills/markstream-install/SKILL.md",
+      "url": "https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/markstream-install/SKILL.md",
+      "description": "Install and configure Markstream streaming Markdown renderers for Vue, React, Svelte, Angular, Nuxt, Next.js, and Vue 2 applications.",
+      "slug": "sickn33-markstream-install"
+    },
+    {
+      "repository": "sickn33/antigravity-awesome-skills",
+      "branch": "main",
       "skillName": "matematico-tao",
       "path": "skills/matematico-tao/SKILL.md",
       "url": "https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/matematico-tao/SKILL.md",
@@ -11902,6 +11975,15 @@
       "url": "https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/mock-hunter/SKILL.md",
       "description": "Audit a live web page in five phases (catalog, click, trace, classify, report) to identify mock data, hardcoded values, LLM-generated metrics, and broken endpoints. Outputs a markdown report with REAL/MOCK/LLM/HARDCODED/BROKEN/UNKNOWN verdicts per visible value.",
       "slug": "sickn33-mock-hunter"
+    },
+    {
+      "repository": "sickn33/antigravity-awesome-skills",
+      "branch": "main",
+      "skillName": "modellix",
+      "path": "skills/modellix/SKILL.md",
+      "url": "https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/modellix/SKILL.md",
+      "description": "Integrate Modellix unified API/CLI for async AI image and video generation (model run --wait, task download).",
+      "slug": "sickn33-modellix"
     },
     {
       "repository": "sickn33/antigravity-awesome-skills",
@@ -12937,6 +13019,15 @@
       "url": "https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/openclaw-github-repo-commander/SKILL.md",
       "description": "7-stage super workflow for GitHub repo audit, cleanup, PR review, and competitor analysis",
       "slug": "sickn33-openclaw-github-repo-commander"
+    },
+    {
+      "repository": "sickn33/antigravity-awesome-skills",
+      "branch": "main",
+      "skillName": "optim-agent",
+      "path": "skills/optim-agent/SKILL.md",
+      "url": "https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/optim-agent/SKILL.md",
+      "description": "Guide agent-driven parameter optimization for configurable systems with measurable objectives. Use for HPO, inference tuning, simulations, or RL/control experiments.",
+      "slug": "sickn33-optim-agent"
     },
     {
       "repository": "sickn33/antigravity-awesome-skills",
@@ -16064,6 +16155,15 @@
     {
       "repository": "sickn33/antigravity-awesome-skills",
       "branch": "main",
+      "skillName": "sshepherd",
+      "path": "skills/sshepherd/SKILL.md",
+      "url": "https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/sshepherd/SKILL.md",
+      "description": "Zero-knowledge SSH ops CLI — server health checks, docker/systemd control, log tailing, Postgres introspection, and declarative deploys, without ever exposing credentials to the agent.",
+      "slug": "sickn33-sshepherd"
+    },
+    {
+      "repository": "sickn33/antigravity-awesome-skills",
+      "branch": "main",
       "skillName": "stability-ai",
       "path": "skills/stability-ai/SKILL.md",
       "url": "https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/stability-ai/SKILL.md",
@@ -18600,6 +18700,6 @@
       "slug": "sickn33-zustand-store-ts"
     }
   ],
-  "itemCount": 1859,
+  "itemCount": 1869,
   "lastStatus": "cache-fresh"
 }

@@ -14,7 +14,6 @@ const publicCatalogDir = path.join(publicDataDir, "skills-catalog");
 const classificationRulesPath = path.join(projectRoot, "config", "classification-rules.json");
 const skillOverridesPath = path.join(projectRoot, "config", "skill-overrides.json");
 const skillSourcesPath = path.join(projectRoot, "config", "skill-sources.json");
-const githubSkillReposPath = path.join(projectRoot, "config", "github-skill-repos.json");
 const publisherRulesPath = path.join(projectRoot, "config", "publisher-rules.json");
 const githubSkillRepoCachePath = path.join(outputDir, "github-repo-expansion.generated.json");
 const githubAvatarCachePath = path.join(outputDir, "github-avatars.generated.json");
@@ -201,7 +200,6 @@ function readSkillOverrides() {
 const classificationRules = readClassificationRules();
 const skillSources = readSkillSources();
 const skillOverrides = readSkillOverrides();
-const githubSkillReposSeed = readJson(githubSkillReposPath);
 const publisherRules = readJson(publisherRulesPath);
 const repoStatsBySlug = readRepoStatsBySlug();
 const sourcePriority = new Map(
@@ -959,29 +957,6 @@ function parseGithubRepoExpansion(items, source) {
   return skills;
 }
 
-function extractGithubRepositories(skills) {
-  return [
-    ...new Set(
-      skills
-        .map((skill) => {
-          const match = skill.url.match(/^https:\/\/github\.com\/([^/]+\/[^/]+)/i);
-          return match ? match[1] : null;
-        })
-        .filter(Boolean),
-    ),
-  ].sort();
-}
-
-function readGithubSkillRepoSeed() {
-  if (!Array.isArray(githubSkillReposSeed)) {
-    throw new Error("GitHub skill repo seed config must be an array.");
-  }
-
-  return githubSkillReposSeed.filter(
-    (value) => typeof value === "string" && /^[^/]+\/[^/]+$/.test(value),
-  );
-}
-
 function readGithubRepoExpansionCache() {
   try {
     const payload = readJson(githubSkillRepoCachePath);
@@ -989,22 +964,6 @@ function readGithubRepoExpansionCache() {
   } catch {
     return [];
   }
-}
-
-function writeGithubRepoExpansionCache(items) {
-  mkdirSync(outputDir, { recursive: true });
-  writeFileSync(
-    githubSkillRepoCachePath,
-    `${JSON.stringify(
-      {
-        generatedAt: new Date().toISOString(),
-        totalItems: items.length,
-        items,
-      },
-      null,
-      2,
-    )}\n`,
-  );
 }
 
 function readGithubAvatarCache() {
@@ -1037,54 +996,6 @@ function writeGithubAvatarCache(items) {
 function getGithubAvatarUrl(handle) {
   if (!handle) return null;
   return `https://github.com/${handle}.png?size=88`;
-}
-
-async function collectGithubRepoExpansionEntries(existingEntries, source) {
-  const seeded = readGithubSkillRepoSeed();
-  const autoDiscovered = extractGithubRepositories(existingEntries).slice(
-    0,
-    Math.max(0, source.maxRepositories - seeded.length),
-  );
-  const repositories = [...new Set([...seeded, ...autoDiscovered])].slice(0, source.maxRepositories);
-  const discoveredEntries = [];
-
-  for (const repository of repositories) {
-    const repoUrl = `https://github.com/${repository}`;
-
-    try {
-      const response = await fetch(repoUrl, {
-        headers: {
-          Accept: "text/html,application/xhtml+xml;q=0.9,*/*;q=0.1",
-          "User-Agent": "lionsaid-skills-web",
-        },
-      });
-
-      if (!response.ok) {
-        continue;
-      }
-
-      const html = await response.text();
-      const matches = html.matchAll(
-        /href="\/([^"/]+\/[^"/]+)\/blob\/[^"/]+\/skills\/([^"/]+)\/SKILL\.md"/gi,
-      );
-
-      for (const match of matches) {
-        const [, repoFullName, skillName] = match;
-
-        discoveredEntries.push({
-          repository: repoFullName,
-          skillName,
-          path: `skills/${skillName}/SKILL.md`,
-          url: `https://github.com/${repoFullName}/blob/main/skills/${skillName}/SKILL.md`,
-          description: `${source.descriptionFallback}: ${repoFullName}`,
-        });
-      }
-    } catch {
-      continue;
-    }
-  }
-
-  return discoveredEntries;
 }
 
 function mergeSkillRecords(existing, incoming) {

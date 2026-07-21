@@ -3,7 +3,6 @@ import roleDefinitionsData from "@/../config/role-definitions.json";
 import publisherRulesData from "@/../config/publisher-rules.json";
 import type {
   RoleDefinition,
-  Skill,
   SkillCatalogFilterState,
   SkillFilterKind,
   SkillSort,

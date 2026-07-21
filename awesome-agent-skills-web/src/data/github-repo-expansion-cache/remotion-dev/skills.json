@@ -2,9 +2,9 @@
   "repository": "remotion-dev/skills",
   "branch": "main",
   "defaultBranch": "main",
-  "pushedAt": "2026-07-11T12:51:33Z",
-  "scannedAt": "2026-07-15T02:25:43.932Z",
-  "treeSha": "8b1d51ade295b2d9bd22a8f07047d13c0740f275",
+  "pushedAt": "2026-07-20T16:18:50Z",
+  "scannedAt": "2026-07-21T03:09:31.454Z",
+  "treeSha": "8ea5e44b60c73a45aa77219ad3045fb47783e38b",
   "items": [
     {
       "repository": "remotion-dev/skills",
@@ -15,16 +15,18 @@
       "description": "Agent Skills",
       "slug": "remotion-dev-skills-collection",
       "isCollection": true,
-      "stars": 3955,
+      "stars": 4031,
       "skillPaths": [
         "skills/mediabunny/SKILL.md",
         "skills/remotion-best-practices/SKILL.md",
         "skills/remotion-captions/SKILL.md",
         "skills/remotion-create/SKILL.md",
+        "skills/remotion-docs/SKILL.md",
         "skills/remotion-interactivity/SKILL.md",
         "skills/remotion-markup/SKILL.md",
         "skills/remotion-render/SKILL.md",
-        "skills/remotion-saas/SKILL.md"
+        "skills/remotion-saas/SKILL.md",
+        "skills/remotion-upgrade/SKILL.md"
       ]
     },
     {
@@ -66,6 +68,15 @@
     {
       "repository": "remotion-dev/skills",
       "branch": "main",
+      "skillName": "remotion-docs",
+      "path": "skills/remotion-docs/SKILL.md",
+      "url": "https://github.com/remotion-dev/skills/blob/main/skills/remotion-docs/SKILL.md",
+      "description": "Search and fetch Remotion documentation pages",
+      "slug": "remotion-dev-remotion-docs"
+    },
+    {
+      "repository": "remotion-dev/skills",
+      "branch": "main",
       "skillName": "remotion-interactivity",
       "path": "skills/remotion-interactivity/SKILL.md",
       "url": "https://github.com/remotion-dev/skills/blob/main/skills/remotion-interactivity/SKILL.md",
@@ -98,8 +109,17 @@
       "url": "https://github.com/remotion-dev/skills/blob/main/skills/remotion-saas/SKILL.md",
       "description": "Building video apps with Remotion - framework, rendering and Player advice",
       "slug": "remotion-dev-remotion-saas"
+    },
+    {
+      "repository": "remotion-dev/skills",
+      "branch": "main",
+      "skillName": "remotion-upgrade",
+      "path": "skills/remotion-upgrade/SKILL.md",
+      "url": "https://github.com/remotion-dev/skills/blob/main/skills/remotion-upgrade/SKILL.md",
+      "description": "Upgrade Remotion, its related packages, compatible Mediabunny packages, and installed Remotion Agent Skills. Use when asked to upgrade or update a Remotion project.",
+      "slug": "remotion-dev-remotion-upgrade"
     }
   ],
-  "itemCount": 9,
+  "itemCount": 11,
   "lastStatus": "cache-fresh"
 }

@@ -4,7 +4,7 @@ import skillsData from "@/data/skills.generated.json";
 import jobAliasesData from "@/../config/job-aliases.json";
 import publisherRulesData from "@/../config/publisher-rules.json";
 import roleDefinitionsData from "@/../config/role-definitions.json";
-import type { PublisherSummary, RoleDefinition, Skill } from "@/lib/skill-types";
+import type { RoleDefinition, Skill } from "@/lib/skill-types";
 
 export type { PublisherSummary, RoleDefinition, Skill } from "@/lib/skill-types";
 

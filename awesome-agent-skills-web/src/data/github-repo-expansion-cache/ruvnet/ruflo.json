@@ -2,23 +2,21 @@
   "repository": "ruvnet/ruflo",
   "branch": "main",
   "defaultBranch": "main",
-  "pushedAt": "2026-07-14T20:53:27Z",
-  "scannedAt": "2026-07-15T02:21:29.940Z",
-  "treeSha": "5fb503480d2d7a747eb4a7c1c10e17df5f91ec05",
+  "pushedAt": "2026-07-20T23:24:06Z",
+  "scannedAt": "2026-07-21T03:07:04.315Z",
+  "treeSha": "26c35b59b40a0a95b286ccf5ac675a15edcc995f",
   "items": [
     {
       "repository": "ruvnet/ruflo",
       "branch": "main",
       "skillName": "ruflo",
-      "path": "README.md",
-      "url": "https://github.com/ruvnet/ruflo",
-      "description": "🌊 The leading agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
-      "slug": "ruvnet-ruflo-collection",
-      "isCollection": true,
-      "stars": 64438,
-      "skillPaths": []
+      "path": "SKILL.md",
+      "url": "https://github.com/ruvnet/ruflo/blob/main/SKILL.md",
+      "description": "Ruflo is a multi-agent orchestration platform for AI coding agents (Claude Code, Cursor, Codex, Copilot, Gemini, Amp, +12 more). Use this skill when the user wants to (1) install/init ruflo in a project, (2) run multi-agent swarms with hierarchical coordination, (3) use ruflo's 314+ MCP tools for memory, routing, hooks, sub-agents, or workflows, (4) check ruflo status/version/doctor health, or (5) discover which of ruflo's 30+ plugins fits their task.",
+      "slug": "ruvnet-ruflo"
     }
   ],
   "itemCount": 1,
-  "lastStatus": "cache-fresh"
+  "lastStatus": "cache-fresh",
+  "publicSkillCount": 1
 }

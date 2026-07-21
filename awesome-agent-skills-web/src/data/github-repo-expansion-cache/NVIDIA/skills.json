@@ -2,9 +2,9 @@
   "repository": "NVIDIA/skills",
   "branch": "main",
   "defaultBranch": "main",
-  "pushedAt": "2026-07-15T01:36:24Z",
-  "scannedAt": "2026-07-15T02:27:48.641Z",
-  "treeSha": "1700ebd31ba862df5b6992403764c989f2bda66b",
+  "pushedAt": "2026-07-20T21:43:09Z",
+  "scannedAt": "2026-07-21T03:10:15.613Z",
+  "treeSha": "6379b9ce5498d56626caa9e93a8c8a599f90046d",
   "items": [
     {
       "repository": "NVIDIA/skills",
@@ -15,7 +15,7 @@
       "description": "AI agent skills published by NVIDIA",
       "slug": "nvidia-skills-collection",
       "isCollection": true,
-      "stars": 2498,
+      "stars": 2610,
       "skillPaths": [
         "skills/accelerated-computing-cudf/SKILL.md",
         "skills/aiq-deploy/SKILL.md",
@@ -50,6 +50,66 @@
         "skills/digital-health-clinical-asr-eval/SKILL.md",
         "skills/digital-health-clinical-asr-finetune/SKILL.md",
         "skills/digital-health-clinical-asr-setup/SKILL.md",
+        "skills/doca-aes-gcm/SKILL.md",
+        "skills/doca-argp/SKILL.md",
+        "skills/doca-argus/SKILL.md",
+        "skills/doca-bare-metal-deployment/SKILL.md",
+        "skills/doca-bench-extension/SKILL.md",
+        "skills/doca-bench/SKILL.md",
+        "skills/doca-bf3-deployment/SKILL.md",
+        "skills/doca-bf4-deployment/SKILL.md",
+        "skills/doca-caps/SKILL.md",
+        "skills/doca-collectx-deployment/SKILL.md",
+        "skills/doca-comch/SKILL.md",
+        "skills/doca-comm-channel-admin/SKILL.md",
+        "skills/doca-common/SKILL.md",
+        "skills/doca-compress/SKILL.md",
+        "skills/doca-container-deployment/SKILL.md",
+        "skills/doca-debug/SKILL.md",
+        "skills/doca-devemu/SKILL.md",
+        "skills/doca-dma/SKILL.md",
+        "skills/doca-dms/SKILL.md",
+        "skills/doca-dpa-hl-tracer/SKILL.md",
+        "skills/doca-dpa/SKILL.md",
+        "skills/doca-dpdk-bridge/SKILL.md",
+        "skills/doca-erasure-coding/SKILL.md",
+        "skills/doca-eth/SKILL.md",
+        "skills/doca-firefly/SKILL.md",
+        "skills/doca-flow-dpa-perf/SKILL.md",
+        "skills/doca-flow-dpa-provider/SKILL.md",
+        "skills/doca-flow-grpc-server/SKILL.md",
+        "skills/doca-flow-perf/SKILL.md",
+        "skills/doca-flow-tune/SKILL.md",
+        "skills/doca-flow/SKILL.md",
+        "skills/doca-gpi/SKILL.md",
+        "skills/doca-gpunetio-ib-write-bw/SKILL.md",
+        "skills/doca-gpunetio-ib-write-lat/SKILL.md",
+        "skills/doca-gpunetio/SKILL.md",
+        "skills/doca-hardware-safety/SKILL.md",
+        "skills/doca-mgmt/SKILL.md",
+        "skills/doca-pcc-counters/SKILL.md",
+        "skills/doca-pcc-ztr-rttcc-algo/SKILL.md",
+        "skills/doca-pcc/SKILL.md",
+        "skills/doca-programming-guide/SKILL.md",
+        "skills/doca-public-knowledge-map/SKILL.md",
+        "skills/doca-rdma/SKILL.md",
+        "skills/doca-rdmi/SKILL.md",
+        "skills/doca-rmax/SKILL.md",
+        "skills/doca-setup/SKILL.md",
+        "skills/doca-sha-offload-engine/SKILL.md",
+        "skills/doca-sha/SKILL.md",
+        "skills/doca-socket-relay/SKILL.md",
+        "skills/doca-spcx-cc/SKILL.md",
+        "skills/doca-sta/SKILL.md",
+        "skills/doca-structured-tools-contract/SKILL.md",
+        "skills/doca-telemetry-exporter/SKILL.md",
+        "skills/doca-telemetry-utils/SKILL.md",
+        "skills/doca-telemetry/SKILL.md",
+        "skills/doca-upgrade/SKILL.md",
+        "skills/doca-urom-svc/SKILL.md",
+        "skills/doca-urom/SKILL.md",
+        "skills/doca-verbs/SKILL.md",
+        "skills/doca-version/SKILL.md",
         "skills/dynamo-interconnect-check/SKILL.md",
         "skills/dynamo-recipe-runner/SKILL.md",
         "skills/dynamo-router-starter/SKILL.md",
@@ -136,12 +196,21 @@
         "skills/nemo-mbridge-perf-tp-dp-comm-overlap/SKILL.md",
         "skills/nemo-mbridge-recipe-recommender/SKILL.md",
         "skills/nemo-mbridge-resiliency/SKILL.md",
+        "skills/nemo-relay-debug-runtime-integration/SKILL.md",
+        "skills/nemo-relay-install/SKILL.md",
+        "skills/nemo-relay-instrument-calls/SKILL.md",
+        "skills/nemo-relay-instrument-context-isolation/SKILL.md",
+        "skills/nemo-relay-instrument-typed-wrappers/SKILL.md",
+        "skills/nemo-relay-migrate-from-flow/SKILL.md",
+        "skills/nemo-relay-plugin-adaptive-tuning/SKILL.md",
+        "skills/nemo-relay-plugin-build/SKILL.md",
         "skills/nemo-retriever/SKILL.md",
         "skills/nemo-rl-auto-research/SKILL.md",
         "skills/nemo-rl-brev-etiquette/SKILL.md",
         "skills/nemo-rl-docs/SKILL.md",
         "skills/nemo-rl-session-memory/SKILL.md",
         "skills/nemoclaw-user-guide/SKILL.md",
+        "skills/nemotron-asr-finetune/SKILL.md",
         "skills/nemotron-customize/SKILL.md",
         "skills/nemotron-policy-generator/SKILL.md",
         "skills/nemotron-retrieval-recipes/SKILL.md",
@@ -545,6 +614,546 @@
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/digital-health-clinical-asr-setup/SKILL.md",
       "description": "Stage 1 of Clinical ASR Flywheel. Use when bootstrapping a cycle: NVCF+MW disclosure, NVIDIA_API_KEY check, deps install, TTS+ASR smoke test.",
       "slug": "nvidia-digital-health-clinical-asr-setup"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-aes-gcm",
+      "path": "skills/doca-aes-gcm/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-aes-gcm/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-aes-gcm"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-argp",
+      "path": "skills/doca-argp/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-argp/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-argp"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-argus",
+      "path": "skills/doca-argus/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-argus/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-argus"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-bare-metal-deployment",
+      "path": "skills/doca-bare-metal-deployment/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-bare-metal-deployment/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-bare-metal-deployment"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-bench-extension",
+      "path": "skills/doca-bench-extension/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-bench-extension/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-bench-extension"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-bench",
+      "path": "skills/doca-bench/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-bench/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-bench"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-bf3-deployment",
+      "path": "skills/doca-bf3-deployment/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-bf3-deployment/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-bf3-deployment"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-bf4-deployment",
+      "path": "skills/doca-bf4-deployment/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-bf4-deployment/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-bf4-deployment"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-caps",
+      "path": "skills/doca-caps/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-caps/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-caps"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-collectx-deployment",
+      "path": "skills/doca-collectx-deployment/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-collectx-deployment/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-collectx-deployment"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-comch",
+      "path": "skills/doca-comch/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-comch/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-comch"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-comm-channel-admin",
+      "path": "skills/doca-comm-channel-admin/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-comm-channel-admin/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-comm-channel-admin"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-common",
+      "path": "skills/doca-common/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-common/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-common"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-compress",
+      "path": "skills/doca-compress/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-compress/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-compress"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-container-deployment",
+      "path": "skills/doca-container-deployment/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-container-deployment/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-container-deployment"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-debug",
+      "path": "skills/doca-debug/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-debug/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-debug"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-devemu",
+      "path": "skills/doca-devemu/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-devemu/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-devemu"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-dma",
+      "path": "skills/doca-dma/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-dma/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-dma"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-dms",
+      "path": "skills/doca-dms/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-dms/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-dms"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-dpa-hl-tracer",
+      "path": "skills/doca-dpa-hl-tracer/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-dpa-hl-tracer/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-dpa-hl-tracer"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-dpa",
+      "path": "skills/doca-dpa/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-dpa/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-dpa"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-dpdk-bridge",
+      "path": "skills/doca-dpdk-bridge/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-dpdk-bridge/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-dpdk-bridge"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-erasure-coding",
+      "path": "skills/doca-erasure-coding/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-erasure-coding/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-erasure-coding"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-eth",
+      "path": "skills/doca-eth/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-eth/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-eth"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-firefly",
+      "path": "skills/doca-firefly/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-firefly/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-firefly"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-flow-dpa-perf",
+      "path": "skills/doca-flow-dpa-perf/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-flow-dpa-perf/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-flow-dpa-perf"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-flow-dpa-provider",
+      "path": "skills/doca-flow-dpa-provider/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-flow-dpa-provider/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-flow-dpa-provider"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-flow-grpc-server",
+      "path": "skills/doca-flow-grpc-server/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-flow-grpc-server/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-flow-grpc-server"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-flow-perf",
+      "path": "skills/doca-flow-perf/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-flow-perf/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-flow-perf"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-flow-tune",
+      "path": "skills/doca-flow-tune/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-flow-tune/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-flow-tune"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-flow",
+      "path": "skills/doca-flow/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-flow/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-flow"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-gpi",
+      "path": "skills/doca-gpi/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-gpi/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-gpi"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-gpunetio-ib-write-bw",
+      "path": "skills/doca-gpunetio-ib-write-bw/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-gpunetio-ib-write-bw/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-gpunetio-ib-write-bw"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-gpunetio-ib-write-lat",
+      "path": "skills/doca-gpunetio-ib-write-lat/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-gpunetio-ib-write-lat/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-gpunetio-ib-write-lat"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-gpunetio",
+      "path": "skills/doca-gpunetio/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-gpunetio/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-gpunetio"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-hardware-safety",
+      "path": "skills/doca-hardware-safety/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-hardware-safety/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-hardware-safety"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-mgmt",
+      "path": "skills/doca-mgmt/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-mgmt/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-mgmt"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-pcc-counters",
+      "path": "skills/doca-pcc-counters/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-pcc-counters/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-pcc-counters"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-pcc-ztr-rttcc-algo",
+      "path": "skills/doca-pcc-ztr-rttcc-algo/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-pcc-ztr-rttcc-algo/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-pcc-ztr-rttcc-algo"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-pcc",
+      "path": "skills/doca-pcc/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-pcc/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-pcc"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-programming-guide",
+      "path": "skills/doca-programming-guide/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-programming-guide/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-programming-guide"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-public-knowledge-map",
+      "path": "skills/doca-public-knowledge-map/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-public-knowledge-map/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-public-knowledge-map"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-rdma",
+      "path": "skills/doca-rdma/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-rdma/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-rdma"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-rdmi",
+      "path": "skills/doca-rdmi/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-rdmi/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-rdmi"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-rmax",
+      "path": "skills/doca-rmax/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-rmax/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-rmax"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-setup",
+      "path": "skills/doca-setup/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-setup/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-setup"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-sha-offload-engine",
+      "path": "skills/doca-sha-offload-engine/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-sha-offload-engine/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-sha-offload-engine"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-sha",
+      "path": "skills/doca-sha/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-sha/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-sha"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-socket-relay",
+      "path": "skills/doca-socket-relay/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-socket-relay/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-socket-relay"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-spcx-cc",
+      "path": "skills/doca-spcx-cc/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-spcx-cc/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-spcx-cc"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-sta",
+      "path": "skills/doca-sta/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-sta/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-sta"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-structured-tools-contract",
+      "path": "skills/doca-structured-tools-contract/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-structured-tools-contract/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-structured-tools-contract"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-telemetry-exporter",
+      "path": "skills/doca-telemetry-exporter/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-telemetry-exporter/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-telemetry-exporter"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-telemetry-utils",
+      "path": "skills/doca-telemetry-utils/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-telemetry-utils/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-telemetry-utils"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-telemetry",
+      "path": "skills/doca-telemetry/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-telemetry/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-telemetry"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-upgrade",
+      "path": "skills/doca-upgrade/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-upgrade/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-upgrade"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-urom-svc",
+      "path": "skills/doca-urom-svc/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-urom-svc/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-urom-svc"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-urom",
+      "path": "skills/doca-urom/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-urom/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-urom"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-verbs",
+      "path": "skills/doca-verbs/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-verbs/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-verbs"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "doca-version",
+      "path": "skills/doca-version/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/doca-version/SKILL.md",
+      "description": ">",
+      "slug": "nvidia-doca-version"
     },
     {
       "repository": "NVIDIA/skills",
@@ -1323,6 +1932,78 @@
     {
       "repository": "NVIDIA/skills",
       "branch": "main",
+      "skillName": "nemo-relay-debug-runtime-integration",
+      "path": "skills/nemo-relay-debug-runtime-integration/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemo-relay-debug-runtime-integration/SKILL.md",
+      "description": "Use this skill when NeMo Relay is installed or imported but application-side runtime behavior is missing or incorrect, including load failures, inactive scopes, missing events, and plugin or adaptive wiring problems.",
+      "slug": "nvidia-nemo-relay-debug-runtime-integration"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "nemo-relay-install",
+      "path": "skills/nemo-relay-install/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemo-relay-install/SKILL.md",
+      "description": "Use this skill when choosing or running NeMo Relay installation for the CLI, Python, Node.js, Rust, OpenClaw, Hermes, or maintained framework integrations before runtime configuration or quick-start setup.",
+      "slug": "nvidia-nemo-relay-install"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "nemo-relay-instrument-calls",
+      "path": "skills/nemo-relay-instrument-calls/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemo-relay-instrument-calls/SKILL.md",
+      "description": "Use this skill when an application owns tool or LLM/provider call sites and needs to wrap them with NeMo Relay scopes and managed execution APIs for lifecycle events, middleware, or guardrails.",
+      "slug": "nvidia-nemo-relay-instrument-calls"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "nemo-relay-instrument-context-isolation",
+      "path": "skills/nemo-relay-instrument-context-isolation/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemo-relay-instrument-context-isolation/SKILL.md",
+      "description": "Use this skill when concurrent requests, async tasks, threads, workers, goroutines, or agents need independent NeMo Relay scope stacks and correct ancestry propagation.",
+      "slug": "nvidia-nemo-relay-instrument-context-isolation"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "nemo-relay-instrument-typed-wrappers",
+      "path": "skills/nemo-relay-instrument-typed-wrappers/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemo-relay-instrument-typed-wrappers/SKILL.md",
+      "description": "Use this skill when adding NeMo Relay typed wrappers, domain types, or provider codecs while preserving JSON middleware semantics and caller-visible behavior.",
+      "slug": "nvidia-nemo-relay-instrument-typed-wrappers"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "nemo-relay-migrate-from-flow",
+      "path": "skills/nemo-relay-migrate-from-flow/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemo-relay-migrate-from-flow/SKILL.md",
+      "description": "Use this skill when migrating applications, examples, integrations, documentation, manifests, or repository code from NeMo Flow to NeMo Relay across Python, Rust, Node.js, Go, C FFI, CLI, configuration, and observability surfaces.",
+      "slug": "nvidia-nemo-relay-migrate-from-flow"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "nemo-relay-plugin-adaptive-tuning",
+      "path": "skills/nemo-relay-plugin-adaptive-tuning/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemo-relay-plugin-adaptive-tuning/SKILL.md",
+      "description": "Use this skill when baseline NeMo Relay instrumentation exists and the user wants to configure or evaluate adaptive plugin behavior, including telemetry, state, adaptive_hints, tool_parallelism, ACG, hint consumption, or measured rollout.",
+      "slug": "nvidia-nemo-relay-plugin-adaptive-tuning"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "nemo-relay-plugin-build",
+      "path": "skills/nemo-relay-plugin-build/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemo-relay-plugin-build/SKILL.md",
+      "description": "Use this skill when building or packaging reusable NeMo Relay runtime behavior as a configuration-activated plugin with deterministic validation and rollback-safe registration.",
+      "slug": "nvidia-nemo-relay-plugin-build"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
       "skillName": "nemo-retriever",
       "path": "skills/nemo-retriever/SKILL.md",
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemo-retriever/SKILL.md",
@@ -1373,6 +2054,15 @@
       "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemoclaw-user-guide/SKILL.md",
       "description": "Guides human users' AI agents to the NemoClaw docs MCP server and canonical Fern documentation in Markdown form. Use when users ask how to install, configure, operate, troubleshoot, secure, or learn NemoClaw with an AI coding assistant. Trigger keywords - nemoclaw docs, use nemoclaw with ai agent, nemoclaw mcp docs, nemoclaw install help, nemoclaw quickstart, nemoclaw markdown docs, llms.txt, agent skills.",
       "slug": "nvidia-nemoclaw-user-guide"
+    },
+    {
+      "repository": "NVIDIA/skills",
+      "branch": "main",
+      "skillName": "nemotron-asr-finetune",
+      "path": "skills/nemotron-asr-finetune/SKILL.md",
+      "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemotron-asr-finetune/SKILL.md",
+      "description": "Orchestration skill for NVIDIA Nemotron Speech (Riva) / NeMo ASR domain and language adaptation. Given a goal like \"improve/fine-tune ASR for my domain or language\", it scopes the task, picks the cheapest sufficient path (word boosting → n-gram LM → fine-tuning), delegates each stage to the right sub-skill (data generation, training, evaluation, deployment), and answers cost/time/data questions along the way.",
+      "slug": "nvidia-nemotron-asr-finetune"
     },
     {
       "repository": "NVIDIA/skills",
@@ -2320,6 +3010,6 @@
       "slug": "nvidia-vss-summarize-video"
     }
   ],
-  "itemCount": 231,
+  "itemCount": 300,
   "lastStatus": "cache-fresh"
 }

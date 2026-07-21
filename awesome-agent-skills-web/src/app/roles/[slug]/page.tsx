@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { DelayedRouteLink, DelayedSkillLink } from "@/components/delayed-skill-link";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
-import { getRolePrioritySkills, getStarterSkillsForRole, getRoleBySlug, getSkillsForRole } from "@/lib/skills";
+import { getRolePriorityRecommendations, getStarterSkillsForRole, getRoleBySlug, getSkillsForRole } from "@/lib/skills";
 import { getCopy, prefixLocalePath } from "@/lib/i18n";
 import { getRequestLocale } from "@/lib/request-locale";
 import { getRoles } from "@/lib/skills";
@@ -49,7 +49,8 @@ export async function RolePageContent({ params, locale }: RolePageContentProps) 
   }
 
   const skills = getSkillsForRole(role.slug);
-  const prioritySkills = getRolePrioritySkills(role.slug, 10);
+  const priorityRecommendations = getRolePriorityRecommendations(role.slug, 10, locale);
+  const prioritySkills = priorityRecommendations.map(({ skill }) => skill);
   const starterSkills = getStarterSkillsForRole(role.slug);
   const roleLabel = copy.roleLabels[role.slug] ?? role.label;
   const roleHero = copy.roleHeroes[role.slug] ?? role.hero;
@@ -144,7 +145,7 @@ export async function RolePageContent({ params, locale }: RolePageContentProps) 
           </div>
 
               <div className="mt-6 grid gap-4 lg:grid-cols-2 xl:grid-cols-5">
-            {prioritySkills.map((skill, index) => (
+            {priorityRecommendations.map(({ skill, reason }, index) => (
                 <DelayedSkillLink
                   key={skill.slug}
                   className="surface-panel-soft rounded-[1.5rem] p-5 transition hover:bg-[var(--panel-soft-hover)]"
@@ -154,6 +155,7 @@ export async function RolePageContent({ params, locale }: RolePageContentProps) 
                   <p className="eyebrow surface-muted">{String(index + 1).padStart(2, "0")} · {skill.publisher}</p>
                   <h3 className="mt-3 text-lg font-semibold leading-6">{skill.name}</h3>
                   <p className="muted mt-3 text-sm leading-6">{skill.description}</p>
+                  <p className="mt-4 text-xs font-medium leading-5 text-[var(--accent)]">{reason}</p>
                 </DelayedSkillLink>
               ))}
           </div>

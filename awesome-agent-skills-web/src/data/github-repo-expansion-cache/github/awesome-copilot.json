@@ -2,9 +2,9 @@
   "repository": "github/awesome-copilot",
   "branch": "main",
   "defaultBranch": "main",
-  "pushedAt": "2026-07-14T23:22:36Z",
-  "scannedAt": "2026-07-15T02:22:20.841Z",
-  "treeSha": "2c2461a7fa383f664bb75546f03a2c6087f3819d",
+  "pushedAt": "2026-07-20T23:12:01Z",
+  "scannedAt": "2026-07-21T03:07:21.082Z",
+  "treeSha": "ecf0f5a9f4b014d2e0f5e3c1cec55b4e7792ed8a",
   "items": [
     {
       "repository": "github/awesome-copilot",
@@ -15,7 +15,7 @@
       "description": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
       "slug": "github-awesome-copilot-collection",
       "isCollection": true,
-      "stars": 36581,
+      "stars": 36830,
       "skillPaths": [
         "skills/acquire-codebase-knowledge/SKILL.md",
         "skills/acreadiness-assess/SKILL.md",
@@ -30,6 +30,7 @@
         "skills/ai-prompt-engineering-safety-review/SKILL.md",
         "skills/ai-ready/SKILL.md",
         "skills/ai-team-orchestration/SKILL.md",
+        "skills/anti-ui-slop/SKILL.md",
         "skills/appinsights-instrumentation/SKILL.md",
         "skills/apple-appstore-reviewer/SKILL.md",
         "skills/arch-linux-triage/SKILL.md",
@@ -66,6 +67,7 @@
         "skills/azure-smart-city-iot-solution-builder/SKILL.md",
         "skills/azure-static-web-apps/SKILL.md",
         "skills/batch-files/SKILL.md",
+        "skills/bench-read/SKILL.md",
         "skills/bigquery-pipeline-audit/SKILL.md",
         "skills/boost-prompt/SKILL.md",
         "skills/brag-sheet/SKILL.md",
@@ -81,6 +83,7 @@
         "skills/cloud-design-patterns/SKILL.md",
         "skills/code-exemplars-blueprint-generator/SKILL.md",
         "skills/code-tour/SKILL.md",
+        "skills/codebase-memory-mcp/SKILL.md",
         "skills/codeql/SKILL.md",
         "skills/comment-code-generate-a-tutorial/SKILL.md",
         "skills/commit-message-storyteller/SKILL.md",
@@ -90,7 +93,10 @@
         "skills/context-map/SKILL.md",
         "skills/conventional-branch/SKILL.md",
         "skills/conventional-commit/SKILL.md",
+        "skills/convert-excel-to-md/SKILL.md",
+        "skills/convert-pdf-to-md/SKILL.md",
         "skills/convert-plaintext-to-md/SKILL.md",
+        "skills/convert-word-to-md/SKILL.md",
         "skills/copilot-cli-quickstart/SKILL.md",
         "skills/copilot-instructions-blueprint-generator/SKILL.md",
         "skills/copilot-pr-autopilot/SKILL.md",
@@ -131,6 +137,8 @@
         "skills/debian-linux-triage/SKILL.md",
         "skills/declarative-agents/SKILL.md",
         "skills/dependabot/SKILL.md",
+        "skills/desk-journal/SKILL.md",
+        "skills/desk-open/SKILL.md",
         "skills/devops-rollout-plan/SKILL.md",
         "skills/diagnose/SKILL.md",
         "skills/doc-and-modernize/SKILL.md",
@@ -210,6 +218,7 @@
         "skills/issue-fields-migration/SKILL.md",
         "skills/java-add-graalvm-native-image-support/SKILL.md",
         "skills/java-docs/SKILL.md",
+        "skills/java-helidon/SKILL.md",
         "skills/java-junit/SKILL.md",
         "skills/java-mcp-server-generator/SKILL.md",
         "skills/java-refactoring-extract-method/SKILL.md",
@@ -224,6 +233,7 @@
         "skills/lsp-setup/SKILL.md",
         "skills/make-repo-contribution/SKILL.md",
         "skills/markdown-to-html/SKILL.md",
+        "skills/markstream-install/SKILL.md",
         "skills/mcp-cli/SKILL.md",
         "skills/mcp-copilot-studio-server-generator/SKILL.md",
         "skills/mcp-create-adaptive-cards/SKILL.md",
@@ -344,6 +354,7 @@
         "skills/semantic-kernel/SKILL.md",
         "skills/setup-my-iq/SKILL.md",
         "skills/shuffle-json-data/SKILL.md",
+        "skills/signal-write/SKILL.md",
         "skills/slang-shader-engineer/SKILL.md",
         "skills/snowflake-semanticview/SKILL.md",
         "skills/sponsor-finder/SKILL.md",
@@ -380,6 +391,7 @@
         "skills/update-markdown-file-index/SKILL.md",
         "skills/update-specification/SKILL.md",
         "skills/vardoger-analyze/SKILL.md",
+        "skills/vcpkg/SKILL.md",
         "skills/vscode-ext-commands/SKILL.md",
         "skills/vscode-ext-localization/SKILL.md",
         "skills/web-design-reviewer/SKILL.md",
@@ -388,6 +400,7 @@
         "skills/winmd-api-search/SKILL.md",
         "skills/winui3-migration-guide/SKILL.md",
         "skills/workiq-copilot/SKILL.md",
+        "skills/workshop-create/SKILL.md",
         "skills/write-coding-standards-from-file/SKILL.md",
         "skills/x-twitter-scraper/SKILL.md"
       ]
@@ -508,6 +521,15 @@
       "url": "https://github.com/github/awesome-copilot/blob/main/skills/ai-team-orchestration/SKILL.md",
       "description": "Bootstrap and run a multi-agent AI development team. Use when: starting a new software project with AI agents, setting up parallel dev/QA teams, creating sprint plans, writing brainstorm prompts with distinct agent voices, recovering a project workflow, or planning sprints.",
       "slug": "github-ai-team-orchestration"
+    },
+    {
+      "repository": "github/awesome-copilot",
+      "branch": "main",
+      "skillName": "anti-ui-slop",
+      "path": "skills/anti-ui-slop/SKILL.md",
+      "url": "https://github.com/github/awesome-copilot/blob/main/skills/anti-ui-slop/SKILL.md",
+      "description": "Stop Codex, GitHub Copilot, Claude Code, and Cursor from shipping generic UI. Use UIZZE’s public catalogue of 800,000+ real web and iOS screens to extract product-specific design decisions and enforce a hard finish gate for web and iOS interfaces.",
+      "slug": "github-anti-ui-slop"
     },
     {
       "repository": "github/awesome-copilot",
@@ -836,6 +858,15 @@
     {
       "repository": "github/awesome-copilot",
       "branch": "main",
+      "skillName": "bench-read",
+      "path": "skills/bench-read/SKILL.md",
+      "url": "https://github.com/github/awesome-copilot/blob/main/skills/bench-read/SKILL.md",
+      "description": "Read artifacts from the shared bench — the workspace where desks leave findings, verdicts, and work products for each other and the operator.",
+      "slug": "github-bench-read"
+    },
+    {
+      "repository": "github/awesome-copilot",
+      "branch": "main",
       "skillName": "bigquery-pipeline-audit",
       "path": "skills/bigquery-pipeline-audit/SKILL.md",
       "url": "https://github.com/github/awesome-copilot/blob/main/skills/bigquery-pipeline-audit/SKILL.md",
@@ -971,6 +1002,15 @@
     {
       "repository": "github/awesome-copilot",
       "branch": "main",
+      "skillName": "codebase-memory-mcp",
+      "path": "skills/codebase-memory-mcp/SKILL.md",
+      "url": "https://github.com/github/awesome-copilot/blob/main/skills/codebase-memory-mcp/SKILL.md",
+      "description": "Use when a configured codebase-memory-mcp server can assist with graph-backed code discovery, architecture orientation, symbol lookup, callers and callees, dependency or data-flow tracing, impact analysis, unfamiliar modules, or an explicit Codebase Memory request.",
+      "slug": "github-codebase-memory-mcp"
+    },
+    {
+      "repository": "github/awesome-copilot",
+      "branch": "main",
       "skillName": "codeql",
       "path": "skills/codeql/SKILL.md",
       "url": "https://github.com/github/awesome-copilot/blob/main/skills/codeql/SKILL.md",
@@ -1052,11 +1092,38 @@
     {
       "repository": "github/awesome-copilot",
       "branch": "main",
+      "skillName": "convert-excel-to-md",
+      "path": "skills/convert-excel-to-md/SKILL.md",
+      "url": "https://github.com/github/awesome-copilot/blob/main/skills/convert-excel-to-md/SKILL.md",
+      "description": "Converts Excel (.xlsx) workbooks into Markdown so their contents can be accurately analyzed, summarized, searched, or extracted from. Use this skill whenever the user shares, references, or asks about a .xlsx file — even if they don''t say \"convert\" or \"markdown\" explicitly. This includes requests to \"read\", \"summarize\", \"review\", \"extract data from\", \"compare\", \"chart\", or \"analyze\" a spreadsheet, workbook, budget, data export, or tracker. Always run the bundled conversion script to produce Markdown first; do not attempt to parse .xlsx content directly or write ad-hoc extraction code. Also use this skill for batch requests involving a whole folder of Excel workbooks. IMPORTANT: When the user references a folder or set of documents containing multiple file types (.pdf, .docx, .xlsx), invoke ALL three sibling skills — convert-pdf-to-md, convert-word-to-md, and convert-excel-to-md — so no ",
+      "slug": "github-convert-excel-to-md"
+    },
+    {
+      "repository": "github/awesome-copilot",
+      "branch": "main",
+      "skillName": "convert-pdf-to-md",
+      "path": "skills/convert-pdf-to-md/SKILL.md",
+      "url": "https://github.com/github/awesome-copilot/blob/main/skills/convert-pdf-to-md/SKILL.md",
+      "description": "Converts PDF (.pdf) documents into Markdown so their contents can be accurately analyzed, summarized, searched, or extracted from. Use this skill whenever the user shares, references, or asks about a .pdf file — even if they don''t say \"convert\" or \"markdown\" explicitly. This includes requests to \"read\", \"summarize\", \"review\", \"extract data from\", \"compare\", or \"analyze\" a PDF report, paper, invoice, form, contract, or scanned document. Always run the bundled conversion script to produce Markdown first; do not attempt to parse PDF content directly or write ad-hoc extraction code. Also use this skill for batch requests involving a whole folder of PDF documents. IMPORTANT: When the user references a folder or set of documents containing multiple file types (.pdf, .docx, .xlsx), invoke ALL three sibling skills — convert-pdf-to-md, convert-word-to-md, and convert-excel-to-md — so no file typ",
+      "slug": "github-convert-pdf-to-md"
+    },
+    {
+      "repository": "github/awesome-copilot",
+      "branch": "main",
       "skillName": "convert-plaintext-to-md",
       "path": "skills/convert-plaintext-to-md/SKILL.md",
       "url": "https://github.com/github/awesome-copilot/blob/main/skills/convert-plaintext-to-md/SKILL.md",
       "description": "Convert a text-based document to markdown following instructions from prompt, or if a documented option is passed, follow the instructions for that option.",
       "slug": "github-convert-plaintext-to-md"
+    },
+    {
+      "repository": "github/awesome-copilot",
+      "branch": "main",
+      "skillName": "convert-word-to-md",
+      "path": "skills/convert-word-to-md/SKILL.md",
+      "url": "https://github.com/github/awesome-copilot/blob/main/skills/convert-word-to-md/SKILL.md",
+      "description": "Converts Word (.docx) documents into Markdown so their contents can be accurately analyzed, summarized, searched, or extracted from. Use this skill whenever the user shares, references, or asks about a .docx file — even if they don''t say \"convert\" or \"markdown\" explicitly. This includes requests to \"read\", \"summarize\", \"review\", \"extract data from\", \"compare\", or \"analyze\" a Word document, resume, report, contract, or proposal. Always run the bundled conversion script to produce Markdown first; do not attempt to parse .docx content directly or write ad-hoc conversion code. Also use this skill for batch requests involving a whole folder of Word documents. IMPORTANT: When the user references a folder or set of documents containing multiple file types (.pdf, .docx, .xlsx), invoke ALL three sibling skills — convert-pdf-to-md, convert-word-to-md, and convert-excel-to-md — so no file type is ",
+      "slug": "github-convert-word-to-md"
     },
     {
       "repository": "github/awesome-copilot",
@@ -1417,6 +1484,24 @@
       "url": "https://github.com/github/awesome-copilot/blob/main/skills/dependabot/SKILL.md",
       "description": ">-",
       "slug": "github-dependabot"
+    },
+    {
+      "repository": "github/awesome-copilot",
+      "branch": "main",
+      "skillName": "desk-journal",
+      "path": "skills/desk-journal/SKILL.md",
+      "url": "https://github.com/github/awesome-copilot/blob/main/skills/desk-journal/SKILL.md",
+      "description": "Write, append, or read desk journal entries. The journal is persistent memory — what survives session boundaries. A good entry has: what was done, current state, next step.",
+      "slug": "github-desk-journal"
+    },
+    {
+      "repository": "github/awesome-copilot",
+      "branch": "main",
+      "skillName": "desk-open",
+      "path": "skills/desk-open/SKILL.md",
+      "url": "https://github.com/github/awesome-copilot/blob/main/skills/desk-open/SKILL.md",
+      "description": "Create and open a new desk in the workshop. Sets up the folder structure, initial journal, and desk identity so the next session that sits down finds the trail.",
+      "slug": "github-desk-open"
     },
     {
       "repository": "github/awesome-copilot",
@@ -2132,6 +2217,15 @@
     {
       "repository": "github/awesome-copilot",
       "branch": "main",
+      "skillName": "java-helidon",
+      "path": "skills/java-helidon/SKILL.md",
+      "url": "https://github.com/github/awesome-copilot/blob/main/skills/java-helidon/SKILL.md",
+      "description": "Get best practices for developing applications with Helidon 4 (SE and MP). Use when working with Helidon SE or Helidon MP, HttpService routing, Helidon DB Client, MicroProfile Config, Helidon Security, or Helidon testing in Java 21+ projects.",
+      "slug": "github-java-helidon"
+    },
+    {
+      "repository": "github/awesome-copilot",
+      "branch": "main",
       "skillName": "java-junit",
       "path": "skills/java-junit/SKILL.md",
       "url": "https://github.com/github/awesome-copilot/blob/main/skills/java-junit/SKILL.md",
@@ -2254,6 +2348,15 @@
       "url": "https://github.com/github/awesome-copilot/blob/main/skills/markdown-to-html/SKILL.md",
       "description": "Convert Markdown files to HTML similar to `marked.js`, `pandoc`, `gomarkdown/markdown`, or similar tools; or writing custom script to convert markdown to html and/or working on web template systems like `jekyll/jekyll`, `gohugoio/hugo`, or similar web templating systems that utilize markdown documents, converting them to html. Use when asked to \"convert markdown to html\", \"transform md to html\", \"render markdown\", \"generate html from markdown\", or when working with .md files and/or web a templating system that converts markdown to HTML output. Supports CLI and Node.js workflows with GFM, CommonMark, and standard Markdown flavors.",
       "slug": "github-markdown-to-html"
+    },
+    {
+      "repository": "github/awesome-copilot",
+      "branch": "main",
+      "skillName": "markstream-install",
+      "path": "skills/markstream-install/SKILL.md",
+      "url": "https://github.com/github/awesome-copilot/blob/main/skills/markstream-install/SKILL.md",
+      "description": "Install and configure Markstream streaming Markdown renderers for Vue, React, Svelte, Angular, Nuxt, and Vue 2 applications. Use for package selection, minimal peer dependencies, CSS order, SSR boundaries, streaming mode, and renderer setup.",
+      "slug": "github-markstream-install"
     },
     {
       "repository": "github/awesome-copilot",
@@ -3338,6 +3441,15 @@
     {
       "repository": "github/awesome-copilot",
       "branch": "main",
+      "skillName": "signal-write",
+      "path": "skills/signal-write/SKILL.md",
+      "url": "https://github.com/github/awesome-copilot/blob/main/skills/signal-write/SKILL.md",
+      "description": "Emit structured agent signals — hands-up, blocked, done, checkpoint, partnership. Signals are written as JSON to .signals/ for dashboard consumption and noted in the journal for persistence.",
+      "slug": "github-signal-write"
+    },
+    {
+      "repository": "github/awesome-copilot",
+      "branch": "main",
       "skillName": "slang-shader-engineer",
       "path": "skills/slang-shader-engineer/SKILL.md",
       "url": "https://github.com/github/awesome-copilot/blob/main/skills/slang-shader-engineer/SKILL.md",
@@ -3662,6 +3774,15 @@
     {
       "repository": "github/awesome-copilot",
       "branch": "main",
+      "skillName": "vcpkg",
+      "path": "skills/vcpkg/SKILL.md",
+      "url": "https://github.com/github/awesome-copilot/blob/main/skills/vcpkg/SKILL.md",
+      "description": "Guide for setting up vcpkg in C++ projects, managing dependency versions, and cross-compiling. Covers manifest initialization, CMake and Visual Studio integration, classic-to-manifest migration, version pinning, baselines, overrides, triplets, and cross-compilation. Use when a user is working with vcpkg project setup, installation, version management, or cross-platform builds. For specialized tasks, additional references cover custom registries and overlay ports (references/registries.md), CI/CD and binary caching (references/ci.md), and troubleshooting and dependency lifecycle (references/troubleshooting.md).",
+      "slug": "github-vcpkg"
+    },
+    {
+      "repository": "github/awesome-copilot",
+      "branch": "main",
       "skillName": "vscode-ext-commands",
       "path": "skills/vscode-ext-commands/SKILL.md",
       "url": "https://github.com/github/awesome-copilot/blob/main/skills/vscode-ext-commands/SKILL.md",
@@ -3734,6 +3855,15 @@
     {
       "repository": "github/awesome-copilot",
       "branch": "main",
+      "skillName": "workshop-create",
+      "path": "skills/workshop-create/SKILL.md",
+      "url": "https://github.com/github/awesome-copilot/blob/main/skills/workshop-create/SKILL.md",
+      "description": "Create a new workshop or use an existing directory as one. Handles two paths: (A) use an existing local directory the operator points at, or (B) create a new private GitHub repo in the signed-in account. Never creates a repo inside another repo.",
+      "slug": "github-workshop-create"
+    },
+    {
+      "repository": "github/awesome-copilot",
+      "branch": "main",
       "skillName": "write-coding-standards-from-file",
       "path": "skills/write-coding-standards-from-file/SKILL.md",
       "url": "https://github.com/github/awesome-copilot/blob/main/skills/write-coding-standards-from-file/SKILL.md",
@@ -3750,6 +3880,6 @@
       "slug": "github-x-twitter-scraper"
     }
   ],
-  "itemCount": 374,
+  "itemCount": 387,
   "lastStatus": "cache-fresh"
 }

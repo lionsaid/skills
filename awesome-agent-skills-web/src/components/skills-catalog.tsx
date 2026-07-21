@@ -1,6 +1,6 @@
 "use client";
 
-import { useSearchParams } from "next/navigation";
+import { usePathname, useSearchParams } from "next/navigation";
 import { DelayedSkillLink } from "@/components/delayed-skill-link";
 import { PublisherLogo } from "@/components/publisher-logo";
 import { SkillAvatar } from "@/components/skill-avatar";
@@ -25,6 +25,7 @@ type SkillsCatalogProps = {
   initialExcludeMarketplace: boolean;
   initialPersona?: string;
   initialJob?: string;
+  initialPage?: number;
   publishers: PublisherSummary[];
   initialSkills: SkillCatalogItem[];
   totalSkills: number;
@@ -426,6 +427,7 @@ export function SkillsCatalog(props: SkillsCatalogProps) {
       initialExcludeMarketplace={routeFilters.excludeMarketplace}
       initialPersona={routeFilters.persona}
       initialJob={routeFilters.job}
+      initialPage={routeFilters.page}
     />
   );
 }
@@ -441,6 +443,7 @@ function SkillsCatalogBody({
   initialExcludeMarketplace,
   initialPersona = "all",
   initialJob = "all",
+  initialPage = 1,
   publishers,
   initialSkills,
   totalSkills,
@@ -455,7 +458,7 @@ function SkillsCatalogBody({
   const [excludeMarketplace, setExcludeMarketplace] = useState(initialExcludeMarketplace);
   const [persona, setPersona] = useState(initialPersona);
   const [job, setJob] = useState(initialJob);
-  const [page, setPage] = useState(1);
+  const [page, setPage] = useState(initialPage);
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
   const [draftKind, setDraftKind] = useState<SkillFilterKind>(initialKind);
   const [draftPublisher, setDraftPublisher] = useState(initialPublisher);
@@ -483,6 +486,7 @@ function SkillsCatalogBody({
   );
   const [catalogSkills, setCatalogSkills] = useState<SkillCatalogItem[]>(initialSkills);
   const [catalogLoaded, setCatalogLoaded] = useState(initialSkills.length >= totalSkills);
+  const [catalogIndexReady, setCatalogIndexReady] = useState(false);
   const [catalogVersion, setCatalogVersion] = useState<string | null>(null);
   const [loadedChunkIndexes, setLoadedChunkIndexes] = useState<Set<number>>(() => new Set());
   const [repoStatsBySlug, setRepoStatsBySlug] = useState<Record<string, RepoStats>>(() =>
@@ -500,6 +504,7 @@ function SkillsCatalogBody({
   const searchBarRef = useRef<HTMLDivElement | null>(null);
   const [showBackToSearch, setShowBackToSearch] = useState(false);
   const [, startTransition] = useTransition();
+  const pathname = usePathname();
 
   useEffect(() => {
     const controller = new AbortController();
@@ -535,6 +540,7 @@ function SkillsCatalogBody({
           setCatalogIndex(indexPayload.items.map((item) => decodeCatalogIndexItem(item)));
           setLoadedChunkIndexes(new Set());
           setCatalogLoaded(initialSkills.length >= manifestPayload.totalSkills);
+          setCatalogIndexReady(true);
         }
       } catch {
         if (!controller.signal.aborted) {
@@ -597,6 +603,28 @@ function SkillsCatalogBody({
   const totalPages = Math.max(1, Math.ceil(filteredIndexSkills.length / PAGE_SIZE));
   const safePage = Math.min(page, totalPages);
   const visibleLimit = safePage * PAGE_SIZE;
+
+  useEffect(() => {
+    const params = new URLSearchParams();
+
+    if (query) params.set("q", query);
+    if (kind !== "all") params.set("kind", kind);
+    if (publisher !== "all") params.set("publisher", publisher);
+    if (sort !== "featured") params.set("sort", sort);
+    if (trustFilter !== "all") params.set("trust", trustFilter);
+    if (enterpriseOnly) params.set("enterprise", "1");
+    if (excludeMarketplace) params.set("excludeMarketplace", "1");
+    if (persona !== "all") params.set("persona", persona);
+    if (job !== "all") params.set("job", job);
+    const pageForUrl = catalogIndexReady ? safePage : page;
+    if (pageForUrl > 1) params.set("page", String(pageForUrl));
+
+    const nextUrl = params.size > 0 ? `${pathname}?${params.toString()}` : pathname;
+    if (nextUrl !== `${pathname}${window.location.search}`) {
+      window.history.replaceState(window.history.state, "", nextUrl);
+    }
+  }, [catalogIndexReady, excludeMarketplace, enterpriseOnly, job, kind, page, pathname, persona, publisher, query, safePage, sort, trustFilter]);
+
   const currentPageIndexSkills = useMemo(
     () => filteredIndexSkills.slice(0, visibleLimit),
     [filteredIndexSkills, visibleLimit],

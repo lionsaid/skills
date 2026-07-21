@@ -18,6 +18,7 @@ export type ParsedSkillsRouteFilters = {
   excludeMarketplace: boolean;
   persona: string;
   job: string;
+  page: number;
 };
 
 const validSorts = new Set<SkillSort>(["featured", "name", "publisher"]);
@@ -58,6 +59,11 @@ function parseBooleanParam(value: string | undefined, defaultValue = false) {
   }
 
   return defaultValue;
+}
+
+function parsePageParam(value: string | undefined) {
+  const parsed = Number.parseInt(value ?? "", 10);
+  return Number.isSafeInteger(parsed) && parsed > 0 ? parsed : 1;
 }
 
 function parseEnumValue<T extends string>(
@@ -111,6 +117,7 @@ export function parseSkillsRouteFilters(
     new Set([...jobSlugs, "all"]),
     "all",
   );
+  const page = parsePageParam(readSearchParam(searchParams, "page"));
 
   return {
     query,
@@ -122,5 +129,6 @@ export function parseSkillsRouteFilters(
     excludeMarketplace,
     persona,
     job,
+    page,
   };
 }

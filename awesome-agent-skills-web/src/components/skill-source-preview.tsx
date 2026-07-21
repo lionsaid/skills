@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useMemo, useState } from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 
@@ -155,7 +155,6 @@ export function SkillSourcePreview({
   const [state, setState] = useState<LoadState>("idle");
   const [content, setContent] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
-  const autoLoadRef = useRef<string | null>(null);
   const githubPageUrl = useMemo(
     () => toBlobGithubUrl(repository, discoveryPath) ?? sourceUrl,
     [repository, discoveryPath, sourceUrl],
@@ -171,7 +170,6 @@ export function SkillSourcePreview({
       locale === "zh-CN"
         ? "直接从 GitHub 加载原文，不会存到本站。"
         : "Loaded directly from GitHub and not stored on this site.",
-    load: locale === "zh-CN" ? "重新加载" : "Reload",
     loading: locale === "zh-CN" ? "正在从 GitHub 加载…" : "Loading from GitHub...",
     reload: locale === "zh-CN" ? "重新加载" : "Reload",
     viewGithub: locale === "zh-CN" ? "在 GitHub 查看" : "View on GitHub",
@@ -189,8 +187,8 @@ export function SkillSourcePreview({
         : `Loaded GitHub source for ${skillName}.`,
     idleHint:
       locale === "zh-CN"
-        ? "页面打开后会自动请求 GitHub 原文，内容较大时可能需要一点时间。"
-        : "This preview loads from GitHub automatically when the page opens.",
+        ? "需要时再加载 GitHub 原文，避免影响当前页面打开速度。"
+        : "Load the GitHub source only when you need it, without slowing this page down.",
     heading:
       locale === "zh-CN" ? "直接预览 GitHub 里的 skill 内容" : "Preview the GitHub skill content directly",
     cached:
@@ -226,15 +224,6 @@ export function SkillSourcePreview({
     }
   }
 
-  useEffect(() => {
-    if (!rawUrl || autoLoadRef.current === rawUrl) {
-      return;
-    }
-
-    autoLoadRef.current = rawUrl;
-    void loadPreview();
-  }, [rawUrl]);
-
   return (
     <section className="mt-8 detail-shell overflow-hidden rounded-[2rem] border p-6 sm:p-8">
       <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
@@ -269,9 +258,11 @@ export function SkillSourcePreview({
         </div>
       </div>
 
-      {state === "idle" && !rawUrl ? (
+      {state === "idle" ? (
         <div className="mt-6 rounded-[1.5rem] border border-[var(--border-soft)] bg-[var(--surface-strong)] px-5 py-5">
-          <p className="text-sm leading-7 text-[var(--ink-muted)]">{copy.idleHint}</p>
+          <p className="text-sm leading-7 text-[var(--ink-muted)]">
+            {rawUrl ? copy.idleHint : copy.unavailable}
+          </p>
         </div>
       ) : null}
 

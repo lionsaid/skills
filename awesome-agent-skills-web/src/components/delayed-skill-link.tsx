@@ -1,7 +1,7 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import { createPortal } from "react-dom";
 import { getSkillDetailPath, prefixLocalePath, type Locale } from "@/lib/i18n";
 
 type DelayedSkillLinkProps = {
@@ -19,11 +19,8 @@ export function DelayedSkillLink({
 }: DelayedSkillLinkProps) {
   const timeoutRef = useRef<number | null>(null);
   const [isNavigating, setIsNavigating] = useState(false);
-  const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
-    setIsMounted(true);
-
     return () => {
       if (timeoutRef.current !== null) {
         window.clearTimeout(timeoutRef.current);
@@ -36,30 +33,24 @@ export function DelayedSkillLink({
       window.clearTimeout(timeoutRef.current);
     }
 
-    const target = prefixLocalePath(getSkillDetailPath(skillSlug, locale), locale);
     setIsNavigating(true);
-    timeoutRef.current = window.setTimeout(() => {
-      window.location.assign(target);
-    }, 650);
+    timeoutRef.current = window.setTimeout(() => setIsNavigating(false), 650);
   }
 
   return (
     <>
-      {isMounted && isNavigating
-        ? createPortal(
-            <div className="pointer-events-none fixed inset-x-0 top-0 z-[9999]">
-              <div className="skill-route-progress h-1 w-full origin-left animate-[skill-route-progress_650ms_ease-out_forwards]" />
-            </div>,
-            document.body,
-          )
-        : null}
-      <button
-        className={`block w-full appearance-none border-0 bg-transparent p-0 text-inherit no-underline outline-none focus:outline-none focus-visible:outline-none ${className ?? ""}`}
+      {isNavigating ? (
+        <div className="pointer-events-none fixed inset-x-0 top-0 z-[9999]" role="status">
+          <div className="skill-route-progress h-1 w-full origin-left animate-[skill-route-progress_650ms_ease-out_forwards]" />
+        </div>
+      ) : null}
+      <Link
+        className={`block w-full appearance-none border-0 bg-transparent p-0 text-inherit no-underline ${className ?? ""}`}
+        href={prefixLocalePath(getSkillDetailPath(skillSlug, locale), locale)}
         onClick={handleClick}
-        type="button"
       >
         {children}
-      </button>
+      </Link>
     </>
   );
 }
@@ -79,11 +70,8 @@ export function DelayedRouteLink({
 }: DelayedRouteLinkProps) {
   const timeoutRef = useRef<number | null>(null);
   const [isNavigating, setIsNavigating] = useState(false);
-  const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
-    setIsMounted(true);
-
     return () => {
       if (timeoutRef.current !== null) {
         window.clearTimeout(timeoutRef.current);
@@ -97,28 +85,23 @@ export function DelayedRouteLink({
     }
 
     setIsNavigating(true);
-    timeoutRef.current = window.setTimeout(() => {
-      window.location.assign(href);
-    }, delayMs);
+    timeoutRef.current = window.setTimeout(() => setIsNavigating(false), delayMs);
   }
 
   return (
     <>
-      {isMounted && isNavigating
-        ? createPortal(
-            <div className="pointer-events-none fixed inset-x-0 top-0 z-[9999]">
-              <div className="skill-route-progress h-1 w-full origin-left animate-[skill-route-progress_650ms_ease-out_forwards]" />
-            </div>,
-            document.body,
-          )
-        : null}
-      <button
-        className={`appearance-none border-0 bg-transparent p-0 text-inherit no-underline outline-none focus:outline-none focus-visible:outline-none ${className ?? ""}`}
+      {isNavigating ? (
+        <div className="pointer-events-none fixed inset-x-0 top-0 z-[9999]" role="status">
+          <div className="skill-route-progress h-1 w-full origin-left animate-[skill-route-progress_650ms_ease-out_forwards]" />
+        </div>
+      ) : null}
+      <Link
+        className={`appearance-none border-0 bg-transparent p-0 text-inherit no-underline ${className ?? ""}`}
+        href={href}
         onClick={handleClick}
-        type="button"
       >
         {children}
-      </button>
+      </Link>
     </>
   );
 }

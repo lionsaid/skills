@@ -1,8 +1,751 @@
 {
-  "generatedAt": "2026-07-15T02:39:29.986Z",
+  "generatedAt": "2026-07-21T05:06:39.751Z",
   "chunkIndex": 22,
-  "totalSkills": 8995,
+  "totalSkills": 9131,
   "skills": [
+    {
+      "slug": "mukul975-analyzing-powershell-empire-artifacts",
+      "name": "mukul975/analyzing-powershell-empire-artifacts",
+      "description": "Detect PowerShell Empire framework artifacts in Windows event logs by",
+      "publisher": "mukul975",
+      "publisherSlug": "mukul975",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "mukul975",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
+      "creatorHandle": "mukul975",
+      "hasPublisherLogo": false,
+      "stars": 26216,
+      "forks": 3148
+    },
+    {
+      "slug": "mukul975-analyzing-powershell-script-block-logging",
+      "name": "mukul975/analyzing-powershell-script-block-logging",
+      "description": "Parse Windows PowerShell Script Block Logs (Event ID 4104) from EVTX",
+      "publisher": "mukul975",
+      "publisherSlug": "mukul975",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "mukul975",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [
+        "data-extraction"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
+      "creatorHandle": "mukul975",
+      "hasPublisherLogo": false,
+      "stars": 26216,
+      "forks": 3148
+    },
+    {
+      "slug": "mukul975-analyzing-prefetch-files-for-execution-history",
+      "name": "mukul975/analyzing-prefetch-files-for-execution-history",
+      "description": "Parse Windows Prefetch files to determine program execution history including",
+      "publisher": "mukul975",
+      "publisherSlug": "mukul975",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "mukul975",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [
+        "data-extraction"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
+      "creatorHandle": "mukul975",
+      "hasPublisherLogo": false,
+      "stars": 26216,
+      "forks": 3148
+    },
+    {
+      "slug": "mukul975-analyzing-ransomware-encryption-mechanisms",
+      "name": "mukul975/analyzing-ransomware-encryption-mechanisms",
+      "description": "Analyzes encryption algorithms, key management, and file encryption",
+      "publisher": "mukul975",
+      "publisherSlug": "mukul975",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "mukul975",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
+      "creatorHandle": "mukul975",
+      "hasPublisherLogo": false,
+      "stars": 26216,
+      "forks": 3148
+    },
+    {
+      "slug": "mukul975-analyzing-ransomware-leak-site-intelligence",
+      "name": "mukul975/analyzing-ransomware-leak-site-intelligence",
+      "description": "Monitor and analyze ransomware group data leak sites (DLS) to track victim",
+      "publisher": "mukul975",
+      "publisherSlug": "mukul975",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "mukul975",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
+      "creatorHandle": "mukul975",
+      "hasPublisherLogo": false,
+      "stars": 26216,
+      "forks": 3148
+    },
+    {
+      "slug": "mukul975-analyzing-ransomware-network-indicators",
+      "name": "mukul975/analyzing-ransomware-network-indicators",
+      "description": "Identify ransomware network indicators including C2 beaconing patterns,",
+      "publisher": "mukul975",
+      "publisherSlug": "mukul975",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "mukul975",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
+      "creatorHandle": "mukul975",
+      "hasPublisherLogo": false,
+      "stars": 26216,
+      "forks": 3148
+    },
+    {
+      "slug": "mukul975-analyzing-ransomware-payment-wallets",
+      "name": "mukul975/analyzing-ransomware-payment-wallets",
+      "description": "Traces ransomware cryptocurrency payment flows using blockchain analysis",
+      "publisher": "mukul975",
+      "publisherSlug": "mukul975",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "mukul975",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "data-analyst"
+      ],
+      "jobs": [
+        "dashboarding",
+        "data-extraction",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
+      "creatorHandle": "mukul975",
+      "hasPublisherLogo": false,
+      "stars": 26216,
+      "forks": 3148
+    },
+    {
+      "slug": "mukul975-analyzing-sbom-for-supply-chain-vulnerabilities",
+      "name": "mukul975/analyzing-sbom-for-supply-chain-vulnerabilities",
+      "description": "Parses Software Bill of Materials (SBOM) in CycloneDX and SPDX JSON",
+      "publisher": "mukul975",
+      "publisherSlug": "mukul975",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "mukul975",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
+      "creatorHandle": "mukul975",
+      "hasPublisherLogo": false,
+      "stars": 26216,
+      "forks": 3148
+    },
+    {
+      "slug": "mukul975-analyzing-security-logs-with-splunk",
+      "name": "mukul975/analyzing-security-logs-with-splunk",
+      "description": "Leverages Splunk Enterprise Security and SPL (Search Processing Language)",
+      "publisher": "mukul975",
+      "publisherSlug": "mukul975",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "mukul975",
+        "namespaced",
+        "publisher-namespaced",
+        "security"
+      ],
+      "personas": [],
+      "jobs": [
+        "research-synthesis"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
+      "creatorHandle": "mukul975",
+      "hasPublisherLogo": false,
+      "stars": 26216,
+      "forks": 3148
+    },
+    {
+      "slug": "mukul975-analyzing-slack-space-and-file-system-artifacts",
+      "name": "mukul975/analyzing-slack-space-and-file-system-artifacts",
+      "description": "Examine file system slack space, MFT entries, USN journal, and alternate",
+      "publisher": "mukul975",
+      "publisherSlug": "mukul975",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "mukul975",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
+      "creatorHandle": "mukul975",
+      "hasPublisherLogo": false,
+      "stars": 26216,
+      "forks": 3148
+    },
+    {
+      "slug": "mukul975-analyzing-supply-chain-malware-artifacts",
+      "name": "mukul975/analyzing-supply-chain-malware-artifacts",
+      "description": "Investigate supply chain attack artifacts including trojanized software",
+      "publisher": "mukul975",
+      "publisherSlug": "mukul975",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "mukul975",
+        "namespaced",
+        "publisher-namespaced",
+        "security"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
+      "creatorHandle": "mukul975",
+      "hasPublisherLogo": false,
+      "stars": 26216,
+      "forks": 3148
+    },
+    {
+      "slug": "mukul975-analyzing-threat-actor-ttps-with-mitre-attack",
+      "name": "mukul975/analyzing-threat-actor-ttps-with-mitre-attack",
+      "description": "MITRE ATT&CK is a globally-accessible knowledge base of adversary tactics,",
+      "publisher": "mukul975",
+      "publisherSlug": "mukul975",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "mukul975",
+        "namespaced",
+        "publisher-namespaced",
+        "security"
+      ],
+      "personas": [
+        "support"
+      ],
+      "jobs": [
+        "data-extraction",
+        "document-authoring",
+        "reporting",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
+      "creatorHandle": "mukul975",
+      "hasPublisherLogo": false,
+      "stars": 26216,
+      "forks": 3148
+    },
+    {
+      "slug": "mukul975-analyzing-threat-actor-ttps-with-mitre-navigator",
+      "name": "mukul975/analyzing-threat-actor-ttps-with-mitre-navigator",
+      "description": "Map advanced persistent threat (APT) group tactics, techniques, and",
+      "publisher": "mukul975",
+      "publisherSlug": "mukul975",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "mukul975",
+        "namespaced",
+        "publisher-namespaced",
+        "security"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
+      "creatorHandle": "mukul975",
+      "hasPublisherLogo": false,
+      "stars": 26216,
+      "forks": 3148
+    },
+    {
+      "slug": "mukul975-analyzing-threat-intelligence-feeds",
+      "name": "mukul975/analyzing-threat-intelligence-feeds",
+      "description": "Analyzes structured and unstructured threat intelligence feeds to extract",
+      "publisher": "mukul975",
+      "publisherSlug": "mukul975",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "mukul975",
+        "namespaced",
+        "publisher-namespaced",
+        "security"
+      ],
+      "personas": [],
+      "jobs": [
+        "data-extraction"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
+      "creatorHandle": "mukul975",
+      "hasPublisherLogo": false,
+      "stars": 26216,
+      "forks": 3148
+    },
+    {
+      "slug": "mukul975-analyzing-threat-landscape-with-misp",
+      "name": "mukul975/analyzing-threat-landscape-with-misp",
+      "description": "Analyze the threat landscape using MISP (Malware Information Sharing",
+      "publisher": "mukul975",
+      "publisherSlug": "mukul975",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "mukul975",
+        "namespaced",
+        "publisher-namespaced",
+        "security"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
+      "creatorHandle": "mukul975",
+      "hasPublisherLogo": false,
+      "stars": 26216,
+      "forks": 3148
+    },
+    {
+      "slug": "mukul975-analyzing-tls-certificate-transparency-logs",
+      "name": "mukul975/analyzing-tls-certificate-transparency-logs",
+      "description": "Queries Certificate Transparency logs via crt.sh and pycrtsh to detect",
+      "publisher": "mukul975",
+      "publisherSlug": "mukul975",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "mukul975",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "data-analyst"
+      ],
+      "jobs": [
+        "dashboarding",
+        "data-extraction",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
+      "creatorHandle": "mukul975",
+      "hasPublisherLogo": false,
+      "stars": 26216,
+      "forks": 3148
+    },
+    {
+      "slug": "mukul975-analyzing-typosquatting-domains-with-dnstwist",
+      "name": "mukul975/analyzing-typosquatting-domains-with-dnstwist",
+      "description": "Detect typosquatting, homograph phishing, and brand impersonation domains",
+      "publisher": "mukul975",
+      "publisherSlug": "mukul975",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "mukul975",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "designer",
+        "marketer"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "design-critique",
+        "landing-pages",
+        "presentation-building",
+        "reporting",
+        "research-synthesis",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
+      "creatorHandle": "mukul975",
+      "hasPublisherLogo": false,
+      "stars": 26216,
+      "forks": 3148
+    },
+    {
+      "slug": "mukul975-analyzing-uefi-bootkit-persistence",
+      "name": "mukul975/analyzing-uefi-bootkit-persistence",
+      "description": "Analyzes UEFI bootkit persistence mechanisms including firmware implants",
+      "publisher": "mukul975",
+      "publisherSlug": "mukul975",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "mukul975",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
+      "creatorHandle": "mukul975",
+      "hasPublisherLogo": false,
+      "stars": 26216,
+      "forks": 3148
+    },
+    {
+      "slug": "mukul975-analyzing-usb-device-connection-history",
+      "name": "mukul975/analyzing-usb-device-connection-history",
+      "description": "Investigate USB device connection history from Windows registry, event",
+      "publisher": "mukul975",
+      "publisherSlug": "mukul975",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "mukul975",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [
+        "development-workflows"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
+      "creatorHandle": "mukul975",
+      "hasPublisherLogo": false,
+      "stars": 26216,
+      "forks": 3148
+    },
+    {
+      "slug": "mukul975-analyzing-web-server-logs-for-intrusion",
+      "name": "mukul975/analyzing-web-server-logs-for-intrusion",
+      "description": "Parse Apache and Nginx access logs to detect SQL injection attempts,",
+      "publisher": "mukul975",
+      "publisherSlug": "mukul975",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "mukul975",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "data-analyst"
+      ],
+      "jobs": [
+        "dashboarding",
+        "data-extraction",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
+      "creatorHandle": "mukul975",
+      "hasPublisherLogo": false,
+      "stars": 26216,
+      "forks": 3148
+    },
+    {
+      "slug": "mukul975-analyzing-windows-amcache-artifacts",
+      "name": "mukul975/analyzing-windows-amcache-artifacts",
+      "description": "Parses and analyzes the Windows Amcache.hve registry hive to extract",
+      "publisher": "mukul975",
+      "publisherSlug": "mukul975",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "mukul975",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [
+        "data-extraction"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
+      "creatorHandle": "mukul975",
+      "hasPublisherLogo": false,
+      "stars": 26216,
+      "forks": 3148
+    },
+    {
+      "slug": "mukul975-analyzing-windows-event-logs-in-splunk",
+      "name": "mukul975/analyzing-windows-event-logs-in-splunk",
+      "description": "Analyzes Windows Security, System, and Sysmon event logs in Splunk to",
+      "publisher": "mukul975",
+      "publisherSlug": "mukul975",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "mukul975",
+        "namespaced",
+        "publisher-namespaced",
+        "security"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
+      "creatorHandle": "mukul975",
+      "hasPublisherLogo": false,
+      "stars": 26216,
+      "forks": 3148
+    },
+    {
+      "slug": "mukul975-analyzing-windows-lnk-files-for-artifacts",
+      "name": "mukul975/analyzing-windows-lnk-files-for-artifacts",
+      "description": "Parse Windows LNK shortcut files to extract target paths, timestamps,",
+      "publisher": "mukul975",
+      "publisherSlug": "mukul975",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "mukul975",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [
+        "data-extraction"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
+      "creatorHandle": "mukul975",
+      "hasPublisherLogo": false,
+      "stars": 26216,
+      "forks": 3148
+    },
+    {
+      "slug": "mukul975-analyzing-windows-prefetch-with-python",
+      "name": "mukul975/analyzing-windows-prefetch-with-python",
+      "description": "Parse Windows Prefetch files using the windowsprefetch Python library",
+      "publisher": "mukul975",
+      "publisherSlug": "mukul975",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "mukul975",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [
+        "data-extraction"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
+      "creatorHandle": "mukul975",
+      "hasPublisherLogo": false,
+      "stars": 26216,
+      "forks": 3148
+    },
     {
       "slug": "mukul975-analyzing-windows-registry-for-artifacts",
       "name": "mukul975/analyzing-windows-registry-for-artifacts",
@@ -30,8 +773,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-analyzing-windows-shellbag-artifacts",
@@ -58,8 +801,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-assessing-vector-and-embedding-weaknesses",
@@ -94,8 +837,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-attacking-entra-id-with-roadtools",
@@ -124,8 +867,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-attacking-oauth-with-device-code-phishing",
@@ -161,8 +904,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-auditing-aws-s3-bucket-permissions",
@@ -189,8 +932,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-auditing-azure-active-directory-configuration",
@@ -217,8 +960,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-auditing-cloud-with-cis-benchmarks",
@@ -254,8 +997,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-auditing-entra-id-with-aadinternals",
@@ -291,8 +1034,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-auditing-foundry-smart-contract-security",
@@ -322,8 +1065,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-auditing-gcp-iam-permissions",
@@ -350,8 +1093,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-auditing-kubernetes-cluster-rbac",
@@ -378,8 +1121,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-auditing-kubernetes-rbac-privilege-escalation",
@@ -409,8 +1152,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-auditing-mcp-servers-for-tool-poisoning",
@@ -441,8 +1184,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-auditing-terraform-infrastructure-for-security",
@@ -478,8 +1221,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-auditing-tls-certificate-transparency-logs",
@@ -507,8 +1250,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-auditing-uefi-firmware-with-chipsec",
@@ -543,8 +1286,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-automating-ioc-enrichment",
@@ -573,8 +1316,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-benchmarking-kubernetes-with-kube-bench",
@@ -610,8 +1353,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-building-adversary-infrastructure-tracking-system",
@@ -647,8 +1390,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-building-attack-pattern-library-from-cti-reports",
@@ -686,8 +1429,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-building-automated-malware-submission-pipeline",
@@ -733,8 +1476,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-building-c2-infrastructure-with-sliver-framework",
@@ -770,8 +1513,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-building-c2-redirector-infrastructure",
@@ -807,8 +1550,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-building-cloud-siem-with-sentinel",
@@ -844,8 +1587,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-building-detection-rule-with-splunk-spl",
@@ -882,8 +1625,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-building-detection-rules-with-sigma",
@@ -919,8 +1662,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-building-devsecops-pipeline-with-gitlab-ci",
@@ -963,8 +1706,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-building-identity-federation-with-saml-azure-ad",
@@ -1000,8 +1743,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-building-identity-governance-lifecycle-process",
@@ -1037,8 +1780,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-building-incident-response-dashboard",
@@ -1082,8 +1825,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-building-incident-response-playbook",
@@ -1123,8 +1866,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-building-incident-timeline-with-timesketch",
@@ -1161,8 +1904,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-building-ioc-defanging-and-sharing-pipeline",
@@ -1202,8 +1945,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-building-ioc-enrichment-pipeline-with-opencti",
@@ -1244,8 +1987,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-building-malware-incident-communication-template",
@@ -1282,8 +2025,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-building-patch-tuesday-response-process",
@@ -1323,8 +2066,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-building-phishing-reporting-button-workflow",
@@ -1364,8 +2107,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-building-ransomware-playbook-with-cisa-framework",
@@ -1405,8 +2148,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-building-red-team-c2-infrastructure-with-havoc",
@@ -1442,8 +2185,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-building-role-mining-for-rbac-optimization",
@@ -1479,8 +2222,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-building-soc-escalation-matrix",
@@ -1520,8 +2263,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-building-soc-metrics-and-kpi-tracking",
@@ -1563,8 +2306,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-building-soc-playbook-for-ransomware",
@@ -1604,8 +2347,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-building-super-timelines-with-plaso",
@@ -1645,8 +2388,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-building-threat-actor-profile-from-osint",
@@ -1683,8 +2426,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-building-threat-feed-aggregation-with-misp",
@@ -1721,8 +2464,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-building-threat-hunt-hypothesis-framework",
@@ -1759,8 +2502,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-building-threat-intelligence-enrichment-in-splunk",
@@ -1797,8 +2540,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-building-threat-intelligence-feed-integration",
@@ -1835,8 +2578,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-building-threat-intelligence-platform",
@@ -1873,8 +2616,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-building-vulnerability-aging-and-sla-tracking",
@@ -1917,8 +2660,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-building-vulnerability-dashboard-with-defectdojo",
@@ -1961,8 +2704,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-building-vulnerability-exception-tracking-system",
@@ -1999,8 +2742,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-building-vulnerability-scanning-workflow",
@@ -2037,8 +2780,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-bypassing-authentication-with-forced-browsing",
@@ -2074,8 +2817,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-coercing-authentication-with-coercer-petitpotam",
@@ -2111,8 +2854,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-collecting-indicators-of-compromise",
@@ -2139,8 +2882,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-collecting-open-source-intelligence",
@@ -2168,8 +2911,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-collecting-threat-intelligence-with-misp",
@@ -2197,8 +2940,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-collecting-volatile-evidence-from-compromised-host",
@@ -2227,8 +2970,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-conducting-api-security-testing",
@@ -2264,8 +3007,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-conducting-cloud-incident-response",
@@ -2305,8 +3048,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-conducting-cloud-penetration-testing",
@@ -2342,8 +3085,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-conducting-cyber-risk-assessment-with-nist-800-30",
@@ -2370,8 +3113,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-conducting-domain-persistence-with-dcsync",
@@ -2398,8 +3141,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-conducting-external-reconnaissance-with-osint",
@@ -2426,8 +3169,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-conducting-full-scope-red-team-engagement",
@@ -2454,8 +3197,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-conducting-internal-network-penetration-test",
@@ -2491,8 +3234,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-conducting-internal-reconnaissance-with-bloodhound-ce",
@@ -2519,8 +3262,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-conducting-malware-incident-response",
@@ -2560,8 +3303,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-conducting-man-in-the-middle-attack-simulation",
@@ -2588,8 +3331,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-conducting-memory-forensics-with-volatility",
@@ -2626,8 +3369,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-conducting-mobile-app-penetration-test",
@@ -2662,8 +3405,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-conducting-network-penetration-test",
@@ -2699,8 +3442,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-conducting-pass-the-ticket-attack",
@@ -2734,8 +3477,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-conducting-phishing-incident-response",
@@ -2774,8 +3517,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-conducting-post-incident-lessons-learned",
@@ -2810,8 +3553,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-conducting-social-engineering-penetration-test",
@@ -2852,8 +3595,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-conducting-social-engineering-pretext-call",
@@ -2890,8 +3633,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-conducting-spearphishing-simulation-campaign",
@@ -2932,8 +3675,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-conducting-wireless-network-penetration-test",
@@ -2969,8 +3712,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-configuring-active-directory-tiered-model",
@@ -2998,8 +3741,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-configuring-aws-verified-access-for-ztna",
@@ -3026,8 +3769,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-configuring-certificate-authority-with-openssl",
@@ -3055,8 +3798,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-configuring-host-based-intrusion-detection",
@@ -3083,8 +3826,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-configuring-hsm-for-key-storage",
@@ -3114,8 +3857,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-configuring-identity-aware-proxy-with-google-iap",
@@ -3142,8 +3885,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-configuring-ldap-security-hardening",
@@ -3173,8 +3916,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-configuring-microsegmentation-for-zero-trust",
@@ -3209,8 +3952,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-configuring-multi-factor-authentication-with-duo",
@@ -3246,8 +3989,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-configuring-network-segmentation-with-vlans",
@@ -3274,8 +4017,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-configuring-oauth2-authorization-flow",
@@ -3303,8 +4046,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-configuring-pfsense-firewall-rules",
@@ -3339,8 +4082,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-configuring-snort-ids-for-intrusion-detection",
@@ -3367,8 +4110,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-configuring-suricata-for-network-monitoring",
@@ -3404,8 +4147,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-configuring-tls-1-3-for-secure-communications",
@@ -3441,8 +4184,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-configuring-windows-defender-advanced-settings",
@@ -3469,8 +4212,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-configuring-windows-event-logging-for-detection",
@@ -3505,8 +4248,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-configuring-zscaler-private-access-for-ztna",
@@ -3533,8 +4276,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-containing-active-breach",
@@ -3561,8 +4304,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-continuous-llm-red-teaming-with-promptfoo",
@@ -3598,8 +4341,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-correlating-security-events-in-qradar",
@@ -3636,8 +4379,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-correlating-threat-campaigns",
@@ -3679,8 +4422,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-defending-llms-with-guardrails",
@@ -3715,8 +4458,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-deobfuscating-javascript-malware",
@@ -3752,8 +4495,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-deobfuscating-powershell-obfuscated-malware",
@@ -3790,8 +4533,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-deploying-active-directory-honeytokens",
@@ -3826,8 +4569,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-deploying-cloud-deception-with-decoy-resources",
@@ -3862,8 +4605,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-deploying-cloudflare-access-for-zero-trust",
@@ -3898,8 +4641,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-deploying-decoy-files-for-ransomware-detection",
@@ -3934,8 +4677,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-deploying-edr-agent-with-crowdstrike",
@@ -3970,8 +4713,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-deploying-honeytokens-and-canarytokens",
@@ -4006,8 +4749,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-deploying-osquery-for-endpoint-monitoring",
@@ -4042,8 +4785,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-deploying-palo-alto-prisma-access-zero-trust",
@@ -4078,8 +4821,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-deploying-ransomware-canary-files",
@@ -4114,8 +4857,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-deploying-software-defined-perimeter",
@@ -4151,8 +4894,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-deploying-tailscale-for-zero-trust-vpn",
@@ -4187,8 +4930,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-designing-adversary-engagement-with-mitre-engage",
@@ -4215,8 +4958,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-ai-model-prompt-injection-attacks",
@@ -4243,8 +4986,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-anomalies-in-industrial-control-systems",
@@ -4279,8 +5022,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-anomalous-authentication-patterns",
@@ -4317,8 +5060,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-api-enumeration-attacks",
@@ -4353,8 +5096,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-arp-poisoning-in-network-traffic",
@@ -4383,8 +5126,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-attacks-on-historian-servers",
@@ -4411,8 +5154,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-attacks-on-scada-systems",
@@ -4439,8 +5182,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-aws-cloudtrail-anomalies",
@@ -4475,8 +5218,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-aws-credential-exposure-with-trufflehog",
@@ -4511,8 +5254,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-aws-guardduty-findings-automation",
@@ -4543,8 +5286,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-aws-iam-privilege-escalation",
@@ -4571,8 +5314,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-azure-lateral-movement",
@@ -4599,8 +5342,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-azure-service-principal-abuse",
@@ -4635,8 +5378,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-azure-storage-account-misconfigurations",
@@ -4663,8 +5406,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-beaconing-patterns-with-zeek",
@@ -4700,8 +5443,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-bluetooth-low-energy-attacks",
@@ -4729,8 +5472,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-broken-object-property-level-authorization",
@@ -4766,8 +5509,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-business-email-compromise-with-ai",
@@ -4802,8 +5545,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-business-email-compromise",
@@ -4830,8 +5573,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-cloud-threats-with-guardduty",
@@ -4867,8 +5610,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-command-and-control-over-dns",
@@ -4895,8 +5638,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-compromised-cloud-credentials",
@@ -4923,8 +5666,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-container-drift-at-runtime",
@@ -4952,8 +5695,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-container-escape-attempts",
@@ -4980,8 +5723,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-container-escape-with-falco-rules",
@@ -5009,8 +5752,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-container-runtime-threats-with-falco",
@@ -5046,8 +5789,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-credential-dumping-techniques",
@@ -5074,8 +5817,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-cryptomining-in-cloud",
@@ -5103,8 +5846,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-data-and-model-poisoning",
@@ -5138,8 +5881,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-dcsync-attack-in-active-directory",
@@ -5166,8 +5909,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-deepfake-audio-in-vishing-attacks",
@@ -5194,8 +5937,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-dependency-confusion",
@@ -5222,8 +5965,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-dll-sideloading-attacks",
@@ -5258,8 +6001,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-dnp3-protocol-anomalies",
@@ -5286,8 +6029,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-dns-exfiltration-with-dns-query-analysis",
@@ -5323,8 +6066,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-email-account-compromise",
@@ -5351,8 +6094,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-email-forwarding-rules-attack",
@@ -5387,8 +6130,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-entra-offensive-tools-in-graph-logs",
@@ -5424,8 +6167,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-evasion-techniques-in-endpoint-logs",
@@ -5452,8 +6195,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-exfiltration-over-dns-with-zeek",
@@ -5480,8 +6223,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-fileless-attacks-on-endpoints",
@@ -5509,8 +6252,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-fileless-malware-techniques",
@@ -5538,8 +6281,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-golden-ticket-attacks-in-kerberos-logs",
@@ -5573,8 +6316,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-golden-ticket-forgery",
@@ -5608,8 +6351,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-indirect-prompt-injection",
@@ -5638,8 +6381,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-insider-data-exfiltration-via-dlp",
@@ -5666,8 +6409,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-insider-threat-behaviors",
@@ -5695,8 +6438,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-insider-threat-with-ueba",
@@ -5733,8 +6476,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-kerberoasting-attacks",
@@ -5761,8 +6504,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-lateral-movement-in-network",
@@ -5789,8 +6532,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-lateral-movement-with-splunk",
@@ -5826,8 +6569,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-lateral-movement-with-zeek",
@@ -5854,8 +6597,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-living-off-the-land-attacks",
@@ -5882,8 +6625,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-living-off-the-land-with-lolbas",
@@ -5910,8 +6653,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-malicious-npm-packages",
@@ -5951,8 +6694,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-malicious-scheduled-tasks-with-sysmon",
@@ -5987,8 +6730,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-mimikatz-execution-patterns",
@@ -6015,8 +6758,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-misconfigured-azure-storage",
@@ -6043,8 +6786,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-mobile-malware-behavior",
@@ -6080,8 +6823,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-modbus-command-injection-attacks",
@@ -6108,8 +6851,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-modbus-protocol-anomalies",
@@ -6136,8 +6879,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-model-extraction-attacks",
@@ -6178,8 +6921,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-network-anomalies-with-zeek",
@@ -6215,8 +6958,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-network-scanning-with-ids-signatures",
@@ -6243,8 +6986,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-ntlm-relay-with-event-correlation",
@@ -6272,8 +7015,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-oauth-token-theft",
@@ -6301,8 +7044,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-pass-the-hash-attacks",
@@ -6330,8 +7073,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-pass-the-ticket-attacks",
@@ -6365,8 +7108,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-port-scanning-with-fail2ban",
@@ -6393,8 +7136,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-privilege-escalation-attempts",
@@ -6421,8 +7164,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-privilege-escalation-in-kubernetes-pods",
@@ -6449,8 +7192,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-process-hollowing-technique",
@@ -6477,8 +7220,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-process-injection-techniques",
@@ -6506,8 +7249,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-qr-code-phishing-with-email-security",
@@ -6544,8 +7287,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-ransomware-encryption-behavior",
@@ -6581,8 +7324,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-ransomware-precursors-in-network",
@@ -6609,8 +7352,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-rdp-brute-force-attacks",
@@ -6638,8 +7381,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-rootkit-activity",
@@ -6666,8 +7409,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-s3-data-exfiltration-attempts",
@@ -6694,8 +7437,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-secure-boot-bypass",
@@ -6722,8 +7465,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-serverless-function-injection",
@@ -6758,8 +7501,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-service-account-abuse",
@@ -6788,8 +7531,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-shadow-api-endpoints",
@@ -6824,8 +7567,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-shadow-it-cloud-usage",
@@ -6855,8 +7598,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-spearphishing-with-email-gateway",
@@ -6892,8 +7635,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-sql-injection-via-waf-logs",
@@ -6935,8 +7678,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-stuxnet-style-attacks",
@@ -6965,8 +7708,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-supply-chain-attacks-in-ci-cd",
@@ -7005,8 +7748,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-suspicious-oauth-application-consent",
@@ -7042,8 +7785,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-suspicious-powershell-execution",
@@ -7078,8 +7821,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-t1003-credential-dumping-with-edr",
@@ -7106,8 +7849,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-t1055-process-injection-with-sysmon",
@@ -7134,8 +7877,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-t1548-abuse-elevation-control-mechanism",
@@ -7162,8 +7905,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-typosquatting-packages-in-npm-pypi",
@@ -7190,8 +7933,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-typosquatting-packages",
@@ -7227,8 +7970,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-detecting-wmi-persistence",
@@ -7255,8 +7998,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     },
     {
       "slug": "mukul975-emulating-cloud-attacks-with-stratus-red-team",
@@ -7283,756 +8026,8 @@
       "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
       "creatorHandle": "mukul975",
       "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-enumerating-cloud-with-cloudfox",
-      "name": "mukul975/enumerating-cloud-with-cloudfox",
-      "description": "Map AWS and Azure attack paths and find exploitable misconfigurations with",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-eradicating-malware-from-infected-systems",
-      "name": "mukul975/eradicating-malware-from-infected-systems",
-      "description": "Systematically remove malware, backdoors, and attacker persistence mechanisms",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced",
-        "security"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-escaping-containers-to-host",
-      "name": "mukul975/escaping-containers-to-host",
-      "description": "Exploit privileged pods, host mounts, runC CVEs, and exposed Docker sockets to break out of a container and reach the underlying host during authorized container-security assessments.",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced",
-        "security"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-evaluating-threat-intelligence-platforms",
-      "name": "mukul975/evaluating-threat-intelligence-platforms",
-      "description": "Evaluates and selects Threat Intelligence Platform (TIP) products based",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced",
-        "security"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-executing-active-directory-attack-simulation",
-      "name": "mukul975/executing-active-directory-attack-simulation",
-      "description": "Executes authorized attack simulations against Active Directory environments",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced",
-        "security"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-executing-nist-rmf-authorization-to-operate",
-      "name": "mukul975/executing-nist-rmf-authorization-to-operate",
-      "description": ">-",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced",
-        "security"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-executing-phishing-simulation-campaign",
-      "name": "mukul975/executing-phishing-simulation-campaign",
-      "description": "Executes authorized phishing simulation campaigns to assess an organization''s",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced",
-        "security"
-      ],
-      "personas": [
-        "marketer"
-      ],
-      "jobs": [
-        "campaign-planning",
-        "content-production",
-        "landing-pages",
-        "reporting",
-        "research-synthesis"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-executing-red-team-engagement-planning",
-      "name": "mukul975/executing-red-team-engagement-planning",
-      "description": "Red team engagement planning is the foundational phase that defines scope,",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [
-        "planning-roadmapping"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-executing-red-team-exercise",
-      "name": "mukul975/executing-red-team-exercise",
-      "description": "Executes comprehensive red team exercises that simulate real-world adversary",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-exploiting-active-directory-certificate-services-esc1",
-      "name": "mukul975/exploiting-active-directory-certificate-services-esc1",
-      "description": "Exploit misconfigured Active Directory Certificate Services (AD CS) ESC1",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [
-        "api-integration"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-exploiting-active-directory-with-bloodhound",
-      "name": "mukul975/exploiting-active-directory-with-bloodhound",
-      "description": "BloodHound is a graph-based Active Directory reconnaissance tool that",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-exploiting-adcs-with-certipy",
-      "name": "mukul975/exploiting-adcs-with-certipy",
-      "description": "Enumerate and exploit Active Directory Certificate Services ESC1 through ESC16 misconfigurations with Certipy, including SAN abuse, NTLM relay to web enrollment (ESC8), and golden certificate forgery.",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [
-        "api-integration"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-exploiting-api-injection-vulnerabilities",
-      "name": "mukul975/exploiting-api-injection-vulnerabilities",
-      "description": "Tests APIs for injection vulnerabilities including SQL injection, NoSQL",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "data-analyst",
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "dashboarding",
-        "data-extraction",
-        "deployment-ops",
-        "development-workflows",
-        "reporting",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-exploiting-aws-with-pacu",
-      "name": "mukul975/exploiting-aws-with-pacu",
-      "description": "Use Pacu modules for AWS privilege escalation, persistence, and backdooring.",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-exploiting-bgp-hijacking-vulnerabilities",
-      "name": "mukul975/exploiting-bgp-hijacking-vulnerabilities",
-      "description": "Analyzes and simulates BGP hijacking scenarios in authorized lab environments",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced",
-        "security"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-exploiting-broken-function-level-authorization",
-      "name": "mukul975/exploiting-broken-function-level-authorization",
-      "description": "Tests APIs for Broken Function Level Authorization (BFLA) vulnerabilities",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced",
-        "security"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-exploiting-broken-link-hijacking",
-      "name": "mukul975/exploiting-broken-link-hijacking",
-      "description": "Discover and exploit broken link hijacking vulnerabilities by identifying",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-exploiting-constrained-delegation-abuse",
-      "name": "mukul975/exploiting-constrained-delegation-abuse",
-      "description": "Exploit Kerberos Constrained Delegation misconfigurations in Active Directory",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-exploiting-deeplink-vulnerabilities",
-      "name": "mukul975/exploiting-deeplink-vulnerabilities",
-      "description": "Tests and exploits deep link (URL scheme and App Link) vulnerabilities",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-exploiting-excessive-data-exposure-in-api",
-      "name": "mukul975/exploiting-excessive-data-exposure-in-api",
-      "description": "Tests APIs for excessive data exposure where endpoints return more data",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-exploiting-http-request-smuggling",
-      "name": "mukul975/exploiting-http-request-smuggling",
-      "description": "Detecting and exploiting HTTP request smuggling vulnerabilities caused",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-exploiting-idor-vulnerabilities",
-      "name": "mukul975/exploiting-idor-vulnerabilities",
-      "description": "Identifying and exploiting Insecure Direct Object Reference vulnerabilities",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-exploiting-insecure-data-storage-in-mobile",
-      "name": "mukul975/exploiting-insecure-data-storage-in-mobile",
-      "description": "Identifies and exploits insecure local data storage vulnerabilities",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
-    },
-    {
-      "slug": "mukul975-exploiting-insecure-deserialization",
-      "name": "mukul975/exploiting-insecure-deserialization",
-      "description": "Identifying and exploiting insecure deserialization vulnerabilities in",
-      "publisher": "mukul975",
-      "publisherSlug": "mukul975",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "mukul975",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/mukul975.png?size=88",
-      "creatorHandle": "mukul975",
-      "hasPublisherLogo": false,
-      "stars": 25575,
-      "forks": 3097
+      "stars": 26216,
+      "forks": 3148
     }
   ]
 }

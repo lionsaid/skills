@@ -3,6 +3,7 @@ import repoStatsData from "@/data/repo-stats.generated.json";
 import jobAliasesData from "@/../config/job-aliases.json";
 import publisherRulesData from "@/../config/publisher-rules.json";
 import roleDefinitionsData from "@/../config/role-definitions.json";
+import recommendationReviewsData from "@/../config/recommendation-review.json";
 import { matchesSearchQuery, parseSearchQuery } from "@/lib/skills-common";
 
 export type Skill = {
@@ -81,6 +82,11 @@ export type RelatedSkill = {
   reason: string;
 };
 
+export type RoleRecommendation = {
+  skill: Skill;
+  reason: string;
+};
+
 export type SkillSort = "featured" | "name" | "publisher";
 export type SkillFilterKind = Skill["kind"] | "all";
 export type SkillTrustFilter = Skill["trustLevel"] | "all";
@@ -101,6 +107,10 @@ type SkillsPayload = {
   generatedAt: string;
   totalSkills: number;
   skills: Skill[];
+};
+
+type RecommendationReviewPayload = {
+  reviewsByRole?: Record<string, Record<string, { status?: string }>>;
 };
 
 const payload = skillsData as SkillsPayload;
@@ -132,6 +142,7 @@ const preferredPublisherRank = new Map(
   preferredPublisherOrder.map((slug, index) => [slug, index]),
 );
 const roleDefinitions = roleDefinitionsData as RoleDefinition[];
+const recommendationReviews = recommendationReviewsData as RecommendationReviewPayload;
 const jobAliases = jobAliasesData as Record<string, string[]>;
 const publisherRules = publisherRulesData as {
   logoPriorityPublishers: string[];
@@ -546,6 +557,10 @@ function isGenericRoleSkill(skill: Skill) {
 }
 
 function isRolePriorityCandidate(role: RoleDefinition, skill: Skill) {
+  if (recommendationReviews.reviewsByRole?.[role.slug]?.[skill.slug]?.status === "not-relevant") {
+    return false;
+  }
+
   const dataAnalystBlockedTags = [
     "docker",
     "terraform",
@@ -977,6 +992,51 @@ export function getRolePrioritySkills(slug: string, limit = 10) {
   }
 
   return selected;
+}
+
+function getRoleRecommendationReason(
+  role: RoleDefinition,
+  skill: Skill,
+  locale: "en" | "zh-CN",
+) {
+  if (role.starterSkillSlugs.includes(skill.slug)) {
+    return locale === "zh-CN" ? "已加入该角色的人工入门包" : "Included in this role’s curated starter pack";
+  }
+
+  const matchedJobs = skill.jobs.filter((job) => role.jobs.includes(job));
+  if (skill.personas.includes(role.slug) && matchedJobs.length > 0) {
+    return locale === "zh-CN"
+      ? "同时匹配该角色和常见任务"
+      : "Matches this role and its common tasks";
+  }
+
+  if (matchedJobs.length >= 2) {
+    return locale === "zh-CN"
+      ? `覆盖 ${matchedJobs.length} 个常见任务`
+      : `Covers ${matchedJobs.length} common tasks`;
+  }
+
+  if (skill.trustLevel === "official") {
+    return locale === "zh-CN" ? "官方团队维护，且与该角色相关" : "Officially maintained and relevant to this role";
+  }
+
+  return locale === "zh-CN" ? "与该角色的任务和关键词相关" : "Relevant to this role’s tasks and keywords";
+}
+
+export function getRolePriorityRecommendations(
+  slug: string,
+  limit = 10,
+  locale: "en" | "zh-CN" = "en",
+): RoleRecommendation[] {
+  const role = getRoleBySlug(slug);
+  if (!role) {
+    return [];
+  }
+
+  return getRolePrioritySkills(slug, limit).map((skill) => ({
+    skill,
+    reason: getRoleRecommendationReason(role, skill, locale),
+  }));
 }
 
 export function getStarterSkillsForRole(slug: string) {

@@ -2,9 +2,9 @@
   "repository": "qdrant/skills",
   "branch": "main",
   "defaultBranch": "main",
-  "pushedAt": "2026-07-14T13:04:00Z",
-  "scannedAt": "2026-07-15T02:28:36.886Z",
-  "treeSha": "2a06cb1e9b614fca0f902eed79edd049c24877c5",
+  "pushedAt": "2026-07-20T20:15:10Z",
+  "scannedAt": "2026-07-21T03:10:59.430Z",
+  "treeSha": "240854b3068b6a9cd1ebf75ab008b5758071052b",
   "items": [
     {
       "repository": "qdrant/skills",
@@ -15,13 +15,14 @@
       "description": "Agent skills for Qdrant vector search: scaling, performance optimization, search quality, monitoring, deployment, model migration, version upgrades, and SDK usage across Python, TypeScript, Rust, Go, .NET, Java",
       "slug": "qdrant-skills-collection",
       "isCollection": true,
-      "stars": 199,
+      "stars": 204,
       "skillPaths": [
         "skills/qdrant-clients-sdk/SKILL.md",
         "skills/qdrant-deployment-options/SKILL.md",
         "skills/qdrant-edge/SKILL.md",
         "skills/qdrant-model-migration/SKILL.md",
         "skills/qdrant-monitoring/SKILL.md",
+        "skills/qdrant-multitenancy/SKILL.md",
         "skills/qdrant-performance-optimization/SKILL.md",
         "skills/qdrant-scaling/SKILL.md",
         "skills/qdrant-search-quality/SKILL.md",
@@ -76,6 +77,15 @@
     {
       "repository": "qdrant/skills",
       "branch": "main",
+      "skillName": "qdrant-multitenancy",
+      "path": "skills/qdrant-multitenancy/SKILL.md",
+      "url": "https://github.com/qdrant/skills/blob/main/skills/qdrant-multitenancy/SKILL.md",
+      "description": "Guides tenant isolation architecture in Qdrant for multi-tenant or multi-user applications. Use when someone asks 'how to isolate customer data', 'how to build multi-tenant search/RAG', 'how many collections should I create', 'how to partition tenants by payload', 'a customer's data legally has to stay in a certain country or region'. Also use when they describe a symptom: one customer's data is way bigger than the rest and slowing everyone down, or one tenant is hogging resources.",
+      "slug": "qdrant-qdrant-multitenancy"
+    },
+    {
+      "repository": "qdrant/skills",
+      "branch": "main",
       "skillName": "qdrant-performance-optimization",
       "path": "skills/qdrant-performance-optimization/SKILL.md",
       "url": "https://github.com/qdrant/skills/blob/main/skills/qdrant-performance-optimization/SKILL.md",
@@ -110,6 +120,6 @@
       "slug": "qdrant-qdrant-version-upgrade"
     }
   ],
-  "itemCount": 10,
+  "itemCount": 11,
   "lastStatus": "cache-fresh"
 }

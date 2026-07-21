@@ -7,6 +7,7 @@ const __dirname = path.dirname(__filename);
 const projectRoot = path.join(__dirname, "..");
 const outputDir = path.join(projectRoot, "src", "data");
 const roleDefinitionsPath = path.join(projectRoot, "config", "role-definitions.json");
+const recommendationReviewPath = path.join(projectRoot, "config", "recommendation-review.json");
 const skillsDataPath = path.join(outputDir, "skills.generated.json");
 const auditOutputPath = path.join(outputDir, "role-audit.generated.json");
 
@@ -159,7 +160,7 @@ function isRolePriorityCandidate(role, skill) {
   return true;
 }
 
-function getRolePrioritySkills(role, allSkills, limit = 10) {
+function getRolePrioritySkills(role, allSkills, reviewsByRole, limit = 10) {
   const ranked = allSkills
     .map((skill) => ({ skill, ...scoreRoleSkill(role, skill) }))
     .filter(({ score, isStarter, hasPersonaMatch, jobMatches, queryMatches }) => {
@@ -170,6 +171,7 @@ function getRolePrioritySkills(role, allSkills, limit = 10) {
       return jobMatches >= 1 && queryMatches >= 1;
     })
     .filter(({ skill }) => isRolePriorityCandidate(role, skill))
+    .filter(({ skill }) => reviewsByRole?.[role.slug]?.[skill.slug]?.status !== "not-relevant")
     .sort((a, b) => b.score - a.score || a.skill.name.localeCompare(b.skill.name));
 
   const selected = [];
@@ -189,6 +191,7 @@ function getRolePrioritySkills(role, allSkills, limit = 10) {
 
 function main() {
   const roles = readJson(roleDefinitionsPath);
+  const reviewsByRole = readJson(recommendationReviewPath).reviewsByRole ?? {};
   const allSkills = readJson(skillsDataPath).skills ?? [];
 
   const result = {
@@ -196,7 +199,7 @@ function main() {
     roles: roles.map((role) => ({
       role: role.slug,
       label: role.label,
-      topSkills: getRolePrioritySkills(role, allSkills, 10).map((skill) => ({
+      topSkills: getRolePrioritySkills(role, allSkills, reviewsByRole, 10).map((skill) => ({
         slug: skill.slug,
         name: skill.name,
         publisher: skill.publisher,

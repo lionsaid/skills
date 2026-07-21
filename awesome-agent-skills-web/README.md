@@ -66,6 +66,7 @@ pnpm generate:data
 pnpm generate:repo-stats
 pnpm validate:roles
 pnpm audit:roles
+pnpm audit:recommendations
 pnpm refresh:publisher-logos
 pnpm refresh:github-cache
 pnpm refresh:all
@@ -81,6 +82,8 @@ pnpm refresh:all
   校验角色页推荐是否缺项、过少或过于单一
 - `audit:roles`
   导出每个角色的前 10 推荐结果，方便人工复核
+- `audit:recommendations`
+  输出目录与角色推荐质量报告，包括缺描述率、近似重复率、Top 10 来源多样性、可信来源占比、风险标记占比和每个角色的人工复核队列；人工结论保存在 `config/recommendation-review.json`，以角色 slug 为第一层、skill slug 为第二层，状态可选 `relevant`、`borderline` 或 `not-relevant`，并可附带 `note`
 - `refresh:publisher-logos`
   按规则刷新本地发布方 logo
 - `refresh:github-cache`

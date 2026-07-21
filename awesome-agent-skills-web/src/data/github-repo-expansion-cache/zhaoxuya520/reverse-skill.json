@@ -2,9 +2,9 @@
   "repository": "zhaoxuya520/reverse-skill",
   "branch": "main",
   "defaultBranch": "main",
-  "pushedAt": "2026-07-10T09:30:25Z",
-  "scannedAt": "2026-07-15T02:24:24.773Z",
-  "treeSha": "d34421c9491f1192ba801aa55d6917932041e006",
+  "pushedAt": "2026-07-17T18:09:39Z",
+  "scannedAt": "2026-07-21T03:08:40.563Z",
+  "treeSha": "b8ae07db073783597b11f60fa2e900e3f9b9163f",
   "items": [
     {
       "repository": "zhaoxuya520/reverse-skill",
@@ -15,29 +15,47 @@
       "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base  Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
       "slug": "zhaoxuya520-reverse-skill-collection",
       "isCollection": true,
-      "stars": 8031,
+      "stars": 8386,
       "skillPaths": [
         "skills/api-security/SKILL.md",
         "skills/apk-reverse/SKILL.md",
         "skills/attack-chain/SKILL.md",
         "skills/binary-diff/SKILL.md",
         "skills/browser-automation/SKILL.md",
+        "skills/browser-extension-reverse/SKILL.md",
+        "skills/cloud-k8s/SKILL.md",
+        "skills/code-audit/SKILL.md",
+        "skills/database-security/SKILL.md",
         "skills/diagram-generator/SKILL.md",
+        "skills/digital-forensics/SKILL.md",
         "skills/docs-generator/SKILL.md",
         "skills/dotnet-reverse/SKILL.md",
         "skills/edr-bypass-re/SKILL.md",
+        "skills/email-security/SKILL.md",
         "skills/firmware-pentest/SKILL.md",
+        "skills/ghidra-reverse/SKILL.md",
+        "skills/go-rust-reverse/SKILL.md",
+        "skills/hardware-security/SKILL.md",
         "skills/ida-reverse/SKILL.md",
+        "skills/identity-federation/SKILL.md",
         "skills/js-reverse/SKILL.md",
         "skills/llm-security/SKILL.md",
+        "skills/macos-reverse/SKILL.md",
         "skills/malware-analysis/SKILL.md",
         "skills/mobile-reverse/SKILL.md",
+        "skills/ot-ics/SKILL.md",
         "skills/patch-diff-exploit/SKILL.md",
         "skills/pentest-tools/SKILL.md",
+        "skills/protocol-reverse/SKILL.md",
         "skills/pwn-chain/SKILL.md",
         "skills/radare2/SKILL.md",
+        "skills/radio-sdr/SKILL.md",
         "skills/reverse-engineering/SKILL.md",
-        "skills/supply-chain-security/SKILL.md"
+        "skills/supply-chain-security/SKILL.md",
+        "skills/thick-client/SKILL.md",
+        "skills/threat-hunting/SKILL.md",
+        "skills/wifi-wireless/SKILL.md",
+        "skills/windows-ad/SKILL.md"
       ]
     },
     {
@@ -88,11 +106,56 @@
     {
       "repository": "zhaoxuya520/reverse-skill",
       "branch": "main",
+      "skillName": "browser-extension-reverse",
+      "path": "skills/browser-extension-reverse/SKILL.md",
+      "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/browser-extension-reverse/SKILL.md",
+      "description": "Use for authorized reverse engineering of browser extensions (Chrome/Firefox) including manifest analysis, background workers, and extension-based credential or traffic logic recovery.",
+      "slug": "zhaoxuya520-browser-extension-reverse"
+    },
+    {
+      "repository": "zhaoxuya520/reverse-skill",
+      "branch": "main",
+      "skillName": "cloud-k8s",
+      "path": "skills/cloud-k8s/SKILL.md",
+      "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/cloud-k8s/SKILL.md",
+      "description": "Use for authorized cloud, container, and Kubernetes security assessment including metadata SSRF, IAM misconfig, container escape paths, and cluster RBAC review.",
+      "slug": "zhaoxuya520-cloud-k8s"
+    },
+    {
+      "repository": "zhaoxuya520/reverse-skill",
+      "branch": "main",
+      "skillName": "code-audit",
+      "path": "skills/code-audit/SKILL.md",
+      "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/code-audit/SKILL.md",
+      "description": "Use for authorized source-code security review and SAST workflows including Semgrep, CodeQL patterns, dangerous API hunting, and fix verification.",
+      "slug": "zhaoxuya520-code-audit"
+    },
+    {
+      "repository": "zhaoxuya520/reverse-skill",
+      "branch": "main",
+      "skillName": "database-security",
+      "path": "skills/database-security/SKILL.md",
+      "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/database-security/SKILL.md",
+      "description": "Use for authorized database security assessment covering PostgreSQL/MySQL/MSSQL/Mongo/Redis exposure, authz, UDF/command paths, and misconfiguration review.",
+      "slug": "zhaoxuya520-database-security"
+    },
+    {
+      "repository": "zhaoxuya520/reverse-skill",
+      "branch": "main",
       "skillName": "diagram-generator",
       "path": "skills/diagram-generator/SKILL.md",
       "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/diagram-generator/SKILL.md",
       "description": "generate, refine, validate, and render diagrams from natural language, notes, code snippets, schemas, tables, or existing diagram source. use for flowcharts, swimlanes, sequence diagrams, state diagrams, er diagrams, class diagrams, architecture/c4-style diagrams, dependency graphs, gantt charts, mind maps, user journeys, sankey-style flows, org charts, network graphs, and other visual models. supports mermaid by default, graphviz dot for complex graph layout, plantuml for uml-heavy engineering diagrams, and svg output when direct markup is more reliable.",
       "slug": "zhaoxuya520-diagram-generator"
+    },
+    {
+      "repository": "zhaoxuya520/reverse-skill",
+      "branch": "main",
+      "skillName": "digital-forensics",
+      "path": "skills/digital-forensics/SKILL.md",
+      "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/digital-forensics/SKILL.md",
+      "description": "Use for authorized digital forensics including memory dumps, disk timelines, PCAP investigation, artifact triage, and IR evidence preservation.",
+      "slug": "zhaoxuya520-digital-forensics"
     },
     {
       "repository": "zhaoxuya520/reverse-skill",
@@ -124,6 +187,15 @@
     {
       "repository": "zhaoxuya520/reverse-skill",
       "branch": "main",
+      "skillName": "email-security",
+      "path": "skills/email-security/SKILL.md",
+      "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/email-security/SKILL.md",
+      "description": "Use for authorized email security review including phishing analysis, header authentication (SPF/DKIM/DMARC), BEC patterns, and mailbox token abuse research.",
+      "slug": "zhaoxuya520-email-security"
+    },
+    {
+      "repository": "zhaoxuya520/reverse-skill",
+      "branch": "main",
       "skillName": "firmware-pentest",
       "path": "skills/firmware-pentest/SKILL.md",
       "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/firmware-pentest/SKILL.md",
@@ -133,11 +205,47 @@
     {
       "repository": "zhaoxuya520/reverse-skill",
       "branch": "main",
+      "skillName": "ghidra-reverse",
+      "path": "skills/ghidra-reverse/SKILL.md",
+      "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/ghidra-reverse/SKILL.md",
+      "description": "Use for free/open reverse engineering with Ghidra (headless or GUI), including decompile, cross-refs, and optional Ghidra MCP workflows when IDA is unavailable.",
+      "slug": "zhaoxuya520-ghidra-reverse"
+    },
+    {
+      "repository": "zhaoxuya520/reverse-skill",
+      "branch": "main",
+      "skillName": "go-rust-reverse",
+      "path": "skills/go-rust-reverse/SKILL.md",
+      "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/go-rust-reverse/SKILL.md",
+      "description": "Use for reverse engineering stripped Go and Rust binaries including runtime recognition, pclntab/moduel data recovery, panic strings, and idiomatic decompilation recovery.",
+      "slug": "zhaoxuya520-go-rust-reverse"
+    },
+    {
+      "repository": "zhaoxuya520/reverse-skill",
+      "branch": "main",
+      "skillName": "hardware-security",
+      "path": "skills/hardware-security/SKILL.md",
+      "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/hardware-security/SKILL.md",
+      "description": "Use for authorized hardware and embedded interface security research including UART/JTAG discovery, debug pad triage, secure boot overview, and offline firmware extraction support.",
+      "slug": "zhaoxuya520-hardware-security"
+    },
+    {
+      "repository": "zhaoxuya520/reverse-skill",
+      "branch": "main",
       "skillName": "ida-reverse",
       "path": "skills/ida-reverse/SKILL.md",
       "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/ida-reverse/SKILL.md",
       "description": "|",
       "slug": "zhaoxuya520-ida-reverse"
+    },
+    {
+      "repository": "zhaoxuya520/reverse-skill",
+      "branch": "main",
+      "skillName": "identity-federation",
+      "path": "skills/identity-federation/SKILL.md",
+      "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/identity-federation/SKILL.md",
+      "description": "Use for authorized assessment of federated identity systems including SAML, OIDC, OAuth2 flows, SSO misconfiguration, and token confusion issues.",
+      "slug": "zhaoxuya520-identity-federation"
     },
     {
       "repository": "zhaoxuya520/reverse-skill",
@@ -160,6 +268,15 @@
     {
       "repository": "zhaoxuya520/reverse-skill",
       "branch": "main",
+      "skillName": "macos-reverse",
+      "path": "skills/macos-reverse/SKILL.md",
+      "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/macos-reverse/SKILL.md",
+      "description": "Use for authorized macOS and Mach-O reverse engineering including codesign, Objective-C/Swift recovery, endpoint security surfaces, and Apple platform malware analysis.",
+      "slug": "zhaoxuya520-macos-reverse"
+    },
+    {
+      "repository": "zhaoxuya520/reverse-skill",
+      "branch": "main",
       "skillName": "malware-analysis",
       "path": "skills/malware-analysis/SKILL.md",
       "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/malware-analysis/SKILL.md",
@@ -174,6 +291,15 @@
       "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/mobile-reverse/SKILL.md",
       "description": "Mobile Reverse Engineering",
       "slug": "zhaoxuya520-mobile-reverse"
+    },
+    {
+      "repository": "zhaoxuya520/reverse-skill",
+      "branch": "main",
+      "skillName": "ot-ics",
+      "path": "skills/ot-ics/SKILL.md",
+      "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/ot-ics/SKILL.md",
+      "description": "Use for authorized OT/ICS security assessment covering Purdue model zoning, PLC/SCADA exposure, industrial protocol discovery, and safe passive-first evaluation.",
+      "slug": "zhaoxuya520-ot-ics"
     },
     {
       "repository": "zhaoxuya520/reverse-skill",
@@ -196,6 +322,15 @@
     {
       "repository": "zhaoxuya520/reverse-skill",
       "branch": "main",
+      "skillName": "protocol-reverse",
+      "path": "skills/protocol-reverse/SKILL.md",
+      "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/protocol-reverse/SKILL.md",
+      "description": "Use for authorized reverse engineering of custom binary protocols, Protobuf/gRPC, WebSocket frames, and PCAP-driven protocol recovery.",
+      "slug": "zhaoxuya520-protocol-reverse"
+    },
+    {
+      "repository": "zhaoxuya520/reverse-skill",
+      "branch": "main",
       "skillName": "pwn-chain",
       "path": "skills/pwn-chain/SKILL.md",
       "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/pwn-chain/SKILL.md",
@@ -214,6 +349,15 @@
     {
       "repository": "zhaoxuya520/reverse-skill",
       "branch": "main",
+      "skillName": "radio-sdr",
+      "path": "skills/radio-sdr/SKILL.md",
+      "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/radio-sdr/SKILL.md",
+      "description": "Use for authorized RF/SDR security research including signal identification, replay feasibility study in shielded labs, and wireless protocol analysis outside classic Wi-Fi.",
+      "slug": "zhaoxuya520-radio-sdr"
+    },
+    {
+      "repository": "zhaoxuya520/reverse-skill",
+      "branch": "main",
       "skillName": "reverse-engineering",
       "path": "skills/reverse-engineering/SKILL.md",
       "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/reverse-engineering/SKILL.md",
@@ -228,8 +372,44 @@
       "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/supply-chain-security/SKILL.md",
       "description": "Supply Chain Security Testing",
       "slug": "zhaoxuya520-supply-chain-security"
+    },
+    {
+      "repository": "zhaoxuya520/reverse-skill",
+      "branch": "main",
+      "skillName": "thick-client",
+      "path": "skills/thick-client/SKILL.md",
+      "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/thick-client/SKILL.md",
+      "description": "Use for authorized security testing of desktop thick clients including local storage, update channels, IPC, traffic, and client-side trust boundaries.",
+      "slug": "zhaoxuya520-thick-client"
+    },
+    {
+      "repository": "zhaoxuya520/reverse-skill",
+      "branch": "main",
+      "skillName": "threat-hunting",
+      "path": "skills/threat-hunting/SKILL.md",
+      "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/threat-hunting/SKILL.md",
+      "description": "Use for blue-team threat hunting, detection engineering with Sigma/YARA, SIEM query design, and incident detection validation.",
+      "slug": "zhaoxuya520-threat-hunting"
+    },
+    {
+      "repository": "zhaoxuya520/reverse-skill",
+      "branch": "main",
+      "skillName": "wifi-wireless",
+      "path": "skills/wifi-wireless/SKILL.md",
+      "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/wifi-wireless/SKILL.md",
+      "description": "Use for authorized wireless security assessment including Wi-Fi capture, WPA handshake analysis, rogue AP detection research, and lab-only deauth testing.",
+      "slug": "zhaoxuya520-wifi-wireless"
+    },
+    {
+      "repository": "zhaoxuya520/reverse-skill",
+      "branch": "main",
+      "skillName": "windows-ad",
+      "path": "skills/windows-ad/SKILL.md",
+      "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/skills/windows-ad/SKILL.md",
+      "description": "Use for authorized Active Directory and Windows identity attacks including Kerberos, AD CS, BloodHound paths, NTLM relay, and domain privilege escalation research.",
+      "slug": "zhaoxuya520-windows-ad"
     }
   ],
-  "itemCount": 22,
+  "itemCount": 40,
   "lastStatus": "cache-fresh"
 }

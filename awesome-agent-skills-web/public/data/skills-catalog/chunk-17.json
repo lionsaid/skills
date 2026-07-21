@@ -1,8 +1,387 @@
 {
-  "generatedAt": "2026-07-15T02:39:29.986Z",
+  "generatedAt": "2026-07-21T05:06:39.751Z",
   "chunkIndex": 17,
-  "totalSkills": 8995,
+  "totalSkills": 9131,
   "skills": [
+    {
+      "slug": "sickn33-repo-maintainer",
+      "name": "sickn33/repo-maintainer",
+      "description": "Championship-grade repository maintenance. Audits for test artifacts, dependency issues, CI/CD health, documentation sync, and FAF alignment. Generates prioritized cleanup plans. Use when repos need deep cleaning or ongoing maintenance.",
+      "publisher": "sickn33",
+      "publisherSlug": "sickn33",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "sickn33"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
+      "creatorHandle": "sickn33",
+      "hasPublisherLogo": false,
+      "stars": 43650,
+      "forks": 6463
+    },
+    {
+      "slug": "sickn33-requesting-code-review",
+      "name": "sickn33/requesting-code-review",
+      "description": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements",
+      "publisher": "sickn33",
+      "publisherSlug": "sickn33",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "sickn33"
+      ],
+      "personas": [
+        "engineer",
+        "pm"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "planning-roadmapping",
+        "prd-specs",
+        "reporting",
+        "research-synthesis",
+        "testing-debugging",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
+      "creatorHandle": "sickn33",
+      "hasPublisherLogo": false,
+      "stars": 43650,
+      "forks": 6463
+    },
+    {
+      "slug": "sickn33-research-prompt",
+      "name": "sickn33/research-prompt",
+      "description": "Turn vague research needs into one precise deep-research prompt with context and output criteria.",
+      "publisher": "sickn33",
+      "publisherSlug": "sickn33",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "sickn33"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
+      "creatorHandle": "sickn33",
+      "hasPublisherLogo": false,
+      "stars": 43650,
+      "forks": 6463
+    },
+    {
+      "slug": "sickn33-resolving-merge-conflicts",
+      "name": "sickn33/resolving-merge-conflicts",
+      "description": "Use when you need to resolve an in-progress git merge/rebase conflict.",
+      "publisher": "sickn33",
+      "publisherSlug": "sickn33",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "sickn33"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
+      "creatorHandle": "sickn33",
+      "hasPublisherLogo": false,
+      "stars": 43650,
+      "forks": 6463
+    },
+    {
+      "slug": "sickn33-returns-reverse-logistics",
+      "name": "sickn33/returns-reverse-logistics",
+      "description": "Codified expertise for returns authorisation, receipt and inspection, disposition decisions, refund processing, fraud detection, and warranty claims management.",
+      "publisher": "sickn33",
+      "publisherSlug": "sickn33",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "sickn33"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "prd-specs",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
+      "creatorHandle": "sickn33",
+      "hasPublisherLogo": false,
+      "stars": 43650,
+      "forks": 6463
+    },
+    {
+      "slug": "sickn33-reverse-engineer",
+      "name": "sickn33/reverse-engineer",
+      "description": "Expert reverse engineer specializing in binary analysis, disassembly, decompilation, and software analysis. Masters IDA Pro, Ghidra, radare2, x64dbg, and modern RE toolchains.",
+      "publisher": "sickn33",
+      "publisherSlug": "sickn33",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "sickn33"
+      ],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "prd-specs",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
+      "creatorHandle": "sickn33",
+      "hasPublisherLogo": false,
+      "stars": 43650,
+      "forks": 6463
+    },
+    {
+      "slug": "sickn33-review-and-simplify-changes",
+      "name": "sickn33/review-and-simplify-changes",
+      "description": "Review a git diff or explicit file scope for reuse, code quality, efficiency, clarity, and standards issues, then optionally apply safe Codex-driven fixes. Use when the user asks to \"simplify code\", \"review changed code\", \"check for code reuse\", \"review code quality\", \"review...",
+      "publisher": "sickn33",
+      "publisherSlug": "sickn33",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "sickn33"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
+      "creatorHandle": "sickn33",
+      "hasPublisherLogo": false,
+      "stars": 43650,
+      "forks": 6463
+    },
+    {
+      "slug": "sickn33-review-animations",
+      "name": "sickn33/review-animations",
+      "description": "Use when reviewing animation and motion code against a strict craft, performance, accessibility, and interaction-quality bar.",
+      "publisher": "sickn33",
+      "publisherSlug": "sickn33",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "sickn33"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
+      "creatorHandle": "sickn33",
+      "hasPublisherLogo": false,
+      "stars": 43650,
+      "forks": 6463
+    },
+    {
+      "slug": "sickn33-review-swarm",
+      "name": "sickn33/review-swarm",
+      "description": "Parallel read-only multi-agent review of a current git diff or explicit file scope to find behavioral regressions, security or privacy risks, performance or reliability issues, and contract or test coverage gaps. Use when the user asks for a review swarm, parallel review, diff review,...",
+      "publisher": "sickn33",
+      "publisherSlug": "sickn33",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "sickn33"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "document-authoring",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
+      "creatorHandle": "sickn33",
+      "hasPublisherLogo": false,
+      "stars": 43650,
+      "forks": 6463
+    },
+    {
+      "slug": "sickn33-revops",
+      "name": "sickn33/revops",
+      "description": "Design and improve revenue operations, lead lifecycle rules, scoring, routing, handoffs, and CRM process automation. Use when marketing, sales, and customer success workflows need clearer operational structure.",
+      "publisher": "sickn33",
+      "publisherSlug": "sickn33",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "sickn33"
+      ],
+      "personas": [
+        "designer",
+        "marketer",
+        "sales",
+        "support"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "data-extraction",
+        "deployment-ops",
+        "design-critique",
+        "document-authoring",
+        "landing-pages",
+        "presentation-building",
+        "reporting",
+        "research-synthesis",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
+      "creatorHandle": "sickn33",
+      "hasPublisherLogo": false,
+      "stars": 43650,
+      "forks": 6463
+    },
     {
       "slug": "sickn33-rich-elicitation",
       "name": "sickn33/rich-elicitation",
@@ -36,8 +415,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-riffkit",
@@ -72,8 +451,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-risk-manager",
@@ -100,8 +479,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-risk-metrics-calculation",
@@ -143,8 +522,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-robius-app-architecture",
@@ -171,8 +550,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-robius-event-action",
@@ -199,8 +578,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-robius-matrix-integration",
@@ -229,8 +608,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-robius-state-management",
@@ -257,8 +636,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-robius-widget-patterns",
@@ -285,8 +664,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-robot-framework-skill",
@@ -321,8 +700,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-routerbase-model-gateway",
@@ -349,8 +728,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-ruby-pro",
@@ -386,8 +765,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-run-deep-swe",
@@ -422,8 +801,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-runapi-cli",
@@ -459,8 +838,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-runaway-guard",
@@ -501,8 +880,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-rust-async-patterns",
@@ -538,8 +917,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-rust-pro",
@@ -566,8 +945,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-saas-multi-tenant",
@@ -608,8 +987,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-saas-mvp-launcher",
@@ -653,8 +1032,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-saga-orchestration",
@@ -681,8 +1060,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-sales-automator",
@@ -725,8 +1104,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-sales-enablement",
@@ -760,8 +1139,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-salesforce-automation",
@@ -800,8 +1179,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-salesforce-development",
@@ -830,8 +1209,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-sam-altman",
@@ -860,8 +1239,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-sankhya-dashboard-html-jsp-custom-best-pratices",
@@ -897,8 +1276,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-sast-configuration",
@@ -933,8 +1312,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-satori",
@@ -961,8 +1340,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-scala-pro",
@@ -991,8 +1370,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-scanning-tools",
@@ -1027,8 +1406,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-scanpy",
@@ -1066,8 +1445,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-scarcity-urgency-psychologist",
@@ -1102,8 +1481,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-schema-markup-generator",
@@ -1132,8 +1511,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-schema-markup",
@@ -1174,8 +1553,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-scientific-writing",
@@ -1212,8 +1591,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-scikit-learn",
@@ -1248,8 +1627,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-screen-reader-testing",
@@ -1285,8 +1664,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-screenshots",
@@ -1330,8 +1709,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-screenstudio-alt",
@@ -1358,8 +1737,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-scroll-experience",
@@ -1395,8 +1774,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-sdk-dx",
@@ -1442,8 +1821,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-seaborn",
@@ -1485,8 +1864,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-search-specialist",
@@ -1523,8 +1902,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-secrets-management",
@@ -1559,8 +1938,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-security-and-hardening",
@@ -1596,8 +1975,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-security-audit",
@@ -1632,8 +2011,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-security-auditor",
@@ -1669,8 +2048,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-security-bluebook-builder",
@@ -1707,8 +2086,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-security-compliance-compliance-check",
@@ -1749,8 +2128,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-security-requirement-extraction",
@@ -1791,8 +2170,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-security-scanning-security-dependencies",
@@ -1834,8 +2213,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-security-scanning-security-hardening",
@@ -1870,8 +2249,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-security-scanning-security-sast",
@@ -1906,8 +2285,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-seek-and-analyze-video",
@@ -1948,8 +2327,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-segment-automation",
@@ -1980,8 +2359,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-segment-cdp",
@@ -2008,8 +2387,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-selenium-skill",
@@ -2044,8 +2423,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-semgrep-rule-creator",
@@ -2088,8 +2467,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-semgrep-rule-variant-creator",
@@ -2125,8 +2504,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-sendgrid-automation",
@@ -2167,8 +2546,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-senior-architect",
@@ -2195,8 +2574,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-senior-frontend",
@@ -2236,8 +2615,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-senior-fullstack",
@@ -2264,8 +2643,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-sentry-automation",
@@ -2296,8 +2675,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-seo-aeo-blog-writer",
@@ -2341,8 +2720,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-seo-aeo-content-cluster",
@@ -2391,8 +2770,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-seo-aeo-content-quality-auditor",
@@ -2427,8 +2806,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-seo-aeo-internal-linking",
@@ -2472,8 +2851,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-seo-aeo-keyword-research",
@@ -2522,8 +2901,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-seo-aeo-landing-page-writer",
@@ -2569,8 +2948,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-seo-aeo-meta-description-generator",
@@ -2611,8 +2990,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-seo-aeo-schema-generator",
@@ -2647,8 +3026,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-seo-audit",
@@ -2683,8 +3062,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-seo-authority-builder",
@@ -2726,8 +3105,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-seo-cannibalization-detector",
@@ -2762,8 +3141,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-seo-competitor-pages",
@@ -2798,8 +3177,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-seo-content-auditor",
@@ -2835,8 +3214,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-seo-content-planner",
@@ -2871,8 +3250,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-seo-content-refresher",
@@ -2907,8 +3286,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-seo-content-writer",
@@ -2944,8 +3323,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-seo-content",
@@ -2980,8 +3359,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-seo-dataforseo",
@@ -3023,8 +3402,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-seo-forensic-incident-response",
@@ -3072,8 +3451,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-seo-fundamentals",
@@ -3114,8 +3493,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-seo-geo",
@@ -3156,8 +3535,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-seo-hreflang",
@@ -3192,8 +3571,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-seo-image-gen",
@@ -3233,8 +3612,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-seo-images",
@@ -3270,8 +3649,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-seo-keyword-strategist",
@@ -3306,8 +3685,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-seo-meta-optimizer",
@@ -3342,8 +3721,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-seo-page",
@@ -3378,8 +3757,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-seo-plan",
@@ -3414,8 +3793,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-seo-programmatic",
@@ -3450,8 +3829,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-seo-schema",
@@ -3486,8 +3865,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-seo-sitemap",
@@ -3522,8 +3901,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-seo-snippet-hunter",
@@ -3558,8 +3937,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-seo-structure-architect",
@@ -3594,8 +3973,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-seo-technical",
@@ -3630,8 +4009,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-seo",
@@ -3674,8 +4053,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-sequence-psychologist",
@@ -3702,8 +4081,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-server-management",
@@ -3742,8 +4121,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-service-mesh-expert",
@@ -3779,8 +4158,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-service-mesh-observability",
@@ -3816,8 +4195,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-setup-help",
@@ -3844,8 +4223,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-setup-matt-pocock-skills",
@@ -3879,8 +4258,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-sexual-health-analyzer",
@@ -3907,8 +4286,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-shadcn",
@@ -3948,8 +4327,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-shader-programming-glsl",
@@ -3986,8 +4365,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-sharp-coder",
@@ -4022,8 +4401,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-sharp-edges",
@@ -4050,8 +4429,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-shellcheck-configuration",
@@ -4092,8 +4471,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-shipping-and-launch",
@@ -4133,8 +4512,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-shodan-reconnaissance",
@@ -4169,8 +4548,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-shopify-apps",
@@ -4199,8 +4578,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-shopify-automation",
@@ -4231,8 +4610,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-shopify-development",
@@ -4272,8 +4651,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-short",
@@ -4307,8 +4686,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-signup-flow-cro",
@@ -4335,8 +4714,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-similarity-search-patterns",
@@ -4379,8 +4758,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-simplify-code",
@@ -4415,8 +4794,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-site-architecture",
@@ -4443,8 +4822,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-skill-audit",
@@ -4479,8 +4858,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-skill-check",
@@ -4516,8 +4895,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-skill-creator-ms",
@@ -4553,8 +4932,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-skill-creator",
@@ -4590,8 +4969,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-skill-developer",
@@ -4627,8 +5006,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-skill-improver",
@@ -4663,8 +5042,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-skill-installer",
@@ -4691,8 +5070,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-skill-issue",
@@ -4721,8 +5100,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-skill-optimizer",
@@ -4764,8 +5143,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-skill-rails-upgrade",
@@ -4792,8 +5171,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-skill-router",
@@ -4820,8 +5199,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-skill-scanner",
@@ -4857,8 +5236,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-skill-seekers",
@@ -4885,8 +5264,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-skill-sentinel",
@@ -4921,8 +5300,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-skill-suggester",
@@ -4951,8 +5330,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-skill-writer",
@@ -4989,8 +5368,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-skin-health-analyzer",
@@ -5026,8 +5405,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-skyvern-browser-automation",
@@ -5064,8 +5443,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-slack-automation",
@@ -5095,8 +5474,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-slack-bot-builder",
@@ -5132,8 +5511,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-slack-gif-creator",
@@ -5160,8 +5539,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-sleep-analyzer",
@@ -5188,8 +5567,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-slo-implementation",
@@ -5218,8 +5597,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-smart-git-automation",
@@ -5248,8 +5627,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-smartui-skill",
@@ -5289,8 +5668,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-smtp-penetration-testing",
@@ -5325,8 +5704,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-snowflake-development",
@@ -5371,8 +5750,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-social-content",
@@ -5414,8 +5793,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-social-metadata-hardening",
@@ -5452,8 +5831,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-social-orchestrator",
@@ -5490,8 +5869,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-social-post-writer-seo",
@@ -5533,8 +5912,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-social-proof-architect",
@@ -5570,8 +5949,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-socialclaw",
@@ -5607,8 +5986,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-software-architecture",
@@ -5648,8 +6027,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-solidity-security",
@@ -5679,8 +6058,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-source-driven-development",
@@ -5716,8 +6095,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-spark-optimization",
@@ -5752,8 +6131,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-spec-driven-development",
@@ -5794,8 +6173,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-spec-to-code-compliance",
@@ -5835,8 +6214,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-speckit-updater",
@@ -5865,8 +6244,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-speed",
@@ -5901,8 +6280,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-spline-3d-integration",
@@ -5942,8 +6321,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-sql-injection-testing",
@@ -5984,8 +6363,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-sql-optimization-patterns",
@@ -6021,8 +6400,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-sql-pro",
@@ -6058,8 +6437,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-sql-sentinel",
@@ -6095,8 +6474,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-sqlmap-database-pentesting",
@@ -6137,8 +6516,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-square-automation",
@@ -6169,8 +6548,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-squirrel",
@@ -6210,8 +6589,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-sred-project-organizer",
@@ -6238,8 +6617,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-sred-work-summary",
@@ -6268,8 +6647,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-ssh-penetration-testing",
@@ -6304,8 +6683,51 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
+    },
+    {
+      "slug": "sickn33-sshepherd",
+      "name": "sickn33/sshepherd",
+      "description": "Zero-knowledge SSH ops CLI — server health checks, docker/systemd control, log tailing, Postgres introspection, and declarative deploys, without ever exposing credentials to the agent.",
+      "publisher": "sickn33",
+      "publisherSlug": "sickn33",
+      "sectionTitle": "GitHub discovery",
+      "kind": "community",
+      "tags": [
+        "github-discovery",
+        "namespaced",
+        "publisher-namespaced",
+        "sickn33"
+      ],
+      "personas": [
+        "data-analyst",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "dashboarding",
+        "data-extraction",
+        "deployment-ops",
+        "development-workflows",
+        "prd-specs",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "github-discovery",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "github-discovery",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
+      "creatorHandle": "sickn33",
+      "hasPublisherLogo": false,
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-stability-ai",
@@ -6335,8 +6757,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-startup-analyst",
@@ -6379,8 +6801,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-startup-business-analyst-business-case",
@@ -6415,8 +6837,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-startup-business-analyst-financial-projections",
@@ -6451,8 +6873,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-startup-business-analyst-market-opportunity",
@@ -6488,8 +6910,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-startup-financial-modeling",
@@ -6532,8 +6954,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-startup-metrics-framework",
@@ -6570,8 +6992,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-statsmodels",
@@ -6598,8 +7020,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-steve-jobs",
@@ -6626,8 +7048,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-stitch-design-taste",
@@ -6662,8 +7084,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-stitch-loop",
@@ -6699,8 +7121,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-stitch-ui-design",
@@ -6740,8 +7162,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-stride-analysis-patterns",
@@ -6777,8 +7199,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-stripe-automation",
@@ -6809,8 +7231,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-stripe-integration",
@@ -6845,8 +7267,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-styleseed-design-review",
@@ -6886,8 +7308,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-subagent-driven-development",
@@ -6916,8 +7338,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-subagent-orchestrator",
@@ -6944,8 +7366,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-subject-line-psychologist",
@@ -6972,8 +7394,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-supabase-automation",
@@ -7015,8 +7437,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-supabase-postgres-best-practices",
@@ -7058,8 +7480,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-supabase",
@@ -7094,8 +7516,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-super-code",
@@ -7130,8 +7552,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-superpowers-lab",
@@ -7158,8 +7580,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-supply-chain-risk-auditor",
@@ -7194,8 +7616,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-survey-generator",
@@ -7222,8 +7644,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-sveltekit",
@@ -7259,8 +7681,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-swift-concurrency-expert",
@@ -7287,8 +7709,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-swiftui-expert-skill",
@@ -7324,8 +7746,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-swiftui-liquid-glass",
@@ -7361,8 +7783,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-swiftui-performance-audit",
@@ -7399,8 +7821,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-swiftui-ui-patterns",
@@ -7435,8 +7857,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-swiftui-view-refactor",
@@ -7472,8 +7894,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-sympy",
@@ -7500,8 +7922,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-systematic-debugging",
@@ -7536,8 +7958,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-systems-programming-rust-project",
@@ -7573,8 +7995,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-tailwind-design-system",
@@ -7614,8 +8036,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-tailwind-patterns",
@@ -7661,8 +8083,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-taisly-social-media-posting",
@@ -7698,8 +8120,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-tanstack-query-expert",
@@ -7736,8 +8158,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-task-intelligence",
@@ -7772,8 +8194,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-tavily-web",
@@ -7814,8 +8236,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-tcm-constitution-analyzer",
@@ -7842,8 +8264,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-tdd-orchestrator",
@@ -7879,8 +8301,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-tdd-workflow",
@@ -7915,8 +8337,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-tdd-workflows-tdd-cycle",
@@ -7945,8 +8367,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-tdd-workflows-tdd-green",
@@ -7981,8 +8403,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-tdd-workflows-tdd-red",
@@ -8017,8 +8439,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-tdd-workflows-tdd-refactor",
@@ -8047,8 +8469,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-tdd-workflows",
@@ -8077,8 +8499,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-tdd",
@@ -8114,8 +8536,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-teach",
@@ -8142,8 +8564,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-team-collaboration-issue",
@@ -8183,8 +8605,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-team-collaboration-standup-notes",
@@ -8220,8 +8642,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-team-composition-analysis",
@@ -8262,8 +8684,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     },
     {
       "slug": "sickn33-technical-change-tracker",
@@ -8299,406 +8721,8 @@
       "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
       "creatorHandle": "sickn33",
       "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
-    },
-    {
-      "slug": "sickn33-technical-tutorials",
-      "name": "sickn33/technical-tutorials",
-      "description": "When the user wants to create step-by-step technical tutorials, quickstarts, or code walkthroughs. Trigger phrases include \"tutorial,\" \"quickstart,\" \"getting started guide,\" \"walkthrough,\" \"step by step,\" \"how to guide,\" \"hands-on guide,\" or \"code tutorial.",
-      "publisher": "sickn33",
-      "publisherSlug": "sickn33",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced",
-        "sickn33"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
-      "creatorHandle": "sickn33",
-      "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
-    },
-    {
-      "slug": "sickn33-telegram-automation",
-      "name": "sickn33/telegram-automation",
-      "description": "Automate Telegram tasks via Rube MCP (Composio): send messages, manage chats, share photos/documents, and handle bot commands. Always search tools first for current schemas.",
-      "publisher": "sickn33",
-      "publisherSlug": "sickn33",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced",
-        "sickn33"
-      ],
-      "personas": [],
-      "jobs": [
-        "api-integration",
-        "research-synthesis",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
-      "creatorHandle": "sickn33",
-      "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
-    },
-    {
-      "slug": "sickn33-telegram-bot-builder",
-      "name": "sickn33/telegram-bot-builder",
-      "description": "Expert in building Telegram bots that solve real problems - from",
-      "publisher": "sickn33",
-      "publisherSlug": "sickn33",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced",
-        "sickn33"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
-      "creatorHandle": "sickn33",
-      "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
-    },
-    {
-      "slug": "sickn33-telegram-bot-messaging",
-      "name": "sickn33/telegram-bot-messaging",
-      "description": "Send Telegram messages, files, and alerts via bot API; ask questions with inline buttons and wait for the answer. Supports multiple bots, named chat targets, and CI/cron/hook notifications.",
-      "publisher": "sickn33",
-      "publisherSlug": "sickn33",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced",
-        "sickn33"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
-      "creatorHandle": "sickn33",
-      "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
-    },
-    {
-      "slug": "sickn33-telegram-mini-app",
-      "name": "sickn33/telegram-mini-app",
-      "description": "Expert in building Telegram Mini Apps (TWA) - web apps that run",
-      "publisher": "sickn33",
-      "publisherSlug": "sickn33",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced",
-        "sickn33"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
-      "creatorHandle": "sickn33",
-      "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
-    },
-    {
-      "slug": "sickn33-telegram",
-      "name": "sickn33/telegram",
-      "description": "Integracao completa com Telegram Bot API. Setup com BotFather, mensagens, webhooks, inline keyboards, grupos, canais. Boilerplates Node.js e Python.",
-      "publisher": "sickn33",
-      "publisherSlug": "sickn33",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced",
-        "sickn33"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
-      "creatorHandle": "sickn33",
-      "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
-    },
-    {
-      "slug": "sickn33-temporal-golang-pro",
-      "name": "sickn33/temporal-golang-pro",
-      "description": "Use when building durable distributed systems with Temporal Go SDK. Covers deterministic workflow rules, mTLS worker configs, and advanced patterns.",
-      "publisher": "sickn33",
-      "publisherSlug": "sickn33",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced",
-        "sickn33"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
-      "creatorHandle": "sickn33",
-      "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
-    },
-    {
-      "slug": "sickn33-temporal-python-pro",
-      "name": "sickn33/temporal-python-pro",
-      "description": "Master Temporal workflow orchestration with Python SDK. Implements durable workflows, saga patterns, and distributed transactions. Covers async/await, testing strategies, and production deployment.",
-      "publisher": "sickn33",
-      "publisherSlug": "sickn33",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced",
-        "sickn33"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
-      "creatorHandle": "sickn33",
-      "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
-    },
-    {
-      "slug": "sickn33-temporal-python-testing",
-      "name": "sickn33/temporal-python-testing",
-      "description": "Comprehensive testing approaches for Temporal workflows using pytest, progressive disclosure resources for specific testing scenarios.",
-      "publisher": "sickn33",
-      "publisherSlug": "sickn33",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced",
-        "sickn33"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "prd-specs",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
-      "creatorHandle": "sickn33",
-      "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
-    },
-    {
-      "slug": "sickn33-terraform-aws-modules",
-      "name": "sickn33/terraform-aws-modules",
-      "description": "Terraform module creation for AWS — reusable modules, state management, and HCL best practices. Use when building or reviewing Terraform AWS infrastructure.",
-      "publisher": "sickn33",
-      "publisherSlug": "sickn33",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced",
-        "sickn33"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
-      "creatorHandle": "sickn33",
-      "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
-    },
-    {
-      "slug": "sickn33-terraform-infrastructure",
-      "name": "sickn33/terraform-infrastructure",
-      "description": "Terraform infrastructure as code workflow for provisioning cloud resources, creating reusable modules, and managing infrastructure at scale.",
-      "publisher": "sickn33",
-      "publisherSlug": "sickn33",
-      "sectionTitle": "GitHub discovery",
-      "kind": "community",
-      "tags": [
-        "github-discovery",
-        "namespaced",
-        "publisher-namespaced",
-        "sickn33"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "github-discovery",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "github-discovery",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/sickn33.png?size=88",
-      "creatorHandle": "sickn33",
-      "hasPublisherLogo": false,
-      "stars": 43246,
-      "forks": 6856
+      "stars": 43650,
+      "forks": 6463
     }
   ]
 }

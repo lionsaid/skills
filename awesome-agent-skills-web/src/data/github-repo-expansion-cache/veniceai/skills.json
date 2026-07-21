@@ -2,9 +2,9 @@
   "repository": "veniceai/skills",
   "branch": "main",
   "defaultBranch": "main",
-  "pushedAt": "2026-04-24T19:08:01Z",
-  "scannedAt": "2026-07-15T02:28:44.459Z",
-  "treeSha": "de089fac4e2e4a51be2ee701eaec97fd0a60b9d3",
+  "pushedAt": "2026-07-20T14:00:39Z",
+  "scannedAt": "2026-07-21T03:11:09.985Z",
+  "treeSha": "9eba8894b819531a4a8b65a1ac5e06560391bb00",
   "items": [
     {
       "repository": "veniceai/skills",
@@ -12,10 +12,10 @@
       "skillName": "skills",
       "path": "README.md",
       "url": "https://github.com/veniceai/skills",
-      "description": "Discovered from a public GitHub repository: veniceai/skills",
+      "description": "Agent Skills for the Venice.ai API. One folder per surface area, each with a SKILL.md for agent runtimes (Cursor, Claude, Codex, etc.).",
       "slug": "veniceai-skills-collection",
       "isCollection": true,
-      "stars": null,
+      "stars": 122,
       "skillPaths": [
         "skills/venice-api-keys/SKILL.md",
         "skills/venice-api-overview/SKILL.md",
@@ -34,6 +34,7 @@
         "skills/venice-image-generate/SKILL.md",
         "skills/venice-models/SKILL.md",
         "skills/venice-responses/SKILL.md",
+        "skills/venice-text-routing/SKILL.md",
         "skills/venice-video/SKILL.md",
         "skills/venice-x402/SKILL.md"
       ]
@@ -194,6 +195,15 @@
     {
       "repository": "veniceai/skills",
       "branch": "main",
+      "skillName": "venice-text-routing",
+      "path": "skills/venice-text-routing/SKILL.md",
+      "url": "https://github.com/veniceai/skills/blob/main/skills/venice-text-routing/SKILL.md",
+      "description": "Route a prompt to the right Venice text model based on privacy tier (anonymized / private / TEE / E2EE), modality (vision / audio / video input), capability (reasoning, code, function calling, web search, large context, structured output), and cost. Use when a local agent (Claude Code, Hermes, NanoClaw, Codex CLI, etc.) needs to decide whether to handle a prompt locally or escalate to Venice, and if escalating, which Venice text model to call. Sits one level above venice-models (model discovery) and before venice-chat (the call surface).",
+      "slug": "veniceai-venice-text-routing"
+    },
+    {
+      "repository": "veniceai/skills",
+      "branch": "main",
       "skillName": "venice-video",
       "path": "skills/venice-video/SKILL.md",
       "url": "https://github.com/veniceai/skills/blob/main/skills/venice-video/SKILL.md",
@@ -210,6 +220,6 @@
       "slug": "veniceai-venice-x402"
     }
   ],
-  "itemCount": 20,
+  "itemCount": 21,
   "lastStatus": "cache-fresh"
 }

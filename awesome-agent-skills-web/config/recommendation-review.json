@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "reviewsByRole": {
+    "pm": {
+      "bjesuiter-prd": { "status": "relevant", "note": "PRD workflow is directly relevant; source needs security review." },
+      "deanpeters-roadmap-planning": { "status": "relevant" },
+      "deanpeters-opportunity-solution-tree": { "status": "relevant" },
+      "deanpeters-product-strategy-session": { "status": "relevant" },
+      "phuryn-create-prd": { "status": "relevant" },
+      "googleworkspace-gws-docs": { "status": "relevant" },
+      "firecrawl-firecrawl-build": { "status": "borderline", "note": "Useful for research workflows but implementation-oriented." },
+      "microsoft-github-issue-creator": { "status": "relevant" },
+      "anthropics-doc-coauthoring": { "status": "relevant" },
+      "anthropics-internal-comms": { "status": "borderline", "note": "Useful for stakeholder updates, not a core PM workflow." }
+    },
+    "designer": {
+      "anthropics-brand-guidelines": { "status": "relevant" },
+      "figma-figma-generate-design": { "status": "relevant" },
+      "deanpeters-storyboard": { "status": "relevant" },
+      "ibelick-ui-skills": { "status": "relevant" },
+      "openai-figma": { "status": "relevant" },
+      "ehmo-platform-design-skills": { "status": "relevant" },
+      "microsoft-frontend-design-review": { "status": "relevant" },
+      "anthropics-frontend-design": { "status": "relevant" },
+      "anthropics-theme-factory": { "status": "relevant" },
+      "anthropics-canvas-design": { "status": "relevant" }
+    },
+    "marketer": {
+      "firecrawl-firecrawl-build-search": { "status": "relevant" },
+      "anthropics-internal-comms": { "status": "relevant" },
+      "sanity-io-seo-aeo-best-practices": { "status": "relevant" },
+      "typefully-typefully": { "status": "relevant" },
+      "anthropics-canvas-design": { "status": "relevant" },
+      "anthropics-frontend-design": { "status": "relevant" },
+      "anthropics-theme-factory": { "status": "relevant" },
+      "googleworkspace-gws-docs": { "status": "borderline", "note": "General document tooling rather than a marketing-specific workflow." },
+      "googleworkspace-gws-slides": { "status": "relevant" },
+      "anthropics-doc-coauthoring": { "status": "borderline", "note": "Useful for copy collaboration but not a primary marketing workflow." }
+    },
+    "researcher": {
+      "anthropics-pdf": { "status": "relevant" },
+      "duckdb-read-file": { "status": "relevant" },
+      "googleworkspace-gws-docs": { "status": "relevant" },
+      "anthropics-doc-coauthoring": { "status": "relevant" },
+      "anthropics-docx": { "status": "relevant" },
+      "anthropics-xlsx": { "status": "relevant" },
+      "firecrawl-firecrawl-build-search": { "status": "relevant" },
+      "anthropics-pptx": { "status": "borderline", "note": "Most useful when research outputs require a presentation." },
+      "firecrawl-firecrawl-build-interact": { "status": "relevant" },
+      "duckdb-query": { "status": "relevant" }
+    },
+    "founder": {
+      "1kalin-market-research-agent": { "status": "relevant", "note": "Role-relevant, but source requires security review." },
+      "coreyhaines31-launch-strategy": { "status": "relevant" },
+      "deanpeters-product-strategy-session": { "status": "relevant" },
+      "phuryn-gtm-strategy": { "status": "relevant" },
+      "coreyhaines31-pricing-strategy": { "status": "relevant" },
+      "firecrawl-firecrawl-build": { "status": "relevant" },
+      "googleworkspace-gws-docs": { "status": "relevant" },
+      "vercel-labs-next-best-practices": { "status": "borderline", "note": "Useful to technical founders, not a general founder workflow." },
+      "anthropics-internal-comms": { "status": "borderline", "note": "Useful for operating cadence, not a core founder recommendation." },
+      "addyosmani-shipping-and-launch": { "status": "relevant" }
+    },
+    "sales": {
+      "coreyhaines31-sales-enablement": { "status": "relevant" },
+      "phuryn-competitive-battlecard": { "status": "relevant" },
+      "phuryn-value-prop-statements": { "status": "relevant" },
+      "googleworkspace-gws-docs": { "status": "relevant" },
+      "googleworkspace-gws-gmail": { "status": "relevant" },
+      "googleworkspace-gws-slides": { "status": "relevant" },
+      "coreyhaines31-pricing-strategy": { "status": "relevant" },
+      "anthropics-docx": { "status": "borderline", "note": "Helpful for proposals but not sales-specific." },
+      "anthropics-pptx": { "status": "borderline", "note": "Helpful for pitches but not sales-specific." },
+      "coreyhaines31-email-sequence": { "status": "relevant" }
+    },
+    "support": {
+      "jernejcicorbin-hub-contact-discovery": { "status": "not-relevant", "note": "Contact discovery is a sales prospecting workflow, not customer support." },
+      "porteden-email-gmail-outlook": { "status": "relevant" },
+      "lamelas-himalaya": { "status": "relevant" },
+      "googleworkspace-gws-gmail": { "status": "relevant" },
+      "anthropics-pdf": { "status": "relevant" },
+      "firecrawl-firecrawl-build-interact": { "status": "relevant" },
+      "googleworkspace-gws-drive": { "status": "relevant" },
+      "anthropics-docx": { "status": "borderline", "note": "Useful for knowledge-base documents, not direct ticket handling." },
+      "oreoandyuumi-mmxagent-guardian": { "status": "not-relevant", "note": "Workspace file protection is unrelated to customer support." },
+      "prompt-security-soul-guardian": { "status": "not-relevant", "note": "Security integrity monitoring is unrelated to customer support." },
+      "mukul975-implementing-soar-automation-with-phantom": { "status": "not-relevant", "note": "Security orchestration is not a customer support workflow." },
+      "freedomintelligence-clinical-reports": { "status": "not-relevant", "note": "Clinical documentation is outside general customer support." },
+      "k-dense-ai-clinical-reports": { "status": "not-relevant", "note": "Clinical documentation is outside general customer support." },
+      "googleworkspace-gws-gmail-reply": { "status": "relevant" },
+      "googleworkspace-gws-gmail-reply-all": { "status": "relevant" },
+      "freedomintelligence-bio-longitudinal-monitoring": { "status": "borderline", "note": "Relevant only to healthcare support workflows." }
+    },
+    "content-creator": {
+      "sanity-io-seo-aeo-best-practices": { "status": "relevant" },
+      "firecrawl-firecrawl-build-search": { "status": "relevant" },
+      "typefully-typefully": { "status": "relevant" },
+      "anthropics-canvas-design": { "status": "relevant" },
+      "anthropics-pptx": { "status": "relevant" },
+      "anthropics-frontend-design": { "status": "relevant" },
+      "anthropics-slack-gif-creator": { "status": "relevant" },
+      "anthropics-theme-factory": { "status": "relevant" },
+      "sanity-io-content-experimentation-best-practices": { "status": "relevant" },
+      "googleworkspace-gws-gmail": { "status": "borderline", "note": "Useful for distribution, not content creation itself." }
+    },
+    "consultant": {
+      "googleworkspace-gws-docs": { "status": "relevant" },
+      "googleworkspace-gws-slides": { "status": "relevant" },
+      "anthropics-doc-coauthoring": { "status": "relevant" },
+      "anthropics-docx": { "status": "relevant" },
+      "duckdb-query": { "status": "relevant" },
+      "anthropics-pdf": { "status": "relevant" },
+      "anthropics-pptx": { "status": "relevant" },
+      "anthropics-theme-factory": { "status": "relevant" },
+      "duckdb-read-file": { "status": "relevant" },
+      "anthropics-xlsx": { "status": "relevant" }
+    }
+  }
+}

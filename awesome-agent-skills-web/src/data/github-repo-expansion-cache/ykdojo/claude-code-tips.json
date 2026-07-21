@@ -2,9 +2,9 @@
   "repository": "ykdojo/claude-code-tips",
   "branch": "main",
   "defaultBranch": "main",
-  "pushedAt": "2026-07-15T01:24:05Z",
-  "scannedAt": "2026-07-15T02:24:15.938Z",
-  "treeSha": "db76467afb9f4cf57c2f25dfd2266ab59d1003c0",
+  "pushedAt": "2026-07-20T05:22:41Z",
+  "scannedAt": "2026-07-21T03:08:27.083Z",
+  "treeSha": "b40a8b954eb0b91a6af6ac0db95cec68f32d606a",
   "items": [
     {
       "repository": "ykdojo/claude-code-tips",
@@ -15,26 +15,17 @@
       "description": "40+ tips for getting the most out of Claude Code, from basics to advanced - includes a custom status line script and Claude Code running itself in a container. Also includes the dx plugin: skills for everyday dev workflows.",
       "slug": "ykdojo-claude-code-tips-collection",
       "isCollection": true,
-      "stars": 9260,
+      "stars": 9361,
       "skillPaths": [
-        "skills/clone/SKILL.md",
         "skills/gha/SKILL.md",
         "skills/half-clone/SKILL.md",
         "skills/handoff/SKILL.md",
         "skills/hn-summarize/SKILL.md",
+        "skills/private-github-search/SKILL.md",
         "skills/reddit-fetch/SKILL.md",
         "skills/review-claudemd/SKILL.md",
         "skills/version-check/SKILL.md"
       ]
-    },
-    {
-      "repository": "ykdojo/claude-code-tips",
-      "branch": "main",
-      "skillName": "clone",
-      "path": "skills/clone/SKILL.md",
-      "url": "https://github.com/ykdojo/claude-code-tips/blob/main/skills/clone/SKILL.md",
-      "description": "Clone the current conversation so the user can branch off and try a different approach.",
-      "slug": "ykdojo-clone"
     },
     {
       "repository": "ykdojo/claude-code-tips",
@@ -71,6 +62,15 @@
       "url": "https://github.com/ykdojo/claude-code-tips/blob/main/skills/hn-summarize/SKILL.md",
       "description": "Fetch and summarize Hacker News / hckrnews.com top stories, articles, and their comment threads. Use when asked to summarize HN front-page stories, a specific HN story plus its discussion, or \"the top N from hckrnews\".",
       "slug": "ykdojo-hn-summarize"
+    },
+    {
+      "repository": "ykdojo/claude-code-tips",
+      "branch": "main",
+      "skillName": "private-github-search",
+      "path": "skills/private-github-search/SKILL.md",
+      "url": "https://github.com/ykdojo/claude-code-tips/blob/main/skills/private-github-search/SKILL.md",
+      "description": "Full-text search across all of the user's GitHub repos (including private ones) using a local mirror and ripgrep. Use for \"where did I put X\", \"which repo has X\", or any search spanning the user's repos - gh search code / the REST API cannot reliably search private repos.",
+      "slug": "ykdojo-private-github-search"
     },
     {
       "repository": "ykdojo/claude-code-tips",
