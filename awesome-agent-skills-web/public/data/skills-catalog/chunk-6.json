@@ -1,35 +1,29 @@
 {
-  "generatedAt": "2026-07-21T05:06:39.751Z",
+  "generatedAt": "2026-07-21T09:21:19.798Z",
   "chunkIndex": 6,
   "totalSkills": 9131,
   "skills": [
     {
-      "slug": "olliewazza-larry",
-      "name": "olliewazza/larry",
-      "description": "Automate TikTok slideshow marketing for any app or product. Researches competitors, generates AI images, adds text overlays, posts via Postiz, tracks analyti...",
-      "publisher": "olliewazza",
-      "publisherSlug": "olliewazza",
+      "slug": "wwb-daniel-windows-ui-automation",
+      "name": "wwb-daniel/windows-ui-automation",
+      "description": "Automate Windows GUI interactions (mouse, keyboard, windows) using PowerShell. Use when the user needs to simulate user input on the desktop, such as moving the cursor, clicking buttons, typing text in non-web apps, or managing window states.",
+      "publisher": "wwb-daniel",
+      "publisherSlug": "wwb-daniel",
       "sectionTitle": "Community marketplace",
       "kind": "community",
       "tags": [
         "community-marketplace",
         "namespaced",
-        "olliewazza",
-        "publisher-namespaced"
+        "publisher-namespaced",
+        "wwb-daniel"
       ],
       "personas": [
-        "marketer",
-        "pm"
+        "designer"
       ],
       "jobs": [
-        "campaign-planning",
-        "content-production",
-        "landing-pages",
-        "planning-roadmapping",
-        "prd-specs",
+        "design-critique",
         "presentation-building",
-        "reporting",
-        "research-synthesis",
+        "ui-ux-design",
         "visual-assets",
         "workflow-automation"
       ],
@@ -39,8 +33,8 @@
         "community-marketplace",
         "requires-security-review"
       ],
-      "creatorAvatarUrl": "https://github.com/olliewazza.png?size=88",
-      "creatorHandle": "olliewazza",
+      "creatorAvatarUrl": "https://github.com/wwb-daniel.png?size=88",
+      "creatorHandle": "wwb-daniel",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -1922,6 +1916,37 @@
       "forks": null
     },
     {
+      "slug": "garrisongg-summarize-1-0-0",
+      "name": "garrisongg/summarize-1-0-0",
+      "description": "Summarize URLs or files with the summarize CLI (web, PDFs, images, audio, YouTube).",
+      "publisher": "garrisongg",
+      "publisherSlug": "garrisongg",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "garrisongg",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [
+        "research-synthesis",
+        "visual-assets"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/garrisongg.png?size=88",
+      "creatorHandle": "garrisongg",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
       "slug": "ivangdavila-frontend",
       "name": "ivangdavila/frontend",
       "description": "Frontend development with React, Next.js, Tailwind CSS. Build landing pages, dashboards, forms, components. Responsive, accessible, performant UI.",
@@ -2023,37 +2048,6 @@
       ],
       "creatorAvatarUrl": "https://github.com/steipete.png?size=88",
       "creatorHandle": "steipete",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "garrisongg-summarize-1-0-0",
-      "name": "garrisongg/summarize-1-0-0",
-      "description": "Summarize URLs or files with the summarize CLI (web, PDFs, images, audio, YouTube).",
-      "publisher": "garrisongg",
-      "publisherSlug": "garrisongg",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "garrisongg",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [
-        "research-synthesis",
-        "visual-assets"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/garrisongg.png?size=88",
-      "creatorHandle": "garrisongg",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -2590,6 +2584,48 @@
       "forks": null
     },
     {
+      "slug": "rdsthomas-mission-control",
+      "name": "rdsthomas/mission-control",
+      "description": "Kanban-style task management dashboard for AI assistants. Manage tasks via CLI or dashboard UI. Use when user mentions tasks, kanban, task board, mission con...",
+      "publisher": "rdsthomas",
+      "publisherSlug": "rdsthomas",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced",
+        "rdsthomas"
+      ],
+      "personas": [
+        "data-analyst",
+        "designer"
+      ],
+      "jobs": [
+        "dashboarding",
+        "data-extraction",
+        "design-critique",
+        "presentation-building",
+        "reporting",
+        "spreadsheet-cleaning",
+        "sql-analysis",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/rdsthomas.png?size=88",
+      "creatorHandle": "rdsthomas",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
       "slug": "alexandrali1989-cell-content-writer",
       "name": "alexandrali1989-cell/content-writer",
       "description": "Multi-platform content generator for Chinese social media. Produces publish-ready posts for 小红书, 知乎, 公众号, and 抖音 with platform-native formatting, hooks, and...",
@@ -2628,48 +2664,6 @@
       ],
       "creatorAvatarUrl": "https://github.com/alexandrali1989-cell.png?size=88",
       "creatorHandle": "alexandrali1989-cell",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "rdsthomas-mission-control",
-      "name": "rdsthomas/mission-control",
-      "description": "Kanban-style task management dashboard for AI assistants. Manage tasks via CLI or dashboard UI. Use when user mentions tasks, kanban, task board, mission con...",
-      "publisher": "rdsthomas",
-      "publisherSlug": "rdsthomas",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced",
-        "rdsthomas"
-      ],
-      "personas": [
-        "data-analyst",
-        "designer"
-      ],
-      "jobs": [
-        "dashboarding",
-        "data-extraction",
-        "design-critique",
-        "presentation-building",
-        "reporting",
-        "spreadsheet-cleaning",
-        "sql-analysis",
-        "ui-ux-design",
-        "visual-assets",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/rdsthomas.png?size=88",
-      "creatorHandle": "rdsthomas",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -2930,6 +2924,42 @@
       "forks": null
     },
     {
+      "slug": "chandrasekar-r-security-audit",
+      "name": "chandrasekar-r/security-audit",
+      "description": "Comprehensive security auditing for Clawdbot deployments. Scans for exposed credentials, open ports, weak configs, and vulnerabilities. Auto-fix mode included.",
+      "publisher": "chandrasekar-r",
+      "publisherSlug": "chandrasekar-r",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "chandrasekar-r",
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/chandrasekar-r.png?size=88",
+      "creatorHandle": "chandrasekar-r",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
       "slug": "opsun-deep-scraper",
       "name": "opsun/deep-scraper",
       "description": "Performs deep scraping of complex sites like YouTube using containerized Crawlee, extracting validated, ad-free transcripts and content as JSON output.",
@@ -2972,27 +3002,21 @@
       "forks": null
     },
     {
-      "slug": "chandrasekar-r-security-audit",
-      "name": "chandrasekar-r/security-audit",
-      "description": "Comprehensive security auditing for Clawdbot deployments. Scans for exposed credentials, open ports, weak configs, and vulnerabilities. Auto-fix mode included.",
-      "publisher": "chandrasekar-r",
-      "publisherSlug": "chandrasekar-r",
+      "slug": "xixu-me-xdrop",
+      "name": "xixu-me/xdrop",
+      "description": "Use this skill when the user wants to send or fetch files through an Xdrop server from the terminal, asks to automate encrypted Xdrop share-link workflows, p...",
+      "publisher": "xixu-me",
+      "publisherSlug": "xixu-me",
       "sectionTitle": "Community marketplace",
       "kind": "community",
       "tags": [
-        "chandrasekar-r",
         "community-marketplace",
         "namespaced",
-        "publisher-namespaced"
+        "publisher-namespaced",
+        "xixu-me"
       ],
-      "personas": [
-        "engineer"
-      ],
+      "personas": [],
       "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
         "workflow-automation"
       ],
       "sourceType": "marketplace",
@@ -3001,8 +3025,8 @@
         "community-marketplace",
         "requires-security-review"
       ],
-      "creatorAvatarUrl": "https://github.com/chandrasekar-r.png?size=88",
-      "creatorHandle": "chandrasekar-r",
+      "creatorAvatarUrl": "https://github.com/xixu-me.png?size=88",
+      "creatorHandle": "xixu-me",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -3034,36 +3058,6 @@
       ],
       "creatorAvatarUrl": "https://github.com/theglove44.png?size=88",
       "creatorHandle": "theglove44",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "xixu-me-xdrop",
-      "name": "xixu-me/xdrop",
-      "description": "Use this skill when the user wants to send or fetch files through an Xdrop server from the terminal, asks to automate encrypted Xdrop share-link workflows, p...",
-      "publisher": "xixu-me",
-      "publisherSlug": "xixu-me",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced",
-        "xixu-me"
-      ],
-      "personas": [],
-      "jobs": [
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/xixu-me.png?size=88",
-      "creatorHandle": "xixu-me",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -4294,6 +4288,47 @@
       "forks": null
     },
     {
+      "slug": "alexander-morris-muse",
+      "name": "alexander-morris/muse",
+      "description": "Give ClawBot access to your team's entire coding history. Muse connects your past sessions, team knowledge, and project context—so ClawBot can actually help design features, mediate team discussions, and work autonomously across your codebase. Deploy at tribeclaw.com.",
+      "publisher": "alexander-morris",
+      "publisherSlug": "alexander-morris",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "alexander-morris",
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "designer",
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "design-critique",
+        "development-workflows",
+        "presentation-building",
+        "testing-debugging",
+        "ui-ux-design",
+        "visual-assets",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/alexander-morris.png?size=88",
+      "creatorHandle": "alexander-morris",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
       "slug": "ivangdavila-web",
       "name": "ivangdavila/web",
       "description": "Build, debug, and deploy websites using HTML, CSS, JavaScript, and modern frameworks following production best practices.",
@@ -4363,47 +4398,6 @@
       ],
       "creatorAvatarUrl": "https://github.com/benzema216.png?size=88",
       "creatorHandle": "benzema216",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "alexander-morris-muse",
-      "name": "alexander-morris/muse",
-      "description": "Give ClawBot access to your team's entire coding history. Muse connects your past sessions, team knowledge, and project context—so ClawBot can actually help design features, mediate team discussions, and work autonomously across your codebase. Deploy at tribeclaw.com.",
-      "publisher": "alexander-morris",
-      "publisherSlug": "alexander-morris",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "alexander-morris",
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "designer",
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "design-critique",
-        "development-workflows",
-        "presentation-building",
-        "testing-debugging",
-        "ui-ux-design",
-        "visual-assets",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/alexander-morris.png?size=88",
-      "creatorHandle": "alexander-morris",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -4521,36 +4515,6 @@
       "forks": null
     },
     {
-      "slug": "0x-professor-agentic-workflow-automation",
-      "name": "0x-professor/agentic-workflow-automation",
-      "description": "Generate reusable multi-step agent workflow blueprints. Use for trigger/action orchestration, deterministic workflow definitions, and automation handoff arti...",
-      "publisher": "0x-professor",
-      "publisherSlug": "0x-professor",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "0x-professor",
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/0x-professor.png?size=88",
-      "creatorHandle": "0x-professor",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
       "slug": "bobholamovic-paddleocr-doc-parsing",
       "name": "bobholamovic/paddleocr-doc-parsing",
       "description": "Use this skill to extract structured Markdown/JSON from PDFs and document images—tables with cell-level precision, formulas as LaTeX, figures, seals, charts,...",
@@ -4585,6 +4549,36 @@
       ],
       "creatorAvatarUrl": "https://github.com/bobholamovic.png?size=88",
       "creatorHandle": "bobholamovic",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "0x-professor-agentic-workflow-automation",
+      "name": "0x-professor/agentic-workflow-automation",
+      "description": "Generate reusable multi-step agent workflow blueprints. Use for trigger/action orchestration, deterministic workflow definitions, and automation handoff arti...",
+      "publisher": "0x-professor",
+      "publisherSlug": "0x-professor",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "0x-professor",
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/0x-professor.png?size=88",
+      "creatorHandle": "0x-professor",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -5688,36 +5682,6 @@
       "forks": null
     },
     {
-      "slug": "dxie48892-jpg-productivity-automation-kit",
-      "name": "dxie48892-jpg/productivity-automation-kit",
-      "description": "效率自动化工具箱 — 自动化工作流模板 + 日程管理助手 + 任务提醒工具 + 数据整理自动化。整合热门Skill功能，帮助用户识别自动化机会、设计工作流、管理日程、追踪任务、整理数据。触发词：效率自动化、工作流模板、日程管理、任务提醒、数据整理自动化、每天提醒、每周计划、自动化流程、省时工具。",
-      "publisher": "dxie48892-jpg",
-      "publisherSlug": "dxie48892-jpg",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "dxie48892-jpg",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/dxie48892-jpg.png?size=88",
-      "creatorHandle": "dxie48892-jpg",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
       "slug": "broedkrummen-brave-api-search",
       "name": "broedkrummen/brave-api-search",
       "description": "Real-time web search, autosuggest, and AI-powered answers using the official Brave Search API. Use for searching documentation, facts, current events, or any...",
@@ -5750,6 +5714,36 @@
       ],
       "creatorAvatarUrl": "https://github.com/broedkrummen.png?size=88",
       "creatorHandle": "broedkrummen",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "dxie48892-jpg-productivity-automation-kit",
+      "name": "dxie48892-jpg/productivity-automation-kit",
+      "description": "效率自动化工具箱 — 自动化工作流模板 + 日程管理助手 + 任务提醒工具 + 数据整理自动化。整合热门Skill功能，帮助用户识别自动化机会、设计工作流、管理日程、追踪任务、整理数据。触发词：效率自动化、工作流模板、日程管理、任务提醒、数据整理自动化、每天提醒、每周计划、自动化流程、省时工具。",
+      "publisher": "dxie48892-jpg",
+      "publisherSlug": "dxie48892-jpg",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "dxie48892-jpg",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/dxie48892-jpg.png?size=88",
+      "creatorHandle": "dxie48892-jpg",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -6144,6 +6138,34 @@
       "forks": null
     },
     {
+      "slug": "syajask-memory-setup-openclaw",
+      "name": "syajask/memory-setup-openclaw",
+      "description": "Configure and validate OpenClaw memory recall for persistent context. Use when enabling memory_search/memory_get, fixing poor memory recall, or setting up ME...",
+      "publisher": "syajask",
+      "publisherSlug": "syajask",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced",
+        "syajask"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/syajask.png?size=88",
+      "creatorHandle": "syajask",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
       "slug": "ivangdavila-trading",
       "name": "ivangdavila/trading",
       "description": "Trading analysis and education. Technical analysis, chart patterns, risk management, and position sizing for stocks, forex, and crypto.",
@@ -6176,34 +6198,6 @@
       ],
       "creatorAvatarUrl": "https://github.com/ivangdavila.png?size=88",
       "creatorHandle": "ivangdavila",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "syajask-memory-setup-openclaw",
-      "name": "syajask/memory-setup-openclaw",
-      "description": "Configure and validate OpenClaw memory recall for persistent context. Use when enabling memory_search/memory_get, fixing poor memory recall, or setting up ME...",
-      "publisher": "syajask",
-      "publisherSlug": "syajask",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced",
-        "syajask"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/syajask.png?size=88",
-      "creatorHandle": "syajask",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -6536,41 +6530,6 @@
       "forks": null
     },
     {
-      "slug": "1kalin-market-research-agent",
-      "name": "1kalin/market-research-agent",
-      "description": "Conduct structured market research on any industry, competitor, or opportunity. Analyze market size, trends, competitors, and customer segments with a proven framework.",
-      "publisher": "1kalin",
-      "publisherSlug": "1kalin",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "1kalin",
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "founder"
-      ],
-      "jobs": [
-        "landing-pages",
-        "planning-roadmapping",
-        "research-synthesis",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/1kalin.png?size=88",
-      "creatorHandle": "1kalin",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
       "slug": "anotb-homeassistant-skill",
       "name": "anotb/homeassistant-skill",
       "description": "Control Home Assistant devices and automations via REST API. 25 entity domains including lights, climate, locks, presence, weather, calendars, notifications, scripts, and more. Use when the user asks about their smart home, devices, or automations.",
@@ -6602,6 +6561,41 @@
       ],
       "creatorAvatarUrl": "https://github.com/anotb.png?size=88",
       "creatorHandle": "anotb",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "1kalin-market-research-agent",
+      "name": "1kalin/market-research-agent",
+      "description": "Conduct structured market research on any industry, competitor, or opportunity. Analyze market size, trends, competitors, and customer segments with a proven framework.",
+      "publisher": "1kalin",
+      "publisherSlug": "1kalin",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "1kalin",
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "founder"
+      ],
+      "jobs": [
+        "landing-pages",
+        "planning-roadmapping",
+        "research-synthesis",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/1kalin.png?size=88",
+      "creatorHandle": "1kalin",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -6645,6 +6639,50 @@
       "forks": null
     },
     {
+      "slug": "kalvinrv-reddit-automation",
+      "name": "kalvinrv/reddit-automation",
+      "description": "Find Reddit threads where people are genuinely asking for what you offer, then draft short, genuinely helpful replies — disclosing your affiliation honestly and naming your product only when it truly answers the question. Two moves: discovery — scan the right subreddits for real needs (recommendation asks, expressed pain, competitor mentions) and rank the few threads where you can actually help; drafting — write from real experience, respect each community's self-promo rules, and keep a human in the loop to review and post. This markets on Reddit the honest way: contribute value, disclose who you are, never astroturf. Distilled from the playbook behind doany.ai's Reddit agent. Triggers on \"find reddit opportunities\", \"reddit marketing\", \"reddit automation\", \"reply on reddit for my product\", \"reddit community engagement\", \"reddit lead gen\", or any ask to turn Reddit threads into genuine, disclosed marketing replies.",
+      "publisher": "kalvinrv",
+      "publisherSlug": "kalvinrv",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "kalvinrv",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "marketer",
+        "pm",
+        "support"
+      ],
+      "jobs": [
+        "campaign-planning",
+        "content-production",
+        "data-extraction",
+        "document-authoring",
+        "landing-pages",
+        "planning-roadmapping",
+        "prd-specs",
+        "reporting",
+        "research-synthesis",
+        "ui-ux-design",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/kalvinrv.png?size=88",
+      "creatorHandle": "kalvinrv",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
       "slug": "yuf1011-xiaohongshu-publisher",
       "name": "yuf1011/xiaohongshu-publisher",
       "description": "Draft and publish posts to 小红书 (Xiaohongshu/RED). Use when creating content for 小红书, drafting posts, generating cover images, or publishing via browser automation. Covers the full workflow from content creation to browser-based publishing, including cover image generation with Pillow.",
@@ -6678,6 +6716,36 @@
       ],
       "creatorAvatarUrl": "https://github.com/yuf1011.png?size=88",
       "creatorHandle": "yuf1011",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "fadeloo-tiangong-notebooklm-cli",
+      "name": "fadeloo/tiangong-notebooklm-cli",
+      "description": "NotebookLM CLI wrapper via `node {baseDir}/scripts/notebooklm.mjs`. Use for auth, notebooks, chat, sources, notes, sharing, research, and artifact generation/download.",
+      "publisher": "fadeloo",
+      "publisherSlug": "fadeloo",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "fadeloo",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [
+        "research-synthesis"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/fadeloo.png?size=88",
+      "creatorHandle": "fadeloo",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -6719,36 +6787,6 @@
       ],
       "creatorAvatarUrl": "https://github.com/tommygeoco.png?size=88",
       "creatorHandle": "tommygeoco",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "fadeloo-tiangong-notebooklm-cli",
-      "name": "fadeloo/tiangong-notebooklm-cli",
-      "description": "NotebookLM CLI wrapper via `node {baseDir}/scripts/notebooklm.mjs`. Use for auth, notebooks, chat, sources, notes, sharing, research, and artifact generation/download.",
-      "publisher": "fadeloo",
-      "publisherSlug": "fadeloo",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "fadeloo",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [
-        "research-synthesis"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/fadeloo.png?size=88",
-      "creatorHandle": "fadeloo",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -6935,50 +6973,6 @@
       ],
       "creatorAvatarUrl": "https://github.com/mvanhorn.png?size=88",
       "creatorHandle": "mvanhorn",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "kalvinrv-reddit-automation",
-      "name": "kalvinrv/reddit-automation",
-      "description": "Find Reddit threads where people are genuinely asking for what you offer, then draft short, genuinely helpful replies — disclosing your affiliation honestly and naming your product only when it truly answers the question. Two moves: discovery — scan the right subreddits for real needs (recommendation asks, expressed pain, competitor mentions) and rank the few threads where you can actually help; drafting — write from real experience, respect each community's self-promo rules, and keep a human in the loop to review and post. This markets on Reddit the honest way: contribute value, disclose who you are, never astroturf. Distilled from the playbook behind doany.ai's Reddit agent. Triggers on \"find reddit opportunities\", \"reddit marketing\", \"reddit automation\", \"reply on reddit for my product\", \"reddit community engagement\", \"reddit lead gen\", or any ask to turn Reddit threads into genuine, disclosed marketing replies.",
-      "publisher": "kalvinrv",
-      "publisherSlug": "kalvinrv",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "kalvinrv",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "marketer",
-        "pm",
-        "support"
-      ],
-      "jobs": [
-        "campaign-planning",
-        "content-production",
-        "data-extraction",
-        "document-authoring",
-        "landing-pages",
-        "planning-roadmapping",
-        "prd-specs",
-        "reporting",
-        "research-synthesis",
-        "ui-ux-design",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/kalvinrv.png?size=88",
-      "creatorHandle": "kalvinrv",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -7858,6 +7852,34 @@
       "forks": null
     },
     {
+      "slug": "agisearch-feishu",
+      "name": "agisearch/feishu",
+      "description": "飞书深度集成技能。不是简单的消息桥接，而是你的数字指挥中枢。专为中国企业高压协作环境设计，理解“分寸”与“效率”两套并行规则，把消息、审批、会议、文档、多维表格、日程与邮箱，压缩成有优先级、可执行的行动链。",
+      "publisher": "agisearch",
+      "publisherSlug": "agisearch",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "agisearch",
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/agisearch.png?size=88",
+      "creatorHandle": "agisearch",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
       "slug": "jimliu-baoyu-cover-image",
       "name": "jimliu/baoyu-cover-image",
       "description": "Generates article cover images with 5 dimensions (type, palette, rendering, text, mood) combining 11 color palettes and 7 rendering styles. Supports cinematic (2.35:1), widescreen (16:9), and square (1:1) aspects. Use when user asks to \"generate cover image\", \"create article cover\", or \"make cover\".",
@@ -7891,34 +7913,6 @@
       ],
       "creatorAvatarUrl": "https://github.com/jimliu.png?size=88",
       "creatorHandle": "jimliu",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "agisearch-feishu",
-      "name": "agisearch/feishu",
-      "description": "飞书深度集成技能。不是简单的消息桥接，而是你的数字指挥中枢。专为中国企业高压协作环境设计，理解“分寸”与“效率”两套并行规则，把消息、审批、会议、文档、多维表格、日程与邮箱，压缩成有优先级、可执行的行动链。",
-      "publisher": "agisearch",
-      "publisherSlug": "agisearch",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "agisearch",
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/agisearch.png?size=88",
-      "creatorHandle": "agisearch",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -8048,34 +8042,6 @@
       "forks": null
     },
     {
-      "slug": "itsflow-thinking-partner",
-      "name": "itsflow/thinking-partner",
-      "description": "Collaborative thinking partner for exploring complex problems through questioning",
-      "publisher": "itsflow",
-      "publisherSlug": "itsflow",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "itsflow",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/itsflow.png?size=88",
-      "creatorHandle": "itsflow",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
       "slug": "jhillin8-portfolio-watcher",
       "name": "jhillin8/portfolio-watcher",
       "description": "Monitor stock/crypto holdings, get price alerts, track portfolio performance",
@@ -8099,6 +8065,34 @@
       ],
       "creatorAvatarUrl": "https://github.com/jhillin8.png?size=88",
       "creatorHandle": "jhillin8",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "itsflow-thinking-partner",
+      "name": "itsflow/thinking-partner",
+      "description": "Collaborative thinking partner for exploring complex problems through questioning",
+      "publisher": "itsflow",
+      "publisherSlug": "itsflow",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "itsflow",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/itsflow.png?size=88",
+      "creatorHandle": "itsflow",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -8332,34 +8326,6 @@
       "forks": null
     },
     {
-      "slug": "huangjingzhi07-file-organizer-zh",
-      "name": "huangjingzhi07/file-organizer-zh",
-      "description": "文件整理器，按类型自动分类（中文版）",
-      "publisher": "huangjingzhi07",
-      "publisherSlug": "huangjingzhi07",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "huangjingzhi07",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/huangjingzhi07.png?size=88",
-      "creatorHandle": "huangjingzhi07",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
       "slug": "mes28io-local-web-search-skill",
       "name": "mes28io/local-web-search-skill",
       "description": "Free local web search via DuckDuckGo HTML scraping with no API key. Use when web_search tool is unavailable or missing API keys, and you need fast query resu...",
@@ -8398,6 +8364,34 @@
       ],
       "creatorAvatarUrl": "https://github.com/mes28io.png?size=88",
       "creatorHandle": "mes28io",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "huangjingzhi07-file-organizer-zh",
+      "name": "huangjingzhi07/file-organizer-zh",
+      "description": "文件整理器，按类型自动分类（中文版）",
+      "publisher": "huangjingzhi07",
+      "publisherSlug": "huangjingzhi07",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "huangjingzhi07",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/huangjingzhi07.png?size=88",
+      "creatorHandle": "huangjingzhi07",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null

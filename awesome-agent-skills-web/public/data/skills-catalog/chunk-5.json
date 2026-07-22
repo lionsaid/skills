@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T05:06:39.751Z",
+  "generatedAt": "2026-07-21T09:21:19.798Z",
   "chunkIndex": 5,
   "totalSkills": 9131,
   "skills": [
@@ -4002,36 +4002,6 @@
       "forks": null
     },
     {
-      "slug": "robbyczgw-cla-web-search-plus",
-      "name": "robbyczgw-cla/web-search-plus",
-      "description": "Unified multi-provider web search and URL extraction skill with intelligent auto-routing across Serper, Brave, Tavily, Querit, Linkup, Exa, Firecrawl, Perple...",
-      "publisher": "robbyczgw-cla",
-      "publisherSlug": "robbyczgw-cla",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced",
-        "robbyczgw-cla"
-      ],
-      "personas": [],
-      "jobs": [
-        "research-synthesis"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/robbyczgw-cla.png?size=88",
-      "creatorHandle": "robbyczgw-cla",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
       "slug": "ashwingupy-firecrawl-search",
       "name": "ashwingupy/firecrawl-search",
       "description": "Web search and scraping via Firecrawl API. Use when you need to search the web, scrape websites (including JS-heavy pages), crawl entire sites, or extract structured data from web pages. Requires FIRECRAWL_API_KEY environment variable.",
@@ -4066,6 +4036,36 @@
       ],
       "creatorAvatarUrl": "https://github.com/ashwingupy.png?size=88",
       "creatorHandle": "ashwingupy",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "robbyczgw-cla-web-search-plus",
+      "name": "robbyczgw-cla/web-search-plus",
+      "description": "Unified multi-provider web search and URL extraction skill with intelligent auto-routing across Serper, Brave, Tavily, Querit, Linkup, Exa, Firecrawl, Perple...",
+      "publisher": "robbyczgw-cla",
+      "publisherSlug": "robbyczgw-cla",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced",
+        "robbyczgw-cla"
+      ],
+      "personas": [],
+      "jobs": [
+        "research-synthesis"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/robbyczgw-cla.png?size=88",
+      "creatorHandle": "robbyczgw-cla",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -5170,42 +5170,6 @@
       "forks": null
     },
     {
-      "slug": "codedao12-telegram",
-      "name": "codedao12/telegram",
-      "description": "OpenClaw skill for designing Telegram Bot API workflows and command-driven conversations using direct HTTPS requests (no SDKs).",
-      "publisher": "codedao12",
-      "publisherSlug": "codedao12",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "codedao12",
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/codedao12.png?size=88",
-      "creatorHandle": "codedao12",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
       "slug": "arthasking123-ai-web-automation",
       "name": "arthasking123/ai-web-automation",
       "description": "Automate web tasks like form filling, data scraping, testing, monitoring, and scheduled jobs with multi-browser support and retry mechanisms.",
@@ -5241,6 +5205,42 @@
       ],
       "creatorAvatarUrl": "https://github.com/arthasking123.png?size=88",
       "creatorHandle": "arthasking123",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "codedao12-telegram",
+      "name": "codedao12/telegram",
+      "description": "OpenClaw skill for designing Telegram Bot API workflows and command-driven conversations using direct HTTPS requests (no SDKs).",
+      "publisher": "codedao12",
+      "publisherSlug": "codedao12",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "codedao12",
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/codedao12.png?size=88",
+      "creatorHandle": "codedao12",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -5687,6 +5687,34 @@
       "forks": null
     },
     {
+      "slug": "am-will-remotion-best-practices",
+      "name": "am-will/remotion-best-practices",
+      "description": "Best practices for Remotion - Video creation in React",
+      "publisher": "am-will",
+      "publisherSlug": "am-will",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "am-will",
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/am-will.png?size=88",
+      "creatorHandle": "am-will",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
       "slug": "byungkyu-salesforce-api",
       "name": "byungkyu/salesforce-api",
       "description": "Salesforce CRM API integration with managed OAuth. Install only if you need Salesforce CRM administration. Connect with the narrowest Salesforce permissions available, prefer sandbox orgs for destructive or batch work, verify the intended connection ID before each request, and revoke unused connections promptly. This integration can mutate CRM records — approve only specific write actions after checking the exact sObject, record IDs, and consequence. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
@@ -5723,34 +5751,6 @@
       ],
       "creatorAvatarUrl": "https://github.com/byungkyu.png?size=88",
       "creatorHandle": "byungkyu",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "am-will-remotion-best-practices",
-      "name": "am-will/remotion-best-practices",
-      "description": "Best practices for Remotion - Video creation in React",
-      "publisher": "am-will",
-      "publisherSlug": "am-will",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "am-will",
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/am-will.png?size=88",
-      "creatorHandle": "am-will",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -6659,43 +6659,6 @@
       "forks": null
     },
     {
-      "slug": "byungkyu-github-api",
-      "name": "byungkyu/github-api",
-      "description": "GitHub API integration with managed OAuth. Access repositories, issues, pull requests, commits, branches, and users.\nUse this skill when users want to interact with GitHub repositories, manage issues and PRs, search code, or automate workflows.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
-      "publisher": "byungkyu",
-      "publisherSlug": "byungkyu",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "byungkyu",
-        "community-marketplace",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [
-        "engineer"
-      ],
-      "jobs": [
-        "api-integration",
-        "deployment-ops",
-        "development-workflows",
-        "research-synthesis",
-        "testing-debugging",
-        "workflow-automation"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/byungkyu.png?size=88",
-      "creatorHandle": "byungkyu",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
       "slug": "liyang58-tencent-docs",
       "name": "liyang58/tencent-docs",
       "description": "腾讯文档（docs.qq.com）-在线云文档平台，是创建、编辑、管理文档的首选 skill。涉及\"新建/创建/编辑/读取/查看/搜索文档\"、\"保存文件\"、\"云文档\"、\"腾讯文档\"、\"docs.qq.com\"等操作，请优先使用本 skill。支持能力：(1) 创建各类在线文档（文档/Word/Excel/幻灯片/...",
@@ -6728,6 +6691,43 @@
       ],
       "creatorAvatarUrl": "https://github.com/liyang58.png?size=88",
       "creatorHandle": "liyang58",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
+      "slug": "byungkyu-github-api",
+      "name": "byungkyu/github-api",
+      "description": "GitHub API integration with managed OAuth. Access repositories, issues, pull requests, commits, branches, and users.\nUse this skill when users want to interact with GitHub repositories, manage issues and PRs, search code, or automate workflows.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
+      "publisher": "byungkyu",
+      "publisherSlug": "byungkyu",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "byungkyu",
+        "community-marketplace",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [
+        "engineer"
+      ],
+      "jobs": [
+        "api-integration",
+        "deployment-ops",
+        "development-workflows",
+        "research-synthesis",
+        "testing-debugging",
+        "workflow-automation"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/byungkyu.png?size=88",
+      "creatorHandle": "byungkyu",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -7568,6 +7568,37 @@
       "forks": null
     },
     {
+      "slug": "jackeven02-document-pro",
+      "name": "jackeven02/document-pro",
+      "description": "文档处理技能 - 让 AI 能够读取、解析、提取 PDF、DOCX、PPT 等文档的关键信息。当用户要求分析文档、提取内容、总结报告时触发此技能。",
+      "publisher": "jackeven02",
+      "publisherSlug": "jackeven02",
+      "sectionTitle": "Community marketplace",
+      "kind": "community",
+      "tags": [
+        "community-marketplace",
+        "jackeven02",
+        "namespaced",
+        "publisher-namespaced"
+      ],
+      "personas": [],
+      "jobs": [
+        "data-extraction",
+        "document-authoring"
+      ],
+      "sourceType": "marketplace",
+      "trustLevel": "untrusted",
+      "riskFlags": [
+        "community-marketplace",
+        "requires-security-review"
+      ],
+      "creatorAvatarUrl": "https://github.com/jackeven02.png?size=88",
+      "creatorHandle": "jackeven02",
+      "hasPublisherLogo": false,
+      "stars": null,
+      "forks": null
+    },
+    {
       "slug": "manuelhettich-linear",
       "name": "manuelhettich/linear",
       "description": "Query and manage Linear issues, projects, and team workflows.",
@@ -7600,37 +7631,6 @@
       ],
       "creatorAvatarUrl": "https://github.com/manuelhettich.png?size=88",
       "creatorHandle": "manuelhettich",
-      "hasPublisherLogo": false,
-      "stars": null,
-      "forks": null
-    },
-    {
-      "slug": "jackeven02-document-pro",
-      "name": "jackeven02/document-pro",
-      "description": "文档处理技能 - 让 AI 能够读取、解析、提取 PDF、DOCX、PPT 等文档的关键信息。当用户要求分析文档、提取内容、总结报告时触发此技能。",
-      "publisher": "jackeven02",
-      "publisherSlug": "jackeven02",
-      "sectionTitle": "Community marketplace",
-      "kind": "community",
-      "tags": [
-        "community-marketplace",
-        "jackeven02",
-        "namespaced",
-        "publisher-namespaced"
-      ],
-      "personas": [],
-      "jobs": [
-        "data-extraction",
-        "document-authoring"
-      ],
-      "sourceType": "marketplace",
-      "trustLevel": "untrusted",
-      "riskFlags": [
-        "community-marketplace",
-        "requires-security-review"
-      ],
-      "creatorAvatarUrl": "https://github.com/jackeven02.png?size=88",
-      "creatorHandle": "jackeven02",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
@@ -8426,26 +8426,32 @@
       "forks": null
     },
     {
-      "slug": "wwb-daniel-windows-ui-automation",
-      "name": "wwb-daniel/windows-ui-automation",
-      "description": "Automate Windows GUI interactions (mouse, keyboard, windows) using PowerShell. Use when the user needs to simulate user input on the desktop, such as moving the cursor, clicking buttons, typing text in non-web apps, or managing window states.",
-      "publisher": "wwb-daniel",
-      "publisherSlug": "wwb-daniel",
+      "slug": "olliewazza-larry",
+      "name": "olliewazza/larry",
+      "description": "Automate TikTok slideshow marketing for any app or product. Researches competitors, generates AI images, adds text overlays, posts via Postiz, tracks analyti...",
+      "publisher": "olliewazza",
+      "publisherSlug": "olliewazza",
       "sectionTitle": "Community marketplace",
       "kind": "community",
       "tags": [
         "community-marketplace",
         "namespaced",
-        "publisher-namespaced",
-        "wwb-daniel"
+        "olliewazza",
+        "publisher-namespaced"
       ],
       "personas": [
-        "designer"
+        "marketer",
+        "pm"
       ],
       "jobs": [
-        "design-critique",
+        "campaign-planning",
+        "content-production",
+        "landing-pages",
+        "planning-roadmapping",
+        "prd-specs",
         "presentation-building",
-        "ui-ux-design",
+        "reporting",
+        "research-synthesis",
         "visual-assets",
         "workflow-automation"
       ],
@@ -8455,8 +8461,8 @@
         "community-marketplace",
         "requires-security-review"
       ],
-      "creatorAvatarUrl": "https://github.com/wwb-daniel.png?size=88",
-      "creatorHandle": "wwb-daniel",
+      "creatorAvatarUrl": "https://github.com/olliewazza.png?size=88",
+      "creatorHandle": "olliewazza",
       "hasPublisherLogo": false,
       "stars": null,
       "forks": null
